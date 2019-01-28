@@ -1,0 +1,7 @@
+db_id:ID,:LABEL,name,base,props:string[]
+4,Node;Schema,"pipe",Conduit,
+5,Node;Schema,"ptty",Conduit,owner_gid;mode;owner_uid
+2,Node;Schema,"file",Store,mode;owner_gid;owner_uid
+1,Node;Schema,"process",Actor,sgid;ruid;suid;pid;euid;cmdline;rgid;egid;login_name
+3,Node;Schema,"socket",Conduit,
+6,Node;Schema,"cadets_context",Context,time;event;host
