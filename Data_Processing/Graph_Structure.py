@@ -1,24 +1,18 @@
-""" A Python Class
-
-Compatible networkx VERSION 2
-"""
 import networkx as nx
-import numpy as np
 import time
-
-
-class NoAttrMatrix(Exception):
-    pass
 
 
 class NoPathException(Exception):
     pass
 
 
-class Graph():
+class Graph(object):
 
-    def __init__(self):
-        self.nx_graph = nx.Graph()
+    def __init__(self, oriented=False):
+        if oriented:
+            self.nx_graph = nx.DiGraph()
+        else:
+            self.nx_graph = nx.Graph()
         self.name = 'A graph as no name'
 
     def __eq__(self, other):
@@ -48,7 +42,7 @@ class Graph():
         (vertex1, vertex2) = tuple(edge)
         self.nx_graph.add_edge(vertex1, vertex2)
 
-    def add_one_attribute(self, node, attr, attr_name='attr_name'):
+    def add_one_attribute(self, node, attr):
         self.nx_graph.add_node(node, attr_name=attr)
 
     def add_attibutes(self, attributes):
@@ -59,7 +53,7 @@ class Graph():
     def get_attr(self, vertex):
         return self.nx_graph.node[vertex]
 
-    def find_leaf(self, beginwith):  # assez nulle comme recherche
+    def find_leaf(self, beginwith):
         nodes = self.nodes()
         returnlist = list()
         for nodename in nodes:
@@ -69,34 +63,14 @@ class Graph():
 
     def smallest_path(self, start_vertex, end_vertex):
         try:
-            pathtime = time.time()
             shtpath = nx.shortest_path(self.nx_graph, start_vertex, end_vertex)
-            endpathtime = time.time()
-            self.log['pathtime'].append(endpathtime - pathtime)
             return shtpath
         except nx.exception.NetworkXNoPath:
             raise NoPathException('No path between two nodes, graph name : ', self.name)
 
-    def reshaper(self, x):
-        try:
-            a = x.shape[1]
-            return x
-        except IndexError:
-            return x.reshape(-1, 1)
 
-    def all_matrix_attr(self, return_invd=False):
-        d = dict((k, v) for k, v in self.nx_graph.node.items())
-        x = []
-        invd = {}
-        try:
-            j = 0
-            for k, v in d.items():
-                x.append(v['attr_name'])
-                invd[k] = j
-                j = j + 1
-            if return_invd:
-                return np.array(x), invd
-            else:
-                return np.array(x)
-        except KeyError:
-            raise NoAttrMatrix
+class DiGraph(object):
+
+    def __init__(self):
+        self.nx_graph = nx.DiGraph()
+        self.name = 'none'

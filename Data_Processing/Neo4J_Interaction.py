@@ -33,7 +33,7 @@ class Neo4JInteraction(object):
         self._driver = driver
 
     def get_nodes(self, node_type):
-        q = "match (n: %s) return n.uuid" % node_type
+        q = "match (n: %s) return n.db_id as db_id" % node_type
         answer = self._driver.execute_query(q)
         return answer
 
@@ -42,35 +42,31 @@ class Neo4JInteraction(object):
                   node_type1: str,
                   node_type2: str):
         q = "match p = (parent: %s)-[r: %s]->(children: %s) " \
-            "return parent.uuid, children.uuid" % (
+            "return parent.db_id, children.db_id" % (
                 node_type1, rel_type, node_type2)
         answer = self._driver.execute_query(q)
         return answer
 
-    def get_node_attributes(self, uuid: str):
-        return 0
-
-    def get_node_degree(self,
-                        ty='process'):
-        q = "match (n) " \
-            "with n, size(()-[:INF]->(n)) as degree " \
-            "where n.ty = '%s' " \
-            "return n.uuid, degree " \
-            "LIMIT 100" % ty
+    def get_process_attributes(self,
+                               uuid: str):
+        q = "match (n {uuid: '%s'}) return " \
+            "n.euid as euid, " \
+            "n.rgid as rgid, " \
+            "n.pid as pid, " \
+            "n.suid as suid, " \
+            "n.egid as egid, " \
+            "n.sgid as sgid, " \
+            "n.db_id as db_id, " \
+            "n.cmd_line as cmd_line, " \
+            "n.login_name as login_name" % uuid
 
         answer = self._driver.execute_query(q)
         return answer
 
-
-neo4Jdriver = Neo4JDriver(
-    url='bolt://localhost:7687',
-    user='neo4j',
-    pswd='opus'
-)
-
-my_object = Neo4JInteraction(neo4Jdriver)
-
-print(my_object.get_edges('INF', 'Store', 'Actor').__sizeof__())
-print(my_object.get_edges('INF', 'Store', 'Store').__sizeof__())
-print(my_object.get_edges('INF', 'Actor', 'Store').__sizeof__())
-print(my_object.get_edges('INF', 'Actor', 'Actor').__sizeof__())
+    def get_process_in_degree(self,
+                              uuid: str):
+        q = "match (n:Actor) " \
+            "with n, size(()-[:INF]->(n)) as degree " \
+            "return n.uuid, degree "
+        answer = self._driver.execute_query(q)
+        return answer

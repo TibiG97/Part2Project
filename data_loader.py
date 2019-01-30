@@ -295,6 +295,7 @@ def build_COX2_dataset(path, type_attr='label'):
         node_dic = node_labels_dic(path, 'COX2_node_labels.txt')
     if type_attr == 'real':
         node_dic = node_attr_dic(path, 'COX2_node_attributes.txt')
+
     adjency = compute_adjency(path, 'COX2_A.txt')
     data_dict = graph_indicator(path, 'COX2_graph_indicator.txt')
     data = []

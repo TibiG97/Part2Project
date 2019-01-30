@@ -119,7 +119,7 @@ class PSCN:
             y_preprocessed = y
         start = time.time()
         if self.gpu:
-            with tf.device('/gpu:1'):
+            with tf.device("/device:GPU:1"):
                 if self.verbose > 0:
                     print('Go for GPU')
                 self.model.fit(X_preprocessed, y_preprocessed)
