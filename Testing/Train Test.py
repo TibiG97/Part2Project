@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 import sys
 
-mutag_dataset = load_local_data('./data', 'cox2', attributes=True)
+mutag_dataset = load_local_data('/home/tiberiu/PycharmProjects/Part2Project/data', 'cox2', attributes=True)
 X, y = zip(*mutag_dataset)
 
 pscn = PSCN(w=18, k=10, attr_dim=3, epochs=100, batch_size=32,

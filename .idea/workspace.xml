@@ -3,14 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="79636b9a-9b31-4128-90da-798c82a527e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Processing/Data_Loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Processing/Data_Loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Processing/Graph_Structure.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Processing/Graph_Structure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Processing/Neo4J_Interaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Processing/Neo4J_Interaction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testing/Train Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/Train Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pscn.py" beforeDir="false" afterPath="$PROJECT_DIR$/pscn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/actor_process.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/conduit_pipe.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/conduit_ptty.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/conduit_socket.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/cont_file.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/ctx_cadets_context.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/dbinfo.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/es_file.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/hydrate.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/import.report" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/inf.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/named.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/net.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/paths.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/schema.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/store_file.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Processing/Neo4J_Interaction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+            <state relative-caret-position="315">
+              <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
               <folding>
                 <element signature="e#69#689#0" />
               </folding>
@@ -32,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Processing/Data_Loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="420">
               <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding>
                 <element signature="e#0#75#0" expanded="true" />
@@ -48,19 +57,17 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret lean-forward="true" />
-              </first_editor>
+              <first_editor />
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Testing/Train Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -69,15 +76,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_loader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#116#165#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Processing/Graph_Structure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-208">
-              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state relative-caret-position="345">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <element signature="e#460#488#0" />
-                <element signature="e#762#797#0" />
-                <element signature="e#1068#1190#0" />
               </folding>
             </state>
           </provider>
@@ -122,11 +138,11 @@
         <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/pscn.py" />
         <option value="$PROJECT_DIR$/data_loader.py" />
-        <option value="$PROJECT_DIR$/Testing/Train Test.py" />
         <option value="$PROJECT_DIR$/Data_Processing/Graph_Structure.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Data_Processing/Neo4J_Interaction.py" />
         <option value="$PROJECT_DIR$/Data_Processing/Data_Loader.py" />
+        <option value="$PROJECT_DIR$/Testing/Train Test.py" />
       </list>
     </option>
   </component>
@@ -150,6 +166,11 @@
             <path>
               <item name="Part2Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Part2Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Part2Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Part2Project" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Part2Project" type="b2602c69:ProjectViewProjectNode" />
@@ -191,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Data_Loader">
+  <component name="RunManager" selected="Python.Train Test">
     <configuration name="Data_Loader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Part2Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -276,14 +297,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Train Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Part2Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testing/Train Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Neo4J_Interaction" />
       <item itemvalue="Python.RFM Test" />
       <item itemvalue="Python.Test" />
       <item itemvalue="Python.Data_Loader" />
+      <item itemvalue="Python.Train Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Train Test" />
         <item itemvalue="Python.Data_Loader" />
         <item itemvalue="Python.Test" />
         <item itemvalue="Python.Neo4J_Interaction" />
@@ -305,15 +349,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="53" y="25" width="1867" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.105374075" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10520607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3726977" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.51943845" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -328,13 +372,7 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/imp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="342" selection-start-line="342" selection-end-line="342" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/imp.py" />
     <entry file="file://$PROJECT_DIR$/train_example.ipynb" />
     <entry file="file://$PROJECT_DIR$/pynauty-0.6.0/Makefile" />
     <entry file="file://$PROJECT_DIR$/receptive_field_maker_example.ipynb" />
@@ -455,53 +493,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="297" lean-forward="true" selection-start-line="297" selection-end-line="297" />
-          <folding>
-            <element signature="e#116#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Testing/Train Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret lean-forward="true" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Processing/Graph_Structure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#460#488#0" />
-            <element signature="e#762#797#0" />
-            <element signature="e#1068#1190#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data_Processing/Neo4J_Interaction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        <state relative-caret-position="315">
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
           <folding>
             <element signature="e#69#689#0" />
           </folding>
@@ -510,10 +505,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Processing/Data_Loader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="420">
           <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding>
             <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Processing/Graph_Structure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#116#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/Train Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
