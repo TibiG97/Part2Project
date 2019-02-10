@@ -2,7 +2,7 @@
 
 from networkx import nx
 from networkx import convert_node_labels_to_integers
-
+from pynauty.graph import canonical_labeling, Graph
 import copy
 from keras.wrappers.scikit_learn import KerasClassifier
 from keras.models import Model, Sequential
@@ -387,7 +387,6 @@ class ReceptiveFieldMaker():
         self.all_times['compute_subgraph_ranking'].append(ed - st)
         return labeled_graph
 
-    '''
     def canonicalizes(self, subgraph):
 
         st = time.time()
@@ -412,7 +411,6 @@ class ReceptiveFieldMaker():
         self.all_times['canonicalizes'].append(ed - st)
 
         return labeled_graph
-    '''
 
     def normalize_graph(self, subgraph, vertex):
 
@@ -437,7 +435,7 @@ class ReceptiveFieldMaker():
         else:
             subgraph_ranked_N = subgraph_U
 
-        return subgraph_ranked_N
+        return self.canonicalizes(subgraph_ranked_N)
 
     def add_dummy_nodes_at_the_end(self, nx_graph):  # why 0 ??
         self.exists_dummies = True

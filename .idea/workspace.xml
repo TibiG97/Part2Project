@@ -3,23 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="79636b9a-9b31-4128-90da-798c82a527e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/Train Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/Train Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/actor_process.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/conduit_pipe.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/conduit_ptty.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/conduit_socket.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/cont_file.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/ctx_cadets_context.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/dbinfo.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/es_file.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/hydrate.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/import.report" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/inf.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/named.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/net.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/paths.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/schema.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/bovia.csv/db/store_file.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pscn.py" beforeDir="false" afterPath="$PROJECT_DIR$/pscn.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Processing/Neo4J_Interaction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#69#689#0" />
               </folding>
@@ -54,10 +38,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pscn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6405">
+              <caret line="437" column="52" selection-start-line="437" selection-start-column="52" selection-end-line="437" selection-end-column="52" />
+              <folding>
+                <element signature="e#14#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="30">
+                <caret line="2" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -66,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Testing/Train Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -78,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="195">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#116#165#0" expanded="true" />
@@ -136,20 +134,21 @@
         <option value="$PROJECT_DIR$/Test.py" />
         <option value="$PROJECT_DIR$/Neo4J_API/Neo4J_Interaction.py" />
         <option value="$PROJECT_DIR$/utils.py" />
-        <option value="$PROJECT_DIR$/pscn.py" />
         <option value="$PROJECT_DIR$/data_loader.py" />
         <option value="$PROJECT_DIR$/Data_Processing/Graph_Structure.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Data_Processing/Neo4J_Interaction.py" />
         <option value="$PROJECT_DIR$/Data_Processing/Data_Loader.py" />
         <option value="$PROJECT_DIR$/Testing/Train Test.py" />
+        <option value="$PROJECT_DIR$/pscn.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="960" />
+    <option name="y" value="-2" />
+    <option name="width" value="960" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -159,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,25 +165,11 @@
               <item name="Part2Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Part2Project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Part2Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Part2Project" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Part2Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Part2Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Data_Processing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Part2Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Part2Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,15 +333,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="25" width="1867" height="1055" extended-state="6" />
+    <frame x="960" y="-2" width="960" height="1082" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10520607" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.51943845" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20041972" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,22 +465,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pscn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="121" column="42" selection-start-line="121" selection-start-column="42" selection-end-line="121" selection-end-column="42" />
-          <folding>
-            <element signature="e#14#37#0" expanded="true" />
-            <element signature="e#10405#12759#0" />
-            <element signature="e#14319#15258#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data_Processing/Neo4J_Interaction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#69#689#0" />
           </folding>
@@ -513,11 +485,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pscn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6405">
+          <caret line="437" column="52" selection-start-line="437" selection-start-column="52" selection-end-line="437" selection-end-column="52" />
+          <folding>
+            <element signature="e#14#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="30">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#116#165#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -531,20 +525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#116#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Testing/Train Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
