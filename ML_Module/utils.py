@@ -1,9 +1,6 @@
 import logging
 import numpy as np
 import argparse
-import matplotlib.colors as mcol
-from matplotlib import cm
-import networkx as nx
 
 
 def indices_to_one_hot(number, nb_classes, label_dummy=-1):
@@ -13,22 +10,6 @@ def indices_to_one_hot(number, nb_classes, label_dummy=-1):
         return np.zeros(nb_classes)
     else:
         return np.eye(nb_classes)[number]
-
-
-def graph_colors(nx_graph, vmin=0, vmax=9):
-    # cm1 = mcol.LinearSegmentedColormap.from_list("MyCmapName",["blue","red"])
-    # cm1 = mcol.Colormap('viridis')
-
-    cnorm = mcol.Normalize(vmin=vmin, vmax=vmax)
-    cpick = cm.ScalarMappable(norm=cnorm, cmap='Set1')
-    cpick.set_array()
-    val_map = {}
-    for k, v in nx.get_node_attributes(nx_graph, 'attr_name').items():
-        val_map[k] = cpick.to_rgba(v)
-    colors = []
-    for node in nx_graph.nodes():
-        colors.append(val_map[node])
-    return colors
 
 
 def allnan(v):  # fonctionne juste pour les dict de tuples

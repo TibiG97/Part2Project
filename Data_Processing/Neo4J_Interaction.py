@@ -63,10 +63,16 @@ class Neo4JInteraction(object):
         answer = self._driver.execute_query(q)
         return answer
 
-    def get_process_in_degree(self,
-                              uuid: str):
+    def get_process_in_degree(self
+                              ):
         q = "match (n:Actor) " \
             "with n, size(()-[:INF]->(n)) as degree " \
             "return n.uuid, degree "
+        answer = self._driver.execute_query(q)
+        return answer
+
+    def gen_number_of_nodes_of_given_type(self,
+                                          node_type: str):
+        q = "match (n: %s) return count(*)" % node_type
         answer = self._driver.execute_query(q)
         return answer

@@ -7,7 +7,7 @@ Load data
 """
 from Data_Processing.Graph_Structure import Graph
 import networkx as nx
-from utils import per_section, indices_to_one_hot
+from ML_Module.utils import per_section, indices_to_one_hot
 from collections import defaultdict
 import numpy as np
 

@@ -1,11 +1,26 @@
 from Data_Processing.Neo4J_Interaction import Neo4JDriver, Neo4JInteraction
 from Data_Processing.Graph_Structure import Graph
+import sys
 
 
 def build_local_graph_from_neo4j(driver: Neo4JDriver):
     local_graph = Graph(oriented=True)
 
     interaction_object = Neo4JInteraction(driver)
+
+    print(interaction_object.gen_number_of_nodes_of_given_type('Actor'))
+    print(interaction_object.gen_number_of_nodes_of_given_type('Store'))
+    print(interaction_object.gen_number_of_nodes_of_given_type('Conduit'))
+    print(interaction_object.gen_number_of_nodes_of_given_type('EditSession'))
+
+    sys.exit()
+
+    degrees = interaction_object.get_process_in_degree()
+    degrees = sorted(degrees, key=lambda k: k['degree'])
+    degrees.reverse()
+    print(degrees[0])
+
+    sys.exit()
 
     processes = interaction_object.get_nodes('Actor')
     files = interaction_object.get_nodes('Store')

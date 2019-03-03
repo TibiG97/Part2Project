@@ -1,8 +1,7 @@
 from data_loader import load_local_data
-from pscn import PSCN
+from ML_Module.CNN import PSCN
 from sklearn.model_selection import train_test_split
 import numpy as np
-import sys
 
 mutag_dataset = load_local_data('/home/tiberiu/PycharmProjects/Part2Project/data', 'cox2', attributes=True)
 X, y = zip(*mutag_dataset)
