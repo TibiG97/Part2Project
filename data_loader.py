@@ -1,13 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 23 14:54:17 2018
-Load data
-@author: vayer
-"""
 from Data_Processing.Graph_Structure import Graph
 import networkx as nx
-from ML_Module.utils import per_section, indices_to_one_hot
+from ML_Module.utils import read_files, per_section, indices_to_one_hot
 from collections import defaultdict
 import numpy as np
 
@@ -58,6 +51,9 @@ def load_local_data(data_path, name, one_hot=False, attributes=False):
             dataset = build_COX2_dataset(path, type_attr='real')
         else:
             dataset = build_COX2_dataset(path)
+    if name == 'mine':
+        path = data_path + '/Data_Processing/'
+        dataset = build_my_dataset(path)
     return dataset
 
 
@@ -295,10 +291,29 @@ def build_COX2_dataset(path, type_attr='label'):
         node_dic = node_labels_dic(path, 'COX2_node_labels.txt')
     if type_attr == 'real':
         node_dic = node_attr_dic(path, 'COX2_node_attributes.txt')
-
     adjency = compute_adjency(path, 'COX2_A.txt')
     data_dict = graph_indicator(path, 'COX2_graph_indicator.txt')
     data = []
+    for i in graphs:
+        g = Graph()
+        for node in data_dict[i[0]]:
+            g.name = i[0]
+            g.add_vertex(node)
+            g.add_one_attribute(node, node_dic[node])
+            for node2 in adjency[node]:
+                g.add_edge((node, node2))
+        data.append((g, i[1]))
+
+    return data
+
+
+def build_my_dataset(path):
+    graphs = graph_label_list(path, 'graph_labels.txt')
+    node_dic = node_attr_dic(path, 'node_attributes.txt')
+    adjency = compute_adjency(path, 'graph_edges.txt')
+    data_dict = graph_indicator(path, 'graph_indicator.txt')
+    data = []
+
     for i in graphs:
         g = Graph()
         for node in data_dict[i[0]]:

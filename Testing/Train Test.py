@@ -1,18 +1,16 @@
 from data_loader import load_local_data
-from ML_Module.CNN import PSCN
+from ML_Module.CNN import CNN
 from sklearn.model_selection import train_test_split
 import numpy as np
+from Evaluation_Module.Nested_Cross_Validation import nested_cross_validation
 
-mutag_dataset = load_local_data('/home/tiberiu/PycharmProjects/Part2Project/data', 'cox2', attributes=True)
+import sys
+
+
+mutag_dataset = load_local_data('/home/tiberiu/PycharmProjects/Part2Project', 'mine')
 X, y = zip(*mutag_dataset)
 
-pscn = PSCN(w=18, k=10, attr_dim=3, epochs=100, batch_size=32,
-            verbose=2, gpu=True)  # see receptive_field_maker_example for more details
+nested_cross_validation(X, y, 10, 10)
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.10, random_state=42)
+sys.exit()
 
-pscn.fit(X_train, y_train)
-
-preds = pscn.predict(X_test)
-
-print(np.sum(preds.ravel() == y_test) / len(y_test))

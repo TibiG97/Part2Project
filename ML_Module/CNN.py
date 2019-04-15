@@ -7,18 +7,40 @@ import time
 import tensorflow as tf
 
 
-class PSCN:
-    def __init__(self, w, s=1, k=10
-                 , labeling_procedure_name='betweeness'
-                 , epochs=150, batch_size=25
-                 , verbose=0
-                 , use_node_deg=False
-                 , use_preprocess_data=False
-                 , gpu=False
-                 , multiclass=None
-                 , one_hot=0
-                 , attr_dim=1
-                 , dummy_value=-1):
+class CNN:
+    def __init__(self,
+                 w,
+                 s=1,
+                 k=10,
+                 labeling_procedure_name='betweeness',
+                 epochs=150, batch_size=25,
+                 verbose=0,
+                 use_node_deg=False,
+                 use_preprocess_data=False,
+                 gpu=False,
+                 multiclass=None,
+                 one_hot=0,
+                 attr_dim=1,
+                 dummy_value=-1,
+                 parameters = []):
+        """
+
+        :param w:
+        :param s:
+        :param k:
+        :param labeling_procedure_name:
+        :param epochs:
+        :param batch_size:
+        :param verbose:
+        :param use_node_deg:
+        :param use_preprocess_data:
+        :param gpu:
+        :param multiclass:
+        :param one_hot:
+        :param attr_dim:
+        :param dummy_value:
+        """
+
         """
         w : width parameter
         s: stride parameter
@@ -94,6 +116,7 @@ class PSCN:
             self.times_process_details['first_labeling_procedure'].append(
                 np.sum(rfMaker.all_times['first_labeling_procedure']))
 
+            # train.append(np.array(forcnn))
             train.append(np.array(forcnn).flatten().reshape(self.k * self.w, self.attr_dim))
 
         X_preprocessed = np.array(train)

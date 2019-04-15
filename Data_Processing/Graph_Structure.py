@@ -29,8 +29,7 @@ class Graph(object):
         return self.nx_graph.edges()
 
     def add_vertex(self, vertex):
-        if vertex not in self.nodes():
-            self.nx_graph.add_node(vertex)
+        self.nx_graph.add_node(vertex)
 
     def values(self):
         return [v for (k, v) in nx.get_node_attributes(self.nx_graph, 'attr_name').items()]
@@ -67,10 +66,3 @@ class Graph(object):
             return shtpath
         except nx.exception.NetworkXNoPath:
             raise NoPathException('No path between two nodes, graph name : ', self.name)
-
-
-class DiGraph(object):
-
-    def __init__(self):
-        self.nx_graph = nx.DiGraph()
-        self.name = 'none'
