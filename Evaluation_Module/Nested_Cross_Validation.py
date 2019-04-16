@@ -1,5 +1,6 @@
 import numpy as np
 import math
+from random import shuffle
 from ML_Module.CNN import CNN
 
 
@@ -42,6 +43,8 @@ def accuracy(tp: int,
              tn: int,
              fp: int,
              fn: int):
+    if tp + tn == 0:
+        return 0
     return (tp + tn) / (tp + tn + fp + fn)
 
 
@@ -49,6 +52,8 @@ def precision(tp: int,
               tn: int,
               fp: int,
               fn: int):
+    if tp == 0:
+        return 0
     return tp / (tp + fp)
 
 
@@ -56,6 +61,8 @@ def recall(tp: int,
            tn: int,
            fp: int,
            fn: int):
+    if tp == 0:
+        return 0
     return tp / (tp + fn)
 
 
@@ -63,6 +70,8 @@ def f1_score(tp: int,
              tn: int,
              fp: int,
              fn: int):
+    if tp == 0:
+        return 0
     return 2 * tp / (2 * tp + fp + fn)
 
 
@@ -70,6 +79,8 @@ def mcc(tp: int,
         tn: int,
         fp: int,
         fn: int):
+    if tp * tn - fp * fn == 0:
+        return 0
     return (tp * tn - fp * fn) / math.sqrt((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn))
 
 
@@ -87,7 +98,7 @@ def compute_metrics(predictions: list,
     :param predictions: class predictions of a ML model
     :param labels: list of correct class labels
     :param no_of_classes: number of classes
-    :return: evaluation metrics for (multiclass) classification
+    :return: micro and macro evaluation metrics for (multiclass) classification
     """
 
     TP = list()  # true positives
@@ -95,6 +106,8 @@ def compute_metrics(predictions: list,
     FP = list()  # false positives
     FN = list()  # false negatives
 
+    print(predictions)
+    print(labels)
     for positive_class in [-1, 1]:
         tp = 0
         tn = 0
@@ -116,6 +129,8 @@ def compute_metrics(predictions: list,
         FP.append(fp)
         FN.append(fn)
 
+    # compute micro metrics
+    #######################
     micro_accuracy = accuracy(sum(TP), sum(TN), sum(FP), sum(FN))
     micro_precision = precision(sum(TP), sum(TN), sum(FP), sum(FN))
     micro_recall = recall(sum(TP), sum(TN), sum(FP), sum(FN))
@@ -123,26 +138,35 @@ def compute_metrics(predictions: list,
     micro_mcc = mcc(sum(TP), sum(TN), sum(FP), sum(FN))
 
     micros = [micro_accuracy, micro_precision, micro_recall, micro_f1_score, micro_mcc]
+    #######################
 
-    '''
-    macro_accuracy = (1 / no_of_classes) * sum(accuracy(tp, tn, fp, fn) for (tp, tn, fp, fn) in (TP, TN, FP, FN))
-    macro_precision = (1 / no_of_classes) * sum(precision(tp, tn, fp, fn) for (tp, tn, fp, fn) in (TP, TN, FP, FN))
-    macro_recall = (1 / no_of_classes) * sum(recall(tp, tn, fp, fn) for (tp, tn, fp, fn) in (TP, TN, FP, FN))
-    macro_f1_score = (1 / no_of_classes) * sum(f1_score(tp, tn, fp, fn) for (tp, tn, fp, fn) in (TP, TN, FP, FN))
-    macro_mcc = (1 / no_of_classes) * sum(mcc(tp, tn, fp, fn) for (tp, tn, fp, fn) in (TP, TN, FP, FN))
+    # compute macro metrics
+    #######################
+    macro_accuracy = (1 / no_of_classes) * sum(accuracy(tp, tn, fp, fn) for (tp, tn, fp, fn) in zip(TP, TN, FP, FN))
+    macro_precision = (1 / no_of_classes) * sum(precision(tp, tn, fp, fn) for (tp, tn, fp, fn) in zip(TP, TN, FP, FN))
+    macro_recall = (1 / no_of_classes) * sum(recall(tp, tn, fp, fn) for (tp, tn, fp, fn) in zip(TP, TN, FP, FN))
+    macro_f1_score = (1 / no_of_classes) * sum(f1_score(tp, tn, fp, fn) for (tp, tn, fp, fn) in zip(TP, TN, FP, FN))
+    macro_mcc = (1 / no_of_classes) * sum(mcc(tp, tn, fp, fn) for (tp, tn, fp, fn) in zip(TP, TN, FP, FN))
 
     macros = [macro_accuracy, macro_precision, macro_recall, macro_f1_score, macro_mcc]
-    '''
+    #######################
 
-    return micros
+    return micros, macros
 
 
 def nested_cross_validation(data_set: list,
                             labels: list,
                             no_of_outer_folds: int,
                             no_of_inner_folds: int):
-    file = open('/home/tiberiu/PycharmProjects/Part2Project/Data_Processing/random_stuff_file.txt', 'a')
+    file = open('/home/tiberiu/PycharmProjects/Part2Project/Data_Processing/results.txt', 'a')
     file.truncate(0)
+
+    # randomize the order in which (X,Y) pairs are presented to the pipeline
+    #############################################
+    merged_data_set = list(zip(data_set, labels))
+    shuffle(merged_data_set)
+    data_set, labels = zip(*merged_data_set)
+    #############################################
 
     splitted_data_set = split_in_folds(data_set, no_of_outer_folds)
     splitted_labels = split_in_folds(labels, no_of_outer_folds)
@@ -167,13 +191,11 @@ def nested_cross_validation(data_set: list,
         for iterator in range(0, 30):
             dummy.append(-1)
 
-        cnn = CNN(w=10, k=2, epochs=2, batch_size=32,
+        cnn = CNN(w=10, k=2, epochs=10, batch_size=32,
                   verbose=2, attr_dim=30, dummy_value=dummy)
 
         cnn.fit(training_set, training_labels)
         predictions = cnn.predict(test_set)
         predictions = merge_splits(predictions)
 
-        print(predictions)
-        print(test_labels)
         print(compute_metrics(predictions, test_labels, 2), file=file)

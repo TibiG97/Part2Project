@@ -22,7 +22,7 @@ class CNN:
                  one_hot=0,
                  attr_dim=1,
                  dummy_value=-1,
-                 parameters = []):
+                 parameters=[]):
         """
 
         :param w:
@@ -134,6 +134,7 @@ class CNN:
         else:
             X_preprocessed = X
             y_preprocessed = y
+
         start = time.time()
         if self.gpu:
             with tf.device("/device:GPU:1"):

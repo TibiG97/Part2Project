@@ -13,7 +13,7 @@ def create_graph(driver: Neo4JDriver):
     conduits = interaction_object.get_nodes('Conduit')
     edit_sessions = interaction_object.get_nodes('EditSession')
 
-    random_stuff_file = open('random_stuff_file.txt', 'a')
+    random_stuff_file = open('results.txt', 'a')
     random_stuff_file.truncate(0)
     commands = list()
     print(len(processes))
