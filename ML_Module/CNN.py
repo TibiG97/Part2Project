@@ -1,10 +1,14 @@
 from keras.wrappers.scikit_learn import KerasClassifier
 from keras.models import Model, Sequential
-from keras.layers import Conv1D, Dense, Dropout, Flatten
+from keras.layers import Conv1D, Dense, Dropout, Flatten, BatchNormalization
 from ML_Module.Patchy_San import ReceptiveFieldMaker
 import numpy as np
 import time
 import tensorflow as tf
+import matplotlib.pyplot as plt
+from sklearn.metrics import roc_curve
+from sklearn.metrics import auc
+from Plots import plot_accuracy_vs_epoch, plot_roc_curve, plot_precision_recall_curve
 
 
 class CNN:
@@ -86,6 +90,7 @@ class CNN:
         model = Sequential()
         model.add(Conv1D(filters=16, kernel_size=self.k, strides=self.k, input_shape=(self.w * self.k, self.attr_dim)))
         model.add(Conv1D(filters=8, kernel_size=10, strides=1))
+        model.add(BatchNormalization())
         model.add(Flatten())
         model.add(Dense(128, activation="relu", name='embedding_layer'))
         model.add(Dropout(0.5))
@@ -142,16 +147,24 @@ class CNN:
                     print('Go for GPU')
                 self.model.fit(X_preprocessed, y_preprocessed)
         else:
-            self.model.fit(X_preprocessed, y_preprocessed)
+            history = self.model.fit(X_preprocessed, y_preprocessed)
+            plot_accuracy_vs_epoch(history)
+            print(history.history.keys())
         end = time.time()
         print('Time fit data in s', end - start)
 
-    def predict(self, X):
+    def predict(self, X, y_test):
         if not self.use_preprocess_data:
             X_preprocessed = self.process_data(X)
         else:
             X_preprocessed = X
-        return self.model.predict(X_preprocessed)
+        y_pred_keras = self.model.predict(X_preprocessed)
+        probs = self.model.predict_proba(X_preprocessed)
+        probs = probs[:, 1]
+        if self.multiclass == 2:
+            plot_precision_recall_curve(probs, y_test)
+            plot_roc_curve(y_pred_keras.ravel(), y_test)
+        return y_pred_keras
 
     def return_embedding(self, X):
         X_preprocessed = self.process_data(X)

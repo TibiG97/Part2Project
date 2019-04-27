@@ -51,8 +51,11 @@ def load_local_data(data_path, name, one_hot=False, attributes=False):
             dataset = build_COX2_dataset(path, type_attr='real')
         else:
             dataset = build_COX2_dataset(path)
-    if name == 'mine':
-        path = data_path + '/Data_Processing/'
+    if name == 'node2':
+        path = data_path + '/DataSets/2_Node_Graphs/'
+        dataset = build_my_dataset(path)
+    if name == 'node10':
+        path = data_path + '/DataSets/10_Node_Graphs/'
         dataset = build_my_dataset(path)
     return dataset
 
