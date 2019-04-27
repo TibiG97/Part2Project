@@ -1,4 +1,36 @@
 from random import shuffle
+from os import pardir, getcwd, makedirs
+from os.path import abspath, join, isdir
+
+
+def get_directory():
+    """
+    :return: Path to directory from which the function is executed
+    """
+    return getcwd()
+
+
+def get_parent_directory():
+    """
+    :return: Path to the parent of the directory from which the function is executed
+    """
+    return abspath(join(getcwd(), pardir))
+
+
+def create_directory(father_dir_path, name):
+    """
+    Methods that creates a new directory at a specified path if directory does not already exist,
+    does nothing otherwise
+
+    :param father_dir_path: path where we want to create a new directory
+    :param name: name of the directory we want to create
+    :return: path to the created directory
+    """
+    dir_path = father_dir_path + '/' + name
+    if not isdir(dir_path):
+        makedirs(dir_path)
+
+    return dir_path
 
 
 def randomise_order(list_x, list_y):

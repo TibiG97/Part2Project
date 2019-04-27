@@ -30,8 +30,8 @@ class CNN:
         """
 
         :param w:
-        :param s:
-        :param k:
+        :param s: length of the stride
+        :param k: receptive field size
         :param labeling_procedure_name:
         :param epochs:
         :param batch_size:

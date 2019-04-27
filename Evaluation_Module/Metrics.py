@@ -6,6 +6,15 @@ def accuracy(tp: int,
              tn: int,
              fp: int,
              fn: int):
+    """
+    Method that computed the accuracy of a ML model
+
+    :param tp: true positives
+    :param tn: true negatives
+    :param fp: false positives
+    :param fn: false negatives
+    :return: accuracy score
+    """
     if tp + tn == 0:
         return 0
     return (tp + tn) / (tp + tn + fp + fn)
@@ -15,6 +24,15 @@ def precision(tp: int,
               tn: int,
               fp: int,
               fn: int):
+    """
+    Method that computed the precision of a ML model
+
+    :param tp: true positives
+    :param tn: true negatives
+    :param fp: false positives
+    :param fn: false negatives
+    :return: precision score
+    """
     if tp == 0:
         return 0
     return tp / (tp + fp)
@@ -24,6 +42,15 @@ def recall(tp: int,
            tn: int,
            fp: int,
            fn: int):
+    """
+    Method that computed the recall of a ML model
+
+    :param tp: true positives
+    :param tn: true negatives
+    :param fp: false positives
+    :param fn: false negatives
+    :return: recall score
+    """
     if tp == 0:
         return 0
     return tp / (tp + fn)
@@ -33,6 +60,15 @@ def f1_score(tp: int,
              tn: int,
              fp: int,
              fn: int):
+    """
+    Method that computed the f1_score of a ML model
+
+    :param tp: true positives
+    :param tn: true negatives
+    :param fp: false positives
+    :param fn: false negatives
+    :return: f1_score score
+    """
     if tp == 0:
         return 0
     return 2 * tp / (2 * tp + fp + fn)
@@ -42,6 +78,15 @@ def mcc(tp: int,
         tn: int,
         fp: int,
         fn: int):
+    """
+    Method that computed the Matthew's Corelation Coefficient of a ML model
+
+    :param tp: true positives
+    :param tn: true negatives
+    :param fp: false positives
+    :param fn: false negatives
+    :return: MCC score
+    """
     if tp * tn - fp * fn == 0:
         return 0
     return (tp * tn - fp * fn) / sqrt((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn))
@@ -72,13 +117,14 @@ def compute_binary_metrics(predictions: list,
         if predictions[index] != positive_class and labels[index] != positive_class:
             tn += 1
 
-    metrics = [accuracy(tp, tn, fp, fn),
-               precision(tp, tn, fp, fn),
-               recall(tp, tn, fp, fn),
-               f1_score(tp, tn, fp, fn),
-               mcc(tp, tn, fp, fn)]
+    metrics = dict()
+    metrics['accuracy'] = accuracy(tp, tn, fp, fn)
+    metrics['precision'] = precision(tp, tn, fp, fn)
+    metrics['recall'] = recall(tp, tn, fp, fn)
+    metrics['f1_score'] = f1_score(tp, tn, fp, fn)
+    metrics['mcc'] = mcc(tp, tn, fp, fn)
 
-    return metrics, confusion_matrix(predictions, labels)
+    return metrics
 
 
 def compute_metrics(predictions: list,
@@ -130,7 +176,12 @@ def compute_metrics(predictions: list,
     micro_f1_score = f1_score(sum(TP), sum(TN), sum(FP), sum(FN))
     micro_mcc = mcc(sum(TP), sum(TN), sum(FP), sum(FN))
 
-    micros = [micro_accuracy, micro_precision, micro_recall, micro_f1_score, micro_mcc]
+    micros = dict()
+    micros['macro_accuracy'] = micro_accuracy
+    micros['macro_precision'] = micro_precision
+    micros['macro_recall'] = micro_recall
+    micros['macro_f1_score'] = micro_f1_score
+    micros['macro_mcc'] = micro_mcc
     #######################
 
     # compute macro metrics
@@ -141,7 +192,12 @@ def compute_metrics(predictions: list,
     macro_f1_score = (1 / no_of_classes) * sum(f1_score(tp, tn, fp, fn) for (tp, tn, fp, fn) in zip(TP, TN, FP, FN))
     macro_mcc = (1 / no_of_classes) * sum(mcc(tp, tn, fp, fn) for (tp, tn, fp, fn) in zip(TP, TN, FP, FN))
 
-    macros = [macro_accuracy, macro_precision, macro_recall, macro_f1_score, macro_mcc]
+    macros = dict()
+    macros['macro_accuracy'] = macro_accuracy
+    macros['macro_precision'] = macro_precision
+    macros['macro_recall'] = macro_recall
+    macros['macro_f1_score'] = macro_f1_score
+    macros['macro_mcc'] = macro_mcc
     #######################
 
     return micros, macros, confusion_matrix(predictions, labels)

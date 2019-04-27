@@ -1,5 +1,7 @@
-import numpy
+import numpy as np
 from random import randint
+from utils import get_parent_directory, create_directory
+from constants import *
 
 
 def create_data():
@@ -237,5 +239,76 @@ def create_basic_4_class_comparison():
             print('0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0', file=node_attributes)
 
 
-create_basic_ssh_vs_sleep()
+def create_dataset_1(name: str,
+                     process_types: list,
+                     no_of_classes: int,
+                     no_of_graphs: list,
+                     login_name_distributions: list,
+                     euid_distributions: list,
+                     binary_file_distributions: list):
+    """
+    Method that creates a basic 2-Node synthetic dataset
+
+    :param name: name of the dataset
+    :param process_types: list containing types of processes for each class
+    :param no_of_classes: number of classes of graphs
+    :param no_of_graphs: number of graphs in each class
+    :param login_name_distributions: prob dist of login names (for processes)
+    :param euid_distributions: probability distribution of euids (for processes)
+    :param binary_file_distributions: probability distribution of provenance binary file (for files)
+    :return: a synthetic dataset that respects the given distributions
+    """
+
+    main_dir_path = create_directory(get_parent_directory() + '/DataSets', name)
+
+    for class_number in range(1, no_of_classes + 1):
+
+        class_dir_path = create_directory(main_dir_path, 'Class_' + str(class_number))
+        property_file = open(main_dir_path + '/property_file', 'a')
+        property_file.truncate(0)
+        print(no_of_classes, file=property_file)
+
+        for dir_size in no_of_graphs:
+            print(dir_size, file=property_file, end=' ')
+
+        for iterator in range(1, no_of_graphs[class_number - 1] + 1):
+            graph_file = open(class_dir_path + '/provenance_graph_' + str(iterator), 'a')
+            graph_file.truncate(0)
+
+            print(2, 1, file=graph_file)
+
+            login_name = [0] * LOGIN_NAME_SIZE
+            position = np.random.choice(LOGIN_NAME_CHOICES, p=login_name_distributions[class_number - 1])
+            login_name[position] = 1
+
+            euid = [0] * EUID_SIZE
+            position = np.random.choice(EUID_CHOICES, p=euid_distributions[class_number - 1])
+            euid[position] = 1
+
+            binary_file = [0] * BINARY_FILE_SIZE
+            position = np.random.choice(BINARY_FILE_CHOICES, p=binary_file_distributions[class_number - 1])
+            binary_file[position] = 1
+
+            node1 = FILE_ENCODING + EMPTY_CMD_LINE + EMPTY_LOGIN_NAME + EMPTY_EUID + binary_file
+            node2 = PROCESS_ENCODING + CMD_LINE[
+                process_types[class_number - 1] - 1] + login_name + euid + EMPTY_BINARY_FILE
+
+            for element in node1:
+                print(float(element), file=graph_file, end=' ')
+            print(file=graph_file)
+            for element in node2:
+                print(float(element), file=graph_file, end=' ')
+            print(file=graph_file)
+            print(1, 2, file=graph_file)
+
+
+create_dataset_1('NEWSET',
+                 [1, 2, 3],
+                 3,
+                 [500, 500, 500],
+                 [[0.0, 0.7, 0.2, 0.1, 0.0, 0.0], [0.7, 0.2, 0.0, 0.0, 0.1, 0.0], [0.0, 0.0, 0.7, 0.1, 0.0, 0.2]],
+                 [[0.7, 0.3, 0.0, 0.0, 0.0], [0.0, 0.0, 0.7, 0.3, 0.0], [0.0, 0.7, 0.0, 0.0, 0.3]],
+                 [[0.7, 0.3, 0.0, 0.0], [0.0, 0.8, 0.2, 0.0], [0.2, 0.0, 0.8, 0.0]])
+
+# create_basic_ssh_vs_sleep()
 # create_basic_4_class_comparison()
