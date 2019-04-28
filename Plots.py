@@ -6,12 +6,12 @@ import numpy as np
 def plot_accuracy_vs_epoch(model):
     print(model.history.keys())
     plt.plot(model.history['acc'])
-    # plt.plot(model.model['val_acc'])
+    # plt.plot(model.history['val_acc'])
     plt.title('model accuracy')
     plt.ylabel('accuracy')
     plt.xlabel('epoch')
     plt.legend(['train', 'test'], loc='best')
-    # plt.show()
+    plt.show()
     return
 
 

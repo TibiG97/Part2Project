@@ -1,6 +1,7 @@
 from random import shuffle
-from os import pardir, getcwd, makedirs
-from os.path import abspath, join, isdir
+from os import pardir, getcwd, makedirs, listdir, unlink, walk, remove
+from os.path import abspath, join, isdir, isfile
+from shutil import rmtree
 
 
 def get_directory():
@@ -19,8 +20,7 @@ def get_parent_directory():
 
 def create_directory(father_dir_path, name):
     """
-    Methods that creates a new directory at a specified path if directory does not already exist,
-    does nothing otherwise
+    Functions that creates a new directory at a specified path
 
     :param father_dir_path: path where we want to create a new directory
     :param name: name of the directory we want to create
@@ -29,13 +29,30 @@ def create_directory(father_dir_path, name):
     dir_path = father_dir_path + '/' + name
     if not isdir(dir_path):
         makedirs(dir_path)
+    else:
+        rmtree(dir_path)
 
     return dir_path
 
 
+def clear_directory(dir_path):
+    """
+    Function that delets the files of a given directory
+
+    :param dir_path: path to the directory we are interested in
+    """
+    for file in listdir(dir_path):
+        file_path = join(dir_path, file)
+        if isfile(file_path):
+            unlink(file_path)
+
+    return
+
+
 def randomise_order(list_x, list_y):
     """
-    Method that randomises X,Y lists according with the same permutation
+    Function that randomises X,Y lists according with the same permutation
+
     :param list_x: first list
     :param list_y: second list
     :return: simmetrically randomised X,Y lists
@@ -49,7 +66,7 @@ def randomise_order(list_x, list_y):
 def split_in_folds(data: list,
                    no_of_splits: int):
     """
-    Method that splits a data list into a specified number of folds
+    Function that splits a data list into a specified number of folds
 
     :param data: dataset to be splitted
     :param no_of_splits: specified number of splits
@@ -69,7 +86,7 @@ def split_in_folds(data: list,
 
 def merge_splits(data: list):
     """
-    Method that merges a list of lists representing the folds
+    Function that merges a list of lists representing the folds
 
     :param data: list of lists to be merged
     :return: a single list containing all elements in all folds
@@ -79,3 +96,20 @@ def merge_splits(data: list):
         for element in split:
             merged_list.append(element)
     return merged_list
+
+
+def convert_labels_to_pos_neg(labels: list):
+    """
+    Function that makes input suitable for ROC_CURVE and PRECISION_RECALL_CURVE functions
+
+    :param labels: A list of labels for 2 classes (1s and 2s)
+    :return: A where 2s are replaced by 0s
+    """
+    new_labels = list()
+    for element in labels:
+        if element == 1:
+            new_labels.append(1)
+        else:
+            new_labels.append(-1)
+
+    return new_labels

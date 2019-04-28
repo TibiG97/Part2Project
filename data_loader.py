@@ -1,6 +1,6 @@
-from Data_Processing.Graph_Structure import Graph
+from Data_Processing.graph_structure import Graph
 import networkx as nx
-from ML_Module.utils import read_files, per_section, indices_to_one_hot
+from ML_Module.utilss import read_files, per_section, indices_to_one_hot
 from collections import defaultdict
 import numpy as np
 

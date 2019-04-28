@@ -1,6 +1,6 @@
 import numpy as np
 from random import randint
-from utils import get_parent_directory, create_directory
+from utils import get_directory, create_directory, clear_directory
 from constants import *
 
 
@@ -259,11 +259,13 @@ def create_dataset_1(name: str,
     :return: a synthetic dataset that respects the given distributions
     """
 
-    main_dir_path = create_directory(get_parent_directory() + '/DataSets', name)
+    main_dir_path = create_directory(get_directory() + '/DataSets', name)
 
     for class_number in range(1, no_of_classes + 1):
 
         class_dir_path = create_directory(main_dir_path, 'Class_' + str(class_number))
+        clear_directory(class_dir_path)
+
         property_file = open(main_dir_path + '/property_file', 'a')
         property_file.truncate(0)
         print(no_of_classes, file=property_file)
@@ -300,15 +302,6 @@ def create_dataset_1(name: str,
                 print(element, file=graph_file, end=' ')
             print(file=graph_file)
             print(1, 2, file=graph_file)
-
-
-create_dataset_1('NEWSET',
-                 [1, 2, 3],
-                 3,
-                 [500, 500, 500],
-                 [[0.0, 0.7, 0.2, 0.1, 0.0, 0.0], [0.7, 0.2, 0.0, 0.0, 0.1, 0.0], [0.0, 0.0, 0.7, 0.1, 0.0, 0.2]],
-                 [[0.7, 0.3, 0.0, 0.0, 0.0], [0.0, 0.0, 0.7, 0.3, 0.0], [0.0, 0.7, 0.0, 0.0, 0.3]],
-                 [[0.7, 0.3, 0.0, 0.0], [0.0, 0.8, 0.2, 0.0], [0.2, 0.0, 0.8, 0.0]])
 
 # create_basic_ssh_vs_sleep()
 # create_basic_4_class_comparison()

@@ -1,5 +1,5 @@
-from Data_Processing.Neo4J_Interaction import Neo4JDriver, Neo4JInteraction
-from Data_Processing.Graph_Structure import Graph
+from Data_Processing.neo4j_driver import Neo4JDriver, Neo4JInteraction
+from Data_Processing.graph_structure import Graph
 import sys
 import networkx as nx
 import random
