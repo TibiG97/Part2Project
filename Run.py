@@ -19,7 +19,7 @@ print(X[0].edges())
 print(xa[0].nodes())
 print(xa[0].edges())
 print(xa[0].values())
-sys.exit()
+
 nested_cross_validation(X, y, 10, 1)
 
 sys.exit()

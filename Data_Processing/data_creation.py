@@ -294,10 +294,10 @@ def create_dataset_1(name: str,
                 process_types[class_number - 1] - 1] + login_name + euid + EMPTY_BINARY_FILE
 
             for element in node1:
-                print(float(element), file=graph_file, end=' ')
+                print(element, file=graph_file, end=' ')
             print(file=graph_file)
             for element in node2:
-                print(float(element), file=graph_file, end=' ')
+                print(element, file=graph_file, end=' ')
             print(file=graph_file)
             print(1, 2, file=graph_file)
 

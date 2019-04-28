@@ -43,10 +43,10 @@ def nested_cross_validation(data_set: list,
             dummy.append(-1)
 
         cnn = CNN(w=10, k=2, epochs=10, batch_size=32,
-                  verbose=2, attr_dim=30, dummy_value=dummy, multiclass=2)
+                  verbose=2, attr_dim=30, dummy_value=dummy, multiclass=3)
 
         cnn.fit(training_set, training_labels)
         predictions = cnn.predict(test_set, test_labels)
         all_predictions.append(predictions)
-        metrics = compute_metrics(predictions, test_labels, 2)
+        metrics = compute_metrics(predictions, test_labels, 3)
         print(metrics, file=file)

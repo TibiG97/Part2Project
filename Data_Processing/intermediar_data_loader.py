@@ -75,7 +75,13 @@ def load_graphs(directory_path: str,
         attributes = list()
         edges = list()
         for i in range(1, no_of_nodes + 1):
+
+            # Turn attributes from int to float
+            for iterator in range(0, len(content[i])):
+                content[i][iterator] = float(content[i][iterator])
+
             attributes.append(content[i])
+
         for i in range(no_of_nodes + 1, no_of_nodes + no_of_edges + 1):
             edges.append((content[i][0], content[i][1]))
         #####################################################
