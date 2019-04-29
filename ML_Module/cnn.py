@@ -67,6 +67,7 @@ class ConvolutionalNeuralNetwork(Classifier):
         attr_dim : if nodes attributes are multidimensionnal it is the dimension of the attributes
         dummy_value  which value should be used for dummy nodes (see paper)
         """
+        self.name = 'CNN'
         self.w = w
         self.s = s
         self.k = k
