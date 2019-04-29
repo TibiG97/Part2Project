@@ -3,6 +3,10 @@ from Data_Processing.graph_structure import Graph
 
 
 class SyntheticDataLoader:
+    """
+    Class that implements functionality for loading synthetic data
+
+    """
 
     def __init__(self,
                  name: str,
@@ -13,16 +17,18 @@ class SyntheticDataLoader:
         :param name: name of the directory where data set is stored
         :param target_model: decides the format in which to return the data set
         """
+
         self.name = name
         self.target_model = target_model
 
-    def load_local_data_set(self):
+    def load_synthetic_data_set(self):
         """
         Method that loads the local data set stored in the directory called 'name'
 
         :return: if for patchy_san return all graphs and labels in the data set
                 else return all attributes and labels in the data set
         """
+
         name = self.name
         target_model = self.target_model
 
@@ -54,6 +60,7 @@ class SyntheticDataLoader:
 
         :return: number of classes and a list of number of graphs per class (in the given dataset)
         """
+
         graphs_per_class = list()
 
         property_file = open(path, 'r')
@@ -69,12 +76,13 @@ class SyntheticDataLoader:
     def __load_graphs(directory_path: str,
                       number_of_graphs: int):
         """
-        Private method loads all provenance graphs from given directory
+        Private method that loads all provenance graphs from given directory
 
         :param directory_path: path to directory where graphs are stored
         :param number_of_graphs: number of graphs in the directory
         :return: all graphs from the directory in Graph object format
         """
+
         class_graphs = list()
         for index in range(1, number_of_graphs + 1):
             graph_file = open(directory_path + '/provenance_graph_' + str(index), 'r')

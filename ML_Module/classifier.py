@@ -2,9 +2,13 @@ from abc import abstractmethod
 
 
 class Classifier(object):
+    """
+    Abstract class specifying the mandatory core functionality of all the classifiers implemented
+
+    """
 
     @abstractmethod
-    def create_model(self):
+    def __create_model(self):
         pass
 
     @abstractmethod

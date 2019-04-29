@@ -16,6 +16,11 @@ import time
 
 
 class ConvolutionalNeuralNetwork(Classifier):
+    """
+    Class representing Convolutional Neural Networks
+
+    """
+
     def __init__(self,
                  w,
                  s=1,
@@ -76,7 +81,7 @@ class ConvolutionalNeuralNetwork(Classifier):
         self.one_hot = one_hot
         self.attr_dim = attr_dim
         self.dummy_value = dummy_value
-        self.model = KerasClassifier(build_fn=self.create_model
+        self.model = KerasClassifier(build_fn=self.__create_model
                                      , epochs=self.epochs,
                                      batch_size=self.batch_size, verbose=self.verbose)
         self.times_process_details = {}
@@ -90,7 +95,13 @@ class ConvolutionalNeuralNetwork(Classifier):
         if self.one_hot > 0:
             self.attr_dim = self.one_hot
 
-    def create_model(self):
+    def __create_model(self):
+        """
+        Private method that builds the NN architecture of the model
+
+        :return: the built NN model
+        """
+
         model = Sequential()
         model.add(Conv1D(filters=16, kernel_size=self.k, strides=self.k, input_shape=(self.w * self.k, self.attr_dim)))
         model.add(Conv1D(filters=8, kernel_size=10, strides=1))
@@ -106,7 +117,15 @@ class ConvolutionalNeuralNetwork(Classifier):
             model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"])
         return model
 
-    def process_data(self, X, y=None):  # X is a list of Graph objects
+    def __process_data(self, X, y=None):  # X is a list of Graph objects
+        """
+        Private method that builds the receptive fields from raw data
+
+        :param X: list of graph objects
+        :param y: list of class labels for each graph
+        :return: input data for the CNN
+        """
+
         start = time.time()
         n = len(X)
         train = []
@@ -138,8 +157,13 @@ class ConvolutionalNeuralNetwork(Classifier):
             return X_preprocessed
 
     def train(self, X, y=None):
+        """
+        :param X: list of graph objects
+        :param y: list of class labels for each graph
+        """
+
         if not self.use_preprocess_data:
-            X_preprocessed, y_preprocessed = self.process_data(X, y)
+            X_preprocessed, y_preprocessed = self.__process_data(X, y)
         else:
             X_preprocessed = X
             y_preprocessed = y
@@ -153,8 +177,13 @@ class ConvolutionalNeuralNetwork(Classifier):
         print('Time fit data in s', end - start)
 
     def predict_class(self, X):
+        """
+        :param X: list of graphs for which to make predictions
+        :return: list of predicted classes
+        """
+
         if not self.use_preprocess_data:
-            X_preprocessed = self.process_data(X)
+            X_preprocessed = self.__process_data(X)
         else:
             X_preprocessed = X
         y_pred_keras = self.model.predict(X_preprocessed)
@@ -163,14 +192,27 @@ class ConvolutionalNeuralNetwork(Classifier):
 
     def predict_probs(self,
                       test_set):
+        """
+        :param test_set: list of graphs for which to make predictions
+        :return: CNN's probability predictions for each class
+        """
+
         return self.model.predict_proba(test_set)
 
     def save_model(self,
                    model_path: str):
+        """
+        :param model_path: path where to save the model
+        """
+
         self.model.model.save(model_path)
 
     def load_model(self,
                    model_path: str):
+        """
+        :param model_path: path from where to load the model
+        """
+
         self.model = KerasClassifier(
             build_fn=load_model(model_path).compile(loss="categorical_crossentropy", optimizer="adam",
                                                     metrics=["accuracy"]))

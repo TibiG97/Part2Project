@@ -1,7 +1,19 @@
 from random import shuffle
-from os import pardir, getcwd, makedirs, listdir, unlink, walk, remove
-from os.path import abspath, join, isdir, isfile
+
+from os import pardir
+from os import getcwd
+from os import makedirs
+from os import listdir
+from os import unlink
+
+from os.path import abspath
+from os.path import join
+from os.path import isdir
+from os.path import isfile
+
 from shutil import rmtree
+
+import numpy as np
 
 
 def get_directory():
@@ -113,3 +125,19 @@ def convert_labels_to_pos_neg(labels: list):
             new_labels.append(-1)
 
     return new_labels
+
+
+def convert_to_one_hot_encoding(position, no_of_classes, label_dummy=-1):
+    """
+    Function that created a list of one-hot encoded labels from an iterable object
+    
+    :param position: position in one-hot array where 1 should be placed (-1 if array is full of 0s)
+    :param no_of_classes: number of classes == size of the array
+    :param label_dummy: dummy value used in the receptive field
+    :return: a one-hot encoding list
+    """
+
+    if position == label_dummy:
+        return np.zeros(no_of_classes)
+    else:
+        return np.eye(no_of_classes)[position]

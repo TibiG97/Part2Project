@@ -4,10 +4,10 @@ from pynauty.graph import canonical_labeling, Graph
 import copy
 import numpy as np
 import time
-from ML_Module import utilss
+from utils import convert_to_one_hot_encoding
 
 
-class ReceptiveFieldMaker():
+class ReceptiveFieldMaker(object):
     def __init__(self, nx_graph, w, s=1, k=10, labeling_procedure_name='betweeness', use_node_deg=False, one_hot=False,
                  dummy_value=-1):
         self.nx_graph = nx_graph
@@ -61,7 +61,7 @@ class ReceptiveFieldMaker():
                                         nx.get_node_attributes(graph, 'labeling'))  # rename the nodes wrt the labeling
             self.all_subgraph.append(frelabel)
             if self.one_hot > 0:
-                forcnn.append([utilss.indices_to_one_hot(x[1], self.one_hot) for x in
+                forcnn.append([convert_to_one_hot_encoding(x[1], self.one_hot) for x in
                                sorted(nx.get_node_attributes(frelabel, 'attr_name').items(), key=lambda x: x[0])])
             else:
                 forcnn.append(

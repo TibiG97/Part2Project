@@ -1,4 +1,4 @@
-from Data_Processing.neo4j_driver import Neo4JDriver, Neo4JInteraction
+from Data_Processing.neo4j_driver import Neo4JDriver, Neo4JConnection
 from Data_Processing.graph_structure import Graph
 import sys
 import networkx as nx
@@ -7,7 +7,7 @@ import random
 
 def create_graph(driver: Neo4JDriver):
     local_graph = nx.DiGraph()
-    interaction_object = Neo4JInteraction(driver)
+    interaction_object = Neo4JConnection(driver)
     files = interaction_object.get_nodes('Store')
     processes = interaction_object.get_nodes('Actor')
     conduits = interaction_object.get_nodes('Conduit')
@@ -102,7 +102,7 @@ def build_local_graph_from_neo4j(driver: Neo4JDriver,
                                  node_type2=None):
     local_graph = nx.Graph()
 
-    interaction_object = Neo4JInteraction(driver)
+    interaction_object = Neo4JConnection(driver)
 
     files = interaction_object.get_nodes('Store')
     print(len(files))

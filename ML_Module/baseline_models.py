@@ -6,6 +6,10 @@ from ML_Module.sklearn_classifier import SKLearnModel
 
 
 class RandomForest(SKLearnModel):
+    """
+    Class representing RandomForest classifiers
+
+    """
 
     def __init__(self,
                  depth: int,
@@ -18,6 +22,7 @@ class RandomForest(SKLearnModel):
         :param estimators:
         :param features:
         """
+
         self.depth = depth
         self.estimators = estimators
         self.features = features
@@ -26,6 +31,10 @@ class RandomForest(SKLearnModel):
 
 
 class KNeighbours(SKLearnModel):
+    """
+    Class representing KNeighbours classifiers
+
+    """
 
     def __init__(self,
                  neighbours: int):
@@ -34,16 +43,23 @@ class KNeighbours(SKLearnModel):
 
         :param neighbours:
         """
+
         self.neighbours = neighbours
         super(KNeighbours, self).__init__(
             KNeighborsClassifier(n_neighbors=neighbours))
 
 
 class LogRegression(SKLearnModel):
+    """
+    Class representing LogisticRegression classifiers
+
+    """
 
     def __init__(self):
         """
         Object Constructor
 
         """
-        super(LogRegression, self).__init__(LogisticRegression(solver='lbfgs', multi_class='multinomial', max_iter=1000))
+
+        super(LogRegression, self).__init__(
+            LogisticRegression(solver='lbfgs', multi_class='multinomial', max_iter=1000))

@@ -17,6 +17,7 @@ def permutation_test(model1_sample: list,
     :return: True, if the two samples come from different distributions
              False, otherwise
     """
+
     sample_size = len(model1_sample)
     reference_value = np.mean(model1_sample) - np.mean(model2_sample)
     s = 0

@@ -4,15 +4,20 @@ from pickle import dump
 
 
 class SKLearnModel(Classifier):
+    """
+    Class representing SKLearnModels
+
+    """
 
     def __init__(self, classifier):
         self.classifier = classifier
 
-    def create_model(self):
+    def __create_model(self):
         """
         Method used only at CNN
 
         """
+
         pass
 
     def train(self,
@@ -22,6 +27,7 @@ class SKLearnModel(Classifier):
         :param training_set: graphs' feature vectors
         :param labels: graphs' labels
         """
+
         self.classifier.fit(training_set, labels)
 
     def predict_class(self,
@@ -30,6 +36,7 @@ class SKLearnModel(Classifier):
         :param test_set: feature vectors for which to predict the labels
         :return: predicted labels
         """
+
         return self.classifier.predict(test_set)
 
     def predict_probs(self,
@@ -38,6 +45,7 @@ class SKLearnModel(Classifier):
         :param test_set: feature vectors for which to predict the labels
         :return: predicted probabilities
         """
+
         return self.classifier.predict_proba(test_set)
 
     def save_model(self,
@@ -45,6 +53,7 @@ class SKLearnModel(Classifier):
         """
         :param model_path: path where to save the sklearn trained model
         """
+
         dump(self.classifier, open(model_path, 'wb'))
 
     def load_model(self,
@@ -52,4 +61,5 @@ class SKLearnModel(Classifier):
         """
         :param model_path: path from where to load the sklearn trained model
         """
+
         self.classifier = load(model_path, 'rb')
