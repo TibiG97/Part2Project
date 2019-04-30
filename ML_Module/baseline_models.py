@@ -88,7 +88,10 @@ class LogRegression(SKLearnModel):
         super(LogRegression, self).__init__(
             LogisticRegression(
                 C=c,
-                penalty=penalty
+                penalty=penalty,
+                solver='liblinear',
+                multi_class='auto',
+                max_iter=250
             ),
             name='LRG'
         )

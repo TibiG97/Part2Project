@@ -61,7 +61,8 @@ def clear_directory(dir_path):
     return
 
 
-def randomise_order(list_x, list_y):
+def randomise_order(list_x: np.array,
+                    list_y: np.array):
     """
     Function that randomises X,Y lists according with the same permutation
 
@@ -72,10 +73,10 @@ def randomise_order(list_x, list_y):
     merged_data_set = list(zip(list_x, list_y))
     shuffle(merged_data_set)
     list_x, list_y = zip(*merged_data_set)
-    return list_x, list_y
+    return np.array(list_x), np.array(list_y)
 
 
-def split_in_folds(data: list,
+def split_in_folds(data: np.array,
                    no_of_splits: int):
     """
     Function that splits a data list into a specified number of folds
@@ -93,10 +94,10 @@ def split_in_folds(data: list,
         for indelist_x in range(left, right):
             current_split.append(data[indelist_x])
         splits.append(current_split)
-    return splits
+    return np.array(splits)
 
 
-def merge_splits(data: list):
+def merge_splits(data: np.array):
     """
     Function that merges a list of lists representing the folds
 
@@ -107,10 +108,10 @@ def merge_splits(data: list):
     for split in data:
         for element in split:
             merged_list.append(element)
-    return merged_list
+    return np.array(merged_list)
 
 
-def convert_labels_to_pos_neg(labels: list):
+def convert_labels_to_pos_neg(labels: np.array):
     """
     Function that makes input suitable for ROC_CURVE and PRECISION_RECALL_CURVE functions
 
@@ -124,10 +125,12 @@ def convert_labels_to_pos_neg(labels: list):
         else:
             new_labels.append(-1)
 
-    return new_labels
+    return np.array(new_labels)
 
 
-def convert_to_one_hot_encoding(position, no_of_classes, label_dummy=-1):
+def convert_to_one_hot_encoding(position,
+                                no_of_classes,
+                                label_dummy=-1):
     """
     Function that created a list of one-hot encoded labels from an iterable object
     

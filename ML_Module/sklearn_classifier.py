@@ -15,6 +15,7 @@ class SKLearnModel(Classifier):
         self.name = name
         super(SKLearnModel, self).__init__(
             classifier=classifier,
+            process_data=None,
             name=name
         )
 
@@ -44,9 +45,11 @@ class SKLearnModel(Classifier):
         dump(self.classifier, open(model_path, 'wb'))
 
     def load_model(self,
-                   model_path):
+                   model_path: str,
+                   model_type: str):
         """
         :param model_path: path from where to load the sklearn trained model
+        :param model_type: not used here
         """
 
         self.classifier = load(model_path, 'rb')

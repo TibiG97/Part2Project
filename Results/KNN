@@ -1,0 +1,150 @@
+ITERATION 0
+{'neighbours': 1, 'p_dist': 3}
+{'micro_accuracy': 0.99, 'micro_precision': 0.99, 'micro_recall': 0.99, 'micro_f1_score': 0.99, 'micro_mcc': 0.99}
+{'macro_accuracy': 0.99, 'macro_precision': 0.99, 'macro_recall': 0.98, 'macro_f1_score': 0.99, 'macro_mcc': 0.99}
+[[20  0  0  0  0  0  0  0  0]
+ [ 0 19  0  0  0  0  0  0  0]
+ [ 0  0 13  0  0  0  0  0  1]
+ [ 0  0  0 21  0  0  0  0  0]
+ [ 0  0  0  1 29  0  0  0  0]
+ [ 0  0  0  0  0 25  0  0  0]
+ [ 0  0  0  0  0  0 19  0  0]
+ [ 0  0  0  0  0  0  0 22  0]
+ [ 0  0  0  0  0  0  0  0 10]]
+
+
+ITERATION 1
+{'neighbours': 1, 'p_dist': 2}
+{'micro_accuracy': 0.99, 'micro_precision': 0.99, 'micro_recall': 0.99, 'micro_f1_score': 0.99, 'micro_mcc': 0.99}
+{'macro_accuracy': 0.99, 'macro_precision': 0.99, 'macro_recall': 0.99, 'macro_f1_score': 0.99, 'macro_mcc': 0.99}
+[[23  0  0  0  0  0  0  0  0]
+ [ 0 21  0  0  0  0  0  0  0]
+ [ 0  0 20  0  0  0  0  0  0]
+ [ 0  0  0 21  0  0  0  0  0]
+ [ 0  0  0  0 18  0  0  0  0]
+ [ 0  0  0  0  0 13  0  0  0]
+ [ 0  0  0  0  0  0 18  0  0]
+ [ 0  0  0  0  0  0  0 27  0]
+ [ 0  0  0  1  0  0  0  0 18]]
+
+
+ITERATION 2
+{'neighbours': 1, 'p_dist': 2}
+{'micro_accuracy': 0.99, 'micro_precision': 0.99, 'micro_recall': 0.99, 'micro_f1_score': 0.99, 'micro_mcc': 0.99}
+{'macro_accuracy': 0.99, 'macro_precision': 0.99, 'macro_recall': 0.99, 'macro_f1_score': 0.99, 'macro_mcc': 0.99}
+[[26  0  0  0  0  0  0  0  0]
+ [ 0 19  0  1  0  0  0  0  0]
+ [ 0  0 22  0  0  0  0  0  0]
+ [ 0  0  0 26  0  0  0  0  1]
+ [ 0  0  0  0 16  0  0  0  0]
+ [ 0  0  0  0  0 13  0  0  0]
+ [ 0  0  0  0  0  0 18  0  0]
+ [ 0  0  0  0  0  0  0 22  0]
+ [ 0  0  0  0  0  0  0  0 16]]
+
+
+ITERATION 3
+{'neighbours': 2, 'p_dist': 2}
+{'micro_accuracy': 0.99, 'micro_precision': 0.99, 'micro_recall': 0.99, 'micro_f1_score': 0.99, 'micro_mcc': 0.99}
+{'macro_accuracy': 0.99, 'macro_precision': 0.99, 'macro_recall': 0.99, 'macro_f1_score': 0.99, 'macro_mcc': 0.99}
+[[21  0  0  0  0  0  0  0  0]
+ [ 0 26  0  0  0  0  0  0  0]
+ [ 0  0 22  1  0  0  0  0  0]
+ [ 0  0  0 19  0  0  0  0  0]
+ [ 0  0  0  1 19  0  0  0  0]
+ [ 0  0  0  0  0 15  0  0  0]
+ [ 0  0  0  0  0  0 17  0  0]
+ [ 0  0  0  0  0  0  0 14  0]
+ [ 0  0  0  0  0  0  0  0 25]]
+
+
+ITERATION 4
+{'neighbours': 5, 'p_dist': 2}
+{'micro_accuracy': 0.98, 'micro_precision': 0.98, 'micro_recall': 0.98, 'micro_f1_score': 0.98, 'micro_mcc': 0.97}
+{'macro_accuracy': 0.98, 'macro_precision': 0.98, 'macro_recall': 0.98, 'macro_f1_score': 0.98, 'macro_mcc': 0.98}
+[[19  0  0  2  0  0  0  0  0]
+ [ 0 20  0  0  0  0  0  0  0]
+ [ 0  0 19  0  0  0  0  0  0]
+ [ 0  0  0 17  0  0  0  0  0]
+ [ 0  0  0  1 23  0  0  0  0]
+ [ 0  0  0  0  0 26  0  0  0]
+ [ 0  0  0  1  0  0 15  0  0]
+ [ 0  0  0  0  0  0  0 19  0]
+ [ 0  0  0  0  0  0  0  0 18]]
+
+
+ITERATION 5
+{'neighbours': 5, 'p_dist': 3}
+{'micro_accuracy': 0.98, 'micro_precision': 0.98, 'micro_recall': 0.98, 'micro_f1_score': 0.98, 'micro_mcc': 0.97}
+{'macro_accuracy': 0.98, 'macro_precision': 0.98, 'macro_recall': 0.98, 'macro_f1_score': 0.98, 'macro_mcc': 0.98}
+[[20  0  0  0  0  0  0  0  0]
+ [ 0 17  0  0  0  0  0  0  1]
+ [ 0  0 24  0  0  0  0  0  0]
+ [ 0  0  0 18  0  0  2  0  0]
+ [ 0  0  0  0 17  0  0  0  1]
+ [ 0  0  0  0  0 19  0  0  0]
+ [ 0  0  0  0  0  0 24  0  0]
+ [ 0  0  0  0  0  0  0 18  0]
+ [ 0  0  0  0  0  0  0  0 19]]
+
+
+ITERATION 6
+{'neighbours': 7, 'p_dist': 4}
+{'micro_accuracy': 0.98, 'micro_precision': 0.98, 'micro_recall': 0.98, 'micro_f1_score': 0.98, 'micro_mcc': 0.98}
+{'macro_accuracy': 0.98, 'macro_precision': 0.98, 'macro_recall': 0.98, 'macro_f1_score': 0.98, 'macro_mcc': 0.98}
+[[26  0  0  0  0  0  0  0  0]
+ [ 0 17  0  0  0  0  0  0  0]
+ [ 0  0 27  0  0  0  0  0  0]
+ [ 0  0  0 19  0  0  0  0  0]
+ [ 0  0  0  0  8  0  0  0  0]
+ [ 0  0  0  1  0 23  0  0  0]
+ [ 0  0  0  0  0  0 28  0  0]
+ [ 0  0  0  1  0  0  0 15  1]
+ [ 0  0  0  0  0  0  0  0 14]]
+
+
+ITERATION 7
+{'neighbours': 3, 'p_dist': 1}
+{'micro_accuracy': 0.99, 'micro_precision': 0.99, 'micro_recall': 0.99, 'micro_f1_score': 0.99, 'micro_mcc': 0.99}
+{'macro_accuracy': 0.99, 'macro_precision': 0.99, 'macro_recall': 0.99, 'macro_f1_score': 0.99, 'macro_mcc': 0.99}
+[[12  0  0  0  0  0  0  0  0]
+ [ 0 24  0  0  0  0  0  0  0]
+ [ 0  0 18  0  0  0  0  0  0]
+ [ 0  0  0 14  0  0  0  0  0]
+ [ 0  0  0  0 24  0  0  0  1]
+ [ 0  0  0  0  0 19  0  0  0]
+ [ 0  0  0  0  0  0 18  0  0]
+ [ 0  0  0  0  0  0  0 18  1]
+ [ 0  0  0  0  0  0  0  0 31]]
+
+
+ITERATION 8
+{'neighbours': 1, 'p_dist': 3}
+{'micro_accuracy': 0.99, 'micro_precision': 0.99, 'micro_recall': 0.99, 'micro_f1_score': 0.99, 'micro_mcc': 0.99}
+{'macro_accuracy': 0.99, 'macro_precision': 0.99, 'macro_recall': 0.99, 'macro_f1_score': 0.99, 'macro_mcc': 0.99}
+[[19  0  0  0  0  0  0  0  0]
+ [ 0 20  0  0  0  0  0  0  0]
+ [ 0  0 22  0  0  0  0  0  0]
+ [ 0  0  0 16  0  0  0  0  0]
+ [ 0  0  0  0 22  0  0  0  1]
+ [ 0  0  0  0  0 24  0  0  0]
+ [ 0  0  0  0  0  0 15  0  0]
+ [ 0  0  0  0  0  0  0 20  0]
+ [ 0  0  0  1  0  0  0  0 20]]
+
+
+ITERATION 9
+{'neighbours': 3, 'p_dist': 1}
+{'micro_accuracy': 0.99, 'micro_precision': 0.99, 'micro_recall': 0.99, 'micro_f1_score': 0.99, 'micro_mcc': 0.99}
+{'macro_accuracy': 0.99, 'macro_precision': 1.0, 'macro_recall': 0.99, 'macro_f1_score': 0.99, 'macro_mcc': 0.99}
+[[14  0  0  0  0  0  0  0  0]
+ [ 0 17  0  0  0  0  0  0  0]
+ [ 0  0 13  0  0  0  0  0  0]
+ [ 0  0  0 17  0  0  0  0  0]
+ [ 0  0  0  0 24  0  0  0  0]
+ [ 0  0  0  0  0 23  0  0  1]
+ [ 0  0  0  0  0  0 26  0  0]
+ [ 0  0  0  0  0  0  0 25  0]
+ [ 0  0  0  0  0  0  0  0 20]]
+
+
