@@ -1,6 +1,7 @@
 from ML_Module.classifier import Classifier
 from pickle import load
 from pickle import dump
+import numpy as np
 
 
 class SKLearnModel(Classifier):
@@ -9,44 +10,30 @@ class SKLearnModel(Classifier):
 
     """
 
-    def __init__(self, classifier):
+    def __init__(self, classifier, name):
         self.classifier = classifier
+        self.name = name
+        super(SKLearnModel, self).__init__(
+            classifier=classifier,
+            name=name
+        )
 
-    def __create_model(self):
+    def __process_data(self,
+                       dataset: np.array):
         """
-        Method used only at CNN
+        Method used only at NeuralNet
 
         """
 
         pass
 
-    def train(self,
-              training_set,
-              labels):
+    def __create_model(self):
         """
-        :param training_set: graphs' feature vectors
-        :param labels: graphs' labels
+        Method used only at NeuralNet
+
         """
 
-        self.classifier.fit(training_set, labels)
-
-    def predict_class(self,
-                      test_set):
-        """
-        :param test_set: feature vectors for which to predict the labels
-        :return: predicted labels
-        """
-
-        return self.classifier.predict(test_set)
-
-    def predict_probs(self,
-                      test_set):
-        """
-        :param test_set: feature vectors for which to predict the labels
-        :return: predicted probabilities
-        """
-
-        return self.classifier.predict_proba(test_set)
+        pass
 
     def save_model(self,
                    model_path):

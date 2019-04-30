@@ -1,5 +1,7 @@
 from utils import get_directory
 from Data_Processing.graph_structure import Graph
+import numpy as np
+from utils import merge_splits
 
 
 class SyntheticDataLoader:
@@ -45,12 +47,19 @@ class SyntheticDataLoader:
                 all_graphs.append(graph)
                 all_labels.append(index)
 
+        all_labels = np.array(all_labels)
+        all_graphs = np.array(all_graphs)
+
         if target_model == 'patchy_san':
             return all_graphs, all_labels, number_of_classes
+
         elif target_model == 'baselines':
+
             all_values = list()
             for graph in all_graphs:
-                all_values.append(graph.values())
+                all_values.append(merge_splits(graph.values()))
+            all_values = np.array(all_values)
+
             return all_values, all_labels, number_of_classes
 
     @staticmethod

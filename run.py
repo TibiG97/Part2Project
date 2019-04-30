@@ -15,27 +15,29 @@ def do_stuff(X, y):
     from sklearn.metrics import accuracy_score
     from utils import merge_splits
     import numpy as np
-    classifiers = [RandomForest(depth=5, estimators=10, features=1), KNeighbours(neighbours=3),
+    classifiers = [RandomForest(depth=5, estimators=10, features=1), KNeighbours(neighbours=3, p_dist=2),
                    LogRegression()]
 
-    for index in range(0, len(X)):
-        X[index] = np.array(merge_splits(X[index]))
+    print(X)
+    print(len(X))
     print(X[0])
     print(len(X[0]))
-    print(y[0])
+
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
 
     for classifier in classifiers:
         classifier.train(X_train, y_train)
         predictions = classifier.predict_class(X_test)
-        print(accuracy_score(y_test, predictions), file=open('results.txt', 'a'))
+        print(accuracy_score(y_test, predictions), file=open('results.txt', 'w'))
 
 
 def main():
+
+
     create_dataset_1('NEWSET',
                      [1, 2, 3, 4, 5, 6, 7, 8, 9],
                      9,
-                     [200] * 9,
+                     [100] * 9,
                      [[0.0, 0.7, 0.2, 0.1, 0.0, 0.0], [0.7, 0.2, 0.0, 0.0, 0.1, 0.0], [0.0, 0.0, 0.7, 0.1, 0.0, 0.2],
                       [0.1, 0.1, 0.1, 0.1, 0.3, 0.3], [0.2, 0.2, 0.6, 0.0, 0.0, 0.0], [0.2, 0.2, 0.2, 0.2, 0.2, 0.0],
                       [0.0, 0.0, 0.0, 0.0, 0.6, 0.4], [0.0, 0.0, 0.9, 0.1, 0.0, 0.0], [0.1, 0.8, 0.1, 0.0, 0.0, 0.0]],
@@ -68,7 +70,7 @@ def main():
     '''
 
     nested_cross_validation(X, y, no_of_classes, 10, 1)
-    do_stuff(Xx, yy)
+    # do_stuff(Xx, yy)
 
 
 if __name__ == "__main__":
