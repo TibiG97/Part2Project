@@ -32,8 +32,6 @@ def do_stuff(X, y):
 
 
 def main():
-
-
     create_dataset_1('NEWSET',
                      [1, 2, 3, 4, 5, 6, 7, 8, 9],
                      9,

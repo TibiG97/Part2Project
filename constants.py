@@ -34,6 +34,15 @@ CMD_LINE = [
     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
 ]
 
+EMPTY_TIMES_DICT = {
+    "neigh_assembly": list(),
+    "normalized_subgraph": list(),
+    "canonicalizes": list(),
+    "compute_subgraph_ranking": list(),
+    "labeling_procedure": list(),
+    "first_labeling_procedure": list()
+}
+
 KNN_GRID = {
     "n_neighbors": range(1, 30),
     "p_dist": range(1, 5)
@@ -49,4 +58,15 @@ RF_GRID = {
 LOG_REG_GRID = {
     "c": np.logspace(-4, 4, 20),
     "penalty": ['l1', 'l2']
+}
+
+CNN_GRID = {
+    "width": [5, 7, 9, 11, 13, 15],
+    "stride": [1, 3, 5, 7, 9],
+    "rf_size": [5, 7, 9, 11, 13, 15],
+    "batch_size": [16, 32, 64, 128, 256],
+    "epochs": [10, 50, 100, 300, 500],
+    "learning_rate": [0.001, 0.005, 0.01, 0.05, 0.1, 0.5],
+    "dropout_rate": [0.1, 0.3, 0.5, 0.7, 0.9],
+    "init_mode": ['uniform', 'normal', 'zero', 'he_normal', 'he_uniform']
 }

@@ -2,6 +2,7 @@ from networkx import nx
 from networkx import convert_node_labels_to_integers
 from pynauty.graph import canonical_labeling, Graph
 import copy
+from copy import copy
 import numpy as np
 import time
 from utils import convert_to_one_hot_encoding

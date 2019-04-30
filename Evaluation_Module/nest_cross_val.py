@@ -47,7 +47,7 @@ def nested_cross_validation(data_set: list,
         for iterator in range(0, 30):
             dummy.append(-1)
 
-        cnn = ConvolutionalNeuralNetwork(w=10, k=2, epochs=30, batch_size=32,
+        cnn = ConvolutionalNeuralNetwork(width=10, rf_size=2, epochs=30, batch_size=32,
                                          verbose=2, attr_dim=30, dummy_value=dummy, no_of_classes=no_of_classes)
 
         # best_model = cnn.cross_validate(training_set, training_labels, 10)
