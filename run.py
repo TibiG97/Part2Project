@@ -1,4 +1,4 @@
-from Data_Processing.synthetic_data_loader import SyntheticDataLoader
+from Data_Processing.data_loader import DataLoader
 
 from Evaluation_Module.nest_cross_val import nested_cross_validation
 
@@ -20,20 +20,39 @@ def main():
                       [0.3, 0.7, 0.0, 0.0], [0.7, 0.3, 0.0, 0.0], [0.0, 0.8, 0.2, 0.0], [0.2, 0.0, 0.8, 0.0],
                       [0.3, 0.3, 0.4, 0.0]])
 
-    patchy_data_loader = SyntheticDataLoader('NEWSET', 'patchy_san')
-    graph_dataset, graph_labels, no_of_classes = patchy_data_loader.load_synthetic_data_set()
+    graph_dataset, graph_labels, no_of_classes = DataLoader.load_synthetic_data_set(name='NEWSET',
+                                                                                    target_model='patchy_san')
 
-    baselines_data_loader = SyntheticDataLoader('NEWSET', 'baselines')
-    attr_dataset, attr_labels, no_of_classes = baselines_data_loader.load_synthetic_data_set()
+    attr_dataset, attr_labels, no_of_classes = DataLoader.load_synthetic_data_set(name='NEWSET',
+                                                                                  target_model='baselines')
 
-    nested_cross_validation(data_set=graph_dataset,
-                            labels=graph_labels,
-                            model_name='CNN',
-                            tune_parameters=False,
-                            no_of_classes=no_of_classes,
+    from utils import get_directory
+    android_dir = get_directory() + '/DataSets/Logs/Android'
+    apache_dir = get_directory() + '/DataSets/Logs/Apache'
+    hadoop_dir = get_directory() + '/DataSets/Logs/Hadoop'
+    open_dir = get_directory() + '/DataSets/Logs/OpenStack'
+    spark_dir = get_directory() + '/DataSets/Logs/Spark'
+    ssh_dir = get_directory() + '/DataSets/Logs/SSH'
+
+    dirs = [android_dir,
+            apache_dir,
+            hadoop_dir,
+            open_dir,
+            spark_dir,
+            ssh_dir]
+    X, y = DataLoader.load_log_files(dirs)
+
+    print(X)
+    print(y)
+
+    nested_cross_validation(data_set=X,
+                            labels=y,
+                            model_name='MLP',
+                            tune_parameters=True,
+                            no_of_classes=len(dirs),
                             no_of_outer_folds=10,
                             no_of_inner_folds=10,
-                            no_of_samples=30)
+                            no_of_samples=1)
 
 
 if __name__ == "__main__":

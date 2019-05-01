@@ -6,7 +6,7 @@ import shutil
 import numpy as np
 import pandas as pd
 
-from sklearn.preprocessing import LabelBinarizer
+from sklearn.preprocessing import LabelBinarizer, LabelEncoder
 
 from keras.preprocessing.text import Tokenizer
 from keras.wrappers.scikit_learn import KerasClassifier
@@ -32,20 +32,17 @@ class MultilayerPerceptron(NeuralNetwork):
                  init_mode: str,
                  no_of_classes: int,
                  verbose: int,
-                 hidden_size: int,
-                 input_size: int):
+                 hidden_size: int):
 
         self.hidden_size = hidden_size
-        self.input_size = input_size
-
-        self.model = KerasClassifier(build_fn=self.__create_model,
-                                     epochs=epochs,
-                                     batch_size=batch_size,
-                                     verbose=verbose)
+        self.classifier = KerasClassifier(build_fn=self.__create_model,
+                                          epochs=epochs,
+                                          batch_size=batch_size,
+                                          verbose=verbose)
 
         super(MultilayerPerceptron, self).__init__(
             classifier=self.classifier,
-            process_data=self.__process_data,
+            process_data=None,
             batch_size=batch_size,
             epochs=epochs,
             learning_rate=learning_rate,
@@ -53,12 +50,12 @@ class MultilayerPerceptron(NeuralNetwork):
             init_mode=init_mode,
             no_of_classes=no_of_classes,
             verbose=verbose,
-            name='MLP'
+            name='MLPP'
         )
 
     def __create_model(self):
         model = Sequential()
-        model.add(Dense(self.hidden_size, input_shape=(self.input_size,)))
+        model.add(Dense(self.hidden_size))
         model.add(BatchNormalization())
         model.add(Activation('relu'))
         model.add(Dropout(self.dropout_rate))
@@ -80,45 +77,3 @@ class MultilayerPerceptron(NeuralNetwork):
                           metrics=["accuracy"])
 
         return model
-
-    def __process_data(self):
-        return
-
-    @staticmethod
-    def copy_data(src_file_path, dst_file_path):
-        if not os.path.exists(dst_file_path):
-            os.mkdir(dst_file_path)
-        for logfile in glob.glob(src_file_path + "/*.log"):
-            if os.stat(logfile)[6] > 10000:
-                logfile_name = logfile.split('/')[-1]
-                shutil.copyfile(logfile, dst_file_path + "/" + logfile_name)
-
-    @staticmethod
-    def read_data(logfile_path):
-        log_collection = pd.DataFrame()
-        logs = pd.DataFrame()
-        logfiles = glob.glob(logfile_path + "/*.log")  # Get list of log files
-        for logfile in logfiles:
-            logs = pd.read_csv(logfile, sep="\n", header=None, names=['data'])
-            logs['type'] = logfile.split('/')[-1]
-            # Add log file data and type to log collection
-            log_collection = log_collection.append(logs)
-
-        # Remove empty lines
-        log_collection = log_collection.dropna()
-        # Reset the index
-        log_collection = log_collection.reset_index(drop=True)
-
-        return log_collection
-
-    @staticmethod
-    def prepare_data(text, labels):
-        tokenizer = Tokenizer()
-        tokenizer.fit_on_texts(text)
-        X = tokenizer.texts_to_matrix(text, mode='tfidf')
-
-        encoder = LabelBinarizer()
-        encoder.fit(labels)
-        y = encoder.transform(labels)
-
-        return X, y

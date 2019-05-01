@@ -1,48 +1,84 @@
 from utils import get_directory
-from Data_Processing.graph_structure import Graph
-import numpy as np
 from utils import merge_splits
+from constants import BIG_NUMBER
+
+from Data_Processing.graph_structure import Graph
+from keras_preprocessing.text import hashing_trick
+
+from copy import copy
+import numpy as np
+import os
 
 
-class SyntheticDataLoader:
+class DataLoader:
     """
     Class that implements functionality for loading synthetic data
 
     """
 
-    def __init__(self,
-                 name: str,
-                 target_model: str):
+    @staticmethod
+    def load_log_files(dirs):
         """
-        Object Constructor
-
-        :param name: name of the directory where data set is stored
-        :param target_model: decides the format in which to return the data set
+        :param dirs: list of directories from where to load log files
+        :return: log_files dataset and labels for MLP
         """
 
-        self.name = name
-        self.target_model = target_model
+        data_set = list()
+        labels = list()
 
-    def load_synthetic_data_set(self):
+        for iterator in range(0, len(dirs)):
+            for file in os.listdir(dirs[iterator]):
+                log_file = open(dirs[iterator] + '/' + file, 'r')
+
+                feature_vector = list()  # feature vector for an entire log file
+
+                lines = log_file.readlines()
+                for line in lines:
+                    line_vector = hashing_trick(text=line,
+                                                n=100,
+                                                hash_function=None,
+                                                filters='!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\n',
+                                                lower=True,
+                                                split=' ')
+
+                    for element in line_vector:
+                        feature_vector.append(element)
+
+                data_set.append(feature_vector)
+                labels.append(iterator)
+
+        # Make shape of dataset uniform for NN
+        ######################################
+        min_len = copy(BIG_NUMBER)
+        for array in data_set:
+            min_len = min(min_len, len(array))
+
+        for iterator in range(0, len(data_set)):
+            data_set[iterator] = data_set[iterator][:min_len]
+        ######################################
+
+        return np.array(data_set), np.array(labels)
+
+    @staticmethod
+    def load_synthetic_data_set(name, target_model):
         """
         Method that loads the local data set stored in the directory called 'name'
 
+        :param name: name of the directory where data set is stored
+        :param target_model: decides the format in which to return the data set
         :return: if for patchy_san return all graphs and labels in the data set
                 else return all attributes and labels in the data set
         """
-
-        name = self.name
-        target_model = self.target_model
 
         all_graphs = list()
         all_labels = list()
 
         dataset_directory = get_directory() + '/DataSets/Provenance_Graphs/' + name
-        number_of_classes, graphs_per_class = self.__load_data_property_file(dataset_directory + '/property_file')
+        number_of_classes, graphs_per_class = DataLoader.__load_data_property_file(dataset_directory + '/property_file')
 
         for index in range(1, number_of_classes + 1):
             class_directory = dataset_directory + '/Class_' + str(index)
-            class_graphs = self.__load_graphs(class_directory, graphs_per_class[index - 1])
+            class_graphs = DataLoader.__load_graphs(class_directory, graphs_per_class[index - 1])
             for graph in class_graphs:
                 all_graphs.append(graph)
                 all_labels.append(index)

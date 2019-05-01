@@ -38,6 +38,8 @@ ATTR_DIM = 30
 
 DUMMY = [-1] * 30
 
+BIG_NUMBER = 1000000000
+
 EMPTY_TIMES_DICT = {
     "neigh_assembly": list(),
     "normalized_subgraph": list(),
@@ -64,12 +66,20 @@ LOG_REG_GRID = {
     "penalty": ['l1', 'l2']
 }
 
-MLP_GRID = dict()
+MLP_GRID = {
+    "hidden_size": [32, 64, 128, 256, 512],
+    "batch_size": [16, 32, 64, 128, 256],
+    "epochs": [10, 30, 50, 70, 100],
+    "learning_rate": [0.001, 0.005, 0.01, 0.05, 0.1, 0.5],
+    "dropout_rate": [0.1, 0.3, 0.5, 0.7, 0.9],
+    "init_mode": ['uniform', 'normal', 'zero', 'he_normal', 'he_uniform']
+}
 
 CNN_GRID = {
     "width": [11, 13, 15, 17, 19],
     "stride": [1, 3, 5, 7, 9, 11],
     "rf_size": [2],
+    "hidden_size": [32, 64, 128, 256, 512],
     "batch_size": [16, 32, 64, 128, 256],
     "epochs": [10],
     "learning_rate": [0.001, 0.005, 0.01, 0.05, 0.1, 0.5],

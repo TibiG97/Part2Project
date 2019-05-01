@@ -106,7 +106,14 @@ def tune_mlp_parameters(data_set: np.array,
             position = randint(0, len(param_grid[entry]) - 1)
             choices[entry] = param_grid[entry][position]
 
-        model = MultilayerPerceptron()
+        model = MultilayerPerceptron(hidden_size=choices['hidden_size'],
+                                     batch_size=choices['batch_size'],
+                                     epochs=choices['epochs'],
+                                     learning_rate=choices['learning_rate'],
+                                     dropout_rate=choices['dropout_rate'],
+                                     init_mode=choices['init_mode'],
+                                     no_of_classes=no_of_classes,
+                                     verbose=2)
 
         average_acc = model.cross_validate(data_set, labels, no_of_folds)
         if average_acc / no_of_folds > best_accuracy:
@@ -115,7 +122,14 @@ def tune_mlp_parameters(data_set: np.array,
 
     # Replace the already trained model with a fresh one
 
-    best_model = MultilayerPerceptron()
+    best_model = MultilayerPerceptron(hidden_size=best_choices['hidden_size'],
+                                      batch_size=best_choices['batch_size'],
+                                      epochs=best_choices['epochs'],
+                                      learning_rate=best_choices['learning_rate'],
+                                      dropout_rate=best_choices['dropout_rate'],
+                                      init_mode=best_choices['init_mode'],
+                                      no_of_classes=6,
+                                      verbose=2)
 
     return best_model, best_choices
 
