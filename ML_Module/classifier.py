@@ -77,6 +77,7 @@ class Classifier(object):
         average_acc = 0
 
         for index1 in range(0, no_of_folds):
+            print(index1)
 
             test_set = splitted_data_set[index1]
             test_labels = splitted_labels[index1]

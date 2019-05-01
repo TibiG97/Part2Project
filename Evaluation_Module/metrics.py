@@ -1,5 +1,6 @@
 from math import sqrt
 from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.metrics import precision_score, recall_score, f1_score, matthews_corrcoef
 
 
 def accuracy(tp: int,
@@ -59,6 +60,7 @@ def recall(tp: int,
     return tp / (tp + fn)
 
 
+'''
 def f1_score(tp: int,
              tn: int,
              fp: int,
@@ -76,6 +78,7 @@ def f1_score(tp: int,
     if tp == 0:
         return 0
     return 2 * tp / (2 * tp + fp + fn)
+'''
 
 
 def mcc(tp: int,
@@ -177,21 +180,33 @@ def compute_metrics(predictions: list,
     # compute micro metrics
     #######################
     micro_accuracy = accuracy_score(labels, predictions)
+    micro_precision = precision_score(labels, predictions, average='micro')
+    micro_recall = recall_score(labels, predictions, average='micro')
+    micro_f1_score = f1_score(labels, predictions, average='micro')
+    micro_mcc = matthews_corrcoef(labels, predictions)
+    '''
     micro_precision = precision(sum(tp_list), sum(tn_list), sum(fp_list), sum(fn_list))
     micro_recall = recall(sum(tp_list), sum(tn_list), sum(fp_list), sum(fn_list))
     micro_f1_score = f1_score(sum(tp_list), sum(tn_list), sum(fp_list), sum(fn_list))
     micro_mcc = mcc(sum(tp_list), sum(tn_list), sum(fp_list), sum(fn_list))
+    '''
 
     micros = dict()
-    micros['micro_accuracy'] = round(micro_accuracy, 2)
-    micros['micro_precision'] = round(micro_precision, 2)
-    micros['micro_recall'] = round(micro_recall, 2)
-    micros['micro_f1_score'] = round(micro_f1_score, 2)
-    micros['micro_mcc'] = round(micro_mcc, 2)
+    micros['micro_accuracy'] = round(micro_accuracy, 3)
+    micros['micro_precision'] = round(micro_precision, 3)
+    micros['micro_recall'] = round(micro_recall, 3)
+    micros['micro_f1_score'] = round(micro_f1_score, 3)
+    micros['micro_mcc'] = round(micro_mcc, 3)
     #######################
 
     # compute macro metrics
     #######################
+    macro_accuracy = accuracy_score(labels, predictions)
+    macro_precision = precision_score(labels, predictions, average='macro')
+    macro_recall = recall_score(labels, predictions, average='macro')
+    macro_f1_score = f1_score(labels, predictions, average='macro')
+    macro_mcc = matthews_corrcoef(labels, predictions)
+    '''
     macro_accuracy = accuracy_score(labels, predictions)
     macro_precision = (1 / no_of_classes) * sum(
         precision(tp, tn, fp, fn) for (tp, tn, fp, fn) in zip(tp_list, tn_list, fp_list, fn_list))
@@ -201,13 +216,13 @@ def compute_metrics(predictions: list,
         f1_score(tp, tn, fp, fn) for (tp, tn, fp, fn) in zip(tp_list, tn_list, fp_list, fn_list))
     macro_mcc = (1 / no_of_classes) * sum(
         mcc(tp, tn, fp, fn) for (tp, tn, fp, fn) in zip(tp_list, tn_list, fp_list, fn_list))
-
+    '''
     macros = dict()
-    macros['macro_accuracy'] = round(macro_accuracy, 2)
-    macros['macro_precision'] = round(macro_precision, 2)
-    macros['macro_recall'] = round(macro_recall, 2)
-    macros['macro_f1_score'] = round(macro_f1_score, 2)
-    macros['macro_mcc'] = round(macro_mcc, 2)
+    macros['macro_accuracy'] = round(macro_accuracy, 3)
+    macros['macro_precision'] = round(macro_precision, 3)
+    macros['macro_recall'] = round(macro_recall, 3)
+    macros['macro_f1_score'] = round(macro_f1_score, 3)
+    macros['macro_mcc'] = round(macro_mcc, 3)
     #######################
 
     return micros, macros, confusion_matrix(predictions, labels)

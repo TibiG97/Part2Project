@@ -106,6 +106,7 @@ def tune_mlp_parameters(data_set: np.array,
             position = randint(0, len(param_grid[entry]) - 1)
             choices[entry] = param_grid[entry][position]
 
+        print(choices)
         model = MultilayerPerceptron(hidden_size=choices['hidden_size'],
                                      batch_size=choices['batch_size'],
                                      epochs=choices['epochs'],
@@ -128,7 +129,7 @@ def tune_mlp_parameters(data_set: np.array,
                                       learning_rate=best_choices['learning_rate'],
                                       dropout_rate=best_choices['dropout_rate'],
                                       init_mode=best_choices['init_mode'],
-                                      no_of_classes=6,
+                                      no_of_classes=no_of_classes,
                                       verbose=2)
 
     return best_model, best_choices
@@ -271,7 +272,7 @@ def nested_cross_validation(data_set: np.array,
     """
 
     results_file = open(get_directory() + '/Results/' + model_name, 'a')
-    results_file.truncate(0)
+    # results_file.truncate(0)
 
     data_set, labels = randomise_order(data_set, labels)
 
@@ -328,14 +329,14 @@ def nested_cross_validation(data_set: np.array,
                                                                   no_of_samples=no_of_samples)
 
         else:
-            best_model = ConvolutionalNeuralNetwork(width=10,
-                                                    rf_size=2,
-                                                    epochs=30,
-                                                    batch_size=32,
-                                                    verbose=2,
-                                                    attr_dim=30,
-                                                    dummy_value=DUMMY,
-                                                    no_of_classes=no_of_classes)
+            best_model = MultilayerPerceptron(epochs=30,
+                                              batch_size=32,
+                                              verbose=2,
+                                              dropout_rate=0.5,
+                                              hidden_size=128,
+                                              init_mode='he',
+                                              learning_rate=0.001,
+                                              no_of_classes=no_of_classes)
 
         print(best_parameters, file=results_file)
         best_model.train(training_set, training_labels)
