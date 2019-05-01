@@ -1,0 +1,100 @@
+12-17 19:31:45.187   606  2379 E libteec : send data return = 128
+12-17 19:31:45.187   835  2385 E libteec : receive data len = 128
+12-17 19:31:45.187   835  2385 E libteec : begin
+12-17 19:31:45.187   835  2385 E libteec : qsc_decode end
+12-17 19:31:45.187   835  2385 I fpc_tac : fpc_tac_send_get_indices_cmd indices:0x7f9860c000, index_count:1
+12-17 19:31:45.187   835  2385 E libteec : begin
+12-17 19:31:45.188   606  2379 E libteec : receive data len = 1152
+12-17 19:31:45.191   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:45.191   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:45.191   606  2379 E libteec : send data return = 1152
+12-17 19:31:45.191   835  2385 E libteec : receive data len = 1152
+12-17 19:31:45.191   835  2385 E libteec : begin
+12-17 19:31:45.191   835  2385 E libteec : qsc_decode end
+12-17 19:31:45.191   835  2385 E libteec : begin
+12-17 19:31:45.191   606  2379 E libteec : receive data len = 128
+12-17 19:31:45.191  1795  1795 I WindowManager: Destroying surface Surface(name=) called by com.android.server.wm.WindowStateAnimator.destroySurface:2056 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:907 com.android.server.wm.WindowState.removeLocked:1527 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2723 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2688 com.android.server.wm.WindowManagerService.removeWindowLocked:2677 com.android.server.wm.WindowManagerService.removeWindowLocked:2546 com.android.server.wm.WindowManagerService.removeWindow:2541 
+12-17 19:31:45.194   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:45.194   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:45.194   606  2379 E libteec : send data return = 128
+12-17 19:31:45.194   835  2385 E libteec : receive data len = 128
+12-17 19:31:45.194   835  2385 E libteec : begin
+12-17 19:31:45.194   835  2385 E libteec : qsc_decode end
+12-17 19:31:45.194   835  2385 I fpc_tac : fpc_tac_begin_identify---need_liveness_authentication: 0
+12-17 19:31:45.194   835  2385 E libteec : begin
+12-17 19:31:45.194   606  2379 E libteec : receive data len = 192
+12-17 19:31:45.194  1795  1795 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:45.195  1795  1795 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:45.198   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:45.198   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:45.198   606  2379 E libteec : send data return = 192
+12-17 19:31:45.198   835  2385 E libteec : receive data len = 192
+12-17 19:31:45.198   835  2385 E libteec : begin
+12-17 19:31:45.198   835  2385 E libteec : qsc_decode end
+12-17 19:31:45.198   835  2385 I fpc_tac : fpc_tac_send_set_arbitrary_data_cmd:ok, response:0
+12-17 19:31:45.198   835  2385 D fingerprintd: onAcquired(2001)
+12-17 19:31:45.198   835  2385 E libteec : begin
+12-17 19:31:45.198   606  2379 E libteec : receive data len = 128
+12-17 19:31:45.198  1795 17831 W FingerprintService: onAcquired 1
+12-17 19:31:45.210  1795  1795 I WindowManger_windowChange: oldFocusWindow: Window{41768aa u0 android}, currentFocusWindow: Window{e71ca6c u0 com.android.phone}, currentFocusApp: AppWindowToken{844a0b2 token=Token{2fd6a14 ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}}}
+12-17 19:31:45.212  1795  1795 V InputMethodManagerService: Client requesting input be hidden, pid=1795
+12-17 19:31:45.213  3180  3332 I ScenarioAction: new ScenarioAction sPoolSize: 0
+12-17 19:31:45.213  1795  3249 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:45.215  1795  1795 D HwPFWLogger: PFW.HwPFWService:mBroadcastReceiver action = android.intent.action.SCREEN_ON
+12-17 19:31:45.215  1795  2708 D HwPFWLogger: PFW.HwPFWService:handle PFW_MSG_SYSTEM
+12-17 19:31:45.215  1795  2708 D HwPFWLogger: PFW.HwPFWAppRestartPolicy:receive action = android.intent.action.SCREEN_ON
+12-17 19:31:45.218   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:45.218   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:45.218   606  2379 E libteec : send data return = 128
+12-17 19:31:45.218  1795  1795 D WifiService: onReceive, action:android.intent.action.SCREEN_ON
+12-17 19:31:45.218   835  2385 E libteec : receive data len = 128
+12-17 19:31:45.218   835  2385 E libteec : begin
+12-17 19:31:45.218   835  2385 E libteec : qsc_decode end
+12-17 19:31:45.218   835  2385 I fpc_fingerprint_hal: wait_finger_down: operation cancled
+12-17 19:31:45.218   835  2385 D fpc_fingerprint_hal: wait_finger_down, took 20 ms
+12-17 19:31:45.218   835  2385 E fpc_fingerprint_hal: capture_image failed -4
+12-17 19:31:45.219   835  2385 E libteec : begin
+12-17 19:31:45.219  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155650 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:31:45.219  1795  2670 D WifiController: StaEnabledState what=155650
+12-17 19:31:45.219  1795  2670 D WifiController: DefaultState what=155650
+12-17 19:31:45.219  1795  2670 I AlarmManager: remove(PendingIntent{50e3a01: PendingIntentRecord{a8130a6 android broadcastIntent}}) changed bounds; rebatching
+12-17 19:31:45.219   606  2379 E libteec : receive data len = 128
+12-17 19:31:45.222  1795  1795 D HwArpVerifier: startWifiRouteCheck
+12-17 19:31:45.222  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:45.223   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:45.223   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:45.223   606  2379 E libteec : send data return = 128
+12-17 19:31:45.223   835  2385 E libteec : receive data len = 128
+12-17 19:31:45.223   835  2385 E libteec : begin
+12-17 19:31:45.223   835  2385 E libteec : qsc_decode end
+12-17 19:31:45.223   835  2385 E fpc_fingerprint_hal: do_identify failed -4
+12-17 19:31:45.223   835  2385 D fingerprintd: onError(5)
+12-17 19:31:45.223   835  2385 I fpc_fingerprint_hal: do_identify operation CANCELED
+12-17 19:31:45.223  1795  3237 W FingerprintService: onError 1
+12-17 19:31:45.223   835  2385 D fpc_fingerprint_hal: do_identify took 19 ms, total:39 wait:20
+12-17 19:31:45.223   835  2385 E libteec : begin
+12-17 19:31:45.224  1795  1795 D WifiProStatisticsManager: sendScreenOnEvent enter.
+12-17 19:31:45.224  1795  2734 D WifiProStatisticsManager: msg Loop is running.
+12-17 19:31:45.224  1795  2733 D WiFi_PRO_WifiProStateMachine: device screen on,but isScreenOffMonitor is false
+12-17 19:31:45.225   606  2379 E libteec : receive data len = 128
+12-17 19:31:45.227  2852  2852 I StatusBar: onNotificationRemoved: StatusBarNotification(pkg=com.android.incallui user=UserHandle{0} id=2 tag=null key=0|com.android.incallui|2|null|1001: Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE)))
+12-17 19:31:45.227  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=c0000300 mask=ffffffff oldVal=80000300 newVal=c0000300 diff=40000000
+12-17 19:31:45.227  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:31:45.228  2852  2852 D BarTransitions.HwPhoneStatusBarView: MODE_OPAQUE -> MODE_TRANSLUCENT animate=false
+12-17 19:31:45.228  2852  2852 D BarTransitions.HwPhoneStatusBarView: applyModeBackground oldMode=MODE_OPAQUE newMode=MODE_TRANSLUCENT animate=false
+12-17 19:31:45.229  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:31:45.229  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:31:45.229  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:31:45.229  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000300, SystemUiVisibility=0xc0000300
+12-17 19:31:45.230  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=c0000600 mask=ffffffff oldVal=c0000300 newVal=c0000600 diff=500
+12-17 19:31:45.230  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000600, SystemUiVisibility=0xc0000600
+12-17 19:31:45.230  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:31:45.230  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.307263 Y: 7.967200 Z: -1.177806  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:45.231  2852  2852 I HwBrightnessUtils: APS brightness=24.0,ConvertToPercentage=0.24526884
+12-17 19:31:45.231  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:24 percentage:0.24526884
+12-17 19:31:45.231  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:2453
+12-17 19:31:45.231  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:2453
+12-17 19:31:45.232  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2453 fromUser:false
+12-17 19:31:45.232  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2453 fromUser:false
+12-17 19:31:45.232  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:45.232  2852  2852 I PhoneStatusBar: removeNotification:0|com.android.incallui|2|null|1001

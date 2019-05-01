@@ -1,0 +1,100 @@
+12-17 19:35:12.485  1795  2739 D HuaweiWifiWatchdogStateMachine: detectNetworkAvailable:hw.wifipro.dns_fail_count = 1001
+12-17 19:35:12.485  1795  2739 I HuaweiWifiWatchdogStateMachine: rs ota tcp lr rttvb bad: false, false, false, false, false; rsth:-75
+12-17 19:35:12.485  1795  5350 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+12-17 19:35:12.485  1795  2739 D HuaweiWifiWatchdogStateMachine: GSC:0, GSR:1.0, RSR:1.0, RTH:-75
+12-17 19:35:12.485  1795  2739 D HuaweiWifiWatchdogStateMachine: bqeLevel = 0 rtt=0,rtt_pkts=0 speed=0 rssi=-41
+12-17 19:35:12.485  1795  2739 I HuaweiWifiWatchdogStateMachine:  pkt chk not bad, reset sc to 0.
+12-17 19:35:12.485  1795  2739 D HuaweiWifiWatchdogStateMachine: ### mPktChkBadCnt=0
+12-17 19:35:12.653  1795  2371 E LightSensor: read Events lux:  5.0
+12-17 19:35:12.838  5224  5224 I Step_LSC: 20002302|onStandStepChanged 65629
+12-17 19:35:12.839  5224  5224 I Step_LSC: 20002302|compensate received
+12-17 19:35:12.844  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4253
+12-17 19:35:12.845  5224  5283 I Step_ExtendStepDataManager: 20002302|before compensate: cache step_4253
+12-17 19:35:12.849  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4253
+12-17 19:35:12.850  5224  5283 I Step_ExtendStepDataManager: 20002302|compensate 24699575 17
+12-17 19:35:12.854  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4254
+12-17 19:35:12.857  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:35:12.857  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:35:12.857  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:35:12.859  5224  5283 I Step_ExtendStepDataManager: 20002302|after compensate: cache step_4254
+12-17 19:35:12.943  5224  5283 I Step_LSC: 20002302|REPORT : 4254 90725 3025 0
+12-17 19:35:12.944  1795  2748 D HwAmbientLuxFilterAlgo: t=123110560,BT=123111560,DT=123114560,BT1=123114560,DT1=123118560,Bn=false,Dn=false,lx=[3.0/123109058, 2.0/123109359, 3.0/123109660, 4.0/123109960, 4.0/123110260, 5.0/123110560],mLx=2.0,s=5.0,ss=22.401342,AuIntervened=false,mProximityState=false,bLux=9.6,dLux=0.0,bLux1=9.6,dLux1=0.0
+12-17 19:35:12.944  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:35:12.948  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:35:12.951  1795  3111 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{580cfb2 5224:com.huawei.health:DaemonService/u0a99}
+12-17 19:35:12.954  2852  2852 I EventCenter: EventCenter Get :android.com.huawei.bone.NOTIFY_SPORT_DATA
+12-17 19:35:12.954  2852  2852 D StepCounterView: onStepCounterChange stepsNum:4254
+12-17 19:35:12.956  5224  5283 I Step_HSNH: 20002302|upDateHealthNotification()|91|3.03|4254
+12-17 19:35:12.956  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:35:12.959  5224  5283 I Step_HSNH: 20002302|rebuild notification
+12-17 19:35:12.963  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:35:12.967  1795  3225 I NotificationManager: enqueueNotificationInternal: pkg=com.huawei.health id=10010 notification=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)
+12-17 19:35:12.970  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.huawei.health|10010|null|10099
+12-17 19:35:12.972  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:35:12.977  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)) important=2, post=1481974512968, when=1481531589202, vis=0, userid=0
+12-17 19:35:12.978  2852  2852 D StatusBar: updateNotification(StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)))
+12-17 19:35:12.979  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:35:12.981  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:35:12.983  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.huawei.health|10010|null|10099
+12-17 19:35:12.983  2852  2852 D StatusBar: applyInPlace=true shouldPeek=false alertAgain=true
+12-17 19:35:12.983  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.huawei.health|10010|null|10099
+12-17 19:35:12.983  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.huawei.health|10010|null|10099, group=0|com.huawei.health|10010|null|10099
+12-17 19:35:12.983  2852  2852 D StatusBar: reusing notification for key: 0|com.huawei.health|10010|null|10099
+12-17 19:35:12.984  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:35:12.985  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:35:12.986  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:35:12.999  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:35:13.000  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:35:13.000  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:35:13.000  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:35:13.004  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:13.005  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:13.006  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:35:13.006  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:35:13.381  1795  2371 E LightSensor: read Events lux:  8.0
+12-17 19:35:13.454  1795  2381 D libfingersense_wrapper: Calling fingersense_classify_touch()
+12-17 19:35:13.463  1795  2381 D libfingersense_wrapper: fingersense_classify_touch() finished
+12-17 19:35:13.465  1795  2380 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123111070, event=2, flags=0x0, uid=1000
+12-17 19:35:13.465  1795  2380 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=2, uid=1000
+12-17 19:35:13.465  1795  2380 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:13.467  2852  2852 I SlideTouchEvent: handleTouchEvent:MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=286.0, y[0]=119.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=123111070, downTime=123111070, deviceId=10, source=0x1002 }
+12-17 19:35:13.467  2852  2852 I PhoneStatusBar: suspendAutohide
+12-17 19:35:13.467  2852  2852 I vol.VolumeDialogControl: C onDismissRequested reason = 2
+12-17 19:35:13.467  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:35:13.467  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:35:13.467  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=4, isEmuiStyle=false
+12-17 19:35:13.468  2852  2852 I TintImageView: onTouchEvent: code=4, action=0, event=MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=76.0, y[0]=119.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=123111070, downTime=123111070, deviceId=10, source=0x1002 }
+12-17 19:35:13.469  2852  2852 I TintImageView: sendEvent:action=0, flag=0
+12-17 19:35:13.469  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onDismissRequested reason = 2
+12-17 19:35:13.470  1795 15982 D KeyEvent: obtain, mHwFlags=0
+12-17 19:35:13.470  1795 15982 D HwCustPhoneWindowManager: answer call by keyCode = 4, down = true, isSupVolumnkeyAnswerCall = false
+12-17 19:35:13.470  1795 15982 I PowerManager_screenOn: HwPhoneWindowManager has intercept Key : 4, isdown : true, flags : 72
+12-17 19:35:13.470  1795 15982 D WindowManager: interceptKeyTq keycode=4 interactive=true keyguardActive=false policyFlags=2b000002 down true canceled false
+12-17 19:35:13.471  1795 15982 D WindowManager: interceptKeyBeforeQueueing: key 4 , result : 1
+12-17 19:35:13.471  1795  2380 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123111085, event=1, flags=0x0, uid=1000
+12-17 19:35:13.471  1795  2380 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=1, uid=1000
+12-17 19:35:13.472  1795  2380 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:13.472  1795  2380 D KeyEvent: obtain, mHwFlags=1874117200
+12-17 19:35:13.473  1795  2380 I TransactionSponsor: Transact:getHwAdminCachedValue to device policy manager service.
+12-17 19:35:13.473  1795  2380 I TransactionProcessor: HwDPMS received transaction_isHwFrameworkAdminAllowed, the ret: false
+12-17 19:35:13.473  4492  4492 D KeyEvent: obtain, mHwFlags=3
+12-17 19:35:13.474  1795  1809 D KeyEvent: obtain, mHwFlags=0
+12-17 19:35:13.475  4690  4690 D KeyEvent: obtain, mHwFlags=-1291845632
+12-17 19:35:13.606  1795  2381 D libfingersense_wrapper: Calling fingersense_touch_up()
+12-17 19:35:13.606  1795  2381 D libfingersense_wrapper: fingersense_touch_up() finished
+12-17 19:35:13.608  2852  2852 I SlideTouchEvent: handleTouchEvent:MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=286.0, y[0]=119.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=123111223, downTime=123111070, deviceId=10, source=0x1002 }
+12-17 19:35:13.608  2852  2852 I SlideTouchEvent: vel=0.0, MinimumFlingVelocity=150
+12-17 19:35:13.608  2852  2852 I PhoneStatusBar: resumeSuspendedAutohide
+12-17 19:35:13.609  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:35:13.609  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:35:13.609  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=4, isEmuiStyle=false
+12-17 19:35:13.609  2852  2852 I TintImageView: onTouchEvent: code=4, action=1, event=MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=76.0, y[0]=119.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=123111223, downTime=123111070, deviceId=10, source=0x1002 }
+12-17 19:35:13.610  2852  2852 I TintImageView: sendEvent:action=1, flag=0
+12-17 19:35:13.611  1795  6988 D KeyEvent: obtain, mHwFlags=0
+12-17 19:35:13.611  1795  6988 D HwCustPhoneWindowManager: answer call by keyCode = 4, down = false, isSupVolumnkeyAnswerCall = false
+12-17 19:35:13.611  1795  6988 I PowerManager_screenOn: HwPhoneWindowManager has intercept Key : 4, isdown : false, flags : 72
+12-17 19:35:13.611  1795  6988 D WindowManager: interceptKeyTq keycode=4 interactive=true keyguardActive=false policyFlags=2b000002 down false canceled false
+12-17 19:35:13.611  1795  6988 D WindowManager: interceptKeyBeforeQueueing: key 4 , result : 1
+12-17 19:35:13.612  1795  2380 D KeyEvent: obtain, mHwFlags=1874117200
+12-17 19:35:13.612  2852  2914 V AudioManager: querySoundEffectsEnabled...
+12-17 19:35:13.613  1795  2380 I TransactionSponsor: Transact:getHwAdminCachedValue to device policy manager service.

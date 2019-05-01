@@ -1,0 +1,100 @@
+12-17 19:31:57.565  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.android.incallui user=UserHandle{0} id=2 tag=null key=0|com.android.incallui|2|null|1001: Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE))) important=2, post=1481974317326, when=1481974245373, vis=0, userid=0
+12-17 19:31:57.566  2852  2852 I PhoneStatusBar: addNotification key=0|com.android.incallui|2|null|1001
+12-17 19:31:57.566  1795  2728 D hw_netstat: total/954/427,com.huawei.espacev2/827/368,unknown:0/127/59
+12-17 19:31:57.566  2852  2866 D KeyguardService: Caller checkPermission fail
+12-17 19:31:57.566  2852  2866 D KeyguardService: KGSvcCall onFinishedGoingToSleep.
+12-17 19:31:57.566  2852  2866 D KeyguardViewMediator: onFinishedGoingToSleep(6)
+12-17 19:31:57.566  2852  2866 D KeyguardViewMediator: notifyFinishedGoingToSleep
+12-17 19:31:57.566  2852  2866 W AppHandler: sendMessage 15
+12-17 19:31:57.567  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:57.568  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:31:57.568  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:31:57.568  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:31:57.569  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSRTT=250  WEBSNDDUPACKS=0  SENDSEGS=5  RESENDSEGS=0  RECVSEGS=4  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=2  RTTSEGS=2  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:31:57.569  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:31:57.569  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-56  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=64, rtt_tcp_duration=525, rtt_lan_duration=154, rtt_lan_failures=0, rtt_lan_succ=3, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:31:57.569  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:31:57.569  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:57.569  3608  3608 D InCall  : InCallActivity -  bgCallTwinkingSwitch is true inQuickExiting is false mIsForegroundActivity is false
+12-17 19:31:57.569  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:31:57.570  3180  3332 I ScenarioService: screen off and not process front pkg:com.android.incallui
+12-17 19:31:57.570  3180  3332 I BatteryMonitor: screen off: 0s, awake: 0s wakeups: 0, battery changed: 0
+12-17 19:31:57.572  3180  3578 I ash     : ash->screen on
+12-17 19:31:57.573  3608  3608 I CallUtils: show_incallscreen  0
+12-17 19:31:57.575  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:31:57.576  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:57.577  3180  3578 I ash     : ash->screen unlock
+12-17 19:31:57.579  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:31:57.582  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:57.582  2852  2852 I StatusBarIconView: updateTint: tint=1
+12-17 19:31:57.583  2852  2852 D HwCust  : Create obj success use class com.android.systemui.statusbar.HwCustExpandableNotificationRowImpl
+12-17 19:31:57.586  1795 16232 D PowerManagerService: release:lock=228612087, flg=0x0, tag="ActivityManager-Sleep", name=android", ws=null, uid=1000, pid=1795
+12-17 19:31:57.587  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:31:57.587  1795 16232 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:57.587  1795 16232 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:57.587  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=6, mTXbad=0, mRXGood=5] rssi=-56
+12-17 19:31:57.589  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:31:57.589  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:31:57.592  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:31:57.592  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: true
+12-17 19:31:57.593  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:57.594  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:57.595  1795  3975 E LocSvc_libulp: I/int ulp_msg_process_system_update(const UlpSystemEvent): systemEvent:0 
+12-17 19:31:57.600  1795 16499 I AlarmManager: remove(PendingIntent{e4aca: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) changed bounds; rebatching
+12-17 19:31:57.601  3218  3439 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:57.604  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:57.604  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:31:57.604  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen on event
+12-17 19:31:57.604  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: the message is still in the messagequeue, remove it
+12-17 19:31:57.605  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:57.611  1795  2728 E HwCHRWebMonitor: running processName=com.android.incallui
+12-17 19:31:57.611  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.huawei.espacev2 UID=10102  WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:31:57.611  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:31:57.611  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 0, tx = 0
+12-17 19:31:57.611  1795  2728 D HwArpVerifier: getDNSFailedCntDiff  dnsNewFailCnt =  1001, aws.getOldDnsFailedCnt() = 1001, dnsDiff = 0
+12-17 19:31:57.614  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:31:57.615  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:57.616  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:57.620  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:31:57.620  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:57.621  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:57.623  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:31:57.628  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:31:57.629  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:57.629  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = true, mIsPreScrnOn = false, mScrnSwitchTime = 1481974316688, occurTime = 1481974317628, delta = 940, mScrnOffAccTime = 1740717, mScrnOnAccTime = 111554
+12-17 19:31:57.629  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1741657, mScrnOffAccTime = 1741657, mScrnOnAccTime = 111554
+12-17 19:31:57.630  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:57.634  5224  5224 I Step_LSC: 20002302|logicalDealBroadcastEvent : Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+12-17 19:31:57.634  5224  5283 I Step_LSC: 20002302| ## MSG_DEAL_SYSTEM_EVENT android.intent.action.SCREEN_ON
+12-17 19:31:57.635  5224  5283 I Step_StandStepCounter: 20002302|flush sensor data
+12-17 19:31:57.635  3626  3626 I iMonitor: create: 903001010
+12-17 19:31:57.636  1795 20747 I qti_sensors_hal: flush,395,handle 49
+12-17 19:31:57.636  1795 20747 I qti_sensors_hal: flush:sensor(android.sensor.step_counter) handle:49
+12-17 19:31:57.637  5224  5283 I Step_LSC: 20002302|REPORT : 4181 89378 2980 0
+12-17 19:31:57.637  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:31:57.638  3626  3626 I iMonitor: send: 903001010
+12-17 19:31:57.638  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:31:57.639   818  1152 I logserver: handle_exception_events enter
+12-17 19:31:57.641  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:31:57.644  1795 16500 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{580cfb2 5224:com.huawei.health:DaemonService/u0a99}
+12-17 19:31:57.645  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:57.646  5224  5283 I Step_HSNH: 20002302|upDateHealthNotification()|89|2.98|4181
+12-17 19:31:57.646  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:57.647  5224  5283 I Step_HSNH: 20002302|rebuild notification
+12-17 19:31:57.647  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:31:57.649  1795  6988 I NotificationManager: enqueueNotificationInternal: pkg=com.huawei.health id=10010 notification=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)
+12-17 19:31:57.650  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_ON
+12-17 19:31:57.650  7741  7741 D Mms_TX_NOTIFY: ScreenState present
+12-17 19:31:57.650  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.huawei.health|10010|null|10099
+12-17 19:31:57.651  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:31:57.659  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_ON
+12-17 19:31:57.661  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:31:57.661  3608  3608 D InCall  : InCallActivity - mScreenOnReceiver mCallEndOptionsDialog = null
+12-17 19:31:57.668  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:57.669  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:57.669  2852  2865 I art     : Background partial concurrent mark sweep GC freed 20750(1477KB) AllocSpace objects, 4(208KB) LOS objects, 12% free, 55MB/63MB, paused 3.078ms total 109.744ms
+12-17 19:31:57.676 16628 16628 I TotemWeather: RetryTaskController:Screen is off or Network is unable
+12-17 19:31:57.678  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:57.678  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:57.685 31949 31967 I PushService: main{1} PushService.onStartCommand(PushService.java:87) Push Service Start by  userEvent
+12-17 19:31:57.686  1795 15988 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:16

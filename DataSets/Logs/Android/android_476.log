@@ -1,0 +1,100 @@
+12-17 19:55:47.189  1795 16501 D HwPowerManagerService: remove pxy wl, pid: 633, uid: 10102 from pxy process list.
+12-17 19:55:47.189  3180  3578 I ash     : Unproxy wakelock uid = 10102 pid = 633
+12-17 19:55:47.190  1795  3253 D PowerManagerService: acquire lock=176161031, flags=0x1, tag="hibernation", name=com.huawei.powergenie, ws=null, uid=1000, pid=3180
+12-17 19:55:47.190  1795  3253 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:47.195  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:55:47.196  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen on event
+12-17 19:55:47.196  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: interrupt
+12-17 19:55:47.198   633 31868 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:197 Level[ERR] magic[3365677344 635]:TcpNonBlockReConnect failed because it can RW! err:103[Software caused connection abort]
+12-17 19:55:47.198   633 31868 E SDK     : 
+12-17 19:55:47.198   633 31868 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:198 Level[ERR] magic[3365677344 695]:Reconnect to SVN was failed 103, [Software caused connection abort],[195],[58],error Socket[148]
+12-17 19:55:47.198   633 31868 E SDK     : 
+12-17 19:55:47.198 31949 31967 I TCP     : tcp.conn{4787} TcpSocket.connect_i(TcpSocket.java:91) 
+12-17 19:55:47.198 31949 31967 I TCP     : java.net.SocketException: Software caused connection abort
+12-17 19:55:47.198 31949 31967 I TCP     : 	at java.net.PlainSocketImpl.socketConnect(Native Method)
+12-17 19:55:47.198 31949 31967 I TCP     : 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:334)
+12-17 19:55:47.198 31949 31967 I TCP     : 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:196)
+12-17 19:55:47.198 31949 31967 I TCP     : 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
+12-17 19:55:47.198 31949 31967 I TCP     : 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:356)
+12-17 19:55:47.198 31949 31967 I TCP     : 	at java.net.Socket.connect(Socket.java:592)
+12-17 19:55:47.198 31949 31967 I TCP     : 	at com.huawei.ecs.mip.proxy.TcpSocket.onConnectSocket(TcpSocket.java:290)
+12-17 19:55:47.198 31949 31967 I TCP     : 	at com.huawei.ecs.mip.proxy.TcpSocket.connect_i(TcpSocket.java:87)
+12-17 19:55:47.198 31949 31967 I TCP     : 	at com.huawei.ecs.mip.proxy.TcpSocket.connect(TcpSocket.java:57)
+12-17 19:55:47.198 31949 31967 I TCP     : 	at com.huawei.ecs.mip.proxy.TcpClientThread.connectSocket(TcpClientThread.java:350)
+12-17 19:55:47.198 31949 31967 I TCP     : 	at com.huawei.ecs.mip.proxy.TcpClientThread.onLoop(TcpClientThread.java:177)
+12-17 19:55:47.198 31949 31967 I TCP     : 	at com.huawei.ecs.mtk.util.SimpleThread.onLoop_i(SimpleThread.java:142)
+12-17 19:55:47.198 31949 31967 I TCP     : 	at com.huawei.ecs.mtk.util.SimpleThread.run(SimpleThread.java:42)
+12-17 19:55:47.199   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:94) watch thread onLoop... 
+12-17 19:55:47.200   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:55:47.200 31949 31967 I TCP     : tcp.conn{4787} TcpSocket.close(TcpSocket.java:158) shutdown output: java.net.SocketException: Socket is not connected
+12-17 19:55:47.200 31949 31967 I TCP     : tcp.conn{4787} TcpSocket.close(TcpSocket.java:170) shutdown input: java.net.SocketException: Socket is not connected
+12-17 19:55:47.201  1795  6985 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:47.202 31949 31967 E TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:353) <<< ERROR(6) >>> connect fail to uc.huawei.com:7801
+12-17 19:55:47.203 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.onSocketUnreachable(TcpClientThread.java:386) unreachable to uc.huawei.com:7801
+12-17 19:55:47.204 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.onRecv(TcpClientThread.java:522) tcp connection event TCP_UNREACHABLE
+12-17 19:55:47.204   835  2385 E libteec : begin
+12-17 19:55:47.204   606  2379 E libteec : receive data len = 128
+12-17 19:55:47.206  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = true, mIsPreScrnOn = false, mScrnSwitchTime = 1481974831794, occurTime = 1481975747204, delta = 915410, mScrnOffAccTime = 2174726, mScrnOnAccTime = 192651
+12-17 19:55:47.206  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 3090136, mScrnOffAccTime = 3090136, mScrnOnAccTime = 192651
+12-17 19:55:47.208  3180  3578 D PgedBinderAdapter: unfrz ok, pid: [31949, 633]
+12-17 19:55:47.208  3180  3578 I PGServer: report state:6 event type:2 pid:0 uid:10102 pkg:com.huawei.espacev2 to pid: 1795
+12-17 19:55:47.208  3180  3578 I ash     : Unfreeze com.huawei.espacev2 OK !
+12-17 19:55:47.209  1795 11747 D PowerManagerService: release:lock=176161031, flg=0x0, tag="hibernation", name=com.huawei.powergenie", ws=null, uid=1000, pid=3180
+12-17 19:55:47.209  1795 11747 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:47.210  1795  2778 I PGManagerService: proxyBroadcast:[com.huawei.espacev2] proxy:false
+12-17 19:55:47.211  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{8e3f9a5 u0 android.intent.action.USER_PRESENT}, has 1 receivers
+12-17 19:55:47.211  3180  3578 I ash     : unproxy com.huawei.espacev2 broadcast OK !
+12-17 19:55:47.212  1795  3247 D SmartHeartBeat: setAlarmsAdjust ...
+12-17 19:55:47.213  1795  2376 I AlarmManager: set again repeat alarm: next ,nextElapsed = 444567265,repeatInterval = 300000
+12-17 19:55:47.213  3180  3578 I ash     : cancel unified heartbeat: com.huawei.espacev2 reason:left H
+12-17 19:55:47.214  1795  2396 D GpsFreezeProc: removeFreezeProcess pkg:com.huawei.espacev2
+12-17 19:55:47.214  1795  2396 I GnssLocationProvider: setRequest ProviderRequest[OFF]
+12-17 19:55:47.214  1795  2396 I GnssLocationProvider: stopNavigating, mStarted=false
+12-17 19:55:47.214  1795  2376 W AlarmManager: mIsScreenOn is: true, WAKEUP alarm trigger action = com.huawei.espace.pushcheck package name is: com.huawei.espacev2
+12-17 19:55:47.215  1795  2376 I AlarmManager: Alarm triggering (type 0 or 2): [Alarm{bf5cdf1 type 0 when 1481975730901 com.huawei.espacev2}]
+12-17 19:55:47.215  1795  2376 I AlarmManager: sending alarm Alarm{bf5cdf1 type 0 when 1481975730901 com.huawei.espacev2},repeatInterval = 300000,listenerTag =null
+12-17 19:55:47.215  1795  2376 I ActivityManager_broadcast: collectReceiverComponents, callerApp: null, intent:com.huawei.espace.pushcheck, receiver size:1, flags: 10000400
+12-17 19:55:47.215   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:55:47.215   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:55:47.215   835  2385 E libteec : receive data len = 128
+12-17 19:55:47.215   835  2385 E libteec : begin
+12-17 19:55:47.215   835  2385 E libteec : qsc_decode end
+12-17 19:55:47.215  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{b3ac234 u0 com.huawei.espace.pushcheck}: prev had 2
+12-17 19:55:47.215   606  2379 E libteec : send data return = 128
+12-17 19:55:47.216  3180  3578 I ash     : unproxy app:com.huawei.espacev2,uid:10102,result:true
+12-17 19:55:47.216  3180  3578 I ash     : perform running actions!
+12-17 19:55:47.216  3180  3578 I ash     : running package: com.huawei.espacev2, visible: false
+12-17 19:55:47.216  3626  3626 I iMonitor: create: 903001010
+12-17 19:55:47.217  1795  3249 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{1f4bd2b u0 android.intent.action.USER_PRESENT}, has 1 receivers
+12-17 19:55:47.218 31949 31967 I PushService: main{1} PushService.onStartCommand(PushService.java:87) Push Service Start by  userEvent
+12-17 19:55:47.219  3626  3626 I iMonitor: send: 903001010
+12-17 19:55:47.219  3180  3578 I ash     : com.tencent.mm { hibernation duration=181102 } transition to: running reason:scron_im
+12-17 19:55:47.219  3180  3578 I ash     : clear hibernation actions!
+12-17 19:55:47.220   818  1152 I logserver: handle_exception_events enter
+12-17 19:55:47.220  1795 11745 I PGManagerService: proxyWakeLockByPidUid, pid: 4492, uid: 10105, proxy: false
+12-17 19:55:47.220  1795 11745 D HwPowerManagerService: remove pxy wl, pid: 4492, uid: 10105 from pxy process list.
+12-17 19:55:47.220  3180  3578 I ash     : Unproxy wakelock uid = 10105 pid = 4492
+12-17 19:55:47.221  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:55:47.221  1795  3253 I PGManagerService: proxyWakeLockByPidUid, pid: 4634, uid: 10105, proxy: false
+12-17 19:55:47.221  1795  3253 D HwPowerManagerService: remove pxy wl, pid: 4634, uid: 10105 from pxy process list.
+12-17 19:55:47.221  3180  3578 I ash     : Unproxy wakelock uid = 10105 pid = 4634
+12-17 19:55:47.222  1795  3249 I PGManagerService: proxyWakeLockByPidUid, pid: 18589, uid: 10105, proxy: false
+12-17 19:55:47.222  1795  3249 D HwPowerManagerService: remove pxy wl, pid: 18589, uid: 10105 from pxy process list.
+12-17 19:55:47.222  3180  3578 I ash     : Unproxy wakelock uid = 10105 pid = 18589
+12-17 19:55:47.222  1795  6985 D PowerManagerService: acquire lock=176161031, flags=0x1, tag="hibernation", name=com.huawei.powergenie, ws=null, uid=1000, pid=3180
+12-17 19:55:47.222  1795  6985 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:47.224  1795  6988 I AlarmManager: remove(PendingIntent{768b85d: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) changed bounds; rebatching
+12-17 19:55:47.224   633   633 I SDK     : <2016-12-17 19:55:47> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:47:224 Level[NOTICE] magic[3979851060 1019]:SDK:proc user present event!
+12-17 19:55:47.224   633   633 I SDK     : 
+12-17 19:55:47.225   633   633 I SDK     : <2016-12-17 19:55:47> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:47:225 Level[NOTICE] magic[3979851060 1019]:SDK:end proc user present event!
+12-17 19:55:47.225   633   633 I SDK     : 
+12-17 19:55:47.226  1795  6986 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{b3ac234 u0 com.huawei.espace.pushcheck}, has 1 receivers
+12-17 19:55:47.227  1795 15987 I AlarmManager: set(PendingIntent{4b105d2: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) : type=0 triggerAtTime=1481976047226 win=0 tElapsed=444583590 maxElapsed=444583590 interval=300000 flags=0x1
+12-17 19:55:47.231   633 21071 I SDK     : <2016-12-17 19:55:47> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:47:231 Level[NOTICE] magic[2518587680 1019]:SDK:begin nativeForceTunnelReconnect
+12-17 19:55:47.231   633 21071 I SDK     : 
+12-17 19:55:47.231  1795  3121 I AlarmManager: set(PendingIntent{191a6a3: PendingIntentRecord{dbcda0 com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=444303593 win=14998 tElapsed=444303593 maxElapsed=444318591 interval=0 flags=0x8
+12-17 19:55:47.232   633 21071 I SDK     : <2016-12-17 19:55:47> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:47:232 Level[NOTICE] magic[2518587680 1944]:DetectAndReconnectTunnel
+12-17 19:55:47.232   633 21071 I SDK     : 
+12-17 19:55:47.232  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:55:47.232  3180  3578 D PgedBinderAdapter: unfrz ok, pid: [4492, 4634, 18589]
+12-17 19:55:47.232  3180  3578 I PGServer: report state:6 event type:2 pid:0 uid:10105 pkg:com.tencent.mm to pid: 1795

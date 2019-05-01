@@ -1,0 +1,100 @@
+12-17 19:32:59.905  3218  3218 D VideoCall_LowBattery: BatteryIntent received: android.intent.action.BATTERY_CHANGED
+12-17 19:32:59.905  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:32:59.905  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155652 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:32:59.905  1795  2670 D WifiController: StaEnabledState what=155652
+12-17 19:32:59.905  1795  2670 D WifiController: DefaultState what=155652
+12-17 19:32:59.905  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityNegative -> updatePowerStateLocked
+12-17 19:32:59.905  1795  2670 D WifiController: battery changed pluggedType: 0
+12-17 19:32:59.905  1795  2670 D WifiController: wifiSleepPolicy:1
+12-17 19:32:59.905  1795  1825 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123063591, event=0, flags=0x0, uid=1000
+12-17 19:32:59.905  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=0, uid=1000
+12-17 19:32:59.906  1795  1825 I PowerManager_screenOn: PowerManagerService wakeUpNoUpdateLocked: eventTime=123063592, uid=1000
+12-17 19:32:59.906  1795  1825 I PowerManager_screenOn: PowerManagerService Waking up from sleep (uid 1000)...
+12-17 19:32:59.906  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=1, reason=0, interactive=true, mInteractive=false, mInteractiveChanging=false
+12-17 19:32:59.906  1795  1825 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:32:59.906  3218  3218 E QtiImsExtUtils: getImsPhoneId failed. Exception = org.codeaurora.ims.QtiImsException: ImsService is not running
+12-17 19:32:59.906  3218  3218 E QtiImsExtUtils: getConfigForPhoneId phoneId is invalid
+12-17 19:32:59.906  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakeUp: event=android.server.power:POWER, reasonUid=1000 opPackageName=android opUid=1000
+12-17 19:32:59.906  3218  3218 E QtiImsExtUtils: isCarrierConfigEnabled bundle is null
+12-17 19:32:59.906  1795  1825 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123063592, event=0, flags=0x0, uid=1000
+12-17 19:32:59.906  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=0, uid=1000
+12-17 19:32:59.906  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityNegative by Phone
+12-17 19:32:59.906  3218  3218 D VideoCall_LowBattery:  allowVideoCallsInLowBattery: false isCarrierOneSupported: false mIsLowbattery: false
+12-17 19:32:59.906  1795  1825 D PowerManagerService: setColorTemperatureAccordingToSetting
+12-17 19:32:59.906  1795  1795 I WindowManager: Destroying surface Surface(name=) called by com.android.server.wm.WindowStateAnimator.destroySurface:2056 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:907 com.android.server.wm.WindowState.removeLocked:1527 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2723 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2688 com.android.server.wm.WindowManagerService.removeWindowLocked:2677 com.android.server.wm.WindowManagerService.removeWindowLocked:2546 com.android.server.wm.WindowManagerService.removeWindow:2541 
+12-17 19:32:59.906  1795  1825 D HwPowerManagerService: setColorTemperatureAccordingToSetting
+12-17 19:32:59.906  1795  1825 D HwPowerManagerService: isDisplayFeatureSupported feature:1
+12-17 19:32:59.907  1795  1825 D HW_DISPLAY_EFFECT: hw_get_smart_display_supported: start++
+12-17 19:32:59.907  1795  1825 D HW_DISPLAY_EFFECT: hw_get_smart_display_supported: end--
+12-17 19:32:59.907  1795  1825 D HWPowerManger_JNI: Surport 3 dimension color temperature.
+12-17 19:32:59.907  1795  1825 D HwPowerManagerService: setColorTemperatureAccordingToSetting new.
+12-17 19:32:59.907  1795  1825 D HwPowerManagerService: ColorTemperature read from old setting:128
+12-17 19:32:59.907  1795  1825 D HwPowerManagerService: setColorTemperature:128
+12-17 19:32:59.907  1795  1825 D HW_DISPLAY_EFFECT: hw_set_colortemperature: start++
+12-17 19:32:59.907  1795  1825 W HW_DISPLAY_EFFECT: Warning: hw_set_colortemperature is COLOR_TEMP_2_DIMENSION interface, not supported presently.
+12-17 19:32:59.907  1795  1825 D HW_DISPLAY_EFFECT: hw_set_colortemperature: end--
+12-17 19:32:59.907  1795  1825 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:59.907  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:32:59.907  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetScreenState: state=2
+12-17 19:32:59.907  1795  1825 D FpDataCollector: DisplayPowerState :ON
+12-17 19:32:59.908  2852  2852 W HwLockScreenPanel: refreshBatteryInfo: null
+12-17 19:32:59.908  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.BATTERY_CHANGED  flag:1610612752 technology=Li-ion icon-small=17303220 max_charging_voltage=0 health=2 max_charging_current=0 status=3 plugged=0 present=true charge_counter=0 level=78 scale=100 temperature=275 voltage=4072 invalid_charger=0 
+12-17 19:32:59.908  2852  2852 I PowerUI : buckets   .....15 .. 10 .. 5level          78 --> 78status         3 --> 3plugType       0 --> 0invalidCharger 0 --> 0bucket         1 --> 1plugged        false --> false
+12-17 19:32:59.909  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:32:59.909  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:32:59.909  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:32:59.909  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:32:59.909  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:32:59.910  1795  1795 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:59.911  1795  1795 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:59.911  1795 17832 I NotificationManager: cancelNotificationWithTag pid 2852,uid = 10033,tag = low_battery,pkg =com.android.systemui,id =2132017204
+12-17 19:32:59.912  2852  2852 I HwPowerUI: processLowerBatteryLevel plugged:false batteryLevel:78 intent:act:android.intent.action.BATTERY_CHANGED  flag:1610612752 technology=Li-ion icon-small=17303220 max_charging_voltage=0 health=2 max_charging_current=0 status=3 plugged=0 present=true charge_counter=0 level=78 scale=100 temperature=275 voltage=4072 invalid_charger=0 
+12-17 19:32:59.912  2852  2852 I HwPowerUI: doTemperatueWarning, health:2
+12-17 19:32:59.912  2852  2852 I HwBatteryManager: onBatteryLevelChanged: level=78, pluggedIn=false, charging=false, PercentColor=-1275068417
+12-17 19:32:59.916   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:32:59.918  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 442901737728778}
+12-17 19:32:59.920  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 442901737728778}
+12-17 19:32:59.922  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass idle 1 442901737728778
+12-17 19:32:59.929  1795  1825 I PowerManager_screenOn: DisplayPowerController Blocking screen on until initial contents have been drawn.
+12-17 19:32:59.929  1795  1825 I WindowManger_keyguard: Screen turned on for keyguard
+12-17 19:32:59.929  1795  1825 I PowerManager_screenOn: KeyguardServiceDelegate  onScreenTurnedOn(showListener = com.android.server.policy.PhoneWindowManager$3@bf53b21)
+12-17 19:32:59.930  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:32:59.930  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:32:59.930  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:32:59.930  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:32:59.930  2852  3328 D KeyguardService: Caller checkPermission fail
+12-17 19:32:59.930  2852  3328 D KeyguardService: KGSvcCall onScreenTurningOn.
+12-17 19:32:59.930  2852  3328 D KeyguardViewMediator: notifyScreenOn
+12-17 19:32:59.931  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:32:59.931  1795  1825 D HwNormalizedAutomaticBrightnessController: set power status:mPowerStatus=false,powerStatus=true
+12-17 19:32:59.932  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:32:59.932  1795  1825 D Sensors : batch called handle:3 sample_ns:300000000 latency_ns:0
+12-17 19:32:59.932  1795  1825 D Sensors : activate called handle:3 enable:1
+12-17 19:32:59.932  1795  1825 D Sensors : bh1745-light calling driver setDelay 300 ms
+12-17 19:32:59.932  1795  1825 D Sensors : bh1745-light calling driver enable
+12-17 19:32:59.932  1795  1825 W LightSensor: LightSensor, enable, 283: en=1
+12-17 19:32:59.932  1795  1825 W LightSensor: LightSensor, enable, 284: flags=1
+12-17 19:32:59.932  1795  1825 W LightSensor: LightSensor, enable, 285: mEnabled=0
+12-17 19:32:59.932  1795  1795 I WindowManger_windowChange: oldFocusWindow: Window{1eef2e4 u0 android}, currentFocusWindow: Window{e71ca6c u0 com.android.phone}, currentFocusApp: AppWindowToken{844a0b2 token=Token{2fd6a14 ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}}}
+12-17 19:32:59.933  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:32:59.933  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:32:59.935  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:32:59.935  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:32:59.935  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:32:59.936  1795  1825 D AutomaticBrightnessController: Enable LightSensor at time:mLightSensorEnableTime=123063622,mLightSensorEnableElapsedTimeNanos=442916295139756
+12-17 19:32:59.936  1795  1825 D AutomaticBrightnessController: mAmbientLuxValid= false,sensor is not ready
+12-17 19:32:59.936  1795  1825 D DisplayPowerController: mode change : autoBrightnessEnabled=true,adjustment=0.0,state=2
+12-17 19:32:59.936  1795  1825 D HwNormalizedAutomaticBrightnessController: mWakeupFromSleep= true,currentTime=123063622,mLightSensorEnableTime=123063617
+12-17 19:32:59.936  1795  1825 D DisplayPowerController: Animating brightness: target=-1, rate=0
+12-17 19:32:59.936  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:32:59.936  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=0
+12-17 19:32:59.936  1795  2750 D PowerManagerService: Setting HAL auto-suspend mode to false
+12-17 19:32:59.937  1795  2750 D PowerManagerService: Setting HAL interactive mode to true
+12-17 19:32:59.937  1795  2750 I QTI PowerHAL: Got set_interactive hint
+12-17 19:32:59.937  1795  2750 D libfingersense_wrapper: Calling fingersense_on_resume()
+12-17 19:32:59.937  3180  3578 I ash     : 1795 binder call 2852
+12-17 19:32:59.937  1795  2750 D libfingersense_wrapper: fingersense_on_resume() finished
+12-17 19:32:59.938   612   612 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f9a25b400
+12-17 19:32:59.938   612   612 I SDM     : HWCDisplay::SetPowerMode: display = 0, mode = 2
+12-17 19:32:59.938   612   612 I SDM     : DisplayBase::SetDisplayState: Set state = 1, display 0
+12-17 19:32:59.938   836  2387 I knuckle_sensor: Sending SAM_ENABLE to fs_data

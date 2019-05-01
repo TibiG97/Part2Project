@@ -1,0 +1,100 @@
+12-17 19:37:26.102  1795 16232 I NotificationManager: enqueueNotificationInternal: pkg=com.tencent.mm id=4097 notification=Notification(pri=1 contentView=null vibrate=[] sound=null tick defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=PRIVATE)
+12-17 19:37:26.105  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.tencent.mm|4097|null|10105
+12-17 19:37:26.107  1795  1795 V HwNotificationManagerService: isHwSoundAllow pkg=com.tencent.mm, userId=0, cfg=3
+12-17 19:37:26.107  1795  1795 V HwNotificationManagerService: isHwVibrateAllow pkg=com.tencent.mm, userId=0, cfg=3
+12-17 19:37:26.108  1795  1795 I NotificationManager: updateLightsLocked,mInCall =false,mScreenOn = false,ledNotification == null?false
+12-17 19:37:26.108  1795  1795 I Sensor  : set flash ledARGB=0xff00ff00, ledOn:300, ledOff:1000
+12-17 19:37:26.108  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: true ledOnMS: 300 ledOffMS :1000
+12-17 19:37:26.108  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:37:26.108  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:37:26.111  3180  3578 I ash     : 1795 binder call 2852
+12-17 19:37:26.120  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.tencent.mm user=UserHandle{0} id=4097 tag=null key=0|com.tencent.mm|4097|null|10105: Notification(pri=1 contentView=null vibrate=[] sound=null tick defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=PRIVATE)) important=4, post=1481974646103, when=1481974646062, vis=0, userid=0
+12-17 19:37:26.120  2852  2852 D StatusBar: updateNotification(StatusBarNotification(pkg=com.tencent.mm user=UserHandle{0} id=4097 tag=null key=0|com.tencent.mm|4097|null|10105: Notification(pri=1 contentView=null vibrate=[] sound=null tick defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=PRIVATE)))
+12-17 19:37:26.122  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:37:26.124  2852  2852 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:37:26.127  2852  2852 I StatusBarIconView: updateTint: tint=1
+12-17 19:37:26.127  2852  2852 D StatusBar: No peeking: not in use: 0|com.tencent.mm|4097|null|10105
+12-17 19:37:26.127  2852  2852 D StatusBar: applyInPlace=true shouldPeek=false alertAgain=true
+12-17 19:37:26.128  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.tencent.mm|4097|null|10105
+12-17 19:37:26.128  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.tencent.mm|4097|null|10105, group=0|com.tencent.mm|4097|null|10105
+12-17 19:37:26.128  2852  2852 D StatusBar: reusing notification for key: 0|com.tencent.mm|4097|null|10105
+12-17 19:37:26.128  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:37:26.129  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:37:26.129  2852  2852 I StatusBarIconView: updateTint: tint=1
+12-17 19:37:26.141  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:37:26.141  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:37:26.141  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:37:26.144  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:37:26.144  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:37:26.145  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:37:26.145  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:37:26.145  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:37:26.145  2852  2852 W AppHandler: sendMessage 4
+12-17 19:37:26.156  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:37:26.159  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:37:26.160  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:37:26.163  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:37:26.163  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:37:26.164  2852  2852 W PanelView: set notification panel padding = 1668
+12-17 19:37:26.164  2852  2852 W PanelView: set notification panel padding = 1668
+12-17 19:37:26.164  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:37:26.164  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:37:26.164  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:37:26.164  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:37:26.164  2852  2852 W PanelView: set notification panel padding = 1668
+12-17 19:37:26.164  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:37:26.164  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:37:26.166  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:37:26.166  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:37:26.167  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:false, mDimmed:true
+12-17 19:37:26.167  2852  2852 W HwLockScreenPanel: Handle message: 4
+12-17 19:37:26.393  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:37:26.394  3879  3892 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=null][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=4] uid =10105 pid =4492
+12-17 19:37:26.397  3879  3892 I HwLauncher: ProviderCallUtils callBadge isCloned = false
+12-17 19:37:26.417  1795 15987 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:37:26.421  3879  5007 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=[shortcut_c2a11dc3924dc2a9c382c380c2bc7dc2ad40c3a7c289c3bec28b547dc2b0c2a6]][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=2] uid =10105 pid =4492
+12-17 19:37:26.422  1795 17832 D PowerManagerService: release:lock=9380311, flg=0x0, tag="WakerLock:188385320", name=com.tencent.mm", ws=null, uid=10105, pid=4634
+12-17 19:37:26.423  1795 17832 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:37:26.429  3879 11576 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=null][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=4] uid =10105 pid =4492
+12-17 19:37:26.432  3879 11576 I HwLauncher: ProviderCallUtils callBadge isCloned = false
+12-17 19:37:26.446  1795  3253 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:37:26.450  3879  5881 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=[shortcut_c2a51ac39f4ec2a0c386c385c2b37ac2a040c3a7c289c3bec28b547dc2b0c2a6]][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=4] uid =10105 pid =4492
+12-17 19:37:26.566  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:37:26.643  1795  1795 I TrafficMonitor: update:rxPkts:4,txPkts:4,rxBytes:925,txBytes:492
+12-17 19:37:26.643  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:37:26.643  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:37:26.667  1795 11747 D PowerManagerService: release:lock=157725228, flg=0x0, tag="WakerLock:192052083", name=com.tencent.mm", ws=null, uid=10105, pid=4634
+12-17 19:37:26.668  1795 11747 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:37:26.902  1795  3121 D PowerManagerService: release:lock=116683003, flg=0x0, tag="WakerLock:218529747", name=com.tencent.mm", ws=null, uid=10105, pid=4634
+12-17 19:37:26.903  1795  3121 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:37:26.903  1795  3121 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:06.520   597   597 I rmt_storage: rmt_storage_connect_cb: clnt_h=0x128 conn_h=0x7f8862a370
+12-17 19:40:06.520   597   597 I rmt_storage: rmt_storage_rw_iovec_cb: /boot/modem_fs2: clnt_h=0x128: req_h=0x128 msg_id=3: R/W request received
+12-17 19:40:06.520   597   597 I rmt_storage: wakelock acquired: 1, error no: 42
+12-17 19:40:06.520   597   780 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x128 Unblock worker thread (th_id: 547747263568)
+12-17 19:40:06.527  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:40:06.528  3180  3332 I DeviceMonitor:  uid:10105 pid:4634 flags:1 tag:WakerLock:218529747 wakeup time:160630
+12-17 19:40:06.528  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:40:06.528  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:40:06.528  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:40:06.528  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:40:06.528  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:40:06.528  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:40:06.528  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:40:06.528  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:40:06.528  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:40:06.529  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:40:06.529  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:40:06.530  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:40:06.530  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:40:06.530  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:40:06.530  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:40:06.530  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:40:06.530  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:40:06.530  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:40:06.530  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:40:06.533  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:40:06.535  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 4 mComponentName :ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:40:06.535  3879  4071 I HwLauncher: BadgeContentObserver newBadgeNumber:4,oldBadgeNumber:3 mComponentName : ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:40:06.537  3879  4071 D ApplicationPackageManager: queryIntentActivitiesAsUser size results:1, for package:com.tencent.mm
+12-17 19:40:06.537  3879  4071 I HwLauncher: AllIdleAppsList  updatePackage  isCloneApp =  false

@@ -1,0 +1,100 @@
+12-17 19:32:36.347  1795  2739 D HuaweiWifiWatchdogStateMachine: LM mrssi=-57
+12-17 19:32:36.347  1795  1795 D WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -57
+12-17 19:32:36.348  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current loss[-57]=0%, volume=6
+12-17 19:32:36.348  1795  1795 I QosMonitor: queryRtt: rtt_type = 3
+12-17 19:32:36.348  1795  1795 I WifiProJNI: ######### GET RTT:3 ########
+12-17 19:32:36.348  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=7
+12-17 19:32:36.348  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history loss[-57]=0%, volume=40842
+12-17 19:32:36.348  1795  2737 D WifiProJNI: Received kernel message payload: event 4
+12-17 19:32:36.348  1795  2739 I HuaweiWifiWatchdogStateMachine: spd good count:0, add sc:0.0, rate:1.0
+12-17 19:32:36.349  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=9
+12-17 19:32:36.349  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:32:36.349  1795  1795 D HuaweiWifiWatchdogStateMachine: setSampleRtt: unvalid rtt
+12-17 19:32:36.350  1795  2739 D HuaweiWifiWatchdogStateMachine: high data flow: protection_counter = 0,  not_detect_counter = 6
+12-17 19:32:36.350  1795  2739 D HuaweiWifiWatchdogStateMachine: high data flow scenario: 0 --> 0 rx bytes =3KB
+12-17 19:32:36.350  1795  2739 I HuaweiWifiWatchdogStateMachine: current mHighDataFlowRate = 1.0
+12-17 19:32:36.351  1795  2739 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 6, 0. Lr =0% Totpkt=6
+12-17 19:32:36.351  1795  1795 I WifiProJNI: ######### CMD_QUERY_PKTS ########
+12-17 19:32:36.351  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=1
+12-17 19:32:36.352  1795  2737 D WifiProJNI: Received kernel message payload: event 0
+12-17 19:32:36.353  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=9
+12-17 19:32:36.353  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:32:36.354  1795  1795 I MQoS    : rtt=250,tcp_tx_pkts=1480287,tcp_rx_pkts=1768498
+12-17 19:32:36.354  1795  2739 D HuaweiWifiWatchdogStateMachine: dumpTcpResult: len=9,rtt=250,rttPkt=6,rttWn=105,cgt=0,cgtWn=0
+12-17 19:32:36.354  1795  2739 I HuaweiWifiWatchdogStateMachine: PTcp RTT:0, rtt pkt=0, tcp_rx=0, tcp_tx=0, tcp_reTran=0, rtRate=0
+12-17 19:32:36.354  1795  2739 D HuaweiWifiWatchdogStateMachine: mRssiBadCount =0, RSSI not bad.
+12-17 19:32:36.355  1795  2739 D HuaweiWifiWatchdogStateMachine: detectNetworkAvailable:hw.wifipro.dns_fail_count = 1001
+12-17 19:32:36.355  1795  2739 I HuaweiWifiWatchdogStateMachine: rs ota tcp lr rttvb bad: false, false, false, false, false; rsth:-75
+12-17 19:32:36.355  1795  2739 D HuaweiWifiWatchdogStateMachine: GSC:0, GSR:1.0, RSR:1.0, RTH:-75
+12-17 19:32:36.355  1795  2739 D HuaweiWifiWatchdogStateMachine: bqeLevel = 0 rtt=0,rtt_pkts=0 speed=0 rssi=-57
+12-17 19:32:36.355  1795  2739 I HuaweiWifiWatchdogStateMachine:  pkt chk not bad, reset sc to 0.
+12-17 19:32:36.355  1795  2739 D HuaweiWifiWatchdogStateMachine: ### mPktChkBadCnt=0
+12-17 19:32:36.357  1795  5350 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+12-17 19:32:36.381  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:36.443  3782 20387 V AudioManager: isMusicActive...
+12-17 19:32:36.444  3782 20387 V AudioManager: isWiredHeadsetOn...
+12-17 19:32:36.702  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:32:36.702  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:32:36.702  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:32:36.767  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:36.779  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:36.965  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:37.105  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:37.159  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:37.255   633 31867 I SDK     : <2016-12-17 19:32:37> [NOTICE] SDK: UE-SeC 2016-12-17 19:32:37:255 Level[NOTICE] magic[3368294688 1013]:s(0, 0),r(0, 0)in 20s;vsock(135716B, 10762B, 0, 0), sock(846, 897, 0, 0), times(34, 0, 194, 57), delay(0, 0)ms, m(0, 6144)KB, p:38839, s:38839, t(148, 1, 32198B, 50795B), u(0, 0, 176580B, 47974B), c(2247, 2363, 0, 0), e(67954, 1639)/(1330, 1639), k:73, d(589, 677), de(0), s(online, 2, 1), SSL(0), UDP(0), r_d(0), s_d(0), c_d(0), dur(1383 m), vs(0, 0, 0), sysFM(0 KB), ls(1779, 1779),bypass[0]:[0]
+12-17 19:32:37.255   633 31867 I SDK     : 
+12-17 19:32:59.894  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:59.897  1795  3121 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:32:59.897  1795  3121 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:32:59.898  1795  1825 D PowerManagerService: updateIsPoweredLocked: wasPowered=false, mIsPowered=false, oldPlugType=0, mPlugType=0, mBatteryLevel=78
+12-17 19:32:59.898  1795  1825 I HwCustPowerManager_FLOW: handleDreamLocked
+12-17 19:32:59.899  2852  2852 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-17 19:32:59.899  2852  2852 W KeyguardUpdateMonitor: ACTION_BATTERY_CHANGED AMP: 0; Volt: 0
+12-17 19:32:59.900  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:32:59.900  2852  2852 W KeyguardUpdateMonitor: ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000
+12-17 19:32:59.900  2852  2852 I KgBattery: BatteryInfo updated:  3lpc-1
+12-17 19:32:59.900  2852  2852 W AppHandler: sendMessage with obj100
+12-17 19:32:59.900  2852  2852 D KeyguardUpdateMonitor: handleBatteryUpdate
+12-17 19:32:59.900  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:32:59.900  2852  2852 W HwLockScreenPanel: Handle message: 100
+12-17 19:32:59.901  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:32:59.902  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 9.000000
+12-17 19:32:59.902  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =2058137364 
+12-17 19:32:59.902  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:false
+12-17 19:32:59.902  1795  1825 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.Display".
+12-17 19:32:59.902  3782  3862 W QCNEJ   : |CORE| CNE received unexpected action: android.intent.action.BATTERY_CHANGED
+12-17 19:32:59.902  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:32:59.903  1795  1825 I WindowManger_keyguard: Screen turned off...
+12-17 19:32:59.903  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:32:59.903  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:32:59.903  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:32:59.903  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:32:59.903  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:32:59.903  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:32:59.903  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:32:59.903  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:32:59.903  1795  1808 V HwBroadcastQueue: trim and enqueue background Parallel:(1) Ordered:(0)(BroadcastRecord{eb6118b u-1 android.intent.action.BATTERY_CHANGED})
+12-17 19:32:59.903  1795  1808 V HwBroadcastQueue: trim and enqueue background Parallel:(2) Ordered:(0)(BroadcastRecord{9600268 u-1 android.intent.action.BATTERY_CHANGED})
+12-17 19:32:59.903  1795  1808 V HwBroadcastQueue: trim and enqueue background Parallel:(3) Ordered:(0)(BroadcastRecord{30ce681 u-1 android.intent.action.BATTERY_CHANGED})
+12-17 19:32:59.903  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:32:59.903  1795  1825 V KeyguardServiceDelegate: onScreenTurnedOff()
+12-17 19:32:59.903  1795  1825 I WindowManger_keyguard: onScreenTurnedOff()
+12-17 19:32:59.904  1795  1825 I HwScreenOnProximityLock: removeProximityView success vp android.view.ViewRootImpl@37fa326
+12-17 19:32:59.904  1795  1825 D Sensors : batch called handle:2 sample_ns:20000000 latency_ns:0
+12-17 19:32:59.904  1795  1825 D Sensors : pa2240-proximity calling driver setDelay 20 ms
+12-17 19:32:59.904  1795  1825 E huawei_ProximitySensor_CPP_Test: write 20 failed
+12-17 19:32:59.904  2852  2866 D KeyguardService: Caller checkPermission fail
+12-17 19:32:59.904  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:32:59.904  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:32:59.904  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:32:59.904  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:32:59.904  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:32:59.904  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:32:59.904  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:32:59.904  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:32:59.904  2852  2866 D KeyguardService: KGSvcCall onScreenTurnedOff.
+12-17 19:32:59.904  2852  2866 D KeyguardViewMediator: notifyScreenTurnedOff
+12-17 19:32:59.905  1795  1825 D HwNormalizedAutomaticBrightnessController: set power status:mPowerStatus=true,powerStatus=false
+12-17 19:32:59.905  1795  1795 I DeviceIdleController: updateChargingLocked: charging=false
+12-17 19:32:59.905  1795  1795 D WifiService: onReceive, action:android.intent.action.BATTERY_CHANGED
+12-17 19:32:59.905  1795  1795 D WifiService: ACTION_BATTERY_CHANGED pluggedType: 0

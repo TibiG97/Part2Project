@@ -1,0 +1,100 @@
+12-17 19:31:50.750  1795  1825 D DisplayPowerController: Animating brightness: target=15, rate=0
+12-17 19:31:50.751  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:50.751  1795  1825 D DisplayPowerController: Animating brightness: target=15, rate=40
+12-17 19:31:50.796  1795  2750 D SurfaceControl: Excessive delay in setPowerMode(): 217ms
+12-17 19:31:50.800  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:50.801  3608  3608 D InCall  : InCallActivity - onResume()... end
+12-17 19:31:50.801  3608  3608 I InCall  : VideoCallFragment - onResume
+12-17 19:31:50.801  3608  3608 I InCall  : VideoCallPresenter - isVideoCallWorking, state is: 3
+12-17 19:31:50.801  3608  3608 I InCall  : VideoCallFragment - onResume: Surface exist, resume videos
+12-17 19:31:50.801  3608  3608 D InCall  : VideoCallPresenter - resumeVideo: Error bad state mPrimaryCall=[Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)] mVideoCall=null
+12-17 19:31:50.802  3608  3608 I InCall  : VTCallButtonFragment - --- onResume ---
+12-17 19:31:50.802  3608  3608 I ActivityManager_activity: Resuming ActivityRecord{fd45985 token=android.os.BinderProxy@af8ea9b {com.android.incallui/com.android.incallui.InCallActivity}} with isForward=true,forwardBitChanged=true onlyLocalRequest=false
+12-17 19:31:50.812  3608  3608 I InCall  : CallList - hasAnyLiveCall call = [Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)]
+12-17 19:31:50.812  3608  3608 I InCall  : ProximitySensor - isDisplayOn: true
+12-17 19:31:50.814  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:50.815  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:50.815   832  1840 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:50.815   832  1840 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:50.816  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:50.816  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:50.817  1795  3238 I qti_sensors_hal: flush,395,handle 0
+12-17 19:31:50.817  1795  3238 I qti_sensors_hal: flush,260 handle 0
+12-17 19:31:50.818  1795 16501 D PowerManagerService: release:lock=223841435, flg=0x0, tag="RILJ_ACK_WL", name=com.android.phone", ws=null, uid=1001, pid=3218
+12-17 19:31:50.819  1795 16501 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:50.819  1795 16501 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:50.822  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=true
+12-17 19:31:50.822  1795  1795 I DeviceIdleController: becomeActiveLocked, reason = screen
+12-17 19:31:50.824  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:50.828  1795  1795 I EyeProtectionControllerImpl: onReceive intent action = android.intent.action.SCREEN_ON
+12-17 19:31:50.831  1795  2736 D HwInnerWifiManagerImpl: SupplicantState = COMPLETED
+12-17 19:31:50.831  1795  2736 D HwInnerWifiManagerImpl: isPhoneAP = false
+12-17 19:31:50.834  2883  2883 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:31:50.835  1795 15982 D PowerManagerService: acquire lock=184063844, flags=0x1, tag="NetworkStats", name=android, ws=null, uid=1000, pid=1795
+12-17 19:31:50.835  1795 15982 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:50.836  1795 15982 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:50.837  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:50.838  3218  4159 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:31:50.838  3218  4159 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:31:50.839  1795 15982 D NetdConnector: SND -> {11602 bandwidth gettetherstats}
+12-17 19:31:50.840  1795  2665 D NetdConnector: RCV <- {200 11602 Tethering stats list completed}
+12-17 19:31:50.841  2883  2883 I HwSystemManager: AutoCleanReceiveServer:receive action:android.intent.action.SCREEN_ON
+12-17 19:31:50.841  1795  2665 D NetdConnector: RCV <- {200 11602 Tethering stats list completed}
+12-17 19:31:50.843  1795 15982 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:31:50.843  1795 15982 D HwNetworkStatsService: mActiveIface: null
+12-17 19:31:50.844  1795  2736 E hwintelligencewifi: getCurrentCellid type type = PHONE_TYPE_GSM
+12-17 19:31:50.845  1795 15982 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+12-17 19:31:50.845  1795  2736 E hwintelligencewifi: getCurrentCellid type is PHONE_TYPE_GSM
+12-17 19:31:50.846  3168  3168 I CHR_ChrDataServiceTracker: handledataswitchchanged
+12-17 19:31:50.846  1795  2736 E hwintelligencewifi: getCurrentCellid PHONE_TYPE_GSM cellidString = 460003645
+12-17 19:31:50.846  1795  2736 E hwintelligencewifi: updataApInfo cellid =460003645
+12-17 19:31:50.846  1795  2736 E hwintelligencewifi: addCurrentApInfo cellid =460003645
+12-17 19:31:50.847  1795  2736 E hwintelligencewifi: addCurrentApInfo info is already there
+12-17 19:31:50.847  1795  2736 W hwintelligencewifi: updateBssidTimer time = 1481974310847
+12-17 19:31:50.847  1795 15982 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:31:50.848  1795 15982 D PowerManagerService: release:lock=184063844, flg=0x0, tag="NetworkStats", name=android", ws=null, uid=1000, pid=1795
+12-17 19:31:50.848  1795  3077 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_ON
+12-17 19:31:50.848  1795 15982 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:50.848  1795 15982 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:50.848  1795  3077 I GnssLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:true
+12-17 19:31:50.848  1795  3077 I GnssLocationProvider: disableGps:false  isEnabled()=true
+12-17 19:31:50.851  2883  3040 E HwSystemManager: TrafficNotifyAfterLocked:screen notification will not notify
+12-17 19:31:50.854  1795  3121 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:50.858  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:31:50.858  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:31:50.860  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:31:50.860  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:31:50.860  1795  2736 E hwintelligencewifi: inlineAddCurrentApInfo mInfos.size()=132
+12-17 19:31:50.861  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_ON  flag:1342177296 
+12-17 19:31:50.869  3180  3332 I BatteryMonitor: screen off: 4s, awake: 4s wakeups: 0, battery changed: 0
+12-17 19:31:50.870  3180  3578 D HwMultiWindowEx: isInMultiWindowMode ret: 0
+12-17 19:31:50.870  3180  3578 I BacklightControl: can't adjust backlight when app launch from other scene.
+12-17 19:31:50.871  3608  3608 D InCall  : CallCardFragment - onGlobalLayout
+12-17 19:31:50.871  3180  3578 I ThermalStateManager: handle action thermal policy:208
+12-17 19:31:50.873  1795  1821 I ActivityManager_activity: Incall is gone
+12-17 19:31:50.873  1795  1821 I ActivityManager_activity: windowsGone(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}
+12-17 19:31:50.878  3180  3578 I ash     : ash->screen on
+12-17 19:31:50.880  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:31:50.881  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:31:50.881  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: true
+12-17 19:31:50.881  1795  3975 E LocSvc_libulp: I/int ulp_msg_process_system_update(const UlpSystemEvent): systemEvent:0 
+12-17 19:31:50.886  1795  3237 I AlarmManager: remove(PendingIntent{180c67: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) changed bounds; rebatching
+12-17 19:31:50.886  3180  3578 I ash     : ash->screen unlock
+12-17 19:31:50.889  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:50.890  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:31:50.890  3608  3608 I ActivityManager_activity: Reporting idle of ActivityRecord{fd45985 token=android.os.BinderProxy@af8ea9b {com.android.incallui/com.android.incallui.InCallActivity}} finished=false
+12-17 19:31:50.890  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:31:50.893  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:31:50.893  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen on event
+12-17 19:31:50.893  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: interrupt
+12-17 19:31:50.896  1795  2377 V HwPackageManagerService: Returning system default Launcher 
+12-17 19:31:50.896  1795  2377 I AwareLog: AwareMem_EventTracker: [APP_ACTIVITY_FINISH_123024066] is abandoned for memory 829756
+12-17 19:31:50.897  3218  3234 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:50.900  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 0.000000
+12-17 19:31:50.900  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =1776186366 
+12-17 19:31:50.901  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:true
+12-17 19:31:50.901  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:50.901  1795  1825 D DisplayPowerController: Animating brightness: target=15, rate=40
+12-17 19:31:50.901  1795  1825 I PowerManager_screenOn: PowerManagerService goToSleepNoUpdateLocked: eventTime=123024073, reason=7, flags=0, uid=1000
+12-17 19:31:50.901  1795  1825 I PowerManagerService: Going to sleep due to proximity...
+12-17 19:31:50.901  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=3, reason=7, interactive=false, mInteractive=true, mInteractiveChanging=true

@@ -1,0 +1,100 @@
+12-17 19:55:46.940  1795  2326 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123201386, event=2, flags=0x0, uid=1000
+12-17 19:55:46.940  1795  2326 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=2, uid=1000
+12-17 19:55:46.940  2852  2852 V KeyguardUpdateMonitor: KGSvcFp Finger onAuthenticationSucceeded result= android.hardware.fingerprint.FingerprintManager$AuthenticationResult@175aa52
+12-17 19:55:46.940  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:55:46.940  1795  2326 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.940  2852  2852 D TimeKeeper: getTimeTickInfo:[mMillisUntilFinished:0, mHour:0, mMinute:0, mSecond:0]
+12-17 19:55:46.940  2852  2852 I KeyguardUpdateMonitor: hasFingerprintUnlockTimedOut = true
+12-17 19:55:46.940  2852  2852 D KeyguardUpdateMonitor: Fingerprint timeout
+12-17 19:55:46.940  2852  2852 I KeyguardUpdateMonitor: SystemUI may crashed at earlier time. 123201387
+12-17 19:55:46.940  2852  2852 D KG_Policy: getRemainingChance 5
+12-17 19:55:46.941  2852  2852 I FingerprintController: currentUid = 0 userId=0
+12-17 19:55:46.942  2852  2852 I FingerprintController: FpPerformance onFingerAuthenticated!
+12-17 19:55:46.942  2852  2852 D TimeKeeper: getTimeTickInfo:[mMillisUntilFinished:0, mHour:0, mMinute:0, mSecond:0]
+12-17 19:55:46.942  2852  2852 I KeyguardUpdateMonitor: hasFingerprintUnlockTimedOut = true
+12-17 19:55:46.942  2852  2852 D KeyguardUpdateMonitor: Fingerprint timeout
+12-17 19:55:46.942  2852  2852 I KeyguardUpdateMonitor: SystemUI may crashed at earlier time. 123201388
+12-17 19:55:46.942  2852  2852 I FingerprintController: onFingerprintAuthenticated with mMode : 1, wasDeviceInteractive :false
+12-17 19:55:46.942  2852  2852 I FingerprintController: fp wakelock: use fast wakeup solution
+12-17 19:55:46.942  2852  2852 W StatusBarWindowManager: Apply window without WALLPAPER
+12-17 19:55:46.942  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:55:46.942  2852  2852 I StatusBarWindowManager: apply skiped :0
+12-17 19:55:46.942  2852  2852 D KeyguardViewMediator: keyguardDone(true)
+12-17 19:55:46.942  1795  2326 D PowerManagerService: acquire lock=113216195, flags=0x1, tag="lockoutResetCallback", name=com.android.systemui, ws=null, uid=10033, pid=2852
+12-17 19:55:46.942  2852  2852 W StatusBarWindowManager: Apply window without WALLPAPER
+12-17 19:55:46.942  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:55:46.942  1795  2326 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.942  2852  2852 I StatusBarWindowManager: apply skiped :0
+12-17 19:55:46.942  2852  2852 I TimeKeeper: resetErrorCount kg_policy_pswd_pin_patten_x0_0
+12-17 19:55:46.942  2852  2852 D TimeKeeper: remove:kg_policy_pswd_pin_patten_x0_0
+12-17 19:55:46.943  1795 11746 D FingerprintService:  Remaining Num Attempts = 5
+12-17 19:55:46.944  2852  2852 D KG_Policy_FP: FingerPrint state is already reset
+12-17 19:55:46.944  2852  2852 W KeyguardUpdateMonitor: Fingerprint RunningStateChanged. 0
+12-17 19:55:46.944  2852  2925 W HwLockScreenReporter: report result = falsereport type:127 msg:
+12-17 19:55:46.944  2852  2925 W HwLockScreenReporter: report result = falsereport type:128 msg:{unlock_time:276, isScreenOff:true}
+12-17 19:55:46.945  1795  2326 V FingerprintService: ClientMonitor destroy
+12-17 19:55:46.945  1795  2326 V FingerprintService: Done with client: com.android.systemui
+12-17 19:55:46.945  2852  2852 D KeyguardViewMediator: handleKeyguardDone
+12-17 19:55:46.945  2852  2852 D KeyguardViewMediator: handleHide
+12-17 19:55:46.946  2852  2852 D PhoneStatusBar: disable: < expand icons* alerts system_info* BACK HOME RECENT clock navigationbar SEARCH quick_settings >
+12-17 19:55:46.946  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{3f96501 V.ED..... ......ID 0,1-66,43 #7f1401be app:id/battery_outside_percent}
+12-17 19:55:46.947  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.time.HwStatusBarClock{dbc7fa6 V.ED..... ......ID 294,0-441,72 #7f1401c9 app:id/clock}
+12-17 19:55:46.947  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{29531d0 V.ED..... ......I. 0,0-144,49 #7f14004e app:id/msim_status_bar_operators_card_one_id}
+12-17 19:55:46.947  2852  2852 I HwPhoneStatusBar: hideKeyguard:false
+12-17 19:55:46.947  2852  2852 I HwPhoneStatusBar: exit keyguard:1481974831594
+12-17 19:55:46.947  2852  2852 I HwPhoneStatusBar: setBarState:0
+12-17 19:55:46.947  2852  2852 I HwPhoneStatusBar: change state: 1 --> 0, StartLockTime=1481974831581
+12-17 19:55:46.947  2852  2852 I HwPhoneStatusBar: exit lock mode:9223372036854775807
+12-17 19:55:46.948  1795 17832 D Sensors : batch called handle:2 sample_ns:200000000 latency_ns:0
+12-17 19:55:46.948  1795 17832 D Sensors : pa2240-proximity calling driver setDelay 200 ms
+12-17 19:55:46.948  1795 17832 E huawei_ProximitySensor_CPP_Test: write 200 failed
+12-17 19:55:46.949  2852  2852 W StatusBarWindowManager: Apply window without WALLPAPER
+12-17 19:55:46.949  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:55:46.949  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: -1; Flag: 81860040
+12-17 19:55:46.949  3180  3332 I SensorState: sensor:20 enable:false uid:10033
+12-17 19:55:46.949  3180  3332 I SensorState: removeSensor,mHandles:{}
+12-17 19:55:46.949  3180  3332 I PGServer: report state:4 event type:2 pid:20 uid:10033 pkg:null to pid: 1795
+12-17 19:55:46.949  2852  2852 I PanelView: instantCollapse
+12-17 19:55:46.950  2852  2852 W PanelView: set notification panel padding = 1675
+12-17 19:55:46.950  2852  2852 I StackScroller: setIsExpanded: false
+12-17 19:55:46.950  2852  2852 I NotificationGroupManager: collapseAllGroups:
+12-17 19:55:46.950  2852  2852 W StatusBarWindowManager: Apply window without WALLPAPER
+12-17 19:55:46.950  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:55:46.950  2852  2852 I StatusBarWindowManager: apply skiped :0
+12-17 19:55:46.950  2852  2852 I PanelBar: panelExpansionChanged 0.0, false
+12-17 19:55:46.950  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundAlpha:alpha=1.0
+12-17 19:55:46.950  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:55:46.950  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:55:46.950  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:55:46.951  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:55:46.951  2852  2852 I TrafficPanelManager: showTraffic
+12-17 19:55:46.951  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:55:46.951  2852  2852 I QSCustomizer: hide:x=0, y=0, isShown=false
+12-17 19:55:46.951  1795  6986 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:55:46.951  2852  2852 I QSContainer: updateQsState:false
+12-17 19:55:46.952  2852  2914 I SendBroadcastPermission: action:com.android.systemui.statusbar.visible.change, mPermissionType:0
+12-17 19:55:46.952  2852  2852 I QSContainer: updateQsState:false
+12-17 19:55:46.952  2852  2852 I StackScroller: setScrollingEnabled: true
+12-17 19:55:46.952  1795 15988 W ActivityManager: Sending non-protected broadcast com.android.systemui.statusbar.visible.change from system 2852:com.android.systemui/u0a33 pkg com.android.systemui
+12-17 19:55:46.952  1795 15988 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{506ad58 2852:com.android.systemui/u0a33}, intent:com.android.systemui.statusbar.visible.change, receiver size:1, flags: 10000400
+12-17 19:55:46.953  1795 15988 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{506ad58 2852:com.android.systemui/u0a33}
+12-17 19:55:46.953  1795 15988 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{1a7af40 u-1 com.android.systemui.statusbar.visible.change}: prev had 0
+12-17 19:55:46.953  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{1a7af40 u-1 com.android.systemui.statusbar.visible.change}, has 1 receivers
+12-17 19:55:46.954  2852  2914 I PanelBar: INTENT_STATUSBAR_VISIBLE_CHANGE sended, EXTRA_VISIBLE = false
+12-17 19:55:46.954   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:55:46.954   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:55:46.954   606  2379 E libteec : send data return = 128
+12-17 19:55:46.955   835  2385 E libteec : receive data len = 128
+12-17 19:55:46.955   835  2385 E libteec : begin
+12-17 19:55:46.955   835  2385 E libteec : qsc_decode end
+12-17 19:55:46.955   835  2385 E libteec : begin
+12-17 19:55:46.955   606  2379 E libteec : receive data len = 128
+12-17 19:55:46.956  2852  2852 W HwKeyguardPolicy: KGSvcCall updateKeyguardState 0->0; false false
+12-17 19:55:46.956  2852  2852 I Tile.WifiTile: refreshState=wifi, SignalState[,icon=ResourceIcon[resId=0x7f0203a1],label=Huawei-Employee,labelTint=1,textChangedDelay=43,contentDescription=WLAN 已开启,WLAN 信号强度满格。,Huawei-Employee,打开WLAN设置。,dualLabelContentDescription=已连接到Huawei-Employee。,minimalContentDescription=WLAN,WLAN 信号强度满格。,Huawei-Employee,minimalAccessibilityClassName=android.widget.Switch,expandedAccessibilityClassName=android.widget.Switch,autoMirrorDrawable=false,disabledByPolicy=false,enforcedAdmin=null,value=true,connected=true,activityIn=false,activityOut=true,overlayIconId=0,filter=true,wideOverlayIcon=false]
+12-17 19:55:46.957  2852  2852 I Tile.BluetoothTile: refreshState=bt, BooleanState[,icon=ResourceIcon[resId=0x7f0201b7],label=蓝牙,labelTint=0,textChangedDelay=83,contentDescription=蓝牙关闭。,打开蓝牙设置。,dualLabelContentDescription=蓝牙,minimalContentDescription=蓝牙：%s。,minimalAccessibilityClassName=android.widget.Switch,expandedAccessibilityClassName=android.widget.Switch,autoMirrorDrawable=false,disabledByPolicy=false,enforcedAdmin=null,value=false]
+12-17 19:55:46.957  2852  2852 I Tile.DataSwitchTile: refreshState=data, BooleanState[,icon=ResourceIcon[resId=0x7f0201f5],label=移动数据,labelTint=0,textChangedDelay=0,contentDescription=移动数据,dualLabelContentDescription=null,minimalContentDescription=null,minimalAccessibilityClassName=android.widget.Switch,expandedAccessibilityClassName=android.widget.Switch,autoMirrorDrawable=false,disabledByPolicy=false,enforcedAdmin=null,value=false]
+12-17 19:55:46.957  2852  2852 I Tile.SoundSilentTile: refreshState=sound, RingModeState[,icon=com.android.systemui.qs.QSTile$DrawableIcon@8fb5eb0,label=静音,labelTint=1,textChangedDelay=0,contentDescription=静音,dualLabelContentDescription=null,minimalContentDescription=null,minimalAccessibilityClassName=android.widget.Switch,expandedAccessibilityClassName=android.widget.Switch,autoMirrorDrawable=false,disabledByPolicy=false,enforcedAdmin=null,value=true,mode=0]
+12-17 19:55:46.958 17709 17709 D HwIntelligent3_IntelligentReceiver: onReceive ,intent:Intent { act=com.android.systemui.statusbar.visible.change flg=0x10 cmp=com.huawei.intelligent/.main.receiver.IntelligentReceiver (has extras) }
+12-17 19:55:46.958  2852  2852 I Tile.RotationLockTile: refreshState=rotation, BooleanState[,icon=ResourceIcon[resId=0x7f0202ed],label=自动旋转,labelTint=1,textChangedDelay=400,contentDescription=自动旋转屏幕,dualLabelContentDescription=null,minimalContentDescription=null,minimalAccessibilityClassName=android.widget.Switch,expandedAccessibilityClassName=android.widget.Switch,autoMirrorDrawable=false,disabledByPolicy=false,enforcedAdmin=null,value=true]
+12-17 19:55:46.958  1795  3237 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{7e9b22a 17709:com.huawei.intelligent/u0a17}, flags: 10000400
+12-17 19:55:46.959  1795  3237 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{74b4e79 u0 euid: 0 com.huawei.intelligent/.main.receiver.IntelligentIntentService}, euid: 0

@@ -1,0 +1,100 @@
+12-17 19:40:23.596  1795  3121 D PowerManagerService: release:lock=140805477, flg=0x0, tag="wake-and-unlock wakelock", name=com.android.systemui", ws=null, uid=10033, pid=2852
+12-17 19:40:23.596  1795  3121 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.596  1795  3121 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:23.597  2852  2852 D KeyguardViewMediator: adjustStatusBarLocked: mShowing=false mOccluded=false isSecure=true --> flags=0x0
+12-17 19:40:23.598  1795  3110 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.android.systemui
+12-17 19:40:23.598  1795  3110 I StatusBarManagerService: Disable records remove token DisableRecord{userId=0 pkg=com.android.systemui what1=3600000 what2=0} list: []
+12-17 19:40:23.599  2852  2852 I SendBroadcastPermission: action:android.intent.action.USER_PRESENT, mPermissionType:0
+12-17 19:40:23.602  1795  1825 I WindowManager: waitForKeyguardDismissDone there is no keyguard.
+12-17 19:40:23.602  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:40:23.602  1795  1825 D DisplayPowerController: Display ready!
+12-17 19:40:23.602  1795  1825 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.602  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeFinished mInteractiveChanging=true, mInteractive=true
+12-17 19:40:23.610  1795  1795 I ActivityManager_activity: completedResumed: ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297}, launchTrack: outofsleep resumeTopComplete
+12-17 19:40:23.613  3879  3879 I HwLauncher: Launcher onStart()
+12-17 19:40:23.613  3879  3879 I HwLauncher: Launcher dynamicIconsRegister
+12-17 19:40:23.613  3879  3879 I HwLauncher: DynamicUpdater registerReceiver
+12-17 19:40:23.613  1795  1795 I WindowManger_keyguard: Started waking up...
+12-17 19:40:23.613  1795  1795 I WindowOrientationListener: WindowOrientationListener enabled
+12-17 19:40:23.614  1795  1795 I qti_sensors_hal: batch,376,handle 0, timeout:0 ,period_ns:66667000
+12-17 19:40:23.614  1795  1795 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) handle:0 flags:0x0 period_ns 66667000
+12-17 19:40:23.615  2852  2925 V AudioManager: isStreamMute   streamType: 2
+12-17 19:40:23.615  3879  3879 I HwLauncher: DynamicUpdater call updateFolder
+12-17 19:40:23.615  3879  3879 I HwLauncher: DynamicIcon onResume  isvisible = true   mAttachedToWindow:true    mWindowVisible:truecom.android.deskclock
+12-17 19:40:23.615  3879  3879 I HwLauncher: DynamicUpdater registerReceiver
+12-17 19:40:23.616  3879  4071 E HwLauncher: SettingsEx , no such field.
+12-17 19:40:23.617  3879  4071 W HwLauncher: Clock getDataFormat the getSystemString failed.
+12-17 19:40:23.617  3879  3879 I HwLauncher: DynamicUpdater call updateFolder
+12-17 19:40:23.617  3879  3879 I HwLauncher: DynamicIcon onResume  isvisible = true   mAttachedToWindow:true    mWindowVisible:truecom.android.calendar
+12-17 19:40:23.617  3879  3879 I HwLauncher: DynamicUpdater registerReceiver
+12-17 19:40:23.618  1795  2396 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{506ad58 2852:com.android.systemui/u0a33}, intent:android.intent.action.USER_PRESENT, receiver size:10, flags: 10000400
+12-17 19:40:23.618  1795  2396 D HwPFWLogger: AutoStartupDataMgr:isUnderControll third party not in whitelist: cn.wps.moffice_eng
+12-17 19:40:23.618  1795  2396 D HwPFWLogger: AutoStartupDataMgr:retrieveStartupSettings type 0 of cn.wps.moffice_eng is 0
+12-17 19:40:23.618  1795  2396 I HwPFWLogger: AppAutoStartupPolicy:prevent start receiver of package cn.wps.moffice_eng for action android.intent.action.USER_PRESENT
+12-17 19:40:23.618  1795  2396 D HwPFWLogger: AutoStartupDataMgr:isUnderControll third party not in whitelist: cn.wps.moffice_eng
+12-17 19:40:23.618  1795  2396 D HwPFWLogger: AutoStartupDataMgr:retrieveStartupSettings type 0 of cn.wps.moffice_eng is 0
+12-17 19:40:23.618  1795  2396 I HwPFWLogger: AppAutoStartupPolicy:prevent start receiver of package cn.wps.moffice_eng for action android.intent.action.USER_PRESENT
+12-17 19:40:23.618  1795  2396 D HwPFWLogger: AutoStartupDataMgr:isUnderControll third party not in whitelist: com.Qunar
+12-17 19:40:23.618  1795  2396 D HwPFWLogger: AutoStartupDataMgr:retrieveStartupSettings type 0 of com.Qunar is 0
+12-17 19:40:23.618  1795  2396 I HwPFWLogger: AppAutoStartupPolicy:prevent start receiver of package com.Qunar for action android.intent.action.USER_PRESENT
+12-17 19:40:23.619  3879  4071 I HwLauncher: ClockDynamicUpdater clock update folder at ClockDynamicUpdater
+12-17 19:40:23.619  1795  2396 D HwPFWLogger: AutoStartupDataMgr:isUnderControll third party not in whitelist: com.netease.newsreader.activity
+12-17 19:40:23.619  3879  4071 I HwLauncher: DynamicUpdater updateBitmap end and send update message
+12-17 19:40:23.619  1795  2396 D HwPFWLogger: AutoStartupDataMgr:retrieveStartupSettings type 0 of com.netease.newsreader.activity is 0
+12-17 19:40:23.619  1795  2396 I HwPFWLogger: AppAutoStartupPolicy:prevent start receiver of package com.netease.newsreader.activity for action android.intent.action.USER_PRESENT
+12-17 19:40:23.619  1795  2396 D HwPFWLogger: AutoStartupDataMgr:isUnderControll third party not in whitelist: com.netease.newsreader.activity
+12-17 19:40:23.619  1795  2396 D HwPFWLogger: AutoStartupDataMgr:retrieveStartupSettings type 0 of com.netease.newsreader.activity is 0
+12-17 19:40:23.619  1795  2396 I HwPFWLogger: AppAutoStartupPolicy:prevent start receiver of package com.netease.newsreader.activity for action android.intent.action.USER_PRESENT
+12-17 19:40:23.619  1795  2396 D HwPFWLogger: AutoStartupDataMgr:isUnderControll third party not in whitelist: com.ss.android.article.news
+12-17 19:40:23.619  1795  2396 D HwPFWLogger: AutoStartupDataMgr:retrieveStartupSettings type 0 of com.ss.android.article.news is 0
+12-17 19:40:23.619  1795  2396 I HwPFWLogger: AppAutoStartupPolicy:prevent start receiver of package com.ss.android.article.news for action android.intent.action.USER_PRESENT
+12-17 19:40:23.619  1795  2396 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{506ad58 2852:com.android.systemui/u0a33}
+12-17 19:40:23.619  1795  2396 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{506ad58 2852:com.android.systemui/u0a33}
+12-17 19:40:23.619  1795  2396 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{ebeb68c u0 android.intent.action.USER_PRESENT}: prev had 0
+12-17 19:40:23.620  1795  2709 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{34bf34f 0:system/1000}, flags: 10000400
+12-17 19:40:23.620  3879  3879 I HwLauncher: DynamicUpdater call updateFolder
+12-17 19:40:23.620  3879  4071 I HwLauncher: WeatherDynamicUpdater positiveUpdate at WeatherDynamicUpdater
+12-17 19:40:23.620  3879  3879 I HwLauncher: DynamicIcon onResume  isvisible = true   mAttachedToWindow:false    mWindowVisible:falsecom.huawei.android.totemweather
+12-17 19:40:23.620  3879  3879 I HwLauncher: Launcher  Launcher.onStart() cost 8 ms
+12-17 19:40:23.621  1795  2709 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{34bf34f 0:system/1000}, flags: 10000400
+12-17 19:40:23.621  1795  2709 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{34bf34f 0:system/1000}, flags: 10000400
+12-17 19:40:23.621  2883  3125 I HwSystemManager: StartupResidentService:InnerHandler Message:7
+12-17 19:40:23.622  2852  2852 D UnderLayer: ondraw 0, Rect(0, 0 - 1080, 1920)
+12-17 19:40:23.623  1795  1808 W BroadcastQueue: Permission Denial: broadcasting Intent { act=android.intent.action.USER_PRESENT flg=0x24000010 } from com.android.systemui (pid=2852, uid=10033) requires com.huawei.wifipro.permission.RECV.WIFI_CONNECTED_CONCURRENTLY due to registered receiver BroadcastFilter{a30c562 u0 ReceiverList{6b87c2d 1795 system/1000/u0 local:fc2f344}}
+12-17 19:40:23.623  1795  1808 V HwBroadcastQueue: trim and enqueue background Parallel:(1) Ordered:(0)(BroadcastRecord{ce6af78 u0 android.intent.action.USER_PRESENT})
+12-17 19:40:23.624  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{ebeb68c u0 android.intent.action.USER_PRESENT}, has 4 receivers
+12-17 19:40:23.624  2852  2852 D PhoneStatusBar: disable: < expand ICONS alerts SYSTEM_INFO back* home* recent* clock navigationbar search* quick_settings >
+12-17 19:40:23.624  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.USER_PRESENT
+12-17 19:40:23.624  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:40:23.624  2852  2852 I StatusBarWindowManager: apply skiped :0
+12-17 19:40:23.624  2883  2883 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:40:23.625  1795 16232 D PowerManagerService: acquire lock=184063844, flags=0x1, tag="NetworkStats", name=android, ws=null, uid=1000, pid=1795
+12-17 19:40:23.625  1795  1795 I qti_sensors_hal: read from oem info: data_readback
+12-17 19:40:23.625  1795 16232 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.626  1795  1795 I qti_sensors_hal: 0xcd, 0xb0, 0x24, 0x3e
+12-17 19:40:23.626  1795  1795 I qti_sensors_hal: 0x66, 0xca, 0x3c, 0x3e
+12-17 19:40:23.626  1795  1795 I qti_sensors_hal: 0xc0, 0x2a, 0x7c, 0x3f
+12-17 19:40:23.626  1795 16232 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:23.626  1795  1795 I qti_sensors_hal: 0x55, 0x0, 0x0, 0x0
+12-17 19:40:23.626  1795  1795 I qti_sensors_hal: 0x0, 0x0, 0x0, 0x0
+12-17 19:40:23.626  1795  1795 E qti_sensors_hal: read from oem info: data_valid_flag=0x55
+12-17 19:40:23.626  1795  1795 E qti_sensors_hal: read from oem info: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:40:23.626  1795  1795 E qti_sensors_hal: Final value: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:40:23.626  1795  1795 I qti_sensors_hal: batch:load_acc_oeminf_data x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:40:23.626  1795  1795 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) sample_rate=14.999925Hz report_rate_f=0.000000Hz curr sample rate:14.999925 cur rpt rate:0 max:400.000000 min:1.000000
+12-17 19:40:23.626  1795  1795 I qti_sensors_hal: batch: current sample rate, report rate & buffering are equal to requested (14.999925,0.000000,0)
+12-17 19:40:23.626  1795  1795 I qti_sensors_hal: activate: handle is 0, en is 1
+12-17 19:40:23.626  1795  1795 I qti_sensors_hal: activate: 295 activate sensors is 2000000000001
+12-17 19:40:23.626  1795  1795 I qti_sensors_hal: enable,93:handle is 0, en is 1
+12-17 19:40:23.629  1795  1795 I WindowManger_keyguard: onStartedWakingUp()
+12-17 19:40:23.629  3180  3578 I ash     : ash->screen unlock
+12-17 19:40:23.629  1795  1795 I PowerManager_screenOn: PowerManagerNotifier Sending wake up broadcast.
+12-17 19:40:23.629  2852  2822 D KeyguardService: Caller checkPermission fail
+12-17 19:40:23.629  2852  2822 D KeyguardService: KGSvcCall onStartedWakingUp.
+12-17 19:40:23.629  1795  1795 I SendBroadcastPermission: action:android.intent.action.SCREEN_ON, mPermissionType:0
+12-17 19:40:23.629  2852  2822 W HwLockScreenReporter: report result = falsereport type:122 msg:
+12-17 19:40:23.629  2852  2822 D KeyguardViewMediator: onStartedWakingUp, seq = 483
+12-17 19:40:23.629  2852  2822 D KeyguardViewMediator: notifyStartedWakingUp
+12-17 19:40:23.629  2852  2822 W AppHandler: sendMessage 14
+12-17 19:40:23.630  1795  1825 I DisplayPowerController: Unblocked screen on for keyguard dismiss after 34 ms
+12-17 19:40:23.630  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0

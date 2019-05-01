@@ -1,0 +1,100 @@
+12-17 19:42:24.250  1795  1795 D WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -63
+12-17 19:42:24.250  1795  2739 D HuaweiWifiWatchdogStateMachine: LM mrssi=-63
+12-17 19:42:24.251  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current loss[-63]=0%, volume=37
+12-17 19:42:24.251  1795  1795 I QosMonitor: queryRtt: rtt_type = 3
+12-17 19:42:24.251  1795  1795 I WifiProJNI: ######### GET RTT:3 ########
+12-17 19:42:24.251  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=7
+12-17 19:42:24.251  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history loss[-63]=0%, volume=249
+12-17 19:42:24.251  1795  2739 I HuaweiWifiWatchdogStateMachine: spd good count:0, add sc:0.0, rate:1.0
+12-17 19:42:24.251  1795  2739 I HuaweiWifiWatchdogStateMachine: current mHighDataFlowRate = 1.0
+12-17 19:42:24.251  1795  2739 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 37, 0. Lr =0% Totpkt=37
+12-17 19:42:24.251  1795  1795 I WifiProJNI: ######### CMD_QUERY_PKTS ########
+12-17 19:42:24.251  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=1
+12-17 19:42:24.253  1795  2737 D WifiProJNI: Received kernel message payload: event 4
+12-17 19:42:24.253  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=9
+12-17 19:42:24.253  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:42:24.253  1795  2737 D WifiProJNI: Received kernel message payload: event 0
+12-17 19:42:24.253  1795  1795 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current RTT[-63]=220, volume=13
+12-17 19:42:24.253  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=9
+12-17 19:42:24.253  1795  1795 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history RTT[-63]=282, volume=118
+12-17 19:42:24.253  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:42:24.253  1795  1795 D HuaweiWifiWatchdogStateMachine: setSampleRtt: rtt=220,rtt_pkts =13,rtt_when=0
+12-17 19:42:24.253  1795  1795 I MQoS    : rtt=220,tcp_tx_pkts=1480412,tcp_rx_pkts=1768603
+12-17 19:42:24.254  1795  2739 D HuaweiWifiWatchdogStateMachine: dumpTcpResult: len=9,rtt=220,rttPkt=13,rttWn=0,cgt=0,cgtWn=0
+12-17 19:42:24.254  1795  1795 I QosMonitor: resetRtt: rtt_type = 3
+12-17 19:42:24.254  1795  1795 I WifiProJNI: ######### RESET RTT:3 ########
+12-17 19:42:24.254  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=6
+12-17 19:42:24.254  1795  2739 I HuaweiWifiWatchdogStateMachine: PTcp RTT:220, rtt pkt=13, tcp_rx=26, tcp_tx=30, tcp_reTran=0, rtRate=0
+12-17 19:42:24.254  1795  2739 D HuaweiWifiWatchdogStateMachine: isRttGood is good, AvgRtt = 220, TotPkt = 13
+12-17 19:42:24.254  1795  2739 D HuaweiWifiWatchdogStateMachine: mRssiBadCount =0, RSSI not bad.
+12-17 19:42:24.254  1795  2739 D HuaweiWifiWatchdogStateMachine: detectNetworkAvailable:hw.wifipro.dns_fail_count = 1001
+12-17 19:42:24.254  1795  2739 D HuaweiWifiWatchdogStateMachine: detectNetworkAvailable: tcpRxPkts != 0, reset
+12-17 19:42:24.254  1795  2739 I HuaweiWifiWatchdogStateMachine: rs ota tcp lr rttvb bad: false, false, false, false, false; rsth:-75
+12-17 19:42:24.254  1795  2739 D HuaweiWifiWatchdogStateMachine: GSC:0, GSR:1.0, RSR:1.0, RTH:-75
+12-17 19:42:24.254  1795  2739 D HuaweiWifiWatchdogStateMachine: bqeLevel = 3 rtt=220,rtt_pkts=13 speed=5691 rssi=-63
+12-17 19:42:24.254  1795  2739 D HuaweiWifiWatchdogStateMachine: Enter updateQoeLevel level = 3
+12-17 19:42:24.254  1795  2739 D HuaweiWifiWatchdogStateMachine: updateQoeLevel current level equal to mLastDetectLevel, return
+12-17 19:42:24.254  1795  2739 I HuaweiWifiWatchdogStateMachine:  pkt chk not bad, reset sc to 0.
+12-17 19:42:24.254  1795  2739 D HuaweiWifiWatchdogStateMachine: ### mPktChkBadCnt=0
+12-17 19:42:24.255  1795  5350 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+12-17 19:42:24.306 20894 20910 D UploadFile: key:deviceType value:MLA-AL00
+12-17 19:42:24.306 20894 20910 D UploadFile: key:sysVersion value:MLA-AL00C00B318-log
+12-17 19:42:24.316 20894 20910 D UploadFile: key:deviceID value:d470c2ef
+12-17 19:42:24.316 20894 20910 D UploadFile: key:channelId value:1
+12-17 19:42:24.316 20894 20910 I ChinaServerRequster: 1
+12-17 19:42:24.316 20894 20910 D UploadFile: key:os value:7.0
+12-17 19:42:24.324 20894 20910 D UploadFile: key:imsi value:46002
+12-17 19:42:24.324 20894 20910 D UploadFile: key:encryptType value:0
+12-17 19:42:24.324 20894 20910 D UploadFile: key:sensitiveContain value:true
+12-17 19:42:24.324 20894 20910 D UploadFile: key:fileName value:MLA-AL00_MLA-AL00C00B318-log_D470C2EF_20161217194207137_ALL.zip
+12-17 19:42:24.325 20894 20910 I ChinaServerRequster: fileNameMLA-AL00_MLA-AL00C00B318-log_D470C2EF_20161217194207137_ALL.zip
+12-17 19:42:24.325 20894 20910 D UploadFile: key:size value:6476143
+12-17 19:42:24.325 20894 20910 D UploadFile: key:version value:3
+12-17 19:42:24.325 20894 20910 I ChinaServerRequster: mLogUploadInfo.getUserType():1
+12-17 19:42:24.325 20894 20910 D UploadFile: key:logType value:1
+12-17 19:42:24.325 20894 20910 D UploadFile: key:zipTime value:20161217194207137
+12-17 19:42:24.326 20894 20910 I ChinaServerRequster: mLogUploadInfo.getZipTime():20161217194207137
+12-17 19:42:24.326 20894 20910 D UploadFile: key:logDetailInfo value:[{},{},{},{},{},{},{}]
+12-17 19:42:24.326 20894 20910 I ChinaServerRequster: mLogUploadInfo.getLogDetailInfo():[{},{},{},{},{},{},{}]
+12-17 19:42:24.352 20894 20910 D UploadFile: key:sign value:osgforandroid:447236:icyEVmIe5IRleBBFbnde7YBYtiYEgCx8E3lOXZB5/Bvctv3ALW6VjZcZ/pWsEpuYvsVPiWORT2jpEAYBH5i8fnrR0NI4BtAqx21gUSWc7YZgxiuJRD7koyKnD+qCCztzMD0bncDftmypWU3UPdzf9rcOCe/Xs4S/I8yQ448id4I=
+12-17 19:42:24.354 20894 20910 D UploadFile: key:encryptKey value:AESV2ece0695d3bd5fa021f33b320bdd049e5804c090c
+12-17 19:42:24.355 20894 20910 E ChinaServerRequster: commercial upload, so create secret by logupload
+12-17 19:42:24.355 20894 20910 I ChinaServerRequster: UploadFile.addEndField(dos)
+12-17 19:42:24.355 20894 20910 I ChinaServerRequster: dos.flush()
+12-17 19:42:24.355 20894 20910 I ChinaServerRequster: urlConnection.getInputStream()
+12-17 19:42:24.410 20894 20910 I ChinaServerRequster: finish read
+12-17 19:42:24.434 20894 20910 I ChinaUploader: Uploader
+12-17 19:42:24.434 20894 20910 I ChinaUploader: not encrypt
+12-17 19:42:24.434 20894 20910 I ChinaUploader: upload unencrypted file
+12-17 19:42:24.434 20894 20910 I ChinaUploader: /storage/emulated/0/log/LogService/uploading/MLA-AL00_MLA-AL00C00B318-log_D470C2EF_20161217194207137_ALL.zip
+12-17 19:42:24.435 20894 20910 I ChinaUploader: nspFileSize6476143
+12-17 19:42:24.435 20894 20910 I ChinaUploader: actionUrl:http://118.194.62.168/dlv2/psrv01/hwdevlogbeta/1/2016/12/17/19/311c0568-9640-4e62-aa1d-e128f37cfb3d.zip?resume
+12-17 19:42:24.438 20894 20910 I ChinaUploader: nspCallbackhttp://logservice.vmall.com/osg/logServerAction!uf.htm?lsId=1481974942524130501&st=8wYDXBHvqwtRIMPzaak0xm8vajH2LtMrgAgGZBSx8Uw%3D&dsKey=3&tblName=17
+12-17 19:42:24.438 20894 20910 I ChinaUploader: nspTs1481974942
+12-17 19:42:24.438 20894 20910 I ChinaUploader: type2
+12-17 19:42:24.563   818  1153 I logserver: [adevcheck] [parse_vsync_stat 331][FS]Open file Fail!!
+12-17 19:42:24.563   818  1153 I logserver: [adevcheck] [get_indicate_lcd_refresh_para 901][FS] parse_vsync_result fail,start get_proc_interrupts_para
+12-17 19:42:24.563   818  1153 I logserver: [adevcheck] [get_indicate_lcd_refresh_para 904][FS] disp_output[0].new_val=9688104,disp_output[1].new_val=0,disp_output[2].new_val=0
+12-17 19:42:24.563   818  1153 I logserver: [adevcheck] [handle_vsync_event 362] input value is null
+12-17 19:42:24.563   818  1153 I logserver: [adevcheck] [Analysis_lcd_output_result 916][FS] use kgsl interrupts
+12-17 19:42:24.571 20894 20910 I ChinaUploader: nspFileMd5ce3ba8e9487367f0a3559157d1018385
+12-17 19:42:24.571 20894 20910 I ChinaUploader: nspFileSize6476143
+12-17 19:42:24.571 20894 20910 I ChinaUploader: key: nsp-callback
+12-17 19:42:24.571 20894 20910 I ChinaUploader: value: http://logservice.vmall.com/osg/logServerAction!uf.htm?lsId=1481974942524130501&st=8wYDXBHvqwtRIMPzaak0xm8vajH2LtMrgAgGZBSx8Uw%3D&dsKey=3&tblName=17
+12-17 19:42:24.571 20894 20910 I ChinaUploader: key: nsp-callback-status
+12-17 19:42:24.571 20894 20910 I ChinaUploader: value: 200
+12-17 19:42:24.571 20894 20910 I ChinaUploader: key: nsp-file-md5
+12-17 19:42:24.571 20894 20910 I ChinaUploader: value: ce3ba8e9487367f0a3559157d1018385
+12-17 19:42:24.571 20894 20910 I ChinaUploader: key: nsp-file-size
+12-17 19:42:24.571 20894 20910 I ChinaUploader: value: 6476143
+12-17 19:42:24.571 20894 20910 I ChinaUploader: key: nsp-ts
+12-17 19:42:24.571 20894 20910 I ChinaUploader: value: 1481974942
+12-17 19:42:24.571 20894 20910 I ChinaUploader: tmp: nsp-callback=http://logservice.vmall.com/osg/logServerAction!uf.htm?lsId=1481974942524130501&st=8wYDXBHvqwtRIMPzaak0xm8vajH2LtMrgAgGZBSx8Uw%3D&dsKey=3&tblName=17&nsp-callback-status=200&nsp-file-md5=ce3ba8e9487367f0a3559157d1018385&nsp-file-size=6476143&nsp-ts=1481974942
+12-17 19:42:24.572 20894 20910 I ChinaUploader: source: PUT&%2Fdlv2%2Fpsrv01%2Fhwdevlogbeta%2F1%2F2016%2F12%2F17%2F19%2F311c0568-9640-4e62-aa1d-e128f37cfb3d.zip%3Fresume&nsp-callback%3Dhttp%3A%2F%2Flogservice.vmall.com%2Fosg%2FlogServerAction%21uf.htm%3FlsId%3D1481974942524130501%26st%3D8wYDXBHvqwtRIMPzaak0xm8vajH2LtMrgAgGZBSx8Uw%253D%26dsKey%3D3%26tblName%3D17%26nsp-callback-status%3D200%26nsp-file-md5%3Dce3ba8e9487367f0a3559157d1018385%26nsp-file-size%3D6476143%26nsp-ts%3D1481974942; token:4e364b730cb4de4a553596b3b7ef800337900bb1
+12-17 19:42:24.572 20894 20910 I ChinaUploader: hash_str: [B@40b7eaa
+12-17 19:42:24.572 20894 20910 I ChinaUploader: nsp_sig8uSfzg/f8Erulp8D8DQeY6hcDZs=
+12-17 19:42:24.572 20894 20910 I ChinaUploader:  statusLine before
+12-17 19:42:24.695 20894 20910 I ChinaUploader: statusLineopenresty
+12-17 19:42:24.695 20894 20910 I ChinaUploader: statusLinekeyServer
+12-17 19:42:24.695 20894 20910 I ChinaUploader: statusLine2openresty
+12-17 19:42:24.695 20894 20910 I ChinaUploader: response code: 201

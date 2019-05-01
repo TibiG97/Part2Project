@@ -1,0 +1,100 @@
+[Sat Sep 10 10:34:27 2005] [error] [client 24.119.94.130] File does not exist: /var/www/html/_mem_bin
+[Sat Sep 10 10:34:28 2005] [error] [client 24.119.94.130] File does not exist: /var/www/html/msadc
+[Sat Sep 10 10:34:29 2005] [error] [client 24.119.94.130] File does not exist: /var/www/html/scripts/..\xc1\x1c..
+[Sat Sep 10 10:34:30 2005] [error] [client 24.119.94.130] File does not exist: /var/www/html/scripts/..\xc0\xaf..
+[Sat Sep 10 10:34:31 2005] [error] [client 24.119.94.130] File does not exist: /var/www/html/scripts/..\xc1\x9c..
+[Sat Sep 10 10:34:34 2005] [error] [client 24.119.94.130] File does not exist: /var/www/html/scripts/..%5c..
+[Sat Sep 10 10:34:35 2005] [error] [client 24.119.94.130] File does not exist: /var/www/html/scripts/..%2f..
+[Sat Sep 10 10:51:59 2005] [error] [client 219.148.206.243] Directory index forbidden by rule: /var/www/html/
+[Sat Sep 10 12:09:00 2005] [error] [client 219.82.157.82] Directory index forbidden by rule: /var/www/html/
+[Sat Sep 10 13:38:39 2005] [error] [client 218.1.115.14] Directory index forbidden by rule: /var/www/html/
+[Sat Sep 10 15:09:02 2005] [error] [client 69.227.17.174] Directory index forbidden by rule: /var/www/html/
+[Sat Sep 10 16:10:57 2005] [error] [client 145.53.226.20] Directory index forbidden by rule: /var/www/html/
+[Sat Sep 10 20:42:49 2005] [error] [client 220.234.0.120] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 00:19:21 2005] [error] [client 66.11.174.227] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 02:19:13 2005] [error] [client 216.143.234.135] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 02:24:01 2005] [error] [client 169.152.251.99] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 04:03:47 2005] [notice] Graceful restart requested, doing restart
+[Sun Sep 11 04:03:47 2005] [notice] mod_jk2 Shutting down
+[Sun Sep 11 04:03:47 2005] [notice] mod_jk2 Shutting down
+[Sun Sep 11 04:03:47 2005] [notice] mod_jk2 Shutting down
+[Sun Sep 11 04:03:47 2005] [notice] mod_jk2 Shutting down
+[Sun Sep 11 04:03:47 2005] [notice] mod_jk2 Shutting down
+[Sun Sep 11 04:03:47 2005] [notice] mod_jk2 Shutting down
+[Sun Sep 11 04:03:47 2005] [notice] mod_jk2 Shutting down
+[Sun Sep 11 04:03:47 2005] [notice] mod_jk2 Shutting down
+[Sun Sep 11 04:03:47 2005] [notice] mod_jk2 Shutting down
+[Sun Sep 11 04:03:47 2005] [notice] mod_jk2 Shutting down
+[Sun Sep 11 04:03:47 2005] [notice] mod_jk2 Shutting down
+[Sun Sep 11 04:03:47 2005] [notice] mod_jk2 Shutting down
+[Sun Sep 11 04:03:50 2005] [notice] Digest: generating secret for digest authentication ...
+[Sun Sep 11 04:03:50 2005] [notice] Digest: done
+[Sun Sep 11 04:03:50 2005] [notice] LDAP: Built with OpenLDAP LDAP SDK
+[Sun Sep 11 04:03:50 2005] [notice] LDAP: SSL support unavailable
+[Sun Sep 11 04:03:50 2005] [error] env.createBean2(): Factory error creating channel.jni:jni ( channel.jni, jni)
+[Sun Sep 11 04:03:50 2005] [error] config.update(): Can't create channel.jni:jni
+[Sun Sep 11 04:03:50 2005] [error] env.createBean2(): Factory error creating vm: ( vm, )
+[Sun Sep 11 04:03:50 2005] [error] config.update(): Can't create vm:
+[Sun Sep 11 04:03:50 2005] [error] env.createBean2(): Factory error creating worker.jni:onStartup ( worker.jni, onStartup)
+[Sun Sep 11 04:03:50 2005] [error] config.update(): Can't create worker.jni:onStartup
+[Sun Sep 11 04:03:50 2005] [error] env.createBean2(): Factory error creating worker.jni:onShutdown ( worker.jni, onShutdown)
+[Sun Sep 11 04:03:50 2005] [error] config.update(): Can't create worker.jni:onShutdown
+[Sun Sep 11 04:03:52 2005] [notice] mod_python: Creating 32 session mutexes based on 150 max processes and 0 max threads.
+[Sun Sep 11 04:03:53 2005] [notice] mod_security/1.9dev2 configured
+[Sun Sep 11 04:03:53 2005] [notice] Apache/2.0.49 (Fedora) configured -- resuming normal operations
+[Sun Sep 11 04:03:53 2005] [error] jk2_init() Can't find child 17078 in scoreboard
+[Sun Sep 11 04:03:53 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Sep 11 04:03:53 2005] [error] mod_jk child init 1 -2
+[Sun Sep 11 04:03:53 2005] [error] jk2_init() Can't find child 17079 in scoreboard
+[Sun Sep 11 04:03:53 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Sep 11 04:03:53 2005] [error] mod_jk child init 1 -2
+[Sun Sep 11 04:03:53 2005] [error] jk2_init() Can't find child 17080 in scoreboard
+[Sun Sep 11 04:03:53 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Sep 11 04:03:53 2005] [error] mod_jk child init 1 -2
+[Sun Sep 11 04:03:53 2005] [notice] jk2_init() Found child 17081 in scoreboard slot 3
+[Sun Sep 11 04:03:53 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Sep 11 04:03:53 2005] [error] mod_jk child workerEnv in error state 6
+[Sun Sep 11 04:03:53 2005] [error] jk2_init() Can't find child 17085 in scoreboard
+[Sun Sep 11 04:03:53 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Sep 11 04:03:53 2005] [error] mod_jk child init 1 -2
+[Sun Sep 11 04:03:53 2005] [error] jk2_init() Can't find child 17086 in scoreboard
+[Sun Sep 11 04:03:53 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Sep 11 04:03:53 2005] [error] mod_jk child init 1 -2
+[Sun Sep 11 04:03:53 2005] [error] jk2_init() Can't find child 17087 in scoreboard
+[Sun Sep 11 04:03:53 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Sep 11 04:03:53 2005] [error] mod_jk child init 1 -2
+[Sun Sep 11 04:03:53 2005] [notice] jk2_init() Found child 17082 in scoreboard slot 4
+[Sun Sep 11 04:03:53 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Sep 11 04:03:53 2005] [error] mod_jk child workerEnv in error state 6
+[Sun Sep 11 04:30:32 2005] [error] [client 61.221.250.18] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 07:03:11 2005] [error] [client 219.44.124.96] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 07:24:05 2005] [error] [client 61.163.120.54] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 07:45:27 2005] [error] [client 67.170.201.191] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 09:54:52 2005] [error] [client 69.158.2.22] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 10:57:27 2005] [error] [client 216.12.31.192] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 13:00:29 2005] [error] [client 200.65.96.6] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 14:24:48 2005] [error] [client 24.166.104.122] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 15:12:04 2005] [error] [client 66.249.194.21] File does not exist: /var/www/html/scripts/..%5c%5c..
+[Sun Sep 11 15:42:00 2005] [error] [client 70.70.130.169] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 16:24:55 2005] [error] [client 24.63.197.134] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 17:13:54 2005] [error] [client 219.133.121.41] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 18:03:52 2005] [error] [client 66.215.229.127] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 18:05:55 2005] [error] [client 219.130.14.172] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 18:22:23 2005] [error] [client 68.34.115.219] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 18:25:39 2005] [error] [client 218.91.203.38] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 18:26:53 2005] [error] [client 61.34.167.196] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 19:09:19 2005] [error] [client 219.140.162.199] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 19:09:19 2005] [error] [client 219.140.162.199] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 19:09:19 2005] [error] [client 219.140.162.199] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 19:09:19 2005] [error] [client 219.140.162.199] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 19:09:19 2005] [error] [client 219.140.162.199] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 19:09:19 2005] [error] [client 219.140.162.199] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 19:09:19 2005] [error] [client 219.140.162.199] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 19:09:19 2005] [error] [client 219.140.162.199] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 19:09:20 2005] [error] [client 219.140.162.199] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 19:09:20 2005] [error] [client 219.140.162.199] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 19:09:20 2005] [error] [client 219.140.162.199] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 19:09:20 2005] [error] [client 219.140.162.199] Directory index forbidden by rule: /var/www/html/
+[Sun Sep 11 19:09:20 2005] [error] jk2_init() Can't find child 21797 in scoreboard
+[Sun Sep 11 19:09:20 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Sep 11 19:09:20 2005] [error] mod_jk child init 1 -2

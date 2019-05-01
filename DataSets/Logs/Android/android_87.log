@@ -1,0 +1,100 @@
+12-17 19:31:55.750  3608  3608 D InCall  : CallCardFragment - onGlobalLayout
+12-17 19:31:55.750  1795  2665 D NetdConnector: RCV <- {200 11606 Tethering stats list completed}
+12-17 19:31:55.751  2883  2883 I HwSystemManager: AutoCleanReceiveServer:receive action:android.intent.action.SCREEN_ON
+12-17 19:31:55.753  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:31:55.753  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:31:55.753  1795  1821 I ActivityManager_activity: Incall is gone
+12-17 19:31:55.753  1795  1821 I ActivityManager_activity: windowsGone(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}
+12-17 19:31:55.753  1795  2736 E hwintelligencewifi: getCurrentCellid type type = PHONE_TYPE_GSM
+12-17 19:31:55.753  1795  2736 E hwintelligencewifi: getCurrentCellid type is PHONE_TYPE_GSM
+12-17 19:31:55.753  1795 16500 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:31:55.753  1795 16500 D HwNetworkStatsService: mActiveIface: null
+12-17 19:31:55.754  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:55.754  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:16 targetClass:1 masterLevel:5 slaveLevel:-1
+12-17 19:31:55.755  1795 16500 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+12-17 19:31:55.757  1795 16500 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:31:55.757  1795 16500 D PowerManagerService: release:lock=184063844, flg=0x0, tag="NetworkStats", name=android", ws=null, uid=1000, pid=1795
+12-17 19:31:55.757  1795 16500 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:55.758  3168  3168 I CHR_ChrDataServiceTracker: handledataswitchchanged
+12-17 19:31:55.759  1795  2736 E hwintelligencewifi: getCurrentCellid PHONE_TYPE_GSM cellidString = 460003645
+12-17 19:31:55.759  1795  2736 E hwintelligencewifi: updataApInfo cellid =460003645
+12-17 19:31:55.759  1795  2736 E hwintelligencewifi: addCurrentApInfo cellid =460003645
+12-17 19:31:55.761  1795  3077 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_ON
+12-17 19:31:55.761  1795  2736 E hwintelligencewifi: addCurrentApInfo info is already there
+12-17 19:31:55.761  1795  2736 W hwintelligencewifi: updateBssidTimer time = 1481974315761
+12-17 19:31:55.761  1795  3077 I GnssLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:true
+12-17 19:31:55.761  1795  3077 I GnssLocationProvider: disableGps:false  isEnabled()=true
+12-17 19:31:55.765  1795 17832 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:55.763  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:55.767  3608  3608 I ActivityManager_activity: Reporting idle of ActivityRecord{fd45985 token=android.os.BinderProxy@af8ea9b {com.android.incallui/com.android.incallui.InCallActivity}} finished=false
+12-17 19:31:55.767  1795  2736 E hwintelligencewifi: inlineAddCurrentApInfo mInfos.size()=132
+12-17 19:31:55.768  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:55.770  2883  3040 E HwSystemManager: TrafficNotifyAfterLocked:screen notification will not notify
+12-17 19:31:55.772  1795  2377 V HwPackageManagerService: Returning system default Launcher 
+12-17 19:31:55.773  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:55.773  1795  2377 I AwareLog: AwareMem_EventTracker: [APP_ACTIVITY_FINISH_123028942] is abandoned for memory 834028
+12-17 19:31:55.780  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:31:55.783  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:31:55.783  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:31:55.784  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:31:55.784  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:31:55.785  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_ON  flag:1342177296 
+12-17 19:31:55.786  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:55.792  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:31:55.792  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:31:55.795  3180  3332 I BatteryMonitor: screen off: 3s, awake: 3s wakeups: 0, battery changed: 0
+12-17 19:31:55.796  1795  2376 W AlarmManager: mIsScreenOn is: true, WAKEUP alarm talarm.operation == null,package name is: android listenerTag is: WifiConnectivityManager Schedule Periodic Scan Timer creator uid is: 1000
+12-17 19:31:55.796  1795  2376 I AlarmManager: Alarm triggering (type 0 or 2): [Alarm{f0580e type 2 when 442852160 android}]
+12-17 19:31:55.796  1795  2376 I AlarmManager: sending alarm Alarm{f0580e type 2 when 442852160 android},repeatInterval = 0,listenerTag =WifiConnectivityManager Schedule Periodic Scan Timer
+12-17 19:31:55.797  1795  2671 I WifiConnectivityManager: periodicScanTimerHandler mScreenOn true
+12-17 19:31:55.797  1795  2376 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:55.797  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 0, mHwSingleScanCounter: 1
+12-17 19:31:55.798  1795  2671 E WifiConnectivityManager: isWifiScanSpecialChannels is false,mWifiState : 1
+12-17 19:31:55.798  3180  3578 D HwMultiWindowEx: isInMultiWindowMode ret: 0
+12-17 19:31:55.798  3180  3578 I BacklightControl: can't adjust backlight when app launch from other scene.
+12-17 19:31:55.798  1795  2671 I AlarmManager: set(null) : type=2 triggerAtTime=442872162 win=0 tElapsed=442872162 maxElapsed=442872162 interval=0 flags=0x9
+12-17 19:31:55.799  1795  2680 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SCAN TYPE=ONLY'
+12-17 19:31:55.799  3180  3578 I ThermalStateManager: handle action thermal policy:208
+12-17 19:31:55.799  3218  3234 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:55.800  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY'
+12-17 19:31:55.800  5215  5215 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-17 19:31:55.800  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:31:55.800  5215  5215 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-17 19:31:55.800  5215  5215 D wpa_supplicant: OKC-Native: Append OKC IE!
+12-17 19:31:55.800  5215  5215 D wpa_supplicant: OKC-Native: Append done!
+12-17 19:31:55.800  5215  5215 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7fb502f3c0
+12-17 19:31:55.800  5215  5215 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-17 19:31:55.800  5215  5215 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7fb502f3c0 after 0.000041 second wait
+12-17 19:31:55.800  5215  5215 D wpa_supplicant: wlan0: nl80211: scan request
+12-17 19:31:55.800  5215  5215 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-17 19:31:55.800  5215  5215 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=67): 7f 05 00 00 0a 02 01 dd 0f 00 e0 fc 80 00 00 00 01 00 00 00 00 00 00 00 dd 29 00 e0 fc 80 00 00 ...
+12-17 19:31:55.801  5215  5215 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-17 19:31:55.801  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:31:55.801  5215  5215 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+12-17 19:31:55.801  5215  5215 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-17 19:31:55.801  5215  5215 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-17 19:31:55.801  5215  5215 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000172 seconds
+12-17 19:31:55.801  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=24
+12-17 19:31:55.801  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:31:55.801  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:31:55.801  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: true
+12-17 19:31:55.802  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:31:55.802  1795  5219 E WifiMonitor: WifiMonitor:wlan0 cnt=30967 dispatchEvent: CTRL-EVENT-SCAN-STARTED 
+12-17 19:31:55.802  3180  3578 I ash     : ash->screen on
+12-17 19:31:55.802  1795  3975 E LocSvc_libulp: I/int ulp_msg_process_system_update(const UlpSystemEvent): systemEvent:0 
+12-17 19:31:55.803  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:55.803  1795  2671 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:55.804  1795  2680 I AlarmManager: set(null) : type=2 triggerAtTime=442867164 win=11250 tElapsed=442867164 maxElapsed=442878414 interval=0 flags=0x8
+12-17 19:31:55.810  1795  1806 I AlarmManager: remove(PendingIntent{9fdf22f: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) changed bounds; rebatching
+12-17 19:31:55.812  3180  3578 I ash     : ash->screen unlock
+12-17 19:31:55.814  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:31:55.814  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen on event
+12-17 19:31:55.814  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: interrupt
+12-17 19:31:55.815  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:31:55.820  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = true, mIsPreScrnOn = false, mScrnSwitchTime = 1481974312248, occurTime = 1481974315818, delta = 3570, mScrnOffAccTime = 1737147, mScrnOnAccTime = 110684
+12-17 19:31:55.820  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1740717, mScrnOffAccTime = 1740717, mScrnOnAccTime = 110684
+12-17 19:31:55.820  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:31:55.823  1795  1821 I ActivityManager_activity: windowsVisibleLocked(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310} idle: true
+12-17 19:31:55.824  3626  3626 I iMonitor: create: 903001010
+12-17 19:31:55.825  1795  1821 I WindowManager: All windows ready for display!
+12-17 19:31:55.825  5224  5224 I Step_LSC: 20002302|logicalDealBroadcastEvent : Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }

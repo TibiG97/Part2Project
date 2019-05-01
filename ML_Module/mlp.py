@@ -45,7 +45,7 @@ class MultilayerPerceptron(NeuralNetwork):
 
         super(MultilayerPerceptron, self).__init__(
             classifier=self.classifier,
-            process_data=self.process_data,
+            process_data=self.__process_data,
             batch_size=batch_size,
             epochs=epochs,
             learning_rate=learning_rate,
@@ -85,7 +85,7 @@ class MultilayerPerceptron(NeuralNetwork):
         return
 
     @staticmethod
-    def copy_data(self, src_file_path, dst_file_path):
+    def copy_data(src_file_path, dst_file_path):
         if not os.path.exists(dst_file_path):
             os.mkdir(dst_file_path)
         for logfile in glob.glob(src_file_path + "/*.log"):
@@ -94,7 +94,7 @@ class MultilayerPerceptron(NeuralNetwork):
                 shutil.copyfile(logfile, dst_file_path + "/" + logfile_name)
 
     @staticmethod
-    def read_data(self, logfile_path):
+    def read_data(logfile_path):
         log_collection = pd.DataFrame()
         logs = pd.DataFrame()
         logfiles = glob.glob(logfile_path + "/*.log")  # Get list of log files
@@ -110,3 +110,15 @@ class MultilayerPerceptron(NeuralNetwork):
         log_collection = log_collection.reset_index(drop=True)
 
         return log_collection
+
+    @staticmethod
+    def prepare_data(text, labels):
+        tokenizer = Tokenizer()
+        tokenizer.fit_on_texts(text)
+        X = tokenizer.texts_to_matrix(text, mode='tfidf')
+
+        encoder = LabelBinarizer()
+        encoder.fit(labels)
+        y = encoder.transform(labels)
+
+        return X, y

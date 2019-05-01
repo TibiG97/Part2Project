@@ -1,0 +1,100 @@
+12-17 19:33:05.505  1795  3884 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:05.508  3858  4126 I amsnl   : csr
+12-17 19:33:05.508  1795  1805 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:33:05.508  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+12-17 19:33:05.508  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:33:05.508  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:33:05.511  1795 11746 D wifiserviceimpl: netmask =16580607
+12-17 19:33:05.512  3858  4126 I amsnl   : m1: false
+12-17 19:33:05.513  1795  3225 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:05.514  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:33:05.514  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:33:05.525  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:33:05.525  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: -1; Flag: 81840068
+12-17 19:33:05.526  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onDismissRequested reason = 2
+12-17 19:33:05.543  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.456967 Y: 5.691779 Z: 0.741882  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:05.585  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:05.592  2852  2852 W View    : requestLayout() improperly called by com.android.internal.widget.NotificationExpandButton{9db1b40 V.ED..C.. ......ID 391,30-439,81 #10203ac android:id/expand_button} during layout: running second layout pass
+12-17 19:33:05.592  2852  2852 W View    : requestLayout() improperly called by com.android.internal.widget.NotificationExpandButton{8184a79 V.ED..C.. ......ID 391,30-439,81 #10203ac android:id/expand_button} during layout: running second layout pass
+12-17 19:33:05.592  2852  2852 W View    : requestLayout() improperly called by com.android.internal.widget.NotificationExpandButton{b9ec3be V.ED..C.. ......ID 391,30-439,81 #10203ac android:id/expand_button} during layout: running second layout pass
+12-17 19:33:05.607  2852  2852 I StackScrollAlgorithm: overlapAmount:532.3814, previousNotificationEnd:258.0, newYTranslation:-274.3814, location:8, i:1, getTopPadding:499.0, getLocationOnScreen():-745
+12-17 19:33:05.607  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:508, i:1
+12-17 19:33:05.607  2852  2852 I StackScrollAlgorithm: overlapAmount:219.11627, previousNotificationEnd:-28.381409, newYTranslation:-247.49768, location:8, i:2, getTopPadding:499.0, getLocationOnScreen():-745
+12-17 19:33:05.607  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:195, i:2
+12-17 19:33:05.607  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:33:05.607  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:33:05.615  2852  2852 D UnderLayer: ondraw 0, Rect(0, 0 - 1080, 1920)
+12-17 19:33:05.645  3879 11576 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=null][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=1] uid =10105 pid =4492
+12-17 19:33:05.647  3879 11576 I HwLauncher: ProviderCallUtils callBadge isCloned = false
+12-17 19:33:05.659  1795  2778 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:05.661  3879  3894 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=[shortcut_c2a51ac39f4ec2a0c386c385c2b37ac2a040c3a7c289c3bec28b547dc2b0c2a6]][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=1] uid =10105 pid =4492
+12-17 19:33:05.665  1795 15987 D PowerManagerService: release:lock=125592610, flg=0x0, tag="WakerLock:188385320", name=com.tencent.mm", ws=null, uid=10105, pid=4634
+12-17 19:33:05.665  1795 15987 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:05.739  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.747251 Y: 5.770239 Z: -0.092737  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:05.858  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:05.864   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:33:05.864   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:33:05.893  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:05.893  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:05.935  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.912000 Y: 5.464270 Z: -0.502313  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:05.943  1795  1805 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:05.985  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:06.084  3180  3578 I AppManager: check dependency pid: 4690 is depended by pid: 1795
+12-17 19:33:06.084  3180  3578 I ash     : Application com.baidu.input_huawei is depended by other app, delay to H!
+12-17 19:33:06.132  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.762937 Y: 5.589789 Z: -0.463670  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:06.145  1795 11747 D PowerManagerService: release:lock=10720406, flg=0x0, tag="WakerLock:218529747", name=com.tencent.mm", ws=null, uid=10105, pid=4634
+12-17 19:33:06.145  1795 11747 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:06.146  1795 11747 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:06.155  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:06.159  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:33:06.165  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:33:06.168  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 1 mComponentName :ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:33:06.168  3879  4071 I HwLauncher: BadgeContentObserver newBadgeNumber:1,oldBadgeNumber:0 mComponentName : ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:33:06.170  3879  4071 D ApplicationPackageManager: queryIntentActivitiesAsUser size results:1, for package:com.tencent.mm
+12-17 19:33:06.170  3879  4071 I HwLauncher: AllIdleAppsList  updatePackage  isCloneApp =  false
+12-17 19:33:06.171  1795  6988 D ApplicationPackageManager: queryIntentActivitiesAsUser size results:1, for package:com.tencent.mm
+12-17 19:33:06.172  3879  4071 I HwLauncher: AllIdleAppsList  updatePackage : package[com.tencent.mm] matched activity's size is 1 and data List size is 69
+12-17 19:33:06.188  3879  4071 I HwResourcesImpl: load icon id : 7f020360, pkgName : com.tencent.mm
+12-17 19:33:06.188  3879  4071 W CfgFilePolicy: No config file found for:/themes/diff/icons
+12-17 19:33:06.188  3879  4071 W CfgFilePolicy: CFG_DIRS length : 9
+12-17 19:33:06.189  3879  4071 I HwResourcesImpl: icon : com.tencent.mm found in app
+12-17 19:33:06.192  3879  4071 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:33:06.215  3879  4071 I HwLauncher: Launcher.IconCache, cacheLocked  Utilities.createIconBitmap entry.title = 微信 ComponentName:ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI} user:UserHandle{0}
+12-17 19:33:06.216  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:33:06.220  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:33:06.222  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 1 mComponentName :ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:33:06.225  3879  4071 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:33:06.229  3879  4071 I HwLauncher: Launcher.Utilities  unread scaledHeight = 55;sBigIconSize = 175
+12-17 19:33:06.229  3879  4071 I HwLauncher: Workspace  The same unread count.
+12-17 19:33:06.229  3879  4071 I HwLauncher: Workspace updateCustomizeShortcuts view invalidate ShortcutInfo(title=微信)
+12-17 19:33:06.229  3879  3879 I HwLauncher: Launcher.Folder childCount: 7
+12-17 19:33:06.230  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:33:06.230  3879  3879 I HwLauncher: Launcher.Folder childCount: 2
+12-17 19:33:06.230  3879  3879 I HwLauncher: Launcher.Folder childCount: 6
+12-17 19:33:06.230  3879  3879 I HwLauncher: Launcher.Folder childCount: 3
+12-17 19:33:06.234  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:33:06.236  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 1 mComponentName :ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:33:06.238  3879  4071 I HwLauncher: Launcher.Utilities  unread scaledHeight = 55;sBigIconSize = 175
+12-17 19:33:06.264  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:06.265  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:06.265  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:06.265  2852  2852 I StackScrollAlgorithm: overlapAmount:532.3814, previousNotificationEnd:258.0, newYTranslation:-274.3814, location:8, i:1, getTopPadding:499.0, getLocationOnScreen():-745
+12-17 19:33:06.265  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:508, i:1
+12-17 19:33:06.265  2852  2852 I StackScrollAlgorithm: overlapAmount:219.11627, previousNotificationEnd:-28.381409, newYTranslation:-247.49768, location:8, i:2, getTopPadding:499.0, getLocationOnScreen():-745
+12-17 19:33:06.266  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:195, i:2
+12-17 19:33:06.266  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:33:06.266  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:33:06.327  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:06.328  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 8.045377 Y: 6.374320 Z: 0.556408  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:06.343  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:33:06.344  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:33:06.360  5215  5215 E wpa_supplicant: RSSI=-58;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:33:06.360  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:33:06.361  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:33:06.362  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-57 "Huawei-Employee"WPA_EAP
+12-17 19:33:06.362  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:33:06.362  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:33:06.377  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:33:06.381  1795  2739 D HuaweiWifiWatchdogStateMachine: LM mrssi=-58
+12-17 19:33:06.381  1795  1795 D WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -58
+12-17 19:33:06.381  1795  1795 I QosMonitor: queryRtt: rtt_type = 3

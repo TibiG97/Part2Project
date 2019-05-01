@@ -1,0 +1,100 @@
+12-17 19:42:27.444   633 31869 I SDK     : 
+12-17 19:42:27.445   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:444 Level[NOTICE] magic[3367250208 4274]:Send ipc msg ok: src task is [78], dst task is [77], msg type is [3]!
+12-17 19:42:27.445   633 31869 I SDK     : 
+12-17 19:42:27.445   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:445 Level[NOTICE] magic[3367250208 4610]:Send Register Tunnel Request MSG !
+12-17 19:42:27.445   633 31869 I SDK     : 
+12-17 19:42:27.445   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:445 Level[NOTICE] magic[3367250208 2176]:Add Tlv num[10]!
+12-17 19:42:27.445   633 31869 I SDK     : 
+12-17 19:42:27.445   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:445 Level[NOTICE] magic[3367250208 1573]:Encode tunnel register request: Tlv[10],app=com.huawei.espacev2,auth,device,ua=Android,user=w00290667,type=2, userType=, ticket=
+12-17 19:42:27.445   633 31869 I SDK     : 
+12-17 19:42:27.446   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:445 Level[NOTICE] magic[3367250208 2316]:Send register tunnel request msg ok!
+12-17 19:42:27.446   633 31869 I SDK     : 
+12-17 19:42:27.446   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:446 Level[NOTICE] magic[3367250208 5690]:Waiting for tunnel register response msg!
+12-17 19:42:27.446   633 31869 I SDK     : 
+12-17 19:42:27.446   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:446 Level[NOTICE] magic[3367250208 5587]:Process ipc result is [0]
+12-17 19:42:27.446   633 31869 I SDK     : 
+12-17 19:42:27.541  1795 16501 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:42:27.892   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:42:27.893  1795  2665 D NetdConnector: RCV <- {601 limit alert globalAlert wlan0}
+12-17 19:42:27.894  1795  2665 D NetdConnector: RCV <- {601 limit alert globalAlert wlan0}
+12-17 19:42:27.895  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 601 limit alert globalAlert wlan0
+12-17 19:42:27.896  1795  2666 D PowerManagerService: acquire lock=184063844, flags=0x1, tag="NetworkStats", name=android, ws=null, uid=1000, pid=1795
+12-17 19:42:27.896  3782  3798 I QtiTetherService: limitReached Alert received limitName: globalAlert on Interface: wlan0
+12-17 19:42:27.897  1795  2666 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:27.900  1795  2666 D NetdConnector: SND -> {11646 bandwidth gettetherstats}
+12-17 19:42:27.902  1795  2665 D NetdConnector: RCV <- {200 11646 Tethering stats list completed}
+12-17 19:42:27.903  1795  2665 D NetdConnector: RCV <- {200 11646 Tethering stats list completed}
+12-17 19:42:27.905  1795  2666 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:42:27.905  1795  2666 D HwNetworkStatsService: mActiveIface: null
+12-17 19:42:27.913   633 31868 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:913 Level[ERR] magic[3365677344 692]:Decoder message type is invalidation;invalidation MMTP_MSG_ENABLE_EXTEND is [36]
+12-17 19:42:27.913   633 31868 E SDK     : 
+12-17 19:42:27.913   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:913 Level[NOTICE] magic[3365677344 1524]:Process tunnel register response msg!
+12-17 19:42:27.913   633 31868 I SDK     : 
+12-17 19:42:27.913   633 31868 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:913 Level[ERR] magic[3365677344 2205]:ParseAndSaveDetailUserinfo, ticket = I=
+12-17 19:42:27.913   633 31868 E SDK     : .
+12-17 19:42:27.913   633 31868 E SDK     : 
+12-17 19:42:27.914   633 31868 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:913 Level[ERR] magic[3365677344 3458]: KeySpace : setkey w00290667_keyTicket 
+12-17 19:42:27.914   633 31868 E SDK     : 
+12-17 19:42:27.914   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:914 Level[NOTICE] magic[3365677344 2326]:FSM_OpenFile => [START],Mode[r]
+12-17 19:42:27.914   633 31868 I SDK     : 
+12-17 19:42:27.914   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:914 Level[NOTICE] magic[3365677344 6458]:FSM_Tool_TreatFolderEncEx => [START]: pcFileName [anyofficeuserorgcode] 
+12-17 19:42:27.914   633 31868 I SDK     : 
+12-17 19:42:27.914   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:914 Level[NOTICE] magic[3365677344 1541]:FSM_Tool_Tree_Enc_Path =>Access [/mnt/sdcard/sandbox/AnyOfficeSDK/sdk/QDJ7lEGuRlJb2r2mqrSExBTDjN4QhUgEPVptBL0HnX4=] real path  ok 
+12-17 19:42:27.914   633 31868 I SDK     : 
+12-17 19:42:27.914   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:914 Level[NOTICE] magic[3365677344 2421]:FileSec: have right to open file due to cur app sec level = 0 is higher than file app(&5ߢ[@ñ?z]) sec level = 0.
+12-17 19:42:27.914   633 31868 I SDK     : 
+12-17 19:42:27.914   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:914 Level[NOTICE] magic[3365677344 2487]:FSM_OpenFile => [END]
+12-17 19:42:27.914   633 31868 I SDK     : 
+12-17 19:42:27.915   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:914 Level[NOTICE] magic[3365677344 2756]:WriteSdkGroupItem: hash has same item[w00290667_keyTicket]
+12-17 19:42:27.915   633 31868 I SDK     : 
+12-17 19:42:27.915   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:915 Level[NOTICE] magic[3365677344 2326]:FSM_OpenFile => [START],Mode[w]
+12-17 19:42:27.915   633 31868 I SDK     : 
+12-17 19:42:27.915   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:915 Level[NOTICE] magic[3365677344 6458]:FSM_Tool_TreatFolderEncEx => [START]: pcFileName [anyofficeuserorgcode] 
+12-17 19:42:27.915   633 31868 I SDK     : 
+12-17 19:42:27.915   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:915 Level[NOTICE] magic[3365677344 2421]:FileSec: have right to open file due to cur app sec level = 0 is higher than file app(&5ߢ[@ñ?z]) sec level = 0.
+12-17 19:42:27.915   633 31868 I SDK     : 
+12-17 19:42:27.915   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:915 Level[NOTICE] magic[3365677344 5452]:FSM_Tool_ParseFile => [END] apply cycle<-1>
+12-17 19:42:27.915   633 31868 I SDK     : 
+12-17 19:42:27.915   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:915 Level[NOTICE] magic[3365677344 2487]:FSM_OpenFile => [END]
+12-17 19:42:27.915   633 31868 I SDK     : 
+12-17 19:42:27.915   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:915 Level[NOTICE] magic[3365677344 2623]:FileSec: write app bundle id  = &5ߢ[@ñ?z]I= to file tail.
+12-17 19:42:27.915   633 31868 I SDK     : 
+12-17 19:42:27.916   633 31868 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:915 Level[ERR] magic[3365677344 2217]:ParseAndSaveDetailUserinfo, failed to save ticket info.
+12-17 19:42:27.916   633 31868 E SDK     : 
+12-17 19:42:27.916   633 31868 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:916 Level[ERR] magic[3365677344 2232]:ParseAndSaveDetailUserinfo, service ticket = I=
+12-17 19:42:27.916   633 31868 E SDK     : .
+12-17 19:42:27.916   633 31868 E SDK     : 
+12-17 19:42:27.916   633 31868 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:916 Level[ERR] magic[3365677344 3458]: KeySpace : setkey w00290667_keyServiceTicket 
+12-17 19:42:27.916   633 31868 E SDK     : 
+12-17 19:42:27.916   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:916 Level[NOTICE] magic[3365677344 2326]:FSM_OpenFile => [START],Mode[r]
+12-17 19:42:27.916   633 31868 I SDK     : 
+12-17 19:42:27.916   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:916 Level[NOTICE] magic[3365677344 6458]:FSM_Tool_TreatFolderEncEx => [START]: pcFileName [anyofficeuserorgcode] 
+12-17 19:42:27.916   633 31868 I SDK     : 
+12-17 19:42:27.916   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:916 Level[NOTICE] magic[3365677344 1541]:FSM_Tool_Tree_Enc_Path =>Access [/mnt/sdcard/sandbox/AnyOfficeSDK/sdk/QDJ7lEGuRlJb2r2mqrSExBTDjN4QhUgEPVptBL0HnX4=] real path  ok 
+12-17 19:42:27.916   633 31868 I SDK     : 
+12-17 19:42:27.916   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:916 Level[NOTICE] magic[3365677344 2421]:FileSec: have right to open file due to cur app sec level = 0 is higher than file app(&5ߢ[@ñ?z]) sec level = 0.
+12-17 19:42:27.916   633 31868 I SDK     : 
+12-17 19:42:27.916   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:916 Level[NOTICE] magic[3365677344 2487]:FSM_OpenFile => [END]
+12-17 19:42:27.916   633 31868 I SDK     : 
+12-17 19:42:27.917   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:917 Level[NOTICE] magic[3365677344 2756]:WriteSdkGroupItem: hash has same item[w00290667_keyServiceTicket]
+12-17 19:42:27.917   633 31868 I SDK     : 
+12-17 19:42:27.917   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:917 Level[NOTICE] magic[3365677344 2326]:FSM_OpenFile => [START],Mode[w]
+12-17 19:42:27.917   633 31868 I SDK     : 
+12-17 19:42:27.917   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:917 Level[NOTICE] magic[3365677344 6458]:FSM_Tool_TreatFolderEncEx => [START]: pcFileName [anyofficeuserorgcode] 
+12-17 19:42:27.917   633 31868 I SDK     : 
+12-17 19:42:27.917   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:917 Level[NOTICE] magic[3365677344 2421]:FileSec: have right to open file due to cur app sec level = 0 is higher than file app(&5ߢ[@ñ?z]) sec level = 0.
+12-17 19:42:27.917   633 31868 I SDK     : 
+12-17 19:42:27.917   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:917 Level[NOTICE] magic[3365677344 5452]:FSM_Tool_ParseFile => [END] apply cycle<-1>
+12-17 19:42:27.917   633 31868 I SDK     : 
+12-17 19:42:27.917   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:917 Level[NOTICE] magic[3365677344 2487]:FSM_OpenFile => [END]
+12-17 19:42:27.917   633 31868 I SDK     : 
+12-17 19:42:27.918   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:918 Level[NOTICE] magic[3365677344 2623]:FileSec: write app bundle id  = &5ߢ[@ñ?z]I= to file tail.
+12-17 19:42:27.918   633 31868 I SDK     : 
+12-17 19:42:27.918   633 31868 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:918 Level[ERR] magic[3365677344 2243]:ParseAndSaveDetailUserinfo, failed to save service ticket info.
+12-17 19:42:27.918   633 31868 E SDK     : 
+12-17 19:42:27.918   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:918 Level[NOTICE] magic[3365677344 679]:Register success,svn device version is [2.5.0501.0136]!
+12-17 19:42:27.918   633 31868 I SDK     : 
+12-17 19:42:27.918   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:918 Level[NOTICE] magic[3365677344 288]:setEntryVersion: 2.5.0501.0136
+12-17 19:42:27.918   633 31868 I SDK     : 
+12-17 19:42:27.918   633 31868 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:918 Level[NOTICE] magic[3365677344 686]:Register response vip 0x[b0b0c6d];mask 0x[ffff0000];sip port [5060];keep alive time [300];udp server port [443];tcp over udp [1];crypto id [427];keylen ;Ivlen [16];Bypass flag [0];MMTP version 0x[9];svnDevice version [2.5.0501.0136]!
+12-17 19:42:27.918   633 31868 I SDK     : 

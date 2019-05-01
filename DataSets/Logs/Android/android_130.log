@@ -1,0 +1,100 @@
+12-17 19:32:06.359  1795  1809 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) sample_rate=14.999925Hz report_rate_f=0.000000Hz curr sample rate:5.000000 cur rpt rate:0 max:400.000000 min:1.000000
+12-17 19:32:06.360  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:32:06.360  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:32:06.361 31949 31967 I PushService: main{1} PushService.onStartCommand(PushService.java:87) Push Service Start by  userEvent
+12-17 19:32:06.361  1795  1809 I qti_sensors_hal: flush,395,handle 0
+12-17 19:32:06.361  1795  1809 I qti_sensors_hal: flush,260 handle 0
+12-17 19:32:06.361  1795  1809 I WindowManager: Finished screen turning on...
+12-17 19:32:06.361  1795  1825 I PowerManager_screenOn: DisplayPowerController Unblocked screen on after 517 ms
+12-17 19:32:06.361  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:32:06.361  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=1.0
+12-17 19:32:06.362 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.shutdown(TcpCirChannel.java:257) Login_By_Step-> shut down now connect
+12-17 19:32:06.362  1795  1825 D DisplayPowerController: Animating brightness: target=27, rate=40
+12-17 19:32:06.363  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:32:06.363  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=1058
+12-17 19:32:06.363  1795  1825 D DisplayPowerController: Animating brightness: target=27, rate=40
+12-17 19:32:06.363  1795  2750 I HwLightsService: back light level before map = 1058
+12-17 19:32:06.363  1795  1825 V KeyguardServiceDelegate: onScreenTurnedOn()
+12-17 19:32:06.363  1795  1825 I WindowManger_keyguard: onScreenTurnedOn()
+12-17 19:32:06.363  1795  1825 D DisplayPowerController: Display ready!
+12-17 19:32:06.363  1795  1825 D DisplayPowerController: Finished business...
+12-17 19:32:06.363 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:32:06.364  2852  2822 D KeyguardService: Caller checkPermission fail
+12-17 19:32:06.364  2852  2822 D KeyguardService: KGSvcCall onScreenTurnedOn.
+12-17 19:32:06.364  2852  2822 D KeyguardViewMediator: notifyScreenTurnedOn
+12-17 19:32:06.364  1795  1825 D FpDataCollector: case xxx, not a fingerprint unlock 
+12-17 19:32:06.364  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:32:06.364  1795  1825 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:06.364  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeFinished mInteractiveChanging=true, mInteractive=true
+12-17 19:32:06.365 31949 31967 I ECS     : WatchThread{4786} TcpClient.disconnect_i(TcpClient.java:202) ==================== TCP CLIENT DISCONNECT ====================
+12-17 19:32:06.366 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.disconnectSocket(TcpClientThread.java:369) disconnecting to uc.huawei.com:7801
+12-17 19:32:06.374  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:32:06.374  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:32:06.374  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:32:06.374  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:32:06.375  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOn
+12-17 19:32:06.375  3218  4159 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:32:06.375  2852  2852 I PhoneStatusBar: onScreenTurnedOn
+12-17 19:32:06.375  2852  2852 D KGWallpaper_Magazine: getNextIndex: 0; from 5 to 5; size: 44
+12-17 19:32:06.375  2852  2852 I HwLockScreenReporter: report msg is :{picture: Deepwater-05-2.3.001-bigpicture_05_8.jpg}
+12-17 19:32:06.375  2852  2852 W HwLockScreenReporter: report result = falsereport type:162 msg:{picture: Deepwater-05-2.3.001-bigpicture_05_8.jpg, channelId: 05}
+12-17 19:32:06.375  3218  4159 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:32:06.375  2852  2852 I OucScreenOnCounter: Screen already turned on at: 1481974212
+12-17 19:32:06.375  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:32:06.376  2852  2852 I HwBrightnessUtils: APS brightness=26.0,ConvertToPercentage=0.25860584
+12-17 19:32:06.376  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:26 percentage:0.25860584
+12-17 19:32:06.376  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:2586
+12-17 19:32:06.376  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:2586
+12-17 19:32:06.377  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2586 fromUser:false
+12-17 19:32:06.377  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2586 fromUser:false
+12-17 19:32:06.378  1795  6988 I AlarmManager: remove(PendingIntent{88c7b7e: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) changed bounds; rebatching
+12-17 19:32:06.381  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:32:06.381  1795  3121 I AlarmManager: set(PendingIntent{2e528df: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) : type=0 triggerAtTime=1481974626381 win=0 tElapsed=443162745 maxElapsed=443162745 interval=300000 flags=0x1
+12-17 19:32:06.382  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:32:06.383  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:32:06.383  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:32:06.383  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:32:06.384  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:32:06.387 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_ON
+12-17 19:32:06.394  1795  2396 D PowerManagerService: release:lock=5152000, flg=0x0, tag="RILJ_ACK_WL", name=com.android.phone", ws=null, uid=1001, pid=3218
+12-17 19:32:06.394  1795  2396 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:06.394  1795  2396 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:32:06.398 16354 16354 E HwSystemManager: MemCPUMonitor:startTimerMonitor isCompleted = true
+12-17 19:32:06.404 17238 17238 D Bth     : BtChrStatisticsManager:sendScreenOnEvent enter.
+12-17 19:32:06.404 17238 17252 D Bth     : BtChrStatisticsManager:msg Loop is running.
+12-17 19:32:06.412   816 20314 D DnsProxyListener: GetAddrInfoHandler addr: uc.huawei.com {304, 917808, 10102} 172.30.70.63
+12-17 19:32:06.412  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 0 len = 0, 4096
+12-17 19:32:06.412  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:32:06.413 31949 31967 I TCP     : WatchThread{4786} TcpSocket.close(TcpSocket.java:158) shutdown output: java.net.SocketException: Socket is closed
+12-17 19:32:06.413  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:32:06.413  5215  5215 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+12-17 19:32:06.413  5215  5215 D wpa_supplicant: wlan0: nl80211: New scan results available
+12-17 19:32:06.413  5215  5215 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472
+12-17 19:32:06.413  5215  5215 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+12-17 19:32:06.413  5215  5215 D wpa_supplicant: wlan0: Scan completed in 0.462794 seconds
+12-17 19:32:06.413  5215  5215 D wpa_supplicant: nl80211: Associated on 2452 MHz
+12-17 19:32:06.413  5215  5215 D wpa_supplicant: nl80211: Associated with 80:38:bc:08:42:c1
+12-17 19:32:06.413  5215  5215 D wpa_supplicant: nl80211: Received scan results (32 BSSes)
+12-17 19:32:06.413  5215  5215 D wpa_supplicant: nl80211: Scan results indicate BSS status with 80:38:bc:08:42:c1 as associated
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: Sorted scan results
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: 80:38:bc:08:42:c1 freq=2452 qual=0 noise=-89~ level=-48 snr=41* flags=0x2b age=0 est=65000
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: 80:38:bc:08:42:e0 freq=2472 qual=0 noise=-89~ level=-54 snr=35* flags=0xb age=0 est=65000
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 00 ...
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 00 ...
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: 80:38:bc:0b:2b:e1 freq=2432 qual=0 noise=-89~ level=-55 snr=34* flags=0xb age=0 est=65000
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 ...
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 ...
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: 00:26:f2:1b:9d:b2 freq=2437 qual=0 noise=-89~ level=-65 snr=24 flags=0xb age=0 est=54000
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: IEs - hexdump(len=109): 00 06 4e 54 50 43 30 32 01 08 82 84 8b 96 24 30 48 6c 03 01 06 2a 01 04 2f 01 04 32 04 0c 12 18 ...
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: 80:38:bc:0b:19:61 freq=2432 qual=0 noise=-89~ level=-73 snr=16 flags=0xb age=0 est=48000
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 ...
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 ...
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: 80:38:bc:0b:29:e0 freq=2452 qual=0 noise=-89~ level=-73 snr=16 flags=0xb age=0 est=48000
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 00 ...
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 00 ...
+12-17 19:32:06.414  5215  5215 D wpa_supplicant: 80:38:bc:0b:14:41 freq=2472 qual=0 noise=-89~ level=-75 snr=14 flags=0xb age=0 est=36000
+12-17 19:32:06.415  1795  2736 E hwintelligencewifi: addCurrentApInfo info is already there
+12-17 19:32:06.415  1795  2736 W hwintelligencewifi: updateBssidTimer time = 1481974326415
+12-17 19:32:06.416 31949 31967 I TCP     : WatchThread{4786} TcpSocket.close(TcpSocket.java:170) shutdown input: java.net.SocketException: Socket is closed

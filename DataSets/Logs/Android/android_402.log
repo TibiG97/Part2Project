@@ -1,0 +1,100 @@
+12-17 19:40:26.641   633   692 I ECS     : main{1} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 160 bytes [16]_00_00_00_9C_00_03_01_02_06_05_87_48_EC_D5_32_80 cmdCode(CC_GetConferenceList.0x0206)msgType(MT_ARG.1)msgClass(MC_Conference.2)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(156)version(3)sno(8748)
+12-17 19:40:26.643   633   692 I ECS     : pool-3-thread-1{4478} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 160 bytes [16]_00_00_00_9C_00_03_01_08_01_05_87_49_EC_D5_32_80 cmdCode(CC_QueryRecentSessions.0x0801)msgType(MT_ARG.1)msgClass(MC_RecentSessions.8)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(156)version(3)sno(8749)
+12-17 19:40:26.645  1795  1825 D AutomaticBrightnessController: ambient lux=139.0,timeStamp =443363008494000
+12-17 19:40:26.646   633   692 I eSpaceService: msg.recv{4490} DeviceManager.getIdeskIP(DeviceManager.java:353) HW_VIRTUAL_CARD ip  == null
+12-17 19:40:26.647   633   692 I eSpaceService: msg.recv{4490} 1.onCertFailed(EspaceService.java:862) get TLS cert failed !!!
+12-17 19:40:26.648   633   692 I TupC30  : msg.recv{4490} CallManager.config(CallManager.java:390) config for record audio.
+12-17 19:40:26.650   633 20854 I SDK     : <2016-12-17 19:40:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:26:650 Level[NOTICE] magic[2536392992 2756]:WriteSdkGroupItem: hash has same item[HW_W3_MDM_PASSWORD]
+12-17 19:40:26.650   633 20854 I SDK     : 
+12-17 19:40:26.662   633 20854 I SDK     : <2016-12-17 19:40:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:26:662 Level[NOTICE] magic[2536392992 2756]:WriteSdkGroupItem: hash has same item[HW_W3_ACCOUNT]
+12-17 19:40:26.662   633 20854 I SDK     : 
+12-17 19:40:26.663   633 20854 I SDK     : <2016-12-17 19:40:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:26:663 Level[NOTICE] magic[2536392992 2756]:WriteSdkGroupItem: hash has same item[HW_AD_MDM_PASSWORD]
+12-17 19:40:26.663   633 20854 I SDK     : 
+12-17 19:40:26.666   633 20854 I SDK     : <2016-12-17 19:40:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:26:666 Level[NOTICE] magic[2536392992 2756]:WriteSdkGroupItem: hash has same item[HW_LAST_WRITE_APP]
+12-17 19:40:26.666   633 20854 I SDK     : 
+12-17 19:40:26.695   633   692 I TupC30  : msg.recv{4490} TupHelper.configSip(TupHelper.java:966) cert exit?true
+12-17 19:40:26.697   633   692 I eSpaceService: msg.recv{4490} TupHelper.configSip(TupHelper.java:975) getLocalIp = 10.33.11.129
+12-17 19:40:26.698   633   692 I TupC30  : msg.recv{4490} TupHelper.configSip(TupHelper.java:1027) SBC:45.249.213.23
+12-17 19:40:26.699   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 92
+12-17 19:40:26.701   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 44
+12-17 19:40:26.717  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:40:25,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:40:26.717  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:40:25,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:40:26.717  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:40:26.718  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:40:26.719  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:40:26.719  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:40:26.720  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:40:26.720  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:40:26.733   633   692 I eSpaceService: msg.recv{4490} CallManager.register(CallManager.java:450) not supportRegister
+12-17 19:40:26.734  1795 11747 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:26.735  1795  1808 W BroadcastQueue: Permission Denial: broadcasting Intent { act=android.media.SCO_AUDIO_STATE_CHANGED flg=0x10000010 (has extras) } from null (pid=-1, uid=-1) requires com.huawei.permission due to registered receiver BroadcastFilter{7851569 u0 ReceiverList{c9f82e3 633 com.huawei.espacev2/10102/u0 remote:497ab12}}
+12-17 19:40:26.736   633   692 I ECS     : Heartbeat timer.timers{6125} SimpleThread.onBirth_i(SimpleThread.java:113) thread begin
+12-17 19:40:26.741 31949 31967 I PushService: main{1} PushService.onStartCommand(PushService.java:108) Push Service Start by UI Session
+12-17 19:40:26.743  1795  3253 I AlarmManager: remove(PendingIntent{6c5088f: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) changed bounds; rebatching
+12-17 19:40:26.745 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.shutdown(TcpCirChannel.java:257) Login_By_Step-> shut down now connect
+12-17 19:40:26.745  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:40:26.746  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:40:26.746 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:40:26.747   816 20857 D DnsProxyListener: GetAddrInfoHandler addr: uc.huawei.com {304, 917808, 10102} 172.30.70.63
+12-17 19:40:26.748  5215  5215 E wpa_supplicant: RSSI=-43;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:40:26.748  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:40:26.748  1795  3111 I AlarmManager: set(PendingIntent{81a671c: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) : type=0 triggerAtTime=1481975126748 win=0 tElapsed=443663111 maxElapsed=443663111 interval=300000 flags=0x1
+12-17 19:40:26.748 31949 31967 I ECS     : WatchThread{4786} TcpClient.disconnect_i(TcpClient.java:202) ==================== TCP CLIENT DISCONNECT ====================
+12-17 19:40:26.749  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:40:26.749  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-43 "Huawei-Employee"WPA_EAP
+12-17 19:40:26.750  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:40:26.756   633   692 I eSpaceService: msg.recv{4490} EspaceService.beginPushProcess(EspaceService.java:1106)  Begin Push Process
+12-17 19:40:26.756 31949 31985 I PushService: connect :true
+12-17 19:40:26.756 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.disconnectSocket(TcpClientThread.java:369) disconnecting to uc.huawei.com:7801
+12-17 19:40:26.757   633   692 W eSpaceService: msg.recv{4490} PublicAccountCache.reloadFromDataBase(PublicAccountCache.java:264) <<< WARN(5) >>> has database
+12-17 19:40:26.757 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.connect(TcpCirChannel.java:219) Connect to server  address = [uc.huawei.com,]  port = 7801
+12-17 19:40:26.758   633   692 I ECS     : msg.recv{4490} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 288 bytes [16]_00_00_01_1C_00_03_01_07_01_05_87_4A_EC_D5_32_80 cmdCode(CC_ExtendRequest.0x0701)msgType(MT_ARG.1)msgClass(MC_JsonExtend.7)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(284)version(3)sno(874A)
+12-17 19:40:26.759 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:40:26.760 31949 31967 I ECS     : WatchThread{4786} TcpClient.connect(TcpClient.java:162) ==================== TCP CLIENT CONNECT [2] ====================
+12-17 19:40:26.760   633   692 W eSpaceService: msg.recv{4490} LightAppCache.reloadLappFromDB(LightAppCache.java:126) <<< WARN(5) >>> Have data in light app cache!
+12-17 19:40:26.761   633   692 I ECS     : msg.recv{4490} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 288 bytes [16]_00_00_01_1C_00_03_01_07_01_05_87_4B_EC_D5_32_80 cmdCode(CC_ExtendRequest.0x0701)msgType(MT_ARG.1)msgClass(MC_JsonExtend.7)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(284)version(3)sno(874B)
+12-17 19:40:26.762   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 92TCP_OK
+12-17 19:40:26.762 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.connect(TcpClientThread.java:52) will connect to uc.huawei.com:7801
+12-17 19:40:26.763   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 96 bytes [12]_00_03_02_02_06_05_87_48_EC_D5_32_80 cmdCode(CC_GetConferenceList.0x0206)msgType(MT_ACK.2)msgClass(MC_Conference.2)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(92)version(3)sno(8748)
+12-17 19:40:26.764   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 44TCP_OK
+12-17 19:40:26.765   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 48 bytes [12]_00_03_02_03_13_05_87_47_EC_D5_32_80 cmdCode(CC_SetPersonalState.0x0313)msgType(MT_ACK.2)msgClass(MC_InstanceMessage.3)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(44)version(3)sno(8747)
+12-17 19:40:26.766   633   692 I eSpaceService: pool-1-thread-1{4483} BaseBroadcast.sendBroadcast(BaseBroadcast.java:131) no receiver for action#com.huawei.espace.service.setstatus
+12-17 19:40:26.772   633   692 I eSpaceService: main{1} BaseBroadcast.sendBroadcast(BaseBroadcast.java:131) no receiver for action#local_conference_conflist
+12-17 19:40:26.773   633   692 I Contact : pool-1-thread-1{4483} Helper.onSaveTimestamp(MainActivity.java:2193) set timestamp = 20161217155855
+12-17 19:40:26.774   633   692 I eSpaceService: pool-3-thread-1{4478} BaseBroadcast.sendBroadcast(BaseBroadcast.java:131) no receiver for action#local_voicemessage_updatestatus
+12-17 19:40:26.775 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:349) connecting max 30000ms to uc.huawei.com:7801
+12-17 19:40:26.776 31949 31967 I TCP     : tcp.conn{4787} TcpSocket.connect_i(TcpSocket.java:84) connecting to ip address uc.huawei.com/172.30.70.63
+12-17 19:40:26.777   816 20859 D DnsProxyListener: GetAddrInfoHandler addr: app-inter.huawei.com {304, 917808, 10102} 45.249.212.91
+12-17 19:40:26.778 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:360) notify user tcp connected successully at 36853 to uc.huawei.com:7801
+12-17 19:40:26.779   633   692 I eSpaceApp: main{1} MultipleGroupAdapter.setDataSource(MultipleGroupAdapter.java:146) [groupmemlist] --> setDataSource
+12-17 19:40:26.779 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.onRecv(TcpClientThread.java:522) tcp connection event TCP_CONNECTED
+12-17 19:40:26.781 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:292) connected
+12-17 19:40:26.785 31949 31967 I PushService: tcp.conn{4787} ServiceC.connectedNotify(ServiceC.java:289) 172.30.70.63
+12-17 19:40:26.787 31949 31967 I ECS     : tcp.conn{4787} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 100 bytes [16]_00_00_00_60_00_03_01_05_01_04_81_C3_00_00_00_00 cmdCode(CC_PCheckVersion.0x0501)msgType(MT_ARG.1)msgClass(MC_Push.5)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(true)length(96)version(3)sno(81C3)
+12-17 19:40:26.791 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 659
+12-17 19:40:26.792 31949 31967 I TCP     : msg.recv{4791} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 659TCP_OK
+12-17 19:40:26.817   633 20858 W imssdk_CloudRecord: CloudRecordGetCfgInfoRspNotify GetEnv enter
+12-17 19:40:26.818   633 20858 W imssdk_CloudRecord: CloudRecordGetCfgInfoRspNotify, handle: 36
+12-17 19:40:26.818   633 20858 V imssdk_CloudRecord: =============================  CloudRecordGetCfgInfoRspNotify  ===================================
+12-17 19:40:26.818   633 20858 E imssdk_CloudRecord: CallObjectMethod strat 
+12-17 19:40:26.818   633 20858 E imssdk_CloudRecord: CallObjectMethod end 
+12-17 19:40:26.818   633 20858 V imssdk_CloudRecord: AFTER CALLBACK
+12-17 19:40:26.818   633 20858 W imssdk_CloudRecord: CloudRecordGetCfgInfoRspNotify leave
+12-17 19:40:26.820   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 748
+12-17 19:40:26.827   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 748TCP_OK
+12-17 19:40:26.828   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 752 bytes [12]_00_03_02_08_01_05_87_49_EC_D5_32_80 cmdCode(CC_QueryRecentSessions.0x0801)msgType(MT_ACK.2)msgClass(MC_RecentSessions.8)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(748)version(3)sno(8749)
+12-17 19:40:26.829   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 332
+12-17 19:40:26.830   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 732
+12-17 19:40:26.832   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 332TCP_OK
+12-17 19:40:26.833   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 336 bytes [12]_00_03_02_07_01_05_87_4A_EC_D5_32_80 cmdCode(CC_ExtendRequest.0x0701)msgType(MT_ACK.2)msgClass(MC_JsonExtend.7)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(332)version(3)sno(874A)
+12-17 19:40:26.835   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 732TCP_OK
+12-17 19:40:26.836   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 736 bytes [12]_00_03_02_07_01_05_87_4B_EC_D5_32_80 cmdCode(CC_ExtendRequest.0x0701)msgType(MT_ACK.2)msgClass(MC_JsonExtend.7)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(732)version(3)sno(874B)
+12-17 19:40:26.837   633   692 I Hw_Fluent: RecentLogic{4456} RecentLogic.addConversationEntity(RecentLogic.java:906) add chat recent!
+12-17 19:40:26.869   633   692 I Hw_Fluent: RecentLogic{4456} RecentLogic.addConversationEntity(RecentLogic.java:906) add chat recent!
+12-17 19:40:27.001  1795  1825 D AutomaticBrightnessController: ambient lux=142.0,timeStamp =443363362847000
+12-17 19:40:27.046  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:40:27.057  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:40:27.061  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 0 mComponentName :ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:40:27.061  3879  4071 I HwLauncher: BadgeContentObserver newBadgeNumber:0,oldBadgeNumber:4 mComponentName : ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:40:27.064  3879  4071 D ApplicationPackageManager: queryIntentActivitiesAsUser size results:1, for package:com.tencent.mm
+12-17 19:40:27.065  3879  4071 I HwLauncher: AllIdleAppsList  updatePackage  isCloneApp =  false

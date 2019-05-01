@@ -1,0 +1,100 @@
+12-17 19:42:28.082 20894 20910 I ChinaUploader: transfLength2380143
+12-17 19:42:28.082 20894 20910 I ChinaUploader: nspContentRange4096000-6476142/6476143
+12-17 19:42:43.278  1795 15988 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:42:43.278  1795 15988 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:42:43.279  1795  1825 D PowerManagerService: updateIsPoweredLocked: wasPowered=false, mIsPowered=false, oldPlugType=0, mPlugType=0, mBatteryLevel=78
+12-17 19:42:43.279  1795  1795 I DeviceIdleController: updateChargingLocked: charging=false
+12-17 19:42:43.279  1795  1825 I HwCustPowerManager_FLOW: handleDreamLocked
+12-17 19:42:43.279  1795  1795 D WifiService: onReceive, action:android.intent.action.BATTERY_CHANGED
+12-17 19:42:43.279  1795  1795 D WifiService: ACTION_BATTERY_CHANGED pluggedType: 0
+12-17 19:42:43.279  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155652 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:42:43.279  1795  2670 D WifiController: StaEnabledState what=155652
+12-17 19:42:43.279  1795  2670 D WifiController: DefaultState what=155652
+12-17 19:42:43.279  1795  2670 D WifiController: battery changed pluggedType: 0
+12-17 19:42:43.279  1795  2670 D WifiController: wifiSleepPolicy:1
+12-17 19:42:43.280  2852  2852 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-17 19:42:43.280  2852  2852 W KeyguardUpdateMonitor: ACTION_BATTERY_CHANGED AMP: 0; Volt: 0
+12-17 19:42:43.280  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:42:43.280  2852  2852 W KeyguardUpdateMonitor: ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000
+12-17 19:42:43.280  2852  2852 I KgBattery: BatteryInfo updated:  3lpc-1
+12-17 19:42:43.280  2852  2852 W AppHandler: sendMessage with obj100
+12-17 19:42:43.280  2852  2852 D KeyguardUpdateMonitor: handleBatteryUpdate
+12-17 19:42:43.280  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:42:43.280  2852  2852 W HwLockScreenPanel: Handle message: 100
+12-17 19:42:43.282  3218  3218 D VideoCall_LowBattery: BatteryIntent received: android.intent.action.BATTERY_CHANGED
+12-17 19:42:43.282  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:42:43.283  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:42:43.283  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:42:43.283  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:42:43.283  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:42:43.283  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:42:43.283  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:42:43.283  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:42:43.283  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:42:43.283  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:42:43.283  3218  3218 E QtiImsExtUtils: getImsPhoneId failed. Exception = org.codeaurora.ims.QtiImsException: ImsService is not running
+12-17 19:42:43.283  3218  3218 E QtiImsExtUtils: getConfigForPhoneId phoneId is invalid
+12-17 19:42:43.283  3218  3218 E QtiImsExtUtils: isCarrierConfigEnabled bundle is null
+12-17 19:42:43.283  2852  2852 W HwLockScreenPanel: refreshBatteryInfo: null
+12-17 19:42:43.283  3218  3218 D VideoCall_LowBattery:  allowVideoCallsInLowBattery: false isCarrierOneSupported: false mIsLowbattery: false
+12-17 19:42:43.284  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.BATTERY_CHANGED  flag:1610612752 technology=Li-ion icon-small=17303220 max_charging_voltage=0 health=2 max_charging_current=0 status=3 plugged=0 present=true charge_counter=0 level=78 scale=100 temperature=270 voltage=4071 invalid_charger=0 
+12-17 19:42:43.284  2852  2852 I PowerUI : buckets   .....15 .. 10 .. 5level          78 --> 78status         3 --> 3plugType       0 --> 0invalidCharger 0 --> 0bucket         1 --> 1plugged        false --> false
+12-17 19:42:43.284  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:42:43.284  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:42:43.284  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:42:43.284  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:42:43.284  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:42:43.284  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:42:43.284  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:42:43.284  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:42:43.284  3782  3862 W QCNEJ   : |CORE| CNE received unexpected action: android.intent.action.BATTERY_CHANGED
+12-17 19:42:43.285  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:42:43.285  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:42:43.285  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:42:43.285  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:42:43.285  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:42:43.286  1795  1805 I NotificationManager: cancelNotificationWithTag pid 2852,uid = 10033,tag = low_battery,pkg =com.android.systemui,id =2132017204
+12-17 19:42:43.286  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:42:43.286  2852  2852 I HwPowerUI: processLowerBatteryLevel plugged:false batteryLevel:78 intent:act:android.intent.action.BATTERY_CHANGED  flag:1610612752 technology=Li-ion icon-small=17303220 max_charging_voltage=0 health=2 max_charging_current=0 status=3 plugged=0 present=true charge_counter=0 level=78 scale=100 temperature=270 voltage=4071 invalid_charger=0 
+12-17 19:42:43.286  2852  2852 I HwPowerUI: doTemperatueWarning, health:2
+12-17 19:42:43.287  2852  2852 I HwBatteryManager: onBatteryLevelChanged: level=78, pluggedIn=false, charging=false, PercentColor=-1275068417
+12-17 19:42:43.294   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:42:43.295  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 443499657882598}
+12-17 19:42:43.297  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 443499657882598}
+12-17 19:42:43.298  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass idle 1 443499657882598
+12-17 19:42:43.299  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:42:43.299  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:42:43.300  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:42:43.300  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:42:43.300  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:42:43.301  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:42:43.301  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:42:43.301  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:42:43.302  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:42:43.302  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:42:43.302  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:42:43.389 20894 20910 I ChinaUploader: nspFileMd5ce3ba8e9487367f0a3559157d1018385
+12-17 19:42:43.389 20894 20910 I ChinaUploader: nspFileSize6476143
+12-17 19:42:43.389 20894 20910 I ChinaUploader: key: nsp-callback
+12-17 19:42:43.389 20894 20910 I ChinaUploader: value: http://logservice.vmall.com/osg/logServerAction!uf.htm?lsId=1481974942524130501&st=8wYDXBHvqwtRIMPzaak0xm8vajH2LtMrgAgGZBSx8Uw%3D&dsKey=3&tblName=17
+12-17 19:42:43.389 20894 20910 I ChinaUploader: key: nsp-callback-status
+12-17 19:42:43.389 20894 20910 I ChinaUploader: value: 200
+12-17 19:42:43.389 20894 20910 I ChinaUploader: key: nsp-content-range
+12-17 19:42:43.389 20894 20910 I ChinaUploader: value: 4096000-6476142/6476143
+12-17 19:42:43.389 20894 20910 I ChinaUploader: key: nsp-file-md5
+12-17 19:42:43.389 20894 20910 I ChinaUploader: value: ce3ba8e9487367f0a3559157d1018385
+12-17 19:42:43.389 20894 20910 I ChinaUploader: key: nsp-file-size
+12-17 19:42:43.389 20894 20910 I ChinaUploader: value: 6476143
+12-17 19:42:43.389 20894 20910 I ChinaUploader: key: nsp-ts
+12-17 19:42:43.389 20894 20910 I ChinaUploader: value: 1481974942
+12-17 19:42:43.389 20894 20910 I ChinaUploader: tmp: nsp-callback=http://logservice.vmall.com/osg/logServerAction!uf.htm?lsId=1481974942524130501&st=8wYDXBHvqwtRIMPzaak0xm8vajH2LtMrgAgGZBSx8Uw%3D&dsKey=3&tblName=17&nsp-callback-status=200&nsp-content-range=4096000-6476142/6476143&nsp-file-md5=ce3ba8e9487367f0a3559157d1018385&nsp-file-size=6476143&nsp-ts=1481974942
+12-17 19:42:43.389 20894 20910 I ChinaUploader: source: PUT&%2Fdlv2%2Fpsrv01%2Fhwdevlogbeta%2F1%2F2016%2F12%2F17%2F19%2F311c0568-9640-4e62-aa1d-e128f37cfb3d.zip&nsp-callback%3Dhttp%3A%2F%2Flogservice.vmall.com%2Fosg%2FlogServerAction%21uf.htm%3FlsId%3D1481974942524130501%26st%3D8wYDXBHvqwtRIMPzaak0xm8vajH2LtMrgAgGZBSx8Uw%253D%26dsKey%3D3%26tblName%3D17%26nsp-callback-status%3D200%26nsp-content-range%3D4096000-6476142%2F6476143%26nsp-file-md5%3Dce3ba8e9487367f0a3559157d1018385%26nsp-file-size%3D6476143%26nsp-ts%3D1481974942; token:4e364b730cb4de4a553596b3b7ef800337900bb1
+12-17 19:42:43.389 20894 20910 I ChinaUploader: hash_str: [B@d8b568
+12-17 19:42:43.389 20894 20910 I ChinaUploader: nsp_sigVASlY1i1ScC8EHlIr3NF8PmwwRo=
+12-17 19:42:43.391   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:42:43.392  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 443499755275723 1000}
+12-17 19:42:43.394  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 443499755275723 1000}
+12-17 19:42:43.395  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass active 1 443499755275723 1000
+12-17 19:42:43.396  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:42:43.396  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:42:43.396  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb

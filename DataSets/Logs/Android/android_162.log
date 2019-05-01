@@ -1,0 +1,100 @@
+12-17 19:32:27.358  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.036969 Y: 6.899954 Z: 3.639818  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:27.377  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:27.442  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:27.488  3782 20362 V AudioManager: isMusicActive...
+12-17 19:32:27.488  3782 20362 V AudioManager: isWiredHeadsetOn...
+12-17 19:32:27.555  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.762387 Y: 7.825705 Z: 3.539356  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:27.587  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:27.664  1795  1795 I TrafficMonitor: expired arrive. level:-1
+12-17 19:32:27.664  1795  1795 I TrafficMonitor: during_ms:2002,period_ms:2000
+12-17 19:32:27.664  1795  1795 I TrafficMonitor: count:63,rx_sum:0,tx_sum:0,rxBytes:0,during_ms:2002,rx_speed:0.0,tx_speed:0.0,rto:0.0
+12-17 19:32:27.664  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:0, rxSpd:0B/s, txpkt:0, txSpd:0
+12-17 19:32:27.728  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:27.751  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.754544 Y: 8.296423 Z: 0.718690  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:27.765  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:27.814  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:27.947  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.017087 Y: 7.888464 Z: -0.255020  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:27.965  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:28.060  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:28.103  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:28.143  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.370130 Y: 7.606040 Z: -0.803701  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:28.159  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:28.295  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:32:28.296  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:32:28.309  5215  5215 E wpa_supplicant: RSSI=-56;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:32:28.309  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:32:28.310  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:32:28.311  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-55 "Huawei-Employee"WPA_EAP
+12-17 19:32:28.311  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:32:28.311  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:32:28.325  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:32:28.326  1795  2739 D HuaweiWifiWatchdogStateMachine: LM mrssi=-56
+12-17 19:32:28.327  1795  1795 D WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -56
+12-17 19:32:28.327  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current loss[-56]=0%, volume=5
+12-17 19:32:28.327  1795  1795 I QosMonitor: queryRtt: rtt_type = 3
+12-17 19:32:28.327  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history loss[-56]=0.05%, volume=74713
+12-17 19:32:28.327  1795  1795 I WifiProJNI: ######### GET RTT:3 ########
+12-17 19:32:28.327  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=7
+12-17 19:32:28.327  1795  2739 I HuaweiWifiWatchdogStateMachine: spd good count:0, add sc:0.0, rate:1.0
+12-17 19:32:28.327  1795  2739 I HuaweiWifiWatchdogStateMachine: current mHighDataFlowRate = 1.0
+12-17 19:32:28.327  1795  2737 D WifiProJNI: Received kernel message payload: event 4
+12-17 19:32:28.327  1795  2739 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 5, 0. Lr =0% Totpkt=5
+12-17 19:32:28.327  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=9
+12-17 19:32:28.327  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:32:28.327  1795  1795 D HuaweiWifiWatchdogStateMachine: setSampleRtt: unvalid rtt
+12-17 19:32:28.328  1795  1795 I WifiProJNI: ######### CMD_QUERY_PKTS ########
+12-17 19:32:28.328  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=1
+12-17 19:32:28.328  1795  2737 D WifiProJNI: Received kernel message payload: event 0
+12-17 19:32:28.328  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=9
+12-17 19:32:28.328  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:32:28.328  1795  1795 I MQoS    : rtt=250,tcp_tx_pkts=1480287,tcp_rx_pkts=1768498
+12-17 19:32:28.329  1795  5350 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+12-17 19:32:28.330  1795  2739 D HuaweiWifiWatchdogStateMachine: dumpTcpResult: len=9,rtt=250,rttPkt=6,rttWn=97,cgt=0,cgtWn=0
+12-17 19:32:28.330  1795  2739 I HuaweiWifiWatchdogStateMachine: PTcp RTT:0, rtt pkt=0, tcp_rx=0, tcp_tx=0, tcp_reTran=0, rtRate=0
+12-17 19:32:28.330  1795  2739 D HuaweiWifiWatchdogStateMachine: mRssiBadCount =0, RSSI not bad.
+12-17 19:32:28.330  1795  2739 D HuaweiWifiWatchdogStateMachine: detectNetworkAvailable:hw.wifipro.dns_fail_count = 1001
+12-17 19:32:28.330  1795  2739 I HuaweiWifiWatchdogStateMachine: rs ota tcp lr rttvb bad: false, false, false, false, false; rsth:-75
+12-17 19:32:28.330  1795  2739 D HuaweiWifiWatchdogStateMachine: GSC:0, GSR:1.0, RSR:1.0, RTH:-75
+12-17 19:32:28.330  1795  2739 D HuaweiWifiWatchdogStateMachine: bqeLevel = 0 rtt=0,rtt_pkts=0 speed=0 rssi=-56
+12-17 19:32:28.330  1795  2739 I HuaweiWifiWatchdogStateMachine:  pkt chk not bad, reset sc to 0.
+12-17 19:32:28.330  1795  2739 D HuaweiWifiWatchdogStateMachine: ### mPktChkBadCnt=0
+12-17 19:32:28.339  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.044812 Y: 7.394217 Z: -0.479122  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:28.535  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.762937 Y: 7.543280 Z: 0.873247  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:28.574  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:28.669  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:32:28.669  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:32:28.669  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:32:28.732  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.837201 Y: 6.146811 Z: 2.867034  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:28.819   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:32:28.819   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:32:28.864  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:28.864  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:28.902  1795  3111 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:32:28.928  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.284375 Y: 5.785925 Z: 2.882485  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:28.955  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:28.970  3180  4307 I AwareLog: MemoryRecoveryDMEPlugin: handle message MSG_MEM_LEAK_CHECK
+12-17 19:32:29.298  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:29.730  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:32:29.731  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:32:29.732  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -65 0 -1 255 -1 255 -1 255 255 99 2147483647 2147483647 2147483647 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:32:29.732  3858  4126 I amsnl   : csr
+12-17 19:32:29.732  1795 16501 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:32:29.733  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -65 0 -1 255 -1 255 -1 255 255 99 2147483647 2147483647 2147483647 2147483647 2147483647 false gw|lte
+12-17 19:32:29.734  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:32:29.738  1795  2396 D wifiserviceimpl: netmask =16580607
+12-17 19:32:29.738  3858  4126 I amsnl   : m1: false
+12-17 19:32:29.741  1795 17832 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:32:29.742  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:16 targetClass:1 masterLevel:5 slaveLevel:-1
+12-17 19:32:29.742  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:32:29.743  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:32:29.775  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 9.000000
+12-17 19:32:29.775  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =1996078292 
+12-17 19:32:29.776  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:false
+12-17 19:32:29.776  1795  1825 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.Display".
+12-17 19:32:29.776  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:32:29.776  1795  1825 I WindowManger_keyguard: Screen turned off...
+12-17 19:32:29.776  1795  1825 V KeyguardServiceDelegate: onScreenTurnedOff()
+12-17 19:32:29.776  1795  1825 I WindowManger_keyguard: onScreenTurnedOff()
+12-17 19:32:29.777  1795  1825 W HwScreenOnProximityLock: releaseLock: return because sensor listener is held = false
+12-17 19:32:29.777  1795  1825 D HwNormalizedAutomaticBrightnessController: set power status:mPowerStatus=true,powerStatus=false
+12-17 19:32:29.777  2852  3328 D KeyguardService: Caller checkPermission fail

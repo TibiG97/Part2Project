@@ -1,0 +1,100 @@
+12-17 19:32:07.793  3608  3608 I InCall  : VideoCallFragment - onPause:
+12-17 19:32:07.793  3608  3608 I InCall  : VideoCallPresenter - isVideoCallWorking, state is: 3
+12-17 19:32:07.793  3608  3608 D InCall  : VideoCallPresenter - pauseVideo: Error bad state mPrimaryCall=[Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)] mVideoCall=null
+12-17 19:32:07.793  3608  3608 D InCall  : InCallActivity - onPause()...
+12-17 19:32:07.793  3608  3608 D InCall  : DialpadFragment - Notifying dtmf key up.
+12-17 19:32:07.793  3608  3608 D InCall  : ContactInfoCache - Contact lookup. In memory cache hit; lookup complete
+12-17 19:32:07.800  3608  3608 D InCall  : StatusBarNotifier - Showing notification for first time.
+12-17 19:32:07.800  3608  3608 D InCall  : StatusBarNotifier - Data changed.  Showing notification
+12-17 19:32:07.800  3608  3608 D InCall  : StatusBarNotifier - contactsentry_photo is null
+12-17 19:32:07.809  3608  3608 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:32:07.809  3608  3608 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:32:07.809  3608  3608 E InCall  : StatusBarNotifier - getNotificationBuilder
+12-17 19:32:07.824  1795  1825 I DisplayPowerController: checkPhoneWindowIsTop:pakcage name:com.android.incallui,ClassName name:com.android.incallui.InCallActivity
+12-17 19:32:07.824  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=0.0
+12-17 19:32:07.825  1795  1825 I DisplayPowerController: set brightness to DIM brightness:6
+12-17 19:32:07.825  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:32:07.825  3608  3608 D InCall  : StatusBarNotifier - Will show "hang-up" action in the ongoing active call Notification
+12-17 19:32:07.825  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=0
+12-17 19:32:07.825  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:32:07.825  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetScreenState: state=1
+12-17 19:32:07.825  1795  1825 D FpDataCollector: DisplayPowerState :OFF
+12-17 19:32:07.825  1795  2750 I HwLightsService: back light level before map = 0
+12-17 19:32:07.826  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:32:07.826  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:32:07.826  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:32:07.828  3608  3608 E WindowManagerEx: ret: 0
+12-17 19:32:07.828  2852  2852 I HwBrightnessUtils: APS brightness=0.0,ConvertToPercentage=NaN
+12-17 19:32:07.828  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:0 percentage:NaN
+12-17 19:32:07.828  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:0
+12-17 19:32:07.828  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:0
+12-17 19:32:07.828  1795  3121 D HwWindowManagerService: imeVis=false
+12-17 19:32:07.828  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:0 fromUser:false
+12-17 19:32:07.828  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:0 fromUser:false
+12-17 19:32:07.828  3608  3608 E WindowManagerEx: ret: 0
+12-17 19:32:07.828  1795 11746 D HwWindowManagerService: imeVis=false
+12-17 19:32:07.828  3608  3608 E WindowManagerEx: ret: 0
+12-17 19:32:07.828  3608  3608 I InCall  : StatusBarNotifier - isTopIsFullscreen = false--isTopIsFullscreenInput()--false
+12-17 19:32:07.829  3608  3608 E InCall  : StatusBarNotifier - buildAndSendNotification state=3 showHeadUpNotification=false mHeadupViewShow=false
+12-17 19:32:07.829  3608  3608 D InCall  : StatusBarNotifier - isDreaming = false
+12-17 19:32:07.829  3608  3608 D InCall  : StatusBarNotifier - Notifying IN_CALL_NOTIFICATION: Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE))
+12-17 19:32:07.835  1795  1805 I NotificationManager: enqueueNotificationInternal: pkg=com.android.incallui id=2 notification=Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE))
+12-17 19:32:07.836  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.android.incallui|2|null|1001
+12-17 19:32:07.836  3608  3608 I InCall  : ProximitySensor - ProximitySensor{keybrd=0, dpad=0, offhook=1, hor=0, ui=1, aud=EARPIECE}
+12-17 19:32:07.837  3608  3608 D InCall  : ProximitySensor - Turning on proximity sensor
+12-17 19:32:07.837  3608  3608 I InCall  : ProximitySensor - Proximity wake lock already acquired
+12-17 19:32:07.837  3608  3608 D InCall  : AnswerPresenter - onUiShowingfalse
+12-17 19:32:07.837  3608  3608 D InCall  : GlowPadAnswerFragment - Show answer UI: false
+12-17 19:32:07.837  3608  3608 D InCall  : GlowPadWrapper - stopPing
+12-17 19:32:07.837  3608  3608 I InCall  : GlowPadAnswerFragment - showVideoAnswerButtonfalsefalse
+12-17 19:32:07.837  1795  2377 I AwareLog: AwareMem_EventTracker: [POLLING_TIMEOUT_123041009] is abandoned for memory 822796
+12-17 19:32:07.837  1795  1825 D HwAmbientLuxFilterAlgo: clear buffer data and algo flags
+12-17 19:32:07.837  1795  1825 D lux trace:: [14.0/123040359, 12.0/123040712]
+12-17 19:32:07.837  1795  3884 I ActivityManager_activity: Moving to PAUSED: ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310} (pause complete)
+12-17 19:32:07.838  1795  1825 D Sensors : activate called handle:3 enable:0
+12-17 19:32:07.838  1795  1825 D Sensors : bh1745-light calling driver disable
+12-17 19:32:07.838  1795  1825 W LightSensor: LightSensor, enable, 283: en=0
+12-17 19:32:07.838  1795  1825 W LightSensor: LightSensor, enable, 284: flags=0
+12-17 19:32:07.838  1795  1825 W LightSensor: LightSensor, enable, 285: mEnabled=1
+12-17 19:32:07.838  1795  1825 E LightSensor: LightSensor disable, event occur num: 3
+12-17 19:32:07.843  3608  3608 I InCall  : VideoCallFragment - onStop:
+12-17 19:32:07.843  3608  3608 D InCall  : InCallActivity - onStop()...
+12-17 19:32:07.843  3608  3608 D InCall  : InCallPresenter - onActivityStopped
+12-17 19:32:07.843  3608  3608 D InCall  : InCallPresenter - notifyVideoPauseController
+12-17 19:32:07.843  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onPause
+12-17 19:32:07.843  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onPause, Ignoring...
+12-17 19:32:07.843  3608  3608 I InCall  : InCallPresenter - updateStatusBar: state = 0x0
+12-17 19:32:07.843  1795  1825 D AutomaticBrightnessController: Disable LightSensor at time:123041015
+12-17 19:32:07.843  1795  1825 D DisplayPowerController: mode change : autoBrightnessEnabled=false,adjustment=0.0,state=1
+12-17 19:32:07.843  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:32:07.843  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:32:07.843  1795  1825 D HwNormalizedRampAnimator: bright trace:1059/123039665,1061/123039681,1062/123039698,1063/123039717,1065/123039734,1066/123039750,1067/123039767,1069/123039781,1070/123039797,1071/123039814,1073/123039830,1074/123039847,1075/123039864,1077/123039880,1078/123039897,1079/123039913,1080/123039930,1082/123039946,1083/123039963,1084/123039979,1086/123039996,1087/123040012,1088/123040029,1090/123040046,1091/123040062,1092/123040079,1094/123040095,1095/123040112,1096/123040128,1098/123040145,
+12-17 19:32:07.844  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=OFF, backlight=0
+12-17 19:32:07.844  1795  1821 I DisplayManagerService: Display device changed state: "内置屏幕", OFF
+12-17 19:32:07.845   612   612 D SurfaceFlinger: Set power mode=0, type=0 flinger=0x7f9a25b400
+12-17 19:32:07.845  1795 15987 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.android.incallui
+12-17 19:32:07.845  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=false
+12-17 19:32:07.845  1795  1795 D DeviceIdleController: becomeInactiveIfAppropriateLocked()
+12-17 19:32:07.845  1795  1795 D DeviceIdleController: Moved from STATE_ACTIVE to STATE_INACTIVE
+12-17 19:32:07.845  1795  1795 D DeviceIdleController: stopMonitoringMotionLocked()
+12-17 19:32:07.845   612   612 I SDM     : HWCDisplay::SetPowerMode: display = 0, mode = 0
+12-17 19:32:07.845  1795  1795 D DeviceIdleController: scheduleAlarmLocked(1800000, false)
+12-17 19:32:07.845   612   612 I SDM     : DisplayBase::SetDisplayState: Set state = 0, display 0
+12-17 19:32:07.845   832  1841 E Parcel  : Reading a NULL string not supported here.
+12-17 19:32:07.845   832  1841 E Parcel  : Reading a NULL string not supported here.
+12-17 19:32:07.845  1795  1795 I AlarmManager: set(null) : type=2 triggerAtTime=444664208 win=1350000 tElapsed=444664208 maxElapsed=446014208 interval=0 flags=0x8
+12-17 19:32:07.845  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:32:07.845  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:32:07.845  1795  1795 D DeviceIdleController: Moved from LIGHT_STATE_ACTIVE to LIGHT_STATE_INACTIVE
+12-17 19:32:07.845  1795  1795 D DeviceIdleController: scheduleLightAlarmLocked(300000)
+12-17 19:32:07.845  1795  1795 I AlarmManager: set(null) : type=2 triggerAtTime=443164209 win=225000 tElapsed=443164209 maxElapsed=443389209 interval=0 flags=0x8
+12-17 19:32:07.846  3608  3608 D InCall  : InCallActivity -  bgCallTwinkingSwitch is true inQuickExiting is false mIsForegroundActivity is false
+12-17 19:32:07.849  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:07.851  1795 16499 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:07.851  3608  3608 I CallUtils: show_incallscreen  0
+12-17 19:32:07.854  1795  3121 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:07.854  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.android.incallui user=UserHandle{0} id=2 tag=null key=0|com.android.incallui|2|null|1001: Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE))) important=2, post=1481974327835, when=1481974245374, vis=0, userid=0
+12-17 19:32:07.854  2852  2852 I PhoneStatusBar: addNotification key=0|com.android.incallui|2|null|1001
+12-17 19:32:07.854  1795  3253 D PowerManagerService: release:lock=228612087, flg=0x0, tag="ActivityManager-Sleep", name=android", ws=null, uid=1000, pid=1795
+12-17 19:32:07.854  1795  3253 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:07.855  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl

@@ -1,0 +1,100 @@
+12-17 19:32:23.443  1795  1825 W LightSensor: LightSensor, enable, 283: en=1
+12-17 19:32:23.443  1795  1825 W LightSensor: LightSensor, enable, 284: flags=1
+12-17 19:32:23.443  1795  1825 W LightSensor: LightSensor, enable, 285: mEnabled=0
+12-17 19:32:23.443  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:32:23.444  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:32:23.444  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:32:23.444  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:32:23.445  1795  3884 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:23.445  1795  3884 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:32:23.448   832  1841 E Parcel  : Reading a NULL string not supported here.
+12-17 19:32:23.448   832  1841 E Parcel  : Reading a NULL string not supported here.
+12-17 19:32:23.450  1795  1825 D AutomaticBrightnessController: Enable LightSensor at time:mLightSensorEnableTime=123049166,mLightSensorEnableElapsedTimeNanos=442879806172218
+12-17 19:32:23.450  1795  1825 D AutomaticBrightnessController: mAmbientLuxValid= false,sensor is not ready
+12-17 19:32:23.450  1795  1825 D DisplayPowerController: mode change : autoBrightnessEnabled=true,adjustment=0.0,state=2
+12-17 19:32:23.450  1795  1825 D HwNormalizedAutomaticBrightnessController: mWakeupFromSleep= true,currentTime=123049166,mLightSensorEnableTime=123049158
+12-17 19:32:23.450  1795  1825 D DisplayPowerController: Animating brightness: target=-1, rate=0
+12-17 19:32:23.451  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:32:23.451  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=0
+12-17 19:32:23.454  1795  2750 D PowerManagerService: Setting HAL auto-suspend mode to false
+12-17 19:32:23.454  1795  2750 D PowerManagerService: Setting HAL interactive mode to true
+12-17 19:32:23.454  1795  2750 I QTI PowerHAL: Got set_interactive hint
+12-17 19:32:23.455  1795  2750 D libfingersense_wrapper: Calling fingersense_on_resume()
+12-17 19:32:23.455  1795  2750 D libfingersense_wrapper: fingersense_on_resume() finished
+12-17 19:32:23.456   612   612 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f9a25b400
+12-17 19:32:23.456   612   612 I SDM     : HWCDisplay::SetPowerMode: display = 0, mode = 2
+12-17 19:32:23.456   612   612 I SDM     : DisplayBase::SetDisplayState: Set state = 1, display 0
+12-17 19:32:23.457   836  2387 I knuckle_sensor: Sending SAM_ENABLE to fs_data
+12-17 19:32:23.459  1795 11747 D ActivityManager: setExcludeFromRecents:pkgName=null
+12-17 19:32:23.460  1795 15988 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:23.460  1795  1809 I PowerManager_screenOn: finishKeyguardDrawn -> waitForAllWindowsDrawn
+12-17 19:32:23.460  1795 15988 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:32:23.460  1795  1809 I PowerManager_screenOn: waitForAllWindowsDrawn  cover is open or null
+12-17 19:32:23.461  3608  3608 D InCall  : InCallPresenter - onActivityStarted
+12-17 19:32:23.461  3608  3608 D InCall  : InCallPresenter - notifyVideoPauseController
+12-17 19:32:23.461  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onResume
+12-17 19:32:23.461  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onResume. Ignoring...
+12-17 19:32:23.461  1046 26554 V ThreadsEx: HDebug print the key screen_state
+12-17 19:32:23.461  3608  3608 D InCall  : InCallActivity - doOrientationChanged prevOrientation=1 newOrientation=1
+12-17 19:32:23.461  3608  3608 D InCall  : InCallActivity - onStart()... end
+12-17 19:32:23.461  1046 26554 D audio_hw_primary: adev_set_parameters: enter: screen_state=on
+12-17 19:32:23.461  1046 26554 I Huawei_audio_cust: huawei_audio huawei_choose_HandsFree_device_incall_forHWtest: test Type =4
+12-17 19:32:23.462  1046 26554 I Huawei_audio_cust: huawei_audio huawei_choose_Handset_device_incall_forHWtest: test Type =4
+12-17 19:32:23.462  1046 26554 I Huawei_audio_cust: get_spk_pa_type: pa is max98925
+12-17 19:32:23.462  1046 26554 I Huawei_audio_cust: huawei_common_set_parameters: exit with code(0)
+12-17 19:32:23.462  1046 26554 V Huawei_audio_cust: huawei_cust_set_parameters: exit with code(0)
+12-17 19:32:23.462  1046 26554 V msm8916_platform: platform_set_parameters: enter: - screen_state=on
+12-17 19:32:23.462  1046 26554 V msm8916_platform: platform_set_parameters: exit with code(0)
+12-17 19:32:23.462  1046 26554 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:32:23.462  1046 26554 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:32:23.462  1046 26554 V audio_hw_primary: adev_set_parameters: exit with code(0)
+12-17 19:32:23.464  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:23.466  3608  3608 I InCall  : InCallActivity - onResume()...
+12-17 19:32:23.466   836   928 I knuckle_sensor: Got ENABLE response, status = 0, id = 67
+12-17 19:32:23.469  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=false
+12-17 19:32:23.469  1795  2778 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:32:23.470  3858  4126 I amsnl   : csr
+12-17 19:32:23.470  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:32:23.471  3608  3608 I InCall  : InCallActivity - bgCallTwinkingSwitch is truemIsForegroundActivity is true
+12-17 19:32:23.471  3608  3608 D InCall  : InCallPresenter - notifyInCallScreenIsForeground: true
+12-17 19:32:23.471  3608  3608 I SendBroadcastPermission: action:InCallScreenIsForegroundActivity, mPermissionType:0
+12-17 19:32:23.472  1795  1795 I AlarmManager: remove(PendingIntent{2f9e644: PendingIntentRecord{527f32d android broadcastIntent}}) changed bounds; rebatching
+12-17 19:32:23.472  1795 16498 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{ec55919 3608:com.android.incallui/1001}
+12-17 19:32:23.473  1795  6986 D wifiserviceimpl: netmask =16580607
+12-17 19:32:23.473  3608  3608 D InCall  : StatusBarNotifier - cancelInCall()...
+12-17 19:32:23.473  3858  4126 I amsnl   : m1: false
+12-17 19:32:23.475  1795  3110 I NotificationManager: cancelNotificationWithTag pid 3608,uid = 1001,tag = null,pkg =com.android.incallui,id =2
+12-17 19:32:23.476  3608  3608 D InCall  : StatusBarNotifier - updateInCallNotification: timer cleared
+12-17 19:32:23.477  1795  6985 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:32:23.477  3608  3608 I InCall  : ProximitySensor - ProximitySensor{keybrd=0, dpad=0, offhook=1, hor=0, ui=1, aud=EARPIECE}
+12-17 19:32:23.477  3608  3608 D InCall  : ProximitySensor - Turning on proximity sensor
+12-17 19:32:23.478  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:32:23.478  3608  3608 I InCall  : ProximitySensor - Proximity wake lock already acquired
+12-17 19:32:23.478  2852  2852 I BackgrounCallingLayout: mCallingStatusReceiver:onReceive::action=InCallScreenIsForegroundActivity, isForegroundActivity=true, mPhoneState=2
+12-17 19:32:23.478  3608  3608 D InCall  : AnswerPresenter - onUiShowingtrue
+12-17 19:32:23.478  3608  3608 D InCall  : AnswerPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:32:23.478  3608  3608 D HwCust  : Create obj success use class com.android.incallui.HwCustAnswerPresenterImpl
+12-17 19:32:23.479  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:32:23.479  2852  2852 I BackgrounCallingLayout: updateCallLayout:isBackground=false, isInteractive=true
+12-17 19:32:23.479  2852  2852 I HwPhoneStatusBar: mNotifyStateChangedReceiver::onReceive:action=InCallScreenIsForegroundActivity, mBackgroundState=false
+12-17 19:32:23.479  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:32:23.482  3608  3608 D InCall  : AnswerPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:32:23.484  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+12-17 19:32:23.484  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:32:23.485  1795  1795 I NotificationManager: cancelNotification,index:0
+12-17 19:32:23.485  1795  1795 I NotificationManager: cancelNotification,cancelNotificationLocked,callingUid = 1001,callingPid = 3608
+12-17 19:32:23.485  1795  1795 I NotificationManager: cancelNotificationLocked called,tell the app,reason = 8
+12-17 19:32:23.485  1795  1795 I NotificationManager: cancelNotificationLocked:0|com.android.incallui|2|null|1001
+12-17 19:32:23.485  1795  1795 I NotificationManager: cancelNotificationLocked,remove =com.android.incallui
+12-17 19:32:23.486  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = true,ledNotification == null?true
+12-17 19:32:23.486  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:32:23.486  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:32:23.486  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:32:23.486  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:32:23.486  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:32:23.486  1795  1795 D HwPFWLogger: PFW.HwPFWService:mBroadcastReceiver action = android.intent.action.SCREEN_ON
+12-17 19:32:23.486  1795  2708 D HwPFWLogger: PFW.HwPFWService:handle PFW_MSG_SYSTEM
+12-17 19:32:23.487  1795  2708 D HwPFWLogger: PFW.HwPFWAppRestartPolicy:receive action = android.intent.action.SCREEN_ON
+12-17 19:32:23.489  1795  1795 D WifiService: onReceive, action:android.intent.action.SCREEN_ON
+12-17 19:32:23.490  1795  2670 D WifiController: DeviceActiveState{ when=-1ms what=155650 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:32:23.490  1795  2670 D WifiController: StaEnabledState what=155650

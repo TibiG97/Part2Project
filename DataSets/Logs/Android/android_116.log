@@ -1,0 +1,100 @@
+12-17 19:31:58.397  1795  1825 D AutomaticBrightnessController: updateAutoBrightness: mScreenAutoBrightness=24, newScreenAutoBrightness=27
+12-17 19:31:58.397  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:58.397  1795  1825 D DisplayPowerController: Animating brightness: target=27, rate=40
+12-17 19:31:58.397  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:58.397  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:31:58.398  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:31:58.398  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:58.399  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:58.400  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:58.403  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:31:58.405  1795  3253 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{580cfb2 5224:com.huawei.health:DaemonService/u0a99}
+12-17 19:31:58.406  2852  2852 I EventCenter: EventCenter Get :android.com.huawei.bone.NOTIFY_SPORT_DATA
+12-17 19:31:58.407  5224  5283 I Step_HSNH: 20002302|upDateHealthNotification()|89|2.98|4181
+12-17 19:31:58.408  5224  5283 I Step_HSNH: 20002302|rebuild notification
+12-17 19:31:58.408  1795  1825 I HwGradualBrightnessAlgo: mFirstValidAuto=false,mAutoIntervened=falsemfastAnimtionFlag=true
+12-17 19:31:58.409  1795  1825 D HwGradualBrightnessAlgo: AutoMode=true,Target=1058,Current=941,amount=3.8705344,duration=0.5
+12-17 19:31:58.409  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:31:58.410  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_ON
+12-17 19:31:58.410  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:58.410  7741  7741 D Mms_TX_NOTIFY: ScreenState present
+12-17 19:31:58.411  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:31:58.411  1795  1805 I NotificationManager: enqueueNotificationInternal: pkg=com.huawei.health id=10010 notification=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)
+12-17 19:31:58.412  2852  2852 I HwBrightnessUtils: APS brightness=24.0,ConvertToPercentage=0.24526884
+12-17 19:31:58.412  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:24 percentage:0.24526884
+12-17 19:31:58.412  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:2453
+12-17 19:31:58.412  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:2453
+12-17 19:31:58.412  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2453 fromUser:false
+12-17 19:31:58.412  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2453 fromUser:false
+12-17 19:31:58.412  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.huawei.health|10010|null|10099
+12-17 19:31:58.413  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 4.460355 Y: 6.854681 Z: 4.562229  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:58.416  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:31:58.418  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:31:58.420  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_ON
+12-17 19:31:58.422  3608  3608 D InCall  : InCallActivity - mScreenOnReceiver mCallEndOptionsDialog = null
+12-17 19:31:58.426  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:31:58.430  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:31:58.432  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)) important=2, post=1481974318411, when=1481531589202, vis=0, userid=0
+12-17 19:31:58.432  2852  2852 D StatusBar: updateNotification(StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)))
+12-17 19:31:58.433  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:58.433  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:31:58.434  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.huawei.health|10010|null|10099
+12-17 19:31:58.434  2852  2852 D StatusBar: applyInPlace=true shouldPeek=false alertAgain=true
+12-17 19:31:58.434  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.huawei.health|10010|null|10099
+12-17 19:31:58.434  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.huawei.health|10010|null|10099, group=0|com.huawei.health|10010|null|10099
+12-17 19:31:58.434  2852  2852 D StatusBar: reusing notification for key: 0|com.huawei.health|10010|null|10099
+12-17 19:31:58.434  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:58.435  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:58.435  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:31:58.440 16628 16628 I TotemWeather: RetryTaskController:mTaskList is null
+12-17 19:31:58.442  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:31:58.442  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:31:58.442  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:31:58.442  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:31:58.443  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:31:58.444  1795  2778 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:16
+12-17 19:31:58.444  1795  2778 D StubTelephonyRegistry: LISTEN_CELL_LOCATION uid:10028
+12-17 19:31:58.447  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:31:58.447  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:31:58.448  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:31:58.448  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:31:58.449 31949 31967 I TCP     : msg.recv{4791} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 659TCP_OK
+12-17 19:31:58.450 31949 31967 I ECS     : msg.recv{4791} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 663 bytes [12]_00_03_02_05_01_04_81_B7_82_6B_1F_35 cmdCode(CC_PCheckVersion.0x0501)msgType(MT_ACK.2)msgClass(MC_Push.5)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(true)length(659)version(3)sno(81B7)
+12-17 19:31:58.454 31949 31967 I PushService: main{1} PushService.onStartCommand(PushService.java:87) Push Service Start by  userEvent
+12-17 19:31:58.455   816 20288 D DnsProxyListener: GetAddrInfoHandler addr: uc.huawei.com {304, 917808, 10102} 172.30.70.63
+12-17 19:31:58.456 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.shutdown(TcpCirChannel.java:257) Login_By_Step-> shut down now connect
+12-17 19:31:58.457 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:31:58.458 31949 31967 I ECS     : WatchThread{4786} TcpClient.disconnect_i(TcpClient.java:202) ==================== TCP CLIENT DISCONNECT ====================
+12-17 19:31:58.459 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.disconnectSocket(TcpClientThread.java:369) disconnecting to uc.huawei.com:7801
+12-17 19:31:58.459  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:31:58.459 31949 31967 I TCP     : WatchThread{4786} TcpSocket.close(TcpSocket.java:158) shutdown output: java.net.SocketException: Socket is closed
+12-17 19:31:58.459 31949 31967 I TCP     : WatchThread{4786} TcpSocket.close(TcpSocket.java:170) shutdown input: java.net.SocketException: Socket is closed
+12-17 19:31:58.460 31949 31967 W TCP     : tcp.recv{4790} TcpSocket.read(TcpSocket.java:242) <<< WARN(5) >>> java.net.SocketException: Socket operation on non-socket
+12-17 19:31:58.460  3218 13036 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:31:58.460  3218 13036 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:31:58.460 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.closeSocket(TcpClientThread.java:396) closed socket.
+12-17 19:31:58.461  1795 17832 I AlarmManager: remove(PendingIntent{5ba4fb3: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) changed bounds; rebatching
+12-17 19:31:58.461 31949 31967 E TCP     : tcp.recv{4790} TcpClientThread.readSocket(TcpClientThread.java:452) <<< ERROR(6) >>> socket read length failure -104
+12-17 19:31:58.462 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:314) disconnected
+12-17 19:31:58.463 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.connect(TcpCirChannel.java:219) Connect to server  address = [uc.huawei.com,]  port = 7801
+12-17 19:31:58.463 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:31:58.463  1795  3237 I AlarmManager: set(PendingIntent{c0ea970: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) : type=0 triggerAtTime=1481974618463 win=0 tElapsed=443154827 maxElapsed=443154827 interval=300000 flags=0x1
+12-17 19:31:58.464 31949 31967 I ECS     : WatchThread{4786} TcpClient.connect(TcpClient.java:162) ==================== TCP CLIENT CONNECT [2] ====================
+12-17 19:31:58.465 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.connect(TcpClientThread.java:52) will connect to uc.huawei.com:7801
+12-17 19:31:58.466 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:349) connecting max 30000ms to uc.huawei.com:7801
+12-17 19:31:58.466 31949 31967 I TCP     : tcp.conn{4787} TcpSocket.connect_i(TcpSocket.java:84) connecting to ip address uc.huawei.com/172.30.70.63
+12-17 19:31:58.469 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:360) notify user tcp connected successully at 36832 to uc.huawei.com:7801
+12-17 19:31:58.469 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.onRecv(TcpClientThread.java:522) tcp connection event TCP_CONNECTED
+12-17 19:31:58.470 31949 31985 I PushService: connect :true
+12-17 19:31:58.473 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_ON
+12-17 19:31:58.474  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.941510 Y: 6.264868 Z: 3.012002  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:58.475  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:31:58.476 31949 31967 I PushService: tcp.conn{4787} ServiceC.connectedNotify(ServiceC.java:289) 172.30.70.63
+12-17 19:31:58.478 31949 31967 I ECS     : tcp.conn{4787} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 100 bytes [16]_00_00_00_60_00_03_01_05_01_04_81_B8_00_00_00_00 cmdCode(CC_PCheckVersion.0x0501)msgType(MT_ARG.1)msgClass(MC_Push.5)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(true)length(96)version(3)sno(81B8)
+12-17 19:31:58.487 16354 16354 E HwSystemManager: MemCPUMonitor:startTimerMonitor isCompleted = true
+12-17 19:31:58.492  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:31:58.493 17238 17238 D Bth     : BtChrStatisticsManager:sendScreenOnEvent enter.
+12-17 19:31:58.494 17238 17252 D Bth     : BtChrStatisticsManager:msg Loop is running.
+12-17 19:31:58.497 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:292) connected
+12-17 19:31:58.499 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 659
+12-17 19:31:58.500 31949 31967 I TCP     : msg.recv{4791} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 659TCP_OK

@@ -1,0 +1,100 @@
+12-17 19:32:26.887   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:7
+12-17 19:32:26.887   835   835 D fpc_fingerprint_hal: fpc_get_authenticator_id
+12-17 19:32:26.887  2852  2852 W CameraLayout: Cameralayout setVisibility. true false  2
+12-17 19:32:26.887  2852  2852 D MagazineDetailView: resetPagerState
+12-17 19:32:26.887   835  2385 D fpc_fingerprint_hal: fpc poll irq interupt
+12-17 19:32:26.887   835  2385 D fpc_fingerprint_hal: wait_finger_down, took 3536 ms
+12-17 19:32:26.887  1795  3110 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:32:26.887  1795  3110 D HwNetworkStatsService: mActiveIface: null
+12-17 19:32:26.887   835  2385 E libteec : begin
+12-17 19:32:26.888   606  2379 E libteec : receive data len = 128
+12-17 19:32:26.888  2883  2883 I HwSystemManager: AntiMalManager:receive Broadcast ACTION_SCREEN_OFF mOnTimeSum:260909299 onTime:551224 isPowerConnected:false
+12-17 19:32:26.888  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:32:26.889  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:32:26.889  1795  3110 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+12-17 19:32:26.890  2883  2883 I HwSystemManager: AutoCleanReceiveServer:receive action:android.intent.action.SCREEN_OFF
+12-17 19:32:26.891  2883  2883 I HwSystemManager: AutoCleanReceiveServer:telemamanger state isIdle:true
+12-17 19:32:26.891  2883  2883 I HwSystemManager: AutoCleanReceiveServer:checkToStartCleanService,phone is use state,phone is use,need not start clean service
+12-17 19:32:26.891  1795  3110 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:32:26.892  1795  3110 D PowerManagerService: release:lock=184063844, flg=0x0, tag="NetworkStats", name=android", ws=null, uid=1000, pid=1795
+12-17 19:32:26.892  1795  3110 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:26.892  1795  3110 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:32:26.899  1795  3077 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_OFF
+12-17 19:32:26.899  1795  3077 I GnssLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:false
+12-17 19:32:26.899  1795  3077 I GnssLocationProvider: disableGps:false  isEnabled()=true
+12-17 19:32:26.902  2852  3361 I vol.VolumeDialogControl: C onScreenOff 
+12-17 19:32:26.902   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:32:26.903   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:32:26.903   606  2379 E libteec : send data return = 128
+12-17 19:32:26.903   835  2385 E libteec : receive data len = 128
+12-17 19:32:26.903   835  2385 E libteec : begin
+12-17 19:32:26.903   835  2385 E libteec : qsc_decode end
+12-17 19:32:26.903   835  2385 D fpc_fingerprint_hal: worker idle
+12-17 19:32:26.903   835   835 E libteec : begin
+12-17 19:32:26.903   606  2379 E libteec : receive data len = 128
+12-17 19:32:26.903  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:32:26.906  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:32:26.906  3168  3168 I CHR_TelStatusListenr0: [Timer rat:0 level:5] suspend
+12-17 19:32:26.906  3168  3168 I CHR_TelStatusListenr0: [Timer serviceState:0 simReady:true] suspend
+12-17 19:32:26.906  3168  3168 I CHR_TelStatusListenr1: [Timer serviceState:1 simReady:false] suspend
+12-17 19:32:26.907  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:32:26.907  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:32:26.907  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:32:26.907  3168  3168 I CHR_TelphonyStatusService: duration: 545906 STATUS_REPORT_TIMESPAN: 86400000 / (1000 * 60 * 60 * 24) day STATUS_REPORT_TIMESPAN_FOR_BETA: 21600000 / (1000 * 60 * 60 * 24) day
+12-17 19:32:26.907  3168  3168 I CHR_ChrUtil: is Beta User, userType = 3
+12-17 19:32:26.907  2883  3040 I HwSystemManager: TrafficNotifyAfterLocked:mLockStartTraffic = 0;mLockStartTrafficList = {}
+12-17 19:32:26.907  2852  2852 I NotificationContentView: transferRemoteInputFocus: 1
+12-17 19:32:26.907   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:32:26.907   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:32:26.907   606  2379 E libteec : send data return = 128
+12-17 19:32:26.907   835   835 E libteec : receive data len = 128
+12-17 19:32:26.907   835   835 E libteec : begin
+12-17 19:32:26.907   835   835 E libteec : qsc_decode end
+12-17 19:32:26.908   835   835 D fpc_fingerprint_hal: fpc_get_authenticator_id id 14657234628792947271
+12-17 19:32:26.908  1795  2326 V FingerprintService: startAuthentication(com.android.systemui)
+12-17 19:32:26.908  1795  2326 V FingerprintService: starting client AuthenticationClient(com.android.systemui), initiatedByClient = true)
+12-17 19:32:26.908   835  2385 E libteec : begin
+12-17 19:32:26.908   606  2379 E libteec : receive data len = 128
+12-17 19:32:26.908   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:1
+12-17 19:32:26.908   835   835 V fingerprintd: authenticate(sid=0, gid=0)
+12-17 19:32:26.908  2852  2852 I HwExpandableNotificationRowHelper: unclear notification ,notificationPkgName:com.android.incallui key:0|com.android.incallui|2|null|1001
+12-17 19:32:26.908  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:32:26.909  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:32:26.909  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onScreenOff
+12-17 19:32:26.916   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:32:26.916   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:32:26.916   606  2379 E libteec : send data return = 128
+12-17 19:32:26.916   835  2385 E libteec : receive data len = 128
+12-17 19:32:26.916   835  2385 E libteec : begin
+12-17 19:32:26.916   835  2385 E libteec : qsc_decode end
+12-17 19:32:26.916   835  2385 D fpc_fingerprint_hal: worker idle
+12-17 19:32:26.916  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:32:26.916  2852  3556 I SystemUIIdleHandler: enter addToIdleMessage(type:1001), mainloop is busy, add to idleMessage
+12-17 19:32:26.916  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:32:26.916  2852  3556 I SystemUIIdleHandler: enter addToIdleMessage(type:1001), mainloop is busy, add to idleMessage
+12-17 19:32:26.917  1795  2326 W FingerprintService: client com.android.systemui is authenticating...
+12-17 19:32:26.917   835  2385 D fpc_fingerprint_hal: workerFunction STATE_AUTHENTICATE
+12-17 19:32:26.917   835  2385 E libteec : begin
+12-17 19:32:26.917   606  2379 E libteec : receive data len = 128
+12-17 19:32:26.920   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:32:26.920   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:32:26.920   606  2379 E libteec : send data return = 128
+12-17 19:32:26.920  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:32:26.920   835  2385 E libteec : receive data len = 128
+12-17 19:32:26.920   835  2385 E libteec : begin
+12-17 19:32:26.920   835  2385 E libteec : qsc_decode end
+12-17 19:32:26.920   835  2385 I fpc_tac : fpc_tac_send_get_indices_cmd indices:0x7f9860c000, index_count:1
+12-17 19:32:26.920   835  2385 E libteec : begin
+12-17 19:32:26.920   606  2379 E libteec : receive data len = 1152
+12-17 19:32:26.923   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:32:26.923   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:32:26.923   606  2379 E libteec : send data return = 1152
+12-17 19:32:26.923   835  2385 E libteec : receive data len = 1152
+12-17 19:32:26.923   835  2385 E libteec : begin
+12-17 19:32:26.923   835  2385 E libteec : qsc_decode end
+12-17 19:32:26.923   835  2385 E libteec : begin
+12-17 19:32:26.923   606  2379 E libteec : receive data len = 128
+12-17 19:32:26.924  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_OFF  flag:1342177296 
+12-17 19:32:26.925  2852  2852 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:32:26.927   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:32:26.927   606  2379 E libteec : qsc_send_cmd finish

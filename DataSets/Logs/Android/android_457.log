@@ -1,0 +1,100 @@
+12-17 19:50:31.221  1795 15987 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:50:31.221  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 22 -93 -8 300 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:50:31.221  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 22 -93 -8 300 2147483647 2147483647 false gw|lte
+12-17 19:50:31.221  3858  4126 I amsnl   : csr
+12-17 19:50:31.222  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:50:31.225  1795  3237 I NotificationManager: enqueueNotificationInternal: pkg=com.huawei.health id=10010 notification=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)
+12-17 19:50:31.226  1795 11746 D wifiserviceimpl: netmask =16580607
+12-17 19:50:31.227  3858  4126 I amsnl   : m1: false
+12-17 19:50:31.228  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.huawei.health|10010|null|10099
+12-17 19:50:31.228  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+12-17 19:50:31.229  1795 17832 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:50:31.230  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:50:31.230  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:50:31.232  3858  4126 I amsnl   : c: true, w: false, t: false, l: false
+12-17 19:50:31.234  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)) important=2, post=1481975431226, when=1481531589202, vis=0, userid=0
+12-17 19:50:31.235  2852  2852 D StatusBar: updateNotification(StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)))
+12-17 19:50:31.236  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:50:31.237  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:50:31.237  2852  2852 D StatusBar: No peeking: not in use: 0|com.huawei.health|10010|null|10099
+12-17 19:50:31.237  2852  2852 D StatusBar: applyInPlace=true shouldPeek=false alertAgain=true
+12-17 19:50:31.237  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.huawei.health|10010|null|10099
+12-17 19:50:31.237  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.huawei.health|10010|null|10099, group=0|com.huawei.health|10010|null|10099
+12-17 19:50:31.237  2852  2852 D StatusBar: reusing notification for key: 0|com.huawei.health|10010|null|10099
+12-17 19:50:31.238  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:50:31.239  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:50:31.240  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:50:31.251  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:50:31.251  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:50:31.251  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:50:31.251  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:50:31.251  2852  2852 W AppHandler: sendMessage 4
+12-17 19:50:31.258  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:50:31.259  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:50:31.260  2852  2852 W PanelView: set notification panel padding = 1675
+12-17 19:50:31.260  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:50:31.260  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:50:31.261  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:50:31.261  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:50:31.261  2852  2852 W HwLockScreenPanel: Handle message: 4
+12-17 19:50:31.438  1795  3253 D PowerManagerService: release:lock=237604388, flg=0x0, tag="WakerLock:49171226", name=com.tencent.mm", ws=null, uid=10105, pid=4634
+12-17 19:50:31.439  1795  3253 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:50:31.440  1795  3253 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:51:04.432  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:51:04.433  3180  3332 I DeviceMonitor:  uid:10105 pid:4634 flags:1 tag:WakerLock:49171226 wakeup time:60999
+12-17 19:51:04.433  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:51:04.433  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:51:04.433  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:51:04.433  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:51:04.433  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:51:04.433  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:51:04.433  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:51:04.433  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:51:04.434  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:51:04.434  1795  2376 W AlarmManager: mIsScreenOn is: false, WAKEUP alarm trigger action = ALARM_ACTION(4634) package name is: com.tencent.mm
+12-17 19:51:04.434  1795  2376 W AlarmManager: mIsScreenOn is: false, WAKEUP alarm trigger action = ALARM_ACTION(4492) package name is: com.tencent.mm
+12-17 19:51:04.434  1795  2376 W AlarmManager: mIsScreenOn is: false, WAKEUP alarm trigger action = ALARM_ACTION(4634) package name is: com.tencent.mm
+12-17 19:51:04.435  1795  2376 W AlarmManager: mIsScreenOn is: false, WAKEUP alarm trigger action = com.huawei.indexsearch.triggeridle package name is: com.huawei.indexsearch.observer
+12-17 19:51:04.435  1795  2376 I AlarmManager: Alarm triggering (type 0 or 2): [Alarm{dd854dd type 2 when 443906670 com.tencent.mm}, Alarm{b778d04 type 2 when 443966598 com.tencent.mm}, Alarm{f8f517 type 2 when 443966602 com.tencent.mm}, Alarm{74b7596 type 2 when 443968149 com.huawei.indexsearch.observer}]
+12-17 19:51:04.435  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:51:04.435  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:51:04.435  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:51:04.435  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:51:04.435  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:51:04.435  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:51:04.435  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:51:04.435  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:51:04.435  1795  2376 I AlarmManager: sending alarm Alarm{ee5a852 type 3 when 443996363 android},repeatInterval = 0,listenerTag =time_tick
+12-17 19:51:04.435  1795 16500 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:51:04.436  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[foreground] BroadcastRecord{27dd723 u-1 android.intent.action.TIME_TICK}: prev had 0
+12-17 19:51:04.436  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [foreground] BroadcastRecord{27dd723 u-1 android.intent.action.TIME_TICK}, has 11 receivers
+12-17 19:51:04.436  1795  2376 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:51:04.436  1795  2376 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:51:04.437  1795  1795 V AlarmManager: Received TIME_TICK alarm; rescheduling
+12-17 19:51:04.437  1795  1795 I AlarmManager: scheduleTimeTickEvent triggerAtTime = 444056363
+12-17 19:51:04.437  1795  2376 I AlarmManager: sending alarm Alarm{dd854dd type 2 when 443906670 com.tencent.mm},repeatInterval = 0,listenerTag =null
+12-17 19:51:04.438  1795  2376 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=ALARM_ACTION(4634) flg=0x14 (has extras) } on bgkeyapp queue
+12-17 19:51:04.438  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[bgkeyapp] BroadcastRecord{f337420 u0 ALARM_ACTION(4634)}: prev had 0
+12-17 19:51:04.439  1795  1812 I ActivityManager_broadcast: dispatch ordered broadcast [bgkeyapp] BroadcastRecord{f337420 u0 ALARM_ACTION(4634)}, has 1 receivers
+12-17 19:51:04.439  1795  2376 I AlarmManager: sending alarm Alarm{b778d04 type 2 when 443966598 com.tencent.mm},repeatInterval = 0,listenerTag =null
+12-17 19:51:04.440  3180  3578 I ash     : com.baidu.input_huawei goes to hibernation overtime: 3557
+12-17 19:51:04.441  1795  2376 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=ALARM_ACTION(4492) flg=0x14 (has extras) } on bgkeyapp queue
+12-17 19:51:04.441  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[bgkeyapp] BroadcastRecord{70a61d9 u0 ALARM_ACTION(4492)}: prev had 1
+12-17 19:51:04.442  1795  2376 I AlarmManager: sending alarm Alarm{f8f517 type 2 when 443966602 com.tencent.mm},repeatInterval = 0,listenerTag =null
+12-17 19:51:04.443  1795  2376 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=ALARM_ACTION(4634) flg=0x14 (has extras) } on bgkeyapp queue
+12-17 19:51:04.443  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[bgkeyapp] BroadcastRecord{11f79e u0 ALARM_ACTION(4634)}: prev had 2
+12-17 19:51:04.444  1795  2376 I AlarmManager: sending alarm Alarm{74b7596 type 2 when 443968149 com.huawei.indexsearch.observer},repeatInterval = 0,listenerTag =null
+12-17 19:51:04.444  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{34cc27f u0 com.huawei.indexsearch.triggeridle}: prev had 0
+12-17 19:51:04.445  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{34cc27f u0 com.huawei.indexsearch.triggeridle}, has 1 receivers
+12-17 19:51:04.445  1795  2376 I AlarmManager: sending alarm Alarm{82bb24c type 3 when 444000000 com.tencent.mm},repeatInterval = 300000,listenerTag =null
+12-17 19:51:04.446  1795  2376 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.TrafficStatsReceiver flg=0x14 (has extras) } on bgkeyapp queue
+12-17 19:51:04.446  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[bgkeyapp] BroadcastRecord{db64295 u0 com.tencent.mm.TrafficStatsReceiver}: prev had 3
+12-17 19:51:04.447  1795  2376 I AlarmManager: sending alarm Alarm{f93bcb1 type 3 when 444000000 com.huawei.systemmanager},repeatInterval = 600000,listenerTag =null
+12-17 19:51:04.447   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:51:04.449  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 443982286308820}
+12-17 19:51:04.451  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 443982286308820}
+12-17 19:51:04.452  3180  3578 I AppManager: check dependency pid: 4690 is depended by pid: 1795
+12-17 19:51:04.453  3180  3578 I ash     : Application com.baidu.input_huawei is depended by other app, delay to H!
+12-17 19:51:04.453  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass idle 1 443982286308820
+12-17 19:51:04.454  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:51:04.454  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84

@@ -1,0 +1,100 @@
+12-17 19:35:56.329  1795  2671 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:35:56.329  1795  2671 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: 80:38:bc:0b:04:40 freq=2472 qual=0 noise=-89~ level=-91 snr=-2 flags=0xb age=30 est=6500
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 00 ...
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 00 ...
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: 00:26:f2:1b:9d:b2 freq=2437 qual=0 noise=-89~ level=-87 snr=2 flags=0xb age=30 est=2000
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: IEs - hexdump(len=109): 00 06 4e 54 50 43 30 32 01 08 82 84 8b 96 24 30 48 6c 03 01 06 2a 01 04 2f 01 04 32 04 0c 12 18 ...
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=115): 00 06 4e 54 50 43 30 32 01 08 82 84 8b 96 24 30 48 6c 03 01 06 05 04 00 03 00 00 2a 01 04 2f 01 ...
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: 80:38:bc:08:39:c0 freq=2412 qual=0 noise=-89~ level=-94 snr=-5 flags=0xb age=30 est=6500
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 00 ...
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 00 ...
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: 80:38:bc:0a:f0:c0 freq=2452 qual=0 noise=-89~ level=-94 snr=-5 flags=0xb age=30 est=6500
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 00 ...
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 00 ...
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: wlan0: BSS: Start scan result update 114
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 528 BSSID 80:38:bc:0a:f2:00 SSID 'wlanaccessv2.0' freq 2452
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=42
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: BSS: last_scan_res_used=14/64
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: Add randomness: count=900 entropy=503
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=16): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=5): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: Add randomness: count=901 entropy=504
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=16): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=5): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: Add randomness: count=902 entropy=505
+12-17 19:35:56.330  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=16): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=5): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: Add randomness: count=903 entropy=506
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=16): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=5): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: Add randomness: count=904 entropy=507
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=16): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=5): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: Add randomness: count=905 entropy=508
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=16): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=5): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: Add randomness: count=906 entropy=509
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=16): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=5): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: Add randomness: count=907 entropy=510
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.330  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=16): [REMOVED]
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=5): [REMOVED]
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: Add randomness: count=908 entropy=511
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=16): [REMOVED]
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=5): [REMOVED]
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: Add randomness: count=909 entropy=512
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=16): [REMOVED]
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=5): [REMOVED]
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: wlan0: Scan-only results received
+12-17 19:35:56.331  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=24
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: wlan0: Radio work 'scan'@0x7fb502f3c0 done in 0.392632 seconds
+12-17 19:35:56.331  5215  5215 D wpa_supplicant: wlan0: radio_work_free('scan'@0x7fb502f3c0: num_active_works --> 0
+12-17 19:35:56.332  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:35:56.332  1795  5219 E WifiMonitor: WifiMonitor:wlan0 cnt=31120 dispatchEvent: CTRL-EVENT-SCAN-RESULTS 
+12-17 19:35:56.332  1795  2680 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:35:56.332  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=0- MASK=0x3029d87'
+12-17 19:35:56.332  5215  5215 E wpa_supplicant: bssid=00:26:f2:1b:9d:b2;freq=2437;level=-87;flags=11;ssid=NTPC02;
+12-17 19:35:56.332  5215  5215 E wpa_supplicant: bssid=80:38:bc:08:42:c1;freq=2452;level=-48;flags=43;ssid=Huawei-Employee;
+12-17 19:35:56.333  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:29:60;freq=2412;level=-64;flags=11;ssid=wlanaccessv2.0;
+12-17 19:35:56.333  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:04:40;freq=2472;level=-91;flags=11;ssid=wlanaccessv2.0;
+12-17 19:35:56.333  5215  5215 E wpa_supplicant: bssid=80:38:bc:08:42:e1;freq=2472;level=-43;flags=11;ssid=Huawei-Employee;
+12-17 19:35:56.333  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:21;freq=2472;level=-78;flags=11;ssid=Huawei-Employee;
+12-17 19:35:56.334  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:36:a1;freq=2472;level=-86;flags=11;ssid=Huawei-Employee;
+12-17 19:35:56.334  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:fa:e1;freq=2412;level=-82;flags=11;ssid=Huawei-Employee;
+12-17 19:35:56.334  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=4022
+12-17 19:35:56.335  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=0- MASK=0x3029d87'
+12-17 19:35:56.335  5215  5215 E wpa_supplicant: bssid=00:26:f2:1b:9d:b2;freq=2437;level=-87;flags=11;ssid=NTPC02;
+12-17 19:35:56.335  5215  5215 E wpa_supplicant: bssid=80:38:bc:08:42:c1;freq=2452;level=-48;flags=43;ssid=Huawei-Employee;
+12-17 19:35:56.336  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:29:60;freq=2412;level=-64;flags=11;ssid=wlanaccessv2.0;
+12-17 19:35:56.336  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:04:40;freq=2472;level=-91;flags=11;ssid=wlanaccessv2.0;
+12-17 19:35:56.336  5215  5215 E wpa_supplicant: bssid=80:38:bc:08:42:e1;freq=2472;level=-43;flags=11;ssid=Huawei-Employee;
+12-17 19:35:56.336  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_OFF
+12-17 19:35:56.336  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:21;freq=2472;level=-78;flags=11;ssid=Huawei-Employee;
+12-17 19:35:56.337  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:36:a1;freq=2472;level=-86;flags=11;ssid=Huawei-Employee;

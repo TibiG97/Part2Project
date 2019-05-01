@@ -1,0 +1,100 @@
+12-17 19:31:38.276  1046 26554 V audio_hw_primary: adev_set_parameters: exit with code(0)
+12-17 19:31:38.279  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:31:38.280  5215  5215 E wpa_supplicant: RSSI=-55;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:31:38.280  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:31:38.281  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:31:38.281  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:31:38.281  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:31:38.281  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:false, mDimmed:false
+12-17 19:31:38.281  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-54 "Huawei-Employee"WPA_EAP
+12-17 19:31:38.281  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123011453/442834645 0 0
+12-17 19:31:38.281  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123011453/442834645 0 0
+12-17 19:31:38.281  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123011453/442834645 0 0
+12-17 19:31:38.281  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123011453/442834645 0 0
+12-17 19:31:38.281  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 0'
+12-17 19:31:38.282  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 0'
+12-17 19:31:38.283  1795  1795 I AlarmManager: remove(PendingIntent{2f9e644: PendingIntentRecord{527f32d android broadcastIntent}}) changed bounds; rebatching
+12-17 19:31:38.292  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:31:35,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:31:38.292  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:31:35,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:31:38.292  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:31:38.293  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:31:38.294  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:31:38.294  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:31:38.294  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:31:38.295  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:31:38.297  1795 16501 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:38.298   832  1841 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:38.299   832  1841 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:38.299  3608  3608 D InCall  : InCallActivity - onResume()... end
+12-17 19:31:38.299  3608  3608 I InCall  : VideoCallFragment - onResume
+12-17 19:31:38.299  3608  3608 I InCall  : VideoCallPresenter - isVideoCallWorking, state is: 3
+12-17 19:31:38.299  3608  3608 I InCall  : VideoCallFragment - onResume: Surface exist, resume videos
+12-17 19:31:38.299  3608  3608 D InCall  : VideoCallPresenter - resumeVideo: Error bad state mPrimaryCall=[Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)] mVideoCall=null
+12-17 19:31:38.299  3608  3608 I InCall  : VTCallButtonFragment - --- onResume ---
+12-17 19:31:38.299  3608  3608 I ActivityManager_activity: Resuming ActivityRecord{fd45985 token=android.os.BinderProxy@af8ea9b {com.android.incallui/com.android.incallui.InCallActivity}} with isForward=true,forwardBitChanged=true onlyLocalRequest=false
+12-17 19:31:38.301  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:38.302  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=true
+12-17 19:31:38.302  1795  1795 I DeviceIdleController: becomeActiveLocked, reason = screen
+12-17 19:31:38.302  1795  1795 D HwPFWLogger: PFW.HwPFWService:mBroadcastReceiver action = android.intent.action.SCREEN_ON
+12-17 19:31:38.302  1795  2708 D HwPFWLogger: PFW.HwPFWService:handle PFW_MSG_SYSTEM
+12-17 19:31:38.302  1795  2708 D HwPFWLogger: PFW.HwPFWAppRestartPolicy:receive action = android.intent.action.SCREEN_ON
+12-17 19:31:38.305  1795  1795 D WifiService: onReceive, action:android.intent.action.SCREEN_ON
+12-17 19:31:38.305  1795  2670 D WifiController: DeviceActiveState{ when=-1ms what=155650 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:31:38.305  1795  2670 D WifiController: StaEnabledState what=155650
+12-17 19:31:38.305  1795  2670 D WifiController: DefaultState what=155650
+12-17 19:31:38.305  1795  2670 I AlarmManager: remove(PendingIntent{50e3a01: PendingIntentRecord{a8130a6 android broadcastIntent}}) changed bounds; rebatching
+12-17 19:31:38.305  3608  3608 I InCall  : CallList - hasAnyLiveCall call = [Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)]
+12-17 19:31:38.305  3608  3608 I InCall  : ProximitySensor - isDisplayOn: true
+12-17 19:31:38.306  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:38.306  1795 16500 I qti_sensors_hal: flush,395,handle 0
+12-17 19:31:38.306  1795 16500 I qti_sensors_hal: flush,260 handle 0
+12-17 19:31:38.307  1795  1795 D HwArpVerifier: startWifiRouteCheck
+12-17 19:31:38.308  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:31:38.309  1795  1795 D WifiProStatisticsManager: sendScreenOnEvent enter.
+12-17 19:31:38.309  1795  2734 D WifiProStatisticsManager: msg Loop is running.
+12-17 19:31:38.310  1795  6988 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:38.312  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.359693 Y: 6.051718 Z: 2.283121  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:38.312  1795  2733 D WiFi_PRO_WifiProStateMachine: device screen on,but isScreenOffMonitor is false
+12-17 19:31:38.315  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 0 len = 0, 4096
+12-17 19:31:38.315  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:31:38.317  1795  1795 I EyeProtectionControllerImpl: onReceive intent action = android.intent.action.SCREEN_ON
+12-17 19:31:38.319  1795  2736 D HwInnerWifiManagerImpl: SupplicantState = COMPLETED
+12-17 19:31:38.319  1795  2736 D HwInnerWifiManagerImpl: isPhoneAP = false
+12-17 19:31:38.321  3218  6115 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:31:38.321  3218  6115 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:31:38.322  2883  2883 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:31:38.323  1795  3110 D PowerManagerService: acquire lock=184063844, flags=0x1, tag="NetworkStats", name=android, ws=null, uid=1000, pid=1795
+12-17 19:31:38.323  1795  3110 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:38.324  1795  2736 E hwintelligencewifi: getCurrentCellid type type = PHONE_TYPE_GSM
+12-17 19:31:38.324  1795  2736 E hwintelligencewifi: getCurrentCellid type is PHONE_TYPE_GSM
+12-17 19:31:38.326  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:38.326  1795  3110 D NetdConnector: SND -> {11592 bandwidth gettetherstats}
+12-17 19:31:38.326  3608  3608 D InCall  : CallCardFragment - onGlobalLayout
+12-17 19:31:38.326  1795  2736 E hwintelligencewifi: getCurrentCellid PHONE_TYPE_GSM cellidString = 460003645
+12-17 19:31:38.326  1795  2736 E hwintelligencewifi: updataApInfo cellid =460003645
+12-17 19:31:38.326  1795  2736 E hwintelligencewifi: addCurrentApInfo cellid =460003645
+12-17 19:31:38.327  2883  2883 I HwSystemManager: AutoCleanReceiveServer:receive action:android.intent.action.SCREEN_ON
+12-17 19:31:38.327  1795  2665 D NetdConnector: RCV <- {200 11592 Tethering stats list completed}
+12-17 19:31:38.327  1795  2736 E hwintelligencewifi: addCurrentApInfo info is already there
+12-17 19:31:38.327  1795  2736 W hwintelligencewifi: updateBssidTimer time = 1481974298327
+12-17 19:31:38.329  1795  2665 D NetdConnector: RCV <- {200 11592 Tethering stats list completed}
+12-17 19:31:38.331  1795  3110 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:31:38.331  1795  3110 D HwNetworkStatsService: mActiveIface: null
+12-17 19:31:38.332  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:31:38.332  5215  5215 D wpa_supplicant: nl80211: Drv Event 79 (NL80211_CMD_SET_REKEY_OFFLOAD) received for wlan0
+12-17 19:31:38.332  5215  5215 D wpa_supplicant: nl80211: Rekey offload event for BSSID 80:38:bc:08:42:c1
+12-17 19:31:38.332  5215  5215 D wpa_supplicant: nl80211: Rekey offload - Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 02
+12-17 19:31:38.332  5215  5215 D wpa_supplicant: wlan0: Event DRIVER_GTK_REKEY (35) received
+12-17 19:31:38.333  1795  2736 E hwintelligencewifi: inlineAddCurrentApInfo mInfos.size()=132
+12-17 19:31:38.333  3168  3168 I CHR_ChrDataServiceTracker: handledataswitchchanged
+12-17 19:31:38.333  1795  3110 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+12-17 19:31:38.334  1795  3110 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:31:38.335  1795  3110 D PowerManagerService: release:lock=184063844, flg=0x0, tag="NetworkStats", name=android", ws=null, uid=1000, pid=1795
+12-17 19:31:38.335  1795  3110 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:38.335  1795  3077 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_ON
+12-17 19:31:38.335  1795  3077 I GnssLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:true
+12-17 19:31:38.335  1795  3077 I GnssLocationProvider: disableGps:false  isEnabled()=true
+12-17 19:31:38.339  2883  3040 E HwSystemManager: TrafficNotifyAfterLocked:screen notification will not notify
+12-17 19:31:38.345  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:31:38.345  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:31:38.345  3608  3608 I ActivityManager_activity: Reporting idle of ActivityRecord{fd45985 token=android.os.BinderProxy@af8ea9b {com.android.incallui/com.android.incallui.InCallActivity}} finished=false

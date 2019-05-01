@@ -1,0 +1,100 @@
+12-17 19:55:49.232  1795  2381 D libfingersense_wrapper: fingersense_touch_up() finished
+12-17 19:55:49.233  3879  3879 I HwLauncher: FPSMonitor  [Launcher , dispatchTouchEvent begin, false, true] up event  x = 444 y = 777
+12-17 19:55:49.233  3879  3879 I HwLauncher: FPSMonitor  [PagedView , onIntercept] up event  x = 444 y = 777
+12-17 19:55:49.234  3879  3879 I HwLauncher: FPSMonitor  [Launcher , dispatchTouchEvent end, false, true] up event  x = 444 y = 777
+12-17 19:55:49.234  3879  3879 V AudioManager: playSoundEffect   effectType: 0
+12-17 19:55:49.234  3879  3879 V AudioManager: querySoundEffectsEnabled...
+12-17 19:55:49.234  3879  3879 I HwLauncher: Launcher onclick begin com.huawei.android.launcher.BubbleTextView{c3725b5 VFED..CL. ...P..ID 264,686-528,969 #9c010102}
+12-17 19:55:49.235  3879  3879 I HwLauncher: Launcher.Utilities  startActivitySafely useLaunchAnimation = true
+12-17 19:55:49.235  3879  3879 I HwLauncher: Launcher.Utilities  startActivitySafely begin startActivity() for current user
+12-17 19:55:49.235  1795 17831 I ActivityManager_activity: startActivityMayWait, callerApp: ProcessRecord{c5c29c4 3879:com.huawei.android.launcher/u0a61}, intent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mm/.ui.LauncherUI bnds=[276,650][540,933] }
+12-17 19:55:49.237  1795  2377 V HwPackageManagerService: Returning system default Launcher 
+12-17 19:55:49.237  1795 17831 I TransactionSponsor: Transact:getHwAdminCachedListto device policy manager service.
+12-17 19:55:49.237  1795 17831 I TransactionProcessor: HwDPMS received transaction_getHwFrameworkAdminList user: 0:4006
+12-17 19:55:49.238  1795 17831 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mm/.ui.LauncherUI bnds=[276,650][540,933]} from uid 10061 on display 0
+12-17 19:55:49.238  1795 17831 E PF_API_NATIVE: check perfhub service fail! 
+12-17 19:55:49.238  1795 17831 E PF_API_NATIVE: check perfhub service fail! 
+12-17 19:55:49.239  1795 17831 I ActivityManager: ActivityRecord info: ActivityInfo{49714a6 com.tencent.mm.ui.LauncherUI}, euid: 0
+12-17 19:55:49.240  3180  3578 I ash     : running package: com.tencent.mm, visible: true
+12-17 19:55:49.244  1795 17831 I ActivityManager_activity: insertTaskAtTop, setTaskToReturnTo: fromHome=true,lastStackTop=TaskRecord{37babfb #297 A=com.huawei.android.launcher U=0 StackId=0 sz=1}, isHomeStack=false, topTask=TaskRecord{fcfa908 #384 A=com.android.browser U=0 StackId=1 sz=1}, task=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=1}
+12-17 19:55:49.244  1795 17831 I ActivityManager_activity: moveTaskToFront: moving tr=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=1} reason=bringingFoundTaskToFront
+12-17 19:55:49.244  1795 17831 I ActivityManager_activity: insertTaskAtTop, setTaskToReturnTo: fromHome=true,lastStackTop=TaskRecord{37babfb #297 A=com.huawei.android.launcher U=0 StackId=0 sz=1}, isHomeStack=false, topTask=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=1}, task=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=1}
+12-17 19:55:49.245  1795 17831 V HwWindowManagerService: moveTaskToTop mTaskChanged:true
+12-17 19:55:49.245  1795 17831 I WindowManger_windowChange: oldFocusWindow: Window{773320 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}, currentFocusWindow: null, currentFocusApp: AppWindowToken{b6efcd1 token=Token{a978b5b ActivityRecord{5f12a6a u0 com.tencent.mm/.ui.LauncherUI t383}}}
+12-17 19:55:49.246  1795 17831 V HwWindowManagerService: setFocusedApp update app ops, mTaskChanged set to:false
+12-17 19:55:49.246  1795 17831 I FreezeScreenScene: scheduleCheckFreezeScreen sendMessageDelayed
+12-17 19:55:49.247  1795 17831 I ActivityManager_activity: Start pausing: ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297}
+12-17 19:55:49.247  1795 17831 D PowerManagerService: acquire lock=230301592, flags=0x1, tag="*launch*", name=android, ws=WorkSource{10105}, uid=1000, pid=1795
+12-17 19:55:49.247  1795 17831 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:49.247  1795 17831 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:55:49.248  1795 17831 I ActivityManager_activity: resumeTopActivityLocked: Skip resume: need to start pausing
+12-17 19:55:49.248  1795 17831 I ActivityManager_activity: resumeTopActivityLocked: Skip resume: some activity pausing.
+12-17 19:55:49.251  3879  3879 I HwLauncher: Launcher.Utilities  startActivitySafely end startActivity() for current user
+12-17 19:55:49.251  3879  3879 I HwLauncher: Launcher this view's parent is not SearchGridView , so no need to reportRecentApp.
+12-17 19:55:49.251  3879  3879 I HwLauncher: Launcher onclick end
+12-17 19:55:49.255  3879  3879 I HwLauncher: Launcher onPause()
+12-17 19:55:49.256  3879 21112 I HwLauncher: Launcher.MotionManager stopMotionAppsReco begin,mFlg = 403
+12-17 19:55:49.257  3879 21112 D MotionDetectionManager: stopMotionAppsReco motionApps: 403
+12-17 19:55:49.257  3879 21112 D MotionDetectionManager: stopMotionAppsReco not recognition motionApps 403
+12-17 19:55:49.257  3879 21112 W HwLauncher: Launcher.MotionManager stopMotionAppsReco service flg 403 is unavailable
+12-17 19:55:49.257  1795 11745 I ActivityManager_activity: Moving to PAUSED: ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297} (pause complete)
+12-17 19:55:49.258   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:55:49.260  3180  3332 D ScenarioService: new above launcher pkgs: [com.tencent.mm]
+12-17 19:55:49.271  1795 11745 I ActivityManager_activity: completedResumed: ActivityRecord{5f12a6a u0 com.tencent.mm/.ui.LauncherUI t383}, launchTrack: activityPaused resumeTopComplete
+12-17 19:55:49.272  3180  3578 D HwMultiWindowEx: isInMultiWindowMode ret: 0
+12-17 19:55:49.273  3180  3593 I BacklightControl: Ratio: 100 Auto: true
+12-17 19:55:49.273  1795 15987 I LightsService: setLcdRatio ratio:100 autoAdjust:true
+12-17 19:55:49.274  3180  3578 I ThermalStateManager: handle action thermal policy:100000
+12-17 19:55:49.274  1795 15987 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:55:49.275  2883  2992 I HwSystemManager: NotificationGuideService:handle MSG_ACTIVIY_FOREGROUND, uid:10105
+12-17 19:55:49.277  1795  1809 I MultiTaskManagerService: onForegroundActivitiesChanged pid = 4492, uid = 10105
+12-17 19:55:49.279  1795  1805 I HwNetworkPolicy: onTransact, code = 203
+12-17 19:55:49.280  2883  3258 I HwNetworkPolicyManager: getHwUidPolicy uid = 10105 policy = 0
+12-17 19:55:49.283  1795  3225 W ActivityManager: getTasks: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:49.286  1795  1806 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4097
+12-17 19:55:49.286  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:55:49.287  1795  2396 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4098
+12-17 19:55:49.288  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:55:49.289  1795 11747 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4099
+12-17 19:55:49.289  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:55:49.289  1795 16498 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4100
+12-17 19:55:49.290  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:55:49.290  1795  3110 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4101
+12-17 19:55:49.290  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:55:49.291  1795 15987 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:55:49.294  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:55:49.294  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:55:49.314  4492  4492 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:55:49.318  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ui.ACTION_ACTIVE, mPermissionType:0
+12-17 19:55:49.319  1795 15982 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ui.ACTION_ACTIVE flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:55:49.320  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ui.ACTION_ACTIVE, mPermissionType:0
+12-17 19:55:49.320  1795  2778 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ui.ACTION_ACTIVE flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:55:49.329  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ui.ACTION_ACTIVE, mPermissionType:0
+12-17 19:55:49.330  1795 11745 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ui.ACTION_ACTIVE flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:55:49.331  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ui.ACTION_ACTIVE, mPermissionType:0
+12-17 19:55:49.331  1795  6986 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ui.ACTION_ACTIVE flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:55:49.333  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ui.ACTION_ACTIVE, mPermissionType:0
+12-17 19:55:49.334  1795  6988 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ui.ACTION_ACTIVE flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:55:49.335  4492  4492 I ActivityManager_activity: Resuming ActivityRecord{50977f4 token=android.os.BinderProxy@4e2962b {com.tencent.mm/com.tencent.mm.ui.LauncherUI}} with isForward=true,forwardBitChanged=true onlyLocalRequest=false
+12-17 19:55:49.342  1795 16501 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{4e22340 u0 com.tencent.mm/com.tencent.mm.ui.LauncherUI},EmuiStyle=0,StatusBarColor=0xff303135,NavigationBarColor=0xff000000, mLastIsEmuiLightStyle=-1
+12-17 19:55:49.343  1795  1809 D HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+12-17 19:55:49.343  1795 16501 I WindowManger_windowChange: oldFocusWindow: null, currentFocusWindow: Window{4e22340 u0 com.tencent.mm/com.tencent.mm.ui.LauncherUI}, currentFocusApp: AppWindowToken{b6efcd1 token=Token{a978b5b ActivityRecord{5f12a6a u0 com.tencent.mm/.ui.LauncherUI t383}}}
+12-17 19:55:49.343  2852  2867 I CommandQueue: updateBarBgColor
+12-17 19:55:49.343  2852  2867 D CommandQueue: CommandQueue, setBarBackgroundColor
+12-17 19:55:49.344  2852  2852 I TintManager: updateBarBgColor:emuiStyle=0,statusBarColor=#FF303135,navigationBarColor=#FF000000, isEmuiLight=-1
+12-17 19:55:49.344  2852  2852 I HwPhoneStatusBarTransitions: restoreBackgroundColor:new=0, old=0
+12-17 19:55:49.344  2852  2852 I HwNavigationBarTransitions: restoreBackgroundColor:new=0, old=0
+12-17 19:55:49.345  2852  2852 D TintManager: statusBarIconTint=#B3FFFFFF,navigationBarIconTint=#FF000000
+12-17 19:55:49.345  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=80000708 mask=ffffffff oldVal=c0000700 newVal=80000708 diff=40000008
+12-17 19:55:49.345  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:55:49.345  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:55:49.345  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:55:49.345  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:55:49.345  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0x80000708, SystemUiVisibility=0x80000708
+12-17 19:55:49.354  1795  3238 W ActivityManager: getTasks: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:49.363  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{f83e2df V.ED..... ......ID 0,1-66,43 #7f1401be app:id/battery_outside_percent}
+12-17 19:55:49.363  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{280af00 V.ED..... ......ID 0,0-0,0 #7f1403e3 app:id/speed}
+12-17 19:55:49.364  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{88b1de7 V.ED..... ......I. 0,11-144,60 #7f14004e app:id/msim_status_bar_operators_card_one_id}
+12-17 19:55:49.364  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.time.HwStatusBarClock{dbc7fa6 V.ED..... ........ 294,0-441,72 #7f1401c9 app:id/clock}
+12-17 19:55:49.365  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{3f96501 V.ED..... ........ 0,1-66,43 #7f1401be app:id/battery_outside_percent}
+12-17 19:55:49.365  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{7ea3fda V.ED..... ......ID 0,0-0,0 #7f1403e3 app:id/speed}

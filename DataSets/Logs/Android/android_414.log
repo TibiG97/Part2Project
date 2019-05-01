@@ -1,0 +1,100 @@
+12-17 19:40:31.668  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:40:31.668  2852  2852 I StatusBarWindowManager: apply skiped :0
+12-17 19:40:31.669  2852  2852 I HwNavigationBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:40:31.669  2852  2852 I PanelView: expand: start
+12-17 19:40:31.669  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:40:31.669  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:40:31.669  2852  2914 I SendBroadcastPermission: action:com.android.systemui.statusbar.visible.change, mPermissionType:0
+12-17 19:40:31.670  1795  6988 W ActivityManager: Sending non-protected broadcast com.android.systemui.statusbar.visible.change from system 2852:com.android.systemui/u0a33 pkg com.android.systemui
+12-17 19:40:31.670  1795  6988 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{506ad58 2852:com.android.systemui/u0a33}, intent:com.android.systemui.statusbar.visible.change, receiver size:1, flags: 10000400
+12-17 19:40:31.671  1795  6988 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{506ad58 2852:com.android.systemui/u0a33}
+12-17 19:40:31.671  1795  6988 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{719d899 u-1 com.android.systemui.statusbar.visible.change}: prev had 0
+12-17 19:40:31.671  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{719d899 u-1 com.android.systemui.statusbar.visible.change}, has 1 receivers
+12-17 19:40:31.671  2852  2914 I PanelBar: INTENT_STATUSBAR_VISIBLE_CHANGE sended, EXTRA_VISIBLE = true
+12-17 19:40:31.675  1795  3139 I WindowManager: Destroying surface Surface(name=NavigationBar) called by com.android.server.wm.WindowStateAnimator.destroySurface:2056 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:907 com.android.server.wm.WindowState.destroyOrSaveSurface:2174 com.android.server.wm.WindowManagerService.tryStartExitingAnimation:3280 com.android.server.wm.WindowManagerService.relayoutWindow:3160 com.android.server.wm.Session.relayout:215 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:136 
+12-17 19:40:31.677 17709 17709 D HwIntelligent3_IntelligentReceiver: onReceive ,intent:Intent { act=com.android.systemui.statusbar.visible.change flg=0x10 cmp=com.huawei.intelligent/.main.receiver.IntelligentReceiver (has extras) }
+12-17 19:40:31.677  1795  6985 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{7e9b22a 17709:com.huawei.intelligent/u0a17}, flags: 10000400
+12-17 19:40:31.678  1795  6985 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{556075e u0 euid: 0 com.huawei.intelligent/.main.receiver.IntelligentIntentService}, euid: 0
+12-17 19:40:31.684  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onScreenOff
+12-17 19:40:31.684  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_OFF  flag:1342177296 
+12-17 19:40:31.685  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:40:31.685  2852  2852 W HwLockScreenPanel: Handle message: 4
+12-17 19:40:31.685  2852  2852 V KeyguardUpdateMonitor: FingerStat Visible: true; Interactive: false; Switching: false; Bouncer:false; GoingToSleep: false Occluded: false; dreaming: false; Authenticated: false
+12-17 19:40:31.686  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:40:31.686  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:40:31.686  2852  2852 I KeyguardUpdateMonitor: Ignore update FP: 1 true
+12-17 19:40:31.686  2852  2852 D PhoneStatusBar: disable: < expand ICONS alerts SYSTEM_INFO BACK* HOME* RECENT* clock navigationbar SEARCH* quick_settings >
+12-17 19:40:31.686  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:40:31.686  2852  2852 W HwLockScreenPanel: Handle message: 21
+12-17 19:40:31.686  2852  2852 V MagazineDetailView: Wallpaper changed
+12-17 19:40:31.686  2852  2852 V MagazineUtils: Is User Assigned Wallpaper? : 0  false
+12-17 19:40:31.690  2852  2852 D KGWallpaper_Magazine: getNextIndex: 0; from 7 to 7; size: 44
+12-17 19:40:31.690  2852  2925 D KGWallpaper_Magazine: getNextIndex: 1; from 7 to 8; size: 44
+12-17 19:40:31.691  2852  2852 E LocalLinkTextView: setDescription without uselink line!
+12-17 19:40:31.691  2852  2925 I ExifParser: mTiffStream skip = 0
+12-17 19:40:31.692  2852  2925 W ExifData: The tag is null error!
+12-17 19:40:31.693  2852  2925 D KGWallpaper_Magazine: getNextIndex: 0; from 7 to 7; size: 44
+12-17 19:40:31.693  2852  2925 I ExifParser: mTiffStream skip = 0
+12-17 19:40:31.694  2852  2925 W ExifData: The tag is null error!
+12-17 19:40:31.694  2852  2925 D KGWallpaper_Magazine: getNextIndex: -1; from 7 to 6; size: 44
+12-17 19:40:31.695  2852  2925 I ExifParser: mTiffStream skip = 0
+12-17 19:40:31.696 17709 20885 D IntelligentIntentService: eventAction :class com.huawei.intelligent.main.receiver.action.ActionBarPullDownAction
+12-17 19:40:31.696  2852  2925 W ExifData: The tag is null error!
+12-17 19:40:31.699 17709 20885 I HwIntelligent3_IntelligentProvider: Provider.call: getPrefString
+12-17 19:40:31.701 17709 20885 I HwIntelligent3_ActionBarPullDownAction: doAction call reset
+12-17 19:40:31.701 17709 20885 I HwIntelligent3_WorkCommuteManager: resetCommute
+12-17 19:40:31.701 17709 20885 E HwIntelligent3_WorkCommuteManager: no need to reset return
+12-17 19:40:31.701  2852  2852 D KGWallpaper_Magazine: getNextIndex: 0; from 7 to 7; size: 44
+12-17 19:40:31.701  2852  2852 V MagazineUtils: Is User Assigned Wallpaper? : 0  false
+12-17 19:40:31.701  2852  2852 V MagazineUtils: Is User Assigned Wallpaper? : 0  false
+12-17 19:40:31.701  2852  2925 D KGWallpaper_Magazine: getNextIndex: 1; from 7 to 8; size: 44
+12-17 19:40:31.702  2852  2925 I ExifParser: mTiffStream skip = 0
+12-17 19:40:31.703  2852  2925 W ExifData: The tag is null error!
+12-17 19:40:31.703  2852  2925 D KGWallpaper_Magazine: getNextIndex: 0; from 7 to 7; size: 44
+12-17 19:40:31.704  2852  2852 D KGWallpaper_Magazine: getNextIndex: 0; from 7 to 7; size: 44
+12-17 19:40:31.704  2852  2925 I ExifParser: mTiffStream skip = 0
+12-17 19:40:31.704  2852  2852 W MagazineDetailView: addInvisibleView null view
+12-17 19:40:31.705  2852  2852 I HwBackDropView: update Wallpaper with Bokeh.
+12-17 19:40:31.705  2852  2925 W ExifData: The tag is null error!
+12-17 19:40:31.705  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=8608 mask=ffffffff oldVal=c0000700 newVal=8608 diff=c0008108
+12-17 19:40:31.705  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:40:31.705  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:40:31.705  2852  2925 D KGWallpaper_Magazine: getNextIndex: -1; from 7 to 6; size: 44
+12-17 19:40:31.705  2852  2852 D BarTransitions.HwNavigationBarView: MODE_TRANSLUCENT -> MODE_TRANSPARENT animate=false
+12-17 19:40:31.705  2852  2852 D BarTransitions.HwNavigationBarView: applyModeBackground oldMode=MODE_TRANSLUCENT newMode=MODE_TRANSPARENT animate=false
+12-17 19:40:31.706  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=4, isEmuiStyle=false
+12-17 19:40:31.706  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:40:31.706  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0x8608, SystemUiVisibility=0x8608
+12-17 19:40:31.706  2852  2925 I ExifParser: mTiffStream skip = 0
+12-17 19:40:31.707  2852  2925 W ExifData: The tag is null error!
+12-17 19:40:31.707  2852  2925 D KGWallpaper_Magazine: getNextIndex: 1; from 7 to 8; size: 44
+12-17 19:40:31.708  2852  2925 I ExifParser: mTiffStream skip = 0
+12-17 19:40:31.709  2852  2925 W ExifData: The tag is null error!
+12-17 19:40:31.709  2852  2925 D KGWallpaper_Magazine: getNextIndex: 0; from 7 to 7; size: 44
+12-17 19:40:31.710  2852  2925 I ExifParser: mTiffStream skip = 0
+12-17 19:40:31.711  2852  2925 W ExifData: The tag is null error!
+12-17 19:40:31.711  2852  2925 D KGWallpaper_Magazine: getNextIndex: -1; from 7 to 6; size: 44
+12-17 19:40:31.712  2852  2852 W MagazineDetailView: LayoutChanged and height range will be rechecked
+12-17 19:40:31.712  2852  2925 I ExifParser: mTiffStream skip = 0
+12-17 19:40:31.712  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:40:31.712  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:40:31.712  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:40:31.713  2852  2925 W ExifData: The tag is null error!
+12-17 19:40:31.713  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:40:31.713  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:40:31.714  2852  2852 E BokehDrawable: BlurBitmap  draw super 0.0
+12-17 19:40:31.717  2852  2852 D UnderLayer: ondraw 0, Rect(0, 0 - 1080, 1920)
+12-17 19:40:31.740   633   692 I ECS     : Heartbeat timer.timers{6125} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 112 bytes [16]_00_00_00_6C_00_03_01_03_12_05_87_4D_EC_D5_32_80 cmdCode(CC_Heartbeat.0x0312)msgType(MT_ARG.1)msgClass(MC_InstanceMessage.3)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(108)version(3)sno(874D)
+12-17 19:40:31.742   633   692 I ECS     : Heartbeat timer.timers{6125} TimerObject.call(TimerObject.java:88) stop timer com.huawei.service.HeartbeatService$HeartbeatTimer@a78ae01.5000ms(0)
+12-17 19:40:31.758  2852  2852 D LiftTransition: setLiftRange: -385.0, threshold = 192.5
+12-17 19:40:31.759  3180  3332 I WakelockMonitor: start wakelock monitor.
+12-17 19:40:31.760  2852  2852 W HwLockScreenPanel: Handle message: 10
+12-17 19:40:31.760  3180  3578 I ash     : ash->screen off
+12-17 19:40:31.762  3180  3578 I ash     : Default InputMethod : com.baidu.input_huawei
+12-17 19:40:31.762  3180  3578 I ash     : screen off inputmethod, delay to hibernation
+12-17 19:40:31.762  3180  3578 I ThermalStateManager: handle action thermal policy:301
+12-17 19:40:31.763  2852  2852 D MagazineDetailView: resetPagerState
+12-17 19:40:31.763  2852  2852 I HwBackDropView: restore param to 0
+12-17 19:40:31.764  2852  2852 I HwBackDropView: checkVisibility : true; true
+12-17 19:40:31.766  2852  2852 D LiftTransition: setLiftRange: -385.0, threshold = 192.5
+12-17 19:40:31.767  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In

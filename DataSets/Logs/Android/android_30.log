@@ -1,0 +1,100 @@
+12-17 19:31:42.180  1795 16500 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:42.180  1795 16500 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:42.180  1795  6986 I NotificationManager: cancelNotificationWithTag pid 3608,uid = 1001,tag = null,pkg =com.android.incallui,id =2
+12-17 19:31:42.181  3608  3608 D InCall  : StatusBarNotifier - updateInCallNotification: timer cleared
+12-17 19:31:42.181  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:42.181  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:42.182  3608  3608 I InCall  : ProximitySensor - ProximitySensor{keybrd=0, dpad=0, offhook=1, hor=0, ui=1, aud=EARPIECE}
+12-17 19:31:42.182  3608  3608 D InCall  : ProximitySensor - Turning on proximity sensor
+12-17 19:31:42.182  3608  3608 I InCall  : ProximitySensor - Proximity wake lock already acquired
+12-17 19:31:42.182  3608  3608 D InCall  : AnswerPresenter - onUiShowingtrue
+12-17 19:31:42.182  3608  3608 D InCall  : AnswerPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:31:42.182  3608  3608 D HwCust  : Create obj success use class com.android.incallui.HwCustAnswerPresenterImpl
+12-17 19:31:42.184  3608  3608 D InCall  : AnswerPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:31:42.184  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=true
+12-17 19:31:42.184  1795  1795 I DeviceIdleController: becomeActiveLocked, reason = screen
+12-17 19:31:42.185  1795  3111 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:42.185  1795  2377 I AwareLog: AwareMem_DMEServer: stop
+12-17 19:31:42.186  1795  3237 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:42.186  1795  6985 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:42.187  1795  1795 I NotificationManager: cancelNotification,index:0
+12-17 19:31:42.187  1795  1795 I NotificationManager: cancelNotification,cancelNotificationLocked,callingUid = 1001,callingPid = 3608
+12-17 19:31:42.187  1795  1795 I NotificationManager: cancelNotificationLocked called,tell the app,reason = 8
+12-17 19:31:42.187  1795  1795 I NotificationManager: cancelNotificationLocked:0|com.android.incallui|2|null|1001
+12-17 19:31:42.187  1795  6985 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:42.188  1795  1795 I NotificationManager: cancelNotificationLocked,remove =com.android.incallui
+12-17 19:31:42.188  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = true,ledNotification == null?true
+12-17 19:31:42.188  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:31:42.188  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:31:42.188  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:31:42.188  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:31:42.188  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:31:42.191  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_OFF
+12-17 19:31:42.191  1795  2668 D WifiP2pService: InactiveState143467
+12-17 19:31:42.192  1795  2668 E HwWifiP2pService: Unhandled message when=123015363 what=143467 arg1=0 arg2=0
+12-17 19:31:42.192  1795  2668 D WifiP2pService: P2pEnabledState when=123015363 what=143467 arg1=0 arg2=0
+12-17 19:31:42.192  1795  2668 D WifiP2pService: DefaultState{ when=0 what=143467 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:31:42.192  1795  2668 D HwWifiP2pService: SleepPolicy:1
+12-17 19:31:42.194  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:42.197  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:42.198  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:42.202  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:42.203  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:42.203  1795  3110 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:42.210  3608  3608 D InCall  : InCallActivity - onResume()... end
+12-17 19:31:42.211  3608  3608 I InCall  : VideoCallFragment - onResume
+12-17 19:31:42.211  3608  3608 I InCall  : VideoCallPresenter - isVideoCallWorking, state is: 3
+12-17 19:31:42.211  3608  3608 I InCall  : VideoCallFragment - onResume: Surface exist, resume videos
+12-17 19:31:42.211  3608  3608 D InCall  : VideoCallPresenter - resumeVideo: Error bad state mPrimaryCall=[Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)] mVideoCall=null
+12-17 19:31:42.211  3608  3608 I InCall  : VTCallButtonFragment - --- onResume ---
+12-17 19:31:42.211  3608  3608 I ActivityManager_activity: Resuming ActivityRecord{fd45985 token=android.os.BinderProxy@af8ea9b {com.android.incallui/com.android.incallui.InCallActivity}} with isForward=true,forwardBitChanged=true onlyLocalRequest=false
+12-17 19:31:42.211  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:42.212  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:42.212  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:42.214   832  1840 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:42.214   832  1840 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:42.215  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SCREEN_STATE_CHANGED  rt=123015387/442838578 0 0
+12-17 19:31:42.215  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SCREEN_STATE_CHANGED  rt=123015387/442838579 0 0
+12-17 19:31:42.215  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SCREEN_STATE_CHANGED  rt=123015387/442838579 0 0
+12-17 19:31:42.215  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SCREEN_STATE_CHANGED  rt=123015387/442838579 0 0
+12-17 19:31:42.215  1795  2671 D WifiStateMachine:  SupplicantStartedState !CMD_SCREEN_STATE_CHANGED  rt=123015387/442838579 0 0
+12-17 19:31:42.215  1795  2671 D WifiStateMachine:  DefaultState !CMD_SCREEN_STATE_CHANGED  rt=123015387/442838579 0 0
+12-17 19:31:42.215  1795  2671 D PowerManagerService: acquire lock=244575063, flags=0x1, tag="WifiSuspend", name=android, ws=null, uid=1000, pid=1795
+12-17 19:31:42.216  1795  2671 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:42.216  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:42.217  1795  2671 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:31:42.217  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=true
+12-17 19:31:42.217  1795  1795 I DeviceIdleController: becomeActiveLocked, reason = screen
+12-17 19:31:42.218  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:31:42.218  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:31:42.218  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_OFF mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:31:42.218  1795  1795 D HwConnectivityService: receive screen off intent!
+12-17 19:31:42.218  1795  1795 D HwConnectivityService: wifi tethering: false
+12-17 19:31:42.218  1795  1795 D HwConnectivityService: Usb tethering: false
+12-17 19:31:42.218  1795  1795 D HwConnectivityService: bt tethering: false
+12-17 19:31:42.218  1795  1795 D HwConnectivityService: pluggedStatus: 0
+12-17 19:31:42.218  1795  1795 D HwConnectivityService: is charging: false
+12-17 19:31:42.218  2852  2852 I HwExpandableNotificationRowHelper: unclear notification ,notificationPkgName:com.android.incallui key:0|com.android.incallui|2|null|1001
+12-17 19:31:42.219  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:31:42.219  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.android.incallui|2|null|1001
+12-17 19:31:42.219  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.android.incallui|2|null|1001, group=0|com.android.incallui|2|null|1001
+12-17 19:31:42.219  1795  2671 D WifiStateMachine:  ConnectedState CMD_ENABLE_RSSI_POLL  rt=123015391/442838582 0 0
+12-17 19:31:42.219  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_ENABLE_RSSI_POLL  rt=123015391/442838582 0 0
+12-17 19:31:42.219  1795  2671 D WifiStateMachine:  ConnectedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123015391/442838583 1 0
+12-17 19:31:42.219  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123015391/442838583 1 0
+12-17 19:31:42.219  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SET_SUSPEND_OPT_ENABLED  rt=123015391/442838583 1 0
+12-17 19:31:42.219  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123015391/442838583 1 0
+12-17 19:31:42.219  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:31:42.219  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 1'
+12-17 19:31:42.219  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:31:42.219  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:31:42.220  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 1'
+12-17 19:31:42.221  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:31:42.223  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:31:42.223  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:31:42.223  1795 15988 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:31:42.223  1795  3237 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:31:42.224  3218  4159 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 phoneId=0
+12-17 19:31:42.224  3218  4159 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 retVal=false
+12-17 19:31:42.224  2852  2852 D ReporterUtil:  e id:344 type:{pkg:com.android.incallui}
+12-17 19:31:42.224  1795  1795 D HwConnectivityService: CtrlSocket getMobileDataEnabled = false

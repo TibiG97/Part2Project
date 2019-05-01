@@ -1,0 +1,100 @@
+12-17 19:31:55.884 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.shutdown(TcpCirChannel.java:257) Login_By_Step-> shut down now connect
+12-17 19:31:55.885 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:31:55.886 31949 31967 I ECS     : WatchThread{4786} TcpClient.disconnect_i(TcpClient.java:202) ==================== TCP CLIENT DISCONNECT ====================
+12-17 19:31:55.887 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.disconnectSocket(TcpClientThread.java:369) disconnecting to uc.huawei.com:7801
+12-17 19:31:55.887  1795 16499 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:55.888 31949 31967 I TCP     : WatchThread{4786} TcpSocket.close(TcpSocket.java:158) shutdown output: java.net.SocketException: Socket is closed
+12-17 19:31:55.890  1795 17831 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:55.891  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+12-17 19:31:55.891  1795  1806 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:31:55.891  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:31:55.891  1795  3884 I AlarmManager: remove(PendingIntent{44a03c: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) changed bounds; rebatching
+12-17 19:31:55.892  3858  4126 I amsnl   : csr
+12-17 19:31:55.892  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:31:55.893  3218  4159 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:31:55.894  3218  4159 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:31:55.894  1795  3249 I AlarmManager: set(PendingIntent{72b1c5: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) : type=0 triggerAtTime=1481974615893 win=0 tElapsed=443152256 maxElapsed=443152256 interval=300000 flags=0x1
+12-17 19:31:55.894  1795 20747 D wifiserviceimpl: netmask =16580607
+12-17 19:31:55.894  3858  4126 I amsnl   : m1: false
+12-17 19:31:55.895  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.210858 Y: 8.450216 Z: -0.588437  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:55.895  1795 17832 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:31:55.897  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:31:55.897  1795  1805 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:55.898  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:31:55.904  1795 15982 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:55.905  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+12-17 19:31:55.905  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:31:55.905  1795 15982 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:31:55.907  3858  4126 I amsnl   : csr
+12-17 19:31:55.907  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:31:55.908 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_ON
+12-17 19:31:55.908  1795  3139 D wifiserviceimpl: netmask =16580607
+12-17 19:31:55.908  3858  4126 I amsnl   : m1: false
+12-17 19:31:55.909  1795  3237 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:31:55.913  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:31:55.913  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:31:55.923 16354 16354 E HwSystemManager: MemCPUMonitor:startTimerMonitor isCompleted = true
+12-17 19:31:55.929 17238 17238 D Bth     : BtChrStatisticsManager:sendScreenOnEvent enter.
+12-17 19:31:55.929 17238 17252 D Bth     : BtChrStatisticsManager:msg Loop is running.
+12-17 19:31:55.940  1795  3121 D PowerManagerService: release:lock=152331024, flg=0x0, tag="RILJ_ACK_WL", name=com.android.phone", ws=null, uid=1001, pid=3218
+12-17 19:31:55.940  1795  3121 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:55.940  1795  3121 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:55.955  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.014249 Y: 7.770606 Z: -0.596824  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:55.956  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:31:55.961  1795 17831 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:31:55.996  3608  3608 I InCall  : ProximitySensor - ProximitySensor{keybrd=0, dpad=0, offhook=1, hor=0, ui=1, aud=EARPIECE}
+12-17 19:31:55.996  3608  3608 D InCall  : ProximitySensor - Turning on proximity sensor
+12-17 19:31:55.996  3608  3608 I InCall  : ProximitySensor - Proximity wake lock already acquired
+12-17 19:31:56.014  1795  2371 E LightSensor: read Events lux: 13.0
+12-17 19:31:56.014  1795  1825 D AutomaticBrightnessController: ambient lux=13.0,timeStamp =442852377553000
+12-17 19:31:56.015  1795  1825 D HwNormalizedAutomaticBrightnessController: mAmbientLuxValid=true,mWakeupFromSleep= false
+12-17 19:31:56.015  1795  1825 D HwAmbientLuxFilterAlgo: updateAmbientLux: Initializing: mAmbientLightRingBuffer=[13.0 / 1ms], mAmbientLux=13.0
+12-17 19:31:56.015  1795  1825 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:31:56.015  1795  1825 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:31:56.015  1795  1825 D HwAmbientLuxFilterAlgo: t=123029186,BT=123029686,DT=123030186,BT1=123033186,DT1=123037186,Bn=false,Dn=false,lx=[13.0/123029186],mLx=13.0,s=5.0,ss=0.0,AuIntervened=false,mProximityState=false,bLux=92.0,dLux=1.5,bLux1=92.0,dLux1=1.5
+12-17 19:31:56.015  1795  1825 D HwNormalizedAutomaticBrightnessController: need to update brightness: mAmbientLux=13.0
+12-17 19:31:56.015  1795  1825 D HwNormalizedSpline: interpolate:mPosBrightness=0.0lux=13.0,mIsReboot=true,mIsUserChange=false,mDelta=0.0
+12-17 19:31:56.015  1795  1825 D HwNormalizedSpline: offsetBrightness=23.76,mOffsetBrightness_last23.76,lux=13.0,mPosBrightness=0.0,mIsUserChange=false,mDelta=0.0,defaultBrightness=23.76,mStartLuxDefaultBrightness=23.76mLastLuxDefaultBrightness=23.76
+12-17 19:31:56.016  1795  1825 D HwNormalizedSpline: write:userId=0,mPosBrightness =0.0,mOffsetBrightness_last=23.76,mIsUserChange=false,mDeltaNew=0.0,mStartLuxDefaultBrightness=23.76mLastLuxDefaultBrightness=23.76,mAmLux=13.0
+12-17 19:31:56.016  1795  1825 D AutomaticBrightnessController: updateAutoBrightness: mScreenAutoBrightness=15, newScreenAutoBrightness=24
+12-17 19:31:56.016  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:56.016  1795  1825 D DisplayPowerController: Animating brightness: target=24, rate=40
+12-17 19:31:56.017  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.480237 Y: 7.801779 Z: -0.535365  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:56.017  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:31:56.018  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:56.018  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:56.018  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:56.020  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:56.029  1795  1825 I HwGradualBrightnessAlgo: mFirstValidAuto=false,mAutoIntervened=falsemfastAnimtionFlag=true
+12-17 19:31:56.029  1795  1825 D HwGradualBrightnessAlgo: AutoMode=true,Target=941,Current=588,amount=11.677766,duration=0.5
+12-17 19:31:56.030  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:31:56.030  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:31:56.030  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:56.032  2852  2852 I HwBrightnessUtils: APS brightness=15.0,ConvertToPercentage=0.1759541
+12-17 19:31:56.032  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:15 percentage:0.1759541
+12-17 19:31:56.032  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1760
+12-17 19:31:56.032  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1760
+12-17 19:31:56.032  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1760 fromUser:false
+12-17 19:31:56.032  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1760 fromUser:false
+12-17 19:31:56.045  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:31:56.062  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:31:56.077  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 4.362042 Y: 8.238485 Z: -0.283983  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:56.079  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:31:56.080  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:56.080  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:31:56.081  2852  2852 I HwBrightnessUtils: APS brightness=16.0,ConvertToPercentage=0.1846686
+12-17 19:31:56.082  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:16 percentage:0.1846686
+12-17 19:31:56.082  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1847
+12-17 19:31:56.082  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1847
+12-17 19:31:56.082  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1847 fromUser:false
+12-17 19:31:56.082  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1847 fromUser:false
+12-17 19:31:56.095  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:31:56.111  1795  2750 I HwLightsService: back light level before map = 658
+12-17 19:31:56.112  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:31:56.122  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 0.000000
+12-17 19:31:56.122  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =-1591430311 
+12-17 19:31:56.123  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:true
+12-17 19:31:56.123  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:56.123  1795  1825 D DisplayPowerController: Animating brightness: target=24, rate=40
+12-17 19:31:56.123  1795  1825 I PowerManager_screenOn: PowerManagerService goToSleepNoUpdateLocked: eventTime=123029295, reason=7, flags=0, uid=1000
+12-17 19:31:56.123  1795  1825 I PowerManagerService: Going to sleep due to proximity...

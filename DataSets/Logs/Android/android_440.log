@@ -1,0 +1,100 @@
+12-17 19:43:15.864 31949 31988 I PushService: connect :false
+12-17 19:43:15.865 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:300) recv error
+12-17 19:43:15.866 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.selfDisconnectSocket(TcpClientThread.java:377) self disconnecting to uc.huawei.com:7801
+12-17 19:44:55.366  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:44:55.366  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:44:55.366  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:44:55.366  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:44:55.366  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:44:55.366  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:44:55.366  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:44:55.366  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:44:55.366  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:44:55.367  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:44:55.367  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:44:55.367  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:44:55.367  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:44:55.367  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:44:55.367  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:44:55.367  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:44:55.367  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:44:55.367  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:44:55.368  1795  2396 D PowerManagerService: acquire lock=260397080, flags=0x1, tag="dispatcher", name=android, ws=null, uid=1000, pid=7194
+12-17 19:44:55.368  1795  2396 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:44:55.368  1795  2396 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:44:55.369  7194 19339 I PushLog2824: [SocketRead_19:27:23-13099]received a msg cmdId:A0(android/null:-1)
+12-17 19:44:55.370   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:94) watch thread onLoop... 
+12-17 19:44:55.371   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:44:55.377   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:44:55.378  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 443631740684470}
+12-17 19:44:55.379  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 443631740684470}
+12-17 19:44:55.380  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass idle 1 443631740684470
+12-17 19:44:55.381  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:44:55.381  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:44:55.381  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:44:55.381  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:44:55.382  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:44:55.382  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:44:55.382  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:44:55.382  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:44:55.383  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:44:55.383  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:44:55.383  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:44:55.391  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:44:55.473  3180  3578 D PacketsControl: wifi connected. do nothing.
+12-17 19:44:55.486  1795 15982 I AlarmManager: set(PendingIntent{72e0271: PendingIntentRecord{3c38496 android broadcastIntent}}) : type=0 triggerAtTime=1481975665485 win=0 tElapsed=444201848 maxElapsed=444201848 interval=0 flags=0x9
+12-17 19:44:55.487  1795 15982 I AlarmManager: remove(PendingIntent{72e0271: PendingIntentRecord{3c38496 android broadcastIntent}}) changed bounds; rebatching
+12-17 19:44:55.494  7194 19339 I PushLog2824: [SocketRead_19:27:23-13099]broadcast(),and mReceivers  4(android/null:-1)
+12-17 19:44:55.495  1795 11745 D PowerManagerService: acquire lock=129738838, flags=0x1, tag="eventloop", name=android, ws=null, uid=1000, pid=7194
+12-17 19:44:55.496  1795 11745 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:44:55.504  7194  7208 I PushLog2824: [ReceiverDispatcher-336]enter isSupportCtrlSocketV2, mHasCheckCtrlSocketVersion:true,mIsSupportCtrlSokceV2:true(android/null:-1)
+12-17 19:44:55.504  7194  7208 I PushLog2824: [ReceiverDispatcher-336]ctrlSocket cmd is 2, param is 180(android/null:-1)
+12-17 19:44:55.506  1795 11746 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 7194 cmd = 2 para = 180
+12-17 19:44:55.506  1795 11746 D HwConnectivityService: pid=7194, cmd=2, param=180
+12-17 19:44:55.506  1795 11746 D HwConnectivityService: mFilterMsgFlag: 0,msg.arg1: 0
+12-17 19:44:55.506  1795 11746 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 7194 cmd = 2 param = 180 ret = 0
+12-17 19:44:55.507  7194  7208 I PushLog2824: [ReceiverDispatcher-336]ctrlSocket success(android/null:-1)
+12-17 19:44:55.508  7194  7208 I PushLog2824: [ReceiverDispatcher-336]jsonStr does not  have a mapping for app(android/null:-1)
+12-17 19:44:55.508  7194  7208 I PushLog2824: [ReceiverDispatcher-336]dispkgName is com.sina.weibo(android/null:-1)
+12-17 19:44:55.512  7194  7208 I PushLog2824: [ReceiverDispatcher-336]com.sina.weibo  in user 0 ,uid is 10137(android/null:-1)
+12-17 19:44:55.514  7194  7208 I PushLog2824: [ReceiverDispatcher-336]areNotificationsEnabledForPackage:false(android/null:-1)
+12-17 19:44:55.515  7194  7208 I PushLog2824: [ReceiverDispatcher-336]read to Send:A1(android/null:-1)
+12-17 19:44:55.517  7194  7208 I PushLog2824: [ReceiverDispatcher-336]send msg to remote srv success(android/null:-1)
+12-17 19:44:55.517  7194  7208 I PushLog2824: [ReceiverDispatcher-336]rspPushMessage the response msg is :A1,msgId:26B48ECD7C7C4315,flag:09(android/null:-1)
+12-17 19:44:55.519  1795  6988 D PowerManagerService: acquire lock=11866327, flags=0x1, tag="dispatcher", name=android, ws=null, uid=1000, pid=7194
+12-17 19:44:55.519  1795  6988 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:44:55.520   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:44:55.521  1795  3110 D PowerManagerService: release:lock=129738838, flg=0x0, tag="eventloop", name=android", ws=null, uid=1000, pid=7194
+12-17 19:44:55.522  1795  3110 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:44:55.522  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 443631884079158 1000}
+12-17 19:44:55.524  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 443631884079158 1000}
+12-17 19:44:55.526  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass active 1 443631884079158 1000
+12-17 19:44:55.527  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:44:55.527  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:44:55.527  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:44:55.527  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:44:55.528  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:44:55.529  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:44:55.529  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:44:55.529  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:44:55.530  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:44:55.530  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:44:55.530  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:44:55.621  1795  1805 D PowerManagerService: release:lock=11866327, flg=0x0, tag="dispatcher", name=android", ws=null, uid=1000, pid=7194
+12-17 19:44:55.622  1795  1805 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:44:55.943   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:44:55.943   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:44:55.944   802   802 E Thermal-daemon: [pa_0] temp_new :27  temp_old :26
+12-17 19:44:55.945   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:44:55.945   802   802 E Thermal-daemon: Report temperature: [pa_0] temp :27  report_threshold:1
+12-17 19:44:55.947   802   802 E Thermal-daemon: [charger_ic] temp_new :27  temp_old :26
+12-17 19:44:55.947   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:44:55.947   802   802 E Thermal-daemon: Report temperature: [charger_ic] temp :27  report_threshold:1
+12-17 19:44:55.949   802   802 E Thermal-daemon: [ap] temp_new :27  temp_old :28
+12-17 19:44:55.950   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:44:55.950   802   802 E Thermal-daemon: Report temperature: [ap] temp :27  report_threshold:1
+12-17 19:44:56.048 31949 31967 I TCP     : tcp.recv{4790} TcpSocket.close(TcpSocket.java:158) shutdown output: java.net.SocketException: Socket is closed
+12-17 19:44:56.050 31949 31967 I TCP     : tcp.recv{4790} TcpSocket.close(TcpSocket.java:170) shutdown input: java.net.SocketException: Socket is closed
+12-17 19:44:56.052 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.closeSocket(TcpClientThread.java:396) closed socket.
+12-17 19:44:56.053 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onRecv(TcpClientThread.java:522) tcp connection event TCP_CLOSED
+12-17 19:44:56.060 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:314) disconnected

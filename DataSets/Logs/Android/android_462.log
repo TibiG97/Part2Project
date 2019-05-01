@@ -1,0 +1,100 @@
+12-17 19:52:51.292  1795  1807 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:52:51.293  1795  1807 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:52:51.293  1795  1807 D DeviceIdleController: handleMessage(3)
+12-17 19:54:27.359  1795  3121 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:54:27.359  1795  3121 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:54:27.361  1795  1825 D PowerManagerService: updateIsPoweredLocked: wasPowered=false, mIsPowered=false, oldPlugType=0, mPlugType=0, mBatteryLevel=78
+12-17 19:54:27.361  1795  1825 I HwCustPowerManager_FLOW: handleDreamLocked
+12-17 19:54:27.362  2852  2852 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-17 19:54:27.362  1795  1795 I DeviceIdleController: updateChargingLocked: charging=false
+12-17 19:54:27.362  2852  2852 W KeyguardUpdateMonitor: ACTION_BATTERY_CHANGED AMP: 0; Volt: 0
+12-17 19:54:27.362  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:54:27.362  1795  1795 D WifiService: onReceive, action:android.intent.action.BATTERY_CHANGED
+12-17 19:54:27.362  2852  2852 W KeyguardUpdateMonitor: ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000
+12-17 19:54:27.362  1795  1795 D WifiService: ACTION_BATTERY_CHANGED pluggedType: 0
+12-17 19:54:27.362  2852  2852 I KgBattery: BatteryInfo updated:  3lpc-1
+12-17 19:54:27.362  2852  2852 W AppHandler: sendMessage with obj100
+12-17 19:54:27.362  2852  2852 D KeyguardUpdateMonitor: handleBatteryUpdate
+12-17 19:54:27.362  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:54:27.362  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155652 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:54:27.362  1795  2670 D WifiController: StaEnabledState what=155652
+12-17 19:54:27.362  1795  2670 D WifiController: DefaultState what=155652
+12-17 19:54:27.362  1795  2670 D WifiController: battery changed pluggedType: 0
+12-17 19:54:27.362  2852  2852 W HwLockScreenPanel: Handle message: 100
+12-17 19:54:27.362  1795  2670 D WifiController: wifiSleepPolicy:1
+12-17 19:54:27.364  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:54:27.364  2852  2852 W HwLockScreenPanel: refreshBatteryInfo: null
+12-17 19:54:27.364  3782  3862 W QCNEJ   : |CORE| CNE received unexpected action: android.intent.action.BATTERY_CHANGED
+12-17 19:54:27.365  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.BATTERY_CHANGED  flag:1610612752 technology=Li-ion icon-small=17303220 max_charging_voltage=0 health=2 max_charging_current=0 status=3 plugged=0 present=true charge_counter=0 level=78 scale=100 temperature=292 voltage=4071 invalid_charger=0 
+12-17 19:54:27.365  2852  2852 I PowerUI : buckets   .....15 .. 10 .. 5level          78 --> 78status         3 --> 3plugType       0 --> 0invalidCharger 0 --> 0bucket         1 --> 1plugged        false --> false
+12-17 19:54:27.365  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:54:27.365  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:54:27.365  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:54:27.365  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:54:27.365  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:54:27.365  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:54:27.365  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:54:27.365  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:54:27.365  1795  1808 V HwBroadcastQueue: trim and enqueue background Parallel:(1) Ordered:(0)(BroadcastRecord{8e1496f u-1 android.intent.action.BATTERY_CHANGED})
+12-17 19:54:27.366  1795  1808 V HwBroadcastQueue: trim and enqueue background Parallel:(2) Ordered:(0)(BroadcastRecord{726467c u-1 android.intent.action.BATTERY_CHANGED})
+12-17 19:54:27.366  1795  2376 W AlarmManager: mIsScreenOn is: false, WAKEUP alarm trigger action = com.huawei.intent.action.PUSH package name is: android
+12-17 19:54:27.366  1795  1808 V HwBroadcastQueue: trim and enqueue background Parallel:(3) Ordered:(0)(BroadcastRecord{4adfb05 u-1 android.intent.action.BATTERY_CHANGED})
+12-17 19:54:27.366  1795  2376 I AlarmManager: Alarm triggering (type 0 or 2): [Alarm{8b98ea9 type 0 when 1481975665485 android}]
+12-17 19:54:27.366  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:54:27.366  1795  2376 I AlarmManager: sending alarm Alarm{b6d975a type 3 when 444116364 android},repeatInterval = 0,listenerTag =time_tick
+12-17 19:54:27.366  3218  3218 D VideoCall_LowBattery: BatteryIntent received: android.intent.action.BATTERY_CHANGED
+12-17 19:54:27.366  3626  3626 D PTM.ThermalCommonInfo: Action: BatChange
+12-17 19:54:27.366  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.366  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.366  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.366  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.366  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.366  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.366  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.366  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.366  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.366  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.366  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.366  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.366  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.366  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.366  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.366  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3218  3218 E QtiImsExtUtils: getImsPhoneId failed. Exception = org.codeaurora.ims.QtiImsException: ImsService is not running
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3218  3218 E QtiImsExtUtils: getConfigForPhoneId phoneId is invalid
+12-17 19:54:27.367  3218  3218 E QtiImsExtUtils: isCarrierConfigEnabled bundle is null
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:54:27.367  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:54:27.367  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:54:27.367  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:54:27.367  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:54:27.367  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:54:27.367  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:54:27.367  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:54:27.367  3218  3218 D VideoCall_LowBattery:  allowVideoCallsInLowBattery: false isCarrierOneSupported: false mIsLowbattery: false

@@ -1,0 +1,100 @@
+12-17 19:35:15.336  4690  4690 I SendBroadcastPermission: action:com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER, mPermissionType:0
+12-17 19:35:15.337  1795 15982 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{5299443 4690:com.baidu.input_huawei/u0a74}, intent:com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER, receiver size:1, flags: 10000400
+12-17 19:35:15.337  1795 15982 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{5299443 4690:com.baidu.input_huawei/u0a74}
+12-17 19:35:15.337  1795 15982 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{b4e01e7 u0 com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER}: prev had 0
+12-17 19:35:15.337  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{b4e01e7 u0 com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER}, has 1 receivers
+12-17 19:35:15.345  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.362  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.363  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.363  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:15.365  2852  2852 I HwBrightnessUtils: APS brightness=14.0,ConvertToPercentage=0.16687968
+12-17 19:35:15.365  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:14 percentage:0.16687968
+12-17 19:35:15.365  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1669
+12-17 19:35:15.365  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1669
+12-17 19:35:15.365  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1669 fromUser:false
+12-17 19:35:15.365  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1669 fromUser:false
+12-17 19:35:15.378  1795  2750 I HwLightsService: back light level before map = 572
+12-17 19:35:15.379  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.395  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.412  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.414  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.414  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:15.415  2852  2852 I HwBrightnessUtils: APS brightness=15.0,ConvertToPercentage=0.1759541
+12-17 19:35:15.415  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:15 percentage:0.1759541
+12-17 19:35:15.415  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1760
+12-17 19:35:15.415  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1760
+12-17 19:35:15.415  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1760 fromUser:false
+12-17 19:35:15.415  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1760 fromUser:false
+12-17 19:35:15.428  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.445  1795  2750 I HwLightsService: back light level before map = 632
+12-17 19:35:15.446  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.447  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.447  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:15.449  2852  2852 I HwBrightnessUtils: APS brightness=16.0,ConvertToPercentage=0.1846686
+12-17 19:35:15.449  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:16 percentage:0.1846686
+12-17 19:35:15.449  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1847
+12-17 19:35:15.449  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1847
+12-17 19:35:15.449  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1847 fromUser:false
+12-17 19:35:15.450  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1847 fromUser:false
+12-17 19:35:15.462  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.478  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.495  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.496  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.497  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:15.498  2852  2852 I HwBrightnessUtils: APS brightness=17.0,ConvertToPercentage=0.19306579
+12-17 19:35:15.498  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:17 percentage:0.19306579
+12-17 19:35:15.498  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1931
+12-17 19:35:15.498  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1931
+12-17 19:35:15.499  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1931 fromUser:false
+12-17 19:35:15.499  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1931 fromUser:false
+12-17 19:35:15.512  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.528  1795  2750 I HwLightsService: back light level before map = 707
+12-17 19:35:15.528  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.530  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.530  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:15.531  2852  2852 I HwBrightnessUtils: APS brightness=18.0,ConvertToPercentage=0.20118043
+12-17 19:35:15.531  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:18 percentage:0.20118043
+12-17 19:35:15.531  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:2012
+12-17 19:35:15.531  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:2012
+12-17 19:35:15.531  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2012 fromUser:false
+12-17 19:35:15.532  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2012 fromUser:false
+12-17 19:35:15.544  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.561  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.574  1795  3225 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4097
+12-17 19:35:15.574  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:35:15.575  1795  3247 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4098
+12-17 19:35:15.576  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:35:15.577  1795 16501 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4099
+12-17 19:35:15.577  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:35:15.577  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.578  1795 16232 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4100
+12-17 19:35:15.578  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:15.578  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.579  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:35:15.579  1795  3110 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4101
+12-17 19:35:15.579  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:35:15.580  2852  2852 I HwBrightnessUtils: APS brightness=19.0,ConvertToPercentage=0.20904124
+12-17 19:35:15.580  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:19 percentage:0.20904124
+12-17 19:35:15.580  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:2090
+12-17 19:35:15.580  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:2090
+12-17 19:35:15.581  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2090 fromUser:false
+12-17 19:35:15.581  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2090 fromUser:false
+12-17 19:35:15.584  1795  3253 V SecInputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:35:15.585  1795  1805 V InputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:35:15.594  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.595  1795 16500 D HwInputMethodManagerService: ------------startInput--------------
+12-17 19:35:15.595  1795 16500 V SecInputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:35:15.596  1795 16500 D HwInputMethodManagerService: hideSecSoftInput = false
+12-17 19:35:15.598  4690  4690 I SendBroadcastPermission: action:com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER, mPermissionType:0
+12-17 19:35:15.599  1795  3111 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{5299443 4690:com.baidu.input_huawei/u0a74}, intent:com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER, receiver size:1, flags: 10000400
+12-17 19:35:15.599  1795  3111 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{5299443 4690:com.baidu.input_huawei/u0a74}
+12-17 19:35:15.599  1795  3111 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{4756194 u0 com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER}: prev had 0
+12-17 19:35:15.599  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{4756194 u0 com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER}, has 1 receivers
+12-17 19:35:15.610  1795  2750 I HwLightsService: back light level before map = 781
+12-17 19:35:15.610  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.627  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.628  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.628  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:15.629  2852  2852 I HwBrightnessUtils: APS brightness=20.0,ConvertToPercentage=0.21667233
+12-17 19:35:15.629  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:20 percentage:0.21667233
+12-17 19:35:15.629  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:2167

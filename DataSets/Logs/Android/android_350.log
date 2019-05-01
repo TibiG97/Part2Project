@@ -1,0 +1,100 @@
+12-17 19:35:42.457  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-44  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=97, rtt_tcp_duration=842, rtt_lan_duration=223, rtt_lan_failures=0, rtt_lan_succ=7, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:35:42.457  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:35:42.457  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:35:42.475  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:35:42.478  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=4, mTXbad=0, mRXGood=4] rssi=-44
+12-17 19:35:42.480  1795  2728 E HwCHRWebMonitor: running processName=com.huawei.android.launcher
+12-17 19:35:42.482  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.huawei.espacev2 UID=10102  WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:35:42.483  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.tencent.mm UID=10105  WEBSENDSEGS=2  WEBRESENDSEGS=0  WEBRECVSEGS=2  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=1  WEBRTTSEGS=1  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:35:42.484  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:35:42.484  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 2, tx = 2
+12-17 19:35:42.484  1795  2728 D HwArpVerifier: AccessWebStatus : reset all
+12-17 19:35:42.899  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:35:42.899  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:35:42.899  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:35:43.940   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:35:44.059  2852  2852 I HeadsUpManager: removeHeadsUpEntry: 0|com.tencent.mm|4097|null|10105
+12-17 19:35:44.059  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:44.060  2852  2852 W ScrimController: startScrimAnimation 0.0 @ com.android.systemui.statusbar.AlphaOptimizedView{d0b83cd V.ED..... ........ 0,0-1080,750 #7f1403fe app:id/heads_up_scrim}
+12-17 19:35:44.060  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:35:44.060  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:35:44.060  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:35:44.061  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:35:44.062  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:35:44.062  1795 20747 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:35:44.062  2852  2852 I NotificationGroupManager: onHeadsUpStateChanged:0|com.tencent.mm|4097|null|10105
+12-17 19:35:44.062  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:44.063  1795  3247 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:35:44.076  2852  2852 I StackScrollAlgorithm: overlapAmount:323.0, previousNotificationEnd:0.0, newYTranslation:-323.0, location:4, i:0, getTopPadding:499.0, getLocationOnScreen():-822
+12-17 19:35:44.076  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:299, i:0
+12-17 19:35:44.076  2852  2852 I StackScrollAlgorithm: overlapAmount:198.0, previousNotificationEnd:-84.0, newYTranslation:-282.0, location:8, i:1, getTopPadding:499.0, getLocationOnScreen():-822
+12-17 19:35:44.076  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:174, i:1
+12-17 19:35:44.076  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:35:44.077  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:35:44.319  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:44.321  2852  2852 I PanelBar: panelExpansionChanged 0.0, false
+12-17 19:35:44.324  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundAlpha:alpha=1.0
+12-17 19:35:44.325  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:35:44.325  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:35:44.325  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:35:44.326  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:35:44.326  2852  2852 I TrafficPanelManager: showTraffic
+12-17 19:35:44.326  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:35:44.326  2852  2852 I QSCustomizer: hide:x=0, y=0, isShown=false
+12-17 19:35:44.327  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:35:44.327  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: -1; Flag: 81840048
+12-17 19:35:44.327  2852  2914 I SendBroadcastPermission: action:com.android.systemui.statusbar.visible.change, mPermissionType:0
+12-17 19:35:44.328  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:44.328  1795 11745 W ActivityManager: Sending non-protected broadcast com.android.systemui.statusbar.visible.change from system 2852:com.android.systemui/u0a33 pkg com.android.systemui
+12-17 19:35:44.328  1795 11745 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{506ad58 2852:com.android.systemui/u0a33}, intent:com.android.systemui.statusbar.visible.change, receiver size:1, flags: 10000400
+12-17 19:35:44.329  1795 11745 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{506ad58 2852:com.android.systemui/u0a33}
+12-17 19:35:44.329  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:44.329  1795 11745 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{b0d6503 u-1 com.android.systemui.statusbar.visible.change}: prev had 0
+12-17 19:35:44.329  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{b0d6503 u-1 com.android.systemui.statusbar.visible.change}, has 1 receivers
+12-17 19:35:44.329  2852  2914 I PanelBar: INTENT_STATUSBAR_VISIBLE_CHANGE sended, EXTRA_VISIBLE = false
+12-17 19:35:44.338  2852  2852 I StackScrollAlgorithm: overlapAmount:323.0, previousNotificationEnd:0.0, newYTranslation:-323.0, location:4, i:0, getTopPadding:499.0, getLocationOnScreen():-822
+12-17 19:35:44.338  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:299, i:0
+12-17 19:35:44.338  2852  2852 I StackScrollAlgorithm: overlapAmount:198.0, previousNotificationEnd:-84.0, newYTranslation:-282.0, location:8, i:1, getTopPadding:499.0, getLocationOnScreen():-822
+12-17 19:35:44.338  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:174, i:1
+12-17 19:35:44.338  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:35:44.338  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:35:44.339 17709 17709 D HwIntelligent3_IntelligentReceiver: onReceive ,intent:Intent { act=com.android.systemui.statusbar.visible.change flg=0x10 cmp=com.huawei.intelligent/.main.receiver.IntelligentReceiver (has extras) }
+12-17 19:35:44.340  1795 15982 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{7e9b22a 17709:com.huawei.intelligent/u0a17}, flags: 10000400
+12-17 19:35:44.341  1795 15982 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{ccd1c80 u0 euid: 0 com.huawei.intelligent/.main.receiver.IntelligentIntentService}, euid: 0
+12-17 19:35:44.343  1795  2396 I NotificationManager: onNotificationVisibilityChanged called
+12-17 19:35:44.344  2852  2852 D PhoneStatusBar: makeExpandedInvisible: mExpandedVisible=true
+12-17 19:35:44.344  2852  2852 I PanelBar: collapsePanel:false
+12-17 19:35:44.344  2852  2852 I PanelView: closeQs
+12-17 19:35:44.345  2852  2852 I QSContainer: updateQsState:false
+12-17 19:35:44.345  2852  2852 I QSContainer: updateQsState:false
+12-17 19:35:44.345  2852  2852 I StackScroller: setScrollingEnabled: true
+12-17 19:35:44.345  2852  2852 I PanelView: instantCollapse
+12-17 19:35:44.345  2852  2852 I PanelBar: collapsePanel2
+12-17 19:35:44.345  2852  2852 I PanelView: closeQs
+12-17 19:35:44.347  1795  6985 I NotificationManager: onNotificationVisibilityChanged called
+12-17 19:35:44.348  2852  2852 W StatusBarWindowManager: Apply window Height 72
+12-17 19:35:44.348  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: 72; Flag: 81840048
+12-17 19:35:44.350  2852  2852 W StatusBarWindowManager: Apply window Height 72
+12-17 19:35:44.350  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: 72; Flag: 81840048
+12-17 19:35:44.351  2852  2852 I PhoneStatusBar: resumeSuspendedAutohide
+12-17 19:35:44.351  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:35:44.351  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:35:44.351  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:35:44.351  2852  2852 D PhoneStatusBar: disable: < expand icons* alerts system_info* back home recent clock navigationbar search quick_settings >
+12-17 19:35:44.353  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{3f96501 V.ED..... ........ 0,1-66,43 #7f1401be app:id/battery_outside_percent}
+12-17 19:35:44.354  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.time.HwStatusBarClock{dbc7fa6 V.ED..... ........ 294,0-441,72 #7f1401c9 app:id/clock}
+12-17 19:35:44.355  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{29531d0 V.ED..... ........ 0,0-144,49 #7f14004e app:id/msim_status_bar_operators_card_one_id}
+12-17 19:35:44.362 17709 20725 D IntelligentIntentService: eventAction :class com.huawei.intelligent.main.receiver.action.ActionBarPullDownAction
+12-17 19:35:44.363 17709 20725 E HwIntelligent3_ActionBarPullDownAction: doAction not pull down return
+12-17 19:35:44.416  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:35:44.427  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:35:44.427  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:35:44.427  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:35:44.430  2852  2852 D UnderLayer: ondraw 0, Rect(0, 0 - 1080, 72)
+12-17 19:35:44.451  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:35:44.452  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:35:44.467  5215  5215 E wpa_supplicant: RSSI=-45;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:35:44.467  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:35:44.468  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:44.468  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-44 "Huawei-Employee"WPA_EAP
+12-17 19:35:44.469  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618

@@ -1,0 +1,100 @@
+12-17 19:34:56.224  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:34:56.224  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:16 targetClass:1 masterLevel:5 slaveLevel:-1
+12-17 19:34:56.224  2852  2914 I HwNetworkControllerImpl: updateOtherSubState() simSubId=0 isNotifyListeners=false isRefresh=false
+12-17 19:34:56.225  3168  3168 I CHR_Silient: Success!!! ---->>>> 0
+12-17 19:34:56.225  3168  3168 I CHR_ChrVolte: lastCallType = 0
+12-17 19:34:56.225  3168  3168 I CHR_TelStatusListenr: onCallStateChanged: state = 0, subscription: 0
+12-17 19:34:56.225  1795  1795 I EyeProtectionControllerImpl: onReceive intent action = android.intent.action.SCREEN_ON
+12-17 19:34:56.226  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:34:56.227  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:34:56.227  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:34:56.227  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:34:56.227  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:34:56.228  1795 17831 I SendBroadcastPermission: action:android.intent.action.SUBSCRIPTION_PHONE_STATE, mPermissionType:0
+12-17 19:34:56.230  1795 15982 I SendBroadcastPermission: action:android.intent.action.PRECISE_CALL_STATE, mPermissionType:0
+12-17 19:34:56.231  1795 15982 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{34bf34f 0:system/1000}, intent:android.intent.action.PRECISE_CALL_STATE, receiver size:1, flags: 10000400
+12-17 19:34:56.231  1795 15982 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.231  1795 15982 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{800ffdd u-1 android.intent.action.PRECISE_CALL_STATE}: prev had 0
+12-17 19:34:56.231  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{800ffdd u-1 android.intent.action.PRECISE_CALL_STATE}, has 1 receivers
+12-17 19:34:56.231  3218  3218 D Telephony: TelephonyConnection: MSG_DISCONNECT
+12-17 19:34:56.231  3218  3218 D Telephony: TelephonyConnection: updateStateInternal() mOriginalConnection= callId: TC@11 incoming: true state: DISCONNECTED post dial state: NOT_STARTED
+12-17 19:34:56.231  3218  3218 D Telephony: TelephonyConnection: updateStateInternal() mOriginalConnection.getAddress()=xxxxxxxxxxxxxxxx
+12-17 19:34:56.232  2852  2914 I SimCardMethod: isCardAbsent slot:0 slotState:5
+12-17 19:34:56.232  3218  3218 V Telephony: TelephonyConnection: Update state from ACTIVE to DISCONNECTED for [TelephonyConnection objId:97479272 telecomCallID:TC@11 type:gsm state:ACTIVE capabilities:[Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO] properties:[Properties:] address:xxxxxxxxxxxxxxxx originalConnection: callId: TC@11 incoming: true state: DISCONNECTED post dial state: NOT_STARTED partOfConf:N]
+12-17 19:34:56.232  3218  3218 D TelecomFramework: GsmConnection: setState: DISCONNECTED
+12-17 19:34:56.232  3218  3218 V Telephony: TelephonyConnection: onStateChanged, state: DISCONNECTED
+12-17 19:34:56.232  3218  3218 V Telephony: TelephonyConnection: isValidRingingCall, ringing call is not in ringing state
+12-17 19:34:56.232  2852  2852 D HwMobileSignalController: getTypeIcon type:1
+12-17 19:34:56.232  2852  2852 D HwMobileSignalController:  2G
+12-17 19:34:56.232  2852  2852 I HwMobileSignalController: notifyListenerHuawei::origin typeIcon:2130839153 icons.mName:G isSuspend:false, showDataIcon=false, dataConnected=false, isRoaming=false
+12-17 19:34:56.232  2852  2852 I HwSignalClusterView: getOrInflateState subId:0
+12-17 19:34:56.232  2852  2852 I HwSignalClusterView: getOrInflateState subId:0
+12-17 19:34:56.232  3218  3218 D TelecomFramework: : Adapter set state TC@11 DISCONNECTED
+12-17 19:34:56.232  3218  3218 V Telephony: TelephonyConferenceController: onStateChange triggered in Conf Controller : connection = [TelephonyConnection objId:97479272 telecomCallID:TC@11 type:gsm state:DISCONNECTED capabilities:[Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO] properties:[Properties:] address:xxxxxxxxxxxxxxxx originalConnection: callId: TC@11 incoming: true state: DISCONNECTED post dial state: NOT_STARTED partOfConf:N] state = 6
+12-17 19:34:56.233  3218  3218 D Telephony: TelephonyConferenceController: Recalculate conference calls null [].
+12-17 19:34:56.233  1795 15988 D Telecom : ConnectionServiceWrapper: ConnectionService -> Telecom: setStatusHints TC@11 null: CSW.sSH@EsM
+12-17 19:34:56.233  2852  2852 I HwSignalClusterView: setMobileDataIndicatorsHuawei subId:0 visible:true strengthIcon:2130839311 typeIcon:2130839153 contentDescription:手机信号满格。 typeContentDescription:GPRS isTypeIconWide:false showActivity:false activityIn:false activityOut:false isRoaming:false
+12-17 19:34:56.233  3218  3218 D Telephony: TelephonyConferenceController: Is there a match for all connections in connection service true
+12-17 19:34:56.233  2852  2852 I HwSignalClusterView: getOrInflateState subId:0
+12-17 19:34:56.233  3218  3218 D Telephony: TelephonyConferenceController: not enough connections to be a conference!
+12-17 19:34:56.233  3218  3218 V Telephony: TelephonyConferenceController: recalculateConferenceable : 1
+12-17 19:34:56.233  3218  3218 D Telephony: TelephonyConferenceController: recalc - 6 [TelephonyConnection objId:97479272 telecomCallID:TC@11 type:gsm state:DISCONNECTED capabilities:[Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO] properties:[Properties:] address:xxxxxxxxxxxxxxxx originalConnection: callId: TC@11 incoming: true state: DISCONNECTED post dial state: NOT_STARTED partOfConf:N] supportsConf? true
+12-17 19:34:56.233  3218  3218 V TelecomFramework: ConnectionServiceAdapter: setConferenceableConnections: TC@11, []
+12-17 19:34:56.234  3218  3218 V Telephony: TelephonyConferenceController: active: 0, holding: 0
+12-17 19:34:56.234  3218  3218 D TelecomFramework: GsmConnection: Disconnected with cause DisconnectCause [ Code: (REMOTE) Label: () Description: () Reason: (Normal call clearing, NORMAL) Tone: (27) ]
+12-17 19:34:56.234  3218  3218 D TelecomFramework: : Adapter set disconnected DisconnectCause [ Code: (REMOTE) Label: () Description: () Reason: (Normal call clearing, NORMAL) Tone: (27) ]
+12-17 19:34:56.234  3218  3218 D Telephony: TelephonyConferenceController: Recalculate conference calls null [].
+12-17 19:34:56.234  3218  3218 D Telephony: TelephonyConferenceController: Is there a match for all connections in connection service true
+12-17 19:34:56.234  3218  3218 D Telephony: TelephonyConferenceController: not enough connections to be a conference!
+12-17 19:34:56.234  3218  3218 V Telephony: TelephonyConferenceController: recalculateConferenceable : 1
+12-17 19:34:56.235  3168  3168 I CHR_Silient: Success!!! ---->>>> 0
+12-17 19:34:56.235  3168  3168 I CHR_TelStatusListenr0: stepAtomic
+12-17 19:34:56.235  3168  3168 I CHR_TelStatusListenr0: stepAtomic
+12-17 19:34:56.235  3218  3218 D Telephony: TelephonyConferenceController: recalc - 6 [TelephonyConnection objId:97479272 telecomCallID:TC@11 type:gsm state:DISCONNECTED capabilities:[Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO] properties:[Properties:] address:xxxxxxxxxxxxxxxx originalConnection: callId: TC@11 incoming: true state: DISCONNECTED post dial state: NOT_STARTED partOfConf:N] supportsConf? true
+12-17 19:34:56.235  3168  3168 I CHR_TelStatusListenr: CallStatisInfo, stepAtomic, type: 2, mRat: 1, mMOCallCounter: 0, mMTCallCounter: 2, mDropCallFailCounter: 0, mMOCallFailCounter: 0, mMTCallFailCounter: 0, mDsDaCallCounter: 0, mActiveCallReHangupCounter: 1, mActiveCallLoHangupCounter: 0
+12-17 19:34:56.235  3168  3168 I CHR_TelStatusListenr0: stepAtomic
+12-17 19:34:56.235  3168  3168 I CHR_MT-CounterPerLac-Rat-16: stepAtomic
+12-17 19:34:56.235  3168  3168 I CHR_TelStatusListenr: onCallStateChanged: MT_CALL_NORMAL ++
+12-17 19:34:56.235  3218  3218 V TelecomFramework: ConnectionServiceAdapter: setConferenceableConnections: TC@11, []
+12-17 19:34:56.235  3168  3168 I CHR_TelStatusListenr: onPreciseCallStateChanged: iDisconnectCause = -1, iPreciseDiscCause = -1, on sub: 0
+12-17 19:34:56.235  1795 15988 D Telecom : Call: getSubId subId is 0: CSW.sSH@EsM
+12-17 19:34:56.235  3218  3218 V Telephony: TelephonyConferenceController: active: 0, holding: 0
+12-17 19:34:56.235  3218  3218 V Telephony: TelephonyConnection: close
+12-17 19:34:56.235  3218  3218 I Telephony: TelephonyConnection: close session while phone state IDLE
+12-17 19:34:56.235  3218  3218 I Telephony: TelephonyConnection: disable local call hold, if not already done by telecomm service
+12-17 19:34:56.235  3218  3218 I Telephony: setLocalCallHold: lchStatus:0 phoneId:0 sLchState:[0, 0]
+12-17 19:34:56.235  3218  3218 D Telephony: TelephonyConnection: clearOriginalConnection
+12-17 19:34:56.236  3218  3218 D Telephony: TelephonyConferenceController: Recalculate conference calls null [].
+12-17 19:34:56.236  3218  3218 D Telephony: TelephonyConferenceController: Is there a match for all connections in connection service true
+12-17 19:34:56.236  3218  3218 D Telephony: TelephonyConferenceController: not enough connections to be a conference!
+12-17 19:34:56.236  3218  3218 V Telephony: TelephonyConferenceController: recalculateConferenceable : 0
+12-17 19:34:56.236  3218  3218 V Telephony: TelephonyConferenceController: active: 0, holding: 0
+12-17 19:34:56.236  3218  3218 D PhoneApp: isEncryptEnabled not CDMA phone!
+12-17 19:34:56.236  3218  3218 V Telephony: TelephonyConnection: isValidRingingCall, phone is null
+12-17 19:34:56.236  3218  3218 D HwQcomVolteChrService: onPreciseCallStateChanged: mSubId = 0, rgCallState = 0, fgCallState = 1, bgCallState = 0
+12-17 19:34:56.236  3218  3218 D HwQcomVolteChrService: onPreciseCallStateChanged: mLastCallType = 0
+12-17 19:34:56.236  3218  3218 V Telephony: TelephonyConnection: MSG_PRECISE_CALL_STATE_CHANGED
+12-17 19:34:56.236  3218  3218 D HwQcomVolteChrService: onPreciseCallStateChanged: mSubId = 0, rgCallState = 0, fgCallState = 7, bgCallState = 0
+12-17 19:34:56.236  3218  3218 D HwQcomVolteChrService: onPreciseCallStateChanged: mLastCallType = 0
+12-17 19:34:56.236  1795 15988 D Telecom : Call: getSubId subId is 0: CSW.sSH@EsM
+12-17 19:34:56.236  1795  2736 D HwInnerWifiManagerImpl: SupplicantState = COMPLETED
+12-17 19:34:56.236  1795  2736 D HwInnerWifiManagerImpl: isPhoneAP = false
+12-17 19:34:56.236  1795 15988 I Telecom : InCallController: Sending updateCall ACTIVE ==> parcelableCall :[TC@11, parent:null, children:[]]: CSW.sSH@EsM
+12-17 19:34:56.237  1795 15988 D Telecom : ConnectionServiceWrapper: ConnectionService -> Telecom: setConferenceableConnections TC@11 []: CSW.sCC@EsQ
+12-17 19:34:56.237  3218 20549 D CallNotifier: SignalInfoTonePlayer.run(toneId = 98)...
+12-17 19:34:56.237  3218 20549 D CallNotifier: mSignalInfoToneGenerator created already, hence skipping
+12-17 19:34:56.237  3168  3168 I CHR_TelStatusListenr: onPreciseCallStateChanged: iDisconnectCause = -1, iPreciseDiscCause = -1, on sub: 1
+12-17 19:34:56.238  3608  3608 I ActivityManager_activity: Reporting idle of ActivityRecord{fd45985 token=android.os.BinderProxy@af8ea9b {com.android.incallui/com.android.incallui.InCallActivity}} finished=false
+12-17 19:34:56.238  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:34:56.238  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:34:56.239  1795 15988 D Telecom : Call: getSubId subId is 0: CSW.sCC@EsQ
+12-17 19:34:56.239  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:34:56.240  1795 15988 D Telecom : Call: getSubId subId is 0: CSW.sCC@EsQ
+12-17 19:34:56.240  1795 15988 I Telecom : InCallController: Sending updateCall ACTIVE ==> parcelableCall :[TC@11, parent:null, children:[]]: CSW.sCC@EsQ
+12-17 19:34:56.241  1795 15988 D Telecom : ConnectionServiceWrapper: ConnectionService -> Telecom: setDisconnected TC@11 DisconnectCause [ Code: (REMOTE) Label: () Description: () Reason: (Normal call clearing, NORMAL) Tone: (27) ]: CSW.sD@EsU
+12-17 19:34:56.241  2852  2852 I HwSignalClusterView: setMobileDataIndicatorsHuawei subId:0 visible:true strengthIcon:2130839311 typeIcon:2130839153 contentDescription:手机信号满格。 typeContentDescription:GPRS isTypeIconWide:false showActivity:false activityIn:false activityOut:false isRoaming:false
+12-17 19:34:56.241  1795 15988 D Telecom : ConnectionServiceWrapper: disconnect call DisconnectCause [ Code: (REMOTE) Label: () Description: () Reason: (Normal call clearing, NORMAL) Tone: (27) ] : CSW.sD@EsU
+12-17 19:34:56.241  2852  2852 I HwSignalClusterView: getOrInflateState subId:0
+12-17 19:34:56.241  3218  4159 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:34:56.241  1795 15988 D Telecom : TelecomAnalytics: setting disconnectCause for call TC@11 to DisconnectCause [ Code: (REMOTE) Label: () Description: () Reason: (Normal call clearing, NORMAL) Tone: (27) ]: CSW.sD@EsU
+12-17 19:34:56.241  1795 15988 I Telecom : CallsManager: setCallState ACTIVE -> DISCONNECTED: CSW.sD@EsU

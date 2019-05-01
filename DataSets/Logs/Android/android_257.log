@@ -1,0 +1,100 @@
+12-17 19:33:42.341  5224  5283 I Step_ExtendStepDataManager: 20002302|compensate 24699573 21
+12-17 19:33:42.345  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4210
+12-17 19:33:42.346  5224  5283 I Step_ExtendStepDataManager: 20002302|after compensate: cache step_4210
+12-17 19:33:42.432  1795  2371 E LightSensor: read Events lux: 44.0
+12-17 19:33:42.433  1795  1825 D AutomaticBrightnessController: ambient lux=44.0,timeStamp =442958795908000
+12-17 19:33:42.433  1795  1825 D HwNormalizedAutomaticBrightnessController: mAmbientLuxValid=true,mWakeupFromSleep= false
+12-17 19:33:42.433  1795  1825 D HwAmbientLuxFilterAlgo: updateAmbientLux: Initializing: mAmbientLightRingBuffer=[44.0 / 1ms], mAmbientLux=44.0
+12-17 19:33:42.433  1795  1825 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:33:42.433  1795  1825 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:33:42.433  1795  1825 D HwAmbientLuxFilterAlgo: t=123084985,BT=123085485,DT=123085985,BT1=123088985,DT1=123092985,Bn=false,Dn=false,lx=[44.0/123084985],mLx=44.0,s=5.0,ss=0.0,AuIntervened=false,mProximityState=false,bLux=359.0,dLux=17.0,bLux1=359.0,dLux1=17.0
+12-17 19:33:42.434  1795  1825 D HwNormalizedAutomaticBrightnessController: need to update brightness: mAmbientLux=44.0
+12-17 19:33:42.434  1795  1825 D HwNormalizedSpline: interpolate:mPosBrightness=0.0lux=44.0,mIsReboot=true,mIsUserChange=false,mDelta=0.0
+12-17 19:33:42.434  1795  1825 D HwNormalizedSpline: offsetBrightness=43.266666,mOffsetBrightness_last43.266666,lux=44.0,mPosBrightness=0.0,mIsUserChange=false,mDelta=0.0,defaultBrightness=43.266666,mStartLuxDefaultBrightness=43.266666mLastLuxDefaultBrightness=43.266666
+12-17 19:33:42.435  1795  1825 D HwNormalizedSpline: write:userId=0,mPosBrightness =0.0,mOffsetBrightness_last=43.266666,mIsUserChange=false,mDeltaNew=0.0,mStartLuxDefaultBrightness=43.266666mLastLuxDefaultBrightness=43.266666,mAmLux=44.0
+12-17 19:33:42.435  1795  1825 D AutomaticBrightnessController: updateAutoBrightness: mScreenAutoBrightness=24, newScreenAutoBrightness=43
+12-17 19:33:42.435  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:42.436  1795  1825 D DisplayPowerController: Animating brightness: target=43, rate=0
+12-17 19:33:42.436  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:42.436  1795  1825 D DisplayPowerController: Animating brightness: target=43, rate=40
+12-17 19:33:42.437  5224  5283 I Step_LSC: 20002302|REPORT : 4210 89805 2995 0
+12-17 19:33:42.438  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:33:42.455  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:42.483  1795  2750 D SurfaceControl: Excessive delay in setPowerMode(): 219ms
+12-17 19:33:42.486  1795  1821 I DisplayManagerService: Display device changed state: "内置屏幕", ON
+12-17 19:33:42.488   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:94) watch thread onLoop... 
+12-17 19:33:42.489  3608  3608 D InCall  : InCallActivity - onResume()... end
+12-17 19:33:42.489   832  1841 E Parcel  : Reading a NULL string not supported here.
+12-17 19:33:42.489   832  1841 E Parcel  : Reading a NULL string not supported here.
+12-17 19:33:42.490  3608  3608 I InCall  : VideoCallFragment - onResume
+12-17 19:33:42.490  3608  3608 I InCall  : VideoCallPresenter - isVideoCallWorking, state is: 3
+12-17 19:33:42.490  3608  3608 I InCall  : VideoCallFragment - onResume: Surface exist, resume videos
+12-17 19:33:42.490  3608  3608 D InCall  : VideoCallPresenter - resumeVideo: Error bad state mPrimaryCall=[Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)] mVideoCall=null
+12-17 19:33:42.490  3608  3608 I InCall  : VTCallButtonFragment - --- onResume ---
+12-17 19:33:42.491   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:33:42.491  3608  3608 I ActivityManager_activity: Resuming ActivityRecord{fd45985 token=android.os.BinderProxy@af8ea9b {com.android.incallui/com.android.incallui.InCallActivity}} with isForward=true,forwardBitChanged=true onlyLocalRequest=false
+12-17 19:33:42.492  1795  2671 D WifiStateMachine:  ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123085045/442958855 1 0
+12-17 19:33:42.492  1795  2680 I AlarmManager: set(null) : type=2 triggerAtTime=442973647 win=11249 tElapsed=442973647 maxElapsed=442984896 interval=0 flags=0x8
+12-17 19:33:42.492  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123085045/442958856 1 0
+12-17 19:33:42.492  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:33:42.493  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:33:42.494  1795  1805 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:42.494  1795  1805 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:42.496  5215  5215 E wpa_supplicant: RSSI=-57;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:33:42.496  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:33:42.496  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:33:42.496  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-57 "Huawei-Employee"WPA_EAP
+12-17 19:33:42.497  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123085049/442958860 0 0
+12-17 19:33:42.497  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123085049/442958860 0 0
+12-17 19:33:42.497  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123085049/442958860 0 0
+12-17 19:33:42.497  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123085050/442958861 0 0
+12-17 19:33:42.497  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 0'
+12-17 19:33:42.498  1795 16498 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:42.499  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:42.500  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 0'
+12-17 19:33:42.500  1795 11746 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:42.501  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:33:42.502  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:33:42.503  1795 16500 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{580cfb2 5224:com.huawei.health:DaemonService/u0a99}
+12-17 19:33:42.503  1795 17831 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:42.503  1795 17831 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:42.505  5224  5283 I Step_HSNH: 20002302|upDateHealthNotification()|90|2.99|4210
+12-17 19:33:42.506  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:33:42.507  5224  5283 I Step_HSNH: 20002302|rebuild notification
+12-17 19:33:42.508  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:33:42.508  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:33:42.508  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=true
+12-17 19:33:42.508  1795  1795 I DeviceIdleController: becomeActiveLocked, reason = screen
+12-17 19:33:42.509  1795  1795 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:33:42.510  1795 11745 I NotificationManager: enqueueNotificationInternal: pkg=com.huawei.health id=10010 notification=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)
+12-17 19:33:42.511  1795  1807 D DeviceIdleController: handleMessage(5)
+12-17 19:33:42.511  1795  1795 D DeviceIdleController: stopMonitoringMotionLocked()
+12-17 19:33:42.511  1795  1795 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:33:42.512  2852  2852 I EventCenter: EventCenter Get :android.com.huawei.bone.NOTIFY_SPORT_DATA
+12-17 19:33:42.512  2852  2852 D StepCounterView: onStepCounterChange stepsNum:4210
+12-17 19:33:42.513  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:33:42.513  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:33:42.513  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_ON mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:33:42.513  1795  1795 D HwConnectivityService: CtrlSocket receive screen on intent!
+12-17 19:33:42.513  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus
+12-17 19:33:42.513  1795  1795 D HwConnectivityService: pid=1000, cmd=100, param=0
+12-17 19:33:42.513  1795  1795 D HwConnectivityService: mFilterMsgFlag: 0,msg.arg1: 3
+12-17 19:33:42.513  1795  1795 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 1000 cmd = 100 param = 0 ret = 0
+12-17 19:33:42.513  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus reset
+12-17 19:33:42.513  1795  2691 D HwConnectivityService: handleFilterMsg action: 3mFilterMsgFlag3
+12-17 19:33:42.513  1795  2691 D HwConnectivityService: [tiger]setBastetFilterInfo action 3pid 1000
+12-17 19:33:42.513  1795  2691 D HwConnectivityService: stopFilter m_filterIsStarted:false
+12-17 19:33:42.517  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.huawei.health|10010|null|10099
+12-17 19:33:42.517  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:33:42.517  1795  1795 I NotificationManager: mIntentReceiver-ACTION_SCREEN_ON
+12-17 19:33:42.517  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = true,ledNotification == null?false
+12-17 19:33:42.517  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:33:42.517  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:33:42.517  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:33:42.517  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:33:42.517  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:33:42.518  1795 15987 D PowerManagerService: acquire lock=247092602, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:33:42.518  1795 15987 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:42.518  1795 15987 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:42.520  1046  1046 V ThreadsEx: HDebug print the key screen_state
+12-17 19:33:42.520  1046  1046 D audio_hw_primary: adev_set_parameters: enter: screen_state=on

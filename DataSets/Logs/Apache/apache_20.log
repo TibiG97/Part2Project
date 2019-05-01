@@ -1,0 +1,100 @@
+[Fri Jun 24 22:37:42 2005] [error] [client 63.199.49.133] Directory index forbidden by rule: /var/www/html/
+[Fri Jun 24 23:21:02 2005] [error] [client 219.154.34.213] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 00:00:06 2005] [error] [client 63.119.14.138] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 01:24:04 2005] [error] [client 63.123.69.65] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 02:41:18 2005] [error] [client 71.101.133.25] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 04:04:26 2005] [notice] Graceful restart requested, doing restart
+[Sat Jun 25 04:04:26 2005] [notice] mod_jk2 Shutting down
+[Sat Jun 25 04:04:26 2005] [notice] mod_jk2 Shutting down
+[Sat Jun 25 04:04:26 2005] [notice] mod_jk2 Shutting down
+[Sat Jun 25 04:04:26 2005] [notice] mod_jk2 Shutting down
+[Sat Jun 25 04:04:26 2005] [notice] mod_jk2 Shutting down
+[Sat Jun 25 04:04:26 2005] [notice] mod_jk2 Shutting down
+[Sat Jun 25 04:04:26 2005] [notice] mod_jk2 Shutting down
+[Sat Jun 25 04:04:26 2005] [notice] mod_jk2 Shutting down
+[Sat Jun 25 04:04:26 2005] [notice] mod_jk2 Shutting down
+[Sat Jun 25 04:04:26 2005] [notice] mod_jk2 Shutting down
+[Sat Jun 25 04:04:26 2005] [notice] mod_jk2 Shutting down
+[Sat Jun 25 04:04:26 2005] [notice] mod_jk2 Shutting down
+[Sat Jun 25 04:04:26 2005] [notice] mod_jk2 Shutting down
+[Sat Jun 25 04:04:30 2005] [notice] Digest: generating secret for digest authentication ...
+[Sat Jun 25 04:04:30 2005] [notice] Digest: done
+[Sat Jun 25 04:04:30 2005] [notice] LDAP: Built with OpenLDAP LDAP SDK
+[Sat Jun 25 04:04:30 2005] [notice] LDAP: SSL support unavailable
+[Sat Jun 25 04:04:30 2005] [error] env.createBean2(): Factory error creating channel.jni:jni ( channel.jni, jni)
+[Sat Jun 25 04:04:30 2005] [error] config.update(): Can't create channel.jni:jni
+[Sat Jun 25 04:04:30 2005] [error] env.createBean2(): Factory error creating vm: ( vm, )
+[Sat Jun 25 04:04:30 2005] [error] config.update(): Can't create vm:
+[Sat Jun 25 04:04:30 2005] [error] env.createBean2(): Factory error creating worker.jni:onStartup ( worker.jni, onStartup)
+[Sat Jun 25 04:04:30 2005] [error] config.update(): Can't create worker.jni:onStartup
+[Sat Jun 25 04:04:30 2005] [error] env.createBean2(): Factory error creating worker.jni:onShutdown ( worker.jni, onShutdown)
+[Sat Jun 25 04:04:30 2005] [error] config.update(): Can't create worker.jni:onShutdown
+[Sat Jun 25 04:04:32 2005] [notice] mod_python: Creating 32 session mutexes based on 150 max processes and 0 max threads.
+[Sat Jun 25 04:04:32 2005] [notice] mod_security/1.9dev2 configured
+[Sat Jun 25 04:04:32 2005] [notice] Apache/2.0.49 (Fedora) configured -- resuming normal operations
+[Sat Jun 25 04:04:32 2005] [error] jk2_init() Can't find child 29722 in scoreboard
+[Sat Jun 25 04:04:32 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Jun 25 04:04:32 2005] [error] mod_jk child init 1 -2
+[Sat Jun 25 04:04:32 2005] [error] jk2_init() Can't find child 29723 in scoreboard
+[Sat Jun 25 04:04:32 2005] [notice] jk2_init() Found child 29721 in scoreboard slot 2
+[Sat Jun 25 04:04:32 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Jun 25 04:04:32 2005] [error] mod_jk child workerEnv in error state 3
+[Sat Jun 25 04:04:32 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Jun 25 04:04:32 2005] [error] mod_jk child init 1 -2
+[Sat Jun 25 04:04:32 2005] [notice] jk2_init() Found child 29724 in scoreboard slot 17
+[Sat Jun 25 04:04:33 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Jun 25 04:04:33 2005] [error] mod_jk child workerEnv in error state 3
+[Sat Jun 25 04:04:33 2005] [error] jk2_init() Can't find child 29726 in scoreboard
+[Sat Jun 25 04:04:33 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Jun 25 04:04:33 2005] [error] mod_jk child init 1 -2
+[Sat Jun 25 04:04:33 2005] [error] jk2_init() Can't find child 29727 in scoreboard
+[Sat Jun 25 04:04:33 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Jun 25 04:04:33 2005] [error] mod_jk child init 1 -2
+[Sat Jun 25 04:04:33 2005] [error] jk2_init() Can't find child 29728 in scoreboard
+[Sat Jun 25 04:04:33 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Jun 25 04:04:33 2005] [error] mod_jk child init 1 -2
+[Sat Jun 25 04:04:33 2005] [notice] jk2_init() Found child 29725 in scoreboard slot 19
+[Sat Jun 25 04:04:33 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Jun 25 04:04:33 2005] [error] mod_jk child workerEnv in error state 3
+[Sat Jun 25 04:31:18 2005] [error] [client 12.168.121.2] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 05:02:37 2005] [error] [client 69.157.181.132] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 05:52:38 2005] [error] [client 169.152.251.99] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 06:18:32 2005] [error] [client 63.119.14.138] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 07:28:44 2005] [error] [client 63.199.49.133] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 07:32:38 2005] [error] [client 63.196.38.210] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 07:53:58 2005] [error] [client 220.174.102.199] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 08:23:28 2005] [error] [client 63.205.83.110] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 08:55:38 2005] [error] [client 71.108.20.250] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 09:35:45 2005] [error] [client 63.19.149.206] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 09:40:21 2005] [error] [client 207.203.80.15] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 10:43:01 2005] [error] [client 63.205.83.110] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 13:00:20 2005] [error] jk2_init() Can't find child 31773 in scoreboard
+[Sat Jun 25 13:00:20 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Jun 25 13:00:20 2005] [error] mod_jk child init 1 -2
+[Sat Jun 25 13:00:21 2005] [notice] jk2_init() Found child 31774 in scoreboard slot 1
+[Sat Jun 25 13:00:21 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Jun 25 13:00:21 2005] [error] mod_jk child workerEnv in error state 3
+[Sat Jun 25 13:00:23 2005] [error] [client 219.133.247.171] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 13:00:23 2005] [error] [client 219.133.247.171] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 13:00:23 2005] [error] [client 219.133.247.171] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 13:00:23 2005] [error] [client 219.133.247.171] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 13:00:24 2005] [error] jk2_init() Can't find child 31775 in scoreboard
+[Sat Jun 25 13:00:24 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Jun 25 13:00:24 2005] [error] mod_jk child init 1 -2
+[Sat Jun 25 13:00:25 2005] [error] jk2_init() Can't find child 31776 in scoreboard
+[Sat Jun 25 13:00:25 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Jun 25 13:00:25 2005] [error] mod_jk child init 1 -2
+[Sat Jun 25 13:00:26 2005] [error] [client 219.133.247.171] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 13:00:27 2005] [error] [client 219.133.247.171] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 13:00:27 2005] [error] [client 219.133.247.171] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 13:00:27 2005] [error] [client 219.133.247.171] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 13:00:27 2005] [error] [client 219.133.247.171] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 13:00:27 2005] [error] [client 219.133.247.171] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 13:00:27 2005] [error] [client 219.133.247.171] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 13:00:27 2005] [error] jk2_init() Can't find child 31777 in scoreboard
+[Sat Jun 25 13:00:27 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Jun 25 13:00:27 2005] [error] mod_jk child init 1 -2
+[Sat Jun 25 13:00:27 2005] [error] [client 219.133.247.171] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 13:00:28 2005] [error] [client 219.133.247.171] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 13:00:29 2005] [error] [client 219.133.247.171] Directory index forbidden by rule: /var/www/html/
+[Sat Jun 25 13:00:33 2005] [error] [client 219.133.247.171] Directory index forbidden by rule: /var/www/html/

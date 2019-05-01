@@ -1,0 +1,100 @@
+12-17 19:45:00.338  1795 15988 D PowerManagerService: acquire lock=237604388, flags=0x1, tag="WakerLock:49171226", name=com.tencent.mm, ws=null, uid=10105, pid=4634
+12-17 19:45:00.338  1795 15988 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:45:00.367  1795  1795 I TrafficMonitor: update:rxPkts:1,txPkts:2,rxBytes:77,txBytes:117
+12-17 19:45:00.367  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:45:00.367  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:45:00.374  1795  3884 D PowerManagerService: release:lock=260397080, flg=0x0, tag="dispatcher", name=android", ws=null, uid=1000, pid=7194
+12-17 19:45:00.374  1795  3884 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:45:00.377  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:45:00.430  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:45:00.490  1795  3225 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:45:00.493  1795 17832 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:45:00.501  1795 16501 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:45:00.502  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+12-17 19:45:00.502  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:45:00.503  1795  3253 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:45:00.503  3858  4126 I amsnl   : csr
+12-17 19:45:00.504  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:45:00.507  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+12-17 19:45:00.507  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:45:00.509  1795  6986 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:45:00.509  1795  3247 D wifiserviceimpl: netmask =16580607
+12-17 19:45:00.510  3858  4126 I amsnl   : m1: false
+12-17 19:45:00.512  1795 20747 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:45:00.513  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:45:00.514  3858  4126 I amsnl   : c: true, w: false, t: false, l: false
+12-17 19:45:00.514  3858  4126 I amsnl   : csr
+12-17 19:45:00.514  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:45:00.518  1795 11747 D wifiserviceimpl: netmask =16580607
+12-17 19:45:00.518  3858  4126 I amsnl   : m1: false
+12-17 19:45:00.520  1795  1806 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:45:00.521  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:45:00.522  3858  4126 I amsnl   : c: true, w: false, t: false, l: false
+12-17 19:45:00.661  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:45:00.837  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:45:00.844  1795  2396 D PowerManagerService: release:lock=237604388, flg=0x0, tag="WakerLock:49171226", name=com.tencent.mm", ws=null, uid=10105, pid=4634
+12-17 19:45:00.846  1795  2396 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:45:00.846  1795  2396 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:45:27.744   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:45:27.744   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:45:27.744  1795  2778 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:45:27.744  1795  2778 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:45:27.746  1795  1825 D PowerManagerService: updateIsPoweredLocked: wasPowered=false, mIsPowered=false, oldPlugType=0, mPlugType=0, mBatteryLevel=78
+12-17 19:45:27.746  1795  1825 I HwCustPowerManager_FLOW: handleDreamLocked
+12-17 19:45:27.747  1795  1795 I DeviceIdleController: updateChargingLocked: charging=false
+12-17 19:45:27.747  1795  1795 D WifiService: onReceive, action:android.intent.action.BATTERY_CHANGED
+12-17 19:45:27.747  1795  1795 D WifiService: ACTION_BATTERY_CHANGED pluggedType: 0
+12-17 19:45:27.747  2852  2852 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-17 19:45:27.747  2852  2852 W KeyguardUpdateMonitor: ACTION_BATTERY_CHANGED AMP: 0; Volt: 0
+12-17 19:45:27.748  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:45:27.748  2852  2852 W KeyguardUpdateMonitor: ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000
+12-17 19:45:27.748  2852  2852 I KgBattery: BatteryInfo updated:  3lpc-1
+12-17 19:45:27.748  2852  2852 W AppHandler: sendMessage with obj100
+12-17 19:45:27.748  2852  2852 D KeyguardUpdateMonitor: handleBatteryUpdate
+12-17 19:45:27.748  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:45:27.748  2852  2852 W HwLockScreenPanel: Handle message: 100
+12-17 19:45:27.748  3218  3218 D VideoCall_LowBattery: BatteryIntent received: android.intent.action.BATTERY_CHANGED
+12-17 19:45:27.749  1795  2670 D WifiController: DeviceActiveState{ when=-2ms what=155652 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:45:27.749  1795  2670 D WifiController: StaEnabledState what=155652
+12-17 19:45:27.749  1795  2670 D WifiController: DefaultState what=155652
+12-17 19:45:27.749  1795  2670 D WifiController: battery changed pluggedType: 0
+12-17 19:45:27.749  3218  3218 E QtiImsExtUtils: getImsPhoneId failed. Exception = org.codeaurora.ims.QtiImsException: ImsService is not running
+12-17 19:45:27.749  1795  2670 D WifiController: wifiSleepPolicy:1
+12-17 19:45:27.749  3218  3218 E QtiImsExtUtils: getConfigForPhoneId phoneId is invalid
+12-17 19:45:27.749  3218  3218 E QtiImsExtUtils: isCarrierConfigEnabled bundle is null
+12-17 19:45:27.749  3218  3218 D VideoCall_LowBattery:  allowVideoCallsInLowBattery: false isCarrierOneSupported: false mIsLowbattery: false
+12-17 19:45:27.750  3782  3862 W QCNEJ   : |CORE| CNE received unexpected action: android.intent.action.BATTERY_CHANGED
+12-17 19:45:27.750  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:45:27.751  1795  2376 I AlarmManager: set again repeat alarm: next ,nextElapsed = 443963112,repeatInterval = 300000
+12-17 19:45:27.752  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:45:27.752  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:45:27.752  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:45:27.752  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:45:27.752  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:45:27.752  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:45:27.752  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:45:27.752  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:45:27.752  3626  3626 D PTM.ThermalCommonInfo: Action: BatChange
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:45:27.752  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0

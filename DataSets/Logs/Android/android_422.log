@@ -1,0 +1,100 @@
+12-17 19:42:24.695 20894 20910 I ChinaUploader: read: {"upload_status":2}
+12-17 19:42:24.696 20894 20910 I ChinaUploader: read completed, {"upload_status":2}
+12-17 19:42:24.696 20894 20910 I ChinaUploader: parserContentRange
+12-17 19:42:24.696 20894 20910 I ChinaUploader: rsp = {"upload_status":2}
+12-17 19:42:24.696 20894 20910 I ChinaUploader: breakpoint uploading file not exist, need to upload again
+12-17 19:42:24.696 20894 20910 I ChinaUploader: contentRangernull
+12-17 19:42:24.722 20894 20910 I ChinaUploadStateMachine: result = 201
+12-17 19:42:24.723 20894 20910 I ChinaUploadStateMachine: dealWithLargeFileResult201
+12-17 19:42:24.723 20894 20910 I ChinaUploadStateMachine: breakpoint uploading result
+12-17 19:42:24.737 20894 20910 I ChinaUploadStateMachine: ID: 6036151123030598854 not pause
+12-17 19:42:24.737 20894 20910 I ChinaUploadStateMachine: range:null
+12-17 19:42:24.772 20894 20910 I ChinaUploader: Uploader
+12-17 19:42:24.773 20894 20910 I ChinaUploader: not encrypt
+12-17 19:42:24.773 20894 20910 I ChinaUploader: upload unencrypted file
+12-17 19:42:24.773 20894 20910 I ChinaUploader: /storage/emulated/0/log/LogService/uploading/MLA-AL00_MLA-AL00C00B318-log_D470C2EF_20161217194207137_ALL.zip
+12-17 19:42:24.773 20894 20910 I ChinaUploader: nspFileSize6476143
+12-17 19:42:24.773 20894 20910 I ChinaUploader: actionUrl:http://118.194.62.168/dlv2/psrv01/hwdevlogbeta/1/2016/12/17/19/311c0568-9640-4e62-aa1d-e128f37cfb3d.zip
+12-17 19:42:24.773 20894 20910 I ChinaUploader: nspCallbackhttp://logservice.vmall.com/osg/logServerAction!uf.htm?lsId=1481974942524130501&st=8wYDXBHvqwtRIMPzaak0xm8vajH2LtMrgAgGZBSx8Uw%3D&dsKey=3&tblName=17
+12-17 19:42:24.773 20894 20910 I ChinaUploader: nspTs1481974942
+12-17 19:42:24.773 20894 20910 I ChinaUploader: type1
+12-17 19:42:24.774 20894 20910 I ChinaUploader: endPos6476142
+12-17 19:42:24.774 20894 20910 I ChinaUploader: startPos0
+12-17 19:42:24.774 20894 20910 I ChinaUploader: transfLength6476143
+12-17 19:42:24.774 20894 20910 I ChinaUploader: nspContentRange0-4095999/6476143
+12-17 19:42:24.829   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 26
+12-17 19:42:24.830   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:42:24.831   802   802 E Thermal-daemon: [pa_0] temp_new :26  temp_old :25
+12-17 19:42:24.831   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:42:24.831   802   802 E Thermal-daemon: Report temperature: [pa_0] temp :26  report_threshold:1
+12-17 19:42:24.833   802   802 E Thermal-daemon: [charger_ic] temp_new :26  temp_old :25
+12-17 19:42:24.833   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:42:24.833   802   802 E Thermal-daemon: Report temperature: [charger_ic] temp :26  report_threshold:1
+12-17 19:42:24.835   802   802 E Thermal-daemon: [ap] temp_new :27  temp_old :26
+12-17 19:42:24.835   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:42:24.835   802   802 E Thermal-daemon: Report temperature: [ap] temp :27  report_threshold:1
+12-17 19:42:24.892 20894 20910 I ChinaUploader: nspFileMd5ce3ba8e9487367f0a3559157d1018385
+12-17 19:42:24.893 20894 20910 I ChinaUploader: nspFileSize6476143
+12-17 19:42:24.893 20894 20910 I ChinaUploader: key: nsp-callback
+12-17 19:42:24.893 20894 20910 I ChinaUploader: value: http://logservice.vmall.com/osg/logServerAction!uf.htm?lsId=1481974942524130501&st=8wYDXBHvqwtRIMPzaak0xm8vajH2LtMrgAgGZBSx8Uw%3D&dsKey=3&tblName=17
+12-17 19:42:24.893 20894 20910 I ChinaUploader: key: nsp-callback-status
+12-17 19:42:24.893 20894 20910 I ChinaUploader: value: 200
+12-17 19:42:24.893 20894 20910 I ChinaUploader: key: nsp-content-range
+12-17 19:42:24.893 20894 20910 I ChinaUploader: value: 0-4095999/6476143
+12-17 19:42:24.893 20894 20910 I ChinaUploader: key: nsp-file-md5
+12-17 19:42:24.893 20894 20910 I ChinaUploader: value: ce3ba8e9487367f0a3559157d1018385
+12-17 19:42:24.893 20894 20910 I ChinaUploader: key: nsp-file-size
+12-17 19:42:24.893 20894 20910 I ChinaUploader: value: 6476143
+12-17 19:42:24.893 20894 20910 I ChinaUploader: key: nsp-ts
+12-17 19:42:24.893 20894 20910 I ChinaUploader: value: 1481974942
+12-17 19:42:24.893 20894 20910 I ChinaUploader: tmp: nsp-callback=http://logservice.vmall.com/osg/logServerAction!uf.htm?lsId=1481974942524130501&st=8wYDXBHvqwtRIMPzaak0xm8vajH2LtMrgAgGZBSx8Uw%3D&dsKey=3&tblName=17&nsp-callback-status=200&nsp-content-range=0-4095999/6476143&nsp-file-md5=ce3ba8e9487367f0a3559157d1018385&nsp-file-size=6476143&nsp-ts=1481974942
+12-17 19:42:24.893 20894 20910 I ChinaUploader: source: PUT&%2Fdlv2%2Fpsrv01%2Fhwdevlogbeta%2F1%2F2016%2F12%2F17%2F19%2F311c0568-9640-4e62-aa1d-e128f37cfb3d.zip&nsp-callback%3Dhttp%3A%2F%2Flogservice.vmall.com%2Fosg%2FlogServerAction%21uf.htm%3FlsId%3D1481974942524130501%26st%3D8wYDXBHvqwtRIMPzaak0xm8vajH2LtMrgAgGZBSx8Uw%253D%26dsKey%3D3%26tblName%3D17%26nsp-callback-status%3D200%26nsp-content-range%3D0-4095999%2F6476143%26nsp-file-md5%3Dce3ba8e9487367f0a3559157d1018385%26nsp-file-size%3D6476143%26nsp-ts%3D1481974942; token:4e364b730cb4de4a553596b3b7ef800337900bb1
+12-17 19:42:24.893 20894 20910 I ChinaUploader: hash_str: [B@8601213
+12-17 19:42:24.893 20894 20910 I ChinaUploader: nsp_sigplLsUXhUjE4h5tSaVmk2y41zRlw=
+12-17 19:42:24.935 20894 20910 I ChinaUploader: getOutputStream
+12-17 19:42:24.935 20894 20910 I ChinaUploader: skip0
+12-17 19:42:24.978 20894 20910 I ChinaUploader: ds.flush()
+12-17 19:42:24.978 20894 20910 I ChinaUploader: ds.flush() end
+12-17 19:42:24.978 20894 20910 I ChinaUploader: CommonUtils.closeDataOutputStream
+12-17 19:42:24.978 20894 20910 I ChinaUploader:  statusLine before
+12-17 19:42:25.244  1795  1795 I TrafficMonitor: update:rxPkts:67,txPkts:160,rxBytes:8408,txBytes:195796
+12-17 19:42:25.244  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:42:25.244  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:42:26.245  3782 20886 V AudioManager: isMusicActive...
+12-17 19:42:26.246  3782 20886 V AudioManager: isWiredHeadsetOn...
+12-17 19:42:26.334   633 31868 E SDK     : <2016-12-17 19:42:26> [ERR] SDK: UE-SeC 2016-12-17 19:42:26:334 Level[ERR] magic[3365677344 692]:Decoder message type is invalidation;invalidation MMTP_MSG_ENABLE_EXTEND is [36]
+12-17 19:42:26.334   633 31868 E SDK     : 
+12-17 19:42:26.334   633 31868 I SDK     : <2016-12-17 19:42:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:26:334 Level[NOTICE] magic[3365677344 1596]:Process tunnel close request msg!
+12-17 19:42:26.334   633 31868 I SDK     : 
+12-17 19:42:26.335   633 31868 I SDK     : <2016-12-17 19:42:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:26:335 Level[NOTICE] magic[3365677344 2997]:Send tunnel close response msg ok!
+12-17 19:42:26.335   633 31868 I SDK     : 
+12-17 19:42:26.335   633 31868 I SDK     : <2016-12-17 19:42:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:26:335 Level[NOTICE] magic[3365677344 863]:Process close request msg ok!
+12-17 19:42:26.335   633 31868 I SDK     : 
+12-17 19:42:26.335   633 31868 E SDK     : <2016-12-17 19:42:26> [ERR] SDK: UE-SeC 2016-12-17 19:42:26:335 Level[ERR] magic[3365677344 4977]:CMTM_RestoreEnv!
+12-17 19:42:26.335   633 31868 E SDK     : 
+12-17 19:42:26.335   633 31868 I SDK     : <2016-12-17 19:42:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:26:335 Level[NOTICE] magic[3365677344 10364]:Clear bypass session table: [0], bitsmask [0x00000000]
+12-17 19:42:26.335   633 31868 I SDK     : 
+12-17 19:42:26.336   633 31868 I SDK     : <2016-12-17 19:42:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:26:335 Level[NOTICE] magic[3365677344 8910]:Set local private IP is:[0.0.0.0]
+12-17 19:42:26.336   633 31868 I SDK     : 
+12-17 19:42:26.336   633 31868 I SDK     : <2016-12-17 19:42:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:26:336 Level[NOTICE] magic[3365677344 8933]:Set local private port is:[0]
+12-17 19:42:26.336   633 31868 I SDK     : 
+12-17 19:42:26.336   633 31868 I SDK     : <2016-12-17 19:42:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:26:336 Level[NOTICE] magic[3365677344 8044]:Tunnel is offline: tunnel is closed,user is kicked out !
+12-17 19:42:26.336   633 31868 I SDK     : 
+12-17 19:42:26.336   633 31868 E SDK     : <2016-12-17 19:42:26> [ERR] SDK: UE-SeC 2016-12-17 19:42:26:336 Level[ERR] magic[3365677344 223]:L4VPN notify callback :Status[0], ErrorCode[-11]!
+12-17 19:42:26.336   633 31868 E SDK     : 
+12-17 19:42:26.336   633 31868 I SDK     : <2016-12-17 19:42:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:26:336 Level[NOTICE] magic[3365677344 332]:L4VPN notify call reload!
+12-17 19:42:26.336   633 31868 I SDK     : 
+12-17 19:42:26.337   633 31868 I SDK     : <2016-12-17 19:42:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:26:337 Level[NOTICE] magic[3365677344 355]:StatusNotifyCallback: notify user
+12-17 19:42:26.337   633 31868 I SDK     : 
+12-17 19:42:26.337   633 31868 I SDK     : <2016-12-17 19:42:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:26:337 Level[NOTICE] magic[3365677344 725]:Begin to proc tunnel status change: oldStatus=1, newStatus=2, errCode=-11
+12-17 19:42:26.337   633 31868 I SDK     : 
+12-17 19:42:26.338   633 31868 I SDK     : <2016-12-17 19:42:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:26:338 Level[NOTICE] magic[3365677344 394]:L4VPN notify callback sdkey status 0
+12-17 19:42:26.338   633 31868 I SDK     : 
+12-17 19:42:26.339   633 31868 I SDK     : <2016-12-17 19:42:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:26:339 Level[NOTICE] magic[3365677344 1100]:Delete conn in poll,conn type is [1]!
+12-17 19:42:26.339   633 31868 I SDK     : 
+12-17 19:42:26.340   633 31868 I SDK     : <2016-12-17 19:42:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:26:340 Level[NOTICE] magic[3365677344 1100]:Delete conn in poll,conn type is [0]!
+12-17 19:42:26.340   633 31868 I SDK     : 
+12-17 19:42:26.341   633 20914 I SDK     : <2016-12-17 19:42:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:26:340 Level[NOTICE] magic[2523810080 1019]:SDK:net change notify: old=1, new=2, errCode=-11
+12-17 19:42:26.341   633 20914 I SDK     : 
+12-17 19:42:26.341   633 20915 I SDK     : <2016-12-17 19:42:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:26:341 Level[NOTICE] magic[2522765600 745]:the g_ulAnyOfficeL4ResendInterval is 1!
+12-17 19:42:26.341   633 20915 I SDK     : 

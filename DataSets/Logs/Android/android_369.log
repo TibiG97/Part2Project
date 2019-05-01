@@ -1,0 +1,100 @@
+12-17 19:36:02.489  1795  3225 I WindowManager: rotationForOrientationLw(orient=5, last=0); user=0 
+12-17 19:36:02.489  1795  3225 I WindowManager: Application requested orientation 5, got rotation 0 which has compatible metrics
+12-17 19:36:02.503  1795  3225 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:36:02.511  3180  3578 V AudioManager: isMusicActive...
+12-17 19:36:02.511  3180  3578 V AudioManager: isWiredHeadsetOn...
+12-17 19:36:02.513  3180  3578 V AudioManager: isBluetoothScoOn...
+12-17 19:36:02.513  3180  3578 V AudioManager: isBluetoothA2dpOn...
+12-17 19:36:02.529  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:36:02.530  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:36:02.533  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:36:02.536  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:36:02.536  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:36:02.538  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:36:02.538  2852  2852 I StackScroller: setIsExpanded: true
+12-17 19:36:02.538  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:36:02.538  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:36:02.538  2852  2852 W StatusBarWindowManager: Apply window without WALLPAPER
+12-17 19:36:02.538  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:36:02.538  2852  2852 I StatusBarWindowManager: apply skiped :0
+12-17 19:36:02.538  2852  2852 I HwNavigationBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:36:02.538  2852  2852 I PanelView: expand: start
+12-17 19:36:02.538  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:36:02.538  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:36:02.538  2852  2914 I SendBroadcastPermission: action:com.android.systemui.statusbar.visible.change, mPermissionType:0
+12-17 19:36:02.539  1795 17832 W ActivityManager: Sending non-protected broadcast com.android.systemui.statusbar.visible.change from system 2852:com.android.systemui/u0a33 pkg com.android.systemui
+12-17 19:36:02.539  1795 17832 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{506ad58 2852:com.android.systemui/u0a33}, intent:com.android.systemui.statusbar.visible.change, receiver size:1, flags: 10000400
+12-17 19:36:02.539  1795 17832 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{506ad58 2852:com.android.systemui/u0a33}
+12-17 19:36:02.540  1795 17832 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{3f3c3d4 u-1 com.android.systemui.statusbar.visible.change}: prev had 0
+12-17 19:36:02.540  3180  3578 I CommonAdapter: defaultSmsApplication: com.android.mms
+12-17 19:36:02.540  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{3f3c3d4 u-1 com.android.systemui.statusbar.visible.change}, has 1 receivers
+12-17 19:36:02.540  3180  3578 I ScreenLockClean: has active widget app : com.android.gallery3d
+12-17 19:36:02.540  3180  3578 I ScreenLockClean: has active widget app : com.android.mediacenter
+12-17 19:36:02.541  1795 16499 I AwareLog: AwareUserHabit: getForceProtectApps is called
+12-17 19:36:02.541  3180  3578 I AppManager: clean apps: [huawei.w3]
+12-17 19:36:02.541  3180  3578 I AppManager: iAware protect apps: [com.tencent.mm, com.huawei.espacev2, com.android.browser] spend(ms):1
+12-17 19:36:02.541  3180  3578 I AppManager: from iaware protect apps remove history high power apps: [com.android.systemui, com.qiyi.video, com.huawei.health, com.huawei.android.chr]
+12-17 19:36:02.541  3180  3578 I AppManager: remian iaware protect apps: [com.tencent.mm, com.huawei.espacev2, com.android.browser]
+12-17 19:36:02.541  3180  3578 I ScreenLockClean: Screen Off get Clean Apps Num:1 expend time(ms):93
+12-17 19:36:02.541  3180  3578 I ash     : request wakeup pkgs: [huawei.w3] reason: ScnOffClean
+12-17 19:36:02.542  3180  3578 I ash     : huawei.w3 request for ScnOffClean, H to R!
+12-17 19:36:02.542  3180  3578 I ash     : huawei.w3 { hibernation duration=293532 } transition to: running reason:ScnOffClean
+12-17 19:36:02.542  3180  3578 I ash     : clear hibernation actions!
+12-17 19:36:02.542  2852  2914 I PanelBar: INTENT_STATUSBAR_VISIBLE_CHANGE sended, EXTRA_VISIBLE = true
+12-17 19:36:02.543  1795  3253 I PGManagerService: proxyWakeLockByPidUid, pid: 19598, uid: 10103, proxy: false
+12-17 19:36:02.543  1795  3253 D HwPowerManagerService: remove pxy wl, pid: 19598, uid: 10103 from pxy process list.
+12-17 19:36:02.543  3180  3578 I ash     : Unproxy wakelock uid = 10103 pid = 19598
+12-17 19:36:02.543  1795 16500 I WindowManager: Destroying surface Surface(name=NavigationBar) called by com.android.server.wm.WindowStateAnimator.destroySurface:2056 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:907 com.android.server.wm.WindowState.destroyOrSaveSurface:2174 com.android.server.wm.WindowManagerService.tryStartExitingAnimation:3280 com.android.server.wm.WindowManagerService.relayoutWindow:3160 com.android.server.wm.Session.relayout:215 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:136 
+12-17 19:36:02.543 17709 17709 D HwIntelligent3_IntelligentReceiver: onReceive ,intent:Intent { act=com.android.systemui.statusbar.visible.change flg=0x10 cmp=com.huawei.intelligent/.main.receiver.IntelligentReceiver (has extras) }
+12-17 19:36:02.544  1795 15988 D PowerManagerService: acquire lock=242035069, flags=0x1, tag="hibernation", name=com.huawei.powergenie, ws=null, uid=1000, pid=3180
+12-17 19:36:02.544  1795 20747 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{7e9b22a 17709:com.huawei.intelligent/u0a17}, flags: 10000400
+12-17 19:36:02.544  1795 15988 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:36:02.544  1795 15988 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:36:02.544  1795 20747 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{accf072 u0 euid: 0 com.huawei.intelligent/.main.receiver.IntelligentIntentService}, euid: 0
+12-17 19:36:02.547  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:36:02.549  3180  3578 D PgedBinderAdapter: unfrz ok, pid: [19598]
+12-17 19:36:02.549  3180  3578 I PGServer: report state:6 event type:2 pid:0 uid:10103 pkg:huawei.w3 to pid: 1795
+12-17 19:36:02.549  3180  3578 I ash     : Unfreeze huawei.w3 OK !
+12-17 19:36:02.549  1795  2396 D PowerManagerService: release:lock=242035069, flg=0x0, tag="hibernation", name=com.huawei.powergenie", ws=null, uid=1000, pid=3180
+12-17 19:36:02.550  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:36:02.550  1795  2396 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:36:02.550  1795  2396 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:36:02.550  1795 17831 I PGManagerService: proxyBroadcast:[huawei.w3] proxy:false
+12-17 19:36:02.551  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:36:02.551  2852  2852 W HwLockScreenPanel: Handle message: 4
+12-17 19:36:02.551  2852  2852 V KeyguardUpdateMonitor: FingerStat Visible: true; Interactive: false; Switching: false; Bouncer:false; GoingToSleep: false Occluded: false; dreaming: false; Authenticated: false
+12-17 19:36:02.553  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:36:02.553  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:36:02.553  3180  3578 I ash     : unproxy huawei.w3 broadcast OK !
+12-17 19:36:02.553  2852  2852 I KeyguardUpdateMonitor: Ignore update FP: 1 true
+12-17 19:36:02.553  2852  2852 D PhoneStatusBar: disable: < expand ICONS alerts SYSTEM_INFO BACK* HOME* RECENT* clock navigationbar SEARCH* quick_settings >
+12-17 19:36:02.553  2852  2852 W HwLockScreenPanel: Handle message: 10
+12-17 19:36:02.554  1795  3111 D SmartHeartBeat: setAlarmsPending ...
+12-17 19:36:02.554  3180  3578 I ash     : Unpending huawei.w3 alarm OK !
+12-17 19:36:02.555  1795  3249 D GpsFreezeProc: removeFreezeProcess pkg:huawei.w3
+12-17 19:36:02.555  1795  3249 I GnssLocationProvider: setRequest ProviderRequest[OFF]
+12-17 19:36:02.555  1795  3249 I GnssLocationProvider: stopNavigating, mStarted=false
+12-17 19:36:02.555  2852  2852 D MagazineDetailView: resetPagerState
+12-17 19:36:02.555  3180  3578 I ash     : unproxy app:huawei.w3,uid:10103,result:true
+12-17 19:36:02.555  2852  2852 I HwBackDropView: restore param to 0
+12-17 19:36:02.556  2852  2852 I HwBackDropView: checkVisibility : true; true
+12-17 19:36:02.556  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:36:02.556  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=8608 mask=ffffffff oldVal=c0000700 newVal=8608 diff=c0008108
+12-17 19:36:02.556  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:36:02.556  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:36:02.556  1795  3247 D NetdConnector: SND -> {11636 firewall set_uid_rule standby 10103 allow}
+12-17 19:36:02.556  2852  2852 D BarTransitions.HwNavigationBarView: MODE_TRANSLUCENT -> MODE_TRANSPARENT animate=false
+12-17 19:36:02.556  2852  2852 D BarTransitions.HwNavigationBarView: applyModeBackground oldMode=MODE_TRANSLUCENT newMode=MODE_TRANSPARENT animate=false
+12-17 19:36:02.556  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=4, isEmuiStyle=false
+12-17 19:36:02.556  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:36:02.556  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0x8608, SystemUiVisibility=0x8608
+12-17 19:36:02.558 17709 20772 D IntelligentIntentService: eventAction :class com.huawei.intelligent.main.receiver.action.ActionBarPullDownAction
+12-17 19:36:02.561 17709 20772 I HwIntelligent3_IntelligentProvider: Provider.call: getPrefString
+12-17 19:36:02.562 17709 20772 I HwIntelligent3_ActionBarPullDownAction: doAction call reset
+12-17 19:36:02.562 17709 20772 I HwIntelligent3_WorkCommuteManager: resetCommute
+12-17 19:36:02.562 17709 20772 E HwIntelligent3_WorkCommuteManager: no need to reset return
+12-17 19:36:02.562  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:36:02.562  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:36:02.562  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:36:02.563  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:36:02.563  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false

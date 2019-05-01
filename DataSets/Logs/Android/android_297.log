@@ -1,0 +1,100 @@
+12-17 19:34:57.325  3608  3608 D InCall  : GlowPadWrapper - stopPing
+12-17 19:34:57.325  3608  3608 I InCall  : GlowPadAnswerFragment - showVideoAnswerButtonfalsefalse
+12-17 19:34:57.326  1795 11745 I ActivityManager_activity: Moving to PAUSED: ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310} (pause complete)
+12-17 19:34:57.328   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:34:57.330  3180  3332 I ScenarioService: old above launcher pkgs: [com.huawei.espacev2, com.android.incallui] new front:com.huawei.espacev2
+12-17 19:34:57.336  1795  1806 I WindowManger_keyguard: Setting mHideLockScreen to true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:34:57.350  1795  2701 I HwAudioService: isAdjustVolumeEnable,mEnableAdjustVolume:true
+12-17 19:34:57.352  1795 11745 I WindowManager: Taking screenshot from Surface with crop:[Rect(0, 72 - 1080, 1800)], width:[648], height:[1036], minLayer:[21000], maxLayer:[21015], inRotation:[false], rot:[0]
+12-17 19:34:57.364  1795  2701 D HwBootAnimationOeminfo: setBAP src = 7 ,ret = 0 
+12-17 19:34:57.417  1795 11745 I ActivityManager_activity: completedResumed: ActivityRecord{62a5344 u0 com.huawei.espacev2/com.huawei.espace.module.main.ui.MainActivity t370}, launchTrack: activityPaused resumeTopComplete
+12-17 19:34:57.421  3180  3578 D HwMultiWindowEx: isInMultiWindowMode ret: 0
+12-17 19:34:57.421  3180  3578 I BacklightControl: can't adjust backlight when app launch from other scene.
+12-17 19:34:57.422  2883  2992 I HwSystemManager: NotificationGuideService:handle MSG_ACTIVIY_FOREGROUND, uid:10102
+12-17 19:34:57.422  1795  1809 I MultiTaskManagerService: onForegroundActivitiesChanged pid = 633, uid = 10102
+12-17 19:34:57.425  1795 16499 W ActivityManager: getTasks: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:34:57.427  1795 16232 I HwNetworkPolicy: onTransact, code = 203
+12-17 19:34:57.428  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=80000608 mask=ffffffff oldVal=c0000600 newVal=80000608 diff=40000008
+12-17 19:34:57.428  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:34:57.427  2883  3258 I HwNetworkPolicyManager: getHwUidPolicy uid = 10102 policy = 0
+12-17 19:34:57.428  2852  2852 D BarTransitions.HwPhoneStatusBarView: MODE_TRANSLUCENT -> MODE_TRANSPARENT animate=false
+12-17 19:34:57.428  2852  2852 D BarTransitions.HwPhoneStatusBarView: applyModeBackground oldMode=MODE_TRANSLUCENT newMode=MODE_TRANSPARENT animate=false
+12-17 19:34:57.428  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:34:57.428  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=true
+12-17 19:34:57.428  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:34:57.428  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0x80000608, SystemUiVisibility=0x80000608
+12-17 19:34:57.430   633   692 I eSpaceApp: main{1} MainActivity.toChatActivity(MainActivity.java:954) uid | groupId[Activity]:null | null
+12-17 19:34:57.431   633   633 I ActivityManager_activity: Resuming ActivityRecord{3495050 token=android.os.BinderProxy@811c50b {com.huawei.espacev2/com.huawei.espace.module.main.ui.MainActivity}} with isForward=true,forwardBitChanged=true onlyLocalRequest=false
+12-17 19:34:57.451  3608  3608 D InCall  : CallList - EVENT_DISCONNECTED_TIMEOUT [Call_10, IDLE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)]
+12-17 19:34:57.451  3608  3608 D InCall  : InCallPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:34:57.451  3608  3608 D InCall  : InCallPresenter - onCallListChange oldState= NO_CALLS newState=NO_CALLS
+12-17 19:34:57.451  3608  3608 D InCall  : InCallPresenter - mShowRedial is false, mQuickExitFlag is false
+12-17 19:34:57.451  3608  3608 D InCall  : InCallPresenter - onCallListChange newState changed to NO_CALLS
+12-17 19:34:57.452  3608  3608 I InCall  : InCallPresenter - Phone switching state: NO_CALLS -> NO_CALLS
+12-17 19:34:57.452  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.VTCallButtonPresenter@890efc of state NO_CALLS
+12-17 19:34:57.452  3608  3608 I InCall  : VTCallButtonPresenter - onStateChange: newstate is: NO_CALLS
+12-17 19:34:57.453  3608  3608 I InCall  : VTCallButtonFragment - updateAudioButtons - speaker toggle mode
+12-17 19:34:57.454  3608  3608 I InCall  : VTCallButtonPresenter - --- displayDialPad ---false
+12-17 19:34:57.454  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.ProximitySensor@18f03d8 of state NO_CALLS
+12-17 19:34:57.454  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.StatusBarNotifier@98372bb of state NO_CALLS
+12-17 19:34:57.454  3608  3608 D InCall  : StatusBarNotifier - cancelInCall()...
+12-17 19:34:57.454  3608  3608 D InCall  : StatusBarNotifier - updateInCallNotification: timer cleared
+12-17 19:34:57.454  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.VideoPauseController@adc8584 of state NO_CALLS
+12-17 19:34:57.454  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onStateChange, hasPrimaryCallChanged=false canVideoPause=false IsInBackground=false
+12-17 19:34:57.454  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.CallButtonPresenter@f67e3ef of state NO_CALLS
+12-17 19:34:57.454  3608  3608 D InCall  : CallButtonPresenter - onStateChangeInCallButton InCallState:NO_CALLS callList:com.android.incallui.CallList@86c7f97
+12-17 19:34:57.454  3608  3608 D InCall  : CallButtonFragment - Show call button UI: false
+12-17 19:34:57.455  3608  3608 D CallUtils: userSetupComplete = true
+12-17 19:34:57.455  3608  3608 D CallUtils: deviceProvisioned = true
+12-17 19:34:57.455  3608  3608 D InCall  : CallButtonFragment - updateAudioButtons - speaker toggle mode
+12-17 19:34:57.455  3608  3608 D InCall  : CallButtonFragment - audioButtonChecked: false
+12-17 19:34:57.455  3608  3608 D InCall  : CallButtonFragment - showSpeakerphoneOnIcon: false
+12-17 19:34:57.455  3608  3608 D InCall  : CallButtonFragment - updateAudioButtons - disableSupport
+12-17 19:34:57.455  3608  3608 D InCall  : CallButtonFragment - hasCall--audioButtonEnabled: false
+12-17 19:34:57.455  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.CallCardPresenter@2dcf682 of state NO_CALLS
+12-17 19:34:57.455  3608  3608 D InCall  : CallCardPresenter - onStateChange() NO_CALLS
+12-17 19:34:57.456  3608  3608 D InCall  : CallCardPresenter - Canceling the calltime timer
+12-17 19:34:57.456  3608  3608 D HwCustCallCardFragmentImpl: state = 2
+12-17 19:34:57.458  3608  3608 I InCall  : CallCardPresenter - onStateChangeInCallCard InCallState:NO_CALLS
+12-17 19:34:57.458  3608  3608 I InCall  : CallCardPresenter - setCallCardTypeVisible true
+12-17 19:34:57.458  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.VideoCallPresenter@8a5b08b of state NO_CALLS
+12-17 19:34:57.458  3608  3608 I InCall  : VideoCallPresenter - onStateChange oldStateNO_CALLS newState=NO_CALLS isVideoMode=false
+12-17 19:34:57.458  3608  3608 D InCall  : VideoCallFragment - cleanupSurfaces
+12-17 19:34:57.458  3608  3608 D InCall  : VideoCallFragment - sCleanupSurfaces
+12-17 19:34:57.458  3608  3608 I InCall  : VideoCallPresenter - onStateChange primaryChanged=false
+12-17 19:34:57.458  3608  3608 I InCall  : VideoCallPresenter - update mVideoCall
+12-17 19:34:57.458  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.DialpadPresenter@4437bdd of state NO_CALLS
+12-17 19:34:57.458  3608  3608 D InCall  : DialpadPresenter - DialpadPresenter mCall = null
+12-17 19:34:57.459  3608  3608 D InCall  : InCallActivity - showCurrentOperatorInfo
+12-17 19:34:57.462  3608  3608 D InCall  : CallCardFragment - isPresentSub1:true, isPresentSub2:false, presentSubCount:1
+12-17 19:34:57.462  3608  3608 I InCall  : CallList - no active call on sub 0
+12-17 19:34:57.462  3608  3608 I InCall  : CallList - no active call on sub 1
+12-17 19:34:57.462  3608  3608 D InCall  : CallCardFragment - activeSubCount:0 ,activeSub:-1
+12-17 19:34:57.462  3608  3608 I InCall  : CallList - no active call 
+12-17 19:34:57.462  3608  3608 D InCall  : TelecomAdapter - setHoldClickfalse
+12-17 19:34:57.485   633   633 I ActivityManager_activity: Reporting idle of ActivityRecord{3495050 token=android.os.BinderProxy@811c50b {com.huawei.espacev2/com.huawei.espace.module.main.ui.MainActivity}} finished=false
+12-17 19:34:57.485  1795 20747 D PowerManagerService: release:lock=230301592, flg=0x0, tag="*launch*", name=android", ws=WorkSource{10102}, uid=1000, pid=1795
+12-17 19:34:57.486  1795 20747 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.486  1795 20747 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:34:57.488  1795  2377 V HwPackageManagerService: Returning system default Launcher 
+12-17 19:34:57.488  1795  2377 I AwareLog: AwareMem_EventTracker: [APP_ACTIVITY_FINISH_123095103] is abandoned for memory 825700
+12-17 19:34:57.499  1795  1821 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{f940f4f u0 com.huawei.espacev2/com.huawei.espace.module.main.ui.MainActivity},EmuiStyle=0,StatusBarColor=0xff000000,NavigationBarColor=0xff000000, mLastIsEmuiLightStyle=-1
+12-17 19:34:57.500  1795  1809 D HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+12-17 19:34:57.500  2852  2822 I CommandQueue: updateBarBgColor
+12-17 19:34:57.500  2852  2822 D CommandQueue: CommandQueue, setBarBackgroundColor
+12-17 19:34:57.501  2852  2852 I TintManager: updateBarBgColor:emuiStyle=0,statusBarColor=#FF000000,navigationBarColor=#FF000000, isEmuiLight=-1
+12-17 19:34:57.501  2852  2852 I HwPhoneStatusBarTransitions: restoreBackgroundColor:new=1711276032, old=0
+12-17 19:34:57.501  2852  2852 I HwNavigationBarTransitions: restoreBackgroundColor:new=0, old=0
+12-17 19:34:57.502  2852  2852 D TintManager: statusBarIconTint=#B3FFFFFF,navigationBarIconTint=#FF000000
+12-17 19:34:57.506  1795  2371 I huawei_ProximitySensor_CPP_Test: ProximitySensorr readEvents mHasPendingEvent is 1
+12-17 19:34:57.506  1795  2371 E LightSensor: read Events lux: 40.0
+12-17 19:34:57.506  1795  1825 D AutomaticBrightnessController: ambient lux=40.0,timeStamp =443033869522000
+12-17 19:34:57.512  1795  1821 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.5, mControlPoint1y = 0.2, mControlPoint2x = 0.6, mControlPoint2y = 1.0
+12-17 19:34:57.520  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=40000600 mask=ffffffff oldVal=80000608 newVal=40000600 diff=c0000008
+12-17 19:34:57.520  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:34:57.520  2852  2852 D BarTransitions.HwPhoneStatusBarView: MODE_TRANSPARENT -> MODE_TRANSLUCENT animate=false
+12-17 19:34:57.520  2852  2852 D BarTransitions.HwPhoneStatusBarView: applyModeBackground oldMode=MODE_TRANSPARENT newMode=MODE_TRANSLUCENT animate=false
+12-17 19:34:57.520  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_OPAQUE, animate=false
+12-17 19:34:57.521  2852  2852 D BarTransitions.HwNavigationBarView: MODE_TRANSLUCENT -> MODE_OPAQUE animate=false
+12-17 19:34:57.521  2852  2852 D BarTransitions.HwNavigationBarView: applyModeBackground oldMode=MODE_TRANSLUCENT newMode=MODE_OPAQUE animate=false
+12-17 19:34:57.521  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=0, isEmuiStyle=false

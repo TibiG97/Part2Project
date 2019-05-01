@@ -1,0 +1,100 @@
+12-17 19:34:55.920  1795  1825 D Sensors : bh1745-light calling driver enable
+12-17 19:34:55.920  1795  1825 W LightSensor: LightSensor, enable, 283: en=1
+12-17 19:34:55.920  1795  1825 W LightSensor: LightSensor, enable, 284: flags=1
+12-17 19:34:55.920  1795  1825 W LightSensor: LightSensor, enable, 285: mEnabled=0
+12-17 19:34:55.920  1795  1809 I PowerManager_screenOn: finishKeyguardDrawn -> waitForAllWindowsDrawn
+12-17 19:34:55.920  2852  2852 I HwNavigationBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:34:55.921  2852  2852 D TintManager: statusBarIconTint=#B3FFFFFF,navigationBarIconTint=#00000000
+12-17 19:34:55.922  1795  1809 I PowerManager_screenOn: waitForAllWindowsDrawn  cover is open or null
+12-17 19:34:55.922  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_ON
+12-17 19:34:55.923  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:34:55.923  1795  2668 D WifiP2pService: InactiveState143466
+12-17 19:34:55.923  1795  1825 D AutomaticBrightnessController: Enable LightSensor at time:mLightSensorEnableTime=123093540,mLightSensorEnableElapsedTimeNanos=443032283589918
+12-17 19:34:55.923  1795  1825 D AutomaticBrightnessController: mAmbientLuxValid= false,sensor is not ready
+12-17 19:34:55.923  1795  2668 E HwWifiP2pService: Unhandled message when=123093540 what=143466 arg1=0 arg2=0
+12-17 19:34:55.923  1795  1825 D DisplayPowerController: mode change : autoBrightnessEnabled=true,adjustment=0.0,state=2
+12-17 19:34:55.923  1795  2668 D WifiP2pService: P2pEnabledState when=123093540 what=143466 arg1=0 arg2=0
+12-17 19:34:55.923  1795  1825 D HwNormalizedAutomaticBrightnessController: mWakeupFromSleep= true,currentTime=123093540,mLightSensorEnableTime=123093537
+12-17 19:34:55.923  1795  2668 D WifiP2pService: DefaultState{ when=0 what=143466 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:34:55.923  1795  1825 D DisplayPowerController: Animating brightness: target=-1, rate=0
+12-17 19:34:55.923  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:34:55.923  1795  2668 D HwWifiP2pService: cancel alarm.
+12-17 19:34:55.923  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=0
+12-17 19:34:55.923  1795  2750 D PowerManagerService: Setting HAL auto-suspend mode to false
+12-17 19:34:55.923  1795  2750 D PowerManagerService: Setting HAL interactive mode to true
+12-17 19:34:55.923  1795  2750 I QTI PowerHAL: Got set_interactive hint
+12-17 19:34:55.924  1795  2750 D libfingersense_wrapper: Calling fingersense_on_resume()
+12-17 19:34:55.924  1795  2750 D libfingersense_wrapper: fingersense_on_resume() finished
+12-17 19:34:55.924   836  2387 I knuckle_sensor: Sending SAM_ENABLE to fs_data
+12-17 19:34:55.924   612   612 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f9a25b400
+12-17 19:34:55.924   612   612 I SDM     : HWCDisplay::SetPowerMode: display = 0, mode = 2
+12-17 19:34:55.924   612   612 I SDM     : DisplayBase::SetDisplayState: Set state = 1, display 0
+12-17 19:34:55.925  1795  3249 D ActivityManager: setExcludeFromRecents:pkgName=null
+12-17 19:34:55.927   836   928 I knuckle_sensor: Got ENABLE response, status = 0, id = 75
+12-17 19:34:55.929  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:34:55.929  1795  2671 D WifiStateMachine:  ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123093547/443032293 1 0
+12-17 19:34:55.930  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123093547/443032293 1 0
+12-17 19:34:55.930  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SCREEN_STATE_CHANGED  rt=123093547/443032293 1 0
+12-17 19:34:55.930  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SCREEN_STATE_CHANGED  rt=123093547/443032293 1 0
+12-17 19:34:55.930  1795  2671 D WifiStateMachine:  SupplicantStartedState CMD_SCREEN_STATE_CHANGED  rt=123093547/443032293 1 0
+12-17 19:34:55.930  1795  2671 D WifiStateMachine:  DefaultState CMD_SCREEN_STATE_CHANGED  rt=123093547/443032293 1 0
+12-17 19:34:55.930  1795  2671 D WifiStateMachine: handleScreenStateChanged: allow send scan results broadcast.
+12-17 19:34:55.931  1795  2671 W AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConnectivityManager$3@bdcaf7b
+12-17 19:34:55.931  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:34:55.931  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 2, mHwSingleScanCounter: 0
+12-17 19:34:55.931  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 0, mHwSingleScanCounter: 1
+12-17 19:34:55.931  1795  2671 E WifiConnectivityManager: isWifiScanSpecialChannels is false,mWifiState : 1
+12-17 19:34:55.932  1795  2671 I AlarmManager: set(null) : type=2 triggerAtTime=443052295 win=0 tElapsed=443052295 maxElapsed=443052295 interval=0 flags=0x9
+12-17 19:34:55.932  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:34:55.932  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:34:55.932  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_ON mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:34:55.932  1795  1795 D HwConnectivityService: CtrlSocket receive screen on intent!
+12-17 19:34:55.932  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus
+12-17 19:34:55.932  1795  1795 D HwConnectivityService: pid=1000, cmd=100, param=0
+12-17 19:34:55.932  1795  1795 D HwConnectivityService: mFilterMsgFlag: 0,msg.arg1: 3
+12-17 19:34:55.932  1795  1795 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 1000 cmd = 100 param = 0 ret = 0
+12-17 19:34:55.932  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus reset
+12-17 19:34:55.932  1795  2691 D HwConnectivityService: handleFilterMsg action: 3mFilterMsgFlag3
+12-17 19:34:55.932  1795  2691 D HwConnectivityService: [tiger]setBastetFilterInfo action 3pid 1000
+12-17 19:34:55.932  1795  2691 D HwConnectivityService: stopFilter m_filterIsStarted:false
+12-17 19:34:55.933  1795  2680 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SCAN TYPE=ONLY'
+12-17 19:34:55.933  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY'
+12-17 19:34:55.933  5215  5215 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-17 19:34:55.933  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:34:55.933  5215  5215 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-17 19:34:55.933  5215  5215 D wpa_supplicant: OKC-Native: Append OKC IE!
+12-17 19:34:55.933  5215  5215 D wpa_supplicant: OKC-Native: Append done!
+12-17 19:34:55.933  5215  5215 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7fb502f3c0
+12-17 19:34:55.933  5215  5215 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-17 19:34:55.933  5215  5215 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7fb502f3c0 after 0.000035 second wait
+12-17 19:34:55.933  5215  5215 D wpa_supplicant: wlan0: nl80211: scan request
+12-17 19:34:55.933  5215  5215 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-17 19:34:55.933  5215  5215 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=67): 7f 05 00 00 0a 02 01 dd 0f 00 e0 fc 80 00 00 00 01 00 00 00 00 00 00 00 dd 29 00 e0 fc 80 00 00 ...
+12-17 19:34:55.934  5215  5215 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-17 19:34:55.934  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:34:55.934  5215  5215 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+12-17 19:34:55.934  5215  5215 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-17 19:34:55.934  5215  5215 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-17 19:34:55.934  5215  5215 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000096 seconds
+12-17 19:34:55.934  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=24
+12-17 19:34:55.934  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:34:55.934  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:34:55.935  1795  5219 E WifiMonitor: WifiMonitor:wlan0 cnt=31070 dispatchEvent: CTRL-EVENT-SCAN-STARTED 
+12-17 19:34:55.939  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:34:55.939  2852  2852 I StackScrollAlgorithm: overlapAmount:607.0, previousNotificationEnd:463.0, newYTranslation:-144.0, location:2, i:2, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:34:55.939  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:34:55.939  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:34:55.980  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000013000000514f454d484f4f4b1120090003000000080002]
+12-17 19:34:55.980  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 28 bytes data for SUB0
+12-17 19:34:55.980  3382  3399 D QcrilMsgTunnelSocket: Response ID 598033 is not served in this process.
+12-17 19:34:55.980  3382  3399 D QcrilMsgTunnelSocket: To broadcast an Intent via the notifier to external apps
+12-17 19:34:55.980  1046  1046 V ThreadsEx: HDebug print the key vsid
+12-17 19:34:55.980  3382  3382 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+12-17 19:34:55.981  1046  1046 D audio_hw_primary: adev_set_parameters: enter: vsid=297816064;call_state=2;call_type=GSM
+12-17 19:34:55.981  1046  1046 I Huawei_audio_cust: huawei_audio huawei_choose_HandsFree_device_incall_forHWtest: test Type =4
+12-17 19:34:55.981  1046  1046 I Huawei_audio_cust: huawei_audio huawei_choose_Handset_device_incall_forHWtest: test Type =4
+12-17 19:34:55.981  3382  3382 I SendBroadcastPermission: action:com.qualcomm.intent.action.ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW, mPermissionType:0
+12-17 19:34:55.981  1795  3238 D PowerManagerService: acquire lock=247092602, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:34:55.981  1046  1046 I Huawei_audio_cust: get_spk_pa_type: pa is max98925
+12-17 19:34:55.981  1046  1046 I Huawei_audio_cust: huawei_common_set_parameters: exit with code(0)
+12-17 19:34:55.981  1046  1046 V Huawei_audio_cust: huawei_cust_set_parameters: exit with code(0)

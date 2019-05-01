@@ -1,0 +1,100 @@
+12-17 19:55:50.193  1795 16501 I AlarmManager: set(PendingIntent{1df3283: PendingIntentRecord{1be9c00 com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=444556554 win=202498 tElapsed=444556554 maxElapsed=444759052 interval=0 flags=0x8
+12-17 19:55:50.195  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:55:50.196  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:55:50.220  1795 20747 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:50.239  1795  3238 I AlarmManager: remove(PendingIntent{9b09c39: PendingIntentRecord{1be9c00 com.tencent.mm broadcastIntent}}) changed bounds; rebatching
+12-17 19:55:50.247  1795  3253 I AlarmManager: set(PendingIntent{ce2127e: PendingIntentRecord{95873df com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=444556607 win=202497 tElapsed=444556607 maxElapsed=444759104 interval=0 flags=0x8
+12-17 19:55:50.315  1795 11746 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:50.449  1795  1825 D AutomaticBrightnessController: ambient lux=67.0,timeStamp =444286810958000
+12-17 19:55:50.570  4492  4512 W System.err: text not in xml format
+12-17 19:55:50.590  4492  4512 W System.err: text not in xml format
+12-17 19:55:50.628   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 29
+12-17 19:55:50.628   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:55:50.631   802   802 E Thermal-daemon: [charger_ic] temp_new :29  temp_old :28
+12-17 19:55:50.631   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:55:50.631   802   802 E Thermal-daemon: Report temperature: [charger_ic] temp :29  report_threshold:1
+12-17 19:55:50.633   802   802 E Thermal-daemon: [ap] temp_new :29  temp_old :28
+12-17 19:55:50.633   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:55:50.633   802   802 E Thermal-daemon: Report temperature: [ap] temp :29  report_threshold:1
+12-17 19:55:50.640  1795  3237 W ActivityManager: getTasks: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:50.654   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 108TCP_OK
+12-17 19:55:50.655   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 112 bytes [12]_00_03_02_06_0E_05_87_58_E8_59_D3_88 cmdCode(CC_ReqCircleState.0x060E)msgType(MT_ACK.2)msgClass(MC_FriendsCircle.6)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(108)version(3)sno(8758)
+12-17 19:55:50.803  1795 15987 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:50.810  1795 16499 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:50.813  1795  3110 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:50.816  1795  3247 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:51.083   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:55:51.098  1795  2748 D lux trace:: [97.0/123201686, 88.0/123202039, 78.0/123202392, 70.0/123202748, 73.0/123203100, 79.0/123203455, 77.0/123204160, 67.0/123204895, 59.0/123205246]
+12-17 19:55:51.098  1795  2748 D HwAmbientLuxFilterAlgo: t=123205545,BT=123206545,DT=123209545,BT1=123209545,DT1=123213545,Bn=false,Dn=false,lx=[79.0/123204041, 77.0/123204341, 77.0/123204642, 67.0/123204943, 67.0/123205244, 59.0/123205545],mLx=108.0,s=5.0,ss=7.7650914,AuIntervened=false,mProximityState=false,bLux=651.0,dLux=21.279999,bLux1=651.0,dLux1=21.279999
+12-17 19:55:51.104  1795  2377 I AwareLog: AwareMem_EventTracker: [POLLING_TIMEOUT_123205550] is abandoned for memory 844512
+12-17 19:55:51.105  1795  1795 I TrafficMonitor: update:rxPkts:11,txPkts:13,rxBytes:1536,txBytes:1697
+12-17 19:55:51.105  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:55:51.105  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:55:51.146  1795 15982 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:51.148  1795 11745 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:51.151  1795  6988 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:51.153  1795  6986 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:51.162  3879  5007 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=null][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=0] uid =10105 pid =4492
+12-17 19:55:51.164  3879  5007 I HwLauncher: ProviderCallUtils callBadge isCloned = false
+12-17 19:55:51.174  1795  1806 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:51.176  3879  3892 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=[shortcut_c2a01ec39446c2aac387c386c2b27ec2aa40c3a7c289c3bec28b547dc2b0c2a6]][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=32] uid =10105 pid =4492
+12-17 19:55:51.180  3879 11576 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=null][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=0] uid =10105 pid =4492
+12-17 19:55:51.180  3879 11576 I HwLauncher: ProviderCallUtils callBadge isCloned = false
+12-17 19:55:51.189  1795 15988 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:51.192  3879  3894 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=[shortcut_c2a11dc3924dc2a9c382c380c2bc7dc2ad40c3a7c289c3bec28b547dc2b0c2a6]][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=3] uid =10105 pid =4492
+12-17 19:55:51.362  1795  2381 D libfingersense_wrapper: Calling fingersense_classify_touch()
+12-17 19:55:51.369  1795  2381 D libfingersense_wrapper: fingersense_classify_touch() finished
+12-17 19:55:51.371  1795  2380 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123205807, event=2, flags=0x0, uid=1000
+12-17 19:55:51.371  1795  2380 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=2, uid=1000
+12-17 19:55:51.371  1795  2380 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:51.373  2852  2852 I SlideTouchEvent: handleTouchEvent:MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=895.0, y[0]=12.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=123205807, downTime=123205807, deviceId=10, source=0x1002 }
+12-17 19:55:51.373  2852  2852 I PhoneStatusBar: suspendAutohide
+12-17 19:55:51.373  2852  2852 I vol.VolumeDialogControl: C onDismissRequested reason = 2
+12-17 19:55:51.373  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:55:51.373  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:55:51.373  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=4, isEmuiStyle=false
+12-17 19:55:51.374  2852  2852 V DeadZone: consuming errant click: (895.0,12.0)
+12-17 19:55:51.374  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onDismissRequested reason = 2
+12-17 19:55:51.451  1795  2381 D libfingersense_wrapper: Calling fingersense_touch_up()
+12-17 19:55:51.451  1795  2381 D libfingersense_wrapper: fingersense_touch_up() finished
+12-17 19:55:51.454  2852  2852 I SlideTouchEvent: handleTouchEvent:MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=895.0, y[0]=12.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=123205898, downTime=123205807, deviceId=10, source=0x1002 }
+12-17 19:55:51.454  2852  2852 I SlideTouchEvent: vel=0.0, MinimumFlingVelocity=150
+12-17 19:55:51.454  2852  2852 I PhoneStatusBar: resumeSuspendedAutohide
+12-17 19:55:51.454  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:55:51.454  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:55:51.455  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=4, isEmuiStyle=false
+12-17 19:55:51.688  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:55:51.712  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:55:51.716  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 0 mComponentName :ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:55:51.717  3879  4071 I HwLauncher: BadgeContentObserver newBadgeNumber:0,oldBadgeNumber:0 mComponentName : ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:55:51.964  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:55:51.964  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:55:51.982  5215  5215 E wpa_supplicant: RSSI=-44;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:55:51.982  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:55:51.983  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:55:51.984  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-47 "Huawei-Employee"WPA_EAP
+12-17 19:55:51.984  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:55:51.985  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:55:52.001  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=35
+12-17 19:55:52.004  1795  2739 D HuaweiWifiWatchdogStateMachine: LM mrssi=-44
+12-17 19:55:52.004  1795  1795 D WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -44
+12-17 19:55:52.004  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current loss[-45]=0%, volume=86
+12-17 19:55:52.004  1795  1795 I QosMonitor: queryRtt: rtt_type = 3
+12-17 19:55:52.004  1795  1795 I WifiProJNI: ######### GET RTT:3 ########
+12-17 19:55:52.004  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=7
+12-17 19:55:52.004  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history loss[-45]=0.02%, volume=189681
+12-17 19:55:52.005  1795  2737 D WifiProJNI: Received kernel message payload: event 4
+12-17 19:55:52.005  1795  2739 I HuaweiWifiWatchdogStateMachine: spd good count:0, add sc:0.0, rate:1.0
+12-17 19:55:52.005  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=9
+12-17 19:55:52.005  1795  2739 I HuaweiWifiWatchdogStateMachine: current mHighDataFlowRate = 1.0
+12-17 19:55:52.005  1795  2739 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 86, 0. Lr =0% Totpkt=86
+12-17 19:55:52.005  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:55:52.005  1795  1795 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current RTT[-45]=320, volume=22
+12-17 19:55:52.005  1795  1795 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history RTT[-45]=392, volume=44076
+12-17 19:55:52.005  1795  1795 D HuaweiWifiWatchdogStateMachine: setSampleRtt: rtt=320,rtt_pkts =22,rtt_when=1
+12-17 19:55:52.005  1795  1795 I WifiProJNI: ######### CMD_QUERY_PKTS ########
+12-17 19:55:52.005  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=1
+12-17 19:55:52.006  1795  1795 I QosMonitor: resetRtt: rtt_type = 3
+12-17 19:55:52.006  1795  1795 I WifiProJNI: ######### RESET RTT:3 ########
+12-17 19:55:52.006  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=6
+12-17 19:55:52.006  1795  2737 D WifiProJNI: Received kernel message payload: event 0

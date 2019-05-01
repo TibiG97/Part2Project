@@ -1,0 +1,100 @@
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 353, boot = -240, init = 241, finish = 352
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 330, boot = -103, init = 104, finish = 329
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 446, boot = -223, init = 236, finish = 433
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 472, boot = -222, init = 244, finish = 450
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 444, boot = -107, init = 123, finish = 428
+17/02/01 22:53:38 INFO executor.Executor: Finished task 462.0 in stage 187.0 (TID 29019). 1712 bytes result sent to driver
+17/02/01 22:53:38 INFO executor.Executor: Finished task 463.0 in stage 187.0 (TID 29020). 1712 bytes result sent to driver
+17/02/01 22:53:38 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 29043
+17/02/01 22:53:38 INFO executor.Executor: Running task 474.0 in stage 187.0 (TID 29043)
+17/02/01 22:53:38 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 29045
+17/02/01 22:53:38 INFO executor.Executor: Running task 475.0 in stage 187.0 (TID 29045)
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 472, boot = -134, init = 155, finish = 451
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 522, boot = -120, init = 131, finish = 511
+17/02/01 22:53:38 INFO executor.Executor: Finished task 465.0 in stage 187.0 (TID 29026). 1712 bytes result sent to driver
+17/02/01 22:53:38 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 29048
+17/02/01 22:53:38 INFO executor.Executor: Running task 476.0 in stage 187.0 (TID 29048)
+17/02/01 22:53:38 INFO executor.Executor: Finished task 466.0 in stage 187.0 (TID 29028). 1712 bytes result sent to driver
+17/02/01 22:53:38 INFO executor.Executor: Finished task 464.0 in stage 187.0 (TID 29025). 1712 bytes result sent to driver
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 524, boot = -106, init = 130, finish = 500
+17/02/01 22:53:38 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 29050
+17/02/01 22:53:38 INFO executor.Executor: Running task 477.0 in stage 187.0 (TID 29050)
+17/02/01 22:53:38 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 29051
+17/02/01 22:53:38 INFO executor.Executor: Running task 478.0 in stage 187.0 (TID 29051)
+17/02/01 22:53:38 INFO executor.Executor: Finished task 467.0 in stage 187.0 (TID 29029). 1712 bytes result sent to driver
+17/02/01 22:53:38 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 29058
+17/02/01 22:53:38 INFO executor.Executor: Running task 479.0 in stage 187.0 (TID 29058)
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 290, boot = -247, init = 248, finish = 289
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 321, boot = -258, init = 259, finish = 320
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 322, boot = -185, init = 186, finish = 321
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 309, boot = -156, init = 157, finish = 308
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 326, boot = -159, init = 160, finish = 325
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 491, boot = -169, init = 183, finish = 477
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 554, boot = -228, init = 252, finish = 530
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 415, boot = -133, init = 134, finish = 414
+17/02/01 22:53:38 INFO executor.Executor: Finished task 476.0 in stage 187.0 (TID 29048). 1712 bytes result sent to driver
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 493, boot = -80, init = 99, finish = 474
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 594, boot = -165, init = 191, finish = 568
+17/02/01 22:53:38 INFO executor.Executor: Finished task 474.0 in stage 187.0 (TID 29043). 1712 bytes result sent to driver
+17/02/01 22:53:38 INFO python.PythonRunner: Times: total = 538, boot = -133, init = 154, finish = 517
+17/02/01 22:53:38 INFO executor.Executor: Finished task 475.0 in stage 187.0 (TID 29045). 1712 bytes result sent to driver
+17/02/01 22:53:38 INFO executor.Executor: Finished task 478.0 in stage 187.0 (TID 29051). 1712 bytes result sent to driver
+17/02/01 22:53:38 INFO executor.Executor: Finished task 477.0 in stage 187.0 (TID 29050). 1712 bytes result sent to driver
+17/02/01 22:53:39 INFO python.PythonRunner: Times: total = 603, boot = -87, init = 109, finish = 581
+17/02/01 22:53:39 INFO executor.Executor: Finished task 479.0 in stage 187.0 (TID 29058). 1712 bytes result sent to driver
+17/02/01 22:57:11 INFO storage.BlockManager: Removing RDD 302
+17/02/01 22:57:11 INFO storage.BlockManager: Removing RDD 303
+17/02/01 23:08:00 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 34696
+17/02/01 23:08:00 INFO executor.Executor: Running task 930.0 in stage 218.0 (TID 34696)
+17/02/01 23:08:00 INFO spark.MapOutputTrackerWorker: Updating epoch to 65 and clearing cache
+17/02/01 23:08:00 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 70
+17/02/01 23:08:00 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 34698
+17/02/01 23:08:00 INFO executor.Executor: Running task 932.0 in stage 218.0 (TID 34698)
+17/02/01 23:08:00 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 34700
+17/02/01 23:08:00 INFO executor.Executor: Running task 934.0 in stage 218.0 (TID 34700)
+17/02/01 23:08:00 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 34702
+17/02/01 23:08:00 INFO executor.Executor: Running task 936.0 in stage 218.0 (TID 34702)
+17/02/01 23:08:00 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 34704
+17/02/01 23:08:00 INFO storage.MemoryStore: Block broadcast_70_piece0 stored as bytes in memory (estimated size 6.1 KB, free 6.5 KB)
+17/02/01 23:08:00 INFO executor.Executor: Running task 938.0 in stage 218.0 (TID 34704)
+17/02/01 23:08:00 INFO broadcast.TorrentBroadcast: Reading broadcast variable 70 took 30 ms
+17/02/01 23:08:00 INFO storage.MemoryStore: Block broadcast_70 stored as values in memory (estimated size 11.3 KB, free 17.8 KB)
+17/02/01 23:08:00 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 34706
+17/02/01 23:08:00 INFO executor.Executor: Running task 940.0 in stage 218.0 (TID 34706)
+17/02/01 23:08:01 INFO python.PythonRunner: Times: total = 320, boot = 4, init = 1, finish = 315
+17/02/01 23:08:01 INFO python.PythonRunner: Times: total = 319, boot = 8, init = 2, finish = 309
+17/02/01 23:08:01 INFO python.PythonRunner: Times: total = 338, boot = 11, init = 2, finish = 325
+17/02/01 23:08:01 INFO python.PythonRunner: Times: total = 345, boot = 16, init = 1, finish = 328
+17/02/01 23:08:01 INFO python.PythonRunner: Times: total = 350, boot = 19, init = 2, finish = 329
+17/02/01 23:08:01 INFO python.PythonRunner: Times: total = 357, boot = 4, init = 2, finish = 351
+17/02/01 23:08:01 INFO python.PythonRunner: Times: total = 484, boot = 9, init = 7, finish = 468
+17/02/01 23:08:01 INFO python.PythonRunner: Times: total = 499, boot = 4, init = 16, finish = 479
+17/02/01 23:08:01 INFO python.PythonRunner: Times: total = 498, boot = 7, init = 14, finish = 477
+17/02/01 23:08:01 INFO python.PythonRunner: Times: total = 515, boot = 4, init = 16, finish = 495
+17/02/01 23:08:01 INFO python.PythonRunner: Times: total = 630, boot = 5, init = 15, finish = 610
+17/02/01 23:08:01 INFO python.PythonRunner: Times: total = 644, boot = 6, init = 15, finish = 623
+17/02/01 23:08:01 INFO executor.Executor: Finished task 934.0 in stage 218.0 (TID 34700). 2194 bytes result sent to driver
+17/02/01 23:08:01 INFO executor.Executor: Finished task 930.0 in stage 218.0 (TID 34696). 2194 bytes result sent to driver
+17/02/01 23:08:01 INFO executor.Executor: Finished task 932.0 in stage 218.0 (TID 34698). 2194 bytes result sent to driver
+17/02/01 23:08:01 INFO executor.Executor: Finished task 938.0 in stage 218.0 (TID 34704). 2194 bytes result sent to driver
+17/02/01 23:08:01 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 34721
+17/02/01 23:08:01 INFO executor.Executor: Running task 942.0 in stage 218.0 (TID 34721)
+17/02/01 23:08:01 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 34722
+17/02/01 23:08:01 INFO executor.Executor: Running task 943.0 in stage 218.0 (TID 34722)
+17/02/01 23:08:01 INFO executor.Executor: Finished task 940.0 in stage 218.0 (TID 34706). 2194 bytes result sent to driver
+17/02/01 23:08:01 INFO executor.Executor: Finished task 936.0 in stage 218.0 (TID 34702). 2194 bytes result sent to driver
+17/02/01 23:08:01 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 34723
+17/02/01 23:08:01 INFO executor.Executor: Running task 944.0 in stage 218.0 (TID 34723)
+17/02/01 23:08:01 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 34724
+17/02/01 23:08:01 INFO executor.Executor: Running task 945.0 in stage 218.0 (TID 34724)
+17/02/01 23:08:01 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 34726
+17/02/01 23:08:01 INFO executor.Executor: Running task 946.0 in stage 218.0 (TID 34726)
+17/02/01 23:08:01 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 34727
+17/02/01 23:08:01 INFO executor.Executor: Running task 947.0 in stage 218.0 (TID 34727)
+17/02/01 23:08:02 INFO python.PythonRunner: Times: total = 267, boot = -436, init = 436, finish = 267
+17/02/01 23:08:02 INFO python.PythonRunner: Times: total = 261, boot = -427, init = 428, finish = 260
+17/02/01 23:08:02 INFO python.PythonRunner: Times: total = 282, boot = -427, init = 428, finish = 281
+17/02/01 23:08:02 INFO python.PythonRunner: Times: total = 354, boot = -430, init = 430, finish = 354
+17/02/01 23:08:02 INFO python.PythonRunner: Times: total = 333, boot = -270, init = 271, finish = 332
+17/02/01 23:08:02 INFO python.PythonRunner: Times: total = 331, boot = -252, init = 253, finish = 330
+17/02/01 23:08:02 INFO python.PythonRunner: Times: total = 437, boot = -275, init = 291, finish = 421

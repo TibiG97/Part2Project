@@ -1,0 +1,100 @@
+12-17 19:32:23.803  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:04:41;freq=2472;level=-88;flags=11;ssid=Huawei-Employee;
+12-17 19:32:23.803  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f4:60;freq=2472;level=-95;flags=11;ssid=wlanaccessv2.0;
+12-17 19:32:23.803  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3679
+12-17 19:32:23.804  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = true, mIsPreScrnOn = false, mScrnSwitchTime = 1481974328222, occurTime = 1481974343801, delta = 15579, mScrnOffAccTime = 1746545, mScrnOnAccTime = 117260
+12-17 19:32:23.804  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1762124, mScrnOffAccTime = 1762124, mScrnOnAccTime = 117260
+12-17 19:32:23.806  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=468- MASK=0x3029d87'
+12-17 19:32:23.806  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:19:61;freq=2432;level=-73;flags=11;ssid=Huawei-Employee;
+12-17 19:32:23.806  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:36:e1;freq=2452;level=-88;flags=11;ssid=Huawei-Employee;
+12-17 19:32:23.806  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:1d:81;freq=2472;level=-88;flags=11;ssid=Huawei-Employee;
+12-17 19:32:23.806  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:22:20;freq=2432;level=-89;flags=11;ssid=wlanaccessv2.0;
+12-17 19:32:23.807  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:36:80;freq=2472;level=-91;flags=11;ssid=wlanaccessv2.0;
+12-17 19:32:23.807  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:37:20;freq=2412;level=-92;flags=11;ssid=wlanaccessv2.0;
+12-17 19:32:23.807  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:29:e0;freq=2452;level=-73;flags=11;ssid=wlanaccessv2.0;
+12-17 19:32:23.807  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3670
+12-17 19:32:23.807  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:32:23.808  3626  3626 I iMonitor: create: 903001010
+12-17 19:32:23.808  1795  1809 I qti_sensors_hal: read from oem info: data_readback
+12-17 19:32:23.808  1795  1809 I qti_sensors_hal: 0xcd, 0xb0, 0x24, 0x3e
+12-17 19:32:23.808  1795  1809 I qti_sensors_hal: 0x66, 0xca, 0x3c, 0x3e
+12-17 19:32:23.808  1795  1809 I qti_sensors_hal: 0xc0, 0x2a, 0x7c, 0x3f
+12-17 19:32:23.808  1795  1809 I qti_sensors_hal: 0x55, 0x0, 0x0, 0x0
+12-17 19:32:23.808  1795  1809 I qti_sensors_hal: 0x0, 0x0, 0x0, 0x0
+12-17 19:32:23.808  1795  1809 E qti_sensors_hal: read from oem info: data_valid_flag=0x55
+12-17 19:32:23.808  1795  1809 E qti_sensors_hal: read from oem info: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:32:23.808  1795  1809 E qti_sensors_hal: Final value: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:32:23.808  1795  1809 I qti_sensors_hal: batch:load_acc_oeminf_data x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:23.808  1795  1809 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) sample_rate=14.999925Hz report_rate_f=0.000000Hz curr sample rate:5.000000 cur rpt rate:0 max:400.000000 min:1.000000
+12-17 19:32:23.809  5224  5224 I Step_LSC: 20002302|logicalDealBroadcastEvent : Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+12-17 19:32:23.810  3626  3626 I iMonitor: send: 903001010
+12-17 19:32:23.810   818  1152 I logserver: handle_exception_events enter
+12-17 19:32:23.811  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:32:23.811  1795  1809 I qti_sensors_hal: flush,395,handle 0
+12-17 19:32:23.811  1795  1809 I qti_sensors_hal: flush,260 handle 0
+12-17 19:32:23.811  1795  1809 I WindowManager: Finished screen turning on...
+12-17 19:32:23.812  1795  1825 I PowerManager_screenOn: DisplayPowerController Unblocked screen on after 488 ms
+12-17 19:32:23.812  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:32:23.812  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=1.0
+12-17 19:32:23.812  5224  5283 I Step_LSC: 20002302| ## MSG_DEAL_SYSTEM_EVENT android.intent.action.SCREEN_ON
+12-17 19:32:23.813  1795  1825 D DisplayPowerController: Animating brightness: target=24, rate=40
+12-17 19:32:23.813  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=941
+12-17 19:32:23.813  5224  5283 I Step_StandStepCounter: 20002302|flush sensor data
+12-17 19:32:23.813  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:32:23.813  1795  2750 I HwLightsService: back light level before map = 941
+12-17 19:32:23.813  1795  1825 D DisplayPowerController: Animating brightness: target=24, rate=40
+12-17 19:32:23.813  1795  1825 V KeyguardServiceDelegate: onScreenTurnedOn()
+12-17 19:32:23.813  1795  1825 I WindowManger_keyguard: onScreenTurnedOn()
+12-17 19:32:23.813  1795  1825 D DisplayPowerController: Display ready!
+12-17 19:32:23.813  1795  1825 D DisplayPowerController: Finished business...
+12-17 19:32:23.813  1795  6985 I qti_sensors_hal: flush,395,handle 49
+12-17 19:32:23.813  1795  6985 I qti_sensors_hal: flush:sensor(android.sensor.step_counter) handle:49
+12-17 19:32:23.813  2852  3328 D KeyguardService: Caller checkPermission fail
+12-17 19:32:23.813  2852  3328 D KeyguardService: KGSvcCall onScreenTurnedOn.
+12-17 19:32:23.813  2852  3328 D KeyguardViewMediator: notifyScreenTurnedOn
+12-17 19:32:23.814   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:32:23.814   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:32:23.814  5224  5283 I Step_LSC: 20002302|REPORT : 4186 89506 2985 0
+12-17 19:32:23.814  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOn
+12-17 19:32:23.814  2852  2852 I PhoneStatusBar: onScreenTurnedOn
+12-17 19:32:23.814  2852  2852 D KGWallpaper_Magazine: getNextIndex: 0; from 5 to 5; size: 44
+12-17 19:32:23.814  2852  2852 I HwLockScreenReporter: report msg is :{picture: Deepwater-05-2.3.001-bigpicture_05_8.jpg}
+12-17 19:32:23.814  2852  2852 W HwLockScreenReporter: report result = falsereport type:162 msg:{picture: Deepwater-05-2.3.001-bigpicture_05_8.jpg, channelId: 05}
+12-17 19:32:23.814  2852  2852 I OucScreenOnCounter: Screen already turned on at: 1481974212
+12-17 19:32:23.814  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:32:23.814  1795  1825 D FpDataCollector: case xxx, not a fingerprint unlock 
+12-17 19:32:23.814  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:32:23.814  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:32:23.814  1795  1825 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:23.814  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeFinished mInteractiveChanging=true, mInteractive=true
+12-17 19:32:23.818  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=475- MASK=0x3029d87'
+12-17 19:32:23.818   802   802 E Thermal-daemon: [ap] temp_new :27  temp_old :28
+12-17 19:32:23.818  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:fa:e1;freq=2412;level=-79;flags=11;ssid=Huawei-Employee;
+12-17 19:32:23.818  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:34:a0;freq=2472;level=-81;flags=11;ssid=wlanaccessv2.0;
+12-17 19:32:23.818   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:32:23.818   802   802 E Thermal-daemon: Report temperature: [ap] temp :27  report_threshold:1
+12-17 19:32:23.818  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:36:e0;freq=2452;level=-82;flags=11;ssid=wlanaccessv2.0;
+12-17 19:32:23.818  5215  5215 E wpa_supplicant: bssid=80:38:bc:06:d2:ab;freq=2412;level=-85;flags=11;ssid=;
+12-17 19:32:23.818  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f2:00;freq=2452;level=-77;flags=11;ssid=wlanaccessv2.0;
+12-17 19:32:23.819  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:31:e1;freq=2412;level=-87;flags=11;ssid=Huawei-Employee;
+12-17 19:32:23.819  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:81;freq=2412;level=-88;flags=11;ssid=Huawei-Employee;
+12-17 19:32:23.819  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3614
+12-17 19:32:23.819  2852  2852 I HwBrightnessUtils: APS brightness=23.0,ConvertToPercentage=0.23837823
+12-17 19:32:23.819  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=468- MASK=0x3029d87'
+12-17 19:32:23.819  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:23 percentage:0.23837823
+12-17 19:32:23.820  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:2384
+12-17 19:32:23.820  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:2384
+12-17 19:32:23.820  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:19:61;freq=2432;level=-73;flags=11;ssid=Huawei-Employee;
+12-17 19:32:23.820  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2384 fromUser:false
+12-17 19:32:23.820  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2384 fromUser:false
+12-17 19:32:23.820  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:36:e1;freq=2452;level=-88;flags=11;ssid=Huawei-Employee;
+12-17 19:32:23.820  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:1d:81;freq=2472;level=-88;flags=11;ssid=Huawei-Employee;
+12-17 19:32:23.820  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:22:20;freq=2432;level=-89;flags=11;ssid=wlanaccessv2.0;
+12-17 19:32:23.820  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:36:80;freq=2472;level=-91;flags=11;ssid=wlanaccessv2.0;
+12-17 19:32:23.820  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:23.820  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:37:20;freq=2412;level=-92;flags=11;ssid=wlanaccessv2.0;
+12-17 19:32:23.821  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:29:e0;freq=2452;level=-73;flags=11;ssid=wlanaccessv2.0;
+12-17 19:32:23.821  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3670
+12-17 19:32:23.821  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:32:23.822  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=482- MASK=0x3029d87'
+12-17 19:32:23.822  5215  5215 E wpa_supplicant: bssid=18:c5:8a:1a:4d:21;freq=2472;level=-91;flags=11;ssid=Huawei-Employee;
+12-17 19:32:23.822  5215  5215 E wpa_supplicant: bssid=8c:a6:df:4a:8c:e2;freq=2462;level=-93;flags=11;ssid=IOT-HUAWEI;

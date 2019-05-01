@@ -1,0 +1,100 @@
+12-17 19:33:00.856 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:33:00.857   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:33:00.858  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 442917220459964 10102}
+12-17 19:33:00.859  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 442917220459964 10102}
+12-17 19:33:00.860   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:33:00.860   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:33:00.860  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass active 1 442917220459964 10102
+12-17 19:33:00.861  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:33:00.861  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:33:00.861  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:33:00.861  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:33:00.861  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:33:00.862   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:00.862   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:00.862   606  2379 E libteec : send data return = 128
+12-17 19:33:00.862   835  2385 E libteec : receive data len = 128
+12-17 19:33:00.862   835  2385 E libteec : begin
+12-17 19:33:00.862   835  2385 E libteec : qsc_decode end
+12-17 19:33:00.862  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:33:00.862   835  2385 D fpc_fingerprint_hal: worker idle
+12-17 19:33:00.862  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:33:00.862   835   835 E libteec : begin
+12-17 19:33:00.862   606  2379 E libteec : receive data len = 128
+12-17 19:33:00.863  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:00.865  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:33:00.865  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:33:00.865  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:33:00.865  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:00.865   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:00.866   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:00.866   606  2379 E libteec : send data return = 128
+12-17 19:33:00.866   835   835 E libteec : receive data len = 128
+12-17 19:33:00.866   835   835 E libteec : begin
+12-17 19:33:00.866   835   835 E libteec : qsc_decode end
+12-17 19:33:00.866   835   835 D fpc_fingerprint_hal: fpc_get_authenticator_id id 14657234628792947271
+12-17 19:33:00.866  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:00.866  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:33:00.866   835  2385 E libteec : begin
+12-17 19:33:00.866  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:33:00.866  1795  2326 V FingerprintService: startAuthentication(com.android.systemui)
+12-17 19:33:00.866  1795  2326 V FingerprintService: starting client AuthenticationClient(com.android.systemui), initiatedByClient = true)
+12-17 19:33:00.866   606  2379 E libteec : receive data len = 128
+12-17 19:33:00.867  2852  2852 I NotificationContentView: transferRemoteInputFocus: 1
+12-17 19:33:00.867   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:1
+12-17 19:33:00.867   835   835 V fingerprintd: authenticate(sid=0, gid=0)
+12-17 19:33:00.867   816 20417 D DnsProxyListener: GetAddrInfoHandler addr: uc.huawei.com {304, 917808, 10102} 172.30.70.63
+12-17 19:33:00.867  3218  3439 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:33:00.867  3218  3439 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:33:00.868 31949 31967 I ECS     : WatchThread{4786} TcpClient.disconnect_i(TcpClient.java:202) ==================== TCP CLIENT DISCONNECT ====================
+12-17 19:33:00.868  2852  2852 I HwExpandableNotificationRowHelper: unclear notification ,notificationPkgName:com.android.incallui key:0|com.android.incallui|2|null|1001
+12-17 19:33:00.868  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:33:00.868  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:33:00.869  1795  3111 I AlarmManager: remove(PendingIntent{e101375: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) changed bounds; rebatching
+12-17 19:33:00.870 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.disconnectSocket(TcpClientThread.java:369) disconnecting to uc.huawei.com:7801
+12-17 19:33:00.870  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)) important=2, post=1481974380818, when=1481531589202, vis=0, userid=0
+12-17 19:33:00.871 31949 31967 I TCP     : WatchThread{4786} TcpSocket.close(TcpSocket.java:158) shutdown output: java.net.SocketException: Socket is closed
+12-17 19:33:00.871  1795  3225 I AlarmManager: set(PendingIntent{4441f0a: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) : type=0 triggerAtTime=1481974680871 win=0 tElapsed=443217235 maxElapsed=443217235 interval=300000 flags=0x1
+12-17 19:33:00.872 31949 31967 I TCP     : WatchThread{4786} TcpSocket.close(TcpSocket.java:170) shutdown input: java.net.SocketException: Socket is closed
+12-17 19:33:00.873 31949 31967 W TCP     : tcp.recv{4790} TcpSocket.read(TcpSocket.java:242) <<< WARN(5) >>> java.net.SocketException: Socket closed
+12-17 19:33:00.874 31949 31967 E TCP     : tcp.recv{4790} TcpClientThread.readSocket(TcpClientThread.java:452) <<< ERROR(6) >>> socket read length failure -104
+12-17 19:33:00.875 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.closeSocket(TcpClientThread.java:396) closed socket.
+12-17 19:33:00.876 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_ON
+12-17 19:33:00.876 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:314) disconnected
+12-17 19:33:00.878 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.connect(TcpCirChannel.java:219) Connect to server  address = [uc.huawei.com,]  port = 7801
+12-17 19:33:00.878   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:00.878   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:00.878   606  2379 E libteec : send data return = 128
+12-17 19:33:00.879 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:33:00.879   835  2385 E libteec : receive data len = 128
+12-17 19:33:00.879   835  2385 E libteec : begin
+12-17 19:33:00.879   835  2385 E libteec : qsc_decode end
+12-17 19:33:00.879   835  2385 D fpc_fingerprint_hal: worker idle
+12-17 19:33:00.879   835  2385 D fpc_fingerprint_hal: workerFunction STATE_AUTHENTICATE
+12-17 19:33:00.879   835  2385 E libteec : begin
+12-17 19:33:00.879  1795  2326 W FingerprintService: client com.android.systemui is authenticating...
+12-17 19:33:00.879   606  2379 E libteec : receive data len = 128
+12-17 19:33:00.880 31949 31967 I ECS     : WatchThread{4786} TcpClient.connect(TcpClient.java:162) ==================== TCP CLIENT CONNECT [2] ====================
+12-17 19:33:00.881 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.connect(TcpClientThread.java:52) will connect to uc.huawei.com:7801
+12-17 19:33:00.882 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:349) connecting max 30000ms to uc.huawei.com:7801
+12-17 19:33:00.883   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:00.883   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:00.883   606  2379 E libteec : send data return = 128
+12-17 19:33:00.883   835  2385 E libteec : receive data len = 128
+12-17 19:33:00.883   835  2385 E libteec : begin
+12-17 19:33:00.883   835  2385 E libteec : qsc_decode end
+12-17 19:33:00.883   835  2385 I fpc_tac : fpc_tac_send_get_indices_cmd indices:0x7f9860c000, index_count:1
+12-17 19:33:00.883 31949 31985 I PushService: connect :true
+12-17 19:33:00.883   835  2385 E libteec : begin
+12-17 19:33:00.883 31949 31967 I TCP     : tcp.conn{4787} TcpSocket.connect_i(TcpSocket.java:84) connecting to ip address uc.huawei.com/172.30.70.63
+12-17 19:33:00.883   606  2379 E libteec : receive data len = 1152
+12-17 19:33:00.885  2852  2852 D StatusBar: updateNotification(StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)))
+12-17 19:33:00.885  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:00.885 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:292) connected
+12-17 19:33:00.886  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:33:00.886   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:00.886 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:360) notify user tcp connected successully at 36835 to uc.huawei.com:7801
+12-17 19:33:00.887   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:00.887   606  2379 E libteec : send data return = 1152
+12-17 19:33:00.887   835  2385 E libteec : receive data len = 1152
+12-17 19:33:00.887   835  2385 E libteec : begin

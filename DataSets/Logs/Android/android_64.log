@@ -1,0 +1,100 @@
+12-17 19:31:48.854  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:31:48.854  1795  1795 I WifiProJNI: ######### CMD_QUERY_PKTS ########
+12-17 19:31:48.855  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=1
+12-17 19:31:48.855  1795  2737 D WifiProJNI: Received kernel message payload: event 0
+12-17 19:31:48.855  1795  1795 D HuaweiWifiWatchdogStateMachine: setSampleRtt: unvalid rtt
+12-17 19:31:48.855  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=9
+12-17 19:31:48.855  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:31:48.856  1795  1795 I MQoS    : rtt=250,tcp_tx_pkts=1480287,tcp_rx_pkts=1768498
+12-17 19:31:48.857  1795  2739 D HuaweiWifiWatchdogStateMachine: dumpTcpResult: len=9,rtt=250,rttPkt=6,rttWn=65,cgt=0,cgtWn=0
+12-17 19:31:48.858  1795  2739 I HuaweiWifiWatchdogStateMachine: PTcp RTT:0, rtt pkt=0, tcp_rx=0, tcp_tx=0, tcp_reTran=0, rtRate=0
+12-17 19:31:48.858  1795  2739 D HuaweiWifiWatchdogStateMachine: mRssiBadCount =0, RSSI not bad.
+12-17 19:31:48.858  1795  5350 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+12-17 19:31:48.858  1795  2739 D HuaweiWifiWatchdogStateMachine: detectNetworkAvailable:hw.wifipro.dns_fail_count = 1001
+12-17 19:31:48.858  1795  2739 I HuaweiWifiWatchdogStateMachine: rs ota tcp lr rttvb bad: false, false, false, false, false; rsth:-75
+12-17 19:31:48.858  1795  2739 D HuaweiWifiWatchdogStateMachine: GSC:0, GSR:1.0, RSR:1.0, RTH:-75
+12-17 19:31:48.858  1795  2739 D HuaweiWifiWatchdogStateMachine: bqeLevel = 0 rtt=0,rtt_pkts=0 speed=914 rssi=-56
+12-17 19:31:48.859  1795  2739 I HuaweiWifiWatchdogStateMachine:  pkt chk not bad, reset sc to 0.
+12-17 19:31:48.859  1795  2739 D HuaweiWifiWatchdogStateMachine: ### mPktChkBadCnt=0
+12-17 19:31:48.903  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:48.979  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:49.091  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:31:49.091  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:31:49.091  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:31:49.111  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:49.369  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:49.406  1795  1819 I EventHub: monitor check touch devices
+12-17 19:31:49.407  1795  1819 I EventHub: EventHub monitor: no key events in the past 725s, no motion events in the past 64s
+12-17 19:31:49.408  1795  1819 I InputDispatcher: InputDispatcher::monitor frozen check!
+12-17 19:31:49.408  1795  1819 I InputDispatcher: frozenCheckLocked mDispatchFrozen=0 mNextUnblockedEvent=0
+12-17 19:31:49.762  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:49.800   633 31867 I SDK     : <2016-12-17 19:31:49> [NOTICE] SDK: UE-SeC 2016-12-17 19:31:49:799 Level[NOTICE] magic[3368294688 1013]:s(0, 0),r(0, 0)in 20s;vsock(135716B, 10762B, 0, 0), sock(846, 897, 0, 0), times(34, 0, 194, 57), delay(0, 0)ms, m(0, 6144)KB, p:38799, s:38799, t(148, 1, 32198B, 50795B), u(0, 0, 176580B, 47974B), c(2247, 2363, 0, 0), e(67874, 1639)/(1330, 1639), k:73, d(589, 677), de(0), s(online, 2, 1), SSL(0), UDP(0), r_d(0), s_d(0), c_d(0), dur(1382 m), vs(0, 0, 0), sysFM(0 KB), ls(1779, 1779),bypass[0]:[0]
+12-17 19:31:49.800   633 31867 I SDK     : 
+12-17 19:31:49.898  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:50.087  1795  1795 I TrafficMonitor: expired arrive. level:-1
+12-17 19:31:50.087  1795  1795 I TrafficMonitor: during_ms:2002,period_ms:2000
+12-17 19:31:50.087  1795  1795 I TrafficMonitor: count:48,rx_sum:0,tx_sum:0,rxBytes:0,during_ms:2002,rx_speed:0.0,tx_speed:0.0,rto:0.0
+12-17 19:31:50.088  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:0, rxSpd:0B/s, txpkt:0, txSpd:0
+12-17 19:31:50.366  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:50.430  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 9.000000
+12-17 19:31:50.431  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =1306596627 
+12-17 19:31:50.433  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:false
+12-17 19:31:50.433  1795  1825 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.Display".
+12-17 19:31:50.434  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:50.435  1795  1825 I WindowManger_keyguard: Screen turned off...
+12-17 19:31:50.435  1795  1825 V KeyguardServiceDelegate: onScreenTurnedOff()
+12-17 19:31:50.435  1795  1825 I WindowManger_keyguard: onScreenTurnedOff()
+12-17 19:31:50.436  1795  1825 W HwScreenOnProximityLock: releaseLock: return because sensor listener is held = false
+12-17 19:31:50.436  1795  1825 D HwNormalizedAutomaticBrightnessController: set power status:mPowerStatus=true,powerStatus=false
+12-17 19:31:50.438  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:31:50.438  2852  3344 D KeyguardService: Caller checkPermission fail
+12-17 19:31:50.438  2852  3344 D KeyguardService: KGSvcCall onScreenTurnedOff.
+12-17 19:31:50.438  2852  3344 D KeyguardViewMediator: notifyScreenTurnedOff
+12-17 19:31:50.439  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityNegative -> updatePowerStateLocked
+12-17 19:31:50.439  1795  1825 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123023611, event=0, flags=0x0, uid=1000
+12-17 19:31:50.439  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=0, uid=1000
+12-17 19:31:50.440  1795  1825 I PowerManager_screenOn: PowerManagerService wakeUpNoUpdateLocked: eventTime=123023612, uid=1000
+12-17 19:31:50.440  1795  1825 I PowerManager_screenOn: PowerManagerService Waking up from sleep (uid 1000)...
+12-17 19:31:50.441  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=1, reason=0, interactive=true, mInteractive=false, mInteractiveChanging=false
+12-17 19:31:50.441  1795  1825 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:31:50.442  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakeUp: event=android.server.power:POWER, reasonUid=1000 opPackageName=android opUid=1000
+12-17 19:31:50.442  1795  1825 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123023612, event=0, flags=0x0, uid=1000
+12-17 19:31:50.442  1795  1795 I WindowManger_keyguard: Started waking up...
+12-17 19:31:50.442  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=0, uid=1000
+12-17 19:31:50.443  1795  1795 I WindowManger_keyguard: onStartedWakingUp()
+12-17 19:31:50.443  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityNegative by Phone
+12-17 19:31:50.443  1795  1825 D PowerManagerService: setColorTemperatureAccordingToSetting
+12-17 19:31:50.443  1795  1825 D HwPowerManagerService: setColorTemperatureAccordingToSetting
+12-17 19:31:50.443  1795  1825 D HwPowerManagerService: isDisplayFeatureSupported feature:1
+12-17 19:31:50.443  1795  1825 D HW_DISPLAY_EFFECT: hw_get_smart_display_supported: start++
+12-17 19:31:50.443  1795  1825 D HW_DISPLAY_EFFECT: hw_get_smart_display_supported: end--
+12-17 19:31:50.443  1795  1825 D HWPowerManger_JNI: Surport 3 dimension color temperature.
+12-17 19:31:50.443  1795  1825 D HwPowerManagerService: setColorTemperatureAccordingToSetting new.
+12-17 19:31:50.443  1795  1795 I PowerManager_screenOn: PowerManagerNotifier Sending wake up broadcast.
+12-17 19:31:50.444  1795  1795 I SendBroadcastPermission: action:android.intent.action.SCREEN_ON, mPermissionType:0
+12-17 19:31:50.444  1795  1825 D HwPowerManagerService: ColorTemperature read from old setting:128
+12-17 19:31:50.445  1795  1825 D HwPowerManagerService: setColorTemperature:128
+12-17 19:31:50.445  1795  1825 D HW_DISPLAY_EFFECT: hw_set_colortemperature: start++
+12-17 19:31:50.445  1795  1825 W HW_DISPLAY_EFFECT: Warning: hw_set_colortemperature is COLOR_TEMP_2_DIMENSION interface, not supported presently.
+12-17 19:31:50.445  1795  1825 D HW_DISPLAY_EFFECT: hw_set_colortemperature: end--
+12-17 19:31:50.445  2852  2822 D KeyguardService: Caller checkPermission fail
+12-17 19:31:50.445  2852  2822 D KeyguardService: KGSvcCall onStartedWakingUp.
+12-17 19:31:50.445  1795  1825 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:50.445  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOff
+12-17 19:31:50.445  2852  2822 W HwLockScreenReporter: report result = falsereport type:122 msg:
+12-17 19:31:50.445  2852  2822 D KeyguardViewMediator: onStartedWakingUp, seq = 468
+12-17 19:31:50.445  2852  2822 D KeyguardViewMediator: notifyStartedWakingUp
+12-17 19:31:50.446  2852  2822 W AppHandler: sendMessage 14
+12-17 19:31:50.446  2852  2852 D KeyguardViewMediator: handleNotifyWakingUp
+12-17 19:31:50.446  2852  2852 I PhoneStatusBar: onStartedWakingUp
+12-17 19:31:50.446  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:50.446  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetScreenState: state=2
+12-17 19:31:50.446  1795  1825 D FpDataCollector: DisplayPowerState :ON
+12-17 19:31:50.446  2852  2852 V KeyguardUpdateMonitor: FingerStat Visible: false; Interactive: true; Switching: false; Bouncer:false; GoingToSleep: false Occluded: false; dreaming: false; Authenticated: false
+12-17 19:31:50.446  2852  2852 V KeyguardUpdateMonitor: KGSvcFp stopListeningForFingerprint(). 1
+12-17 19:31:50.447  1795  3111 I Security_fingerprint: FingerprintService cancelAuthentication
+12-17 19:31:50.447  2852  2852 W KeyguardUpdateMonitor: Fingerprint RunningStateChanged. 2
+12-17 19:31:50.447  1795  2326 V FingerprintService: stop client com.android.systemui
+12-17 19:31:50.447   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:2
+12-17 19:31:50.448   835   835 V fingerprintd: stopAuthentication()
+12-17 19:31:50.448   835   835 D fpc_fingerprint_hal: fpc_cancel

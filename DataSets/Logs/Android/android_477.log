@@ -1,0 +1,100 @@
+12-17 19:55:47.232  3180  3578 I ash     : Unfreeze com.tencent.mm OK !
+12-17 19:55:47.233  1795  3225 D PowerManagerService: release:lock=176161031, flg=0x0, tag="hibernation", name=com.huawei.powergenie", ws=null, uid=1000, pid=3180
+12-17 19:55:47.233  1795  3225 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:47.234  1795  3253 I PGManagerService: proxyBroadcast:[com.tencent.mm] proxy:false
+12-17 19:55:47.235  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -2.825397 Y: 3.792166 Z: 8.362843  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:55:47.235 31949 31967 I PushService: main{1} PushService.onStartCommand(PushService.java:87) Push Service Start by  alarmCheck
+12-17 19:55:47.238  1795  3884 I AlarmManager: remove(PendingIntent{ffd7d59: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) changed bounds; rebatching
+12-17 19:55:47.238  3180  3578 I ash     : unproxy com.tencent.mm broadcast OK !
+12-17 19:55:47.239  1795  2371 E LightSensor: read Events lux: 97.0
+12-17 19:55:47.239  1795  1825 D AutomaticBrightnessController: ambient lux=97.0,timeStamp =444283602624000
+12-17 19:55:47.240  1795  6988 D SmartHeartBeat: setAlarmsAdjust ...
+12-17 19:55:47.240  3180  3578 I ash     : cancel unified heartbeat: com.tencent.mm reason:left H
+12-17 19:55:47.241  1795 15982 D GpsFreezeProc: removeFreezeProcess pkg:com.tencent.mm
+12-17 19:55:47.241  1795 15982 I GnssLocationProvider: setRequest ProviderRequest[OFF]
+12-17 19:55:47.241  1795 15982 I GnssLocationProvider: stopNavigating, mStarted=false
+12-17 19:55:47.242  1795 15988 I AlarmManager: set(PendingIntent{6f5ad1e: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) : type=0 triggerAtTime=1481976047241 win=0 tElapsed=444583605 maxElapsed=444583605 interval=300000 flags=0x1
+12-17 19:55:47.242  3180  3578 I ash     : unproxy app:com.tencent.mm,uid:10105,result:true
+12-17 19:55:47.242  1795 11747 I AlarmManager: set(PendingIntent{48e09ff: PendingIntentRecord{1c023cc com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=445093598 win=607494 tElapsed=445093598 maxElapsed=445701092 interval=0 flags=0x8
+12-17 19:55:47.242  3180  3578 I PgedBinderAdapter: Stop listener network packet!
+12-17 19:55:47.243   803   803 E Pged-IPgedBinderService: ****monitorNetworkPacket num is too larger,num is 0***
+12-17 19:55:47.243  3180  3578 I ash     : perform running actions!
+12-17 19:55:47.243  3180  3578 I ash     : running package: com.tencent.mm, visible: false
+12-17 19:55:47.244  3180  3578 I ash     : ash->screen unlock
+12-17 19:55:47.244   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:55:47.245  1795 15987 I AlarmManager: remove(PendingIntent{57f9615: PendingIntentRecord{1c023cc com.tencent.mm broadcastIntent}}) changed bounds; rebatching
+12-17 19:55:47.245  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 444283607608904 10105}
+12-17 19:55:47.246  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 444283607608904 10105}
+12-17 19:55:47.247  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass active 1 444283607608904 10105
+12-17 19:55:47.248  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:55:47.248  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:55:47.248  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:55:47.248  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:55:47.248  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:55:47.249  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:55:47.249  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:55:47.249  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:55:47.249  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:55:47.249  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:55:47.250  1795  3238 I AlarmManager: set(PendingIntent{4b7d2a: PendingIntentRecord{8c3471b com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=445093612 win=607499 tElapsed=445093612 maxElapsed=445701111 interval=0 flags=0x8
+12-17 19:55:47.256   633 21071 I SDK     : <2016-12-17 19:55:47> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:47:256 Level[NOTICE] magic[2518587680 452]:l4vpn : l4vpn status is 2
+12-17 19:55:47.256   633 21071 I SDK     : 
+12-17 19:55:47.258   633 21071 I SDK     : <2016-12-17 19:55:47> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:47:258 Level[NOTICE] magic[2518587680 1019]:SDK:end nativeForceTunnelReconnect
+12-17 19:55:47.258   633 21071 I SDK     : 
+12-17 19:55:47.258   633 21071 D sdk     : do mdm check
+12-17 19:55:47.259   633 21072 I SDK     : <2016-12-17 19:55:47> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:47:259 Level[NOTICE] magic[2517518624 1509]:sdkmdm: sdk mdm check start
+12-17 19:55:47.259   633 21072 I SDK     : 
+12-17 19:55:47.259   633 21072 I SDK     : <2016-12-17 19:55:47> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:47:259 Level[NOTICE] magic[2517518624 1382]:sdkmdm: enable
+12-17 19:55:47.259   633 21072 I SDK     : 
+12-17 19:55:47.259   633 21072 I SDK     : <2016-12-17 19:55:47> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:47:259 Level[NOTICE] magic[2517518624 2326]:FSM_OpenFile => [START],Mode[r]
+12-17 19:55:47.259   633 21072 I SDK     : 
+12-17 19:55:47.259   633 21072 I SDK     : <2016-12-17 19:55:47> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:47:259 Level[NOTICE] magic[2517518624 6458]:FSM_Tool_TreatFolderEncEx => [START]: pcFileName [cffb628ad277b3e98d6e9ae9dceca2a7_AnyOfficeSDKMDMResult] 
+12-17 19:55:47.259   633 21072 I SDK     : 
+12-17 19:55:47.260   633 21072 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:260 Level[ERR] magic[2517518624 10969]:FSM_Tool_LibcAccess ==> call access err path:</mnt/sdcard/sandbox/AnyOfficeSDK/sdk/UppmQLksydF4jiPx7vvVu9V8mxcQz4u8FMyhVWeaf4oEyot2QtrRPxu0vWwa4WlizavfVwhJviOq7Vb4qM8FmQ==>, errno:<2>
+12-17 19:55:47.260   633 21072 E SDK     : 
+12-17 19:55:47.260   633 21072 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:260 Level[ERR] magic[2517518624 781]:AnyOffice_API_JudgePathCallBack111 /mnt/sdcard/sandbox/AnyOfficeSDK/sdk/cffb628ad277b3e98d6e9ae9dceca2a7_AnyOfficeSDKMDMResult /data/data/com.huawei.svn.hiwork/config/smime /mnt/sdcard/AnyOffice/MailContent/flags
+12-17 19:55:47.260   633 21072 E SDK     : 
+12-17 19:55:47.260   633 21072 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:260 Level[ERR] magic[2517518624 10969]:FSM_Tool_LibcAccess ==> call access err path:</mnt/sdcard/sandbox/AnyOfficeSDK/sdk/cffb628ad277b3e98d6e9ae9dceca2a7_AnyOfficeSDKMDMResult>, errno:<2>
+12-17 19:55:47.260   633 21072 E SDK     : 
+12-17 19:55:47.261   633 21072 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:261 Level[ERR] magic[2517518624 200]:libcOpenFile => fopen[2]: path</mnt/sdcard/sandbox/AnyOfficeSDK/sdk/cffb628ad277b3e98d6e9ae9dceca2a7_AnyOfficeSDKMDMResult>, mode<r>
+12-17 19:55:47.261   633 21072 E SDK     : 
+12-17 19:55:47.261   633 21072 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:261 Level[ERR] magic[2517518624 1818]:get =>FSM_Tool_CreateFileHandle error [-1000]
+12-17 19:55:47.261   633 21072 E SDK     : 
+12-17 19:55:47.261   633 21072 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:261 Level[ERR] magic[2517518624 1189]:FSM_Tool_TreatFolderKeyInfoNew =>GetKeyInfo  error[-1000]
+12-17 19:55:47.261   633 21072 E SDK     : 
+12-17 19:55:47.261   633 21072 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:261 Level[ERR] magic[2517518624 1552]:FSM_Tool_Tree_Enc_Path 1 fail(-1000) continue
+12-17 19:55:47.261   633 21072 E SDK     : 
+12-17 19:55:47.261   633 21072 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:261 Level[ERR] magic[2517518624 10969]:FSM_Tool_LibcAccess ==> call access err path:</mnt/sdcard/sandbox/AnyOfficeSDK/sdk/cffb628ad277b3e98d6e9ae9dceca2a7_AnyOfficeSDKMDMResult>, errno:<2>
+12-17 19:55:47.261   633 21072 E SDK     : 
+12-17 19:55:47.262   633 21072 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:261 Level[ERR] magic[2517518624 10969]:FSM_Tool_LibcAccess ==> call access err path:</mnt/sdcard/sandbox/AnyOfficeSDK/sdk/cffb628ad277b3e98d6e9ae9dceca2a7_AnyOfficeSDKMDMResult>, errno:<2>
+12-17 19:55:47.262   633 21072 E SDK     : 
+12-17 19:55:47.262   633 21072 I SDK     : <2016-12-17 19:55:47> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:47:262 Level[NOTICE] magic[2517518624 1564]:FSM_Tool_Tree_Enc_Path end [/mnt/sdcard/sandbox/AnyOfficeSDK/sdk/UppmQLksydF4jiPx7vvVu9V8mxcQz4u8FMyhVWeaf4oEyot2QtrRPxu0vWwa4WlizavfVwhJviOq7Vb4qM8FmQ==]
+12-17 19:55:47.262   633 21072 I SDK     : 
+12-17 19:55:47.262   633 21072 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:262 Level[ERR] magic[2517518624 200]:libcOpenFile => fopen[2]: path</mnt/sdcard/sandbox/AnyOfficeSDK/sdk/UppmQLksydF4jiPx7vvVu9V8mxcQz4u8FMyhVWeaf4oEyot2QtrRPxu0vWwa4WlizavfVwhJviOq7Vb4qM8FmQ==>, mode<r>
+12-17 19:55:47.262   633 21072 E SDK     : 
+12-17 19:55:47.262   633 21072 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:262 Level[ERR] magic[2517518624 1992]:get =>FSM_Tool_CreateFileHandle error [-1000]
+12-17 19:55:47.262   633 21072 E SDK     : 
+12-17 19:55:47.262   633 21072 I SDK     : <2016-12-17 19:55:47> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:47:262 Level[NOTICE] magic[2517518624 2361]:FileSec: no bundle id in file tail.
+12-17 19:55:47.262   633 21072 I SDK     : 
+12-17 19:55:47.262   633 21072 I SDK     : <2016-12-17 19:55:47> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:47:262 Level[NOTICE] magic[2517518624 2421]:FileSec: have right to open file due to cur app sec level = 0 is higher than file app() sec level = 0.
+12-17 19:55:47.262   633 21072 I SDK     : 
+12-17 19:55:47.262   633 21072 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:262 Level[ERR] magic[2517518624 200]:libcOpenFile => fopen[2]: path</mnt/sdcard/sandbox/AnyOfficeSDK/sdk/UppmQLksydF4jiPx7vvVu9V8mxcQz4u8FMyhVWeaf4oEyot2QtrRPxu0vWwa4WlizavfVwhJviOq7Vb4qM8FmQ==>, mode<rb>
+12-17 19:55:47.262   633 21072 E SDK     : 
+12-17 19:55:47.262   633 21072 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:262 Level[ERR] magic[2517518624 2503]:FSM_OpenFile => [ERROR] fname</mnt/sdcard/sandbox/AnyOfficeSDK/sdk/cffb628ad277b3e98d6e9ae9dceca2a7_AnyOfficeSDKMDMResult> handle<00000000> err<-1000>
+12-17 19:55:47.262   633 21072 E SDK     : 
+12-17 19:55:47.262   633 21072 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:262 Level[ERR] magic[2517518624 116]:FSM_LibcOpenFile:FSM_OpenFile failed[/mnt/sdcard/sandbox/AnyOfficeSDK/sdk/cffb628ad277b3e98d6e9ae9dceca2a7_AnyOfficeSDKMDMResult]
+12-17 19:55:47.262   633 21072 E SDK     : 
+12-17 19:55:47.262   633 21072 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:262 Level[ERR] magic[2517518624 2493]:failed to read group with error code 1
+12-17 19:55:47.262   633 21072 E SDK     : 
+12-17 19:55:47.262   633 21072 E SDK     : <2016-12-17 19:55:47> [ERR] SDK: UE-SeC 2016-12-17 19:55:47:262 Level[ERR] magic[2517518624 1523]:sdkmdm: NULL == pstHash
+12-17 19:55:47.262   633 21072 E SDK     : 
+12-17 19:55:47.296  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -2.115543 Y: 4.634360 Z: 7.253003  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:55:47.315   835  2385 E libteec : begin
+12-17 19:55:47.315   606  2379 E libteec : receive data len = 128
+12-17 19:55:47.326   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:55:47.326   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:55:47.326   606  2379 E libteec : send data return = 128
+12-17 19:55:47.326   835  2385 E libteec : receive data len = 128
+12-17 19:55:47.326   835  2385 E libteec : begin
+12-17 19:55:47.326   835  2385 E libteec : qsc_decode end
+12-17 19:55:47.357  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -2.410449 Y: 4.854605 Z: 7.458783  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027

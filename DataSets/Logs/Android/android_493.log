@@ -1,0 +1,100 @@
+12-17 19:55:52.006  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=9
+12-17 19:55:52.006  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:55:52.007  1795  1795 I MQoS    : rtt=320,tcp_tx_pkts=1485304,tcp_rx_pkts=1771107
+12-17 19:55:52.008  1795  5350 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+12-17 19:55:52.008  1795  2739 D HuaweiWifiWatchdogStateMachine: dumpTcpResult: len=9,rtt=320,rttPkt=22,rttWn=1,cgt=0,cgtWn=0
+12-17 19:55:52.008  1795  2739 I HuaweiWifiWatchdogStateMachine: PTcp RTT:320, rtt pkt=22, tcp_rx=35, tcp_tx=40, tcp_reTran=0, rtRate=0
+12-17 19:55:52.008  1795  2739 D HuaweiWifiWatchdogStateMachine: isRttGood is good, AvgRtt = 320, TotPkt = 22
+12-17 19:55:52.008  1795  2739 D HuaweiWifiWatchdogStateMachine: mRssiBadCount =0, RSSI not bad.
+12-17 19:55:52.008  1795  2739 I HuaweiWifiWatchdogStateMachine:  pkt chk not bad, reset sc to 0.
+12-17 19:55:52.008  1795  2739 I HuaweiWifiWatchdogStateMachine: net speed good
+12-17 19:55:52.008  1795  2739 D HuaweiWifiWatchdogStateMachine: bqeLevel = 3 rtt=320,rtt_pkts=22 speed=11029 rssi=-44
+12-17 19:55:52.008  1795  2739 D HuaweiWifiWatchdogStateMachine: Enter updateQoeLevel level = 3
+12-17 19:55:52.008  1795  2739 D HuaweiWifiWatchdogStateMachine: updateQoeLevel current level equal to mLastDetectLevel, return
+12-17 19:55:52.008  1795  2739 D HuaweiWifiWatchdogStateMachine: ### mPktChkBadCnt=0
+12-17 19:55:52.122  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:40:30,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:55:52.122  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:40:30,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:55:52.123  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:55:52.125  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:55:52.127  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:55:52.128  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:55:52.130  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:55:52.131  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:55:52.193  1795 15987 D SmartHeartBeat: setAlarmsPending ...
+12-17 19:55:52.194  3180  3578 I BlackListAlarmRestrict: [resume] net alarms
+12-17 19:55:52.203  1795 16499 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:52.947 32607 21096 D BetaClub: [FeedbackService.resumeIssueMaker.run] Start
+12-17 19:55:52.960 32607 21096 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:996 android.content.ContextWrapper.sendBroadcast:426 com.huawei.betaclub.feedback.service.FeedbackService$2.run:235 java.lang.Thread.run:776 <bottom of call stack> 
+12-17 19:55:52.960 32607 21096 I SendBroadcastPermission: action:com.huawei.betaclub.STOP_FEEDBACK_SERVICE, mPermissionType:0
+12-17 19:55:52.962  1795  3884 W ActivityManager: Sending non-protected broadcast com.huawei.betaclub.STOP_FEEDBACK_SERVICE from system 32607:com.huawei.betaclub/1000 pkg com.huawei.betaclub
+12-17 19:55:52.963  1795  3884 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{e68e93f 32607:com.huawei.betaclub/1000}
+12-17 19:55:52.965 32607 32607 I BetaClub: [FeedbackService.finish]No task running，stop feedback service!
+12-17 19:55:52.967 32607 21096 D BetaClub: [FeedbackService.resumeIssueMaker.run] End
+12-17 19:55:52.976 32607 32607 I BetaClub: [FeedbackService.receiver.onReceive]End
+12-17 19:55:52.978 32607 32607 I BetaClub: [FeedbackService.onDestroy]End
+12-17 19:55:53.109  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:55:53.109  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:55:53.109  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:55:53.169  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:55:53.170  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:55:53.188  5215  5215 E wpa_supplicant: RSSI=-47;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:55:53.188  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:55:53.189  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:55:53.190  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-47 "Huawei-Employee"WPA_EAP
+12-17 19:55:53.192  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:55:53.206  1795  2748 D HwAmbientLuxFilterAlgo: t=123207652,BT=123208652,DT=123211652,BT1=123211652,DT1=123215652,Bn=false,Dn=false,lx=[54.0/123206147, 56.0/123206448, 70.0/123206749, 77.0/123207050, 77.0/123207351, 80.0/123207652],mLx=108.0,s=5.0,ss=7.7650914,AuIntervened=false,mProximityState=false,bLux=651.0,dLux=21.279999,bLux1=651.0,dLux1=21.279999
+12-17 19:55:53.217  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:55:53.225  1795  2728 D hw_netstat: total/17027/6353,com.huawei.espacev2/15551/4852,com.tencent.mm/1210/1343,unknown:0/266/158
+12-17 19:55:53.229  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=23  WEBRESENDSEGS=0  WEBRECVSEGS=20  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=32  WEBRTTSEGS=13  WEBSRTT=320  WEBSNDDUPACKS=0  SENDSEGS=18  RESENDSEGS=0  RECVSEGS=18  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=9  RTTSEGS=6  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:55:53.229  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-47  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=2592, rtt_tcp_duration=13112, rtt_lan_duration=638, rtt_lan_failures=0, rtt_lan_succ=9, rtt_lan_max=408, rtt_lan_min=7,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:55:53.229  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:55:53.230  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:55:53.247  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=35
+12-17 19:55:53.249  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=49, mTXbad=0, mRXGood=56] rssi=-47
+12-17 19:55:53.250  1795  2728 E HwCHRWebMonitor: Good NetWork Traffic , so mOnAppSuckTime, mUnModifyCount reset 0
+12-17 19:55:53.250  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:55:53.250  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 20, tx = 23
+12-17 19:55:53.250  1795  2728 D HwArpVerifier: AccessWebStatus : reset all
+12-17 19:55:53.299  1795  2381 D libfingersense_wrapper: Calling fingersense_classify_touch()
+12-17 19:55:53.307  1795  2381 D libfingersense_wrapper: fingersense_classify_touch() finished
+12-17 19:55:53.310  1795  2380 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123207744, event=2, flags=0x0, uid=1000
+12-17 19:55:53.310  1795  2380 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=2, uid=1000
+12-17 19:55:53.310  1795  2380 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:53.372  1795  2381 D libfingersense_wrapper: Calling fingersense_touch_up()
+12-17 19:55:53.372  1795  2381 D libfingersense_wrapper: fingersense_touch_up() finished
+12-17 19:55:53.374  4492  4492 V AudioManager: playSoundEffect   effectType: 0
+12-17 19:55:53.374  4492  4492 V AudioManager: querySoundEffectsEnabled...
+12-17 19:55:53.592  1795  3225 D HwInputMethodManagerService: ------------startInput--------------
+12-17 19:55:53.593  1795  3225 V SecInputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:55:53.593  1795  3225 D HwInputMethodManagerService: hideSecSoftInput = false
+12-17 19:55:53.595  4690  4690 I SendBroadcastPermission: action:com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER, mPermissionType:0
+12-17 19:55:53.596  1795  3253 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{5299443 4690:com.baidu.input_huawei/u0a74}, intent:com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER, receiver size:1, flags: 10000400
+12-17 19:55:53.596  1795  3253 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{5299443 4690:com.baidu.input_huawei/u0a74}
+12-17 19:55:53.596  1795  3253 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{b71782c u0 com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER}: prev had 0
+12-17 19:55:53.597  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{b71782c u0 com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER}, has 1 receivers
+12-17 19:55:53.631   633   692 I ECS     : Heartbeat timer.timers{6139} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 112 bytes [16]_00_00_00_6C_00_03_01_03_12_05_87_59_E8_59_D3_88 cmdCode(CC_Heartbeat.0x0312)msgType(MT_ARG.1)msgClass(MC_InstanceMessage.3)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(108)version(3)sno(8759)
+12-17 19:55:53.657  4492  4492 I HwResourcesImpl: load icon id : 7f02011e, pkgName : com.baidu.input_huawei
+12-17 19:55:53.657  4492  4492 W CfgFilePolicy: No config file found for:/themes/diff/icons
+12-17 19:55:53.657  4492  4492 W CfgFilePolicy: CFG_DIRS length : 9
+12-17 19:55:53.658  4492  4492 I HwResourcesImpl: icon : com.baidu.input_huawei found in app
+12-17 19:55:53.786   633   692 I ECS     : Heartbeat timer.timers{6139} TimerObject.call(TimerObject.java:88) stop timer com.huawei.service.HeartbeatService$HeartbeatTimer@1b227de.5000ms(0)
+12-17 19:55:53.787   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 28
+12-17 19:55:53.789   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 28TCP_OK
+12-17 19:55:53.791   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 32 bytes [12]_00_03_02_03_12_05_87_59_E8_59_D3_88 cmdCode(CC_Heartbeat.0x0312)msgType(MT_ACK.2)msgClass(MC_InstanceMessage.3)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(28)version(3)sno(8759)
+12-17 19:55:54.024   625   718 E libnav  : CablComputeBacklightLevel(): UpdateType = DifferentSceneUpdate
+12-17 19:55:54.086   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:55:54.105  1795  1795 I TrafficMonitor: expired arrive. level:-1
+12-17 19:55:54.105  1795  1795 I TrafficMonitor: during_ms:2003,period_ms:2000
+12-17 19:55:54.105  1795  1795 I TrafficMonitor: count:140,rx_sum:0,tx_sum:0,rxBytes:0,during_ms:2003,rx_speed:0.0,tx_speed:0.0,rto:0.0
+12-17 19:55:54.105  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:0, rxSpd:0B/s, txpkt:0, txSpd:0
+12-17 19:55:54.124  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:55:52,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:55:54.124  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:55:52,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:55:54.124  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:55:54.125  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:55:54.126  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:55:54.126  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:55:54.127  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:55:54.127  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:55:54.498   633 31874 E SDK     : <2016-12-17 19:55:54> [ERR] SDK: UE-SeC 2016-12-17 19:55:54:498 Level[ERR] magic[3360692512 3748]:readdir 
+12-17 19:55:54.498   633 31874 E SDK     : 
+12-17 19:55:54.499   633 31874 E SDK     : <2016-12-17 19:55:54> [ERR] SDK: UE-SeC 2016-12-17 19:55:54:499 Level[ERR] magic[3360692512 3748]:readdir 

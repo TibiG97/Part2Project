@@ -1,0 +1,100 @@
+12-17 19:40:31.078   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:1
+12-17 19:40:31.078   835   835 V fingerprintd: authenticate(sid=0, gid=0)
+12-17 19:40:31.086   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:31.086   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:31.086   606  2379 E libteec : send data return = 128
+12-17 19:40:31.086   835  2385 E libteec : receive data len = 128
+12-17 19:40:31.086   835  2385 E libteec : begin
+12-17 19:40:31.086   835  2385 E libteec : qsc_decode end
+12-17 19:40:31.086   835  2385 D fpc_fingerprint_hal: worker idle
+12-17 19:40:31.087   835  2385 D fpc_fingerprint_hal: workerFunction STATE_AUTHENTICATE
+12-17 19:40:31.087   835  2385 E libteec : begin
+12-17 19:40:31.087   606  2379 E libteec : receive data len = 128
+12-17 19:40:31.087  1795  2326 W FingerprintService: client com.android.systemui is authenticating...
+12-17 19:40:31.090   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:31.090   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:31.090   606  2379 E libteec : send data return = 128
+12-17 19:40:31.090   835  2385 E libteec : receive data len = 128
+12-17 19:40:31.090   835  2385 E libteec : begin
+12-17 19:40:31.090   835  2385 E libteec : qsc_decode end
+12-17 19:40:31.090   835  2385 I fpc_tac : fpc_tac_send_get_indices_cmd indices:0x7f9860c000, index_count:1
+12-17 19:40:31.090   835  2385 E libteec : begin
+12-17 19:40:31.090   606  2379 E libteec : receive data len = 1152
+12-17 19:40:31.090  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=0.7590136
+12-17 19:40:31.093   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:31.093   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:31.093   606  2379 E libteec : send data return = 1152
+12-17 19:40:31.093   835  2385 E libteec : receive data len = 1152
+12-17 19:40:31.093   835  2385 E libteec : begin
+12-17 19:40:31.093   835  2385 E libteec : qsc_decode end
+12-17 19:40:31.093   835  2385 E libteec : begin
+12-17 19:40:31.093   606  2379 E libteec : receive data len = 128
+12-17 19:40:31.096   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:31.096   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:31.096   606  2379 E libteec : send data return = 128
+12-17 19:40:31.097   835  2385 E libteec : receive data len = 128
+12-17 19:40:31.097   835  2385 E libteec : begin
+12-17 19:40:31.097   835  2385 E libteec : qsc_decode end
+12-17 19:40:31.097   835  2385 I fpc_tac : fpc_tac_begin_identify---need_liveness_authentication: 0
+12-17 19:40:31.097   835  2385 E libteec : begin
+12-17 19:40:31.097   606  2379 E libteec : receive data len = 192
+12-17 19:40:31.100   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:31.100   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:31.100   606  2379 E libteec : send data return = 192
+12-17 19:40:31.100   835  2385 E libteec : receive data len = 192
+12-17 19:40:31.100   835  2385 E libteec : begin
+12-17 19:40:31.100   835  2385 E libteec : qsc_decode end
+12-17 19:40:31.100   835  2385 I fpc_tac : fpc_tac_send_set_arbitrary_data_cmd:ok, response:0
+12-17 19:40:31.100   835  2385 D fingerprintd: onAcquired(2001)
+12-17 19:40:31.101   835  2385 E libteec : begin
+12-17 19:40:31.101  1795  3238 W FingerprintService: onAcquired 1
+12-17 19:40:31.101   606  2379 E libteec : receive data len = 128
+12-17 19:40:31.101  1795  2326 W FingerprintService: onAcquired 2
+12-17 19:40:31.101  2852  2852 V KeyguardUpdateMonitor: KGSvcFp onAuthenticationAcquired.2001
+12-17 19:40:31.107  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=0.5936906
+12-17 19:40:31.119   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:31.119   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:31.119   606  2379 E libteec : send data return = 128
+12-17 19:40:31.119   835  2385 E libteec : receive data len = 128
+12-17 19:40:31.119   835  2385 E libteec : begin
+12-17 19:40:31.119   835  2385 E libteec : qsc_decode end
+12-17 19:40:31.123  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=0.42695856
+12-17 19:40:31.133  2852  2925 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:40:31.138   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 26
+12-17 19:40:31.138   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:40:31.140  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=0.25912303
+12-17 19:40:31.141  1795  1809 I WindowManager: onProposedRotationChanged, rotation=3
+12-17 19:40:31.142  1795  1809 I WindowManager: MyOrientationListener: updateRotation.
+12-17 19:40:31.142  1795  1809 I WindowManager: updateRotationUnchecked(alwaysSendConfiguration=false)
+12-17 19:40:31.142  1795  1809 I WindowManager: rotationForOrientationLw(orient=1, last=0); user=0 
+12-17 19:40:31.142  1795  1809 I WindowManager: Application requested orientation 1, got rotation 0 which has compatible metrics
+12-17 19:40:31.143  2852  2925 I BitmapUtils: RGB565toARGB888 create bmp = 162x288
+12-17 19:40:31.148  2852  2925 W BitmapUtils: blurBitmap : android.graphics.Bitmap@66bf78duse source bitmap; use rgb888 as target; Consueme: 5ms
+12-17 19:40:31.148  2852  2925 W BokehDrawable: onPostExecute android.graphics.Bitmap@5738d42, []
+12-17 19:40:31.148  2852  2925 W KGWallpaper_Magazine: load magazine wallpaper use: 89
+12-17 19:40:31.148  2852  2852 D KGWallpaper_Magazine: Magazine Picture Loaded. false  1
+12-17 19:40:31.148  2852  2852 W KGWallpaper_Magazine: get Index for key 30 to 7
+12-17 19:40:31.148  2852  2852 E KGWallpaper_Magazine: setCurrentPicture to 7
+12-17 19:40:31.151  2852  2852 I BitmapUtils: getSuggestColorInfo::isStatusBarArea=true, colorMSD=2767, average color=19, color type=1, mask type=2; light 28848.389
+12-17 19:40:31.151  2852  2852 I BitmapUtils: java.lang.Exception
+12-17 19:40:31.151  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.util.BitmapUtils.getSuggestColorInfo(BitmapUtils.java:816)
+12-17 19:40:31.151  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.util.BitmapUtils.getColorInfo(BitmapUtils.java:739)
+12-17 19:40:31.151  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.KeyguardWallpaper.updateWallpaper(KeyguardWallpaper.java:145)
+12-17 19:40:31.151  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.KeyguardWallpaper.-wrap4(KeyguardWallpaper.java)
+12-17 19:40:31.151  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.KeyguardWallpaper$2.onMagazinePicLoaded(KeyguardWallpaper.java:315)
+12-17 19:40:31.151  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.MagazineWallpaper$3.onMagazinePicLoaded(MagazineWallpaper.java:733)
+12-17 19:40:31.151  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.MagazineWallpaper$BgPicLoader$1.run(MagazineWallpaper.java:531)
+12-17 19:40:31.151  2852  2852 I BitmapUtils: 	at android.os.Handler.handleCallback(Handler.java:755)
+12-17 19:40:31.151  2852  2852 I BitmapUtils: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-17 19:40:31.151  2852  2852 I BitmapUtils: 	at android.os.Looper.loop(Looper.java:199)
+12-17 19:40:31.151  2852  2852 I BitmapUtils: 	at android.app.ActivityThread.main(ActivityThread.java:6524)
+12-17 19:40:31.151  2852  2852 I BitmapUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+12-17 19:40:31.151  2852  2852 I BitmapUtils: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:941)
+12-17 19:40:31.151  2852  2852 I BitmapUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:831)
+12-17 19:40:31.157  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=0.12842762
+12-17 19:40:31.161  2852  2852 I BitmapUtils: getSuggestColorInfo::isStatusBarArea=false, colorMSD=12066, average color=44, color type=1, mask type=1; light 845948.1
+12-17 19:40:31.161  2852  2852 I BitmapUtils: java.lang.Exception
+12-17 19:40:31.161  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.util.BitmapUtils.getSuggestColorInfo(BitmapUtils.java:816)
+12-17 19:40:31.161  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.util.BitmapUtils.getColorInfo(BitmapUtils.java:742)
+12-17 19:40:31.161  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.KeyguardWallpaper.updateWallpaper(KeyguardWallpaper.java:145)
+12-17 19:40:31.161  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.KeyguardWallpaper.-wrap4(KeyguardWallpaper.java)

@@ -1,0 +1,100 @@
+12-17 19:42:26.341   633 20914 I SDK     : <2016-12-17 19:42:26> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:26:341 Level[NOTICE] magic[2523810080 830]:End to proc tunnel status change: result=0
+12-17 19:42:26.341   633 20914 I SDK     : 
+12-17 19:42:26.341   633   692 W eSpaceService: Thread-1496{6127} VPNWork.onNetChanged(VPNWork.java:336) <<< WARN(5) >>> SVN get Other error -11
+12-17 19:42:26.469   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:42:26.471  1795  2665 D NetdConnector: RCV <- {601 limit alert globalAlert wlan0}
+12-17 19:42:26.474  1795  2665 D NetdConnector: RCV <- {601 limit alert globalAlert wlan0}
+12-17 19:42:26.477  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 601 limit alert globalAlert wlan0
+12-17 19:42:26.480  1795  2666 D PowerManagerService: acquire lock=184063844, flags=0x1, tag="NetworkStats", name=android, ws=null, uid=1000, pid=1795
+12-17 19:42:26.480  3782  5832 I QtiTetherService: limitReached Alert received limitName: globalAlert on Interface: wlan0
+12-17 19:42:26.480  1795  2666 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:26.490  1795  2666 D NetdConnector: SND -> {11644 bandwidth gettetherstats}
+12-17 19:42:26.493  1795  2665 D NetdConnector: RCV <- {200 11644 Tethering stats list completed}
+12-17 19:42:26.495  1795  2665 D NetdConnector: RCV <- {200 11644 Tethering stats list completed}
+12-17 19:42:26.502  1795  2666 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:42:26.502  1795  2666 D HwNetworkStatsService: mActiveIface: null
+12-17 19:42:26.528  1795  2666 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+12-17 19:42:26.529  1795  2666 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:42:26.530  1795  2666 D PowerManagerService: release:lock=184063844, flg=0x0, tag="NetworkStats", name=android", ws=null, uid=1000, pid=1795
+12-17 19:42:26.531  1795  2666 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:26.532  1795  2666 D NetdConnector: SND -> {11645 bandwidth setglobalalert 2097152}
+12-17 19:42:26.536  1795  2665 D NetdConnector: RCV <- {200 11645 Bandwidth command succeeeded}
+12-17 19:42:26.539  1795  2665 D NetdConnector: RCV <- {200 11645 Bandwidth command succeeeded}
+12-17 19:42:26.563  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:42:26.582  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:42:26.583  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:42:26.598  3218  3234 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:42:26.614  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:42:26.626  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:42:26.640  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:42:26.664  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:42:26.722  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:42:26.738  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:42:26.746  1795  2728 D hw_netstat: total/53215/2412159,android.uid.system:1000/52812/2411891,unknown:0/278/66,com.huawei.espacev2/125/202
+12-17 19:42:26.749  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=1757  WEBRESENDSEGS=0  WEBRECVSEGS=878  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=4457  WEBRTTSEGS=864  WEBSRTT=410  WEBSNDDUPACKS=0  SENDSEGS=0  RESENDSEGS=0  RECVSEGS=0  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=0  RTTSEGS=0  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:42:26.749  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-63  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=980, rtt_tcp_duration=5368, rtt_lan_duration=230, rtt_lan_failures=0, rtt_lan_succ=8, rtt_lan_max=124, rtt_lan_min=7,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:42:26.749  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:42:26.749  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:42:26.753  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=35
+12-17 19:42:26.755  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=1758, mTXbad=0, mRXGood=54] rssi=-63
+12-17 19:42:26.755  1795  2728 E HwCHRWebMonitor: Good NetWork Traffic , so mOnAppSuckTime, mUnModifyCount reset 0
+12-17 19:42:26.755  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:42:26.755  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 878, tx = 1757
+12-17 19:42:26.755  1795  2728 D HwArpVerifier: AccessWebStatus : reset all
+12-17 19:42:27.247  1795  1795 I TrafficMonitor: update:rxPkts:1080,txPkts:2137,rxBytes:56245,txBytes:2989202
+12-17 19:42:27.247  1795  1795 I TrafficMonitor: no expired. level:3
+12-17 19:42:27.247  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:42:27.248  1795  1795 I TrafficMonitor: during_ms:2004,period_ms:2000
+12-17 19:42:27.248  1795  1795 I TrafficMonitor: count:125,rx_sum:1080,tx_sum:2137,rxBytes:56245,during_ms:2004,rx_speed:28066.367265469064,tx_speed:1491617.7644710578,rto:0.5053813757604118
+12-17 19:42:27.248  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:1080, rxSpd:28066B/s, txpkt:2137, txSpd:1491617
+12-17 19:42:27.342   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:341 Level[NOTICE] magic[2522765600 2512]:API_CreateTunnel : begin to create tunnel
+12-17 19:42:27.342   633 20915 I SDK     : 
+12-17 19:42:27.342   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:342 Level[NOTICE] magic[2522765600 1183]:GetCurrentHostAndPort: begin to get host from outer[byod-web.huawei.com:443] inner[(null):0]
+12-17 19:42:27.342   633 20915 I SDK     : 
+12-17 19:42:27.342   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:342 Level[NOTICE] magic[2522765600 1216]:GetCurrentHostAndPort: change, need detect
+12-17 19:42:27.342   633 20915 I SDK     : 
+12-17 19:42:27.343   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:342 Level[NOTICE] magic[2522765600 1046]:NetDetect: begin detect outer[byod-web.huawei.com:443] inner[(null):0]
+12-17 19:42:27.343   633 20915 I SDK     : 
+12-17 19:42:27.343   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:343 Level[NOTICE] magic[2522765600 1065]:NetDetect: config outer network[byod-web.huawei.com] only, no necessary to detect
+12-17 19:42:27.343   633 20915 I SDK     : 
+12-17 19:42:27.343   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:343 Level[NOTICE] magic[2522765600 1560]:AnyOffice_GetHostByName: try first
+12-17 19:42:27.343   633 20915 I SDK     : 
+12-17 19:42:27.343   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:343 Level[NOTICE] magic[2522765600 910]:svn_gethostbyname_withtimeout: parse <byod-web.huawei.com> in <20> seconds use l4vpn<0>
+12-17 19:42:27.343   633 20915 I SDK     : 
+12-17 19:42:27.356   633 20916 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:356 Level[NOTICE] magic[2521721120 412]:svn_curl_GethostByNameThread: ip1 <617937197>45.249.212.36
+12-17 19:42:27.356   633 20916 I SDK     : 
+12-17 19:42:27.358   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:357 Level[NOTICE] magic[2522765600 982]:svn_gethostbyname_withtimeout: parse url <byod-web.huawei.com> cost 13 ip<617937197>
+12-17 19:42:27.358   633 20915 I SDK     : 
+12-17 19:42:27.358   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:358 Level[NOTICE] magic[2522765600 1586]:AnyOffice_GetHostByName:Resolve domain successfully! ip=45.249.212.36!
+12-17 19:42:27.358   633 20915 I SDK     : 
+12-17 19:42:27.359   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:358 Level[NOTICE] magic[2522765600 924]:runtime inner: dom[] ip[]!
+12-17 19:42:27.359   633 20915 I SDK     : 
+12-17 19:42:27.359   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:359 Level[NOTICE] magic[2522765600 927]:runtime outer: dom[byod-web.huawei.com] ip[45.249.212.36]!
+12-17 19:42:27.359   633 20915 I SDK     : 
+12-17 19:42:27.359   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:359 Level[NOTICE] magic[2522765600 931]:runtime config: cfgflag[2] netflag[2] realip[45.249.212.36]!
+12-17 19:42:27.359   633 20915 I SDK     : 
+12-17 19:42:27.359   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:359 Level[NOTICE] magic[2522765600 936]:runtime config: netType[0] ssid[Huawei-Employee]!
+12-17 19:42:27.359   633 20915 I SDK     : 
+12-17 19:42:27.360   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:359 Level[NOTICE] magic[2522765600 1221]:GetCurrentHostAndPort: network access type is 2
+12-17 19:42:27.360   633 20915 I SDK     : 
+12-17 19:42:27.360   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:360 Level[NOTICE] magic[2522765600 1236]:GetCurrentHostAndPort: Connect to acInternetAddress the domain is byod-web.huawei.com
+12-17 19:42:27.360   633 20915 I SDK     : 
+12-17 19:42:27.360   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:360 Level[NOTICE] magic[2522765600 1246]:GetCurrentHostAndPort: end detect host[byod-web.huawei.com] ip[45.249.212.36] port[443]
+12-17 19:42:27.360   633 20915 I SDK     : 
+12-17 19:42:27.360   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:360 Level[NOTICE] magic[2522765600 2400]:SetRegisterAuthID : create tunnel service type is sdk
+12-17 19:42:27.360   633 20915 I SDK     : 
+12-17 19:42:27.360   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:360 Level[NOTICE] magic[2522765600 2415]:SetRegisterAuthID : create tunnel app name  is com.huawei.espacev2
+12-17 19:42:27.360   633 20915 I SDK     : 
+12-17 19:42:27.361   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:361 Level[NOTICE] magic[2522765600 2326]:FSM_OpenFile => [START],Mode[r]
+12-17 19:42:27.361   633 20915 I SDK     : 
+12-17 19:42:27.361   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:361 Level[NOTICE] magic[2522765600 6458]:FSM_Tool_TreatFolderEncEx => [START]: pcFileName [cffb628ad277b3e98d6e9ae9dceca2a7_ssoInfo] 
+12-17 19:42:27.361   633 20915 I SDK     : 
+12-17 19:42:27.362   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:362 Level[NOTICE] magic[2522765600 1541]:FSM_Tool_Tree_Enc_Path =>Access [/mnt/sdcard/sandbox/AnyOfficeSDK/sdk/UppmQLksydF4jiPx7vvVu9V8mxcQz4u8FMyhVWeaf4pD9ZMGpovYnNkec0u8vhXA] real path  ok 
+12-17 19:42:27.362   633 20915 I SDK     : 
+12-17 19:42:27.363   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:363 Level[ERR] magic[2522765600 436]:libcSeekFile => fseek[22]:[-32][0][EA60400C]
+12-17 19:42:27.363   633 20915 E SDK     : 
+12-17 19:42:27.363   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:363 Level[NOTICE] magic[2522765600 2421]:FileSec: have right to open file due to cur app sec level = 0 is higher than file app(&5ߢ[@ñ?z]) sec level = 0.
+12-17 19:42:27.363   633 20915 I SDK     : 
+12-17 19:42:27.364   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:364 Level[NOTICE] magic[2522765600 2487]:FSM_OpenFile => [END]
+12-17 19:42:27.364   633 20915 I SDK     : 
+12-17 19:42:27.365   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:364 Level[ERR] magic[2522765600 1751]:GetTicketInfo:begin get keyspace ticket inifo user name<w00290667> 

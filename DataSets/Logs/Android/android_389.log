@@ -1,0 +1,100 @@
+12-17 19:40:23.736  1795 20747 D ActivityManager: ActivityManagerService,attachApplication,callingPid = 20818
+12-17 19:40:23.736  1795  1795 I AlarmManager: remove(PendingIntent{2f9e644: PendingIntentRecord{527f32d android broadcastIntent}}) changed bounds; rebatching
+12-17 19:40:23.737  1795 20747 I ActivityManager_service: New app record ProcessRecord{7a2dabc 20818:com.huawei.betaclub:loguploadservice/1000} thread=android.os.BinderProxy@8649a45 pid=20818 procname=com.huawei.betaclub:loguploadservice
+12-17 19:40:23.739   625   718 E libnav  : CablComputeBacklightLevel(): UpdateType = DifferentSceneUpdate
+12-17 19:40:23.740  1795  2377 E ProcessInfoCollector: getProcessInfo: failed to find this proc 
+12-17 19:40:23.741  5215  5215 E wpa_supplicant: RSSI=-44;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:40:23.741  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:40:23.742  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:40:23.742  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-44 "Huawei-Employee"WPA_EAP
+12-17 19:40:23.742  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123162291/443360105 0 0
+12-17 19:40:23.742  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123162291/443360105 0 0
+12-17 19:40:23.742  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123162291/443360106 0 0
+12-17 19:40:23.742  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123162291/443360106 0 0
+12-17 19:40:23.742  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 0'
+12-17 19:40:23.742  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 0'
+12-17 19:40:23.743  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:40:23.745  1795  1795 D HwPFWLogger: PFW.HwPFWService:mBroadcastReceiver action = android.intent.action.SCREEN_ON
+12-17 19:40:23.746  1795  2708 D HwPFWLogger: PFW.HwPFWService:handle PFW_MSG_SYSTEM
+12-17 19:40:23.746  1795  2708 D HwPFWLogger: PFW.HwPFWAppRestartPolicy:receive action = android.intent.action.SCREEN_ON
+12-17 19:40:23.748  1795  1795 D WifiService: onReceive, action:android.intent.action.SCREEN_ON
+12-17 19:40:23.748  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155650 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:40:23.748  1795  2670 D WifiController: StaEnabledState what=155650
+12-17 19:40:23.748  1795  2670 D WifiController: DefaultState what=155650
+12-17 19:40:23.748  1795  2670 I AlarmManager: remove(PendingIntent{50e3a01: PendingIntentRecord{a8130a6 android broadcastIntent}}) changed bounds; rebatching
+12-17 19:40:23.749  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:40:23.750  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -2.367923 Y: 1.145560 Z: 8.773440  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:40:23.753  1795  1795 D HwArpVerifier: startWifiRouteCheck
+12-17 19:40:23.755  1795  1795 D WifiProStatisticsManager: sendScreenOnEvent enter.
+12-17 19:40:23.755  1795  2734 D WifiProStatisticsManager: msg Loop is running.
+12-17 19:40:23.756  1795  2733 D WiFi_PRO_WifiProStateMachine: device screen on,but isScreenOffMonitor is false
+12-17 19:40:23.761  1795  1795 I EyeProtectionControllerImpl: onReceive intent action = android.intent.action.SCREEN_ON
+12-17 19:40:23.763  1795  2736 D HwInnerWifiManagerImpl: SupplicantState = COMPLETED
+12-17 19:40:23.763  1795  2736 D HwInnerWifiManagerImpl: isPhoneAP = false
+12-17 19:40:23.765 20818 20818 I art     : Starting a blocking GC AddRemoveAppImageSpace
+12-17 19:40:23.765  2883  2883 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:40:23.766  3218  7071 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:40:23.766  1795  3139 D PowerManagerService: acquire lock=184063844, flags=0x1, tag="NetworkStats", name=android, ws=null, uid=1000, pid=1795
+12-17 19:40:23.766  3218  7071 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:40:23.766  1795  3139 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.766  1795  3139 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:23.767 20818 20818 W System  : ClassLoader referenced unknown path: /data/hw_init/version/special_cust/MLA-AL00/all/cn/app/HwBetaClub/lib/arm64
+12-17 19:40:23.769  1795  2736 E hwintelligencewifi: getCurrentCellid type type = PHONE_TYPE_GSM
+12-17 19:40:23.769  1795  2736 E hwintelligencewifi: getCurrentCellid type is PHONE_TYPE_GSM
+12-17 19:40:23.769  1795  3139 D NetdConnector: SND -> {11641 bandwidth gettetherstats}
+12-17 19:40:23.769  2883  2883 I HwSystemManager: AutoCleanReceiveServer:receive action:android.intent.action.SCREEN_ON
+12-17 19:40:23.771  1795  2665 D NetdConnector: RCV <- {200 11641 Tethering stats list completed}
+12-17 19:40:23.771 20818 20818 W art     : JIT profile information will not be recorded: profile file does not exits.
+12-17 19:40:23.771  1795  2665 D NetdConnector: RCV <- {200 11641 Tethering stats list completed}
+12-17 19:40:23.773  1795  2736 E hwintelligencewifi: getCurrentCellid PHONE_TYPE_GSM cellidString = 4600046525542
+12-17 19:40:23.773  1795  2736 E hwintelligencewifi: updataApInfo cellid =4600046525542
+12-17 19:40:23.773  1795  2736 E hwintelligencewifi: addCurrentApInfo cellid =4600046525542
+12-17 19:40:23.773  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:40:23.773  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:40:23.774  3168  3168 I CHR_ChrDataServiceTracker: handledataswitchchanged
+12-17 19:40:23.774  1795  3139 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:40:23.774  1795  3139 D HwNetworkStatsService: mActiveIface: null
+12-17 19:40:23.775  1795  3139 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+12-17 19:40:23.775  1795  3139 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:40:23.776  1795  3139 D PowerManagerService: release:lock=184063844, flg=0x0, tag="NetworkStats", name=android", ws=null, uid=1000, pid=1795
+12-17 19:40:23.776  1795  3139 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.776  1795  3139 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:23.777  1795  3077 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_ON
+12-17 19:40:23.777  1795  3077 I GnssLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:true
+12-17 19:40:23.777  1795  3077 I GnssLocationProvider: disableGps:false  isEnabled()=true
+12-17 19:40:23.779   835  2385 E libteec : begin
+12-17 19:40:23.779   606  2379 E libteec : receive data len = 128
+12-17 19:40:23.783  2883  3040 E HwSystemManager: TrafficNotifyAfterLocked:screen notification will not notify
+12-17 19:40:23.792   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:23.792   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:23.792   606  2379 E libteec : send data return = 128
+12-17 19:40:23.793   835  2385 E libteec : receive data len = 128
+12-17 19:40:23.793   835  2385 E libteec : begin
+12-17 19:40:23.793   835  2385 E libteec : qsc_decode end
+12-17 19:40:23.794  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:40:23.795  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:40:23.795  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:40:23.796  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:40:23.796  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:40:23.796  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_ON  flag:1342177296 
+12-17 19:40:23.797 20818 20818 D BetaClub: [IssueTypeParser.parseIssueType]load configuration
+12-17 19:40:23.803  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:40:23.803  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:40:23.806  3180  3332 I ScenarioAction: new ScenarioAction sPoolSize: 0
+12-17 19:40:23.806  3180  3332 I BatteryMonitor: screen off: 4m27s, awake: 8s wakeups: 3, battery changed: 0
+12-17 19:40:23.809  3180  3578 D HwMultiWindowEx: isInMultiWindowMode ret: 0
+12-17 19:40:23.810  3180  3578 I ThermalStateManager: handle action thermal policy:208
+12-17 19:40:23.811  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -2.504977 Y: 1.318533 Z: 8.356319  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:40:23.811  3218 13036 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:40:23.811  3626  4889 D PTM.ThermalCommonInfo: Action: Unknown
+12-17 19:40:23.812  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.812  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:40:23.812  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: true
+12-17 19:40:23.812  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.812  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.812  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.812  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.812  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.812  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.812  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.812  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0

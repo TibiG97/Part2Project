@@ -1,0 +1,100 @@
+12-17 19:34:57.711  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 31 -67 -7 14 2147483647 2147483647 false gw|lte
+12-17 19:34:57.711  3218  3218 I QImsService: ImsServiceSubHandler : Message received: what = 27
+12-17 19:34:57.711  3218  3218 I QImsService: ImsServiceSub : handleSsac voice = 100
+12-17 19:34:57.711  3218  3218 I QImsService: ImsServiceSub : broadcastVopsSsacIntent Vops = true , Ssac = false
+12-17 19:34:57.711  3218  3218 I SendBroadcastPermission: action:org.codeaurora.VOIP_VOPS_SSAC_STATUS, mPermissionType:0
+12-17 19:34:57.712  1795 16501 W ActivityManager: Sending non-protected broadcast org.codeaurora.VOIP_VOPS_SSAC_STATUS from system 3218:com.android.phone/1001 pkg com.android.phone
+12-17 19:34:57.712  3218  3218 I QImsService: ImsServiceSubHandler : Message received: what = 2
+12-17 19:34:57.712  3218  3218 I QImsService: ImsServiceSubHandler : handleImsStateChanged
+12-17 19:34:57.712  3218  3218 I QImsService: ImsServiceSubHandler : Notify IMS state is UNREGISTERED
+12-17 19:34:57.712  3218  3218 I SendBroadcastPermission: action:huawei.intent.action.IMS_SERVICE_STATE_CHANGED, mPermissionType:0
+12-17 19:34:57.713  1795 15987 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{24cdca7 3218:com.android.phone/1001}, intent:huawei.intent.action.IMS_SERVICE_STATE_CHANGED, receiver size:1, flags: 10000400
+12-17 19:34:57.713  1795 15987 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{24cdca7 3218:com.android.phone/1001}
+12-17 19:34:57.713  1795 15987 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{24cdca7 3218:com.android.phone/1001}
+12-17 19:34:57.713  1795 15987 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{77db213 u0 huawei.intent.action.IMS_SERVICE_STATE_CHANGED}: prev had 1
+12-17 19:34:57.714  2852  2852 D HwPhoneStatusBarPolicy: state is UNREGISTERED
+12-17 19:34:57.714  2852  2852 I HwPhoneStatusBarPolicy: updateVolte::volteState=UNREGISTERED
+12-17 19:34:57.714  3218  3218 D HwQcomVolteChrService: getDefaultPhone phone = Handler (com.android.internal.telephony.GsmCdmaPhone) {6d6dfc5}
+12-17 19:34:57.714  2852  2852 I HwStatusBarIconController: applyIconTint
+12-17 19:34:57.715  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+12-17 19:34:57.716  3218  3218 I SendBroadcastPermission: action:com.android.imscontection.DISCONNECTED, mPermissionType:0
+12-17 19:34:57.717  1795  3249 W ActivityManager: Sending non-protected broadcast com.android.imscontection.DISCONNECTED from system 3218:com.android.phone/1001 pkg com.android.phone
+12-17 19:34:57.717  3858  4126 D TelephonyManager: getNeighboringCellInfo calling app is com.amap.android.ams
+12-17 19:34:57.717  3218  3218 I QImsService: ImsServiceSub : sendBroadcastForDisconnected
+12-17 19:34:57.718  1795 17831 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.719  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:huawei.intent.action.IMS_SERVICE_STATE_CHANGED
+12-17 19:34:57.719  1795  2396 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.719  2852  2852 I NetworkController.MobileSignalController(0): Change in state from: connected=true,enabled=true,level=5,inetCondition=1,iconGroup=IconGroup(Unknown),activityIn=false,activityOut=false,rssi=0,lastModified=12-17 07:34:57,isRoaming=false,dataSim=true,networkName=中国移动,networkNameData=中国移动,dataConnected=false,isDefault=false,isEmergency=false,airplaneMode=false,carrierNetworkChangeMode=false,userSetup=true
+12-17 19:34:57.719  2852  2852 I NetworkController.MobileSignalController(0): 	to: connected=true,enabled=true,level=5,inetCondition=1,iconGroup=IconGroup(4G),activityIn=false,activityOut=false,rssi=0,lastModified=12-17 07:34:57,isRoaming=false,dataSim=true,networkName=中国移动,networkNameData=中国移动,dataConnected=false,isDefault=false,isEmergency=false,airplaneMode=false,carrierNetworkChangeMode=false,userSetup=true
+12-17 19:34:57.720  1795  3238 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.720  1795 16500 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSubHandler : Message received: what = 4
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSubHandler : Received event: EVENT_SRV_STATUS_UPDATE
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : type = 10 status = 0 isValid = true
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : type = 0 status = 0 isValid = true
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : Call Type 0has num updates = 1
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : StatusForAccessTech networkMode = -1 registered = 2 status = 0 restrictCause = 0
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : disabledFeature = 0
+12-17 19:34:57.721  3218  4159 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : type = 3 status = 0 isValid = true
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : Call Type 3has num updates = 1
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : StatusForAccessTech networkMode = -1 registered = 2 status = 0 restrictCause = 0
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : disabledFeature = 1
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : type = 1 status = 0 isValid = true
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : Call Type 1has num updates = 1
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : StatusForAccessTech networkMode = -1 registered = 2 status = 0 restrictCause = 0
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : disabledFeature = 1
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : type = 2 status = 0 isValid = true
+12-17 19:34:57.721  3218  4159 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : Call Type 2has num updates = 1
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : StatusForAccessTech networkMode = -1 registered = 2 status = 0 restrictCause = 0
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : disabledFeature = 1
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : type = 11 status = 0 isValid = true
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : Call Type 11has num updates = 1
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : StatusForAccessTech networkMode = 14 registered = 1 status = 2 restrictCause = 0
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceSub : enabledFeature = 4
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceClassTracker : updateFeatureCapabilities video false voice false
+12-17 19:34:57.721  3218  3218 I QImsService: ImsServiceStateReceiver : updateHDIcon isVideo : false isVoice : false phoneId: 0 show HD Icon: false
+12-17 19:34:57.723  2852  2914 I SimCardMethod: isCardAbsent slot:0 slotState:5
+12-17 19:34:57.723  2852  2852 D HwMobileSignalController: getTypeIcon type:3
+12-17 19:34:57.723  2852  2852 D HwMobileSignalController:  4G, isCAState=false
+12-17 19:34:57.724  2852  2852 I HwMobileSignalController: notifyListenerHuawei::origin typeIcon:2130839157 icons.mName:4G isSuspend:false, showDataIcon=false, dataConnected=false, isRoaming=false
+12-17 19:34:57.724  2852  2852 I HwSignalClusterView: getOrInflateState subId:0
+12-17 19:34:57.724  2852  2852 I HwSignalClusterView: getOrInflateState subId:0
+12-17 19:34:57.724  2852  2852 I HwSignalClusterView: setMobileDataIndicatorsHuawei subId:0 visible:true strengthIcon:2130839311 typeIcon:2130839157 contentDescription:手机信号满格。 typeContentDescription:4G isTypeIconWide:true showActivity:false activityIn:false activityOut:false isRoaming:false
+12-17 19:34:57.724  2852  2852 I HwSignalClusterView: getOrInflateState subId:0
+12-17 19:34:57.724  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:34:57.725  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:34:57.725  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 0.780606 Y: 6.042731 Z: 8.809753  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:57.725  2852  2852 I HwSignalClusterView: setMobileDataIndicatorsHuawei subId:0 visible:true strengthIcon:2130839311 typeIcon:2130839157 contentDescription:手机信号满格。 typeContentDescription:4G isTypeIconWide:true showActivity:false activityIn:false activityOut:false isRoaming:false
+12-17 19:34:57.725  2852  2852 I HwSignalClusterView: getOrInflateState subId:0
+12-17 19:34:57.726  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:34:57.726  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:34:57.726  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:34:57.728  3466  3466 I Contacts: DialpadFragment SIM 1 enable:true, SIM 2 enable:false
+12-17 19:34:57.728  3466  3466 I Contacts: DialpadFragment Sim presence : 1
+12-17 19:34:57.731  3466  3466 I Contacts: DialpadFragment sim_one is presence -> updateSingleCardButton
+12-17 19:34:57.741  1795  3237 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.742  1795 17831 D PowerManagerService: acquire lock=40278605, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:34:57.742  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:34:57.742  1795 17831 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.749  3218  3218 I QImsService: ImsServiceStateReceiver : isShowHDIconSupported config showHDIcon : true
+12-17 19:34:57.749  3218  3218 D ImsViceParser: getCallPullInfo mDialogIds null
+12-17 19:34:57.750  1795  3884 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.751  1795  3110 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.751  1795  2778 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.752  1795 11747 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.754  3218  3218 D Telephony: TelecomAccountRegistry: onServiceStateChanged0 newState : 0, mServiceState : 0
+12-17 19:34:57.760  3218  3218 D HwCustPhoneGlobalsImpl: full network is true old serivce state is 0 new service state is 0 subid is 0 hasNotification is false
+12-17 19:34:57.766  3218  3218 W CfgFilePolicy: No config file found for:xml/VirtualNet_cust.xml
+12-17 19:34:57.766  3218  3218 W CfgFilePolicy: CFG_DIRS length : 9
+12-17 19:34:57.766  1795 15982 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{77db213 u0 huawei.intent.action.IMS_SERVICE_STATE_CHANGED}, has 1 receivers
+12-17 19:34:57.768  1795  3121 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.771  1795  2381 D libfingersense_wrapper: Calling fingersense_touch_up()
+12-17 19:34:57.771  1795  2381 D libfingersense_wrapper: fingersense_touch_up() finished
+12-17 19:34:57.773  1795  1805 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.773  1795 11745 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.774  1795 16501 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.774  1795 15988 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.775  3218  3218 D HwCust  : Create obj success use class com.android.settings.deviceinfo.HwCustStatusImpl
+12-17 19:34:57.776  3218  3218 V AudioManager: playSoundEffect   effectType: 0

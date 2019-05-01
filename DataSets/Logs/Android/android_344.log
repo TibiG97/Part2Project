@@ -1,0 +1,100 @@
+12-17 19:35:30.623  2852  2852 W StatusBarWindowManager: Apply window Height 72
+12-17 19:35:30.623  2852  2852 I StatusBarWindowManager: apply skiped :0
+12-17 19:35:30.624  2852  2852 D PhoneStatusBar: disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >
+12-17 19:35:30.624  2852  2852 I PhoneStatusBar: suspendAutohide
+12-17 19:35:30.624  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:35:30.624  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:35:30.624  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:35:30.624  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:35:30.624  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundAlpha:alpha=0.0
+12-17 19:35:30.624  2852  2852 W ScrimController: startScrimAnimation 1.0 @ com.android.systemui.statusbar.AlphaOptimizedView{d0b83cd V.ED..... ........ 0,0-1080,750 #7f1403fe app:id/heads_up_scrim}
+12-17 19:35:30.624  2852  2852 I vol.VolumeDialogControl: C onDismissRequested reason = 2
+12-17 19:35:30.624  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:35:30.624  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:35:30.624  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:35:30.625  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:35:30.625  2852  2852 I NotificationGroupManager: onHeadsUpStateChanged:0|com.tencent.mm|4097|null|10105
+12-17 19:35:30.625  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.tencent.mm|4097|null|10105, group=0|com.tencent.mm|4097|null|10105
+12-17 19:35:30.625  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:35:30.625  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:35:30.625  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:35:30.626  1795  3884 I NotificationManager: Marking notification as seen 0|com.tencent.mm|4097|null|10105
+12-17 19:35:30.626  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:35:30.627  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:35:30.628  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:35:30.628  1795  3253 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:35:30.628  1795  2778 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:35:30.629  2852  2852 D ReporterUtil:  e id:344 type:{pkg:com.tencent.mm}
+12-17 19:35:30.630  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:35:30.631  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:35:30.639  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:30.639  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:30.645  2852  2852 I StackScrollAlgorithm: overlapAmount:919.6, previousNotificationEnd:156.0, newYTranslation:-763.6, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-643
+12-17 19:35:30.645  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:35:30.645  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:35:30.646  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:35:30.646  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:35:30.665  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:35:30.665  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: -1; Flag: 81840068
+12-17 19:35:30.666  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onDismissRequested reason = 2
+12-17 19:35:30.688  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:35:30.696  2852  2852 I StackScrollAlgorithm: overlapAmount:525.3814, previousNotificationEnd:258.0, newYTranslation:-267.3814, location:8, i:1, getTopPadding:499.0, getLocationOnScreen():-745
+12-17 19:35:30.696  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:501, i:1
+12-17 19:35:30.696  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:35:30.696  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:35:30.703  2852  2852 D UnderLayer: ondraw 0, Rect(0, 0 - 1080, 1920)
+12-17 19:35:30.778  1795  3111 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:30.848  3879  5881 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=null][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=1] uid =10105 pid =4492
+12-17 19:35:30.850  3879  5881 I HwLauncher: ProviderCallUtils callBadge isCloned = false
+12-17 19:35:30.859  1795  6988 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:30.861  3879  3894 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=[shortcut_c2a51ac39f4ec2a0c386c385c2b37ac2a040c3a7c289c3bec28b547dc2b0c2a6]][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=1] uid =10105 pid =4492
+12-17 19:35:30.880  1795  1795 I TrafficMonitor: update:rxPkts:2,txPkts:2,rxBytes:562,txBytes:369
+12-17 19:35:30.880  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:35:30.880  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:35:31.009  2852  2852 I SystemUIIdleHandler: enter addToIdleMessage(type:1002), mainloop is busy, add to idleMessage
+12-17 19:35:31.129  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:35:29,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:31.129  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:35:29,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:31.129  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:31.130  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:31.131  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:31.132  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:31.133  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:31.133  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:31.141  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:35:31.339  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:31.339  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:31.340  2852  2852 I StackScrollAlgorithm: overlapAmount:525.3814, previousNotificationEnd:258.0, newYTranslation:-267.3814, location:8, i:1, getTopPadding:499.0, getLocationOnScreen():-745
+12-17 19:35:31.340  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:501, i:1
+12-17 19:35:31.340  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:35:31.340  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:35:31.342  1795  3247 I NotificationManager: onNotificationVisibilityChanged called
+12-17 19:35:31.356  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:35:31.359  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:35:31.360  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 1 mComponentName :ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:35:31.360  3879  4071 I HwLauncher: BadgeContentObserver newBadgeNumber:1,oldBadgeNumber:0 mComponentName : ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:35:31.361  3879  4071 D ApplicationPackageManager: queryIntentActivitiesAsUser size results:1, for package:com.tencent.mm
+12-17 19:35:31.361  3879  4071 I HwLauncher: AllIdleAppsList  updatePackage  isCloneApp =  false
+12-17 19:35:31.362  1795 11746 D ApplicationPackageManager: queryIntentActivitiesAsUser size results:1, for package:com.tencent.mm
+12-17 19:35:31.362  3879  4071 I HwLauncher: AllIdleAppsList  updatePackage : package[com.tencent.mm] matched activity's size is 1 and data List size is 69
+12-17 19:35:31.369  3879  4071 I HwResourcesImpl: load icon id : 7f020360, pkgName : com.tencent.mm
+12-17 19:35:31.369  3879  4071 W CfgFilePolicy: No config file found for:/themes/diff/icons
+12-17 19:35:31.369  3879  4071 W CfgFilePolicy: CFG_DIRS length : 9
+12-17 19:35:31.369  3879  4071 I HwResourcesImpl: icon : com.tencent.mm found in app
+12-17 19:35:31.370  3879  4071 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:31.379  3879  4071 I HwLauncher: Launcher.IconCache, cacheLocked  Utilities.createIconBitmap entry.title = 微信 ComponentName:ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI} user:UserHandle{0}
+12-17 19:35:31.379  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:35:31.381  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:35:31.382  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 1 mComponentName :ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:35:31.383  3879  4071 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:31.385  3879  4071 I HwLauncher: Launcher.Utilities  unread scaledHeight = 55;sBigIconSize = 175
+12-17 19:35:31.385  3879  4071 I HwLauncher: Workspace  The same unread count.
+12-17 19:35:31.385  3879  4071 I HwLauncher: Workspace updateCustomizeShortcuts view invalidate ShortcutInfo(title=微信)
+12-17 19:35:31.386  3879  3879 I HwLauncher: Launcher.Folder childCount: 7
+12-17 19:35:31.386  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:35:31.386  3879  3879 I HwLauncher: Launcher.Folder childCount: 2
+12-17 19:35:31.386  3879  3879 I HwLauncher: Launcher.Folder childCount: 6
+12-17 19:35:31.386  3879  3879 I HwLauncher: Launcher.Folder childCount: 3
+12-17 19:35:31.388  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:35:31.389  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 1 mComponentName :ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:35:31.391  3879  4071 I HwLauncher: Launcher.Utilities  unread scaledHeight = 55;sBigIconSize = 175
+12-17 19:35:31.420  1795  2728 D HwArpVerifier: performPollAndLog:

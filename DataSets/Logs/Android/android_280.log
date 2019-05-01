@@ -1,0 +1,100 @@
+12-17 19:34:56.241  3218  4159 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:34:56.241  1795 15988 D Telecom : Call: maybeLoadCannedSmsResponses: doing nothing: CSW.sD@EsU
+12-17 19:34:56.241  1795 15988 D Telecom : TelecomAnalytics: setting endTime for call TC@11 to 1481974496241: CSW.sD@EsU
+12-17 19:34:56.241  1795 15988 I Telecom : Event: Call TC@11: SET_DISCONNECTED, disconnected set explicitly> DisconnectCause [ Code: (REMOTE) Label: () Description: () Reason: (Normal call clearing, NORMAL) Tone: (27) ]: CSW.sD@EsU
+12-17 19:34:56.242  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:34:56.242  1795 15988 I Telecom : InCallController: Sending updateCall DISCONNECTED ==> parcelableCall :[TC@11, parent:null, children:[]]: CSW.sD@EsU
+12-17 19:34:56.242  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:34:56.242  1795 15988 D HwCustCallLogManager: hw_calllog_type = 1
+12-17 19:34:56.242  1795 15988 D Telecom : CallLogManager: logNumber set to: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx: CSW.sD@EsU
+12-17 19:34:56.243  1795  2377 V HwPackageManagerService: Returning system default Launcher 
+12-17 19:34:56.243  3608  3608 D InCall  : Call - TelecomCallCallback onStateChanged call=Call [id: TC@11, state: DISCONNECTED, details: [pa: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, 89860011191407483029, UserHandle{0}, hdl: xxxxxxxxxxxxxxxx, caps: [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], props: [Properties:]]] newState=7  mCallState=7
+12-17 19:34:56.243  1795  2377 I AwareLog: AwareMem_EventTracker: [APP_ACTIVITY_FINISH_123093858] is abandoned for memory 833020
+12-17 19:34:56.243  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:34:56.243  3608  3608 I InCall  : CallList - onDisconnect: [Call_10, DISCONNECTED, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)]
+12-17 19:34:56.243  3608  3608 D InCall  : InCallActivity - dismiss redial dialog
+12-17 19:34:56.243  3608  3608 D InCall  : InCallActivity - maybeShowErrorDialogOnDisconnect
+12-17 19:34:56.243  3608  3608 D HwCustInCallActivityImpl: mContext:com.android.incallui.InCallActivity@2594e38code:16
+12-17 19:34:56.247  2883  2883 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:34:56.248  1795 16498 D PowerManagerService: acquire lock=184063844, flags=0x1, tag="NetworkStats", name=android, ws=null, uid=1000, pid=1795
+12-17 19:34:56.248  1795 16498 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:56.250  1795  2736 E hwintelligencewifi: getCurrentCellid type type = PHONE_TYPE_GSM
+12-17 19:34:56.250  1795  2736 E hwintelligencewifi: getCurrentCellid type is PHONE_TYPE_GSM
+12-17 19:34:56.252  1795 16498 D NetdConnector: SND -> {11632 bandwidth gettetherstats}
+12-17 19:34:56.252  3608  3608 D InCall  : InCallPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:34:56.252  3608  3608 D InCall  : InCallPresenter - onCallListChange oldState= INCALL newState=INCALL
+12-17 19:34:56.252  3608  3608 D InCall  : InCallPresenter - mShowRedial is false, mQuickExitFlag is false
+12-17 19:34:56.252  3608  3608 D InCall  : InCallPresenter - onCallListChange newState changed to INCALL
+12-17 19:34:56.252  1795  2736 E hwintelligencewifi: getCurrentCellid PHONE_TYPE_GSM cellidString = 460003645
+12-17 19:34:56.252  1795  2736 E hwintelligencewifi: updataApInfo cellid =460003645
+12-17 19:34:56.252  1795  2736 E hwintelligencewifi: addCurrentApInfo cellid =460003645
+12-17 19:34:56.252  3608  3608 I InCall  : InCallPresenter - Phone switching state: INCALL -> INCALL
+12-17 19:34:56.252  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.VTCallButtonPresenter@890efc of state INCALL
+12-17 19:34:56.252  3608  3608 I InCall  : VTCallButtonPresenter - onStateChange: newstate is: INCALL
+12-17 19:34:56.253  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.ProximitySensor@18f03d8 of state INCALL
+12-17 19:34:56.253  2883  2883 I HwSystemManager: AutoCleanReceiveServer:receive action:android.intent.action.SCREEN_ON
+12-17 19:34:56.253  1795  2665 D NetdConnector: RCV <- {200 11632 Tethering stats list completed}
+12-17 19:34:56.253  1795  3884 I qti_sensors_hal: batch,376,handle 0, timeout:0 ,period_ns:200000000
+12-17 19:34:56.253  1795  3884 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) handle:0 flags:0x0 period_ns 200000000
+12-17 19:34:56.254  1795 15988 D EcidContact-Phone: isAddContactsOverride
+12-17 19:34:56.254  1795  2665 D NetdConnector: RCV <- {200 11632 Tethering stats list completed}
+12-17 19:34:56.255  1795 15988 E ActivityThread: Failed to find provider info for com.cequint.ecid
+12-17 19:34:56.255  1795 15988 D Telecom : CallsManager: isEncryptEnabled able = false: CSW.sD@EsU
+12-17 19:34:56.255  1795 15988 D Telecom : CallLogManager: LogEncryptCall return ENCRYPT_CALL_DISABLED_FLAG: CSW.sD@EsU
+12-17 19:34:56.255  1795 15988 D Telecom : CallLogEx: setEncryptCallFlag encryptCallFlag = -1: CSW.sD@EsU
+12-17 19:34:56.255  1795 15988 I Telecom : CallLogManager: callFeatures is 0: CSW.sD@EsU
+12-17 19:34:56.257  1795 15988 D Telecom : Call: getSubId subId is 0: CSW.sD@EsU
+12-17 19:34:56.259  1795 16498 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:34:56.259  1795 16498 D HwNetworkStatsService: mActiveIface: null
+12-17 19:34:56.259  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:34:56.259  3168  3168 I CHR_ChrDataServiceTracker: handledataswitchchanged
+12-17 19:34:56.261  1795 16498 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+12-17 19:34:56.262  1795  3077 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_ON
+12-17 19:34:56.262  1795  3077 I GnssLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:true
+12-17 19:34:56.262  1795  3077 I GnssLocationProvider: disableGps:false  isEnabled()=true
+12-17 19:34:56.263  1795 15988 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:996 android.content.ContextWrapper.sendBroadcast:426 com.android.server.telecom.CallLogManager.sendAddCallBroadcast:753 com.android.server.telecom.CallLogManager.logCall:545 com.android.server.telecom.CallLogManager.logCall:422 
+12-17 19:34:56.263  1795 15988 I SendBroadcastPermission: action:com.android.server.telecom.intent.action.CALLS_ADD_ENTRY, mPermissionType:0
+12-17 19:34:56.265  1795 16498 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.265  1795 15988 D Telecom : CallLogManager: Logging Calllog entry: com.android.internal.telephony.CallerInfo@ddc6c47 { name null, phoneNumber non-null }, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,1, 1, 1481974245374, 250869, nmberMarkInfo: number: xxxxxxxxxxxxattribute: name: xx-xxxxxxxxclassify: brandclassifyName: isVip: falsevipMsg: isVerified: falseisCloudMark: truemarkedCount: -1supplier: tomsdescription: errorMsg: : CSW.sD@EsU
+12-17 19:34:56.265  1795 16498 D PowerManagerService: release:lock=184063844, flg=0x0, tag="NetworkStats", name=android", ws=null, uid=1000, pid=1795
+12-17 19:34:56.265  1795 16498 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:56.266  1795 15988 D StatisticalHelper: report eventID(4063) msg(250s) false
+12-17 19:34:56.266  1795 15988 D Telecom : CallAudioManager: Call state changed for TC@TC@11: ACTIVE -> DISCONNECTED: CSW.sD@EsU
+12-17 19:34:56.266  1795 20550 D Telecom : CallLogManager: LogCallAsyncTask insert count = 1
+12-17 19:34:56.266  1795 20550 D TelephonyUtil: Trying to get current content resolver...
+12-17 19:34:56.270  1795  3884 I qti_sensors_hal: read from oem info: data_readback
+12-17 19:34:56.270  1795  3884 I qti_sensors_hal: 0xcd, 0xb0, 0x24, 0x3e
+12-17 19:34:56.270  1795  3884 I qti_sensors_hal: 0x66, 0xca, 0x3c, 0x3e
+12-17 19:34:56.270  1795  3884 I qti_sensors_hal: 0xc0, 0x2a, 0x7c, 0x3f
+12-17 19:34:56.270  1795  3884 I qti_sensors_hal: 0x55, 0x0, 0x0, 0x0
+12-17 19:34:56.270  1795  3884 I qti_sensors_hal: 0x0, 0x0, 0x0, 0x0
+12-17 19:34:56.270  1795  3884 E qti_sensors_hal: read from oem info: data_valid_flag=0x55
+12-17 19:34:56.270  1795  3884 E qti_sensors_hal: read from oem info: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:34:56.270  1795  3884 E qti_sensors_hal: Final value: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:34:56.270  1795  3884 I qti_sensors_hal: batch:load_acc_oeminf_data x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:56.270  1795  3884 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) sample_rate=5.000000Hz report_rate_f=0.000000Hz curr sample rate:5.000000 cur rpt rate:0 max:400.000000 min:1.000000
+12-17 19:34:56.270  1795  3884 I qti_sensors_hal: batch: current sample rate, report rate & buffering are equal to requested (5.000000,0.000000,0)
+12-17 19:34:56.271  1795 15988 D Telecom : CallsManager: getActiveSubscription: 0: CSW.sD@EsU
+12-17 19:34:56.271  2883  3040 E HwSystemManager: TrafficNotifyAfterLocked:screen notification will not notify
+12-17 19:34:56.271  3608  3608 I InCall  : ProximitySensor - ProximitySensor{keybrd=0, dpad=0, offhook=0, hor=0, ui=1, aud=EARPIECE}
+12-17 19:34:56.271  3608  3608 D InCall  : ProximitySensor - Turning off proximity sensor
+12-17 19:34:56.271  3608  3608 I InCall  : ProximitySensor - Releasing proximity wake lock
+12-17 19:34:56.271  1795  3247 D PowerManagerService: release:lock=151910209, flg=0x1, tag="ProximitySensor", name=com.android.incallui", ws=null, uid=1001, pid=3608
+12-17 19:34:56.272  1795 20550 D TelephonyUtil: myUser=0currentUser=0
+12-17 19:34:56.272  1795  3247 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:56.272  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:34:56.272  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:34:56.272  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:34:56.272  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.StatusBarNotifier@98372bb of state INCALL
+12-17 19:34:56.272  3608  3608 D InCall  : StatusBarNotifier - cancelInCall()...
+12-17 19:34:56.272  3608  3608 D InCall  : StatusBarNotifier - updateInCallNotification: timer cleared
+12-17 19:34:56.272  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.VideoPauseController@adc8584 of state INCALL
+12-17 19:34:56.272  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onStateChange, hasPrimaryCallChanged=true canVideoPause=false IsInBackground=false
+12-17 19:34:56.272  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onPrimaryCallChanged: New call = null
+12-17 19:34:56.272  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:34:56.273  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onPrimaryCallChanged: Old call = CallContext {CallId=Call_10, State=3, VideoState=0}
+12-17 19:34:56.273  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:34:56.273  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onPrimaryCallChanged, IsInBackground=false
+12-17 19:34:56.273  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.CallButtonPresenter@f67e3ef of state INCALL
+12-17 19:34:56.273  1795  1825 D Sensors : batch called handle:2 sample_ns:200000000 latency_ns:0
+12-17 19:34:56.273  1795  1825 D Sensors : pa2240-proximity calling driver setDelay 200 ms

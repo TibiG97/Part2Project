@@ -1,0 +1,100 @@
+12-17 19:42:45.520 20894 20910 I ChinaUploader: response code: 200
+12-17 19:42:45.520   633   692 I ECS     : Heartbeat timer.timers{6125} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 112 bytes [16]_00_00_00_6C_00_03_01_03_12_05_87_4E_EC_D5_32_80 cmdCode(CC_Heartbeat.0x0312)msgType(MT_ARG.1)msgClass(MC_InstanceMessage.3)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(108)version(3)sno(874E)
+12-17 19:42:45.521 20894 20910 I ChinaUploader: read: {"size":6476143,"checksum":2896686063,"md5":"ce3ba8e9487367f0a3559157d1018385","ts":1481974963}
+12-17 19:42:45.522 20894 20910 I ChinaUploader: read completed, {"size":6476143,"checksum":2896686063,"md5":"ce3ba8e9487367f0a3559157d1018385","ts":1481974963}
+12-17 19:42:45.523 20894 20910 I ChinaUploadStateMachine: result = 200
+12-17 19:42:45.523 20894 20910 I ChinaUploadStateMachine: dealWithLargeFileResult200
+12-17 19:42:45.523 20894 20910 I ChinaUploadStateMachine: upload success200type = 1
+12-17 19:42:45.524 20894 20910 I BetaNotificationSent: sendBroadcast to show notifition
+12-17 19:42:45.524 20894 20910 I BetaNotificationSent: sendBroadcast , size < 10 * SIZE_M , do not send
+12-17 19:42:45.524 20894 20910 E LogUpload.Utils: sendResultBroadcast policy:null
+12-17 19:42:45.524 20894 20910 I LogUpload.Utils: Upload successfully! The file is deleting... 
+12-17 19:42:45.524 20894 20910 I LogUpload.Utils: submitFlag1
+12-17 19:42:45.524 20894 20910 I LogUpload.Utils: resultFlag1
+12-17 19:42:45.524 20894 20910 I LogUpload.Utils: Upload sendBroadcast to com.huawei.imonitorcom.huawei.lcagent.service.LogBroadcastReceiver
+12-17 19:42:45.525 20894 20910 I LogUpload.Utils: mLogUploadInfo.getUploadErrCode():
+12-17 19:42:45.525 20894 20910 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:975 android.content.ContextWrapper.sendBroadcast:421 com.huawei.logupload.util.Utils.sendResultBroadcast:164 com.huawei.logupload.state.StateMachine.finished:2106 com.huawei.logupload.state.ChinaUploadStateMachine$UploadEndState.processMessage:736 
+12-17 19:42:45.528 20894 20910 I SendBroadcastPermission: action:com.huawei.lcagent.UPLOAD_RESULT, mPermissionType:0
+12-17 19:42:45.530  1795  3247 W ActivityManager: Sending non-protected broadcast com.huawei.lcagent.UPLOAD_RESULT from system 20894:com.huawei.logupload/1000 pkg com.huawei.logupload
+12-17 19:42:45.530  1795  3247 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{eaac6d4 20894:com.huawei.logupload/1000}, intent:com.huawei.lcagent.UPLOAD_RESULT, receiver size:1, flags: 10000400
+12-17 19:42:45.531  1795  3247 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{eaac6d4 20894:com.huawei.logupload/1000}
+12-17 19:42:45.531  1795  3247 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{e1cee0b u0 com.huawei.lcagent.UPLOAD_RESULT}: prev had 0
+12-17 19:42:45.531  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{e1cee0b u0 com.huawei.lcagent.UPLOAD_RESULT}, has 1 receivers
+12-17 19:42:45.532 20894 20910 I StateMachine: before remove, size: 1
+12-17 19:42:45.532 20894 20910 I StateMachine: Task id: 381; state: 1
+12-17 19:42:45.532 20894 20910 I StateMachine: after remove, size: 0
+12-17 19:42:45.532 20894 20910 I StateMachine: Task id: 381; state: null
+12-17 19:42:45.537  3626  3626 I LogBroadcastReceiver: ACTION_UPLOAD_RESULT_INTENT received
+12-17 19:42:45.537  3626  3626 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1527 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.huawei.lcagent.service.LogBroadcastReceiver.onReceive:85 android.app.ActivityThread.handleReceiver:3177 
+12-17 19:42:45.540  3626  3626 I LogCollectService: onStartCommand 
+12-17 19:42:45.540  3626  3626 I LogCollectService: onStartCommand com.huawei.lcagent.UPLOAD_RESULT
+12-17 19:42:45.541  3626  3753 I LogCollectService: msg = 12 received
+12-17 19:42:45.541  3626  3754 I LogDatabase: msg = 19 received
+12-17 19:42:45.542  3626  3755 I LogTrack: msg = 0 received
+12-17 19:42:45.542  3626  3755 I LogTrack: Handler Thread:com.huawei.lcagent.service.LogTrack
+12-17 19:42:45.544  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:42:45.544  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:42:45.544  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:42:45.545  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:42:45.545  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:42:45.551  3626  3754 I LogDatabase: handleClearPackLogsInfo, hashID = 6036151123030598854
+12-17 19:42:45.551  3626  3753 I LogCollectService: msg = 20 received
+12-17 19:42:45.564   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 28
+12-17 19:42:45.593 20894 20910 E StateMachine: finished lstUploadInfo.size()0
+12-17 19:42:45.593 20894 20894 I MainThreadProcess: msg.what = 0
+12-17 19:42:45.593 20894 20910 I UploadThreadManager: upload next
+12-17 19:42:45.604 20894 20894 I Lock    : release: release wake and wifi lock!
+12-17 19:42:45.604 20894 20894 I MainThreadProcess: release loguploadservice source
+12-17 19:42:45.604 20894 20894 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.stopService:1533 android.content.ContextWrapper.stopService:618 com.huawei.logupload.util.MainThreadProcess$MainHandler.handleMessage:53 android.os.Handler.dispatchMessage:102 android.os.Looper.loop:199 
+12-17 19:42:45.607 20894 20894 I Process : Sending signal. PID: 20894 SIG: 9
+12-17 19:42:45.617  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:42:45.621  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:42:45.631  1795 15982 I DisplayManagerService: stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=false
+12-17 19:42:45.632  1795 15982 I DisplayManagerService: stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=0
+12-17 19:42:45.632  1795 15987 I ActivityManager: Process com.huawei.logupload (pid 20894) has died
+12-17 19:42:45.632  1795 15987 D ActivityManager: cleanUpApplicationRecord -- 20894
+12-17 19:42:45.633  1795 15987 I ActivityManager: cleanUpApplicationRecordLocked, pid: 20894, restart: false
+12-17 19:42:45.633  1795 15987 I ActivityManager: cleanUpApplicationRecordLocked, reset pid: 20894, euid: 0
+12-17 19:42:45.635  1795  1809 I MultiTaskManagerService: onProcessDied pid = 20894, uid = 1000
+12-17 19:42:45.635  1795 16499 E HsmCoreServiceImpl: onTransact in code is: 102
+12-17 19:42:45.635  1795 16499 W MediaProcessHandler: processOp uid 1000 is not concerned!
+12-17 19:42:45.640  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:42:45.640  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:42:45.640  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:42:45.642  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:42:45.642  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:42:46.170  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000011000000514f454d484f4f4bfa0308000100000000]
+12-17 19:42:46.170  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 28 bytes data for SUB0
+12-17 19:42:46.170  3382  3399 D QcrilMsgTunnelSocket: Response ID 525306 is not served in this process.
+12-17 19:42:46.170  3382  3399 D QcrilMsgTunnelSocket: To broadcast an Intent via the notifier to external apps
+12-17 19:42:46.171  3382  3382 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+12-17 19:42:46.171  3382  3382 I SendBroadcastPermission: action:com.qualcomm.intent.action.ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW, mPermissionType:0
+12-17 19:42:46.171  1795  6988 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:46.171  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:42:46.171  1795  6988 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:46.171  1795  6988 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:42:46.172  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:42:46.172  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:42:46.172  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:42:46.172  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:42:46.172  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:42:46.172  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:42:46.172  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:42:46.172  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:42:46.172  1795  3111 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{4ff57fc 3382:com.qualcomm.qcrilmsgtunnel/1001}
+12-17 19:42:46.173  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:42:46.173  3218  3218 D QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+12-17 19:42:46.174  3218  3218 D QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+12-17 19:42:46.174  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:42:46.174  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:42:46.174  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:42:46.174  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:42:46.174  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:42:46.174  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:42:46.174  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:42:46.174  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:42:46.181  1795 16501 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:46.181  1795 16501 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:46.183  1795  6985 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:46.185  1795  3884 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:46.187  1795  1805 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0

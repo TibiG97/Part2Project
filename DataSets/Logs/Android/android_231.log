@@ -1,0 +1,100 @@
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: Add randomness: count=868 entropy=471
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=16): [REMOVED]
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=5): [REMOVED]
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: Add randomness: count=869 entropy=472
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=16): [REMOVED]
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=5): [REMOVED]
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: Add randomness: count=870 entropy=473
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=16): [REMOVED]
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: random_mix_pool - hexdump(len=5): [REMOVED]
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: random pool - hexdump(len=128): [REMOVED]
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: wlan0: Scan-only results received
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=24
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: wlan0: Radio work 'scan'@0x7fb502f3c0 done in 0.453013 seconds
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: wlan0: radio_work_free('scan'@0x7fb502f3c0: num_active_works --> 0
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: nl80211: Drv Event 79 (NL80211_CMD_SET_REKEY_OFFLOAD) received for wlan0
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: nl80211: Rekey offload event for BSSID 80:38:bc:08:42:c1
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: nl80211: Rekey offload - Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 02
+12-17 19:33:11.035  5215  5215 D wpa_supplicant: wlan0: Event DRIVER_GTK_REKEY (35) received
+12-17 19:33:11.036  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:33:11.036  1795  5219 E WifiMonitor: WifiMonitor:wlan0 cnt=31048 dispatchEvent: CTRL-EVENT-SCAN-RESULTS 
+12-17 19:33:11.036  1795  2680 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:33:11.036  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=0- MASK=0x3029d87'
+12-17 19:33:11.036  5215  5215 E wpa_supplicant: bssid=00:26:f2:1b:9d:b2;freq=2437;level=-66;flags=11;ssid=NTPC02;
+12-17 19:33:11.036  1795  2736 E hwintelligencewifi: inlineAddCurrentApInfo mInfos.size()=132
+12-17 19:33:11.036  5215  5215 E wpa_supplicant: bssid=80:38:bc:08:42:c1;freq=2452;level=-48;flags=43;ssid=Huawei-Employee;
+12-17 19:33:11.037  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:fa:e0;freq=2412;level=-76;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.037  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:61;freq=2472;level=-94;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.037  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:36:e1;freq=2452;level=-82;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.037  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:1d:81;freq=2472;level=-83;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.037  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:29:e0;freq=2452;level=-62;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.037  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:fa:e1;freq=2412;level=-79;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.037  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=4022
+12-17 19:33:11.038  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=0- MASK=0x3029d87'
+12-17 19:33:11.038  5215  5215 E wpa_supplicant: bssid=00:26:f2:1b:9d:b2;freq=2437;level=-66;flags=11;ssid=NTPC02;
+12-17 19:33:11.039  5215  5215 E wpa_supplicant: bssid=80:38:bc:08:42:c1;freq=2452;level=-48;flags=43;ssid=Huawei-Employee;
+12-17 19:33:11.039  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:fa:e0;freq=2412;level=-76;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.039  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:61;freq=2472;level=-94;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.039  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:36:e1;freq=2452;level=-82;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.039  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:1d:81;freq=2472;level=-83;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.040  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:29:e0;freq=2452;level=-62;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.041  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:fa:e1;freq=2412;level=-79;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.041  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=4022
+12-17 19:33:11.041  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=476- MASK=0x3029d87'
+12-17 19:33:11.041  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:34:a0;freq=2472;level=-81;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.041  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:36:e0;freq=2452;level=-82;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.042  5215  5215 E wpa_supplicant: bssid=80:38:bc:06:d2:ab;freq=2412;level=-85;flags=11;ssid=;
+12-17 19:33:11.042  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f2:00;freq=2452;level=-77;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.042  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:31:e1;freq=2412;level=-87;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.042  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:81;freq=2412;level=-88;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.043  5215  5215 E wpa_supplicant: bssid=18:c5:8a:1a:4d:21;freq=2472;level=-93;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.043  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3614
+12-17 19:33:11.044  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=476- MASK=0x3029d87'
+12-17 19:33:11.044  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:34:a0;freq=2472;level=-81;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.044 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:360) notify user tcp connected successully at 36838 to uc.huawei.com:7801
+12-17 19:33:11.044  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:36:e0;freq=2452;level=-82;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.044  5215  5215 E wpa_supplicant: bssid=80:38:bc:06:d2:ab;freq=2412;level=-85;flags=11;ssid=;
+12-17 19:33:11.044  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f2:00;freq=2452;level=-77;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.044  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:31:e1;freq=2412;level=-87;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.045 31949 31985 I PushService: connect :true
+12-17 19:33:11.045  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:81;freq=2412;level=-88;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.045 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.onRecv(TcpClientThread.java:522) tcp connection event TCP_CONNECTED
+12-17 19:33:11.045  5215  5215 E wpa_supplicant: bssid=18:c5:8a:1a:4d:21;freq=2472;level=-93;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.045  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3614
+12-17 19:33:11.045  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=483- MASK=0x3029d87'
+12-17 19:33:11.046  5215  5215 E wpa_supplicant: bssid=8c:a6:df:4a:8c:e2;freq=2462;level=-93;flags=11;ssid=IOT-HUAWEI;
+12-17 19:33:11.046  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:ef:c0;freq=2412;level=-93;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.046  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:2b:e0;freq=2432;level=-61;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.046  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f1:40;freq=2412;level=-71;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.046  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:14:40;freq=2472;level=-79;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.046  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:29:60;freq=2412;level=-78;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.047  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:04:40;freq=2472;level=-86;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.047  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3641
+12-17 19:33:11.047  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=483- MASK=0x3029d87'
+12-17 19:33:11.048  5215  5215 E wpa_supplicant: bssid=8c:a6:df:4a:8c:e2;freq=2462;level=-93;flags=11;ssid=IOT-HUAWEI;
+12-17 19:33:11.048  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:ef:c0;freq=2412;level=-93;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.048  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:2b:e0;freq=2432;level=-61;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.048  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f1:40;freq=2412;level=-71;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.048 31949 31967 I PushService: tcp.conn{4787} ServiceC.connectedNotify(ServiceC.java:289) 172.30.70.63
+12-17 19:33:11.048  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:14:40;freq=2472;level=-79;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.048  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:29:60;freq=2412;level=-78;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.049  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:04:40;freq=2472;level=-86;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.049  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3641
+12-17 19:33:11.049 31949 31967 I ECS     : tcp.conn{4787} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 100 bytes [16]_00_00_00_60_00_03_01_05_01_04_81_BE_00_00_00_00 cmdCode(CC_PCheckVersion.0x0501)msgType(MT_ARG.1)msgClass(MC_Push.5)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(true)length(96)version(3)sno(81BE)
+12-17 19:33:11.049  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=490- MASK=0x3029d87'
+12-17 19:33:11.050  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:ef:61;freq=2472;level=-86;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.050  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f0:20;freq=2472;level=-90;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.050  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:14:80;freq=2452;level=-91;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.050  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:fe:e0;freq=2412;level=-94;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:11.050  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f0:c1;freq=2452;level=-95;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.050  5215  5215 E wpa_supplicant: bssid=80:38:bc:08:42:e1;freq=2472;level=-48;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.051  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:21;freq=2472;level=-82;flags=11;ssid=Huawei-Employee;
+12-17 19:33:11.051  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3673
+12-17 19:33:11.051  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=490- MASK=0x3029d87'

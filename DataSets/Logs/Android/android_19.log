@@ -1,0 +1,100 @@
+12-17 19:31:40.327  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:31:40.327  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:31:40.327  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_OFF  flag:1342177296 
+12-17 19:31:40.330  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:31:40.338  3180  3332 I WakelockMonitor: start wakelock monitor.
+12-17 19:31:40.338  3180  3578 I ScreenLockClean: call busy and not start clean apps.
+12-17 19:31:40.339  3180  3578 I ash     : ash->screen off
+12-17 19:31:40.341  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:31:40.341  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:31:40.341  3180  3578 I ash     : Default InputMethod : com.baidu.input_huawei
+12-17 19:31:40.341  3180  3578 I ash     : screen off inputmethod, delay to hibernation
+12-17 19:31:40.341   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:40.341   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:40.341   606  2379 E libteec : send data return = 128
+12-17 19:31:40.341   835  2385 E libteec : receive data len = 128
+12-17 19:31:40.341   835  2385 E libteec : begin
+12-17 19:31:40.341   835  2385 E libteec : qsc_decode end
+12-17 19:31:40.342  3180  3578 I ThermalStateManager: handle action thermal policy:301
+12-17 19:31:40.342  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:31:40.342  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: false
+12-17 19:31:40.347  3218  7071 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:40.352  3879  3879 I HwLauncher: Launcher receiver screen off broadcast sendmessage true
+12-17 19:31:40.359  1795  3121 I AlarmManager: set(PendingIntent{5fe6378: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) : type=2 triggerAtTime=443436721 win=60000 tElapsed=443436721 maxElapsed=443496721 interval=0 flags=0x8
+12-17 19:31:40.361  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:31:40.367  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:31:40.369  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:31:40.369  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen off event
+12-17 19:31:40.371  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:31:40.374  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = false, mIsPreScrnOn = true, mScrnSwitchTime = 1481974298388, occurTime = 1481974300373, delta = 1985, mScrnOffAccTime = 1728939, mScrnOnAccTime = 105032
+12-17 19:31:40.374  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1728939, mScrnOffAccTime = 1728939, mScrnOnAccTime = 107017
+12-17 19:31:40.377  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:31:40.380  3626  3626 I iMonitor: create: 903001010
+12-17 19:31:40.383  3626  3626 I iMonitor: send: 903001010
+12-17 19:31:40.383   818  1152 I logserver: handle_exception_events enter
+12-17 19:31:40.385  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:31:40.386  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_OFF
+12-17 19:31:40.394  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:31:40.395  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:31:40.397  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_OFF
+12-17 19:31:40.408  1795 17832 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:0
+12-17 19:31:40.415  1795  1809 I HwPhoneWindowManager: OverscanTimeout run
+12-17 19:31:40.427  3608  3608 D InCall  : InCallPresenter - notifyInCallScreenIsForeground: false
+12-17 19:31:40.427  3608  3608 I SendBroadcastPermission: action:InCallScreenIsForegroundActivity, mPermissionType:0
+12-17 19:31:40.430  1795 17831 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{ec55919 3608:com.android.incallui/1001}
+12-17 19:31:40.432  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:31:40.432  2852  2852 I BackgrounCallingLayout: mCallingStatusReceiver:onReceive::action=InCallScreenIsForegroundActivity, isForegroundActivity=false, mPhoneState=2
+12-17 19:31:40.433  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:31:40.434  2852  2852 I BackgrounCallingLayout: updateCallLayout:isBackground=false, isInteractive=false
+12-17 19:31:40.434  2852  2852 W HwPhoneStatusBar: mNotifyStateChangedReceiver do nothing
+12-17 19:31:40.434  2852  2852 I HwPhoneStatusBar: mNotifyStateChangedReceiver::onReceive:action=InCallScreenIsForegroundActivity, mBackgroundState=false
+12-17 19:31:40.440 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_OFF
+12-17 19:31:40.474  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:31:40.478  1795 16232 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:31:40.560  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:31:40.564  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:31:40.573  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.174542 Y: 5.848685 Z: -1.190086  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:40.769  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.700177 Y: 5.409354 Z: -1.236455  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:40.807  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:31:40.807  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:31:40.822  5215  5215 E wpa_supplicant: RSSI=-53;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:31:40.822  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:31:40.822  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:31:40.823  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-53 "Huawei-Employee"WPA_EAP
+12-17 19:31:40.823  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:31:40.823  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:31:40.837  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:31:40.839  1795  2739 D HuaweiWifiWatchdogStateMachine: LM mrssi=-53
+12-17 19:31:40.839  1795  1795 D WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -53
+12-17 19:31:40.839  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current loss[-53]=0%, volume=11
+12-17 19:31:40.839  1795  1795 I QosMonitor: queryRtt: rtt_type = 3
+12-17 19:31:40.839  1795  1795 I WifiProJNI: ######### GET RTT:3 ########
+12-17 19:31:40.839  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=7
+12-17 19:31:40.839  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history loss[-53]=0.01%, volume=143342
+12-17 19:31:40.840  1795  2737 D WifiProJNI: Received kernel message payload: event 4
+12-17 19:31:40.840  1795  2739 I HuaweiWifiWatchdogStateMachine: spd good count:0, add sc:0.0, rate:1.0
+12-17 19:31:40.840  1795  2739 I HuaweiWifiWatchdogStateMachine: current mHighDataFlowRate = 1.0
+12-17 19:31:40.840  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=9
+12-17 19:31:40.840  1795  2739 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 11, 0. Lr =0% Totpkt=11
+12-17 19:31:40.840  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:31:40.840  1795  1795 D HuaweiWifiWatchdogStateMachine: setSampleRtt: unvalid rtt
+12-17 19:31:40.840  1795  1795 I WifiProJNI: ######### CMD_QUERY_PKTS ########
+12-17 19:31:40.840  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=1
+12-17 19:31:40.840  1795  2737 D WifiProJNI: Received kernel message payload: event 0
+12-17 19:31:40.840  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=9
+12-17 19:31:40.840  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:31:40.841  1795  1795 I MQoS    : rtt=250,tcp_tx_pkts=1480287,tcp_rx_pkts=1768498
+12-17 19:31:40.842  1795  5350 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+12-17 19:31:40.842  1795  2739 D HuaweiWifiWatchdogStateMachine: dumpTcpResult: len=9,rtt=250,rttPkt=6,rttWn=57,cgt=0,cgtWn=0
+12-17 19:31:40.843  1795  2739 I HuaweiWifiWatchdogStateMachine: PTcp RTT:0, rtt pkt=0, tcp_rx=0, tcp_tx=0, tcp_reTran=0, rtRate=0
+12-17 19:31:40.843  1795  2739 D HuaweiWifiWatchdogStateMachine: mRssiBadCount =0, RSSI not bad.
+12-17 19:31:40.843  1795  2739 D HuaweiWifiWatchdogStateMachine: detectNetworkAvailable:hw.wifipro.dns_fail_count = 1001
+12-17 19:31:40.843  1795  2739 I HuaweiWifiWatchdogStateMachine: rs ota tcp lr rttvb bad: false, false, false, false, false; rsth:-75
+12-17 19:31:40.843  1795  2739 D HuaweiWifiWatchdogStateMachine: GSC:0, GSR:1.0, RSR:1.0, RTH:-75
+12-17 19:31:40.843  1795  2739 D HuaweiWifiWatchdogStateMachine: bqeLevel = 0 rtt=0,rtt_pkts=0 speed=477 rssi=-53
+12-17 19:31:40.843  1795  2739 I HuaweiWifiWatchdogStateMachine:  pkt chk not bad, reset sc to 0.
+12-17 19:31:40.843  1795  2739 D HuaweiWifiWatchdogStateMachine: ### mPktChkBadCnt=0
+12-17 19:31:40.889  3782 20174 V AudioManager: isMusicActive...
+12-17 19:31:40.889  3782 20174 V AudioManager: isWiredHeadsetOn...
+12-17 19:31:40.902  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:40.965  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.919843 Y: 5.809470 Z: -0.510039  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027

@@ -1,0 +1,100 @@
+12-17 19:33:02.457  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.huawei.health|10010|null|10099
+12-17 19:33:02.457  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:02.460  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_ON
+12-17 19:33:02.462  3608  3608 D InCall  : InCallActivity - mScreenOnReceiver mCallEndOptionsDialog = null
+12-17 19:33:02.463  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:33:02.469  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:33:02.471  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:02.472  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:02.476 16628 16628 I TotemWeather: RetryTaskController:Screen is off or Network is unable
+12-17 19:33:02.476  2852  2852 I HwExpandableNotificationRowHelper: unclear notification ,notificationPkgName:com.android.incallui key:0|com.android.incallui|2|null|1001
+12-17 19:33:02.477  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.android.incallui|2|null|1001
+12-17 19:33:02.477  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.android.incallui|2|null|1001, group=0|com.android.incallui|2|null|1001
+12-17 19:33:02.478  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:33:02.478  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:33:02.478  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:33:02.480  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:33:02.482  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:33:02.482  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:02.483  1795  2778 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:02.483  1795 17831 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:02.483  2852  2852 D ReporterUtil:  e id:344 type:{pkg:com.android.incallui}
+12-17 19:33:02.485 31949 31967 I PushService: main{1} PushService.onStartCommand(PushService.java:87) Push Service Start by  userEvent
+12-17 19:33:02.487 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.shutdown(TcpCirChannel.java:257) Login_By_Step-> shut down now connect
+12-17 19:33:02.487  1795  1806 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:16
+12-17 19:33:02.487  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:33:02.487  1795  1806 D StubTelephonyRegistry: LISTEN_CELL_LOCATION uid:10028
+12-17 19:33:02.487  2852  2852 I BackgrounCallingLayout: mCallingStatusReceiver:onReceive::action=InCallScreenIsForegroundActivity, isForegroundActivity=false, mPhoneState=2
+12-17 19:33:02.488 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:33:02.489 31949 31967 I ECS     : WatchThread{4786} TcpClient.disconnect_i(TcpClient.java:202) ==================== TCP CLIENT DISCONNECT ====================
+12-17 19:33:02.489  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:33:02.490  2852  2852 I BackgrounCallingLayout: updateCallLayout:isBackground=false, isInteractive=false
+12-17 19:33:02.491  2852  2852 W HwPhoneStatusBar: mNotifyStateChangedReceiver do nothing
+12-17 19:33:02.491  2852  2852 I HwPhoneStatusBar: mNotifyStateChangedReceiver::onReceive:action=InCallScreenIsForegroundActivity, mBackgroundState=false
+12-17 19:33:02.491  2852  2852 D KeyguardViewMediator: handleNotifyFinishedGoingToSleep
+12-17 19:33:02.491  2852  2852 I PhoneStatusBar: onFinishedGoingToSleep
+12-17 19:33:02.491 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.disconnectSocket(TcpClientThread.java:369) disconnecting to uc.huawei.com:7801
+12-17 19:33:02.491  2852  2852 V KeyguardStatusView: Disable transport text marquee
+12-17 19:33:02.491  2852  2852 V KeyguardUpdateMonitor: FingerStat Visible: false; Interactive: false; Switching: false; Bouncer:false; GoingToSleep: false Occluded: false; dreaming: false; Authenticated: false
+12-17 19:33:02.492  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:33:02.492  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:33:02.492 31949 31967 I TCP     : WatchThread{4786} TcpSocket.close(TcpSocket.java:158) shutdown output: java.net.SocketException: Socket is closed
+12-17 19:33:02.493 31949 31967 I TCP     : WatchThread{4786} TcpSocket.close(TcpSocket.java:170) shutdown input: java.net.SocketException: Socket is closed
+12-17 19:33:02.493  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:33:02.493  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:33:02.493  1795  3884 I Security_fingerprint: FingerprintService getEnrolledFingerprints
+12-17 19:33:02.494  2852  2852 V KeyguardUpdateMonitor: KGSvcFp startListeningForFingerprint()
+12-17 19:33:02.494  2852  2852 I KeyguardUpdateMonitor: authenticate by 0 mode!
+12-17 19:33:02.494 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.closeSocket(TcpClientThread.java:396) closed socket.
+12-17 19:33:02.495  1795  3253 I Security_fingerprint: FingerprintService authenticate
+12-17 19:33:02.495  1795  2326 W HwFingerprintService: setLivenessSwitch:start
+12-17 19:33:02.495  1795  2326 W HwFingerprintService: checkNeedLivenessList:start
+12-17 19:33:02.495  1795  2326 W HwFingerprintService: NEED_LIVENESS_AUTHENTICATION = 0
+12-17 19:33:02.495  2852  2852 W KeyguardUpdateMonitor: Fingerprint RunningStateChanged. 1
+12-17 19:33:02.495 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.connect(TcpCirChannel.java:219) Connect to server  address = [uc.huawei.com,]  port = 7801
+12-17 19:33:02.496  2852  2852 W HwLockScreenPanel: Handle message: 15
+12-17 19:33:02.496   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:1002
+12-17 19:33:02.496   835   835 I fingerprintd: fingerprintd
+12-17 19:33:02.496   835   835 I fingerprintd: FingerprintDaemonProxyEx::setLivenessSwitch
+12-17 19:33:02.496   835   835 I fingerprintd: fingerprintdex--dev->need_liveness_authentication = false;
+12-17 19:33:02.496  1795  2326 W HwFingerprintService: framework setLivenessSwitch is ok ---end
+12-17 19:33:02.496   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:7
+12-17 19:33:02.496   835   835 D fpc_fingerprint_hal: fpc_get_authenticator_id
+12-17 19:33:02.497   835  2385 D fpc_fingerprint_hal: fpc poll irq interupt
+12-17 19:33:02.497   835  2385 D fpc_fingerprint_hal: wait_finger_down, took 858 ms
+12-17 19:33:02.497 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:33:02.497   835  2385 E libteec : begin
+12-17 19:33:02.497   606  2379 E libteec : receive data len = 128
+12-17 19:33:02.497  2852  2852 W CameraLayout: Cameralayout setVisibility. true false  2
+12-17 19:33:02.497  2852  2852 D MagazineDetailView: resetPagerState
+12-17 19:33:02.497  2852  2852 I EventCenter: EventCenter Get :android.com.huawei.bone.NOTIFY_SPORT_DATA
+12-17 19:33:02.498 31949 31967 I ECS     : WatchThread{4786} TcpClient.connect(TcpClient.java:162) ==================== TCP CLIENT CONNECT [2] ====================
+12-17 19:33:02.498  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)) important=2, post=1481974382456, when=1481531589202, vis=0, userid=0
+12-17 19:33:02.499 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.connect(TcpClientThread.java:52) will connect to uc.huawei.com:7801
+12-17 19:33:02.499  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:02.500 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:349) connecting max 30000ms to uc.huawei.com:7801
+12-17 19:33:02.500  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:02.501 31949 31967 I TCP     : tcp.conn{4787} TcpSocket.connect_i(TcpSocket.java:84) connecting to ip address uc.huawei.com/172.30.70.63
+12-17 19:33:02.502 31949 31967 W TCP     : tcp.recv{4790} TcpSocket.read(TcpSocket.java:242) <<< WARN(5) >>> java.net.SocketException: Try again
+12-17 19:33:02.503 31949 31967 E TCP     : tcp.recv{4790} TcpClientThread.readSocket(TcpClientThread.java:452) <<< ERROR(6) >>> socket read length failure -104
+12-17 19:33:02.504 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_ON
+12-17 19:33:02.504 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:314) disconnected
+12-17 19:33:02.507 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:292) connected
+12-17 19:33:02.508   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:02.508   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:02.508   835  2385 E libteec : receive data len = 128
+12-17 19:33:02.508   835  2385 E libteec : begin
+12-17 19:33:02.508   835  2385 E libteec : qsc_decode end
+12-17 19:33:02.508   835  2385 D fpc_fingerprint_hal: worker idle
+12-17 19:33:02.508   606  2379 E libteec : send data return = 128
+12-17 19:33:02.508   606  2379 E libteec : receive data len = 128
+12-17 19:33:02.508   835   835 E libteec : begin
+12-17 19:33:02.508 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:360) notify user tcp connected successully at 36836 to uc.huawei.com:7801
+12-17 19:33:02.508 31949 31985 I PushService: connect :true
+12-17 19:33:02.510 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.onRecv(TcpClientThread.java:522) tcp connection event TCP_CONNECTED
+12-17 19:33:02.512   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:02.512   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:02.512   606  2379 E libteec : send data return = 128
+12-17 19:33:02.512  1795  2778 I AlarmManager: remove(PendingIntent{4d7c21a: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) changed bounds; rebatching
+12-17 19:33:02.512   835   835 E libteec : receive data len = 128
+12-17 19:33:02.512   835   835 E libteec : begin

@@ -1,0 +1,100 @@
+12-17 19:41:30.563  2852  2852 I HwBatteryManager: onBatteryLevelChanged: level=78, pluggedIn=false, charging=false, PercentColor=-1275068417
+12-17 19:41:30.564  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:41:30.564  2852  2925 I WeatherUtils: getCurrentWeatherInfo currentTemperature is :17.0 mWeatherIcon Id is: 33
+12-17 19:41:30.564  2852  2925 D WeatherHelper: homeWeatherInfo = com.huawei.keyguard.events.weather.WeatherInfo@593fd16
+12-17 19:41:30.564  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:41:30.564  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:41:30.564  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:41:30.582  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:41:30.582  2852  2852 W KeyguardUpdateMonitor: ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000
+12-17 19:41:30.582  2852  2852 I KgBattery: BatteryInfo updated:  3lpc-1
+12-17 19:41:30.582  2852  2852 W AppHandler: sendMessage with obj100
+12-17 19:41:30.582  2852  2852 D KeyguardUpdateMonitor: handleBatteryUpdate
+12-17 19:41:30.582  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:41:30.585  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:41:30.585  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:41:30.585  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:41:30.585  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:41:30.585  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:41:30.591  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:41:30.597  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:41:30.597  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:41:30.597  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:41:30.597  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:41:30.598  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:41:30.598  2852  2852 W HwLockScreenPanel: Handle message: 100
+12-17 19:41:30.599  2852  2852 W HwLockScreenPanel: refreshBatteryInfo: null
+12-17 19:41:30.617  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:41:30.617  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:41:30.617  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:41:30.618  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:41:30.618  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:41:30.639  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:42:05.450  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:42:05.450  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:42:05.451  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:42:05.451  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:42:05.451  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:42:05.451  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:42:05.451  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:42:05.451  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:42:05.451  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:42:05.451  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:42:05.451  1795  2376 I AlarmManager: set again repeat alarm: next ,nextElapsed = 445260576,repeatInterval = 1800000
+12-17 19:42:05.451  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:42:05.451  1795  2376 W AlarmManager: mIsScreenOn is: false, WAKEUP alarm trigger action = com.huawei.betaclub.ACTION_POLL package name is: com.huawei.betaclub
+12-17 19:42:05.452  1795  2376 I AlarmManager: Alarm triggering (type 0 or 2): [Alarm{4017c0 type 2 when 443460576 com.huawei.betaclub}]
+12-17 19:42:05.452  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:42:05.452  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:42:05.452  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:42:05.452  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:42:05.452  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:42:05.452  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:42:05.452  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:42:05.452  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:42:05.452  1795  2376 I AlarmManager: sending alarm Alarm{59108a1 type 3 when 443396363 android},repeatInterval = 0,listenerTag =time_tick
+12-17 19:42:05.452   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 28TCP_OK
+12-17 19:42:05.452  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[foreground] BroadcastRecord{e1538f8 u-1 android.intent.action.TIME_TICK}: prev had 0
+12-17 19:42:05.452  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [foreground] BroadcastRecord{e1538f8 u-1 android.intent.action.TIME_TICK}, has 10 receivers
+12-17 19:42:05.452  1795  2376 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:05.453  1795  1795 V AlarmManager: Received TIME_TICK alarm; rescheduling
+12-17 19:42:05.453  1795  2376 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:42:05.453  1795  1795 I AlarmManager: scheduleTimeTickEvent triggerAtTime = 443516363
+12-17 19:42:05.453   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 32 bytes [12]_00_03_02_03_12_05_87_4D_EC_D5_32_80 cmdCode(CC_Heartbeat.0x0312)msgType(MT_ACK.2)msgClass(MC_InstanceMessage.3)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(28)version(3)sno(874D)
+12-17 19:42:05.453  1795  2376 I AlarmManager: sending alarm Alarm{4017c0 type 2 when 443460576 com.huawei.betaclub},repeatInterval = 1800000,listenerTag =null
+12-17 19:42:05.454   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:94) watch thread onLoop... 
+12-17 19:42:05.455   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:42:05.458  3180  3578 I ash     : com.baidu.input_huawei goes to hibernation overtime: 72195
+12-17 19:42:05.458  1795  2376 I AlarmManager: sending alarm Alarm{a148ddd type 3 when 443400000 com.tencent.mm},repeatInterval = 300000,listenerTag =null
+12-17 19:42:05.458 32607 32607 I BetaClub: [PollingService.onStartCommand]Start
+12-17 19:42:05.458 32607 32607 I BetaClub: ======onPolling start===
+12-17 19:42:05.459  1795  2376 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.TrafficStatsReceiver flg=0x14 (has extras) } on bgkeyapp queue
+12-17 19:42:05.459 32607 32607 I BetaClub: [PullNotificationBase.onPollNotification]Start
+12-17 19:42:05.459  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[bgkeyapp] BroadcastRecord{e3501d1 u0 com.tencent.mm.TrafficStatsReceiver}: prev had 0
+12-17 19:42:05.460  1795  1812 I ActivityManager_broadcast: dispatch ordered broadcast [bgkeyapp] BroadcastRecord{e3501d1 u0 com.tencent.mm.TrafficStatsReceiver}, has 1 receivers
+12-17 19:42:05.460  1795  2376 I AlarmManager: sending alarm Alarm{f827db4 type 3 when 443400000 com.huawei.systemmanager},repeatInterval = 600000,listenerTag =null
+12-17 19:42:05.460 32607 32607 I BetaClub: [ReceiverUtils.reportVersionInfo]
+12-17 19:42:05.461 32607 20887 D BetaClub: [NotificationLoadTask.doInBackground]LoadType/isDropDown:0/true
+12-17 19:42:05.461 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Path:/storage/emulated/0
+12-17 19:42:05.461  1795  2376 W ActivityManager: Sending non-protected broadcast com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE from system uid 1000 pkg com.huawei.systemmanager
+12-17 19:42:05.461  1795  2376 I ActivityManager_broadcast: collectReceiverComponents, callerApp: null, intent:com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE, receiver size:1, flags: 10000400
+12-17 19:42:05.462 32607 32607 I BetaClub: [HistoryUtils.startScanUploadTask]Start
+12-17 19:42:05.462  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{bc5a436 u0 com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE}: prev had 0
+12-17 19:42:05.462 32607 32607 I BetaClub: [ReceiverUtils.launchOpenService]
+12-17 19:42:05.462  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{bc5a436 u0 com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE}, has 1 receivers
+12-17 19:42:05.462 32607 32607 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1527 android.content.ContextWrapper.startService:613 com.huawei.androidcommon.utils.ComponentUtils.startOrStopService:28 com.huawei.betaclub.receiver.utils.ReceiverUtils.launchOpenService:203 com.huawei.betaclub.polling.PollingUtils.onPollTask:76 
+12-17 19:42:05.462  1795  2376 I AlarmManager: sending alarm Alarm{61e4dfd type 1 when 1481974916420 com.huawei.imonitor},repeatInterval = 0,listenerTag =null
+12-17 19:42:05.463 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Mounted:/storage/emulated/0:true
+12-17 19:42:05.464   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:42:05.464  3180  3332 I ScenarioAction: new ScenarioAction sPoolSize: 0
+12-17 19:42:05.465  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 443461827395844 1000}
+12-17 19:42:05.466  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 443461827395844 1000}
+12-17 19:42:05.467  1795  2376 I AlarmManager: sending alarm Alarm{757a6a6 type 1 when 1481974921992 com.huawei.intelligent},repeatInterval = 0,listenerTag =null
+12-17 19:42:05.467  2883  2883 I HwSystemManager: ScheduleRecordPowerConsumeReceiver:onReceive: Action = com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE
+12-17 19:42:05.467  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass active 1 443461827395844 1000
+12-17 19:42:05.468  1795  2376 I ActivityManager_service: retrieveServiceLocked, callerApp: null, flags: 10000400
+12-17 19:42:05.468 32607 32607 I BetaClub: [StoreProgressUtils.startUploadPollingTask]
+12-17 19:42:05.468 32607 32607 I BetaClub: [StoreProgressUtils.startTask]start upload task success
+12-17 19:42:05.468 32607 32607 I BetaClub: ======onPolling end=====
+12-17 19:42:05.468  1795  2376 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{2f38f37 u0 euid: 0 com.huawei.intelligent/com.huawei.placerecognition.service.PlaceRecognitionService}, euid: 0
+12-17 19:42:05.468  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc

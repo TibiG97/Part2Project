@@ -1,0 +1,100 @@
+17/02/01 22:07:02 INFO executor.CoarseGrainedExecutorBackend: Registered signal handlers for [TERM, HUP, INT]
+17/02/01 22:07:05 INFO spark.SecurityManager: Changing view acls to: yarn,curi
+17/02/01 22:07:05 INFO spark.SecurityManager: Changing modify acls to: yarn,curi
+17/02/01 22:07:05 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+17/02/01 22:07:23 INFO spark.SecurityManager: Changing view acls to: yarn,curi
+17/02/01 22:07:23 INFO spark.SecurityManager: Changing modify acls to: yarn,curi
+17/02/01 22:07:23 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+17/02/01 22:07:33 INFO slf4j.Slf4jLogger: Slf4jLogger started
+17/02/01 22:07:35 INFO Remoting: Starting remoting
+17/02/01 22:07:40 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-22:34440]
+17/02/01 22:07:40 INFO util.Utils: Successfully started service 'sparkExecutorActorSystem' on port 34440.
+17/02/01 22:07:43 INFO storage.DiskBlockManager: Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0002/blockmgr-a565f2d9-a1e3-4a14-9572-d2d7209df824
+17/02/01 22:07:44 INFO storage.MemoryStore: MemoryStore started with capacity 21.3 GB
+17/02/01 22:07:52 INFO executor.CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@10.10.34.13:46011
+17/02/01 22:07:52 INFO executor.CoarseGrainedExecutorBackend: Successfully registered with driver
+17/02/01 22:07:52 INFO executor.Executor: Starting executor ID 9 on host mesos-slave-22
+17/02/01 22:07:53 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 51539.
+17/02/01 22:07:53 INFO netty.NettyBlockTransferService: Server created on 51539
+17/02/01 22:07:53 INFO storage.BlockManagerMaster: Trying to register BlockManager
+17/02/01 22:07:53 INFO storage.BlockManagerMaster: Registered BlockManager
+17/02/01 22:08:05 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 24307
+17/02/01 22:08:05 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 24309
+17/02/01 22:08:05 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 24311
+17/02/01 22:08:05 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 24312
+17/02/01 22:08:05 INFO executor.Executor: Running task 74.0 in stage 132.0 (TID 24311)
+17/02/01 22:08:05 INFO executor.Executor: Running task 72.0 in stage 132.0 (TID 24309)
+17/02/01 22:08:05 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 24313
+17/02/01 22:08:05 INFO executor.Executor: Running task 75.0 in stage 132.0 (TID 24312)
+17/02/01 22:08:05 INFO executor.Executor: Running task 70.0 in stage 132.0 (TID 24307)
+17/02/01 22:08:05 INFO executor.Executor: Running task 76.0 in stage 132.0 (TID 24313)
+17/02/01 22:08:05 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 24314
+17/02/01 22:08:05 INFO executor.Executor: Running task 77.0 in stage 132.0 (TID 24314)
+17/02/01 22:08:06 INFO spark.MapOutputTrackerWorker: Updating epoch to 47 and clearing cache
+17/02/01 22:08:07 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 44
+17/02/01 22:08:07 INFO storage.MemoryStore: Block broadcast_44_piece0 stored as bytes in memory (estimated size 6.5 KB, free 6.5 KB)
+17/02/01 22:08:08 INFO broadcast.TorrentBroadcast: Reading broadcast variable 44 took 974 ms
+17/02/01 22:08:08 INFO storage.MemoryStore: Block broadcast_44 stored as values in memory (estimated size 12.0 KB, free 18.5 KB)
+17/02/01 22:08:10 INFO spark.MapOutputTrackerWorker: Don't have map outputs for shuffle 28, fetching them
+17/02/01 22:08:10 INFO spark.MapOutputTrackerWorker: Don't have map outputs for shuffle 28, fetching them
+17/02/01 22:08:10 INFO spark.MapOutputTrackerWorker: Don't have map outputs for shuffle 28, fetching them
+17/02/01 22:08:10 INFO spark.MapOutputTrackerWorker: Don't have map outputs for shuffle 28, fetching them
+17/02/01 22:08:10 INFO spark.MapOutputTrackerWorker: Don't have map outputs for shuffle 28, fetching them
+17/02/01 22:08:10 INFO spark.MapOutputTrackerWorker: Don't have map outputs for shuffle 28, fetching them
+17/02/01 22:08:10 INFO spark.MapOutputTrackerWorker: Doing the fetch; tracker endpoint = NettyRpcEndpointRef(spark://MapOutputTracker@10.10.34.13:46011)
+17/02/01 22:08:10 INFO spark.MapOutputTrackerWorker: Got the output locations
+17/02/01 22:08:10 INFO storage.ShuffleBlockFetcherIterator: Getting 60 non-empty blocks out of 60 blocks
+17/02/01 22:08:10 INFO storage.ShuffleBlockFetcherIterator: Getting 60 non-empty blocks out of 60 blocks
+17/02/01 22:08:10 INFO storage.ShuffleBlockFetcherIterator: Getting 60 non-empty blocks out of 60 blocks
+17/02/01 22:08:10 INFO storage.ShuffleBlockFetcherIterator: Getting 60 non-empty blocks out of 60 blocks
+17/02/01 22:08:10 INFO storage.ShuffleBlockFetcherIterator: Getting 60 non-empty blocks out of 60 blocks
+17/02/01 22:08:10 INFO storage.ShuffleBlockFetcherIterator: Getting 60 non-empty blocks out of 60 blocks
+17/02/01 22:08:10 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 49 ms
+17/02/01 22:08:10 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 63 ms
+17/02/01 22:08:10 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 66 ms
+17/02/01 22:08:10 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 59 ms
+17/02/01 22:08:10 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 69 ms
+17/02/01 22:08:10 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 72 ms
+17/02/01 22:09:09 INFO python.PythonRunner: Times: total = 59335, boot = 2520, init = 222, finish = 56593
+17/02/01 22:09:09 INFO python.PythonRunner: Times: total = 59677, boot = 2533, init = 209, finish = 56935
+17/02/01 22:09:10 INFO python.PythonRunner: Times: total = 59868, boot = 2526, init = 216, finish = 57126
+17/02/01 22:09:10 INFO python.PythonRunner: Times: total = 59949, boot = 2530, init = 213, finish = 57206
+17/02/01 22:09:10 INFO python.PythonRunner: Times: total = 60516, boot = 2516, init = 226, finish = 57774
+17/02/01 22:09:11 INFO python.PythonRunner: Times: total = 60712, boot = 2523, init = 219, finish = 57970
+17/02/01 22:09:28 INFO python.PythonRunner: Times: total = 40540, boot = 4, init = 3, finish = 40533
+17/02/01 22:09:29 INFO python.PythonRunner: Times: total = 42106, boot = 4, init = 2, finish = 42100
+17/02/01 22:09:30 INFO executor.Executor: Finished task 74.0 in stage 132.0 (TID 24311). 1532 bytes result sent to driver
+17/02/01 22:09:30 INFO executor.Executor: Finished task 70.0 in stage 132.0 (TID 24307). 1532 bytes result sent to driver
+17/02/01 22:09:30 INFO python.PythonRunner: Times: total = 43256, boot = 4, init = 2, finish = 43250
+17/02/01 22:09:30 INFO python.PythonRunner: Times: total = 42656, boot = 4, init = 2, finish = 42650
+17/02/01 22:09:30 INFO python.PythonRunner: Times: total = 43105, boot = 4, init = 2, finish = 43099
+17/02/01 22:09:31 INFO python.PythonRunner: Times: total = 43159, boot = 5, init = 3, finish = 43151
+17/02/01 22:09:31 INFO executor.Executor: Finished task 75.0 in stage 132.0 (TID 24312). 1532 bytes result sent to driver
+17/02/01 22:09:31 INFO executor.Executor: Finished task 76.0 in stage 132.0 (TID 24313). 1532 bytes result sent to driver
+17/02/01 22:09:31 INFO executor.Executor: Finished task 72.0 in stage 132.0 (TID 24309). 1532 bytes result sent to driver
+17/02/01 22:09:32 INFO executor.Executor: Finished task 77.0 in stage 132.0 (TID 24314). 1532 bytes result sent to driver
+17/02/01 22:14:30 INFO storage.BlockManager: Removing RDD 206
+17/02/01 22:14:30 INFO storage.BlockManager: Removing RDD 207
+17/02/01 22:25:22 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 24797
+17/02/01 22:25:22 INFO executor.Executor: Running task 91.0 in stage 143.0 (TID 24797)
+17/02/01 22:25:22 INFO spark.MapOutputTrackerWorker: Updating epoch to 50 and clearing cache
+17/02/01 22:25:22 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 24799
+17/02/01 22:25:22 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 49
+17/02/01 22:25:22 INFO executor.Executor: Running task 93.0 in stage 143.0 (TID 24799)
+17/02/01 22:25:22 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 24801
+17/02/01 22:25:22 INFO executor.Executor: Running task 95.0 in stage 143.0 (TID 24801)
+17/02/01 22:25:22 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 24803
+17/02/01 22:25:22 INFO executor.Executor: Running task 97.0 in stage 143.0 (TID 24803)
+17/02/01 22:25:22 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 24805
+17/02/01 22:25:22 INFO executor.Executor: Running task 99.0 in stage 143.0 (TID 24805)
+17/02/01 22:25:22 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 24807
+17/02/01 22:25:22 INFO executor.Executor: Running task 101.0 in stage 143.0 (TID 24807)
+17/02/01 22:25:22 INFO storage.MemoryStore: Block broadcast_49_piece0 stored as bytes in memory (estimated size 6.1 KB, free 6.1 KB)
+17/02/01 22:25:22 INFO broadcast.TorrentBroadcast: Reading broadcast variable 49 took 49 ms
+17/02/01 22:25:22 INFO storage.MemoryStore: Block broadcast_49 stored as values in memory (estimated size 11.4 KB, free 17.5 KB)
+17/02/01 22:25:22 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 2
+17/02/01 22:25:22 INFO storage.MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 93.0 B, free 17.6 KB)
+17/02/01 22:25:22 INFO broadcast.TorrentBroadcast: Reading broadcast variable 2 took 11 ms
+17/02/01 22:25:22 INFO storage.MemoryStore: Block broadcast_2 stored as values in memory (estimated size 384.0 B, free 17.9 KB)
+17/02/01 22:25:23 INFO python.PythonRunner: Times: total = 329, boot = 4, init = 2, finish = 323
+17/02/01 22:25:23 INFO python.PythonRunner: Times: total = 330, boot = 14, init = 2, finish = 314

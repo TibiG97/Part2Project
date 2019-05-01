@@ -1,0 +1,100 @@
+12-17 19:55:47.859  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:55:47.859  3858  4126 I amsnl   : c: true, w: false, t: false, l: false
+12-17 19:55:47.859  3858  4126 I amsnl   : csr
+12-17 19:55:47.859  5224  5283 I Step_LSC: 20002302| ## MSG_DEAL_SYSTEM_EVENT android.intent.action.SCREEN_ON
+12-17 19:55:47.859  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:55:47.860  5224  5283 I Step_StandStepCounter: 20002302|flush sensor data
+12-17 19:55:47.860 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Path:/storage/emulated/0
+12-17 19:55:47.860 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.shutdown(TcpCirChannel.java:257) Login_By_Step-> shut down now connect
+12-17 19:55:47.860  1795  3139 I qti_sensors_hal: flush,395,handle 49
+12-17 19:55:47.860  1795  3139 I qti_sensors_hal: flush:sensor(android.sensor.step_counter) handle:49
+12-17 19:55:47.861  5224  5283 I Step_SharedPerferenceUtils: 20002302| getTodayTotalDetailSteps from Prefence success and todaySendorSteps= 1481975340000##4257##172216##0##0##443967552
+12-17 19:55:47.863 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Mounted:/storage/emulated/0:true
+12-17 19:55:47.864  5224  5283 I Step_SharedPerferenceUtils: 20002302|setTodayTotalDetailSteps to Prefence todaySendorSteps=1481975640000##4257##172216##0##0##444284227
+12-17 19:55:47.866 32607 32607 I BetaClub: [PollingService.onStartCommand]Start
+12-17 19:55:47.867 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:55:47.868 31949 31967 I ECS     : WatchThread{4786} TcpClient.disconnect_i(TcpClient.java:202) ==================== TCP CLIENT DISCONNECT ====================
+12-17 19:55:47.868  5224  5283 I Step_LSC: 20002302|calculateCaloriesWithCache datas.size=8391
+12-17 19:55:47.868   835  2385 E libteec : begin
+12-17 19:55:47.869   816 21076 D DnsProxyListener: GetAddrInfoHandler addr: uc.huawei.com {304, 917808, 10102} 172.30.70.63
+12-17 19:55:47.869  1795  3111 D wifiserviceimpl: netmask =16580607
+12-17 19:55:47.869 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.disconnectSocket(TcpClientThread.java:369) disconnecting to uc.huawei.com:7801
+12-17 19:55:47.869   633   692 I eSpaceService: Watch Thread{4481} LoginC.doReconnect(LoginC.java:957) Login_By_Step->--> setStep(LoginStep.BeginConnect);
+12-17 19:55:47.869   606  2379 E libteec : receive data len = 128
+12-17 19:55:47.869  3858  4126 I amsnl   : m1: false
+12-17 19:55:47.870 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.connect(TcpCirChannel.java:219) Connect to server  address = [uc.huawei.com,]  port = 7801
+12-17 19:55:47.870  5224  5283 I Step_LSC: 20002302|calculateCaloriesWithCache totalCalories=91131
+12-17 19:55:47.870  5224  5283 I Step_LSC: 20002302|calculateAltitudeWithCache datas.size=8391
+12-17 19:55:47.871 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:55:47.872  1795  3247 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:47.872 31949 31967 I ECS     : WatchThread{4786} TcpClient.connect(TcpClient.java:162) ==================== TCP CLIENT CONNECT [2] ====================
+12-17 19:55:47.874 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.connect(TcpClientThread.java:52) will connect to uc.huawei.com:7801
+12-17 19:55:47.874  2883  3125 I HwSystemManager: StartupResidentService:InnerHandler Message:7
+12-17 19:55:47.875  1795  1825 I DisplayPowerController: Unblocked screen on for keyguard dismiss after 854 ms
+12-17 19:55:47.875  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=c0000700 mask=ffffffff oldVal=8608 newVal=c0000700 diff=c0008108
+12-17 19:55:47.875  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:55:47.875 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:349) connecting max 30000ms to uc.huawei.com:7801
+12-17 19:55:47.875  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:55:47.875  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:55:47.875  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:55:47.875  1795  1825 D DisplayPowerController: Animating brightness: target=48, rate=0
+12-17 19:55:47.875  2852  2852 D BarTransitions.HwNavigationBarView: MODE_TRANSPARENT -> MODE_TRANSLUCENT animate=false
+12-17 19:55:47.875  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:55:47.875  2852  2852 D BarTransitions.HwNavigationBarView: applyModeBackground oldMode=MODE_TRANSPARENT newMode=MODE_TRANSLUCENT animate=false
+12-17 19:55:47.875  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:55:47.875  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:55:47.875  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000700, SystemUiVisibility=0xc0000700
+12-17 19:55:47.875  3858  4126 I amsnl   : c: true, w: false, t: false, l: false
+12-17 19:55:47.875  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:55:47.875  3858  4126 I amsnl   : wsr
+12-17 19:55:47.875  1795  1825 D DisplayPowerController: Animating brightness: target=48, rate=40
+12-17 19:55:47.875  1795  1825 D DisplayPowerController: Finished business...
+12-17 19:55:47.876  5224  5283 I Step_LSC: 20002302|calculateAltitudeWithCache totalAltitude=0
+12-17 19:55:47.877  5224  5283 I Step_LSC: 20002302|REPORT : 4257 91131 3039 0
+12-17 19:55:47.877   633   692 I eSpaceService: LoginThread{6131} LoginThread.run(LoginC.java:857) Login_By_Step-> Thread is run   6131
+12-17 19:55:47.877  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:55:47.877  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:55:47.877  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=1882
+12-17 19:55:47.877  1795  2750 I HwLightsService: back light level before map = 1882
+12-17 19:55:47.878  1795  1825 D FpDataCollector: case 011, screen on after unlock succ
+12-17 19:55:47.879 32607 21068 I BetaClub: [ReceiverUtils.resumeLogUpload]
+12-17 19:55:47.879  3218  3422 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:55:47.880  1795 21078 E FpDataCollector: STATS_UNLOCK_FILE doesn't exist!
+12-17 19:55:47.880  1795 21078 E FpDataCollector: /data/log/fingerprint/fpc_unlock.json doesn't exist!
+12-17 19:55:47.881  1795 11747 D wifiserviceimpl: netmask =16580607
+12-17 19:55:47.881  3858  4126 I amsnl   : m1: false
+12-17 19:55:47.882 31949 31967 I TCP     : tcp.conn{4787} TcpSocket.connect_i(TcpSocket.java:84) connecting to ip address uc.huawei.com/172.30.70.63
+12-17 19:55:47.882  1795  6986 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:47.882  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_ON
+12-17 19:55:47.882 31949 31985 I PushService: connect :true
+12-17 19:55:47.883  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:55:47.883   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:55:47.883   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:55:47.883   835  2385 E libteec : receive data len = 128
+12-17 19:55:47.883   835  2385 E libteec : begin
+12-17 19:55:47.883   835  2385 E libteec : qsc_decode end
+12-17 19:55:47.883   835  2385 D fpc_fingerprint_hal: wait_finger_up FPC_LIB_FINGER_LOST
+12-17 19:55:47.883   835  2385 D fpc_fingerprint_hal: wait_finger_up, took 900 ms
+12-17 19:55:47.883   835  2385 E libteec : begin
+12-17 19:55:47.883  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:55:47.883   606  2379 E libteec : send data return = 128
+12-17 19:55:47.883   606  2379 E libteec : receive data len = 128
+12-17 19:55:47.884 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:360) notify user tcp connected successully at 36865 to uc.huawei.com:7801
+12-17 19:55:47.885   633   692 I eSpaceService: LoginThread{6131} LoginThread.doinLoop(LoginC.java:867) Login_By_Step-> Thread is begin   6131
+12-17 19:55:47.885  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:55:47.886 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.onRecv(TcpClientThread.java:522) tcp connection event TCP_CONNECTED
+12-17 19:55:47.887 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:292) connected
+12-17 19:55:47.887 32607 21068 D BetaClub Upload: [Deviceutils.isPhoneHotPot]isPhoneAP = false
+12-17 19:55:47.887 32607 21068 I BetaClub: [ReceiverUtils.resumeLogUpload]resumeSendNow
+12-17 19:55:47.887   633   692 I eSpaceService: LoginThread{6131} LoginC.doLoginByStep(LoginC.java:203) Login_By_Step-> at BeginConnect
+12-17 19:55:47.888   633   692 I eSpaceService: LoginThread{6131} LoginC.beginLogin(LoginC.java:293) Login_By_Step->--> beginLogin
+12-17 19:55:47.889  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:55:47.890  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:55:47.890  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:55:47.891  2852  2852 I HwBrightnessUtils: APS brightness=47.0,ConvertToPercentage=0.3752584
+12-17 19:55:47.891  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:47 percentage:0.3752584
+12-17 19:55:47.891  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:3753
+12-17 19:55:47.891  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:3753
+12-17 19:55:47.892  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:3753 fromUser:false
+12-17 19:55:47.892  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:3753 fromUser:false
+12-17 19:55:47.892 32607 21068 D BetaClub: [OtherUtils.resumeSendNow]Resume Send Now!

@@ -1,0 +1,100 @@
+[Sat Nov 19 02:11:09 2005] [error] mod_jk child workerEnv in error state 3
+[Sat Nov 19 02:15:55 2005] [notice] jk2_init() Found child 12063 in scoreboard slot 2
+[Sat Nov 19 02:15:55 2005] [notice] jk2_init() Found child 12065 in scoreboard slot 0
+[Sat Nov 19 02:15:55 2005] [notice] jk2_init() Found child 12064 in scoreboard slot 4
+[Sat Nov 19 02:16:15 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Nov 19 02:16:15 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Nov 19 02:16:16 2005] [error] mod_jk child workerEnv in error state 3
+[Sat Nov 19 02:16:16 2005] [error] mod_jk child init 1 0
+[Sat Nov 19 02:16:16 2005] [error] mod_jk child workerEnv in error state 3
+[Sat Nov 19 02:17:56 2005] [notice] jk2_init() Found child 12077 in scoreboard slot 1
+[Sat Nov 19 02:17:56 2005] [notice] jk2_init() Found child 12076 in scoreboard slot 3
+[Sat Nov 19 02:17:56 2005] [notice] jk2_init() Found child 12073 in scoreboard slot 2
+[Sat Nov 19 02:17:56 2005] [notice] jk2_init() Found child 12074 in scoreboard slot 4
+[Sat Nov 19 02:17:56 2005] [notice] jk2_init() Found child 12075 in scoreboard slot 0
+[Sat Nov 19 02:18:02 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Nov 19 02:18:02 2005] [error] mod_jk child workerEnv in error state 3
+[Sat Nov 19 02:18:02 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Nov 19 02:18:02 2005] [error] mod_jk child workerEnv in error state 3
+[Sat Nov 19 02:18:02 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Nov 19 02:18:02 2005] [error] mod_jk child init 1 0
+[Sat Nov 19 02:18:02 2005] [error] mod_jk child workerEnv in error state 3
+[Sat Nov 19 02:18:02 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Nov 19 02:18:02 2005] [error] mod_jk child workerEnv in error state 4
+[Sat Nov 19 02:18:02 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Nov 19 02:18:02 2005] [error] mod_jk child workerEnv in error state 3
+[Sat Nov 19 03:04:24 2005] [notice] jk2_init() Found child 12149 in scoreboard slot 5
+[Sat Nov 19 03:04:25 2005] [error] [client 71.244.138.239] Directory index forbidden by rule: /var/www/html/
+[Sat Nov 19 03:04:25 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Nov 19 03:04:25 2005] [error] mod_jk child workerEnv in error state 3
+[Sat Nov 19 03:16:45 2005] [error] [client 70.184.216.22] Directory index forbidden by rule: /var/www/html/
+[Sat Nov 19 03:28:24 2005] [error] [client 218.91.216.116] Directory index forbidden by rule: /var/www/html/
+[Sat Nov 19 03:30:12 2005] [error] [client 200.24.17.195] File does not exist: /var/www/html/awstats/awstats.pl
+[Sat Nov 19 03:30:12 2005] [error] [client 200.24.17.195] File does not exist: /var/www/html/awstats/awstats.pl
+[Sat Nov 19 03:30:12 2005] [error] [client 200.24.17.195] File does not exist: /var/www/html/awstats/awstats.pl
+[Sat Nov 19 03:30:12 2005] [error] [client 200.24.17.195] File does not exist: /var/www/html/awstats/awstats.pl
+[Sat Nov 19 03:30:12 2005] [error] [client 200.24.17.195] File does not exist: /var/www/html/awstats/awstats.pl
+[Sat Nov 19 03:30:12 2005] [error] [client 200.24.17.195] File does not exist: /var/www/html/awstats/awstats.pl
+[Sat Nov 19 03:30:13 2005] [error] [client 200.24.17.195] File does not exist: /var/www/html/awstats/awstats.pl
+[Sat Nov 19 03:30:13 2005] [error] [client 200.24.17.195] File does not exist: /var/www/html/awstats/awstats.pl
+[Sat Nov 19 03:30:13 2005] [error] [client 200.24.17.195] File does not exist: /var/www/html/awstats/awstats.pl
+[Sat Nov 19 03:30:13 2005] [error] [client 200.24.17.195] File does not exist: /var/www/html/awstats/awstats.pl
+[Sat Nov 19 03:30:13 2005] [notice] jk2_init() Found child 12193 in scoreboard slot 6
+[Sat Nov 19 03:30:13 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Sat Nov 19 03:30:13 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Sat Nov 19 03:30:13 2005] [error] jk2_init() Can't find child 12194 in scoreboard
+[Sat Nov 19 03:30:13 2005] [error] jk2_init() Can't find child 12195 in scoreboard
+[Sat Nov 19 03:30:13 2005] [error] [client 200.24.17.195] File does not exist: /var/www/html/awstats/awstats.pl
+[Sat Nov 19 03:30:13 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Nov 19 03:30:13 2005] [error] mod_jk child init 1 -2
+[Sat Nov 19 03:30:13 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Sat Nov 19 03:30:13 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Nov 19 03:30:13 2005] [error] mod_jk child workerEnv in error state 3
+[Sat Nov 19 03:30:13 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Sat Nov 19 03:30:13 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Nov 19 03:30:13 2005] [error] mod_jk child init 1 -2
+[Sat Nov 19 03:30:13 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Sat Nov 19 03:30:14 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Sat Nov 19 03:30:14 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Sat Nov 19 03:30:14 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Sat Nov 19 03:30:14 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Sat Nov 19 03:30:14 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Sat Nov 19 03:30:14 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Sat Nov 19 03:30:14 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Sat Nov 19 03:30:14 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Sat Nov 19 03:30:14 2005] [error] jk2_init() Can't find child 12196 in scoreboard
+[Sat Nov 19 03:30:14 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Nov 19 03:30:14 2005] [error] mod_jk child init 1 -2
+[Sat Nov 19 03:30:14 2005] [error] jk2_init() Can't find child 12197 in scoreboard
+[Sat Nov 19 03:30:14 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Sat Nov 19 03:30:14 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Nov 19 03:30:14 2005] [error] mod_jk child init 1 -2
+[Sat Nov 19 03:30:14 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Sat Nov 19 03:30:14 2005] [notice] jk2_init() Found child 12198 in scoreboard slot 11
+[Sat Nov 19 03:30:14 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Nov 19 03:30:14 2005] [error] mod_jk child workerEnv in error state 3
+[Sat Nov 19 03:30:14 2005] [notice] jk2_init() Found child 12199 in scoreboard slot 12
+[Sat Nov 19 03:30:14 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Nov 19 03:30:14 2005] [error] mod_jk child workerEnv in error state 3
+[Sat Nov 19 03:30:14 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Sat Nov 19 03:30:15 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Sat Nov 19 03:30:15 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Sat Nov 19 03:30:15 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Sat Nov 19 03:30:15 2005] [error] [client 200.24.17.195] File does not exist: /var/www/html/awstats/awstats.pl
+[Sat Nov 19 03:30:15 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Sat Nov 19 03:30:15 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Sat Nov 19 03:30:15 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Sat Nov 19 03:30:16 2005] [error] [client 200.24.17.195] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Sat Nov 19 03:30:16 2005] [error] jk2_init() Can't find child 12200 in scoreboard
+[Sat Nov 19 03:30:16 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sat Nov 19 03:30:16 2005] [error] mod_jk child init 1 -2
+script not found or unable to stat
+script not found or unable to stat
+script not found or unable to stat
+script not found or unable to stat
+script not found or unable to stat
+script not found or unable to stat
+script not found or unable to stat
+script not found or unable to stat
+script not found or unable to stat
+script not found or unable to stat

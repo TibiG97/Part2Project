@@ -1,0 +1,100 @@
+12-17 19:33:00.949  2852  2852 I TimeManager: chinaDateTime:晚上7:33
+12-17 19:33:00.950  3858  4126 I amsnl   : wsr
+12-17 19:33:00.955  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:33:00.957  1795  2736 E hwintelligencewifi:  DefaultState message.what = 7
+12-17 19:33:00.957  1795  6985 D wifiserviceimpl: netmask =16580607
+12-17 19:33:00.957  3858  4126 I amsnl   : m1: false
+12-17 19:33:00.959  1795  3139 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:00.960  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:33:00.960  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:33:00.966  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:00.966  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:33:00.966  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:33:00.967  2852  2852 I EventCenter: EventCenter Get :android.intent.action.TIME_TICK
+12-17 19:33:00.968  2852  2852 W ResourceType: Failure getting entry for 0xffffffff (t=254 e=65535) (error -2147483647)
+12-17 19:33:00.968  2852  2852 E DateLunarView: mDateString is: 12月17日星期六
+12-17 19:33:00.969  1795  1809 I HwPhoneWindowManager: OverscanTimeout run
+12-17 19:33:00.972  2852  2852 W ResourceType: Failure getting entry for 0xffffffff (t=254 e=65535) (error -2147483647)
+12-17 19:33:00.972  2852  2852 E DateLunarView: mDateString is: 12月17日星期六
+12-17 19:33:00.972  2852  2852 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+12-17 19:33:00.972  2852  2852 D KeyguardUpdateMonitor: handleTimeUpdate
+12-17 19:33:00.978  3879  3879 I HwLauncher: Model  onReceive intent=Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+12-17 19:33:00.978  3879  3879 I HwLauncher: Model  onReceive user=UserHandle{0}
+12-17 19:33:00.989  5224  5224 I Step_LSC: 20002302|logicalDealBroadcastEvent : Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+12-17 19:33:00.990  5224  5283 I Step_LSC: 20002302| ## MSG_DEAL_SYSTEM_EVENT android.intent.action.TIME_TICK
+12-17 19:33:00.996  3608  3608 D InCall  : InCallPresenter - notifyInCallScreenIsForeground: false
+12-17 19:33:00.997  3608  3608 I SendBroadcastPermission: action:InCallScreenIsForegroundActivity, mPermissionType:0
+12-17 19:33:01.006  1795 20747 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{ec55919 3608:com.android.incallui/1001}
+12-17 19:33:01.007  1795 11745 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:01.007  1795 17831 I ActivityManager_broadcast: dispatch ordered broadcast [foreground] BroadcastRecord{e32737b u-1 android.intent.action.SCREEN_OFF}, has 55 receivers
+12-17 19:33:01.008  1795  1795 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:01.008  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:01.009  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:33:01.009  2852  2852 I BackgrounCallingLayout: mCallingStatusReceiver:onReceive::action=InCallScreenIsForegroundActivity, isForegroundActivity=false, mPhoneState=2
+12-17 19:33:01.011  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:33:01.012  2852  2852 I BackgrounCallingLayout: updateCallLayout:isBackground=false, isInteractive=false
+12-17 19:33:01.013  2852  2852 W HwPhoneStatusBar: mNotifyStateChangedReceiver do nothing
+12-17 19:33:01.013  2852  2852 I HwPhoneStatusBar: mNotifyStateChangedReceiver::onReceive:action=InCallScreenIsForegroundActivity, mBackgroundState=false
+12-17 19:33:01.013  1795  2377 I AwareLog: AwareMem_DMEServer: stop
+12-17 19:33:01.018  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_OFF
+12-17 19:33:01.018  1795  2668 D WifiP2pService: InactiveState143467
+12-17 19:33:01.018  1795  2668 E HwWifiP2pService: Unhandled message when=123064704 what=143467 arg1=0 arg2=0
+12-17 19:33:01.018  1795  2668 D WifiP2pService: P2pEnabledState when=123064704 what=143467 arg1=0 arg2=0
+12-17 19:33:01.018  1795  2668 D WifiP2pService: DefaultState{ when=0 what=143467 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:33:01.018  1795  2668 D HwWifiP2pService: SleepPolicy:1
+12-17 19:33:01.023  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SCREEN_STATE_CHANGED  rt=123064709/442917386 0 0
+12-17 19:33:01.023  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SCREEN_STATE_CHANGED  rt=123064709/442917386 0 0
+12-17 19:33:01.023  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SCREEN_STATE_CHANGED  rt=123064709/442917386 0 0
+12-17 19:33:01.023  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SCREEN_STATE_CHANGED  rt=123064709/442917386 0 0
+12-17 19:33:01.023  1795  2671 D WifiStateMachine:  SupplicantStartedState !CMD_SCREEN_STATE_CHANGED  rt=123064709/442917386 0 0
+12-17 19:33:01.023  1795  2671 D WifiStateMachine:  DefaultState !CMD_SCREEN_STATE_CHANGED  rt=123064709/442917386 0 0
+12-17 19:33:01.023  1795  2671 D PowerManagerService: acquire lock=244575063, flags=0x1, tag="WifiSuspend", name=android, ws=null, uid=1000, pid=1795
+12-17 19:33:01.023  1795  2671 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:01.023  1795  2671 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:01.025  1795  2671 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:33:01.025  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:33:01.025  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:33:01.025  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_OFF mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:33:01.025  1795  1795 D HwConnectivityService: receive screen off intent!
+12-17 19:33:01.025  1795  1795 D HwConnectivityService: wifi tethering: false
+12-17 19:33:01.025  1795  1795 D HwConnectivityService: Usb tethering: false
+12-17 19:33:01.025  1795  1795 D HwConnectivityService: bt tethering: false
+12-17 19:33:01.025  1795  1795 D HwConnectivityService: pluggedStatus: 0
+12-17 19:33:01.025  1795  1795 D HwConnectivityService: is charging: false
+12-17 19:33:01.027  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:33:01.027  1795  2671 D WifiStateMachine:  ConnectedState CMD_ENABLE_RSSI_POLL  rt=123064713/442917390 0 0
+12-17 19:33:01.027  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_ENABLE_RSSI_POLL  rt=123064713/442917390 0 0
+12-17 19:33:01.027  1795  2671 D WifiStateMachine:  ConnectedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123064713/442917390 1 0
+12-17 19:33:01.027  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123064713/442917390 1 0
+12-17 19:33:01.027  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SET_SUSPEND_OPT_ENABLED  rt=123064713/442917390 1 0
+12-17 19:33:01.027  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123064713/442917390 1 0
+12-17 19:33:01.027  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 1'
+12-17 19:33:01.027  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 1'
+12-17 19:33:01.030  3218  7071 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 phoneId=0
+12-17 19:33:01.031  3218  7071 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 retVal=false
+12-17 19:33:01.031  1795  1795 D HwConnectivityService: CtrlSocket getMobileDataEnabled = false
+12-17 19:33:01.034  1795  1795 I NotificationManager: mIntentReceiver-ACTION_SCREEN_OFF
+12-17 19:33:01.034  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = false,ledNotification == null?true
+12-17 19:33:01.034  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:33:01.034  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:33:01.034  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:33:01.034  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:33:01.034  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:33:01.036  1046  1046 V ThreadsEx: HDebug print the key screen_state
+12-17 19:33:01.037  1046  1046 D audio_hw_primary: adev_set_parameters: enter: screen_state=off
+12-17 19:33:01.037  1046  1046 I Huawei_audio_cust: huawei_audio huawei_choose_HandsFree_device_incall_forHWtest: test Type =4
+12-17 19:33:01.037  1046  1046 I Huawei_audio_cust: huawei_audio huawei_choose_Handset_device_incall_forHWtest: test Type =4
+12-17 19:33:01.037  1046  1046 I Huawei_audio_cust: get_spk_pa_type: pa is max98925
+12-17 19:33:01.037  1046  1046 I Huawei_audio_cust: huawei_common_set_parameters: exit with code(0)
+12-17 19:33:01.037  1046  1046 V Huawei_audio_cust: huawei_cust_set_parameters: exit with code(0)
+12-17 19:33:01.037  1046  1046 V msm8916_platform: platform_set_parameters: enter: - screen_state=off
+12-17 19:33:01.037  1046  1046 V msm8916_platform: platform_set_parameters: exit with code(0)
+12-17 19:33:01.037  1046  1046 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:33:01.037  1046  1046 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:33:01.037  1046  1046 V audio_hw_primary: adev_set_parameters: exit with code(0)
+12-17 19:33:01.040  1795  1795 I AlarmManager: set(PendingIntent{2f9e644: PendingIntentRecord{527f32d android broadcastIntent}}) : type=2 triggerAtTime=447177403 win=300000 tElapsed=447177403 maxElapsed=447477403 interval=0 flags=0x8
+12-17 19:33:01.042  1795  1795 D HwPFWLogger: PFW.HwPFWService:mBroadcastReceiver action = android.intent.action.SCREEN_OFF
+12-17 19:33:01.042  1795  2708 D HwPFWLogger: PFW.HwPFWService:handle PFW_MSG_SYSTEM
+12-17 19:33:01.042  1795  2708 D HwPFWLogger: PFW.HwPFWAppRestartPolicy:receive action = android.intent.action.SCREEN_OFF
+12-17 19:33:01.044  1795  1795 D WifiService: onReceive, action:android.intent.action.SCREEN_OFF
+12-17 19:33:01.045  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155651 target=com.android.internal.util.StateMachine$SmHandler }

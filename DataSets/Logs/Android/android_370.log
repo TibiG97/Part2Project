@@ -1,0 +1,100 @@
+12-17 19:36:02.564  2852  2852 E BokehDrawable: BlurBitmap  draw super 0.0
+12-17 19:36:02.567  2852  2852 D UnderLayer: ondraw 0, Rect(0, 0 - 1080, 1920)
+12-17 19:36:02.587  1795  2665 D NetdConnector: RCV <- {200 11636 Firewall command succeeded}
+12-17 19:36:02.588  1795  2665 D NetdConnector: RCV <- {200 11636 Firewall command succeeded}
+12-17 19:36:02.589  3180  3578 I ash     : removeAppNetworkRestrict >> huawei.w3, uids : [10103]
+12-17 19:36:02.589  3180  3578 I ash     : perform running actions!
+12-17 19:36:02.589  3180  3578 I ash     : running package: huawei.w3, visible: false
+12-17 19:36:02.600  2852  2925 I WeatherUtils: getCurrentWeatherInfo currentTemperature is :17.0 mWeatherIcon Id is: 33
+12-17 19:36:02.604  2852  2925 I WeatherUtils: getCurrentWeatherInfo currentTemperature is :17.0 mWeatherIcon Id is: 33
+12-17 19:36:02.604  2852  2925 D WeatherHelper: homeWeatherInfo = com.huawei.keyguard.events.weather.WeatherInfo@c11df3a
+12-17 19:36:02.621  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:36:02.640  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:36:02.640  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:36:02.640  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:36:02.641  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:36:02.641  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:36:02.715  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:36:02.716  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:36:02.716  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:36:02.716  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:36:02.716  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:36:02.716  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:36:02.716  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:36:02.716  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:36:02.716  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:36:02.716  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:36:02.718  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:36:02.718  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:36:02.718  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:36:02.718  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:36:02.718  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:36:02.718  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:36:02.718  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:36:02.718  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:36:02.840  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:36:02.960  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:36:02.994  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:36:02.995  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:36:02.995  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:36:03.358  1795  1806 D SmartHeartBeat: setAlarmsPending ...
+12-17 19:36:03.359  3180  3578 I BlackListAlarmRestrict: [pending] net alarms
+12-17 19:36:03.472  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:36:03.542  3180  3578 I AppManager: Force stop:huawei.w3 Reason:Screen Off Clean
+12-17 19:36:03.544  1795  3110 I TransactionSponsor: Transact:getHwAdminCachedListto device policy manager service.
+12-17 19:36:03.544  1795  3110 I TransactionProcessor: HwDPMS received transaction_getHwFrameworkAdminList user: 0:4005
+12-17 19:36:03.544  1795  3110 I ActivityManager: Force stopping huawei.w3 appid=10103 user=0: from pid 3180by app
+12-17 19:36:03.544  1795  3110 I ActivityManager: Killing 19598:huawei.w3/u0a103 (adj 902): stop huawei.w3from pid 3180by app
+12-17 19:36:03.545  1795  3110 D ActivityManager: cleanUpApplicationRecord -- 19598
+12-17 19:36:03.545  1795  3110 I ActivityManager: cleanUpApplicationRecordLocked, pid: 19598, restart: false
+12-17 19:36:03.545  1795  3110 I ActivityManager: cleanUpApplicationRecordLocked, reset pid: 19598, euid: 0
+12-17 19:36:03.548  1795  3110 D HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId 0
+12-17 19:36:03.548  1795  3110 D HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId 0
+12-17 19:36:03.548  1795  3110 D HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId 0
+12-17 19:36:03.548  1795  3110 D HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId 0
+12-17 19:36:03.548  1795  3110 D HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId 0
+12-17 19:36:03.548  1795  3110 D HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId 0
+12-17 19:36:03.548  1795  3110 I ActivityManager_activity: resumeTopActivityLocked: Going to sleep and all paused
+12-17 19:36:03.550  1795  1809 I MultiTaskManagerService: onProcessDied pid = 19598, uid = 10103
+12-17 19:36:03.550  1795  2778 E HsmCoreServiceImpl: onTransact in code is: 102
+12-17 19:36:03.550  1795  2778 I MediaProcessHandler: processOp opType: 1, uid: 10103, pid: 19598
+12-17 19:36:03.550  1795  2778 W MediaProcessHandler: remove target not exist, maybe the UI process: uid: 10103, pid: 19598
+12-17 19:36:03.550  3180  3578 I ScreenLockClean: Screen Off Clean Apps Num:1 expend time(ms):8
+12-17 19:36:03.550  3180  3578 I ash     : huawei.w3 { running duration=961 } transition to: end, reason:not_running
+12-17 19:36:03.550  3180  3578 I ash     : remove app record pkg: huawei.w3
+12-17 19:36:03.552  1795  1795 I NotificationManager: mIntentReceiver-Package changed
+12-17 19:36:03.552  1795  1795 I NotificationManager: action=android.intent.action.PACKAGE_RESTARTED queryReplace=false
+12-17 19:36:03.552  1795  1795 I NotificationManager: cancelAllNotificationsInt called
+12-17 19:36:03.552  1795  1795 D HwGpsPowerTracker: LocalReceiver receives:android.intent.action.PACKAGE_RESTARTED
+12-17 19:36:03.553  1795  1795 I HwCoreAppHelperService: LocalReceiver receives:android.intent.action.PACKAGE_RESTARTED,pkg:huawei.w3,uid:10103
+12-17 19:36:03.560  3218  3218 D CarrierSvcBindHelper: No carrier app for: 0
+12-17 19:36:03.560  1795  6988 I DisplayManagerService: stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=false
+12-17 19:36:03.560  1795  6988 I DisplayManagerService: stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=0
+12-17 19:36:03.561  3218  3218 D CarrierSvcBindHelper: No carrier app for: 1
+12-17 19:36:03.576  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:36:03.637  1795  2376 I AlarmManager: set again repeat alarm: next ,nextElapsed = 443700000,repeatInterval = 900000
+12-17 19:36:03.639  1795  2376 W AlarmManager: mIsScreenOn is: false, WAKEUP alarm trigger action = null package name is: com.tencent.mm
+12-17 19:36:03.639  1795  2376 W AlarmManager: mIsScreenOn is: false, WAKEUP alarm trigger action = remain_connect_action package name is: com.huawei.systemmanager
+12-17 19:36:03.639  1795  2376 I AlarmManager: Alarm triggering (type 0 or 2): [Alarm{106ccf9 type 0 when 1481974263636 com.tencent.mm}, Alarm{fe5e0d9 type 0 when 1481974525816 com.huawei.systemmanager}]
+12-17 19:36:03.639  1795  2376 I AlarmManager: sending alarm Alarm{106ccf9 type 0 when 1481974263636 com.tencent.mm},repeatInterval = 900000,listenerTag =null
+12-17 19:36:03.640  1795  2376 I ActivityManager_broadcast: collectReceiverComponents, callerApp: null, intent:null, receiver size:1, flags: 10000400
+12-17 19:36:03.640  1795  2376 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { flg=0x14 cmp=com.tencent.mm/.booter.MMReceivers$AlarmReceiver (has extras) } on bgkeyapp queue
+12-17 19:36:03.640  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[bgkeyapp] BroadcastRecord{83e5091 u0 null}: prev had 0
+12-17 19:36:03.641  1795  1812 I ActivityManager_broadcast: dispatch ordered broadcast [bgkeyapp] BroadcastRecord{83e5091 u0 null}, has 1 receivers
+12-17 19:36:03.641  1795  2376 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:36:03.641  1795  2376 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:36:03.641  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:36:03.642  1795  2376 I AlarmManager: sending alarm Alarm{a8d2885 type 3 when 442800000 com.huawei.systemmanager},repeatInterval = 600000,listenerTag =null
+12-17 19:36:03.649  1795  2376 W ActivityManager: Sending non-protected broadcast com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE from system uid 1000 pkg com.huawei.systemmanager
+12-17 19:36:03.649  1795  2376 I ActivityManager_broadcast: collectReceiverComponents, callerApp: null, intent:com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE, receiver size:1, flags: 10000400
+12-17 19:36:03.649  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{3aabf6 u0 com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE}: prev had 0
+12-17 19:36:03.650  1795  2376 I AlarmManager: sending alarm Alarm{4b628ab type 3 when 442800000 com.huawei.systemmanager},repeatInterval = 1800000,listenerTag =null
+12-17 19:36:03.650  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{3aabf6 u0 com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE}, has 1 receivers
+12-17 19:36:03.658  2883  2883 I HwSystemManager: ScheduleRecordPowerConsumeReceiver:onReceive: Action = com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE
+12-17 19:36:03.658  1795  2376 W ActivityManager: Sending non-protected broadcast com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_POWER_CONSUME from system uid 1000 pkg com.huawei.systemmanager
+12-17 19:36:03.659  1795  2376 I ActivityManager_broadcast: collectReceiverComponents, callerApp: null, intent:com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_POWER_CONSUME, receiver size:1, flags: 10000400
+12-17 19:36:03.659  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{fa45bf7 u0 com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_POWER_CONSUME}: prev had 1
+12-17 19:36:03.660  1795  2376 I AlarmManager: sending alarm Alarm{fe5e0d9 type 0 when 1481974525816 com.huawei.systemmanager},repeatInterval = 0,listenerTag =null
+12-17 19:36:03.661  1795  2376 W ActivityManager: Sending non-protected broadcast remain_connect_action from system uid 1000 pkg com.huawei.systemmanager
+12-17 19:36:03.661  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{50a9a64 u0 remain_connect_action}: prev had 2
+12-17 19:36:03.662  1795  2376 I AlarmManager: sending alarm Alarm{674493 type 3 when 443100000 com.tencent.mm},repeatInterval = 300000,listenerTag =null

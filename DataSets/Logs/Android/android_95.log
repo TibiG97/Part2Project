@@ -1,0 +1,100 @@
+12-17 19:31:56.457  1795 11747 E qti_sensors_hal: read from oem info: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:31:56.457  1795 11747 E qti_sensors_hal: Final value: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:31:56.457  1795 11747 I qti_sensors_hal: batch:load_acc_oeminf_data x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:56.457  1795 11747 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) sample_rate=5.000000Hz report_rate_f=0.000000Hz curr sample rate:5.000000 cur rpt rate:0 max:400.000000 min:1.000000
+12-17 19:31:56.457  1795 11747 I qti_sensors_hal: batch: current sample rate, report rate & buffering are equal to requested (5.000000,0.000000,0)
+12-17 19:31:56.459  1795  2736 E hwintelligencewifi:  DefaultState message.what = 7
+12-17 19:31:56.460  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:56.461  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=false
+12-17 19:31:56.461  1795  1795 D DeviceIdleController: becomeInactiveIfAppropriateLocked()
+12-17 19:31:56.461  1795  1795 D DeviceIdleController: Moved from STATE_ACTIVE to STATE_INACTIVE
+12-17 19:31:56.461  1795  1795 D DeviceIdleController: stopMonitoringMotionLocked()
+12-17 19:31:56.461  1795  1795 D DeviceIdleController: scheduleAlarmLocked(1800000, false)
+12-17 19:31:56.461  1795  1795 I AlarmManager: set(null) : type=2 triggerAtTime=444652824 win=1350000 tElapsed=444652824 maxElapsed=446002824 interval=0 flags=0x8
+12-17 19:31:56.461  1795  1795 D DeviceIdleController: Moved from LIGHT_STATE_ACTIVE to LIGHT_STATE_INACTIVE
+12-17 19:31:56.461  1795  1795 D DeviceIdleController: scheduleLightAlarmLocked(300000)
+12-17 19:31:56.462  1795  1795 I AlarmManager: set(null) : type=2 triggerAtTime=443152825 win=225000 tElapsed=443152825 maxElapsed=443377825 interval=0 flags=0x8
+12-17 19:31:56.480  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:31:56.480  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:31:56.480  2852  2852 V KeyguardStatusView: Disable transport text marquee
+12-17 19:31:56.480  2852  2852 V KeyguardUpdateMonitor: FingerStat Visible: false; Interactive: false; Switching: false; Bouncer:false; GoingToSleep: false Occluded: false; dreaming: false; Authenticated: false
+12-17 19:31:56.481  1795  2377 I AwareLog: AwareMem_DMEServer: stop
+12-17 19:31:56.481  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:31:56.481  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:31:56.484  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:31:56.484  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:31:56.485  1795 11747 I Security_fingerprint: FingerprintService getEnrolledFingerprints
+12-17 19:31:56.485  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_OFF
+12-17 19:31:56.485  1795  2668 D WifiP2pService: InactiveState143467
+12-17 19:31:56.485  1795  2668 E HwWifiP2pService: Unhandled message when=123029657 what=143467 arg1=0 arg2=0
+12-17 19:31:56.485  1795  2668 D WifiP2pService: P2pEnabledState when=123029657 what=143467 arg1=0 arg2=0
+12-17 19:31:56.485  2852  2852 V KeyguardUpdateMonitor: KGSvcFp startListeningForFingerprint()
+12-17 19:31:56.485  1795  2668 D WifiP2pService: DefaultState{ when=0 what=143467 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:31:56.485  2852  2852 I KeyguardUpdateMonitor: authenticate by 0 mode!
+12-17 19:31:56.485  1795  2668 D HwWifiP2pService: SleepPolicy:1
+12-17 19:31:56.486  1795 20747 I Security_fingerprint: FingerprintService authenticate
+12-17 19:31:56.486  1795  2326 W HwFingerprintService: setLivenessSwitch:start
+12-17 19:31:56.486  1795  2326 W HwFingerprintService: checkNeedLivenessList:start
+12-17 19:31:56.486  2852  2852 W KeyguardUpdateMonitor: Fingerprint RunningStateChanged. 1
+12-17 19:31:56.486  1795  2326 W HwFingerprintService: NEED_LIVENESS_AUTHENTICATION = 0
+12-17 19:31:56.486  2852  2852 W HwLockScreenPanel: Handle message: 15
+12-17 19:31:56.487  2852  2852 W CameraLayout: Cameralayout setVisibility. true false  2
+12-17 19:31:56.487  2852  2852 D MagazineDetailView: resetPagerState
+12-17 19:31:56.487   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:1002
+12-17 19:31:56.487   835   835 I fingerprintd: fingerprintd
+12-17 19:31:56.487   835   835 I fingerprintd: FingerprintDaemonProxyEx::setLivenessSwitch
+12-17 19:31:56.487   835   835 I fingerprintd: fingerprintdex--dev->need_liveness_authentication = false;
+12-17 19:31:56.487  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:31:56.488  1795  2326 W HwFingerprintService: framework setLivenessSwitch is ok ---end
+12-17 19:31:56.488   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:7
+12-17 19:31:56.488   835   835 D fpc_fingerprint_hal: fpc_get_authenticator_id
+12-17 19:31:56.488   835  2385 D fpc_fingerprint_hal: fpc poll irq interupt
+12-17 19:31:56.488   835  2385 D fpc_fingerprint_hal: wait_finger_down, took 1088 ms
+12-17 19:31:56.488  2852  2852 I HwBrightnessUtils: APS brightness=0.0,ConvertToPercentage=NaN
+12-17 19:31:56.488  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:0 percentage:NaN
+12-17 19:31:56.488  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:0
+12-17 19:31:56.488  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:0
+12-17 19:31:56.488   835  2385 E libteec : begin
+12-17 19:31:56.488   606  2379 E libteec : receive data len = 128
+12-17 19:31:56.488  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:0 fromUser:false
+12-17 19:31:56.488  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:0 fromUser:false
+12-17 19:31:56.489  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.android.incallui user=UserHandle{0} id=2 tag=null key=0|com.android.incallui|2|null|1001: Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE))) important=2, post=1481974316171, when=1481974245373, vis=0, userid=0
+12-17 19:31:56.489  2852  2852 I PhoneStatusBar: addNotification key=0|com.android.incallui|2|null|1001
+12-17 19:31:56.490  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:56.490  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:31:56.490  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:31:56.490  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:31:56.490  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:31:56.490  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:56.491  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SCREEN_STATE_CHANGED  rt=123029663/442852854 0 0
+12-17 19:31:56.491  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SCREEN_STATE_CHANGED  rt=123029663/442852854 0 0
+12-17 19:31:56.491  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SCREEN_STATE_CHANGED  rt=123029663/442852854 0 0
+12-17 19:31:56.491  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SCREEN_STATE_CHANGED  rt=123029663/442852854 0 0
+12-17 19:31:56.491  1795  2671 D WifiStateMachine:  SupplicantStartedState !CMD_SCREEN_STATE_CHANGED  rt=123029663/442852854 0 0
+12-17 19:31:56.491  1795  2671 D WifiStateMachine:  DefaultState !CMD_SCREEN_STATE_CHANGED  rt=123029663/442852854 0 0
+12-17 19:31:56.491  1795  2671 D PowerManagerService: acquire lock=244575063, flags=0x1, tag="WifiSuspend", name=android, ws=null, uid=1000, pid=1795
+12-17 19:31:56.491  1795  2671 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:56.492  1795  2671 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:56.492  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:31:56.493  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:56.493  1795  2671 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:31:56.493  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:31:56.493  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:31:56.494  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_OFF mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:31:56.494  1795  1795 D HwConnectivityService: receive screen off intent!
+12-17 19:31:56.494  1795  1795 D HwConnectivityService: wifi tethering: false
+12-17 19:31:56.494  1795  1795 D HwConnectivityService: Usb tethering: false
+12-17 19:31:56.494  1795  1795 D HwConnectivityService: bt tethering: false
+12-17 19:31:56.494  1795  1795 D HwConnectivityService: pluggedStatus: 0
+12-17 19:31:56.494  1795  1795 D HwConnectivityService: is charging: false
+12-17 19:31:56.495  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:56.495  2852  2852 I StatusBarIconView: updateTint: tint=1
+12-17 19:31:56.495  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:31:56.495  1795  2671 D WifiStateMachine:  ConnectedState CMD_ENABLE_RSSI_POLL  rt=123029667/442852859 0 0
+12-17 19:31:56.496  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_ENABLE_RSSI_POLL  rt=123029667/442852859 0 0
+12-17 19:31:56.496  1795  2671 D WifiStateMachine:  ConnectedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123029667/442852859 1 0
+12-17 19:31:56.496  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123029667/442852859 1 0
+12-17 19:31:56.496  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SET_SUSPEND_OPT_ENABLED  rt=123029668/442852859 1 0
+12-17 19:31:56.496  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123029668/442852859 1 0
+12-17 19:31:56.496  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 1'
+12-17 19:31:56.496  2852  2852 D HwCust  : Create obj success use class com.android.systemui.statusbar.HwCustExpandableNotificationRowImpl

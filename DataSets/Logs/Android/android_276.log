@@ -1,0 +1,100 @@
+12-17 19:34:55.981  1046  1046 D voice_extn: update_call_states is_call_active:1 in_call:1, mode:2
+12-17 19:34:55.981  1046  1046 D voice_extn: update_calls: enter:
+12-17 19:34:55.981  1046  1046 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10c01000
+12-17 19:34:55.981  1795  3238 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:55.981  1046  1046 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10dc1000
+12-17 19:34:55.981  1046  1046 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10c02000
+12-17 19:34:55.981  1046  1046 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10803000
+12-17 19:34:55.981  1046  1046 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10002000
+12-17 19:34:55.981  1046  1046 D voice_extn: update_calls: cur_state=2 new_state=2 vsid=11c05000
+12-17 19:34:55.981  1046  1046 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=11dc5000
+12-17 19:34:55.981  1046  1046 D voice_extn: voice_extn_set_parameters: call type is GSM
+12-17 19:34:55.981  1046  1046 V msm8916_platform: platform_set_gsm_mode: disabling gsm mode
+12-17 19:34:55.981  1046  1046 E audio_route: unable to find path 'gsm-mode'
+12-17 19:34:55.981  1046  1046 D msm8916_platform: platform_set_gsm_mode: enabling gsm mode
+12-17 19:34:55.981  1046  1046 E audio_route: unable to find path 'gsm-mode'
+12-17 19:34:55.981  1046  1046 V msm8916_platform: platform_set_parameters: enter: - 
+12-17 19:34:55.981  1046  1046 V msm8916_platform: platform_set_parameters: exit with code(0)
+12-17 19:34:55.981  1046  1046 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:34:55.981  1046  1046 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:34:55.981  1046  1046 V audio_hw_primary: adev_set_parameters: exit with code(0)
+12-17 19:34:55.982  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000039000000514f454d484f4f4bf703080029000000767369643d3239373831363036343b63616c6c5f73746174653d323b63616c6c5f747970653d47534d]
+12-17 19:34:55.982  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 68 bytes data for SUB0
+12-17 19:34:55.982  3382  3399 D QcrilMsgTunnelSocket: AudioState data received: vsid=297816064;call_state=2;call_type=GSM
+12-17 19:34:55.982  3382  3399 D QcrilMsgTunnelSocket: Broadcasting intent ACTION_AUDIO_STATE_CHANGED
+12-17 19:34:55.982  3382  3399 I SendBroadcastPermission: action:qualcomm.intent.action.ACTION_AUDIO_STATE_CHANGED, mPermissionType:0
+12-17 19:34:55.982  1795 16498 D PowerManagerService: acquire lock=247092602, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:34:55.983  1795 16498 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:56.039  5224  5224 I Step_LSC: 20002302|onStandStepChanged 65611
+12-17 19:34:56.039  5224  5224 I Step_LSC: 20002302|standStepCounter report 100 steps,write fe
+12-17 19:34:56.040  5224  5224 I Step_LSC: 20002302|compensate received
+12-17 19:34:56.040  5224  5283 I Step_LSC: 20002302|MSG_RECORD_DATA_TO_FILE 
+12-17 19:34:56.040  5224  5283 I Step_LSC: 20002302|MSG_RECORD_DATA_TO_FILE datas.size()=8374
+12-17 19:34:56.093  1795  2371 E LightSensor: read Events lux: 53.0
+12-17 19:34:56.093  1795  1825 D AutomaticBrightnessController: ambient lux=53.0,timeStamp =443032456595000
+12-17 19:34:56.093  1795  1825 D HwNormalizedAutomaticBrightnessController: mAmbientLuxValid=true,mWakeupFromSleep= false
+12-17 19:34:56.093  1795  1825 D HwAmbientLuxFilterAlgo: updateAmbientLux: Initializing: mAmbientLightRingBuffer=[53.0 / 1ms], mAmbientLux=53.0
+12-17 19:34:56.093  1795  1825 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:34:56.093  1795  1825 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:34:56.093  1795  1825 D HwAmbientLuxFilterAlgo: t=123093710,BT=123094210,DT=123094710,BT1=123097710,DT1=123101710,Bn=false,Dn=false,lx=[53.0/123093710],mLx=53.0,s=5.0,ss=0.0,AuIntervened=false,mProximityState=false,bLux=404.0,dLux=20.0,bLux1=404.0,dLux1=20.0
+12-17 19:34:56.094  1795  1825 D HwNormalizedAutomaticBrightnessController: need to update brightness: mAmbientLux=53.0
+12-17 19:34:56.094  1795  1825 D HwNormalizedSpline: interpolate:mPosBrightness=0.0lux=53.0,mIsReboot=true,mIsUserChange=false,mDelta=0.0
+12-17 19:34:56.094  1795  1825 D HwNormalizedSpline: offsetBrightness=43.86667,mOffsetBrightness_last43.86667,lux=53.0,mPosBrightness=0.0,mIsUserChange=false,mDelta=0.0,defaultBrightness=43.86667,mStartLuxDefaultBrightness=43.86667mLastLuxDefaultBrightness=43.86667
+12-17 19:34:56.094  1795  1825 D HwNormalizedSpline: write:userId=0,mPosBrightness =0.0,mOffsetBrightness_last=43.86667,mIsUserChange=false,mDeltaNew=0.0,mStartLuxDefaultBrightness=43.86667mLastLuxDefaultBrightness=43.86667,mAmLux=53.0
+12-17 19:34:56.094  1795  1825 D AutomaticBrightnessController: updateAutoBrightness: mScreenAutoBrightness=43, newScreenAutoBrightness=44
+12-17 19:34:56.094  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:34:56.095  1795  1825 D DisplayPowerController: Animating brightness: target=44, rate=0
+12-17 19:34:56.095  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:34:56.095  1795  1825 D DisplayPowerController: Animating brightness: target=44, rate=40
+12-17 19:34:56.135  1795  2750 D SurfaceControl: Excessive delay in setPowerMode(): 210ms
+12-17 19:34:56.136  1795  1821 I DisplayManagerService: Display device changed state: "内置屏幕", ON
+12-17 19:34:56.137  3608  3608 D InCall  : InCallPresenter - onActivityStarted
+12-17 19:34:56.137  3608  3608 D InCall  : InCallPresenter - notifyVideoPauseController
+12-17 19:34:56.137  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onResume
+12-17 19:34:56.137  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onResume. Ignoring...
+12-17 19:34:56.137  3608  3608 D InCall  : InCallActivity - doOrientationChanged prevOrientation=1 newOrientation=1
+12-17 19:34:56.137  3608  3608 D InCall  : InCallActivity - onStart()... end
+12-17 19:34:56.138  3608  3608 I InCall  : InCallActivity - onResume()...
+12-17 19:34:56.139  1795  2671 D WifiStateMachine:  ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123093756/443032502 1 0
+12-17 19:34:56.139  1795  2680 I AlarmManager: set(null) : type=2 triggerAtTime=443047297 win=11250 tElapsed=443047297 maxElapsed=443058547 interval=0 flags=0x8
+12-17 19:34:56.139  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123093756/443032502 1 0
+12-17 19:34:56.139  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:34:56.140  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:34:56.140  1795  3238 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{4ff57fc 3382:com.qualcomm.qcrilmsgtunnel/1001}
+12-17 19:34:56.141  1795 17831 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:56.142   832   832 E Parcel  : Reading a NULL string not supported here.
+12-17 19:34:56.142   832   832 E Parcel  : Reading a NULL string not supported here.
+12-17 19:34:56.142  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:34:56.142  5215  5215 E wpa_supplicant: RSSI=-62;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:34:56.142  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:34:56.142  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:34:56.143  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:34:56.143  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-62 "Huawei-Employee"WPA_EAP
+12-17 19:34:56.143  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123093760/443032506 0 0
+12-17 19:34:56.143  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123093760/443032506 0 0
+12-17 19:34:56.143  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123093760/443032506 0 0
+12-17 19:34:56.143  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123093760/443032506 0 0
+12-17 19:34:56.143  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 0'
+12-17 19:34:56.143  1795  3253 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:56.143  3608  3608 I InCall  : InCallActivity - bgCallTwinkingSwitch is truemIsForegroundActivity is true
+12-17 19:34:56.143  3608  3608 D InCall  : InCallPresenter - notifyInCallScreenIsForeground: true
+12-17 19:34:56.143  3608  3608 I SendBroadcastPermission: action:InCallScreenIsForegroundActivity, mPermissionType:0
+12-17 19:34:56.144  1795 20747 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:56.144  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:34:56.144  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 0'
+12-17 19:34:56.144  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:34:56.145  1795  6988 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{ec55919 3608:com.android.incallui/1001}
+12-17 19:34:56.145  3218  3218 D QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+12-17 19:34:56.145  3218  3218 D QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+12-17 19:34:56.146  1795  3121 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:56.146  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:34:56.147  3608  3608 D InCall  : StatusBarNotifier - cancelInCall()...
+12-17 19:34:56.147  1795  1795 I NotificationManager: mIntentReceiver-ACTION_SCREEN_ON
+12-17 19:34:56.147  1795  6985 I NotificationManager: cancelNotificationWithTag pid 3608,uid = 1001,tag = null,pkg =com.android.incallui,id =2
+12-17 19:34:56.147  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = true,ledNotification == null?false
+12-17 19:34:56.147  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:34:56.147  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:34:56.147  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:34:56.147  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:34:56.147  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:34:56.147  3608  3608 D InCall  : StatusBarNotifier - updateInCallNotification: timer cleared

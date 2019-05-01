@@ -1,0 +1,100 @@
+12-17 19:31:36.489  3608  3608 D InCall  : GlowPadWrapper - stopPing
+12-17 19:31:36.489  3608  3608 I InCall  : GlowPadAnswerFragment - showVideoAnswerButtonfalsefalse
+12-17 19:31:36.490  1795  6988 I ActivityManager_activity: Moving to PAUSED: ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310} (pause complete)
+12-17 19:31:36.492  1795  1825 D HwAmbientLuxFilterAlgo: clear buffer data and algo flags
+12-17 19:31:36.492  1795  1825 D lux trace:: [10.0/123009588]
+12-17 19:31:36.493  1795  1825 D Sensors : activate called handle:3 enable:0
+12-17 19:31:36.493  1795  1825 D Sensors : bh1745-light calling driver disable
+12-17 19:31:36.493  1795  1825 W LightSensor: LightSensor, enable, 283: en=0
+12-17 19:31:36.493  1795  1825 W LightSensor: LightSensor, enable, 284: flags=0
+12-17 19:31:36.493  1795  1825 W LightSensor: LightSensor, enable, 285: mEnabled=1
+12-17 19:31:36.493  1795  1825 E LightSensor: LightSensor disable, event occur num: 2
+12-17 19:31:36.496  1795  1825 D AutomaticBrightnessController: Disable LightSensor at time:123009668
+12-17 19:31:36.496  1795  1825 D DisplayPowerController: mode change : autoBrightnessEnabled=false,adjustment=0.0,state=1
+12-17 19:31:36.496  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:31:36.496  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=OFF, backlight=0
+12-17 19:31:36.496   612   612 D SurfaceFlinger: Set power mode=0, type=0 flinger=0x7f9a25b400
+12-17 19:31:36.497   612   612 I SDM     : HWCDisplay::SetPowerMode: display = 0, mode = 0
+12-17 19:31:36.497   612   612 I SDM     : DisplayBase::SetDisplayState: Set state = 0, display 0
+12-17 19:31:36.504  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 4.984952 Y: 8.419012 Z: 1.503679  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:36.564  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 3.943310 Y: 7.796118 Z: 0.517674  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:36.595  3180  3578 I AppManager: check dependency pid: 4690 is depended by pid: 1795
+12-17 19:31:36.595  3180  3578 I ash     : Application com.baidu.input_huawei is depended by other app, delay to H!
+12-17 19:31:36.621  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.364926 Y: 7.715781 Z: -0.231843  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:36.682  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.523755 Y: 6.906668 Z: -1.690821  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:36.732  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:36.732  1795  2750 D SurfaceControl: Excessive delay in setPowerMode(): 235ms
+12-17 19:31:36.732  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:31:36.732  1795  2750 D PowerManagerService: Setting HAL interactive mode to false
+12-17 19:31:36.732  1795  2750 I QTI PowerHAL: Got set_interactive hint
+12-17 19:31:36.733   625   718 E libnav  : AbaSuspend skips CABL deactivate: state was 3
+12-17 19:31:36.733   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:31:36.733  1795  2750 D libfingersense_wrapper: Calling fingersense_on_pause()
+12-17 19:31:36.733  1795  2750 D libfingersense_wrapper: fingersense_on_pause() finished
+12-17 19:31:36.733  1795  2750 D PowerManagerService: Setting HAL auto-suspend mode to true
+12-17 19:31:36.733   836  2387 I knuckle_sensor: Sending SAM_DISABLE to fs_data
+12-17 19:31:36.733  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:36.733  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:31:36.733  1795  1825 D DisplayPowerController: Display ready!
+12-17 19:31:36.733  1795  1825 D DisplayPowerController: Finished business...
+12-17 19:31:36.733  1795  1825 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:36.734  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeFinished mInteractiveChanging=true, mInteractive=false
+12-17 19:31:36.734  1795  1825 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:31:36.734  1795  1825 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Display".
+12-17 19:31:36.735   836   928 I knuckle_sensor: Got DISABLE response, status = 0, id = 57
+12-17 19:31:36.748  3180  3180 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:31:36.748  3180  3180 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:31:36.751  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=c0000000 mask=ffffffff oldVal=c0000600 newVal=c0000000 diff=600
+12-17 19:31:36.751  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000000, SystemUiVisibility=0xc0000000
+12-17 19:31:36.751  2852  2852 I PanelBar: collapsePanel:false
+12-17 19:31:36.752  2852  2852 I PanelView: closeQs
+12-17 19:31:36.752  2852  2852 I QSContainer: updateQsState:false
+12-17 19:31:36.752  2852  2852 I QSContainer: updateQsState:false
+12-17 19:31:36.752  2852  2852 I StackScroller: setScrollingEnabled: true
+12-17 19:31:36.752  2852  2852 I PanelView: instantCollapse
+12-17 19:31:36.752  2852  2852 I PanelBar: collapsePanel2
+12-17 19:31:36.754  1795  1821 I DisplayManagerService: Display device changed state: "内置屏幕", OFF
+12-17 19:31:36.755  3608  3608 I InCall  : VideoCallFragment - onStop:
+12-17 19:31:36.755  3608  3608 D InCall  : InCallActivity - onStop()...
+12-17 19:31:36.755  3608  3608 D InCall  : InCallPresenter - onActivityStopped
+12-17 19:31:36.755  3608  3608 D InCall  : InCallPresenter - notifyVideoPauseController
+12-17 19:31:36.755  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onPause
+12-17 19:31:36.755  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onPause, Ignoring...
+12-17 19:31:36.755  3608  3608 I InCall  : InCallPresenter - updateStatusBar: state = 0x0
+12-17 19:31:36.756  1795  1795 V SecInputMethodManagerService: Client requesting input be hidden, pid=1795
+12-17 19:31:36.756  1795  1795 V InputMethodManagerService: Unspecified window will hide input
+12-17 19:31:36.756  1795  1795 D HwInputMethodManagerService: ------------startInput--------------
+12-17 19:31:36.756  1795  3111 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.android.incallui
+12-17 19:31:36.756  1795  1795 V SecInputMethodManagerService: Client requesting input be hidden, pid=1795
+12-17 19:31:36.756  1795  1795 D HwInputMethodManagerService: hideSecSoftInput = false
+12-17 19:31:36.756  3608  3608 D InCall  : InCallActivity -  bgCallTwinkingSwitch is true inQuickExiting is false mIsForegroundActivity is false
+12-17 19:31:36.757   832  1841 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:36.757   832  1841 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:36.758  1795  1805 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:36.759  3608  3608 I CallUtils: show_incallscreen  0
+12-17 19:31:36.760  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.android.incallui|2|null|1001
+12-17 19:31:36.760  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=80000300 mask=ffffffff oldVal=c0000000 newVal=80000300 diff=40000300
+12-17 19:31:36.760  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_OPAQUE, animate=false
+12-17 19:31:36.761  2852  2852 D BarTransitions.HwPhoneStatusBarView: MODE_TRANSLUCENT -> MODE_OPAQUE animate=false
+12-17 19:31:36.761  2852  2852 D BarTransitions.HwPhoneStatusBarView: applyModeBackground oldMode=MODE_TRANSLUCENT newMode=MODE_OPAQUE animate=false
+12-17 19:31:36.761  1795 16498 D PowerManagerService: release:lock=228612087, flg=0x0, tag="ActivityManager-Sleep", name=android", ws=null, uid=1000, pid=1795
+12-17 19:31:36.761  1795 16498 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:36.761  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:31:36.761  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:31:36.761  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:31:36.761  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0x80000300, SystemUiVisibility=0x80000300
+12-17 19:31:36.761  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:31:36.761  1795  1795 I WindowManger_keyguard: Finished going to sleep... (why=6)
+12-17 19:31:36.761  1795  1806 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:36.761  1795  1795 I WindowOrientationListener: WindowOrientationListener disabled
+12-17 19:31:36.761  1795  1795 I qti_sensors_hal: batch,376,handle 0, timeout:0 ,period_ns:200000000
+12-17 19:31:36.761  1795  1795 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) handle:0 flags:0x0 period_ns 200000000
+12-17 19:31:36.762  1795 16499 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:36.764  1795  3139 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:36.764  1795  3139 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:36.764  3608  3608 I InCall  : CallList - hasAnyLiveCall call = [Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)]
+12-17 19:31:36.764  3608  3608 I InCall  : ProximitySensor - isDisplayOn: false
+12-17 19:31:36.777  1795  1795 I qti_sensors_hal: read from oem info: data_readback
+12-17 19:31:36.777  1795  1795 I qti_sensors_hal: 0xcd, 0xb0, 0x24, 0x3e
+12-17 19:31:36.777  1795  1795 I qti_sensors_hal: 0x66, 0xca, 0x3c, 0x3e
+12-17 19:31:36.777  1795  1795 I qti_sensors_hal: 0xc0, 0x2a, 0x7c, 0x3f

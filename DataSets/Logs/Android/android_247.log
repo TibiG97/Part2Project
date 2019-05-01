@@ -1,0 +1,100 @@
+12-17 19:33:14.007 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:349) connecting max 30000ms to uc.huawei.com:7801
+12-17 19:33:14.008  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.008 31949 31967 I TCP     : tcp.conn{4787} TcpSocket.connect_i(TcpSocket.java:84) connecting to ip address uc.huawei.com/172.30.70.63
+12-17 19:33:14.009 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_ON
+12-17 19:33:14.009 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:292) connected
+12-17 19:33:14.010 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:360) notify user tcp connected successully at 36839 to uc.huawei.com:7801
+12-17 19:33:14.011 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.onRecv(TcpClientThread.java:522) tcp connection event TCP_CONNECTED
+12-17 19:33:14.012  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.013  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.016  1795  3249 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:16
+12-17 19:33:14.016  1795  3249 D StubTelephonyRegistry: LISTEN_CELL_LOCATION uid:10028
+12-17 19:33:14.021  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.021  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.025 31949 31967 I PushService: tcp.conn{4787} ServiceC.connectedNotify(ServiceC.java:289) 172.30.70.63
+12-17 19:33:14.026 31949 31967 I ECS     : tcp.conn{4787} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 100 bytes [16]_00_00_00_60_00_03_01_05_01_04_81_BF_00_00_00_00 cmdCode(CC_PCheckVersion.0x0501)msgType(MT_ARG.1)msgClass(MC_Push.5)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(true)length(96)version(3)sno(81BF)
+12-17 19:33:14.030 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 659
+12-17 19:33:14.032  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.033  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.038  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.038  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.066  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.103101 Y: 8.264944 Z: 0.340768  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:14.127  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.298764 Y: 8.077795 Z: 0.546533  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:14.136  1795  2728 D HwArpVerifier: getGateWayARPResponses: arp rtt = 16
+12-17 19:33:14.136  1795  2728 E HwCHRWifiRSSIGroupSummery: updatArpSummery mRSSI:-56  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=65, rtt_tcp_duration=531, rtt_lan_duration=188, rtt_lan_failures=0, rtt_lan_succ=5, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:33:14.177  3608  3608 D InCall  : InCallPresenter - notifyInCallScreenIsForeground: false
+12-17 19:33:14.178  3608  3608 I SendBroadcastPermission: action:InCallScreenIsForegroundActivity, mPermissionType:0
+12-17 19:33:14.184  1795  2728 D HwArpVerifier: There are 1 mac address for gateway 
+12-17 19:33:14.184  1795  2728 D HwArpVerifier: from HEART_CHECK transmit to state:HEART_CHECK
+12-17 19:33:14.184  1795  2728 D HwArpVerifier: msg what=124 arg1(token)=1008 arg2(mode)=0 delay=30000
+12-17 19:33:14.184  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:33:14.186  1795  2750 D SurfaceControl: Excessive delay in setPowerMode(): 229ms
+12-17 19:33:14.186  1795  2750 D PowerManagerService: Setting HAL interactive mode to false
+12-17 19:33:14.187  1795  2750 I QTI PowerHAL: Got set_interactive hint
+12-17 19:33:14.187   625   718 E libnav  : AbaSuspend skips CABL deactivate: state was 3
+12-17 19:33:14.187   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:33:14.187  1795  2750 D libfingersense_wrapper: Calling fingersense_on_pause()
+12-17 19:33:14.187  1795  2728 D hw_netstat: total/1833/795,com.huawei.espacev2/1654/736,unknown:0/179/59
+12-17 19:33:14.187  1795  2750 D libfingersense_wrapper: fingersense_on_pause() finished
+12-17 19:33:14.188  1795  2750 D PowerManagerService: Setting HAL auto-suspend mode to true
+12-17 19:33:14.188   836  2387 I knuckle_sensor: Sending SAM_DISABLE to fs_data
+12-17 19:33:14.188  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:14.188  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.407453 Y: 8.185553 Z: 0.684331  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:14.188  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:33:14.188  1795  1825 D DisplayPowerController: Display ready!
+12-17 19:33:14.188  1795  1825 D DisplayPowerController: Finished business...
+12-17 19:33:14.188  1795  1825 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:14.188  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeFinished mInteractiveChanging=true, mInteractive=false
+12-17 19:33:14.188  1795  1825 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Display".
+12-17 19:33:14.188   836   928 I knuckle_sensor: Got DISABLE response, status = 0, id = 73
+12-17 19:33:14.189  1795  1795 I WindowManger_keyguard: Finished going to sleep... (why=6)
+12-17 19:33:14.189  1795  1795 I WindowOrientationListener: WindowOrientationListener disabled
+12-17 19:33:14.189  1795  1795 I qti_sensors_hal: batch,376,handle 0, timeout:0 ,period_ns:200000000
+12-17 19:33:14.189  1795  1795 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) handle:0 flags:0x0 period_ns 200000000
+12-17 19:33:14.189  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSRTT=480  WEBSNDDUPACKS=0  SENDSEGS=10  RESENDSEGS=0  RECVSEGS=8  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=4  RTTSEGS=4  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:33:14.190  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-56  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=65, rtt_tcp_duration=531, rtt_lan_duration=188, rtt_lan_failures=0, rtt_lan_succ=5, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:33:14.190  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:33:14.190  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:33:14.191  1795  3139 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{ec55919 3608:com.android.incallui/1001}
+12-17 19:33:14.192  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:33:14.193  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=12, mTXbad=0, mRXGood=7] rssi=-56
+12-17 19:33:14.195  1795  2728 E HwCHRWebMonitor: running processName=com.android.incallui
+12-17 19:33:14.196  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.huawei.espacev2 UID=10102  WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:33:14.196  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:33:14.196  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 0, tx = 0
+12-17 19:33:14.196  1795  2728 D HwArpVerifier: getDNSFailedCntDiff  dnsNewFailCnt =  1001, aws.getOldDnsFailedCnt() = 0, dnsDiff = 1001
+12-17 19:33:14.196  1795  2728 D HwArpVerifier: mAccessWebStatus : getNetDisableCnt = 1, rx = 0, tx = 0
+12-17 19:33:14.196  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:33:14.196  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:33:14.198  1795  1795 I qti_sensors_hal: read from oem info: data_readback
+12-17 19:33:14.198  1795  1795 I qti_sensors_hal: 0xcd, 0xb0, 0x24, 0x3e
+12-17 19:33:14.198  1795  1795 I qti_sensors_hal: 0x66, 0xca, 0x3c, 0x3e
+12-17 19:33:14.198  1795  1795 I qti_sensors_hal: 0xc0, 0x2a, 0x7c, 0x3f
+12-17 19:33:14.198  1795  1795 I qti_sensors_hal: 0x55, 0x0, 0x0, 0x0
+12-17 19:33:14.198  1795  1795 I qti_sensors_hal: 0x0, 0x0, 0x0, 0x0
+12-17 19:33:14.198  1795  1795 E qti_sensors_hal: read from oem info: data_valid_flag=0x55
+12-17 19:33:14.198  1795  1795 E qti_sensors_hal: read from oem info: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:33:14.198  1795  1795 E qti_sensors_hal: Final value: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:33:14.198  1795  1795 I qti_sensors_hal: batch:load_acc_oeminf_data x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:14.198  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:33:14.198  1795  1795 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) sample_rate=5.000000Hz report_rate_f=0.000000Hz curr sample rate:14.999925 cur rpt rate:0 max:400.000000 min:1.000000
+12-17 19:33:14.199  1795  2728 E HwCHRWifiFile: getFileResult throw exceptionjava.io.FileNotFoundException: /sys/kernel/debug/bcmdhd/debug_wl_counters (No such file or directory)
+12-17 19:33:14.199  1795  1795 I WindowManger_keyguard: onFinishedGoingToSleep(6)
+12-17 19:33:14.199  1795  2728 E HwCHRWifiLinkMonitor: HwCHRWifiBcmIncrCounterLst [txbyte=0  txframe=0  txnoassoc=0  txphyerror=0  txctl=0  txfail=0  txphyerr=0  txfrmsnt=0  txnoack=0  txfrag=0  txnocts=0  txrts=0  txnobuf=0  txallfrm=0  txerror=0  txretrans=0  rxbyte=0  rxframe=0  rxbadfcs=0  rxbadplcp=0  rxmulti=0  rxfrag=0  rxctl=0  rxbadcm=0  rxnobuf=0  rxcrsglitch=0  rxbadds=0  rxnondata=0  rxmulti=0  reset=0  rxdfrmocast=0  rxmfrmocast=0  rxdfrmucastmbss=0  rxmfrmucastmbss=0  rxbeaconmbss=0  rxdfmucastobss=0  rxbeaconobss=0  rxstrt=0  rxcfrmocast=0  rxcfrmucast=0  rxdfrmmcast=0  rxmfrmmcast=0  rxcfrmmcast=0  ]
+12-17 19:33:14.199  2852  3344 D KeyguardService: Caller checkPermission fail
+12-17 19:33:14.199  2852  3344 D KeyguardService: KGSvcCall onFinishedGoingToSleep.
+12-17 19:33:14.199  2852  3344 D KeyguardViewMediator: onFinishedGoingToSleep(6)
+12-17 19:33:14.199  2852  3344 D KeyguardViewMediator: notifyFinishedGoingToSleep
+12-17 19:33:14.199  2852  3344 W AppHandler: sendMessage 15
+12-17 19:33:14.204  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.205  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.205 16354 16354 E HwSystemManager: MemCPUMonitor:startTimerMonitor isCompleted = true
+12-17 19:33:14.210 17238 17238 D Bth     : BtChrStatisticsManager:sendScreenOnEvent enter.
+12-17 19:33:14.210 17238 17252 D Bth     : BtChrStatisticsManager:msg Loop is running.
+12-17 19:33:14.212  3218  3234 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:33:14.212  3218  3234 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:33:14.216  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.217  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.224  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.224  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.234  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it

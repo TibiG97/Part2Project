@@ -1,0 +1,100 @@
+12-17 19:32:23.715  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:32:23.716  1795 17831 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:23.719  1795  1795 I EyeProtectionControllerImpl: onReceive intent action = android.intent.action.SCREEN_ON
+12-17 19:32:23.720  1795  3110 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:32:23.720  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -65 0 -1 255 -1 255 -1 255 255 99 2147483647 2147483647 2147483647 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:32:23.720  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -65 0 -1 255 -1 255 -1 255 255 99 2147483647 2147483647 2147483647 2147483647 2147483647 false gw|lte
+12-17 19:32:23.721  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)) important=2, post=1481974343710, when=1481531589202, vis=0, userid=0
+12-17 19:32:23.722  2852  2852 D StatusBar: updateNotification(StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)))
+12-17 19:32:23.722  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:32:23.723  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:32:23.725  1795  2736 D HwInnerWifiManagerImpl: SupplicantState = COMPLETED
+12-17 19:32:23.725  3858  4126 I amsnl   : csr
+12-17 19:32:23.725  1795  2736 D HwInnerWifiManagerImpl: isPhoneAP = false
+12-17 19:32:23.725  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.huawei.health|10010|null|10099
+12-17 19:32:23.725  2852  2852 D StatusBar: applyInPlace=true shouldPeek=false alertAgain=true
+12-17 19:32:23.725  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.huawei.health|10010|null|10099
+12-17 19:32:23.725  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.huawei.health|10010|null|10099, group=0|com.huawei.health|10010|null|10099
+12-17 19:32:23.725  2852  2852 D StatusBar: reusing notification for key: 0|com.huawei.health|10010|null|10099
+12-17 19:32:23.726  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:32:23.726  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:32:23.726  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:32:23.726  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:32:23.727  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:32:23.727  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:32:23.727  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:16 targetClass:1 masterLevel:5 slaveLevel:-1
+12-17 19:32:23.729  2883  2883 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:32:23.730  1795  2778 D PowerManagerService: acquire lock=184063844, flags=0x1, tag="NetworkStats", name=android, ws=null, uid=1000, pid=1795
+12-17 19:32:23.730  1795 11747 D wifiserviceimpl: netmask =16580607
+12-17 19:32:23.730  1795  2778 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:23.730  3858  4126 I amsnl   : m1: false
+12-17 19:32:23.733  1795 15987 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:32:23.733  1795  2778 D NetdConnector: SND -> {11614 bandwidth gettetherstats}
+12-17 19:32:23.734  3218 13036 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:32:23.735  3218 13036 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:32:23.735  1795  2665 D NetdConnector: RCV <- {200 11614 Tethering stats list completed}
+12-17 19:32:23.735  2883  2883 I HwSystemManager: AutoCleanReceiveServer:receive action:android.intent.action.SCREEN_ON
+12-17 19:32:23.736  3608  3608 I ActivityManager_activity: Reporting idle of ActivityRecord{fd45985 token=android.os.BinderProxy@af8ea9b {com.android.incallui/com.android.incallui.InCallActivity}} finished=false
+12-17 19:32:23.736  1795  2665 D NetdConnector: RCV <- {200 11614 Tethering stats list completed}
+12-17 19:32:23.736  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:23.736  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:23.737  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:32:23.737  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:32:23.737  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:32:23.738  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:32:23.738  1795  2736 E hwintelligencewifi: getCurrentCellid type type = PHONE_TYPE_GSM
+12-17 19:32:23.738  1795  2736 E hwintelligencewifi: getCurrentCellid type is PHONE_TYPE_GSM
+12-17 19:32:23.740  1795  3121 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:23.740  1795  2736 E hwintelligencewifi: getCurrentCellid PHONE_TYPE_GSM cellidString = 460003645
+12-17 19:32:23.740  1795  2736 E hwintelligencewifi: updataApInfo cellid =460003645
+12-17 19:32:23.740  1795  2736 E hwintelligencewifi: addCurrentApInfo cellid =460003645
+12-17 19:32:23.741  1795  2778 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:32:23.741  1795  2778 D HwNetworkStatsService: mActiveIface: null
+12-17 19:32:23.741  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:32:23.741  1795  2377 V HwPackageManagerService: Returning system default Launcher 
+12-17 19:32:23.742  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:32:23.742  1795  2377 I AwareLog: AwareMem_EventTracker: [APP_ACTIVITY_FINISH_123049456] is abandoned for memory 825636
+12-17 19:32:23.742  1795  2778 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+12-17 19:32:23.743  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:32:23.743  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:32:23.743  3168  3168 I CHR_ChrDataServiceTracker: handledataswitchchanged
+12-17 19:32:23.743  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:32:23.743  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:32:23.745  1795  2778 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:32:23.745  1795  2778 D PowerManagerService: release:lock=184063844, flg=0x0, tag="NetworkStats", name=android", ws=null, uid=1000, pid=1795
+12-17 19:32:23.746  1795  2778 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:23.746  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:23.746  1795  3077 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_ON
+12-17 19:32:23.746  1795  3077 I GnssLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:true
+12-17 19:32:23.746  1795  3077 I GnssLocationProvider: disableGps:false  isEnabled()=true
+12-17 19:32:23.752  2883  3040 E HwSystemManager: TrafficNotifyAfterLocked:screen notification will not notify
+12-17 19:32:23.753  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:32:23.763  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:32:23.763  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:32:23.763  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:23.763  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:32:23.763  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:32:23.764  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_ON  flag:1342177296 
+12-17 19:32:23.769  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:32:23.774  3180  3332 I BatteryMonitor: screen off: 15s, awake: 8s wakeups: 0, battery changed: 0
+12-17 19:32:23.776  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:32:23.776  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:32:23.779  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:32:23.779  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: true
+12-17 19:32:23.780  1795  3975 E LocSvc_libulp: I/int ulp_msg_process_system_update(const UlpSystemEvent): systemEvent:0 
+12-17 19:32:23.780  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 0 len = 0, 4096
+12-17 19:32:23.780  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:32:23.780  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:32:23.781  5215  5215 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+12-17 19:32:23.781  5215  5215 D wpa_supplicant: wlan0: nl80211: New scan results available
+12-17 19:32:23.781  5215  5215 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472
+12-17 19:32:23.781  5215  5215 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+12-17 19:32:23.781  5215  5215 D wpa_supplicant: wlan0: Scan completed in 0.450300 seconds
+12-17 19:32:23.781  5215  5215 D wpa_supplicant: nl80211: Associated on 2452 MHz
+12-17 19:32:23.781  5215  5215 D wpa_supplicant: nl80211: Associated with 80:38:bc:08:42:c1
+12-17 19:32:23.781  5215  5215 D wpa_supplicant: nl80211: Received scan results (42 BSSes)
+12-17 19:32:23.781  5215  5215 D wpa_supplicant: nl80211: Scan results indicate BSS status with 80:38:bc:08:42:c1 as associated
+12-17 19:32:23.781  5215  5215 D wpa_supplicant: Sorted scan results
+12-17 19:32:23.781  5215  5215 D wpa_supplicant: 80:38:bc:08:42:c1 freq=2452 qual=0 noise=-89~ level=-48 snr=41* flags=0x2b age=20 est=65000
+12-17 19:32:23.781  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:32:23.781  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...

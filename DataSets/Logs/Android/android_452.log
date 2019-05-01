@@ -1,0 +1,100 @@
+12-17 19:48:16.286  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:48:16.286  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:48:16.286  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:48:16.286  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:48:16.286  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:48:16.286  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:48:16.286  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:48:16.286  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:48:16.286   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:286 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[153] from the Socket-table Failed!
+12-17 19:48:16.286   633 31870 I SDK     : 
+12-17 19:48:16.286  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:48:16.286  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:48:16.286  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:48:16.288   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:288 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[154] from the Socket-table Failed!
+12-17 19:48:16.288   633 31870 I SDK     : 
+12-17 19:48:16.288 16354 21005 I HwSystemManager: HandlePowerStatistic:uap.power 6.86551388888889 uap.uid=10105
+12-17 19:48:16.289  5224  5283 I Step_LSC: 20002302|calculateCaloriesWithCache datas.size=8388
+12-17 19:48:16.289   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:289 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[155] from the Socket-table Failed!
+12-17 19:48:16.289   633 31870 I SDK     : 
+12-17 19:48:16.289   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:289 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[156] from the Socket-table Failed!
+12-17 19:48:16.289   633 31870 I SDK     : 
+12-17 19:48:16.290   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:289 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[157] from the Socket-table Failed!
+12-17 19:48:16.290   633 31870 I SDK     : 
+12-17 19:48:16.290  3782 20886 V AudioManager: isMusicActive...
+12-17 19:48:16.290   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:290 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[158] from the Socket-table Failed!
+12-17 19:48:16.290   633 31870 I SDK     : 
+12-17 19:48:16.290   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:290 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[159] from the Socket-table Failed!
+12-17 19:48:16.290   633 31870 I SDK     : 
+12-17 19:48:16.290   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:290 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[160] from the Socket-table Failed!
+12-17 19:48:16.290   633 31870 I SDK     : 
+12-17 19:48:16.291  3782 20886 V AudioManager: isWiredHeadsetOn...
+12-17 19:48:16.291   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:290 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[161] from the Socket-table Failed!
+12-17 19:48:16.291   633 31870 I SDK     : 
+12-17 19:48:16.291  5224  5283 I Step_LSC: 20002302|calculateCaloriesWithCache totalCalories=91110
+12-17 19:48:16.291   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:291 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[162] from the Socket-table Failed!
+12-17 19:48:16.291   633 31870 I SDK     : 
+12-17 19:48:16.291  5224  5283 I Step_LSC: 20002302|calculateAltitudeWithCache datas.size=8388
+12-17 19:48:16.291  3626  3753 I SizeStateMachine: handleMaxSizeState: logServiceSize = 64637042
+12-17 19:48:16.292  3626  3753 I SizeStateMachine: handleOverMaxSizeState: maxTotalSize = 2147483648
+12-17 19:48:16.293  5224  5283 I Step_LSC: 20002302|calculateAltitudeWithCache totalAltitude=0
+12-17 19:48:16.294  5224  5283 I Step_LSC: 20002302|REPORT : 4256 91110 3038 0
+12-17 19:48:16.294  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:48:16.296   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:48:16.296  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:48:16.297  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 443832659521632}
+12-17 19:48:16.298  1795  3884 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{580cfb2 5224:com.huawei.health:DaemonService/u0a99}
+12-17 19:48:16.298  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 443832659521632}
+12-17 19:48:16.299  2852  2852 I EventCenter: EventCenter Get :android.com.huawei.bone.NOTIFY_SPORT_DATA
+12-17 19:48:16.299  2852  2852 D StepCounterView: onStepCounterChange stepsNum:4256
+12-17 19:48:16.299  5224  5283 I Step_HSNH: 20002302|upDateHealthNotification()|91|3.04|4256
+12-17 19:48:16.300  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass idle 1 443832659521632
+12-17 19:48:16.300   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:300 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[163] from the Socket-table Failed!
+12-17 19:48:16.300   633 31870 I SDK     : 
+12-17 19:48:16.300  5224  5283 I Step_HSNH: 20002302|rebuild notification
+12-17 19:48:16.300   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:300 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[164] from the Socket-table Failed!
+12-17 19:48:16.300   633 31870 I SDK     : 
+12-17 19:48:16.301   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:301 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[165] from the Socket-table Failed!
+12-17 19:48:16.301   633 31870 I SDK     : 
+12-17 19:48:16.301   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:301 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[166] from the Socket-table Failed!
+12-17 19:48:16.301   633 31870 I SDK     : 
+12-17 19:48:16.302   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:301 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[167] from the Socket-table Failed!
+12-17 19:48:16.302   633 31870 I SDK     : 
+12-17 19:48:16.302  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:48:16.302  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:48:16.302  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:48:16.302  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:48:16.302  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:48:16.302   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:302 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[168] from the Socket-table Failed!
+12-17 19:48:16.302   633 31870 I SDK     : 
+12-17 19:48:16.303  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:48:16.303  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:48:16.303  1795  3225 I NotificationManager: enqueueNotificationInternal: pkg=com.huawei.health id=10010 notification=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)
+12-17 19:48:16.304   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:303 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[169] from the Socket-table Failed!
+12-17 19:48:16.304   633 31870 I SDK     : 
+12-17 19:48:16.304  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:48:16.305  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:48:16.305  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:48:16.305  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:48:16.308  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.huawei.health|10010|null|10099
+12-17 19:48:16.309   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:308 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[170] from the Socket-table Failed!
+12-17 19:48:16.309   633 31870 I SDK     : 
+12-17 19:48:16.309  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:48:16.310   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:310 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[171] from the Socket-table Failed!
+12-17 19:48:16.310   633 31870 I SDK     : 
+12-17 19:48:16.312  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)) important=2, post=1481975296305, when=1481531589202, vis=0, userid=0
+12-17 19:48:16.312  2852  2852 D StatusBar: updateNotification(StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)))
+12-17 19:48:16.313  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:48:16.314  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:48:16.314  2852  2852 D StatusBar: No peeking: not in use: 0|com.huawei.health|10010|null|10099
+12-17 19:48:16.314  2852  2852 D StatusBar: applyInPlace=true shouldPeek=false alertAgain=true
+12-17 19:48:16.314  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.huawei.health|10010|null|10099
+12-17 19:48:16.314  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.huawei.health|10010|null|10099, group=0|com.huawei.health|10010|null|10099
+12-17 19:48:16.314  2852  2852 D StatusBar: reusing notification for key: 0|com.huawei.health|10010|null|10099
+12-17 19:48:16.315  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:48:16.315  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:48:16.315  1795  1807 D NetworkPolicy: setRestrictBackgroundLocked(): false
+12-17 19:48:16.316  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:48:16.320   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:320 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[172] from the Socket-table Failed!
+12-17 19:48:16.320   633 31870 I SDK     : 
+12-17 19:48:16.321   633 31870 I SDK     : <2016-12-17 19:48:16> [WARN] SDK: UE-SeC 2016-12-17 19:48:16:321 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[173] from the Socket-table Failed!

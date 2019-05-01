@@ -1,0 +1,100 @@
+12-17 19:31:56.802  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=c0000600 mask=ffffffff oldVal=c0000300 newVal=c0000600 diff=500
+12-17 19:31:56.802  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000600, SystemUiVisibility=0xc0000600
+12-17 19:31:56.804  1795  1825 D HwNormalizedAutomaticBrightnessController: set power status:mPowerStatus=false,powerStatus=true
+12-17 19:31:56.804  3608  3608 D InCall  : InCallActivity - onStart()...
+12-17 19:31:56.805  1795  1825 D Sensors : batch called handle:3 sample_ns:300000000 latency_ns:0
+12-17 19:31:56.805  1795  1825 D Sensors : activate called handle:3 enable:1
+12-17 19:31:56.805  1795  1825 D Sensors : bh1745-light calling driver setDelay 300 ms
+12-17 19:31:56.805  1795  1825 D Sensors : bh1745-light calling driver enable
+12-17 19:31:56.805  1795  1825 W LightSensor: LightSensor, enable, 283: en=1
+12-17 19:31:56.805  1795  1825 W LightSensor: LightSensor, enable, 284: flags=1
+12-17 19:31:56.805  1795  1825 W LightSensor: LightSensor, enable, 285: mEnabled=0
+12-17 19:31:56.809  1795  1825 D AutomaticBrightnessController: Enable LightSensor at time:mLightSensorEnableTime=123029981,mLightSensorEnableElapsedTimeNanos=442853168025874
+12-17 19:31:56.809  1795  1825 D AutomaticBrightnessController: mAmbientLuxValid= false,sensor is not ready
+12-17 19:31:56.809  1795  1825 D DisplayPowerController: mode change : autoBrightnessEnabled=true,adjustment=0.0,state=2
+12-17 19:31:56.809  1795  1825 D HwNormalizedAutomaticBrightnessController: mWakeupFromSleep= true,currentTime=123029981,mLightSensorEnableTime=123029976
+12-17 19:31:56.809  1795  1825 D DisplayPowerController: Animating brightness: target=-1, rate=0
+12-17 19:31:56.810  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:31:56.810  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=0
+12-17 19:31:56.810  1795  2750 D PowerManagerService: Setting HAL auto-suspend mode to false
+12-17 19:31:56.810  1795  2750 D PowerManagerService: Setting HAL interactive mode to true
+12-17 19:31:56.810  1795  2750 I QTI PowerHAL: Got set_interactive hint
+12-17 19:31:56.811  1795  2750 D libfingersense_wrapper: Calling fingersense_on_resume()
+12-17 19:31:56.811  1795  2750 D libfingersense_wrapper: fingersense_on_resume() finished
+12-17 19:31:56.812   612   612 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f9a25b400
+12-17 19:31:56.813   612   612 I SDM     : HWCDisplay::SetPowerMode: display = 0, mode = 2
+12-17 19:31:56.813   612   612 I SDM     : DisplayBase::SetDisplayState: Set state = 1, display 0
+12-17 19:31:56.813   836  2387 I knuckle_sensor: Sending SAM_ENABLE to fs_data
+12-17 19:31:56.814  1795  1809 D HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+12-17 19:31:56.815  2852  2867 I CommandQueue: updateBarBgColor
+12-17 19:31:56.815   836   928 I knuckle_sensor: Got ENABLE response, status = 0, id = 64
+12-17 19:31:56.815  2852  2867 D CommandQueue: CommandQueue, setBarBackgroundColor
+12-17 19:31:56.816  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:56.817  1795  1809 I PowerManager_screenOn: finishKeyguardDrawn -> waitForAllWindowsDrawn
+12-17 19:31:56.817  2852  2852 I TintManager: updateBarBgColor:emuiStyle=1,statusBarColor=#00000000,navigationBarColor=#00000000, isEmuiLight=1
+12-17 19:31:56.817  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundColor:new=0, old=1711276032
+12-17 19:31:56.817  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:31:56.818  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:31:56.818  2852  2852 I HwNavigationBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:31:56.819  2852  2852 D TintManager: statusBarIconTint=#B3FFFFFF,navigationBarIconTint=#00000000
+12-17 19:31:56.820  1795 15982 D ActivityManager: setExcludeFromRecents:pkgName=null
+12-17 19:31:56.822  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_OFF
+12-17 19:31:56.828  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:56.832  5215  5215 E wpa_supplicant: RSSI=-59;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:31:56.832  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:31:56.832  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:31:56.833  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-57 "Huawei-Employee"WPA_EAP
+12-17 19:31:56.833  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:31:56.833  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:31:56.836  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:31:56.836  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:31:56.836  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:31:56.847  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:31:56.849  1795  2739 D HuaweiWifiWatchdogStateMachine: LM mrssi=-59
+12-17 19:31:56.849  1795  1795 D WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -59
+12-17 19:31:56.849  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current loss[-59]=0%, volume=17
+12-17 19:31:56.849  1795  1795 I QosMonitor: queryRtt: rtt_type = 3
+12-17 19:31:56.849  1795  1795 I WifiProJNI: ######### GET RTT:3 ########
+12-17 19:31:56.849  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=7
+12-17 19:31:56.849  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history loss[-59]=0.05%, volume=2147
+12-17 19:31:56.849  1795  2739 I HuaweiWifiWatchdogStateMachine: spd good count:0, add sc:0.0, rate:1.0
+12-17 19:31:56.850  1795  2737 D WifiProJNI: Received kernel message payload: event 4
+12-17 19:31:56.850  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=9
+12-17 19:31:56.850  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:31:56.850  1795  2739 D HuaweiWifiWatchdogStateMachine: high data flow: protection_counter = 0,  not_detect_counter = 5
+12-17 19:31:56.850  1795  1795 D HuaweiWifiWatchdogStateMachine: setSampleRtt: unvalid rtt
+12-17 19:31:56.850  1795  2739 D HuaweiWifiWatchdogStateMachine: high data flow scenario: 0 --> 0 rx bytes =9KB
+12-17 19:31:56.850  1795  2739 I HuaweiWifiWatchdogStateMachine: current mHighDataFlowRate = 1.0
+12-17 19:31:56.850  1795  2739 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 17, 0. Lr =0% Totpkt=17
+12-17 19:31:56.850  1795  1795 I WifiProJNI: ######### CMD_QUERY_PKTS ########
+12-17 19:31:56.850  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=1
+12-17 19:31:56.850  1795  2737 D WifiProJNI: Received kernel message payload: event 0
+12-17 19:31:56.851  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=9
+12-17 19:31:56.851  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:31:56.851  1795  1795 I MQoS    : rtt=250,tcp_tx_pkts=1480287,tcp_rx_pkts=1768498
+12-17 19:31:56.852  1795  5350 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+12-17 19:31:56.852  1795  5350 I MQoS    : skip-low-Level:0(0),DataDisable;use level-0
+12-17 19:31:56.853  1795  2739 D HuaweiWifiWatchdogStateMachine: dumpTcpResult: len=9,rtt=250,rttPkt=6,rttWn=73,cgt=0,cgtWn=0
+12-17 19:31:56.853  1795  2739 I HuaweiWifiWatchdogStateMachine: PTcp RTT:0, rtt pkt=0, tcp_rx=0, tcp_tx=0, tcp_reTran=0, rtRate=0
+12-17 19:31:56.853  1795  2739 D HuaweiWifiWatchdogStateMachine: mRssiBadCount =0, RSSI not bad.
+12-17 19:31:56.853  1795  2739 D HuaweiWifiWatchdogStateMachine: detectNetworkAvailable:hw.wifipro.dns_fail_count = 1001
+12-17 19:31:56.853  1795  2739 I HuaweiWifiWatchdogStateMachine: rs ota tcp lr rttvb bad: false, false, false, false, false; rsth:-75
+12-17 19:31:56.853  1795  2739 D HuaweiWifiWatchdogStateMachine: GSC:0, GSR:1.0, RSR:1.0, RTH:-75
+12-17 19:31:56.853  1795  2739 D HuaweiWifiWatchdogStateMachine: bqeLevel = 0 rtt=0,rtt_pkts=0 speed=0 rssi=-59
+12-17 19:31:56.853  1795  2739 I HuaweiWifiWatchdogStateMachine:  pkt chk not bad, reset sc to 0.
+12-17 19:31:56.853  1795  2739 D HuaweiWifiWatchdogStateMachine: ### mPktChkBadCnt=0
+12-17 19:31:56.981  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:57.005  1795  1825 D HwNormalizedAutomaticBrightnessController: sensor doesn't report lux in 200ms
+12-17 19:31:57.005  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:57.006  1795  1825 D DisplayPowerController: Animating brightness: target=24, rate=0
+12-17 19:31:57.006  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:57.006  1795  1825 D DisplayPowerController: Animating brightness: target=24, rate=40
+12-17 19:31:57.027  1795  2750 D SurfaceControl: Excessive delay in setPowerMode(): 215ms
+12-17 19:31:57.029  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 0.000000
+12-17 19:31:57.029  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =-684815103 
+12-17 19:31:57.029  1795  1809 I PowerManager_screenOn: waitForAllWindowsDrawn  cover is open or null
+12-17 19:31:57.030  1795  1821 I DisplayManagerService: Display device changed state: "内置屏幕", ON
+12-17 19:31:57.030  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:true
+12-17 19:31:57.030  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:57.030  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:57.031  1795  1825 D DisplayPowerController: Animating brightness: target=24, rate=40

@@ -1,0 +1,100 @@
+12-17 19:35:26.877  1795  1795 I TrafficMonitor: update:rxPkts:1,txPkts:2,rxBytes:79,txBytes:129
+12-17 19:35:26.877  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:35:26.877  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:35:26.988  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:35:15,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:26.988  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:35:15,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:26.988  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:26.993  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:26.994   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 26
+12-17 19:35:26.994   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:35:26.997  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:27.000  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:27.002  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:27.003  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:27.005  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:35:27.216  1795 16499 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:27.270  1795  1809 I WindowManager: onProposedRotationChanged, rotation=2
+12-17 19:35:27.270  1795  1809 I WindowManager: MyOrientationListener: updateRotation.
+12-17 19:35:27.271  1795  1809 I WindowManager: updateRotationUnchecked(alwaysSendConfiguration=false)
+12-17 19:35:27.271  1795  1809 I WindowManager: rotationForOrientationLw(orient=1, last=0); user=0 
+12-17 19:35:27.271  1795  1809 I WindowManager: Application requested orientation 1, got rotation 0 which has compatible metrics
+12-17 19:35:27.689  1795  2748 D HwAmbientLuxFilterAlgo: t=123125306,BT=123126306,DT=123129540,BT1=123129306,DT1=123133306,Bn=false,Dn=false,lx=[153.0/123123803, 153.0/123124103, 159.0/123124404, 152.0/123124704, 83.0/123125005, 96.0/123125306],mLx=17.0,s=10.871611,ss=15.139951,AuIntervened=false,mProximityState=false,bLux=176.0,dLux=2.7073336,bLux1=176.0,dLux1=3.5
+12-17 19:35:27.872  1795  1795 I TrafficMonitor: expired arrive. level:-1
+12-17 19:35:27.872  1795  1795 I TrafficMonitor: during_ms:2003,period_ms:2000
+12-17 19:35:27.872  1795  1795 I TrafficMonitor: count:99,rx_sum:1,tx_sum:2,rxBytes:79,during_ms:2003,rx_speed:39.44083874188717,tx_speed:64.40339490763854,rto:0.5
+12-17 19:35:27.873  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:1, rxSpd:39B/s, txpkt:2, txSpd:64
+12-17 19:35:27.990  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:35:26,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:27.990  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:35:26,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:27.991  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:27.993  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:27.995  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:27.996  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:27.997  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:27.998  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:28.011  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:35:28.340  1795  6985 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:35:28.340  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:35:28.340  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 30 -76 -7 300 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:35:28.340  3858  4126 I amsnl   : csr
+12-17 19:35:28.340  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:35:28.340  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 30 -76 -7 300 2147483647 2147483647 false gw|lte
+12-17 19:35:28.340  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:35:28.342  1795 16232 D wifiserviceimpl: netmask =16580607
+12-17 19:35:28.343  3858  4126 I amsnl   : m1: false
+12-17 19:35:28.344  1795  3238 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:28.344  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+12-17 19:35:28.345  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:35:28.345  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:35:28.428   633   692 I ECS     : Heartbeat timer.timers{6110} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 112 bytes [16]_00_00_00_6C_00_03_01_03_12_05_87_42_A1_2F_2B_84 cmdCode(CC_Heartbeat.0x0312)msgType(MT_ARG.1)msgClass(MC_InstanceMessage.3)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(108)version(3)sno(8742)
+12-17 19:35:28.453  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:35:28.454  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:35:28.459  5215  5215 E wpa_supplicant: RSSI=-42;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:35:28.459  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:35:28.460  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:28.461  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-41 "Huawei-Employee"WPA_EAP
+12-17 19:35:28.461  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:35:28.461  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:35:28.465  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:35:28.468  1795  2739 D HuaweiWifiWatchdogStateMachine: LM mrssi=-42
+12-17 19:35:28.468  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current loss[-45]=0%, volume=3
+12-17 19:35:28.468  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history loss[-45]=0.02%, volume=189527
+12-17 19:35:28.468  1795  2739 I HuaweiWifiWatchdogStateMachine: spd good count:0, add sc:0.0, rate:1.0
+12-17 19:35:28.469  1795  2739 D HuaweiWifiWatchdogStateMachine: high data flow: protection_counter = 0,  not_detect_counter = 8
+12-17 19:35:28.469  1795  2739 D HuaweiWifiWatchdogStateMachine: high data flow scenario: 0 --> 0 rx bytes =19KB
+12-17 19:35:28.469  1795  2739 I HuaweiWifiWatchdogStateMachine: current mHighDataFlowRate = 1.0
+12-17 19:35:28.469  1795  2739 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 3, 0. Lr =0% Totpkt=3
+12-17 19:35:28.470  1795  1795 D WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -42
+12-17 19:35:28.470  1795  1795 I QosMonitor: queryRtt: rtt_type = 3
+12-17 19:35:28.470  1795  1795 I WifiProJNI: ######### GET RTT:3 ########
+12-17 19:35:28.470  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=7
+12-17 19:35:28.470  1795  1795 I WifiProJNI: ######### CMD_QUERY_PKTS ########
+12-17 19:35:28.470  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=1
+12-17 19:35:28.471  1795  2737 D WifiProJNI: Received kernel message payload: event 4
+12-17 19:35:28.471  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=9
+12-17 19:35:28.471  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:35:28.471  1795  2737 D WifiProJNI: Received kernel message payload: event 0
+12-17 19:35:28.471  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=9
+12-17 19:35:28.471  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:35:28.472  1795  1795 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current RTT[-45]=160, volume=1
+12-17 19:35:28.472  1795  1795 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history RTT[-45]=392, volume=44041
+12-17 19:35:28.472  1795  1795 D HuaweiWifiWatchdogStateMachine: setSampleRtt: rtt=160,rtt_pkts =1,rtt_when=1
+12-17 19:35:28.472  1795  1795 I MQoS    : rtt=160,tcp_tx_pkts=1480353,tcp_rx_pkts=1768557
+12-17 19:35:28.472  1795  1795 I QosMonitor: resetRtt: rtt_type = 3
+12-17 19:35:28.472  1795  1795 I WifiProJNI: ######### RESET RTT:3 ########
+12-17 19:35:28.472  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=6
+12-17 19:35:28.473  1795  5350 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+12-17 19:35:28.473  1795  5350 I MQoS    : skip-low-Level:0(0),DataDisable;use level-0
+12-17 19:35:28.475  1795  2739 D HuaweiWifiWatchdogStateMachine: dumpTcpResult: len=9,rtt=160,rttPkt=1,rttWn=1,cgt=0,cgtWn=0
+12-17 19:35:28.475  1795  2739 I HuaweiWifiWatchdogStateMachine: PTcp RTT:0, rtt pkt=0, tcp_rx=1, tcp_tx=2, tcp_reTran=0, rtRate=0
+12-17 19:35:28.475  1795  2739 D HuaweiWifiWatchdogStateMachine: mRssiBadCount =0, RSSI not bad.
+12-17 19:35:28.475  1795  2739 D HuaweiWifiWatchdogStateMachine: detectNetworkAvailable:hw.wifipro.dns_fail_count = 1001
+12-17 19:35:28.475  1795  2739 D HuaweiWifiWatchdogStateMachine: detectNetworkAvailable: tcpRxPkts != 0, reset
+12-17 19:35:28.475  1795  2739 I HuaweiWifiWatchdogStateMachine: rs ota tcp lr rttvb bad: false, false, false, false, false; rsth:-75
+12-17 19:35:28.475  1795  2739 D HuaweiWifiWatchdogStateMachine: GSC:0, GSR:1.0, RSR:1.0, RTH:-75
+12-17 19:35:28.475  1795  2739 D HuaweiWifiWatchdogStateMachine: bqeLevel = 0 rtt=0,rtt_pkts=0 speed=39 rssi=-42
+12-17 19:35:28.475  1795  2739 I HuaweiWifiWatchdogStateMachine:  pkt chk not bad, reset sc to 0.
+12-17 19:35:28.475  1795  2739 D HuaweiWifiWatchdogStateMachine: ### mPktChkBadCnt=0
+12-17 19:35:28.593  1795  2748 D lux trace:: [158.0/123122348, 153.0/123122701, 156.0/123123431, 153.0/123123784, 159.0/123124137, 152.0/123124494, 83.0/123124871, 96.0/123125246, 117.0/123125619, 127.0/123125987]
+12-17 19:35:28.603   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 28
+12-17 19:35:28.704  3180  3578 I ash     :  ignore audio app: com.huawei.espacev2 stop delta time:289909
+12-17 19:35:28.704  3180  3578 I ash     : com.huawei.espacev2 { running duration=299931 } transition to: doze reason:

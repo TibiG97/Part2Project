@@ -1,0 +1,100 @@
+12-17 19:33:04.412  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:33:04.412  1795 11747 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:04.412  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:04.413  1795  6986 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:04.413  2852  2852 D ReporterUtil:  e id:344 type:{pkg:com.android.incallui}
+12-17 19:33:04.413  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:33:04.414  3608  3608 D InCall  : InCallPresenter - notifyInCallScreenIsForeground: false
+12-17 19:33:04.414  3608  3608 I SendBroadcastPermission: action:InCallScreenIsForegroundActivity, mPermissionType:0
+12-17 19:33:04.414  1795 11746 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{ec55919 3608:com.android.incallui/1001}
+12-17 19:33:04.415  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:33:04.415  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:33:04.416  2852  2852 V KeyguardUpdateMonitor: KGSvcFp onAuthenticationAcquired.2001
+12-17 19:33:04.417  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onScreenOff
+12-17 19:33:04.417  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_OFF  flag:1342177296 
+12-17 19:33:04.418  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:33:04.423  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:33:04.426  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:04.427  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:04.432  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:04.433  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:33:04.434  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:04.435  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:04.435  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:33:04.435  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:33:04.435  2852  2852 I NotificationContentView: transferRemoteInputFocus: 1
+12-17 19:33:04.436  2852  2852 I HwExpandableNotificationRowHelper: unclear notification ,notificationPkgName:com.android.incallui key:0|com.android.incallui|2|null|1001
+12-17 19:33:04.436  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:33:04.436  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:33:04.437  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:33:04.437  2852  2852 I BackgrounCallingLayout: mCallingStatusReceiver:onReceive::action=InCallScreenIsForegroundActivity, isForegroundActivity=false, mPhoneState=2
+12-17 19:33:04.438  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:33:04.438  2852  2852 I BackgrounCallingLayout: updateCallLayout:isBackground=false, isInteractive=false
+12-17 19:33:04.438  2852  2852 W HwPhoneStatusBar: mNotifyStateChangedReceiver do nothing
+12-17 19:33:04.438  2852  2852 I HwPhoneStatusBar: mNotifyStateChangedReceiver::onReceive:action=InCallScreenIsForegroundActivity, mBackgroundState=false
+12-17 19:33:04.439  3180  3332 I WakelockMonitor: start wakelock monitor.
+12-17 19:33:04.439  3180  3578 I ScreenLockClean: call busy and not start clean apps.
+12-17 19:33:04.440  3180  3578 I ash     : ash->screen off
+12-17 19:33:04.441  3180  3578 I ash     : Default InputMethod : com.baidu.input_huawei
+12-17 19:33:04.441  3180  3578 I ash     : screen off inputmethod, delay to hibernation
+12-17 19:33:04.441  3180  3578 I ThermalStateManager: handle action thermal policy:301
+12-17 19:33:04.444  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:33:04.444  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: false
+12-17 19:33:04.452  3879  3879 I HwLauncher: Launcher receiver screen off broadcast sendmessage true
+12-17 19:33:04.452  2852  2852 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:33:04.458  1795  1806 I AlarmManager: set(PendingIntent{accf7b1: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) : type=2 triggerAtTime=443520821 win=60000 tElapsed=443520821 maxElapsed=443580821 interval=0 flags=0x8
+12-17 19:33:04.465  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:33:04.465  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen off event
+12-17 19:33:04.470  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = false, mIsPreScrnOn = true, mScrnSwitchTime = 1481974383662, occurTime = 1481974384469, delta = 807, mScrnOffAccTime = 1797564, mScrnOnAccTime = 121681
+12-17 19:33:04.470  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1797564, mScrnOffAccTime = 1797564, mScrnOnAccTime = 122488
+12-17 19:33:04.473  3626  3626 I iMonitor: create: 903001010
+12-17 19:33:04.475  3626  3626 I iMonitor: send: 903001010
+12-17 19:33:04.475   818  1152 I logserver: handle_exception_events enter
+12-17 19:33:04.476  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:33:04.480  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_OFF
+12-17 19:33:04.489  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_OFF
+12-17 19:33:04.499  1795 16232 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:0
+12-17 19:33:04.525 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_OFF
+12-17 19:33:04.560  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:33:04.561  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.260846 Y: 6.444922 Z: 2.287450  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:04.565  1795 16501 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:04.736  1795  1795 I TrafficMonitor: update:rxPkts:5,txPkts:6,rxBytes:1449,txBytes:408
+12-17 19:33:04.736  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:33:04.736  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:33:04.758  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.841397 Y: 5.723166 Z: 3.199325  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:04.766 31949 31967 I TCP     : msg.recv{4791} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 659TCP_OK
+12-17 19:33:04.768 31949 31967 I ECS     : msg.recv{4791} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 663 bytes [12]_00_03_02_05_01_04_81_BD_B8_D5_72_A2 cmdCode(CC_PCheckVersion.0x0501)msgType(MT_ACK.2)msgClass(MC_Push.5)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(true)length(659)version(3)sno(81BD)
+12-17 19:33:04.810  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:04.812  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:33:04.877  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:33:04.881  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:33:04.954  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.362836 Y: 5.448569 Z: 3.330705  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:04.979  3782 20454 V AudioManager: isMusicActive...
+12-17 19:33:04.979  3782 20454 V AudioManager: isWiredHeadsetOn...
+12-17 19:33:04.995  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:05.057  4492  4512 W System.err: text not in xml format
+12-17 19:33:05.133  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:05.141  1795 11745 D PowerManagerService: acquire lock=10720406, flags=0x1, tag="WakerLock:218529747", name=com.tencent.mm, ws=null, uid=10105, pid=4634
+12-17 19:33:05.141  1795 11745 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:05.150  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.708020 Y: 5.613333 Z: 3.987575  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:05.155  1795 11747 I AlarmManager: remove(PendingIntent{ef02817: PendingIntentRecord{d528bc1 com.tencent.mm broadcastIntent}}) changed bounds; rebatching
+12-17 19:33:05.157  4492  4512 I SendBroadcastPermission: action:com.tencent.mm.ACTION.note_tracemsg_unlock, mPermissionType:0
+12-17 19:33:05.158  1795 11747 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ACTION.note_tracemsg_unlock flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:33:05.159  1795 11746 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:05.161  1795 16499 I AlarmManager: set(PendingIntent{1424404: PendingIntentRecord{9085ded com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443191523 win=202499 tElapsed=443191523 maxElapsed=443394022 interval=0 flags=0x8
+12-17 19:33:05.162  1795 17831 D PowerManagerService: acquire lock=125592610, flags=0x1, tag="WakerLock:188385320", name=com.tencent.mm, ws=null, uid=10105, pid=4634
+12-17 19:33:05.162  1795 17831 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:05.163  1795 16232 D PowerManagerService: release:lock=60676696, flg=0x0, tag="WakerLock:73762469", name=com.tencent.mm", ws=null, uid=10105, pid=4492
+12-17 19:33:05.163  1795 16232 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:05.164  1795  3110 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:05.256  4492  4492 V AudioManager: getRingerMode...
+12-17 19:33:05.279  4492  4492 V AudioManager: isWiredHeadsetOn...
+12-17 19:33:05.285  1795 16498 I AppOpsResource: CallBack is Overload  id=10105 OverloadNumber=37 threshold=200
+12-17 19:33:05.285  1795  2377 W RMS.ResourceUtils:  getResourceName: resourceName:APPOPS
+12-17 19:33:05.286  1795  2377 W RMS.ResourceRecordStore: uploadBigDataLog: arg1:com.tencent.mm__APPOPS arg2:37
+12-17 19:33:05.292  4492  4492 I MediaPlayer: setDataSource(158, 0, 576460752303423487)
+12-17 19:33:05.294   814 20751 I MediaPlayerService: MediaPlayerService::Client::setDataSource local file://?FileDescriptor=13&Offset=0&Length=20362&Path=/data/system_de/0/ringtones
+12-17 19:33:05.295   814 20751 D NuPlayer: codec of amr-wb is disabled!
+12-17 19:33:05.295   814 20751 D NuPlayer: hw fadein is disabled!
+12-17 19:33:05.296   814 20455 V NuPlayer: kWhatSetAudioSink
+12-17 19:33:05.296   814 20455 V NuPlayer: kWhatSetDataSource

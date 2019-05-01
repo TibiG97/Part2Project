@@ -1,0 +1,100 @@
+12-17 19:33:01.045  1795  2670 D WifiController: StaEnabledState what=155651
+12-17 19:33:01.045  1795  2670 D WifiController: DefaultState what=155651
+12-17 19:33:01.045  1795  2670 D WifiController: wifiSleepPolicy:1
+12-17 19:33:01.045  1795  2670 D WifiController: set idle timer: 1800000 ms
+12-17 19:33:01.045  1795  2670 I AlarmManager: set(PendingIntent{50e3a01: PendingIntentRecord{a8130a6 android broadcastIntent}}) : type=0 triggerAtTime=1481976181045 win=0 tElapsed=444717409 maxElapsed=444717409 interval=0 flags=0x9
+12-17 19:33:01.049  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 1 len = 0, 4096
+12-17 19:33:01.049  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:33:01.050  1795  2671 D PowerManagerService: release:lock=244575063, flg=0x0, tag="WifiSuspend", name=android", ws=null, uid=1000, pid=1795
+12-17 19:33:01.050  1795  2671 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:01.050  1795  2671 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:01.052  1795  2736 E hwintelligencewifi:  DefaultState MSG_SCREEN_OFF mIsAutoOpenSearch = false
+12-17 19:33:01.053  1795  2377 I IO.IOStatsService: onReceive:screen off
+12-17 19:33:01.057  1795  2377 I IO.IOStatsService: saveIOStatsAndLatestUids,the time interval is too shorter than the last screen off
+12-17 19:33:01.058  2883  2883 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:33:01.059  1795  3249 D PowerManagerService: acquire lock=184063844, flags=0x1, tag="NetworkStats", name=android, ws=null, uid=1000, pid=1795
+12-17 19:33:01.059  1795  3249 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:01.059  1795  3249 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:01.062  1795  3249 D NetdConnector: SND -> {11621 bandwidth gettetherstats}
+12-17 19:33:01.063  1795  2665 D NetdConnector: RCV <- {200 11621 Tethering stats list completed}
+12-17 19:33:01.064  1795  2665 D NetdConnector: RCV <- {200 11621 Tethering stats list completed}
+12-17 19:33:01.065  2883  2883 I HwSystemManager: AntiMalManager:receive Broadcast ACTION_SCREEN_OFF mOnTimeSum:260909299 onTime:552384 isPowerConnected:false
+12-17 19:33:01.066  2883  2883 I HwSystemManager: AutoCleanReceiveServer:receive action:android.intent.action.SCREEN_OFF
+12-17 19:33:01.067  1795  3249 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:33:01.067  1795  3249 D HwNetworkStatsService: mActiveIface: null
+12-17 19:33:01.067  2883  2883 I HwSystemManager: AutoCleanReceiveServer:telemamanger state isIdle:true
+12-17 19:33:01.067  2883  2883 I HwSystemManager: AutoCleanReceiveServer:checkToStartCleanService,phone is use state,phone is use,need not start clean service
+12-17 19:33:01.068  1795  3249 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+12-17 19:33:01.072  1795  3249 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:33:01.072  1795  3249 D PowerManagerService: release:lock=184063844, flg=0x0, tag="NetworkStats", name=android", ws=null, uid=1000, pid=1795
+12-17 19:33:01.073  1795  3077 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_OFF
+12-17 19:33:01.073  1795  3249 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:01.073  1795  3249 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:01.073  1795  3077 I GnssLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:false
+12-17 19:33:01.073  1795  3077 I GnssLocationProvider: disableGps:false  isEnabled()=true
+12-17 19:33:01.076  2852  3361 I vol.VolumeDialogControl: C onScreenOff 
+12-17 19:33:01.077  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onScreenOff
+12-17 19:33:01.079  3168  3168 I CHR_TelStatusListenr0: [Timer rat:0 level:5] suspend
+12-17 19:33:01.079  3168  3168 I CHR_TelStatusListenr0: [Timer serviceState:0 simReady:true] suspend
+12-17 19:33:01.079  3168  3168 I CHR_TelStatusListenr1: [Timer serviceState:1 simReady:false] suspend
+12-17 19:33:01.079  3168  3168 I CHR_TelphonyStatusService: duration: 580079 STATUS_REPORT_TIMESPAN: 86400000 / (1000 * 60 * 60 * 24) day STATUS_REPORT_TIMESPAN_FOR_BETA: 21600000 / (1000 * 60 * 60 * 24) day
+12-17 19:33:01.079  3168  3168 I CHR_ChrUtil: is Beta User, userType = 3
+12-17 19:33:01.082  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:33:01.082  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:33:01.084  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:33:01.084  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:33:01.084  2883  3040 I HwSystemManager: TrafficNotifyAfterLocked:mLockStartTraffic = 0;mLockStartTrafficList = {}
+12-17 19:33:01.085  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_OFF  flag:1342177296 
+12-17 19:33:01.089  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:33:01.093  3180  3332 I WakelockMonitor: start wakelock monitor.
+12-17 19:33:01.093  3180  3578 I ScreenLockClean: call busy and not start clean apps.
+12-17 19:33:01.094  3180  3578 I ash     : ash->screen off
+12-17 19:33:01.095  3180  3578 I ash     : Default InputMethod : com.baidu.input_huawei
+12-17 19:33:01.095  3180  3578 I ash     : screen off inputmethod, delay to hibernation
+12-17 19:33:01.095  3180  3578 I ThermalStateManager: handle action thermal policy:301
+12-17 19:33:01.097  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:33:01.097  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: false
+12-17 19:33:01.098  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:33:01.098  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:33:01.105  3218  3422 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:33:01.106  3879  3879 I HwLauncher: Launcher receiver screen off broadcast sendmessage true
+12-17 19:33:01.113  1795 16500 I AlarmManager: set(PendingIntent{9db71f1: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) : type=2 triggerAtTime=443517476 win=60000 tElapsed=443517476 maxElapsed=443577476 interval=0 flags=0x8
+12-17 19:33:01.121  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:33:01.121  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen off event
+12-17 19:33:01.122  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:33:01.126  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = false, mIsPreScrnOn = true, mScrnSwitchTime = 1481974380793, occurTime = 1481974381125, delta = 332, mScrnOffAccTime = 1795287, mScrnOnAccTime = 121089
+12-17 19:33:01.127  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1795287, mScrnOffAccTime = 1795287, mScrnOnAccTime = 121421
+12-17 19:33:01.127  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:33:01.130  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:33:01.130  3626  3626 I iMonitor: create: 903001010
+12-17 19:33:01.131  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:33:01.132  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:33:01.133   818  1152 I logserver: handle_exception_events enter
+12-17 19:33:01.133  3626  3626 I iMonitor: send: 903001010
+12-17 19:33:01.134  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:33:01.137  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:33:01.138  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_OFF
+12-17 19:33:01.146  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_OFF
+12-17 19:33:01.151  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.974210 Y: 6.609686 Z: 4.304414  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:01.155  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:33:01.156  1795 16498 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:0
+12-17 19:33:01.157  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:33:01.182 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_OFF
+12-17 19:33:01.218  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:33:01.222  1795  3121 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:01.291  3180  3180 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:33:01.291  3180  3180 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:33:01.348  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.601834 Y: 6.625372 Z: 4.234869  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:01.411  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:01.544  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.703824 Y: 7.268683 Z: 3.377073  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:01.564  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 9.000000
+12-17 19:33:01.564  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =-574207797 
+12-17 19:33:01.565  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:false
+12-17 19:33:01.565  1795  1795 I HwScreenOnProximityLock: removeProximityView success vp android.view.ViewRootImpl@8d21d6
+12-17 19:33:01.565  1795  1825 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.Display".
+12-17 19:33:01.565  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:01.566  1795  1795 D Sensors : batch called handle:2 sample_ns:20000000 latency_ns:0
+12-17 19:33:01.566  1795  1795 D Sensors : pa2240-proximity calling driver setDelay 20 ms
+12-17 19:33:01.566  1795  1825 I WindowManger_keyguard: Screen turned off...
+12-17 19:33:01.566  1795  1825 V KeyguardServiceDelegate: onScreenTurnedOff()
+12-17 19:33:01.566  1795  1825 I WindowManger_keyguard: onScreenTurnedOff()

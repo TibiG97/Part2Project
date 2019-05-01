@@ -1,0 +1,100 @@
+12-17 19:35:02.004  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:35:02.005  1795 11747 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{580cfb2 5224:com.huawei.health:DaemonService/u0a99}
+12-17 19:35:02.007  5224  5283 I Step_HSNH: 20002302|upDateHealthNotification()|91|3.03|4240
+12-17 19:35:02.007  2852  2852 I EventCenter: EventCenter Get :android.com.huawei.bone.NOTIFY_SPORT_DATA
+12-17 19:35:02.007  2852  2852 D StepCounterView: onStepCounterChange stepsNum:4240
+12-17 19:35:02.008  5224  5283 I Step_HSNH: 20002302|rebuild notification
+12-17 19:35:02.011  1795  1805 I NotificationManager: enqueueNotificationInternal: pkg=com.huawei.health id=10010 notification=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)
+12-17 19:35:02.012  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.huawei.health|10010|null|10099
+12-17 19:35:02.013  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:35:02.015  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)) important=2, post=1481974502012, when=1481531589202, vis=0, userid=0
+12-17 19:35:02.015  2852  2852 D StatusBar: updateNotification(StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)))
+12-17 19:35:02.016  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:35:02.017  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:35:02.017  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.huawei.health|10010|null|10099
+12-17 19:35:02.017  2852  2852 D StatusBar: applyInPlace=true shouldPeek=false alertAgain=true
+12-17 19:35:02.017  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.huawei.health|10010|null|10099
+12-17 19:35:02.017  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.huawei.health|10010|null|10099, group=0|com.huawei.health|10010|null|10099
+12-17 19:35:02.017  2852  2852 D StatusBar: reusing notification for key: 0|com.huawei.health|10010|null|10099
+12-17 19:35:02.018  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:35:02.018  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:35:02.018  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:35:02.026  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:35:02.026  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:35:02.027  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:35:02.027  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:35:02.037  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:02.037  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:02.038  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:35:02.038  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:35:02.153  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:35:02.154  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:35:02.158  3180  3578 I AppManager: check dependency pid: 4690 is depended by pid: 1795
+12-17 19:35:02.158  3180  3578 I ash     : Application com.baidu.input_huawei is depended by other app, delay to H!
+12-17 19:35:02.170  5215  5215 E wpa_supplicant: RSSI=-62;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:35:02.170  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:35:02.171  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:02.171  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-61 "Huawei-Employee"WPA_EAP
+12-17 19:35:02.172  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:02.202  1795  3111 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:02.410  1795  2748 D HwAmbientLuxFilterAlgo: t=123100027,BT=123101027,DT=123105869,BT1=123104027,DT1=123108027,Bn=false,Dn=false,lx=[112.0/123098524, 32.0/123098824, 23.0/123099125, 24.0/123099426, 24.0/123099726, 28.0/123100027],mLx=53.0,s=51.071762,ss=53.76826,AuIntervened=false,mProximityState=false,bLux=404.0,dLux=4.796318,bLux1=404.0,dLux1=20.0
+12-17 19:35:02.657  1795  2381 D libfingersense_wrapper: Calling fingersense_classify_touch()
+12-17 19:35:02.664  1795  2381 D libfingersense_wrapper: fingersense_classify_touch() finished
+12-17 19:35:02.667  1795  2380 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123100273, event=2, flags=0x0, uid=1000
+12-17 19:35:02.667  1795  2380 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=2, uid=1000
+12-17 19:35:02.668  1795  2380 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:02.671  1795 15987 V SecInputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:35:02.671  1795 11747 V InputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:35:02.681  7741  7755 D OsUtil  : hasStrictRequiredPermissions run true
+12-17 19:35:02.682  1795  1805 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{cce9193 7741:com.android.mms/u0a34}, flags: 10000400
+12-17 19:35:02.682  1795  1805 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{bdd6d58 u0 euid: 0 com.android.mms/.transaction.TransactionService}, euid: 0
+12-17 19:35:02.689  7741  7741 V Mms_TXM_SVC: Creating TransactionService
+12-17 19:35:02.694  7741  7741 D HwCust  : Create obj success use class com.android.mms.transaction.HwCustTransactionServiceImpl
+12-17 19:35:02.697  7741  7741 D HwCust  : Create obj success use class com.huawei.mms.util.HwCustUpdateUserBehaviorImpl
+12-17 19:35:02.697  7741  7741 D HwCust  : Create obj success use class com.huawei.mms.util.HwCustHwMessageUtilsImpl
+12-17 19:35:02.697  7741  7741 I Mms_TXM_SVC: onStartCommand send EVENT_NEW_INTENT. service-id 1
+12-17 19:35:02.697  7741 20636 V Mms_TXM_SVC: Handling incoming message: { when=0 what=5 arg1=1 obj=Intent { cmp=com.android.mms/.transaction.TransactionService } target=com.android.mms.transaction.TransactionService$ServiceHandler } = EVENT_NEW_INTENT
+12-17 19:35:02.698  7741  7741 W Mms_TXM_SVC: ConnectivityBroadcastReceiver.onReceive() action: android.net.conn.CONNECTIVITY_CHANGE
+12-17 19:35:02.699  7741  7741 V Mms_TXM_SVC: MSG_APP_Handle ConnectivityBroadcastReceiver.onReceive(): [type: MOBILE_MMS[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false, metered: true]
+12-17 19:35:02.699  7741  7741 V Mms_TXM_SVC:    TYPE_MOBILE_MMS not connected, bail
+12-17 19:35:02.699  7741  7741 V Mms_TXM_SVC:    retrying mms connectivity for it's available and renew = false
+12-17 19:35:02.701  7741 20636 V Mms_TXM_SVC:     networkAvailable=true
+12-17 19:35:02.711  7741 20636 V Mms_TXM_SVC: onNewIntent: cursor.count=0 action=null
+12-17 19:35:02.711  7741 20636 V Mms_TXM_SVC: onNewIntent: no pending messages. Stopping service.
+12-17 19:35:02.723  7741 20636 V Mms_TXM_SVC: stopSelfIfIdle: STOP!
+12-17 19:35:02.725  7741  7741 V Mms_TXM_SVC: Destroying TransactionService
+12-17 19:35:02.727  7741 20636 V Mms_TXM_SVC: Handling incoming message: { when=-28ms what=101 arg1=-1 target=com.android.mms.transaction.TransactionService$ServiceHandler } = EVENT_STOP_SERVICE
+12-17 19:35:02.727  7741 20636 V Mms_TXM_SVC: stopSelfIfIdle: STOP!
+12-17 19:35:02.728  7741 20636 V Mms_TXM_SVC: Handling incoming message: { when=-1ms what=100 target=com.android.mms.transaction.TransactionService$ServiceHandler } = EVENT_QUIT
+12-17 19:35:02.754  1795  2381 D libfingersense_wrapper: Calling fingersense_touch_up()
+12-17 19:35:02.754  1795  2381 D libfingersense_wrapper: fingersense_touch_up() finished
+12-17 19:35:02.777  4492  4492 V AudioManager: playSoundEffect   effectType: 0
+12-17 19:35:02.777  4492  4492 V AudioManager: querySoundEffectsEnabled...
+12-17 19:35:02.832  7741  7755 D OsUtil  : hasStrictRequiredPermissions run true
+12-17 19:35:02.833  1795  3225 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{cce9193 7741:com.android.mms/u0a34}, flags: 10000400
+12-17 19:35:02.834  1795  3225 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{fac0db3 u0 euid: 0 com.android.mms/.transaction.TransactionService}, euid: 0
+12-17 19:35:02.835  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ui.ACTION_ACTIVE, mPermissionType:0
+12-17 19:35:02.837  1795 16500 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ui.ACTION_ACTIVE flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:35:02.838  7741  7741 V Mms_TXM_SVC: Creating TransactionService
+12-17 19:35:02.840  1795  1795 I TrafficMonitor: update:rxPkts:9,txPkts:10,rxBytes:2286,txBytes:1615
+12-17 19:35:02.840  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:35:02.840  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:35:02.841  7741  7741 D HwCust  : Create obj success use class com.android.mms.transaction.HwCustTransactionServiceImpl
+12-17 19:35:02.842  7741  7741 D HwCust  : Create obj success use class com.huawei.mms.util.HwCustUpdateUserBehaviorImpl
+12-17 19:35:02.843  7741  7741 D HwCust  : Create obj success use class com.huawei.mms.util.HwCustHwMessageUtilsImpl
+12-17 19:35:02.843  7741  7741 I Mms_TXM_SVC: onStartCommand send EVENT_NEW_INTENT. service-id 1
+12-17 19:35:02.843  7741 20638 V Mms_TXM_SVC: Handling incoming message: { when=0 what=5 arg1=1 obj=Intent { cmp=com.android.mms/.transaction.TransactionService } target=com.android.mms.transaction.TransactionService$ServiceHandler } = EVENT_NEW_INTENT
+12-17 19:35:02.843  7741  7741 W Mms_TXM_SVC: ConnectivityBroadcastReceiver.onReceive() action: android.net.conn.CONNECTIVITY_CHANGE
+12-17 19:35:02.844  7741  7741 V Mms_TXM_SVC: MSG_APP_Handle ConnectivityBroadcastReceiver.onReceive(): [type: MOBILE_MMS[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false, metered: true]
+12-17 19:35:02.844  7741  7741 V Mms_TXM_SVC:    TYPE_MOBILE_MMS not connected, bail
+12-17 19:35:02.844  7741  7741 V Mms_TXM_SVC:    retrying mms connectivity for it's available and renew = false
+12-17 19:35:02.845  7741 20638 V Mms_TXM_SVC:     networkAvailable=true
+12-17 19:35:02.850  7741 20638 V Mms_TXM_SVC: onNewIntent: cursor.count=0 action=null
+12-17 19:35:02.850  7741 20638 V Mms_TXM_SVC: onNewIntent: no pending messages. Stopping service.
+12-17 19:35:02.853  4492  4492 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+12-17 19:35:02.854  4492  4492 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+12-17 19:35:02.854  4492  4492 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@493f6d1
+12-17 19:35:02.854  4492  4492 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+12-17 19:35:02.854  4492  4492 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+12-17 19:35:02.855  4492  4492 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@ed9f536
+12-17 19:35:02.857  7741 20638 V Mms_TXM_SVC: stopSelfIfIdle: STOP!

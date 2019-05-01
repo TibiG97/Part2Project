@@ -1,0 +1,100 @@
+12-17 19:40:23.415  1795  3139 W FingerprintService: onAcquired 1
+12-17 19:40:23.415  1795  3139 D FpDataCollector: fingerprint capture completed
+12-17 19:40:23.416  1795  2326 W FingerprintService: onAcquired 2
+12-17 19:40:23.419  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:40:23.420  1795  1795 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.421  1795  1821 I WindowManager: All windows ready for display!
+12-17 19:40:23.421  1795  1809 I WindowManager: Finished screen turning on...
+12-17 19:40:23.421  1795  1825 I PowerManager_screenOn: DisplayPowerController Unblocked screen on after 154 ms
+12-17 19:40:23.421  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=true, brightnessWaitRet=false, screenAutoBrightness=-1, userId=0
+12-17 19:40:23.421  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=1.0
+12-17 19:40:23.421  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:40:23.422  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:40:23.423  2852  2852 V KeyguardUpdateMonitor: KGSvcFp onAuthenticationAcquired.0
+12-17 19:40:23.471  1795  2371 E LightSensor: read Events lux: 87.0
+12-17 19:40:23.471  1795  1825 D AutomaticBrightnessController: ambient lux=87.0,timeStamp =443359835132000
+12-17 19:40:23.472  1795  1825 D HwNormalizedAutomaticBrightnessController: mAmbientLuxValid=true,mWakeupFromSleep= false
+12-17 19:40:23.472  1795  1825 D HwAmbientLuxFilterAlgo: updateAmbientLux: Initializing: mAmbientLightRingBuffer=[87.0 / 0ms], mAmbientLux=87.0
+12-17 19:40:23.472  1795  1825 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:40:23.472  1795  1825 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:40:23.472  1795  1825 D HwAmbientLuxFilterAlgo: t=123162021,BT=123162521,DT=123163021,BT1=123166021,DT1=123170021,Bn=false,Dn=false,lx=[87.0/123162021],mLx=87.0,s=5.0,ss=0.0,AuIntervened=false,mProximityState=false,bLux=574.0,dLux=20.0,bLux1=574.0,dLux1=20.0
+12-17 19:40:23.472  1795  1825 D HwNormalizedAutomaticBrightnessController: need to update brightness: mAmbientLux=87.0
+12-17 19:40:23.472  1795  1825 D HwNormalizedSpline: interpolate:mPosBrightness=0.0lux=87.0,mIsReboot=true,mIsUserChange=false,mDelta=0.0
+12-17 19:40:23.472  1795  1825 D HwNormalizedSpline: offsetBrightness=46.133335,mOffsetBrightness_last46.133335,lux=87.0,mPosBrightness=0.0,mIsUserChange=false,mDelta=0.0,defaultBrightness=46.133335,mStartLuxDefaultBrightness=46.133335mLastLuxDefaultBrightness=46.133335
+12-17 19:40:23.472  1795  1825 D HwNormalizedSpline: write:userId=0,mPosBrightness =0.0,mOffsetBrightness_last=46.133335,mIsUserChange=false,mDeltaNew=0.0,mStartLuxDefaultBrightness=46.133335mLastLuxDefaultBrightness=46.133335,mAmLux=87.0
+12-17 19:40:23.472  1795  1825 D AutomaticBrightnessController: updateAutoBrightness: mScreenAutoBrightness=30, newScreenAutoBrightness=46
+12-17 19:40:23.473  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=true, brightnessWaitRet=false, screenAutoBrightness=-1, userId=0
+12-17 19:40:23.473  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:40:23.473  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:40:23.475  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:40:23.475  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:40:23.475  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:40:23.508   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:23.508   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:23.508   606  2379 E libteec : send data return = 1216
+12-17 19:40:23.508   835  2385 E libteec : receive data len = 1216
+12-17 19:40:23.508   835  2385 E libteec : begin
+12-17 19:40:23.508   835  2385 E libteec : qsc_decode end
+12-17 19:40:23.508   835  2385 D fpc_tac : Identify took 93 ms (result: 2 score: 61 i: 0 coverage:44 quality:67)
+12-17 19:40:23.508   835  2385 D fpc_fingerprint_hal: do_identify: result:2 score:61 index:0 updated_template_size:0 coverage:44 quality:67
+12-17 19:40:23.508   835  2385 E libteec : begin
+12-17 19:40:23.508   606  2379 E libteec : receive data len = 128
+12-17 19:40:23.511   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:23.511   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:23.511   606  2379 E libteec : send data return = 128
+12-17 19:40:23.511   835  2385 E libteec : receive data len = 128
+12-17 19:40:23.511   835  2385 E libteec : begin
+12-17 19:40:23.511   835  2385 E libteec : qsc_decode end
+12-17 19:40:23.511   835  2385 I fpc_fingerprint_hal: template id:3943808667
+12-17 19:40:23.511   835  2385 E libteec : begin
+12-17 19:40:23.511   606  2379 E libteec : receive data len = 256
+12-17 19:40:23.514   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:23.514   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:23.514   606  2379 E libteec : send data return = 256
+12-17 19:40:23.514   835  2385 E libteec : receive data len = 256
+12-17 19:40:23.514   835  2385 E libteec : begin
+12-17 19:40:23.514   835  2385 E libteec : qsc_decode end
+12-17 19:40:23.514   835  2385 D fingerprintd: onAuthenticated(fid=-351158629, gid=0)
+12-17 19:40:23.515   835  2385 E libteec : begin
+12-17 19:40:23.515   606  2379 E libteec : receive data len = 128
+12-17 19:40:23.515  1795 11747 W FingerprintService: onAuthenticated 1
+12-17 19:40:23.515  1795 11747 D FpDataCollector: fingerprint authenticated result:true
+12-17 19:40:23.516  1795 11747 D FpDataCollector: case 001, wait for unlock screen on report
+12-17 19:40:23.516  1795  2326 W FingerprintService: onAuthenticated 2
+12-17 19:40:23.516  1795  2326 V FingerprintService: onAuthenticated(owner=com.android.systemui, id=-351158629, gp=0)
+12-17 19:40:23.516  1795  2326 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123162066, event=2, flags=0x0, uid=1000
+12-17 19:40:23.516  1795  2326 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=2, uid=1000
+12-17 19:40:23.516  2852  2852 V KeyguardUpdateMonitor: KGSvcFp Finger onAuthenticationSucceeded result= android.hardware.fingerprint.FingerprintManager$AuthenticationResult@635f1f4
+12-17 19:40:23.516  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:40:23.516  1795  2326 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.517  2852  2852 D TimeKeeper: getTimeTickInfo:[mMillisUntilFinished:0, mHour:0, mMinute:0, mSecond:0]
+12-17 19:40:23.517  2852  2852 I KeyguardUpdateMonitor: hasFingerprintUnlockTimedOut = true
+12-17 19:40:23.517  2852  2852 D KeyguardUpdateMonitor: Fingerprint timeout
+12-17 19:40:23.517  2852  2852 I KeyguardUpdateMonitor: SystemUI may crashed at earlier time. 123162066
+12-17 19:40:23.517  2852  2852 D KG_Policy: getRemainingChance 5
+12-17 19:40:23.518  2852  2852 I FingerprintController: currentUid = 0 userId=0
+12-17 19:40:23.518  2852  2852 I FingerprintController: FpPerformance onFingerAuthenticated!
+12-17 19:40:23.518  2852  2852 D TimeKeeper: getTimeTickInfo:[mMillisUntilFinished:0, mHour:0, mMinute:0, mSecond:0]
+12-17 19:40:23.518  2852  2852 I KeyguardUpdateMonitor: hasFingerprintUnlockTimedOut = true
+12-17 19:40:23.518  1795  2326 D PowerManagerService: acquire lock=173909064, flags=0x1, tag="lockoutResetCallback", name=com.android.systemui, ws=null, uid=10033, pid=2852
+12-17 19:40:23.518  2852  2852 D KeyguardUpdateMonitor: Fingerprint timeout
+12-17 19:40:23.518  2852  2852 I KeyguardUpdateMonitor: SystemUI may crashed at earlier time. 123162067
+12-17 19:40:23.518  2852  2852 I FingerprintController: onFingerprintAuthenticated with mMode : 1, wasDeviceInteractive :false
+12-17 19:40:23.518  2852  2852 I FingerprintController: fp wakelock: use fast wakeup solution
+12-17 19:40:23.518  2852  2852 W StatusBarWindowManager: Apply window without WALLPAPER
+12-17 19:40:23.518  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:40:23.518  2852  2852 I StatusBarWindowManager: apply skiped :0
+12-17 19:40:23.518  2852  2852 D KeyguardViewMediator: keyguardDone(true)
+12-17 19:40:23.518  1795  2326 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.519  2852  2852 W StatusBarWindowManager: Apply window without WALLPAPER
+12-17 19:40:23.519  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:40:23.519  2852  2852 I StatusBarWindowManager: apply skiped :0
+12-17 19:40:23.519  1795  2326 V FingerprintService: ClientMonitor destroy
+12-17 19:40:23.519  2852  2852 I TimeKeeper: resetErrorCount kg_policy_pswd_pin_patten_x0_0
+12-17 19:40:23.519  2852  2852 D TimeKeeper: remove:kg_policy_pswd_pin_patten_x0_0
+12-17 19:40:23.519  1795  2326 V FingerprintService: Done with client: com.android.systemui
+12-17 19:40:23.520  1795  3139 D FingerprintService:  Remaining Num Attempts = 5
+12-17 19:40:23.520  2852  2852 D KG_Policy_FP: FingerPrint state is already reset
+12-17 19:40:23.521  2852  2852 W KeyguardUpdateMonitor: Fingerprint RunningStateChanged. 0
+12-17 19:40:23.521  2852  2925 W HwLockScreenReporter: report result = falsereport type:127 msg:
+12-17 19:40:23.521  2852  2925 W HwLockScreenReporter: report result = falsereport type:128 msg:{unlock_time:274, isScreenOff:true}

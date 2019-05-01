@@ -1,0 +1,100 @@
+12-17 19:33:13.951  3608  3608 D InCall  : GlowPadWrapper - stopPing
+12-17 19:33:13.951  3608  3608 I InCall  : GlowPadAnswerFragment - showVideoAnswerButtonfalsefalse
+12-17 19:33:13.952  1795 11746 I ActivityManager_activity: Moving to PAUSED: ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310} (pause complete)
+12-17 19:33:13.952  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:33:13.954  3608  3608 D InCall  : InCallActivity - mScreenOnReceiver mCallEndOptionsDialog = null
+12-17 19:33:13.955  1795  1825 D AutomaticBrightnessController: Disable LightSensor at time:123077641
+12-17 19:33:13.955  1795  1825 D DisplayPowerController: mode change : autoBrightnessEnabled=false,adjustment=0.0,state=1
+12-17 19:33:13.955  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:33:13.956  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=OFF, backlight=0
+12-17 19:33:13.957  1795  1821 I DisplayManagerService: Display device changed state: "内置屏幕", OFF
+12-17 19:33:13.957  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:13.957   612   612 D SurfaceFlinger: Set power mode=0, type=0 flinger=0x7f9a25b400
+12-17 19:33:13.957  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:33:13.957   612   612 I SDM     : HWCDisplay::SetPowerMode: display = 0, mode = 0
+12-17 19:33:13.957   612   612 I SDM     : DisplayBase::SetDisplayState: Set state = 0, display 0
+12-17 19:33:13.958  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=false
+12-17 19:33:13.958  1795  1795 D DeviceIdleController: becomeInactiveIfAppropriateLocked()
+12-17 19:33:13.958  1795  1795 D DeviceIdleController: Moved from STATE_ACTIVE to STATE_INACTIVE
+12-17 19:33:13.958  1795  1795 D DeviceIdleController: stopMonitoringMotionLocked()
+12-17 19:33:13.958  1795  1795 D DeviceIdleController: scheduleAlarmLocked(1800000, false)
+12-17 19:33:13.958  1795  1795 I AlarmManager: set(null) : type=2 triggerAtTime=444730321 win=1350000 tElapsed=444730321 maxElapsed=446080321 interval=0 flags=0x8
+12-17 19:33:13.959   832  1840 E Parcel  : Reading a NULL string not supported here.
+12-17 19:33:13.959   832  1840 E Parcel  : Reading a NULL string not supported here.
+12-17 19:33:13.960  1795  1795 D DeviceIdleController: Moved from LIGHT_STATE_ACTIVE to LIGHT_STATE_INACTIVE
+12-17 19:33:13.960  1795  1795 D DeviceIdleController: scheduleLightAlarmLocked(300000)
+12-17 19:33:13.960  1795  1795 I AlarmManager: set(null) : type=2 triggerAtTime=443230324 win=225000 tElapsed=443230324 maxElapsed=443455324 interval=0 flags=0x8
+12-17 19:33:13.961  1795 17832 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:13.964  1795  3884 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:13.964  1795  6988 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:13.965  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.android.incallui user=UserHandle{0} id=2 tag=null key=0|com.android.incallui|2|null|1001: Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE))) important=2, post=1481974393949, when=1481974245374, vis=0, userid=0
+12-17 19:33:13.965  2852  2852 I PhoneStatusBar: addNotification key=0|com.android.incallui|2|null|1001
+12-17 19:33:13.966  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:13.966  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:33:13.966  1795  1806 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:13.966  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:13.966  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:33:13.967  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:13.967  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:13.970 16628 16628 I TotemWeather: RetryTaskController:Screen is off or Network is unable
+12-17 19:33:13.970  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:13.970  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:13.974  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:13.975  2852  2852 I StatusBarIconView: updateTint: tint=1
+12-17 19:33:13.975  3608  3608 I InCall  : VideoCallFragment - onStop:
+12-17 19:33:13.975  3608  3608 D InCall  : InCallActivity - onStop()...
+12-17 19:33:13.976  3608  3608 D InCall  : InCallPresenter - onActivityStopped
+12-17 19:33:13.976  3608  3608 D InCall  : InCallPresenter - notifyVideoPauseController
+12-17 19:33:13.976  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onPause
+12-17 19:33:13.976  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onPause, Ignoring...
+12-17 19:33:13.976  3608  3608 I InCall  : InCallPresenter - updateStatusBar: state = 0x0
+12-17 19:33:13.976  2852  2852 D HwCust  : Create obj success use class com.android.systemui.statusbar.HwCustExpandableNotificationRowImpl
+12-17 19:33:13.977  1795  3884 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.android.incallui
+12-17 19:33:13.977  3608  3608 D InCall  : InCallActivity -  bgCallTwinkingSwitch is true inQuickExiting is false mIsForegroundActivity is false
+12-17 19:33:13.979  3608  3608 I CallUtils: show_incallscreen  0
+12-17 19:33:13.981 31949 31967 I PushService: main{1} PushService.onStartCommand(PushService.java:87) Push Service Start by  userEvent
+12-17 19:33:13.981  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:13.983  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:13.985 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.shutdown(TcpCirChannel.java:257) Login_By_Step-> shut down now connect
+12-17 19:33:13.986 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:33:13.986 31949 31967 I ECS     : WatchThread{4786} TcpClient.disconnect_i(TcpClient.java:202) ==================== TCP CLIENT DISCONNECT ====================
+12-17 19:33:13.987 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.disconnectSocket(TcpClientThread.java:369) disconnecting to uc.huawei.com:7801
+12-17 19:33:13.988 31949 31967 I TCP     : WatchThread{4786} TcpSocket.close(TcpSocket.java:158) shutdown output: java.net.SocketException: Socket is closed
+12-17 19:33:13.989  3608  3608 I InCall  : CallList - hasAnyLiveCall call = [Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)]
+12-17 19:33:13.989  3608  3608 I InCall  : ProximitySensor - isDisplayOn: false
+12-17 19:33:13.989 31949 31967 I TCP     : WatchThread{4786} TcpSocket.close(TcpSocket.java:170) shutdown input: java.net.SocketException: Socket is closed
+12-17 19:33:13.989  1795 17832 I qti_sensors_hal: batch,376,handle 0, timeout:0 ,period_ns:66667000
+12-17 19:33:13.989  1795 17832 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) handle:0 flags:0x0 period_ns 66667000
+12-17 19:33:13.989 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.closeSocket(TcpClientThread.java:396) closed socket.
+12-17 19:33:13.990 31949 31967 W TCP     : tcp.recv{4790} TcpSocket.read(TcpSocket.java:242) <<< WARN(5) >>> java.net.SocketException: Socket closed
+12-17 19:33:13.991  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:13.991 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.connect(TcpCirChannel.java:219) Connect to server  address = [uc.huawei.com,]  port = 7801
+12-17 19:33:13.992  1795 11745 D PowerManagerService: release:lock=228612087, flg=0x0, tag="ActivityManager-Sleep", name=android", ws=null, uid=1000, pid=1795
+12-17 19:33:13.992  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:13.992  1795 11745 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:13.992  1795 11745 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:13.992 31949 31967 E TCP     : tcp.recv{4790} TcpClientThread.readSocket(TcpClientThread.java:452) <<< ERROR(6) >>> socket read length failure -104
+12-17 19:33:13.993 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:314) disconnected
+12-17 19:33:13.994 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:33:13.995 31949 31967 I ECS     : WatchThread{4786} TcpClient.connect(TcpClient.java:162) ==================== TCP CLIENT CONNECT [2] ====================
+12-17 19:33:13.995   816 20497 D DnsProxyListener: GetAddrInfoHandler addr: uc.huawei.com {304, 917808, 10102} 172.30.70.63
+12-17 19:33:13.996  1795 11745 I AlarmManager: remove(PendingIntent{12e10eb: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) changed bounds; rebatching
+12-17 19:33:13.998  1795 17832 I qti_sensors_hal: read from oem info: data_readback
+12-17 19:33:13.998  1795 17832 I qti_sensors_hal: 0xcd, 0xb0, 0x24, 0x3e
+12-17 19:33:13.998  1795 17832 I qti_sensors_hal: 0x66, 0xca, 0x3c, 0x3e
+12-17 19:33:13.998  1795 17832 I qti_sensors_hal: 0xc0, 0x2a, 0x7c, 0x3f
+12-17 19:33:13.998  1795 17832 I qti_sensors_hal: 0x55, 0x0, 0x0, 0x0
+12-17 19:33:13.998  1795 17832 I qti_sensors_hal: 0x0, 0x0, 0x0, 0x0
+12-17 19:33:13.998  1795 17832 E qti_sensors_hal: read from oem info: data_valid_flag=0x55
+12-17 19:33:13.998  1795 17832 E qti_sensors_hal: read from oem info: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:33:13.998  1795 17832 E qti_sensors_hal: Final value: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:33:13.998  1795 17832 I qti_sensors_hal: batch:load_acc_oeminf_data x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:13.998  1795 17832 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) sample_rate=14.999925Hz report_rate_f=0.000000Hz curr sample rate:14.999925 cur rpt rate:0 max:400.000000 min:1.000000
+12-17 19:33:13.998  1795 17832 I qti_sensors_hal: batch: current sample rate, report rate & buffering are equal to requested (14.999925,0.000000,0)
+12-17 19:33:13.999  1795  3237 I AlarmManager: set(PendingIntent{a86fe48: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) : type=0 triggerAtTime=1481974693998 win=0 tElapsed=443230361 maxElapsed=443230361 interval=300000 flags=0x1
+12-17 19:33:14.002  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.003  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.005  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 4.946195 Y: 7.853781 Z: 0.249533  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:14.005 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.connect(TcpClientThread.java:52) will connect to uc.huawei.com:7801
+12-17 19:33:14.006 31949 31985 I PushService: connect :true
+12-17 19:33:14.007  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it

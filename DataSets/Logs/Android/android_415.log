@@ -1,0 +1,100 @@
+12-17 19:40:31.767  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: false
+12-17 19:40:31.784  3879  3879 I HwLauncher: Launcher receiver screen off broadcast sendmessage true
+12-17 19:40:31.785  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:40:31.785  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:40:31.785  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:40:31.786  1795  1806 I AlarmManager: set(PendingIntent{c93f73f: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) : type=2 triggerAtTime=443968149 win=60000 tElapsed=443968149 maxElapsed=444028149 interval=0 flags=0x8
+12-17 19:40:31.786  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:40:31.786  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:40:31.789  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:40:31.789  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen off event
+12-17 19:40:31.795  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = false, mIsPreScrnOn = true, mScrnSwitchTime = 1481974823830, occurTime = 1481974831794, delta = 7964, mScrnOffAccTime = 2174726, mScrnOnAccTime = 184687
+12-17 19:40:31.795  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 2174726, mScrnOffAccTime = 2174726, mScrnOnAccTime = 192651
+12-17 19:40:31.798  3626  3626 I iMonitor: create: 903001010
+12-17 19:40:31.801  3626  3626 I iMonitor: send: 903001010
+12-17 19:40:31.801   818  1152 I logserver: handle_exception_events enter
+12-17 19:40:31.802  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:40:31.805  1795  1795 I HwActivityManagerService: OverscanTimeout run
+12-17 19:40:31.808  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:40:31.808  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_OFF
+12-17 19:40:31.808  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:40:31.808  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:40:31.809  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:40:31.809  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:40:31.809  2852  2852 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:40:31.821  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_OFF
+12-17 19:40:31.827  1795  2778 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:0
+12-17 19:40:31.851   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 28
+12-17 19:40:31.860  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:40:31.866  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:40:31.869  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:40:31.873 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_OFF
+12-17 19:40:31.886  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:40:31.886  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:40:31.886  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:40:31.887  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:40:31.887  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:40:31.921  1795  3139 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:31.921  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:40:32.113  2852  2925 I WeatherUtils: getCurrentWeatherInfo currentTemperature is :17.0 mWeatherIcon Id is: 33
+12-17 19:41:30.531  1795 17831 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:41:30.531  1795 17831 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:41:30.534  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:41:30.535  1795  2376 I AlarmManager: there are no wakeup alarms and the screen is off, we can delay what we have so far until the future
+12-17 19:41:30.536  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:41:30.536  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:41:30.536  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:41:30.536  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:41:30.536  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:41:30.536  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:41:30.536  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:41:30.536  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:41:30.536  1795  1795 I TrafficMonitor: update:rxPkts:8,txPkts:9,rxBytes:753,txBytes:1285
+12-17 19:41:30.536  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:41:30.536  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:41:30.536  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:41:30.538  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:41:30.538  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:41:30.538  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:41:30.538  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:41:30.538  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:41:30.538  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:41:30.538  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:41:30.538  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:41:30.541  3782 20886 V AudioManager: isMusicActive...
+12-17 19:41:30.542  3782 20886 V AudioManager: isWiredHeadsetOn...
+12-17 19:41:30.550   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:41:30.552  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 443383214297964}
+12-17 19:41:30.553  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 443383214297964}
+12-17 19:41:30.556  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass idle 1 443383214297964
+12-17 19:41:30.556  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:41:30.557  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:41:30.557  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:41:30.557  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:41:30.557  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:41:30.558  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:41:30.558  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:41:30.558  1795  1825 D PowerManagerService: updateIsPoweredLocked: wasPowered=false, mIsPowered=false, oldPlugType=0, mPlugType=0, mBatteryLevel=78
+12-17 19:41:30.558  1795  1825 I HwCustPowerManager_FLOW: handleDreamLocked
+12-17 19:41:30.559  1795  1795 I DeviceIdleController: updateChargingLocked: charging=false
+12-17 19:41:30.559  2852  2852 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-17 19:41:30.560  2852  2852 W KeyguardUpdateMonitor: ACTION_BATTERY_CHANGED AMP: 0; Volt: 0
+12-17 19:41:30.560  1795  1795 D WifiService: onReceive, action:android.intent.action.BATTERY_CHANGED
+12-17 19:41:30.560  1795  1795 D WifiService: ACTION_BATTERY_CHANGED pluggedType: 0
+12-17 19:41:30.560  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155652 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:41:30.560  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.BATTERY_CHANGED  flag:1610612752 technology=Li-ion icon-small=17303220 max_charging_voltage=0 health=2 max_charging_current=0 status=3 plugged=0 present=true charge_counter=0 level=78 scale=100 temperature=262 voltage=4071 invalid_charger=0 
+12-17 19:41:30.560  1795  2670 D WifiController: StaEnabledState what=155652
+12-17 19:41:30.560  1795  2670 D WifiController: DefaultState what=155652
+12-17 19:41:30.560  1795  2670 D WifiController: battery changed pluggedType: 0
+12-17 19:41:30.560  1795  2670 D WifiController: wifiSleepPolicy:1
+12-17 19:41:30.560  2852  2852 I PowerUI : buckets   .....15 .. 10 .. 5level          78 --> 78status         3 --> 3plugType       0 --> 0invalidCharger 0 --> 0bucket         1 --> 1plugged        false --> false
+12-17 19:41:30.561  3782  3862 W QCNEJ   : |CORE| CNE received unexpected action: android.intent.action.BATTERY_CHANGED
+12-17 19:41:30.561  3218  3218 D VideoCall_LowBattery: BatteryIntent received: android.intent.action.BATTERY_CHANGED
+12-17 19:41:30.563  1795  3238 I NotificationManager: cancelNotificationWithTag pid 2852,uid = 10033,tag = low_battery,pkg =com.android.systemui,id =2132017204
+12-17 19:41:30.563  3218  3218 E QtiImsExtUtils: getImsPhoneId failed. Exception = org.codeaurora.ims.QtiImsException: ImsService is not running
+12-17 19:41:30.563  3218  3218 E QtiImsExtUtils: getConfigForPhoneId phoneId is invalid
+12-17 19:41:30.563  3218  3218 E QtiImsExtUtils: isCarrierConfigEnabled bundle is null
+12-17 19:41:30.563  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:41:30.563  3218  3218 D VideoCall_LowBattery:  allowVideoCallsInLowBattery: false isCarrierOneSupported: false mIsLowbattery: false
+12-17 19:41:30.563  2852  2852 I HwPowerUI: processLowerBatteryLevel plugged:false batteryLevel:78 intent:act:android.intent.action.BATTERY_CHANGED  flag:1610612752 technology=Li-ion icon-small=17303220 max_charging_voltage=0 health=2 max_charging_current=0 status=3 plugged=0 present=true charge_counter=0 level=78 scale=100 temperature=262 voltage=4071 invalid_charger=0 
+12-17 19:41:30.563  2852  2852 I HwPowerUI: doTemperatueWarning, health:2

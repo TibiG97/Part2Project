@@ -1,0 +1,100 @@
+12-17 19:40:23.653  3879  3879 I ActivityManager_activity: Resuming ActivityRecord{4679a0a token=android.os.BinderProxy@5462fa {com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}} with isForward=true,forwardBitChanged=true onlyLocalRequest=false
+12-17 19:40:23.654 32607 32607 I UX      : CollectorManager--isCollectorEnabled--getBoolean: false
+12-17 19:40:23.655 32607 32607 I UX      : CollectorManager--isCollectorEnabled--getBoolean: false
+12-17 19:40:23.655 32607 32607 I UX      : CollectorManager--isCollectorEnabled--getBoolean: false
+12-17 19:40:23.655 32607 32607 I UX      : CollectorManager--isCollectorEnabled--getBoolean: false
+12-17 19:40:23.656 32607 32607 I UX      : CollectorManager--isCollectorEnabled--getBoolean: false
+12-17 19:40:23.656 32607 32607 I UX      : CollectorManager--isCollectorEnabled--getBoolean: false
+12-17 19:40:23.656 32607 32607 I UX      : CollectorManager--isCollectorEnabled--getBoolean: false
+12-17 19:40:23.656 32607 32607 W UX      : [CollectStarterReceiver.onReceive] enable == false
+12-17 19:40:23.656  3879  3879 I HwLauncher: DynamicUpdater call updateFolder
+12-17 19:40:23.656  1795 17831 V HwBroadcastQueue: trim and enqueue background Parallel:(1) Ordered:(1)(BroadcastRecord{7419042 u0 android.intent.action.USER_PRESENT})
+12-17 19:40:23.657  1795 17831 I ActivityManager_broadcast: orderd background broadcast:(BroadcastRecord{ebeb68c u0 android.intent.action.USER_PRESENT}) should be proxyed, target:(ResolveInfo{5eab853 com.huawei.espacev2/com.huawei.push.BootCompletedReceiver p=9000 m=0x108000 euid=0})
+12-17 19:40:23.657  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:40:23.657   803 15280 I Pged-Freezer: Pid 4492 is not exist in vector
+12-17 19:40:23.657   803 15280 I Pged-Freezer: Pid 4634 is not exist in vector
+12-17 19:40:23.657   803 15280 I Pged-Freezer: Pid 18589 is not exist in vector
+12-17 19:40:23.657  3180  3578 D PgedBinderAdapter: unfrz ok, pid: [4492, 4634, 18589]
+12-17 19:40:23.657  3180  3578 I PGServer: report state:6 event type:2 pid:0 uid:10105 pkg:com.tencent.mm to pid: 1795
+12-17 19:40:23.658  3180  3578 I ash     : Unfreeze com.tencent.mm OK !
+12-17 19:40:23.658  1795 17832 D PowerManagerService: release:lock=60141323, flg=0x0, tag="hibernation", name=com.huawei.powergenie", ws=null, uid=1000, pid=3180
+12-17 19:40:23.658  1795 17832 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.658  1795 17832 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:23.659  1795  2778 I PGManagerService: proxyBroadcast:[com.tencent.mm] proxy:false
+12-17 19:40:23.659 32607 32607 I BetaClub: [PollingService.onStartCommand]Start
+12-17 19:40:23.660  3180  3578 I ash     : unproxy com.tencent.mm broadcast OK !
+12-17 19:40:23.660  1795  1808 V HwBroadcastQueue: trim and enqueue background Parallel:(0) Ordered:(2)(BroadcastRecord{c4bf590 u0 android.intent.action.USER_PRESENT})
+12-17 19:40:23.660 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Path:/storage/emulated/0
+12-17 19:40:23.660  1795  1808 I ActivityManager_broadcast: orderd background broadcast:(BroadcastRecord{ebeb68c u0 android.intent.action.USER_PRESENT}) should be proxyed, target:(ResolveInfo{e899e89 com.huawei.espacev2/com.huawei.anyoffice.sdk.network.ScreenOnReceiver m=0x108000 euid=0})
+12-17 19:40:23.661 32607 20816 E UX      : [CollectStarterReceiver.onReceive] checkCollectSwitchStatus start
+12-17 19:40:23.661  1795 11746 D GpsFreezeProc: removeFreezeProcess pkg:com.tencent.mm
+12-17 19:40:23.661  1795 11746 I GnssLocationProvider: setRequest ProviderRequest[OFF]
+12-17 19:40:23.661  1795 11746 I GnssLocationProvider: stopNavigating, mStarted=false
+12-17 19:40:23.661 32607 20816 E UX      : [CollectStarterReceiver.onReceive] interval is to short:4915507
+12-17 19:40:23.661 32607 20816 E UX      : [CollectStarterReceiver.onReceive] checkCollectSwitchStatus end
+12-17 19:40:23.662  3180  3578 I ash     : unproxy app:com.tencent.mm,uid:10105,result:true
+12-17 19:40:23.662  3180  3578 I ash     : perform running actions!
+12-17 19:40:23.662  3180  3578 I ash     : running package: com.tencent.mm, visible: false
+12-17 19:40:23.662 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Mounted:/storage/emulated/0:true
+12-17 19:40:23.663  2883  3125 I HwSystemManager: StartupResidentService:InnerHandler Message:7
+12-17 19:40:23.664 32607 20815 I BetaClub: [ReceiverUtils.resumeLogUpload]
+12-17 19:40:23.665  3879  3879 I HwLauncher: WeatherDynamicUpdater receive action = com.huawei.android.action.launcher_weather_icon_change
+12-17 19:40:23.668  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:40:23.668  3879  4071 I HwLauncher: WeatherDynamicUpdater receiver data is int[] = [0, 0, 96, 192, 96, 192, 96, 192] ; stringArray[] = [sunny, num1, num7, tempc] ; dynamic_gravity = center
+12-17 19:40:23.668  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[0] = sunny:0, 0, 0
+12-17 19:40:23.668   835  2385 E libteec : begin
+12-17 19:40:23.668   606  2379 E libteec : receive data len = 128
+12-17 19:40:23.669 32607 20815 D BetaClub Upload: [Deviceutils.isPhoneHotPot]isPhoneAP = false
+12-17 19:40:23.669 32607 20815 I BetaClub: [ReceiverUtils.resumeLogUpload]resumeSendNow
+12-17 19:40:23.669  2883  3125 I HwSystemManager: StartupResidentService:InnerHandler Message:7
+12-17 19:40:23.670 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Path:/storage/emulated/0
+12-17 19:40:23.672 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Mounted:/storage/emulated/0:true
+12-17 19:40:23.673  3879  4071 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:40:23.673  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[1] = num1:96, 192, 0
+12-17 19:40:23.673  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[2] = num7:96, 192, 0
+12-17 19:40:23.674  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[3] = tempc:96, 192, 0
+12-17 19:40:23.674  3879  4071 I HwLauncher: WeatherDynamicUpdater  picNames.length not equal tmpMapList.size(), so no need to updatePreData... ; picNames.length = 4 , tmpMapList.size() = 1
+12-17 19:40:23.677  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.USER_PRESENT
+12-17 19:40:23.677  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:40:23.677  1795  2668 D WifiP2pService: InactiveState143468
+12-17 19:40:23.677  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:40:23.677  1795  2668 E HwWifiP2pService: Unhandled message when=123162226 what=143468 arg1=0 arg2=0
+12-17 19:40:23.677  1795  2668 D WifiP2pService: P2pEnabledState when=123162226 what=143468 arg1=0 arg2=0
+12-17 19:40:23.677  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: false action: android.intent.action.USER_PRESENT mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:40:23.677  1795  1795 D HwConnectivityService: receive ACTION_USER_PRESENT and unlock.
+12-17 19:40:23.677  1795  1795 D HwConnectivityService: pid=1000, cmd=100, param=0
+12-17 19:40:23.677  1795  2668 D WifiP2pService: DefaultState{ when=-1ms what=143468 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:40:23.677  1795  1795 D HwConnectivityService: mFilterMsgFlag: 0,msg.arg1: 3
+12-17 19:40:23.677  1795  2668 E HwWifiP2pService: Unhandled message { when=-1ms what=143468 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:40:23.677  1795  1795 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 1000 cmd = 100 param = 0 ret = 0
+12-17 19:40:23.678  1795  1795 D WifiService: onReceive, action:android.intent.action.USER_PRESENT
+12-17 19:40:23.678  1795  1795 D HwAutoConnectManager: ACTION_USER_PRESENT received, has PortalNotifyDelayed = false
+12-17 19:40:23.678  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155660 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:40:23.678   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:23.678   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:23.678   606  2379 E libteec : send data return = 128
+12-17 19:40:23.678   835  2385 E libteec : receive data len = 128
+12-17 19:40:23.678   835  2385 E libteec : begin
+12-17 19:40:23.678   835  2385 E libteec : qsc_decode end
+12-17 19:40:23.679  1795  2691 D HwConnectivityService: handleFilterMsg action: 3mFilterMsgFlag3
+12-17 19:40:23.679  1795  2691 D HwConnectivityService: [tiger]setBastetFilterInfo action 3pid 1000
+12-17 19:40:23.679  1795  2691 D HwConnectivityService: stopFilter m_filterIsStarted:false
+12-17 19:40:23.680  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:40:23.680  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:40:23.683 32607 20815 D BetaClub: [OtherUtils.resumeSendNow]Resume Send Now!
+12-17 19:40:23.684 32607 20815 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1527 android.content.ContextWrapper.startService:613 com.huawei.betaclub.utils.OtherUtils.resumeSendNow:213 com.huawei.betaclub.utils.OtherUtils.resumeSend:200 com.huawei.betaclub.receiver.utils.ReceiverUtils.resumeLogUpload:50 
+12-17 19:40:23.685  1795  3139 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{e68e93f 32607:com.huawei.betaclub/1000}, flags: 10000400
+12-17 19:40:23.685  1795  3139 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{85e86af u0 euid: 0 com.huawei.betaclub/com.huawei.logupload.LogUploadService}, euid: 0
+12-17 19:40:23.685  1795  3139 I ActivityManager_service: mAm.startProcessLocked for service: ServiceRecord{85e86af u0 euid: 0 com.huawei.betaclub/com.huawei.logupload.LogUploadService}, appinfo euid: 0
+12-17 19:40:23.686  1795  3139 I ActivityManager: new Process app=ProcessRecord{7a2dabc 0:com.huawei.betaclub:loguploadservice/1000}, name: com.huawei.betaclub:loguploadservice, euid: 0
+12-17 19:40:23.687  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:40:23.689  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -3.054141 Y: 0.813788 Z: 9.122595  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:40:23.691  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:40:23.691  1795  2377 I AwareLog: AwareMem_DMEServer: start
+12-17 19:40:23.692  1795  2377 I AwareLog: AwareMem_EventTracker: [SCREEN_ON_1481974823691] is abandoned for memory 854960
+12-17 19:40:23.692  3218  6115 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:40:23.695  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:40:23.695  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:40:23.695  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:40:23.696  3879  3879 I ActivityManager_activity: Reporting idle of ActivityRecord{4679a0a token=android.os.BinderProxy@5462fa {com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}} finished=false
+12-17 19:40:23.697  2852  2852 D UnderLayer: ondraw 0, Rect(0, 0 - 1080, 72)

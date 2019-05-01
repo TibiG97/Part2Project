@@ -1,0 +1,100 @@
+12-17 19:33:42.136  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityNegative by Phone
+12-17 19:33:42.136  1795  1795 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:42.136  1795  1825 D PowerManagerService: setColorTemperatureAccordingToSetting
+12-17 19:33:42.136  1795  1825 D HwPowerManagerService: setColorTemperatureAccordingToSetting
+12-17 19:33:42.136  1795  1825 D HwPowerManagerService: isDisplayFeatureSupported feature:1
+12-17 19:33:42.136  1795  1825 D HW_DISPLAY_EFFECT: hw_get_smart_display_supported: start++
+12-17 19:33:42.136  1795  1825 D HW_DISPLAY_EFFECT: hw_get_smart_display_supported: end--
+12-17 19:33:42.136  1795  1825 D HWPowerManger_JNI: Surport 3 dimension color temperature.
+12-17 19:33:42.136  1795  1825 D HwPowerManagerService: setColorTemperatureAccordingToSetting new.
+12-17 19:33:42.136  1795  1825 D HwPowerManagerService: ColorTemperature read from old setting:128
+12-17 19:33:42.136  1795  1825 D HwPowerManagerService: setColorTemperature:128
+12-17 19:33:42.136  1795  1825 D HW_DISPLAY_EFFECT: hw_set_colortemperature: start++
+12-17 19:33:42.136  1795  1825 W HW_DISPLAY_EFFECT: Warning: hw_set_colortemperature is COLOR_TEMP_2_DIMENSION interface, not supported presently.
+12-17 19:33:42.136  1795  1825 D HW_DISPLAY_EFFECT: hw_set_colortemperature: end--
+12-17 19:33:42.136  1795  1825 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:42.137  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:42.137  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetScreenState: state=2
+12-17 19:33:42.137  1795  1825 D FpDataCollector: DisplayPowerState :ON
+12-17 19:33:42.146   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:33:42.148  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 442945383940115}
+12-17 19:33:42.150  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 442945383940115}
+12-17 19:33:42.152  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass idle 1 442945383940115
+12-17 19:33:42.156  1795  1795 I WindowManger_windowChange: oldFocusWindow: Window{f236b2e u0 android}, currentFocusWindow: Window{e71ca6c u0 com.android.phone}, currentFocusApp: AppWindowToken{844a0b2 token=Token{2fd6a14 ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}}}
+12-17 19:33:42.158  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:33:42.158  1795  1795 I WindowManger_keyguard: Started waking up...
+12-17 19:33:42.158  1795  1795 I WindowManger_keyguard: onStartedWakingUp()
+12-17 19:33:42.158  2852  2867 D KeyguardService: Caller checkPermission fail
+12-17 19:33:42.158  2852  2867 D KeyguardService: KGSvcCall onStartedWakingUp.
+12-17 19:33:42.158  2852  2867 W HwLockScreenReporter: report result = falsereport type:122 msg:
+12-17 19:33:42.159  2852  2867 D KeyguardViewMediator: onStartedWakingUp, seq = 481
+12-17 19:33:42.159  2852  2867 D KeyguardViewMediator: notifyStartedWakingUp
+12-17 19:33:42.159  2852  2867 W AppHandler: sendMessage 14
+12-17 19:33:42.159  1795  1825 I PowerManager_screenOn: DisplayPowerController Blocking screen on until initial contents have been drawn.
+12-17 19:33:42.160  1795  1795 I PowerManager_screenOn: PowerManagerNotifier Sending wake up broadcast.
+12-17 19:33:42.160  1795  1795 I SendBroadcastPermission: action:android.intent.action.SCREEN_ON, mPermissionType:0
+12-17 19:33:42.160  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:33:42.160  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:33:42.160  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:33:42.160  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:33:42.161  3180  3578 I ash     : 1795 binder call 2852
+12-17 19:33:42.161  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:33:42.162  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:33:42.162  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:33:42.162  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:33:42.163  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOff
+12-17 19:33:42.164  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:42.169  1795 16232 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:42.186  1795  1825 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:42.202  2852  2852 D KeyguardViewMediator: handleNotifyWakingUp
+12-17 19:33:42.202  2852  2852 I PhoneStatusBar: onStartedWakingUp
+12-17 19:33:42.203  2852  2852 V KeyguardUpdateMonitor: FingerStat Visible: false; Interactive: true; Switching: false; Bouncer:false; GoingToSleep: false Occluded: false; dreaming: false; Authenticated: false
+12-17 19:33:42.203  2852  2852 V KeyguardUpdateMonitor: KGSvcFp stopListeningForFingerprint(). 1
+12-17 19:33:42.203  1795  1825 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:42.204  1795 15982 I Security_fingerprint: FingerprintService cancelAuthentication
+12-17 19:33:42.204  2852  2852 W KeyguardUpdateMonitor: Fingerprint RunningStateChanged. 2
+12-17 19:33:42.204  1795  2326 V FingerprintService: stop client com.android.systemui
+12-17 19:33:42.204   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:2
+12-17 19:33:42.204   835   835 V fingerprintd: stopAuthentication()
+12-17 19:33:42.204   835   835 D fpc_fingerprint_hal: fpc_cancel
+12-17 19:33:42.205   835  2385 D fpc_fingerprint_hal: fpc poll irq interupt
+12-17 19:33:42.205   835  2385 D fpc_fingerprint_hal: wait_finger_down, took 27903 ms
+12-17 19:33:42.205   835  2385 E fpc_fingerprint_hal: capture_image failed -4
+12-17 19:33:42.205  2852  2852 D TimeKeeper: getTimeTickInfo:[mMillisUntilFinished:0, mHour:0, mMinute:0, mSecond:0]
+12-17 19:33:42.205  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:33:42.205  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:33:42.205   835  2385 I fpc_fingerprint_hal: timeForContinueCapture id:27903
+12-17 19:33:42.205  2852  2852 W HwLockScreenPanel: createLockScreenView when reset
+12-17 19:33:42.205  2852  2852 I HwLockScreenPanel: loadMagazine
+12-17 19:33:42.205   835  2385 E libteec : begin
+12-17 19:33:42.205   606  2379 E libteec : receive data len = 128
+12-17 19:33:42.206  2852  2852 V KeyguardStatusView: Enable transport text marquee
+12-17 19:33:42.209   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:42.209   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:42.209   606  2379 E libteec : send data return = 128
+12-17 19:33:42.209   835  2385 E libteec : receive data len = 128
+12-17 19:33:42.209   835  2385 E libteec : begin
+12-17 19:33:42.209   835  2385 E libteec : qsc_decode end
+12-17 19:33:42.209  2852  2852 W HwLockScreenPanel: Handle message: 14
+12-17 19:33:42.209   835  2385 E fpc_fingerprint_hal: do_identify failed -4
+12-17 19:33:42.209   835  2385 D fingerprintd: onError(5)
+12-17 19:33:42.210   835  2385 I fpc_fingerprint_hal: do_identify operation CANCELED
+12-17 19:33:42.210  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=c0000300 mask=ffffffff oldVal=80000300 newVal=c0000300 diff=40000000
+12-17 19:33:42.210  1795  3884 W FingerprintService: onError 1
+12-17 19:33:42.210   835  2385 D fpc_fingerprint_hal: do_identify took 21 ms, total:27924 wait:27903
+12-17 19:33:42.210  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:33:42.210   835  2385 E libteec : begin
+12-17 19:33:42.210  2852  2852 D BarTransitions.HwPhoneStatusBarView: MODE_OPAQUE -> MODE_TRANSLUCENT animate=false
+12-17 19:33:42.210   606  2379 E libteec : receive data len = 128
+12-17 19:33:42.210  2852  2852 D BarTransitions.HwPhoneStatusBarView: applyModeBackground oldMode=MODE_OPAQUE newMode=MODE_TRANSLUCENT animate=false
+12-17 19:33:42.211  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:33:42.211  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:33:42.211  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:33:42.211  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000300, SystemUiVisibility=0xc0000300
+12-17 19:33:42.212  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:33:42.212  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:33:42.217  1795  1825 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity},EmuiStyle=1,StatusBarColor=0x0,NavigationBarColor=0x0, mLastIsEmuiLightStyle=1
+12-17 19:33:42.219  1795  1825 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:42.219   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:42.219   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:42.220   606  2379 E libteec : send data return = 128

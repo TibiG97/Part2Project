@@ -1,0 +1,100 @@
+12-17 19:34:56.381  1046  2704 D audio_hw_spkr_prot: audio_extn_fbsp_get_parameters: Speaker protection disabled
+12-17 19:34:56.381  1046  2704 D audio_hw_extn: audio_extn_get_parameters: returns 
+12-17 19:34:56.381  1046  2704 V msm8916_platform: platform_get_parameters: exit: returns - 
+12-17 19:34:56.381  1046  2704 I audio_hw_primary: adev_get_parameters: exit: returns - 
+12-17 19:34:56.381  1046  2704 I hash_map_utils: key: 'VOICE_LVM_Enable' value: ''
+12-17 19:34:56.382  1795 15988 D Telecom : CallsManager: getActiveSubscription: 0: CSW.sD@EsU
+12-17 19:34:56.383  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [01000000040400002b000000514f454d484f4f4bf70308001b000000767369643d3239373831363036343b63616c6c5f73746174653d31]
+12-17 19:34:56.383  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 52 bytes data for SUB0
+12-17 19:34:56.383  3382  3399 D QcrilMsgTunnelSocket: AudioState data received: vsid=297816064;call_state=1
+12-17 19:34:56.383  1046  1046 I APM_AudioPolicyManager: startOutput() output 13, stream 0, session 3377
+12-17 19:34:56.383  3382  3399 D QcrilMsgTunnelSocket: Broadcasting intent ACTION_AUDIO_STATE_CHANGED
+12-17 19:34:56.383  3382  3399 I SendBroadcastPermission: action:qualcomm.intent.action.ACTION_AUDIO_STATE_CHANGED, mPermissionType:0
+12-17 19:34:56.383  1046  1046 V APM_AudioPolicyManager: setBeaconMute(1) mBeaconMuteRefCount=1 mBeaconPlayingRefCount=0
+12-17 19:34:56.383  1046  1046 I APM_AudioPolicyManager: getNewOutputDevice() selected device 1
+12-17 19:34:56.383  1046  1046 I APM_AudioPolicyManager: setOutputDevice() device 0x0001 delayMs 0 force 1
+12-17 19:34:56.383  1046  1046 V APM_AudioPolicyManager: setOutputDevice() prevDevice 0x0001
+12-17 19:34:56.383  1046  1046 I APM_AudioPolicyManager: setOutputDevice() changing to device 0x0001 , muteWaitMs 0
+12-17 19:34:56.384  3180  3332 D AudioState: auido type:out state:start pid:1795 uid:1000
+12-17 19:34:56.384  3180  3332 I PGServer: report state:2 event type:1 pid:1795 uid:1000 pkg:null to pid: 1795
+12-17 19:34:56.384  1795  3111 D PowerManagerService: acquire lock=247092602, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:34:56.384  1795  3111 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:56.384  1795 16232 D PowerManagerService: acquire lock=114996894, flags=0x1, tag="AudioMix", name=audioserver, ws=null, uid=1041, pid=0
+12-17 19:34:56.385  1795 16232 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:56.385  1046  1125 D audio_hw_primary: adev_set_parameters: enter: srs_cfg:trumedia_enable=1
+12-17 19:34:56.385  1046  1125 I Huawei_audio_cust: huawei_audio huawei_choose_HandsFree_device_incall_forHWtest: test Type =4
+12-17 19:34:56.385  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [01000000040400002b000000514f454d484f4f4bf70308001b000000767369643d3239373831363036343b63616c6c5f73746174653d31]
+12-17 19:34:56.385  1046  1125 I Huawei_audio_cust: huawei_audio huawei_choose_Handset_device_incall_forHWtest: test Type =4
+12-17 19:34:56.385  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 52 bytes data for SUB0
+12-17 19:34:56.386  1046  1125 I Huawei_audio_cust: get_spk_pa_type: pa is max98925
+12-17 19:34:56.386  1046  1125 I Huawei_audio_cust: huawei_common_set_parameters: exit with code(0)
+12-17 19:34:56.386  1046  1125 V Huawei_audio_cust: huawei_cust_set_parameters: exit with code(0)
+12-17 19:34:56.386  3382  3399 D QcrilMsgTunnelSocket: AudioState data received: vsid=297816064;call_state=1
+12-17 19:34:56.386  3382  3399 D QcrilMsgTunnelSocket: Broadcasting intent ACTION_AUDIO_STATE_CHANGED
+12-17 19:34:56.386  1046  1125 V msm8916_platform: platform_set_parameters: enter: - srs_cfg:trumedia_enable=1
+12-17 19:34:56.386  1046  1125 V msm8916_platform: platform_set_parameters: exit with code(0)
+12-17 19:34:56.386  1046  1125 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:34:56.386  3382  3399 I SendBroadcastPermission: action:qualcomm.intent.action.ACTION_AUDIO_STATE_CHANGED, mPermissionType:0
+12-17 19:34:56.386  1046  1125 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:34:56.386  1046  1125 V audio_hw_primary: adev_set_parameters: exit with code(0)
+12-17 19:34:56.386  1046  1125 D audio_hw_primary: out_set_parameters: enter: usecase(1: low-latency-playback) kvpairs: routing=1
+12-17 19:34:56.386  1046  1125 D voice_extn: update_calls: enter:
+12-17 19:34:56.386  1046  1125 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10c01000
+12-17 19:34:56.386  1046  1125 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10dc1000
+12-17 19:34:56.386  1046  1125 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10c02000
+12-17 19:34:56.386  1046  1125 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10803000
+12-17 19:34:56.386  1046  1125 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10002000
+12-17 19:34:56.386  1046  1125 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=11c05000
+12-17 19:34:56.386  1046  1125 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=11dc5000
+12-17 19:34:56.386  1046  1125 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:34:56.386  1046  1125 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:34:56.386  1046  1125 V audio_hw_primary: out_set_parameters: exit: code(0)
+12-17 19:34:56.386  1046  1046 I APM_AudioPolicyManager: setOutputDevice() createAudioPatch returned 0 patchHandle 1676 num_sources 1 num_sinks 1
+12-17 19:34:56.386  1046  1046 I APM_AudioPolicyManager: checkAndSetVolume:setVoiceVolume volume 1.000000, delay 0
+12-17 19:34:56.387  1046  1052 V msm8916_platform: Setting voice volume index: 0
+12-17 19:34:56.387  1046  1046 V APM_AudioPolicyManager: checkAndSetVolume() cannot set stream 6 volume with force use = 0 for comm
+12-17 19:34:56.387  1046  1046 V APM_AudioPolicyManager: checkAndSetVolume() stream 9 muted count 1
+12-17 19:34:56.387  1046  1046 I APM_AudioPolicyManager: checkAndSetVolume:setVoiceVolume volume 1.000000, delay 0
+12-17 19:34:56.387  1046  1052 V msm8916_platform: Setting voice volume index: 0
+12-17 19:34:56.388  1046  1125 D audio_hw_primary: start_output_stream: enter: stream(0xf14f0600)usecase(1: low-latency-playback) devices(0x1)
+12-17 19:34:56.388   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:34:56.388  1046  1125 D audio_hw_primary: select_devices for use case (low-latency-playback)
+12-17 19:34:56.388  1046  1125 V msm8916_platform: platform_get_native_support:napb: ui Prop enabled(0) version(0)
+12-17 19:34:56.388  1046  1125 V msm8916_platform: platform_get_output_snd_device: enter: output devices(0x1)
+12-17 19:34:56.389  1046  1125 D msm8916_platform: platform_get_output_snd_device: enter: output devices(0x1) mode 2, bt_wb_speech_enabled 0
+12-17 19:34:56.389  1046  1125 I Huawei_audio_cust: huawei_common_get_output_device_FM: huawei_audio now is incall or voip mode ,not choose FM device
+12-17 19:34:56.389  1046  1125 V msm8916_platform: platform_get_output_snd_device: exit: snd_device(voice-handset)
+12-17 19:34:56.389  1046  1125 D audio_hw_primary: select_devices: out_snd_device(15: voice-handset) in_snd_device(0: )
+12-17 19:34:56.389  1046  1125 V msm8916_platform: platform_get_backend_index:napb: backend port - 0 device - 15 
+12-17 19:34:56.389  1046  1125 I msm8916_platform: platform_check_and_set_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 1 device (voice-handset)
+12-17 19:34:56.389  1046  1125 D msm8916_platform: platform_can_split_snd_device: snd_device(15) num devices(1) new_snd_devices(51)
+12-17 19:34:56.389  1046  1125 I msm8916_platform: platform_check_and_set_codec_backend_cfg: becf: new_snd_devices[0] is voice-handset
+12-17 19:34:56.389  1046  1125 V msm8916_platform: platform_get_native_support:napb: ui Prop enabled(0) version(0)
+12-17 19:34:56.389  1046  1125 V msm8916_platform: platform_get_backend_index:napb: backend port - 0 device - 15 
+12-17 19:34:56.389  1046  1125 I msm8916_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 current bit width: 16 sample rate: 48000 channels: 2
+12-17 19:34:56.389  1046  1125 W msm8916_platform: platform_check_codec_backend_cfg:becf: afe:Use default bw and sr for voice/voip calls 
+12-17 19:34:56.389  1046  1125 V msm8916_platform: platform_get_native_support:napb: ui Prop enabled(0) version(0)
+12-17 19:34:56.389  1046  1125 V audio_hw_primary: audio_is_true_native_stream_active:napb: not in true mode or non hdphones device
+12-17 19:34:56.389  1046  1125 D msm8916_platform: platform_check_codec_backend_cfg:becf: afe: playback on non-44.1-support device Configure afe to default Sample Rate(48k)
+12-17 19:34:56.389  1046  1125 D msm8916_platform: platform_check_codec_backend_cfg:becf: afe: only 48KHZ sample rate is supported Configure afe to default Sample Rate(48k)
+12-17 19:34:56.389  1046  1125 I msm8916_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 updated bit width: 16 and sample rate: 48000
+12-17 19:34:56.389  1046  1125 D audio_hw_primary: check_usecases_codec_backend:becf: force routing 0
+12-17 19:34:56.389  1046  1125 V msm8916_platform: platform_check_backends_match: snd_device1 = voice-handset, snd_device2 = 
+12-17 19:34:56.389  1046  1125 E msm8916_platform: platform_check_backends_match: Invalid snd_device = 
+12-17 19:34:56.389  1046  1125 D audio_hw_primary: check_usecases_codec_backend:becf: (40) check_usecases curr device: voice-handset, usecase device: backends match 0
+12-17 19:34:56.389  1046  1125 D audio_hw_primary: check_usecases_codec_backend:becf: check_usecases num.of Usecases to switch 0
+12-17 19:34:56.389  1046  1125 D hardware_info: hw_info_append_hw_type : device_name = voice-handset
+12-17 19:34:56.389  1046  1125 D msm8916_platform: platform_can_split_snd_device: snd_device(15) num devices(0) new_snd_devices(-220819456)
+12-17 19:34:56.389  1046  1125 D audio_hw_primary: enable_snd_device: snd_device(15: voice-handset)
+12-17 19:34:56.389  1046  1125 I soundtrigger: audio_extn_sound_trigger_update_device_status: device 0xf of type 0 for Event 1, with Raise=0
+12-17 19:34:56.389  1046  1125 D aud_dev_arbi: acquireOneDevice: device owner for device 1 is 1
+12-17 19:34:56.389  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:34:56.389  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:34:56.390  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: true
+12-17 19:34:56.391  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:34:56.391  1795  3975 E LocSvc_libulp: I/int ulp_msg_process_system_update(const UlpSystemEvent): systemEvent:0 
+12-17 19:34:56.391  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 0 len = 0, 4096
+12-17 19:34:56.391  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:34:56.392  1795  3139 D PowerManagerService: acquire lock=247092602, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:34:56.392  1795  3139 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: nl80211: Event message available

@@ -1,0 +1,100 @@
+12-17 19:32:05.852  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:05.862   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:32:05.862   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:32:05.862   606  2379 E libteec : send data return = 128
+12-17 19:32:05.862   835  2385 E libteec : receive data len = 128
+12-17 19:32:05.862   835  2385 E libteec : begin
+12-17 19:32:05.862   835  2385 E libteec : qsc_decode end
+12-17 19:32:05.862   835  2385 D fpc_fingerprint_hal: workerFunction STATE_NAVIGATION
+12-17 19:32:05.863   835  2385 E libteec : begin
+12-17 19:32:05.863   606  2379 E libteec : receive data len = 128
+12-17 19:32:05.867  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:05.875   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:32:05.875   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:32:05.875   606  2379 E libteec : send data return = 128
+12-17 19:32:05.875   835  2385 E libteec : receive data len = 128
+12-17 19:32:05.875   835  2385 E libteec : begin
+12-17 19:32:05.875   835  2385 E libteec : qsc_decode end
+12-17 19:32:05.883  1795  1825 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:05.898  1795  1825 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:05.916  1795  1825 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:05.932  1795  1825 I ActivityManager_activity: completedResumed: ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}, launchTrack: outofsleep resumeTopComplete
+12-17 19:32:05.936  1795  1825 I WindowManger_keyguard: Screen turned on for keyguard
+12-17 19:32:05.936  1795  1825 I PowerManager_screenOn: KeyguardServiceDelegate  onScreenTurnedOn(showListener = com.android.server.policy.PhoneWindowManager$3@bf53b21)
+12-17 19:32:05.937  2852  2866 D KeyguardService: Caller checkPermission fail
+12-17 19:32:05.937  2852  2866 D KeyguardService: KGSvcCall onScreenTurningOn.
+12-17 19:32:05.937  2852  2866 D KeyguardViewMediator: notifyScreenOn
+12-17 19:32:05.937  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurningOn
+12-17 19:32:05.937  2852  2852 I PhoneStatusBar: onScreenTurningOn
+12-17 19:32:05.937  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOn End with : 119
+12-17 19:32:05.938  1795 16232 I WindowManger_keyguard: **** SHOWN CALLED ****
+12-17 19:32:05.938  1795 16232 D WindowManager: mKeyguardDelegate.ShowListener.onDrawn.
+12-17 19:32:05.938  1795 16232 I WindowManger_keyguard: hideScrim()
+12-17 19:32:05.942  1795  2671 D WifiStateMachine:  ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123039113/442862305 1 0
+12-17 19:32:05.941  3608  3608 D InCall  : InCallActivity - onStart()...
+12-17 19:32:05.942  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123039114/442862305 1 0
+12-17 19:32:05.942  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SCREEN_STATE_CHANGED  rt=123039114/442862305 1 0
+12-17 19:32:05.942  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SCREEN_STATE_CHANGED  rt=123039114/442862305 1 0
+12-17 19:32:05.942  1795  2671 D WifiStateMachine:  SupplicantStartedState CMD_SCREEN_STATE_CHANGED  rt=123039114/442862305 1 0
+12-17 19:32:05.942  1795  2671 D WifiStateMachine:  DefaultState CMD_SCREEN_STATE_CHANGED  rt=123039114/442862306 1 0
+12-17 19:32:05.943  1795  2671 D WifiStateMachine: handleScreenStateChanged: allow send scan results broadcast.
+12-17 19:32:05.944  1795  2671 W AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConnectivityManager$3@bdcaf7b
+12-17 19:32:05.945  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:32:05.945  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 2, mHwSingleScanCounter: 0
+12-17 19:32:05.945  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 0, mHwSingleScanCounter: 1
+12-17 19:32:05.945  1795  2671 E WifiConnectivityManager: isWifiScanSpecialChannels is false,mWifiState : 1
+12-17 19:32:05.946  1795  2671 I AlarmManager: set(null) : type=2 triggerAtTime=442882310 win=0 tElapsed=442882310 maxElapsed=442882310 interval=0 flags=0x9
+12-17 19:32:05.948  1795  1809 I PowerManager_screenOn: finishKeyguardDrawn -> waitForAllWindowsDrawn
+12-17 19:32:05.948  1795  1809 I PowerManager_screenOn: waitForAllWindowsDrawn  cover is open or null
+12-17 19:32:05.949  1795  2680 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SCAN TYPE=ONLY'
+12-17 19:32:05.949  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY'
+12-17 19:32:05.949  5215  5215 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-17 19:32:05.949  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:32:05.949  5215  5215 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-17 19:32:05.949  5215  5215 D wpa_supplicant: OKC-Native: Append OKC IE!
+12-17 19:32:05.949  1795  2671 D WifiStateMachine:  ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123039121/442862312 1 0
+12-17 19:32:05.949  5215  5215 D wpa_supplicant: OKC-Native: Append done!
+12-17 19:32:05.949  5215  5215 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7fb502f3c0
+12-17 19:32:05.949  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123039121/442862313 1 0
+12-17 19:32:05.949  5215  5215 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-17 19:32:05.949  5215  5215 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7fb502f3c0 after 0.000073 second wait
+12-17 19:32:05.949  5215  5215 D wpa_supplicant: wlan0: nl80211: scan request
+12-17 19:32:05.949  5215  5215 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-17 19:32:05.949  5215  5215 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=67): 7f 05 00 00 0a 02 01 dd 0f 00 e0 fc 80 00 00 00 01 00 00 00 00 00 00 00 dd 29 00 e0 fc 80 00 00 ...
+12-17 19:32:05.950  1795  2680 I AlarmManager: set(null) : type=2 triggerAtTime=442877313 win=11250 tElapsed=442877313 maxElapsed=442888563 interval=0 flags=0x8
+12-17 19:32:05.950  1795  1825 D HwNormalizedAutomaticBrightnessController: set power status:mPowerStatus=false,powerStatus=true
+12-17 19:32:05.950  5215  5215 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-17 19:32:05.950  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:32:05.950  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:32:05.950  5215  5215 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+12-17 19:32:05.950  5215  5215 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-17 19:32:05.950  5215  5215 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-17 19:32:05.950  5215  5215 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000198 seconds
+12-17 19:32:05.950  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:32:05.950  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=24
+12-17 19:32:05.950  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_ON mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:32:05.951  1795  1795 D HwConnectivityService: CtrlSocket receive screen on intent!
+12-17 19:32:05.951  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:32:05.951  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus
+12-17 19:32:05.951  1795  1795 D HwConnectivityService: pid=1000, cmd=100, param=0
+12-17 19:32:05.951  1795  1795 D HwConnectivityService: mFilterMsgFlag: 0,msg.arg1: 3
+12-17 19:32:05.951  1795 15987 D ActivityManager: setExcludeFromRecents:pkgName=null
+12-17 19:32:05.951  1795  1825 D Sensors : batch called handle:3 sample_ns:300000000 latency_ns:0
+12-17 19:32:05.951  1795  1825 D Sensors : activate called handle:3 enable:1
+12-17 19:32:05.951  1795  1825 D Sensors : bh1745-light calling driver setDelay 300 ms
+12-17 19:32:05.951  1795  1795 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 1000 cmd = 100 param = 0 ret = 0
+12-17 19:32:05.951  1795  2691 D HwConnectivityService: handleFilterMsg action: 3mFilterMsgFlag3
+12-17 19:32:05.951  1795  1825 D Sensors : bh1745-light calling driver enable
+12-17 19:32:05.951  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus reset
+12-17 19:32:05.951  1795  1825 W LightSensor: LightSensor, enable, 283: en=1
+12-17 19:32:05.951  1795  1825 W LightSensor: LightSensor, enable, 284: flags=1
+12-17 19:32:05.951  1795  2691 D HwConnectivityService: [tiger]setBastetFilterInfo action 3pid 1000
+12-17 19:32:05.951  1795  1825 W LightSensor: LightSensor, enable, 285: mEnabled=0
+12-17 19:32:05.951  1795  2691 D HwConnectivityService: stopFilter m_filterIsStarted:false
+12-17 19:32:05.952  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:05.952  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:32:05.952  1795  5219 E WifiMonitor: WifiMonitor:wlan0 cnt=30976 dispatchEvent: CTRL-EVENT-SCAN-STARTED 
+12-17 19:32:05.953  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:32:05.953  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:32:05.955  1795  1825 D AutomaticBrightnessController: Enable LightSensor at time:mLightSensorEnableTime=123039127,mLightSensorEnableElapsedTimeNanos=442862314158527
+12-17 19:32:05.955  1795  1825 D AutomaticBrightnessController: mAmbientLuxValid= false,sensor is not ready

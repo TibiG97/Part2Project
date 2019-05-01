@@ -1,0 +1,100 @@
+12-17 19:34:56.849  1046  9753 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 1, device 0x0002, index 0
+12-17 19:34:56.850  2852  3361 V AudioManager: getDevicesForStream  streamType: 3
+12-17 19:34:56.851  2852  3361 I vol.VolumeDialogControl: onVolumeChangedW stream = 3, flags = 0
+12-17 19:34:56.851  2852  3361 V AudioManager: getLastAudibleStreamVolume  treamType: 3
+12-17 19:34:56.852  1795  3364 D Telecom : TelecomServiceImpl: isInCall callState is 0: CSW.sD->ICTP.r->ICTP.cUTP->CAMSM.pM_3002@EsU_2_0_0
+12-17 19:34:56.852  3180  3578 I ash     :  ignore audio app: com.tencent.mm stop delta time:29805564
+12-17 19:34:56.852  3180  3578 I ash     : com.tencent.mm { running duration=116071 } transition to: doze reason:
+12-17 19:34:56.852  3180  3578 I ash     : doze package: com.tencent.mm, visible: false
+12-17 19:34:56.852  2852  3361 I vol.Events: writeEvent level_changed STREAM_MUSIC 2
+12-17 19:34:56.852  2852  3361 V AudioManager: getDevicesForStream  streamType: 3
+12-17 19:34:56.853  2852  3361 I vol.VolumeDialogControl: C onStateChanged state = {STREAM_VOICE_CALL:5[1..5],STREAM_SYSTEM:7[0..7] [MUTED],STREAM_RING:7[0..7] [MUTED],STREAM_MUSIC:2[0..15],STREAM_ALARM:5[0..7],STREAM_NOTIFICATION:7[0..7] [MUTED],STREAM_BLUETOOTH_SCO:7[0..15],STREAM_SYSTEM_ENFORCED:7[0..7],STREAM_DTMF:15[0..15] [MUTED],STREAM_TTS:2[0..15],ringerModeExternal:0,ringerModeInternal:0,zenMode:0,effectsSuppressor:null,effectsSuppressorName:null,activeStream:-1}
+12-17 19:34:56.853  1795  3364 I SendBroadcastPermission: action:android.media.VOLUME_CHANGED_ACTION, mPermissionType:0
+12-17 19:34:56.853  2852  3361 I vol.VolumeDialogControl: C onStateChanged state = {STREAM_VOICE_CALL:5[1..5],STREAM_SYSTEM:7[0..7] [MUTED],STREAM_RING:7[0..7] [MUTED],STREAM_MUSIC:2[0..15],STREAM_ALARM:5[0..7],STREAM_NOTIFICATION:7[0..7] [MUTED],STREAM_BLUETOOTH_SCO:7[0..15],STREAM_SYSTEM_ENFORCED:7[0..7],STREAM_DTMF:15[0..15] [MUTED],STREAM_TTS:2[0..15],ringerModeExternal:0,ringerModeInternal:0,zenMode:0,effectsSuppressor:null,effectsSuppressorName:null,activeStream:-1}
+12-17 19:34:56.853  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onStateChanged
+12-17 19:34:56.853  2852  3361 I vol.VolumeDialogControl: onVolumeChangedW stream = 4, flags = 0
+12-17 19:34:56.853  2852  3361 V AudioManager: getLastAudibleStreamVolume  treamType: 4
+12-17 19:34:56.853  1795  3364 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.854  1795  3364 I SendBroadcastPermission: action:android.media.VOLUME_CHANGED_ACTION, mPermissionType:0
+12-17 19:34:56.854  1795  3364 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.855  1795  3364 I AudioManager: setMode mode:0
+12-17 19:34:56.855  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onStateChanged
+12-17 19:34:56.855  1795  3360 I Telecom : CallAudioRouteStateMachine: Message received: SWITCH_FOCUS=4001, arg1=1: CSW.sD->ICTP.r->ICTP.cUTP->CAMSM.pM_3002->CARSM.pM_SWITCH_FOCUS@EsU_2_0_0_2
+12-17 19:34:56.855  2852  3361 I vol.VolumeDialogControl: onVolumeChangedW stream = 5, flags = 0
+12-17 19:34:56.855  2852  3361 V AudioManager: getLastAudibleStreamVolume  treamType: 5
+12-17 19:34:56.856  1795  3360 D Telecom : BluetoothManager: isBluetoothAvailable()...: CSW.sD->ICTP.r->ICTP.cUTP->CAMSM.pM_3002->CARSM.pM_SWITCH_FOCUS@EsU_2_0_0_2
+12-17 19:34:56.856  1795  3360 D Telecom : BluetoothManager:   ==> false: CSW.sD->ICTP.r->ICTP.cUTP->CAMSM.pM_3002->CARSM.pM_SWITCH_FOCUS@EsU_2_0_0_2
+12-17 19:34:56.856  1795  3360 I Telecom : Telecom: Non-call EVENT: MUTE, off: CSW.sD->ICTP.r->ICTP.cUTP->CAMSM.pM_3002->CARSM.pM_SWITCH_FOCUS@EsU_2_0_0_2
+12-17 19:34:56.856  1795  3360 V AudioManager: isMicrophoneMute... 
+12-17 19:34:56.856  1046  1046 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 8, device 0x0001, index 0
+12-17 19:34:56.856  1046  1467 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 8, device 0x0002, index 0
+12-17 19:34:56.857  1795  3360 I Telecom : Telecom: Non-call EVENT: AUDIO_ROUTE, Leaving state ActiveEarpieceRoute: CSW.sD->ICTP.r->ICTP.cUTP->CAMSM.pM_3002->CARSM.pM_SWITCH_FOCUS@EsU_2_0_0_2
+12-17 19:34:56.857  1795  3360 I Telecom : Telecom: Non-call EVENT: AUDIO_ROUTE, Entering state QuiescentEarpieceRoute: CSW.sD->ICTP.r->ICTP.cUTP->CAMSM.pM_3002->CARSM.pM_SWITCH_FOCUS@EsU_2_0_0_2
+12-17 19:34:56.857  1046  2704 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 8, device 0x0004, index 0
+12-17 19:34:56.857  1046 26554 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 8, device 0x40000000, index 0
+12-17 19:34:56.859  2852  3361 I vol.VolumeDialogControl: onVolumeChangedW stream = 7, flags = 0
+12-17 19:34:56.859  2852  3361 V AudioManager: getLastAudibleStreamVolume  treamType: 7
+12-17 19:34:56.860  2852  3361 I vol.VolumeDialogControl: onVolumeChangedW stream = 8, flags = 0
+12-17 19:34:56.860  2852  3361 V AudioManager: getLastAudibleStreamVolume  treamType: 8
+12-17 19:34:56.861  2852  3361 I vol.VolumeDialogControl: onVolumeChangedW stream = 2, flags = 0
+12-17 19:34:56.861  2852  3361 V AudioManager: getLastAudibleStreamVolume  treamType: 2
+12-17 19:34:56.864  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:34:56.868  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:34:56.869  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 0 mComponentName :ComponentInfo{com.android.contacts/com.android.contacts.activities.DialtactsActivity}
+12-17 19:34:56.869  3879  4071 I HwLauncher: BadgeContentObserver newBadgeNumber:0,oldBadgeNumber:0 mComponentName : ComponentInfo{com.android.contacts/com.android.contacts.activities.DialtactsActivity}
+12-17 19:34:56.883  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -0.369723 Y: 3.760031 Z: 7.603089  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:56.884  1795  1809 I WindowManager: onProposedRotationChanged, rotation=0
+12-17 19:34:56.884  1795  1809 I WindowManager: MyOrientationListener: updateRotation.
+12-17 19:34:56.884  1795  1809 I WindowManager: updateRotationUnchecked(alwaysSendConfiguration=false)
+12-17 19:34:56.884  1795  1809 I WindowManager: rotationForOrientationLw(orient=1, last=0); user=0 
+12-17 19:34:56.884  1795  1809 I WindowManager: Application requested orientation 1, got rotation 0 which has compatible metrics
+12-17 19:34:56.885  1795  1809 I WindowManger_keyguard: Setting mHideLockScreen to true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:34:56.903  3218  3517 I QImsService: ImsSenderRxr : Response data: [12, 13, -1, -1, -1, -1, 16, 3, 24, -37, 1, 32, 0, 13, -1, 0, 0, 0, 21, -1, -1, 0, 0, 29, -1, 0, 0, 0, 37, -1, -1, 0, 0, 45, -1, 0, 0, 0, 53, -1, -1, 0, 0, 61, -1, 0, 0, 0, 69, -1, -1, 0, 0][SUB0]
+12-17 19:34:56.903  3218  3517 I QImsService: ImsSenderRxr :  Tag -1 3 219 0[SUB0]
+12-17 19:34:56.903  3218  3517 I QImsService: ImsSenderRxr : [UNSL]< UNSOL_SSAC_CHANGED org.codeaurora.ims.ImsQmiIF$SsacInfo@291ecd[SUB0]
+12-17 19:34:56.903  3218  3218 I QImsService: ImsServiceSubHandler : Message received: what = 27
+12-17 19:34:56.903  3218  3218 I QImsService: ImsServiceSub : handleSsac voice = 255
+12-17 19:34:56.903  3218  3218 I QImsService: ImsServiceSub : broadcastVopsSsacIntent Vops = true , Ssac = false
+12-17 19:34:56.903  3218  3218 I SendBroadcastPermission: action:org.codeaurora.VOIP_VOPS_SSAC_STATUS, mPermissionType:0
+12-17 19:34:56.904  1795  1805 W ActivityManager: Sending non-protected broadcast org.codeaurora.VOIP_VOPS_SSAC_STATUS from system 3218:com.android.phone/1001 pkg com.android.phone
+12-17 19:34:56.920  1795  1795 D Sensors : activate called handle:2 enable:0
+12-17 19:34:56.920  1795  1795 D Sensors : pa2240-proximity calling driver disable
+12-17 19:34:56.921  1795  1795 W huawei_ProximitySensor_CPP_Test: ProximitySensor, enable, 247: en=0
+12-17 19:34:56.921  1795  1795 W huawei_ProximitySensor_CPP_Test: ProximitySensor, enable, 248: flags=0
+12-17 19:34:56.921  1795  1795 W huawei_ProximitySensor_CPP_Test: ProximitySensor, enable, 249: mEnabled=1
+12-17 19:34:56.928  3180  3180 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:34:56.928  3180  3180 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:34:56.943  1795  2701 I HwAudioService: isAdjustVolumeEnable,mEnableAdjustVolume:true
+12-17 19:34:56.944  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 0.206860 Y: 3.523734 Z: 7.776269  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:56.962   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:34:56.962   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:34:56.964   802   802 E Thermal-daemon: [pa_0] temp_new :27  temp_old :28
+12-17 19:34:56.964   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:34:56.964   802   802 E Thermal-daemon: Report temperature: [pa_0] temp :27  report_threshold:1
+12-17 19:34:56.989  1046  1125 D audio_hw_primary: out_standby: enter: stream (0xf14f0600) usecase(1: low-latency-playback)
+12-17 19:34:56.996  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:34:56.996  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:34:57.007  1795  1795 D MotionRecognition: stopInComingMotionsReco ...
+12-17 19:34:57.007  1795  1795 D MotionDetectionManager: stopMotionAppsRecoAsUser motionApps: 101
+12-17 19:34:57.007  1795  1795 D MotionDetectionManager: stopMotionAppsRecoAsUser not recognition motionApps 101
+12-17 19:34:57.007  1795  1795 D MotionDetectionManager: stopMotionAppsRecoAsUser motionApps: 201
+12-17 19:34:57.007  1795  1795 D MotionDetectionManager: stopMotionAppsRecoAsUser not recognition motionApps 201
+12-17 19:34:57.007  1795  1795 D MotionDetectionManager: stopMotionAppsRecoAsUser motionApps: 301
+12-17 19:34:57.007  1795  1795 D MotionDetectionManager: stopMotionAppsRecoAsUser not recognition motionApps 301
+12-17 19:34:57.007  1795  1795 D MotionDetectionManager: stopMotionAppsRecoAsUser motionApps: 801
+12-17 19:34:57.007  1795  1795 D MotionDetectionManager: stopMotionAppsRecoAsUser not recognition motionApps 801
+12-17 19:34:57.007  1795  1795 D MotionRecognition: resumePhoneVolume mVoiceStreamType: 2  mOrgVolume: 0
+12-17 19:34:57.007  1795  1795 D MotionDetectionManager: stopMotionAppsRecoAsUser motionApps: 305
+12-17 19:34:57.007  1795  1795 D MotionDetectionManager: stopMotionAppsRecoAsUser not recognition motionApps 305
+12-17 19:34:57.007  1795  1795 D MotionDetectionManager: stopMotionAppsRecoAsUser motionApps: 304
+12-17 19:34:57.007  1795  1795 D MotionDetectionManager: stopMotionAppsRecoAsUser not recognition motionApps 304
+12-17 19:34:57.007  1795  1795 I PowerManager_vibrator: Canceling vibration.
+12-17 19:34:57.013  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:34:57.017  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:34:57.090  1046  1125 V audio_hw_primary: stop_output_stream: enter: usecase(1: low-latency-playback)
+12-17 19:34:57.090  1046  1125 V audio_hw_primary: disable_audio_route: enter: usecase(1)
+12-17 19:34:57.090  1046  1125 D audio_hw_primary: disable_audio_route: reset and update mixer path: low-latency-playback
+12-17 19:34:57.092  1046  1125 D soundtrigger: audio_extn_sound_trigger_update_stream_status: uc_id 1 of type 0 for Event 2, with Raise=0
+12-17 19:34:57.092  1046  1125 V audio_hw_primary: disable_audio_route: exit
+12-17 19:34:57.092  1046  1125 D hardware_info: hw_info_append_hw_type : device_name = handset
+12-17 19:34:57.092  1046  1125 D audio_hw_primary: disable_snd_device: snd_device(1: handset)

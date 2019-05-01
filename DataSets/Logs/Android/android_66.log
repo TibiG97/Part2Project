@@ -1,0 +1,100 @@
+12-17 19:31:50.563  1795  2396 I WindowManger_keyguard: **** SHOWN CALLED ****
+12-17 19:31:50.563  1795  2396 D WindowManager: mKeyguardDelegate.ShowListener.onDrawn.
+12-17 19:31:50.564  1795  2396 I WindowManger_keyguard: hideScrim()
+12-17 19:31:50.567  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:31:50.568  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:31:50.568  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_ON mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:31:50.569  1795  1795 D HwConnectivityService: CtrlSocket receive screen on intent!
+12-17 19:31:50.569  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus
+12-17 19:31:50.569  1795  1795 D HwConnectivityService: pid=1000, cmd=100, param=0
+12-17 19:31:50.569  1795  2671 D WifiStateMachine:  ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123023741/442846932 1 0
+12-17 19:31:50.569  1795  1795 D HwConnectivityService: mFilterMsgFlag: 0,msg.arg1: 3
+12-17 19:31:50.569  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123023741/442846932 1 0
+12-17 19:31:50.569  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:31:50.569  1795  1795 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 1000 cmd = 100 param = 0 ret = 0
+12-17 19:31:50.569  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus reset
+12-17 19:31:50.569  1795  2691 D HwConnectivityService: handleFilterMsg action: 3mFilterMsgFlag3
+12-17 19:31:50.569  1795  2691 D HwConnectivityService: [tiger]setBastetFilterInfo action 3pid 1000
+12-17 19:31:50.569  1795  2691 D HwConnectivityService: stopFilter m_filterIsStarted:false
+12-17 19:31:50.570  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:31:50.571  1795  1825 D HwNormalizedAutomaticBrightnessController: set power status:mPowerStatus=false,powerStatus=true
+12-17 19:31:50.572  1795  1825 D Sensors : batch called handle:3 sample_ns:300000000 latency_ns:0
+12-17 19:31:50.572  1795  1825 D Sensors : activate called handle:3 enable:1
+12-17 19:31:50.572  1795  1825 D Sensors : bh1745-light calling driver setDelay 300 ms
+12-17 19:31:50.572  1795  1825 D Sensors : bh1745-light calling driver enable
+12-17 19:31:50.573  1795  1825 W LightSensor: LightSensor, enable, 283: en=1
+12-17 19:31:50.573  1795  1825 W LightSensor: LightSensor, enable, 284: flags=1
+12-17 19:31:50.573  1795  1825 W LightSensor: LightSensor, enable, 285: mEnabled=0
+12-17 19:31:50.576  1795  1795 I NotificationManager: mIntentReceiver-ACTION_SCREEN_ON
+12-17 19:31:50.576  1795  1825 D AutomaticBrightnessController: Enable LightSensor at time:mLightSensorEnableTime=123023748,mLightSensorEnableElapsedTimeNanos=442846935086710
+12-17 19:31:50.577  1795  1825 D AutomaticBrightnessController: mAmbientLuxValid= false,sensor is not ready
+12-17 19:31:50.577  1795  1825 D DisplayPowerController: mode change : autoBrightnessEnabled=true,adjustment=0.0,state=2
+12-17 19:31:50.577  1795  1825 D HwNormalizedAutomaticBrightnessController: mWakeupFromSleep= true,currentTime=123023749,mLightSensorEnableTime=123023743
+12-17 19:31:50.577  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = true,ledNotification == null?true
+12-17 19:31:50.577  1795  1825 D DisplayPowerController: Animating brightness: target=-1, rate=0
+12-17 19:31:50.577  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:31:50.577  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:31:50.577  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:31:50.577  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:31:50.577  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:31:50.577  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=0
+12-17 19:31:50.577  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:31:50.577  1795  2750 D PowerManagerService: Setting HAL auto-suspend mode to false
+12-17 19:31:50.577  1795  2750 D PowerManagerService: Setting HAL interactive mode to true
+12-17 19:31:50.577  1795  2750 I QTI PowerHAL: Got set_interactive hint
+12-17 19:31:50.578  3608  3608 D InCall  : InCallActivity - onStart()...
+12-17 19:31:50.578  1795  2750 D libfingersense_wrapper: Calling fingersense_on_resume()
+12-17 19:31:50.579  1795  2750 D libfingersense_wrapper: fingersense_on_resume() finished
+12-17 19:31:50.579   836  2387 I knuckle_sensor: Sending SAM_ENABLE to fs_data
+12-17 19:31:50.579   612   612 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f9a25b400
+12-17 19:31:50.579   612   612 I SDM     : HWCDisplay::SetPowerMode: display = 0, mode = 2
+12-17 19:31:50.579   612   612 I SDM     : DisplayBase::SetDisplayState: Set state = 1, display 0
+12-17 19:31:50.581   836   928 I knuckle_sensor: Got ENABLE response, status = 0, id = 62
+12-17 19:31:50.584  5215  5215 E wpa_supplicant: RSSI=-57;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:31:50.584  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:31:50.585  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:31:50.585  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-56 "Huawei-Employee"WPA_EAP
+12-17 19:31:50.585  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123023757/442846949 0 0
+12-17 19:31:50.586  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123023757/442846949 0 0
+12-17 19:31:50.586  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123023758/442846949 0 0
+12-17 19:31:50.586  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123023758/442846949 0 0
+12-17 19:31:50.586  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 0'
+12-17 19:31:50.586  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 0'
+12-17 19:31:50.588  1795  1809 D HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+12-17 19:31:50.588  2852  2866 I CommandQueue: updateBarBgColor
+12-17 19:31:50.589  2852  2866 D CommandQueue: CommandQueue, setBarBackgroundColor
+12-17 19:31:50.590  2852  2852 I TintManager: updateBarBgColor:emuiStyle=1,statusBarColor=#00000000,navigationBarColor=#00000000, isEmuiLight=1
+12-17 19:31:50.590  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundColor:new=0, old=1711276032
+12-17 19:31:50.590  1795  1809 I PowerManager_screenOn: finishKeyguardDrawn -> waitForAllWindowsDrawn
+12-17 19:31:50.591  1795  3237 D ActivityManager: setExcludeFromRecents:pkgName=null
+12-17 19:31:50.591  2852  2852 I HwNavigationBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:31:50.591  1046 26554 V ThreadsEx: HDebug print the key screen_state
+12-17 19:31:50.591  1046 26554 D audio_hw_primary: adev_set_parameters: enter: screen_state=on
+12-17 19:31:50.592  1046 26554 I Huawei_audio_cust: huawei_audio huawei_choose_HandsFree_device_incall_forHWtest: test Type =4
+12-17 19:31:50.592  1046 26554 I Huawei_audio_cust: huawei_audio huawei_choose_Handset_device_incall_forHWtest: test Type =4
+12-17 19:31:50.592  1795  1821 I DisplayManagerService: Display device changed state: "内置屏幕", ON
+12-17 19:31:50.592  1046 26554 I Huawei_audio_cust: get_spk_pa_type: pa is max98925
+12-17 19:31:50.592  1046 26554 I Huawei_audio_cust: huawei_common_set_parameters: exit with code(0)
+12-17 19:31:50.592  1046 26554 V Huawei_audio_cust: huawei_cust_set_parameters: exit with code(0)
+12-17 19:31:50.592  1046 26554 V msm8916_platform: platform_set_parameters: enter: - screen_state=on
+12-17 19:31:50.592  1046 26554 V msm8916_platform: platform_set_parameters: exit with code(0)
+12-17 19:31:50.592  1046 26554 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:31:50.592  1046 26554 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:31:50.592  3608  3608 D InCall  : InCallPresenter - onActivityStarted
+12-17 19:31:50.592  1046 26554 V audio_hw_primary: adev_set_parameters: exit with code(0)
+12-17 19:31:50.592  3608  3608 D InCall  : InCallPresenter - notifyVideoPauseController
+12-17 19:31:50.592  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onResume
+12-17 19:31:50.592  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onResume. Ignoring...
+12-17 19:31:50.592  3608  3608 D InCall  : InCallActivity - doOrientationChanged prevOrientation=1 newOrientation=1
+12-17 19:31:50.593  3608  3608 D InCall  : InCallActivity - onStart()... end
+12-17 19:31:50.593  1795  1809 I PowerManager_screenOn: waitForAllWindowsDrawn  cover is open or null
+12-17 19:31:50.597  1795  6986 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:50.597  3608  3608 I InCall  : InCallActivity - onResume()...
+12-17 19:31:50.597  1795  6986 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:50.598  2852  2852 D TintManager: statusBarIconTint=#B3FFFFFF,navigationBarIconTint=#00000000
+12-17 19:31:50.599   832   832 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:50.599   832   832 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:50.601  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:50.601  1795 20747 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:50.604  1795 15987 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:50.604  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=true

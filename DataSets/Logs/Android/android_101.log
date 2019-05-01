@@ -1,0 +1,100 @@
+12-17 19:31:57.031  1795  1825 I PowerManager_screenOn: PowerManagerService goToSleepNoUpdateLocked: eventTime=123030203, reason=7, flags=0, uid=1000
+12-17 19:31:57.031  1795  1825 I PowerManagerService: Going to sleep due to proximity...
+12-17 19:31:57.031  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=3, reason=7, interactive=false, mInteractive=true, mInteractiveChanging=true
+12-17 19:31:57.031  3608  3608 D InCall  : InCallPresenter - onActivityStarted
+12-17 19:31:57.031  3608  3608 D InCall  : InCallPresenter - notifyVideoPauseController
+12-17 19:31:57.031  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onResume
+12-17 19:31:57.031  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onResume. Ignoring...
+12-17 19:31:57.031  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityPositivebyPhone -> updatePowerStateLocked
+12-17 19:31:57.031  3608  3608 D InCall  : InCallActivity - doOrientationChanged prevOrientation=1 newOrientation=1
+12-17 19:31:57.031  3608  3608 D InCall  : InCallActivity - onStart()... end
+12-17 19:31:57.032  1795  1825 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:57.042   832   832 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:57.042   832   832 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:57.046  1795  6985 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:57.046  1795  6985 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:57.050  1795  3111 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:57.050  1795  1795 I HwScreenOnProximityLock: preparePoriximityView addView 
+12-17 19:31:57.051  1795 11747 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:57.051  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_OFF
+12-17 19:31:57.051  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:57.052  1795 16232 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:57.052  1795 16232 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:57.052   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:31:57.054  1795  1795 I HwPointEventFilter: do not support AFT because of no config
+12-17 19:31:57.055  3608  3608 I InCall  : InCallActivity - onResume()...
+12-17 19:31:57.061  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:31:57.062  1795  3225 D PowerManagerService: acquire lock=152331024, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:31:57.062  1795  3225 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:57.062  1795  3225 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:57.064  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:31:57.064  1795 16498 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:0
+12-17 19:31:57.068  1795  1795 D WindowManager: ACTIVITY check resid: android, size=8
+12-17 19:31:57.068  1795  1795 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{334bb79 u0 android},EmuiStyle=0,StatusBarColor=0x0,NavigationBarColor=0x0, mLastIsEmuiLightStyle=-1
+12-17 19:31:57.069  1795  1795 I WindowManger_windowChange: oldFocusWindow: Window{e71ca6c u0 com.android.phone}, currentFocusWindow: Window{334bb79 u0 android}, currentFocusApp: AppWindowToken{844a0b2 token=Token{2fd6a14 ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}}}
+12-17 19:31:57.072  1795  6986 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:57.073  1795  1809 D HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+12-17 19:31:57.073  2852  2867 I CommandQueue: updateBarBgColor
+12-17 19:31:57.073  2852  2867 D CommandQueue: CommandQueue, setBarBackgroundColor
+12-17 19:31:57.074  1795  3139 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:57.074  1795  3253 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:57.074  2852  2852 I TintManager: updateBarBgColor:emuiStyle=0,statusBarColor=#00000000,navigationBarColor=#00000000, isEmuiLight=-1
+12-17 19:31:57.074  2852  2852 I HwPhoneStatusBarTransitions: restoreBackgroundColor:new=1711276032, old=0
+12-17 19:31:57.075  2852  2852 I HwNavigationBarTransitions: restoreBackgroundColor:new=0, old=0
+12-17 19:31:57.075  1795  3111 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:57.075  2852  2852 D TintManager: statusBarIconTint=#B3FFFFFF,navigationBarIconTint=#00000000
+12-17 19:31:57.076  3608  3608 I InCall  : InCallActivity - bgCallTwinkingSwitch is truemIsForegroundActivity is true
+12-17 19:31:57.076  3608  3608 D InCall  : InCallPresenter - notifyInCallScreenIsForeground: true
+12-17 19:31:57.076  3608  3608 I SendBroadcastPermission: action:InCallScreenIsForegroundActivity, mPermissionType:0
+12-17 19:31:57.076  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=true
+12-17 19:31:57.076  1795  1795 I DeviceIdleController: becomeActiveLocked, reason = screen
+12-17 19:31:57.076  1795  1795 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:31:57.076  1795  1807 D DeviceIdleController: handleMessage(5)
+12-17 19:31:57.078  1795  1795 D DeviceIdleController: stopMonitoringMotionLocked()
+12-17 19:31:57.078  1795  1795 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:31:57.085  1795  3237 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{ec55919 3608:com.android.incallui/1001}
+12-17 19:31:57.086  3608  3608 D InCall  : StatusBarNotifier - cancelInCall()...
+12-17 19:31:57.087  1795 16501 I NotificationManager: cancelNotificationWithTag pid 3608,uid = 1001,tag = null,pkg =com.android.incallui,id =2
+12-17 19:31:57.088  3608  3608 D InCall  : StatusBarNotifier - updateInCallNotification: timer cleared
+12-17 19:31:57.089  3608  3608 I InCall  : ProximitySensor - ProximitySensor{keybrd=0, dpad=0, offhook=1, hor=0, ui=1, aud=EARPIECE}
+12-17 19:31:57.089  3608  3608 D InCall  : ProximitySensor - Turning on proximity sensor
+12-17 19:31:57.089  3608  3608 I InCall  : ProximitySensor - Proximity wake lock already acquired
+12-17 19:31:57.089  3608  3608 D InCall  : AnswerPresenter - onUiShowingtrue
+12-17 19:31:57.089  3608  3608 D InCall  : AnswerPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:31:57.089  3608  3608 D HwCust  : Create obj success use class com.android.incallui.HwCustAnswerPresenterImpl
+12-17 19:31:57.091  3608  3608 D InCall  : AnswerPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:31:57.098 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_OFF
+12-17 19:31:57.106  1795 20747 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:57.111  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:57.123  3608  3608 D InCall  : InCallActivity - onResume()... end
+12-17 19:31:57.123  3608  3608 I InCall  : VideoCallFragment - onResume
+12-17 19:31:57.123  3608  3608 I InCall  : VideoCallPresenter - isVideoCallWorking, state is: 3
+12-17 19:31:57.123  3608  3608 I InCall  : VideoCallFragment - onResume: Surface exist, resume videos
+12-17 19:31:57.123  3608  3608 D InCall  : VideoCallPresenter - resumeVideo: Error bad state mPrimaryCall=[Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)] mVideoCall=null
+12-17 19:31:57.123  3608  3608 I InCall  : VTCallButtonFragment - --- onResume ---
+12-17 19:31:57.124  3608  3608 I ActivityManager_activity: Resuming ActivityRecord{fd45985 token=android.os.BinderProxy@af8ea9b {com.android.incallui/com.android.incallui.InCallActivity}} with isForward=true,forwardBitChanged=true onlyLocalRequest=false
+12-17 19:31:57.127  3608  3608 I InCall  : CallList - hasAnyLiveCall call = [Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)]
+12-17 19:31:57.127  3608  3608 I InCall  : ProximitySensor - isDisplayOn: true
+12-17 19:31:57.129  1795  3238 I qti_sensors_hal: flush,395,handle 0
+12-17 19:31:57.129  1795  3238 I qti_sensors_hal: flush,260 handle 0
+12-17 19:31:57.129  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:57.135  1795  1795 V SecInputMethodManagerService: Client requesting input be hidden, pid=1795
+12-17 19:31:57.135  1795  3111 I PowerManager_screenOn: PowerManagerService wakeUpNoUpdateLocked: eventTime=123030306, uid=1000
+12-17 19:31:57.150  1795  1795 V InputMethodManagerService: Unspecified window will hide input
+12-17 19:31:57.152   832  1840 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:57.152   832  1840 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:57.152  1795  1795 I NotificationManager: cancelNotification,index:0
+12-17 19:31:57.153  1795  1795 I NotificationManager: cancelNotification,cancelNotificationLocked,callingUid = 1001,callingPid = 3608
+12-17 19:31:57.153  1795  1795 I NotificationManager: cancelNotificationLocked called,tell the app,reason = 8
+12-17 19:31:57.153  1795  1795 I NotificationManager: cancelNotificationLocked:0|com.android.incallui|2|null|1001
+12-17 19:31:57.153  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:31:57.153  1795  1795 I NotificationManager: cancelNotificationLocked,remove =com.android.incallui
+12-17 19:31:57.153  2852  2852 I BackgrounCallingLayout: mCallingStatusReceiver:onReceive::action=InCallScreenIsForegroundActivity, isForegroundActivity=true, mPhoneState=2
+12-17 19:31:57.153  2852  2852 I BackgrounCallingLayout: updateCallLayout:isBackground=false, isInteractive=false
+12-17 19:31:57.154  2852  2852 I HwPhoneStatusBar: mNotifyStateChangedReceiver::onReceive:action=InCallScreenIsForegroundActivity, mBackgroundState=false
+12-17 19:31:57.154  2852  2852 I PanelBar: collapsePanel:false
+12-17 19:31:57.154  2852  2852 I PanelView: closeQs
+12-17 19:31:57.154  2852  2852 I QSContainer: updateQsState:false
+12-17 19:31:57.154  2852  2852 I QSContainer: updateQsState:false
+12-17 19:31:57.154  2852  2852 I StackScroller: setScrollingEnabled: true
+12-17 19:31:57.154  2852  2852 I PanelView: instantCollapse

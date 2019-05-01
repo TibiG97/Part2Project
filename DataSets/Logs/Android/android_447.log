@@ -1,0 +1,100 @@
+12-17 19:47:16.310  1795  2376 I AlarmManager: sending alarm Alarm{e41366e type 1 when 1481975231538 com.huawei.imonitor},repeatInterval = 0,listenerTag =null
+12-17 19:47:16.312  3626  3626 I LogCollectService: onStartCommand 
+12-17 19:47:16.312  3626  3626 I LogCollectService: onStartCommand com.huawei.lcagent.timer.PROTOCOL_REPORT
+12-17 19:47:16.312  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:47:16.312  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:47:16.312  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:47:16.312  1795  3249 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{28de47d 16354:com.huawei.systemmanager/1000}, flags: 10000400
+12-17 19:47:16.313  1795  3249 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{8afc5b5 u0 euid: 0 com.huawei.systemmanager/.util.content.HsmIntentService_ui}, euid: 0
+12-17 19:47:16.315  3626  3753 I LogCollectService: msg = 47 received
+12-17 19:47:16.315  3626  3753 I ProtocolReportTask: handleTimeOut
+12-17 19:47:16.315  3626  3753 I ProtocolReportTask: getKickTimerByUserType: 21600000
+12-17 19:47:16.323  1795  2376 I AlarmManager: sending alarm Alarm{48ec270 type 1 when 1481975231554 com.huawei.imonitor},repeatInterval = 0,listenerTag =null
+12-17 19:47:16.323  3626  3626 I LogCollectService: onStartCommand 
+12-17 19:47:16.323  3626  3626 I LogCollectService: onStartCommand com.huawei.lcagent.timer.RESET_THRESHOLD_REPORT
+12-17 19:47:16.325 16354 21005 I HwSystemManager: HandlePowerStatistic:MSG_POWER_STATISTIC Power-hungry apps found.
+12-17 19:47:16.328  3626  3626 I LogCollectService: onStartCommand 
+12-17 19:47:16.328  3626  3626 I LogCollectService: onStartCommand com.huawei.lcagent.timer.EventInfoTask
+12-17 19:47:16.329  1795  1807 I AlarmManager: set(null) : type=2 triggerAtTime=444072650 win=225000 tElapsed=444072650 maxElapsed=444297650 interval=0 flags=0x8
+12-17 19:47:16.336  1795  1807 D DeviceIdleController: Moved to LIGHT_STATE_IDLE.
+12-17 19:47:16.337  1795  1795 V AlarmManager: Received TIME_TICK alarm; rescheduling
+12-17 19:47:16.337  1795  1807 D DeviceIdleController: handleMessage(3)
+12-17 19:47:16.337  1795  1795 I AlarmManager: scheduleTimeTickEvent triggerAtTime = 443816363
+12-17 19:47:16.339  1795 16498 I ActivityManager_broadcast: dispatch ordered broadcast [bgkeyapp] BroadcastRecord{654823e u0 null}, has 1 receivers
+12-17 19:47:16.339  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:47:16.341  3626  3753 I LogCollectService: msg = 19 received
+12-17 19:47:16.341  3626  3753 I LogCollectService: msg = 19 received
+12-17 19:47:16.341  3626  3753 I LogCollectService: msg = 19 received
+12-17 19:47:16.341  3626  3753 I LogCollectService: msg = 19 received
+12-17 19:47:16.341  3626  3753 I LogCollectService: msg = 53 received
+12-17 19:47:16.346  3626  3754 I LogDatabase: msg = 11 received
+12-17 19:47:16.347  3626  3754 I LogDatabase: msg = 11 received
+12-17 19:47:16.347  3626  3754 I LogDatabase: msg = 11 received
+12-17 19:47:16.347  3626  3754 I LogDatabase: msg = 11 received
+12-17 19:47:16.347  2852  2852 I TimeManager: act:android.intent.action.TIME_TICK  flag:1342177300 FLAG_IS_FIRST_POWER_OFF_ALARM=false android.intent.extra.ALARM_COUNT=1 
+12-17 19:47:16.348  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:47:16.348  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:47
+12-17 19:47:16.348  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:47
+12-17 19:47:16.348  2852  2852 I TimeManager: chinaDateTime:晚上7:47
+12-17 19:47:16.348  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:47:16.348  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:47
+12-17 19:47:16.348  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:47
+12-17 19:47:16.348  2852  2852 I TimeManager: chinaDateTime:晚上7:47
+12-17 19:47:16.349  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:47:16.349  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:47
+12-17 19:47:16.349  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:47
+12-17 19:47:16.349  2852  2852 I TimeManager: chinaDateTime:晚上7:47
+12-17 19:47:16.349  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:47:16.349  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:47
+12-17 19:47:16.349  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:47
+12-17 19:47:16.349  2852  2852 I TimeManager: chinaDateTime:晚上7:47
+12-17 19:47:16.356  3626  3753 I LogCollectService: msg = 55 received
+12-17 19:47:16.356  3626  3753 I EventInfoTask: handleTimeOut
+12-17 19:47:16.357  3626  3754 I LogDatabase: msg = 22 received
+12-17 19:47:16.359  3626  3754 I PackAutoLog: PackAutoLog onPrePack
+12-17 19:47:16.368  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:47:16.368  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:47:16.368  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:47:16.369  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:47:16.369  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:47:16.369  2852  2852 I EventCenter: EventCenter Get :android.intent.action.TIME_TICK
+12-17 19:47:16.370  2852  2852 W ResourceType: Failure getting entry for 0xffffffff (t=254 e=65535) (error -2147483647)
+12-17 19:47:16.370  2852  2852 E DateLunarView: mDateString is: 12月17日星期六
+12-17 19:47:16.375  2852  2852 W ResourceType: Failure getting entry for 0xffffffff (t=254 e=65535) (error -2147483647)
+12-17 19:47:16.375  2852  2852 E DateLunarView: mDateString is: 12月17日星期六
+12-17 19:47:16.376  3626  3753 I LogCollectService: msg = 31 received
+12-17 19:47:16.376  3626  3755 I LogTrack: msg = 1 received
+12-17 19:47:16.376  3626  3755 I LogTrack: Handler Thread:com.huawei.lcagent.service.LogTrack
+12-17 19:47:16.378  3626  3755 I PackAutoLog: PackAutoLog onPrePack
+12-17 19:47:16.384  1795  1807 D NetdConnector: SND -> {11651 firewall enable_chain dozable}
+12-17 19:47:16.388  3626  3755 I iMonitor: create: 908000005
+12-17 19:47:16.389   818  1152 I logserver: handle_exception_events enter
+12-17 19:47:16.390  3626  3755 I iMonitor: send: 908000005
+12-17 19:47:16.391  3626  3770 I LSC_908000005: process buffer and get message
+12-17 19:47:16.393  3626  3753 I LogCollectService: msg = 13 received
+12-17 19:47:16.393  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:47:16.393  3626  3753 I LogCollectService: handleActiveUploadEvent
+12-17 19:47:16.393  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:47:16.393  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:47:16.394  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:47:16.394  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:47:16.394  2852  2852 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+12-17 19:47:16.395  2852  2852 D KeyguardUpdateMonitor: handleTimeUpdate
+12-17 19:47:16.401  3879  3879 I HwLauncher: Model  onReceive intent=Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+12-17 19:47:16.401  3879  3879 I HwLauncher: Model  onReceive user=UserHandle{0}
+12-17 19:47:16.411  5224  5224 I Step_LSC: 20002302|logicalDealBroadcastEvent : Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+12-17 19:47:16.412  5224  5283 I Step_LSC: 20002302| ## MSG_DEAL_SYSTEM_EVENT android.intent.action.TIME_TICK
+12-17 19:47:16.427  1795  1795 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:47:16.430  1795 20747 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:47:16.432  3626  3753 I LogCollectService: msg = 21 received
+12-17 19:47:16.432  3626  3753 I LogCollectService: msg = 15 received
+12-17 19:47:16.432  3626  3754 I LogDatabase: msg = 14 received
+12-17 19:47:16.440  3626  3753 I LogCollectService: msg = 41 received
+12-17 19:47:16.440  3626  3753 I PackageLogInfoManager: checkPackageLogState
+12-17 19:47:16.448  1795 16501 E BatteryStatsService: no controller energy info supplied
+12-17 19:47:16.448  1795 16501 E BatteryStatsService: no controller energy info supplied
+12-17 19:47:16.449  1795 17831 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:47:16.450  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:47:16.450  3626  3753 I UserSpecification: handleOverSize()
+12-17 19:47:16.456  1795 11745 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:47:16.460  3626  3753 I SizeStateMachine: Sdcard free size is 16294887424 B. InitialState is 0

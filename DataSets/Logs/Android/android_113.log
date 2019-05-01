@@ -1,0 +1,100 @@
+12-17 19:31:58.111  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onScreenOff
+12-17 19:31:58.112  1795  3249 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:58.113  3168  3168 I CHR_TelStatusListenr0: [Timer rat:0 level:5] suspend
+12-17 19:31:58.113  3168  3168 I CHR_TelStatusListenr0: [Timer serviceState:0 simReady:true] suspend
+12-17 19:31:58.113  3168  3168 I CHR_TelStatusListenr1: [Timer serviceState:1 simReady:false] suspend
+12-17 19:31:58.114  3168  3168 I CHR_TelphonyStatusService: duration: 517113 STATUS_REPORT_TIMESPAN: 86400000 / (1000 * 60 * 60 * 24) day STATUS_REPORT_TIMESPAN_FOR_BETA: 21600000 / (1000 * 60 * 60 * 24) day
+12-17 19:31:58.114  3168  3168 I CHR_ChrUtil: is Beta User, userType = 3
+12-17 19:31:58.114  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:58.115  1795  6988 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:58.116  1795 15988 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:58.117  1795 20747 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:58.118  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:31:58.119  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:31:58.119  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:31:58.121  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:31:58.121  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:31:58.122  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_OFF  flag:1342177296 
+12-17 19:31:58.126  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:31:58.126  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:31:58.130  1795  3111 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:58.134  1795  3249 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:58.136  3218  3234 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:58.137  3180  3332 I WakelockMonitor: start wakelock monitor.
+12-17 19:31:58.139  3180  3578 I ScreenLockClean: call busy and not start clean apps.
+12-17 19:31:58.139  3180  3578 I ash     : ash->screen off
+12-17 19:31:58.140  3180  3578 I ash     : Default InputMethod : com.baidu.input_huawei
+12-17 19:31:58.140  3180  3578 I ash     : screen off inputmethod, delay to hibernation
+12-17 19:31:58.141  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:31:58.141  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: false
+12-17 19:31:58.143  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:31:58.144  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:58.147  3608  3608 D InCall  : CallCardFragment - onGlobalLayout
+12-17 19:31:58.151  3879  3879 I HwLauncher: Launcher receiver screen off broadcast sendmessage true
+12-17 19:31:58.153  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:31:58.157  1795  1821 I ActivityManager_activity: Incall is gone
+12-17 19:31:58.157  1795  1821 I ActivityManager_activity: windowsGone(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}
+12-17 19:31:58.158  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:31:58.160  1795  3225 I AlarmManager: set(PendingIntent{f088104: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) : type=2 triggerAtTime=443454522 win=60000 tElapsed=443454522 maxElapsed=443514522 interval=0 flags=0x8
+12-17 19:31:58.164  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:58.166  3608  3608 I ActivityManager_activity: Reporting idle of ActivityRecord{fd45985 token=android.os.BinderProxy@af8ea9b {com.android.incallui/com.android.incallui.InCallActivity}} finished=false
+12-17 19:31:58.168  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:31:58.171  1795  2377 V HwPackageManagerService: Returning system default Launcher 
+12-17 19:31:58.171  1795  2377 I AwareLog: AwareMem_DMEServer: executeMemoryRecover iaware not running
+12-17 19:31:58.174  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:31:58.174  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen off event
+12-17 19:31:58.180  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:58.181  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = false, mIsPreScrnOn = true, mScrnSwitchTime = 1481974317628, occurTime = 1481974318178, delta = 550, mScrnOffAccTime = 1741657, mScrnOnAccTime = 111554
+12-17 19:31:58.181  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1741657, mScrnOffAccTime = 1741657, mScrnOnAccTime = 112104
+12-17 19:31:58.185  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:31:58.187  3626  3626 I iMonitor: create: 903001010
+12-17 19:31:58.190  3626  3626 I iMonitor: send: 903001010
+12-17 19:31:58.190   818  1152 I logserver: handle_exception_events enter
+12-17 19:31:58.191  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:31:58.191  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_OFF
+12-17 19:31:58.195  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:58.200  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_OFF
+12-17 19:31:58.202  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:31:58.210  1795 15982 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:0
+12-17 19:31:58.219  1795  1821 I ActivityManager_activity: windowsVisibleLocked(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310} idle: true
+12-17 19:31:58.220  1795  1821 I WindowManager: All windows ready for display!
+12-17 19:31:58.220  1795  1809 I WindowOrientationListener: WindowOrientationListener enabled
+12-17 19:31:58.221  1795  1809 I qti_sensors_hal: batch,376,handle 0, timeout:0 ,period_ns:66667000
+12-17 19:31:58.221  1795  1809 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) handle:0 flags:0x0 period_ns 66667000
+12-17 19:31:58.221  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:58.230  1795  1809 I qti_sensors_hal: read from oem info: data_readback
+12-17 19:31:58.230  1795  1809 I qti_sensors_hal: 0xcd, 0xb0, 0x24, 0x3e
+12-17 19:31:58.230  1795  1809 I qti_sensors_hal: 0x66, 0xca, 0x3c, 0x3e
+12-17 19:31:58.230  1795  1809 I qti_sensors_hal: 0xc0, 0x2a, 0x7c, 0x3f
+12-17 19:31:58.230  1795  1809 I qti_sensors_hal: 0x55, 0x0, 0x0, 0x0
+12-17 19:31:58.230  1795  1809 I qti_sensors_hal: 0x0, 0x0, 0x0, 0x0
+12-17 19:31:58.230  1795  1809 E qti_sensors_hal: read from oem info: data_valid_flag=0x55
+12-17 19:31:58.230  1795  1809 E qti_sensors_hal: read from oem info: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:31:58.230  1795  1809 E qti_sensors_hal: Final value: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:31:58.230  1795  1809 I qti_sensors_hal: batch:load_acc_oeminf_data x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:58.230  1795  1809 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) sample_rate=14.999925Hz report_rate_f=0.000000Hz curr sample rate:5.000000 cur rpt rate:0 max:400.000000 min:1.000000
+12-17 19:31:58.232  1795  1809 I qti_sensors_hal: flush,395,handle 0
+12-17 19:31:58.232  1795  1809 I qti_sensors_hal: flush,260 handle 0
+12-17 19:31:58.232  1795  1809 I WindowManager: Finished screen turning on...
+12-17 19:31:58.232  1795  1825 I PowerManager_screenOn: DisplayPowerController Unblocked screen on after 452 ms
+12-17 19:31:58.232  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:58.232  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=1.0
+12-17 19:31:58.233  1795  1825 D DisplayPowerController: Animating brightness: target=24, rate=40
+12-17 19:31:58.234  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:58.234  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=941
+12-17 19:31:58.234  1795  1825 D DisplayPowerController: Animating brightness: target=24, rate=40
+12-17 19:31:58.234  1795  1825 V KeyguardServiceDelegate: onScreenTurnedOn()
+12-17 19:31:58.234  1795  1825 I WindowManger_keyguard: onScreenTurnedOn()
+12-17 19:31:58.234  1795  1825 D DisplayPowerController: Display ready!
+12-17 19:31:58.234  1795  1825 D DisplayPowerController: Finished business...
+12-17 19:31:58.234  1795  2750 I HwLightsService: back light level before map = 941
+12-17 19:31:58.234  2852  3328 D KeyguardService: Caller checkPermission fail
+12-17 19:31:58.234  2852  3328 D KeyguardService: KGSvcCall onScreenTurnedOn.
+12-17 19:31:58.234  2852  3328 D KeyguardViewMediator: notifyScreenTurnedOn
+12-17 19:31:58.234  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOn
+12-17 19:31:58.234  2852  2852 I PhoneStatusBar: onScreenTurnedOn
+12-17 19:31:58.234  2852  2852 D KGWallpaper_Magazine: getNextIndex: 0; from 5 to 5; size: 44
+12-17 19:31:58.234  2852  2852 I HwLockScreenReporter: report msg is :{picture: Deepwater-05-2.3.001-bigpicture_05_8.jpg}
+12-17 19:31:58.234  2852  2852 W HwLockScreenReporter: report result = falsereport type:162 msg:{picture: Deepwater-05-2.3.001-bigpicture_05_8.jpg, channelId: 05}
+12-17 19:31:58.234  2852  2852 I OucScreenOnCounter: Screen already turned on at: 1481974212
+12-17 19:31:58.235  1795  1825 D FpDataCollector: case xxx, not a fingerprint unlock 

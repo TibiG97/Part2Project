@@ -1,0 +1,100 @@
+12-17 19:47:16.486   633 31870 I SDK     : 
+12-17 19:47:16.486   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:486 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[37] from the Socket-table Failed!
+12-17 19:47:16.486   633 31870 I SDK     : 
+12-17 19:47:16.486   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:486 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[38] from the Socket-table Failed!
+12-17 19:47:16.486   633 31870 I SDK     : 
+12-17 19:47:16.486   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:486 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[39] from the Socket-table Failed!
+12-17 19:47:16.486   633 31870 I SDK     : 
+12-17 19:47:16.487   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:486 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[40] from the Socket-table Failed!
+12-17 19:47:16.487   633 31870 I SDK     : 
+12-17 19:47:16.487   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:487 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[41] from the Socket-table Failed!
+12-17 19:47:16.487   633 31870 I SDK     : 
+12-17 19:47:16.487 16354 21005 I HwSystemManager: PowerStatsHelper:minAveragePowerForCpu= 115.0
+12-17 19:47:16.487 16354 21005 I HwSystemManager: PowerStatsHelper:UID 10105: CPU time=417350 ms power=20.2
+12-17 19:47:16.487  5224  5224 I Step_LSC: 20002302|onStandStepChanged 65631
+12-17 19:47:16.488 16354 21005 I HwSystemManager: PowerStatsHelper: adjustBackupgroundResult before origin uid: 10105, power: 22.66521264292152, in sipper: 22.66521264292152, cpuPowerMah: 20.185990420699298, bgcpuPowerMah: 4.386291666666667, cpuTime: 417350, fgCpuTime: 280040
+12-17 19:47:16.488 16354 21005 I HwSystemManager: PowerStatsHelper: adjustBackupgroundResult after origin uid: 10105, power: 6.86551388888889, in sipper: 6.86551388888889, cpuPowerMah: 20.185990420699298, bgcpuPowerMah: 4.386291666666667, cpuTime: 137310, fgCpuTime: 0
+12-17 19:47:16.488 16354 21005 I HwSystemManager: PowerStatsHelper:minAveragePowerForCpu= 115.0
+12-17 19:47:16.488  5224  5224 I Step_LSC: 20002302|compensate received
+12-17 19:47:16.488 16354 21005 I HwSystemManager: PowerStatsHelper:UID 10018: CPU time=10160 ms power=0.526
+12-17 19:47:16.488 16354 21005 I HwSystemManager: PowerStatsHelper: adjustBackupgroundResult before origin uid: 10018, power: 0.5257186982316687, in sipper: 0.5257186982316687, cpuPowerMah: 0.5257186982316687, bgcpuPowerMah: 0.32455555555555554, cpuTime: 10160, fgCpuTime: 0
+12-17 19:47:16.488 16354 21005 I HwSystemManager: PowerStatsHelper: adjustBackupgroundResult after origin uid: 10018, power: 0.32455555555555554, in sipper: 0.32455555555555554, cpuPowerMah: 0.5257186982316687, bgcpuPowerMah: 0.32455555555555554, cpuTime: 10160, fgCpuTime: 0
+12-17 19:47:16.488 16354 21005 I HwSystemManager: PowerStatsHelper:minAveragePowerForCpu= 115.0
+12-17 19:47:16.488 16354 21005 I HwSystemManager: PowerStatsHelper:UID 10126: CPU time=2850 ms power=0.154
+12-17 19:47:16.488 16354 21005 I HwSystemManager: PowerStatsHelper: adjustBackupgroundResult before origin uid: 10126, power: 0.15375638677315315, in sipper: 0.15375638677315315, cpuPowerMah: 0.15375638677315315, bgcpuPowerMah: 0.09104166666666667, cpuTime: 2850, fgCpuTime: 0
+12-17 19:47:16.488 16354 21005 I HwSystemManager: PowerStatsHelper: adjustBackupgroundResult after origin uid: 10126, power: 0.09104166666666667, in sipper: 0.09104166666666667, cpuPowerMah: 0.15375638677315315, bgcpuPowerMah: 0.09104166666666667, cpuTime: 2850, fgCpuTime: 0
+12-17 19:47:16.489 31949 31967 W TCP     : tcp.recv{4790} TcpSocket.read(TcpSocket.java:242) <<< WARN(5) >>> java.net.SocketException: Software caused connection abort
+12-17 19:47:16.489  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4255
+12-17 19:47:16.490  5224  5283 I Step_ExtendStepDataManager: 20002302|before compensate: cache step_4255
+12-17 19:47:16.490 31949 31967 E TCP     : tcp.recv{4790} TcpClientThread.readSocket(TcpClientThread.java:452) <<< ERROR(6) >>> socket read length failure -104
+12-17 19:47:16.490  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4255
+12-17 19:47:16.491  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4256
+12-17 19:47:16.491  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:47:16.491  5224  5283 I Step_ExtendStepDataManager: 20002302|after compensate: cache step_4256
+12-17 19:47:16.491  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:47:16.491  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:47:16.492  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:47:16.492  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:47:16.492 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:300) recv error
+12-17 19:47:16.493   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:493 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[42] from the Socket-table Failed!
+12-17 19:47:16.493   633 31870 I SDK     : 
+12-17 19:47:16.493   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:493 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[43] from the Socket-table Failed!
+12-17 19:47:16.493   633 31870 I SDK     : 
+12-17 19:47:16.493 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.selfDisconnectSocket(TcpClientThread.java:377) self disconnecting to uc.huawei.com:7801
+12-17 19:47:16.493   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:493 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[44] from the Socket-table Failed!
+12-17 19:47:16.493   633 31870 I SDK     : 
+12-17 19:47:16.494   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:494 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[45] from the Socket-table Failed!
+12-17 19:47:16.494   633 31870 I SDK     : 
+12-17 19:47:16.494   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:494 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[46] from the Socket-table Failed!
+12-17 19:47:16.494   633 31870 I SDK     : 
+12-17 19:47:16.494   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:494 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[47] from the Socket-table Failed!
+12-17 19:47:16.494   633 31870 I SDK     : 
+12-17 19:47:16.494   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:494 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[48] from the Socket-table Failed!
+12-17 19:47:16.494   633 31870 I SDK     : 
+12-17 19:47:16.494   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:494 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[49] from the Socket-table Failed!
+12-17 19:47:16.494   633 31870 I SDK     : 
+12-17 19:47:16.494   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:494 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[50] from the Socket-table Failed!
+12-17 19:47:16.494   633 31870 I SDK     : 
+12-17 19:47:16.494   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:494 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[51] from the Socket-table Failed!
+12-17 19:47:16.494   633 31870 I SDK     : 
+12-17 19:47:16.494 31949 31967 I TCP     : tcp.recv{4790} TcpSocket.close(TcpSocket.java:158) shutdown output: java.net.SocketException: Socket is closed
+12-17 19:47:16.494   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:494 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[52] from the Socket-table Failed!
+12-17 19:47:16.494   633 31870 I SDK     : 
+12-17 19:47:16.494   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:494 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[53] from the Socket-table Failed!
+12-17 19:47:16.494   633 31870 I SDK     : 
+12-17 19:47:16.494   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:494 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[54] from the Socket-table Failed!
+12-17 19:47:16.494   633 31870 I SDK     : 
+12-17 19:47:16.495   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:494 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[55] from the Socket-table Failed!
+12-17 19:47:16.495   633 31870 I SDK     : 
+12-17 19:47:16.495   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:495 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[56] from the Socket-table Failed!
+12-17 19:47:16.495   633 31870 I SDK     : 
+12-17 19:47:16.495   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:495 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[57] from the Socket-table Failed!
+12-17 19:47:16.495   633 31870 I SDK     : 
+12-17 19:47:16.495   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:495 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[58] from the Socket-table Failed!
+12-17 19:47:16.495   633 31870 I SDK     : 
+12-17 19:47:16.495   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:495 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[59] from the Socket-table Failed!
+12-17 19:47:16.495   633 31870 I SDK     : 
+12-17 19:47:16.495 31949 31967 I TCP     : tcp.recv{4790} TcpSocket.close(TcpSocket.java:170) shutdown input: java.net.SocketException: Socket is closed
+12-17 19:47:16.495   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:495 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[60] from the Socket-table Failed!
+12-17 19:47:16.495   633 31870 I SDK     : 
+12-17 19:47:16.495   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:495 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[61] from the Socket-table Failed!
+12-17 19:47:16.495   633 31870 I SDK     : 
+12-17 19:47:16.495   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:495 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[62] from the Socket-table Failed!
+12-17 19:47:16.495   633 31870 I SDK     : 
+12-17 19:47:16.495   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:495 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[63] from the Socket-table Failed!
+12-17 19:47:16.495   633 31870 I SDK     : 
+12-17 19:47:16.495   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:495 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[64] from the Socket-table Failed!
+12-17 19:47:16.495   633 31870 I SDK     : 
+12-17 19:47:16.495   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:495 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[65] from the Socket-table Failed!
+12-17 19:47:16.495   633 31870 I SDK     : 
+12-17 19:47:16.496   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:496 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[66] from the Socket-table Failed!
+12-17 19:47:16.496   633 31870 I SDK     : 
+12-17 19:47:16.496 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.closeSocket(TcpClientThread.java:396) closed socket.
+12-17 19:47:16.496   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:496 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[67] from the Socket-table Failed!
+12-17 19:47:16.496   633 31870 I SDK     : 
+12-17 19:47:16.496   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:496 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[68] from the Socket-table Failed!
+12-17 19:47:16.496   633 31870 I SDK     : 
+12-17 19:47:16.496   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:496 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[69] from the Socket-table Failed!
+12-17 19:47:16.496   633 31870 I SDK     : 
+12-17 19:47:16.496   633 31870 I SDK     : <2016-12-17 19:47:16> [WARN] SDK: UE-SeC 2016-12-17 19:47:16:496 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[70] from the Socket-table Failed!
+12-17 19:47:16.496   633 31870 I SDK     : 

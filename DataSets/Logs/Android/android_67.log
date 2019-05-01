@@ -1,0 +1,100 @@
+12-17 19:31:50.604  3608  3608 I InCall  : InCallActivity - bgCallTwinkingSwitch is truemIsForegroundActivity is true
+12-17 19:31:50.604  3608  3608 D InCall  : InCallPresenter - notifyInCallScreenIsForeground: true
+12-17 19:31:50.604  3608  3608 I SendBroadcastPermission: action:InCallScreenIsForegroundActivity, mPermissionType:0
+12-17 19:31:50.604  1795  1795 I DeviceIdleController: becomeActiveLocked, reason = screen
+12-17 19:31:50.606  1795  3225 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:50.606  1795  3225 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:50.606  1795  3111 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{ec55919 3608:com.android.incallui/1001}
+12-17 19:31:50.606  1795  1795 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:31:50.606  3608  3608 D InCall  : StatusBarNotifier - cancelInCall()...
+12-17 19:31:50.607  1795  1807 D DeviceIdleController: handleMessage(5)
+12-17 19:31:50.608  1795  6988 I NotificationManager: cancelNotificationWithTag pid 3608,uid = 1001,tag = null,pkg =com.android.incallui,id =2
+12-17 19:31:50.608  3608  3608 D InCall  : StatusBarNotifier - updateInCallNotification: timer cleared
+12-17 19:31:50.609  3608  3608 I InCall  : ProximitySensor - ProximitySensor{keybrd=0, dpad=0, offhook=1, hor=0, ui=1, aud=EARPIECE}
+12-17 19:31:50.609  3608  3608 D InCall  : ProximitySensor - Turning on proximity sensor
+12-17 19:31:50.609  3608  3608 I InCall  : ProximitySensor - Proximity wake lock already acquired
+12-17 19:31:50.609  3608  3608 D InCall  : AnswerPresenter - onUiShowingtrue
+12-17 19:31:50.609  3608  3608 D InCall  : AnswerPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:31:50.610  3608  3608 D HwCust  : Create obj success use class com.android.incallui.HwCustAnswerPresenterImpl
+12-17 19:31:50.610  1795  1795 D DeviceIdleController: stopMonitoringMotionLocked()
+12-17 19:31:50.610  1795  1795 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:31:50.611  3608  3608 D InCall  : AnswerPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:31:50.612  1795  1795 I AlarmManager: remove(PendingIntent{2f9e644: PendingIntentRecord{527f32d android broadcastIntent}}) changed bounds; rebatching
+12-17 19:31:50.616  1795  6985 D PowerManagerService: acquire lock=223841435, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:31:50.616  1795  6985 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:50.616  1795  6985 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:50.616  1795  1795 I NotificationManager: cancelNotification,index:0
+12-17 19:31:50.616  1795  1795 I NotificationManager: cancelNotification,cancelNotificationLocked,callingUid = 1001,callingPid = 3608
+12-17 19:31:50.616  1795  1795 I NotificationManager: cancelNotificationLocked called,tell the app,reason = 8
+12-17 19:31:50.616  1795  1795 I NotificationManager: cancelNotificationLocked:0|com.android.incallui|2|null|1001
+12-17 19:31:50.617  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 0 len = 0, 4096
+12-17 19:31:50.617  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:31:50.617  1795  1795 I NotificationManager: cancelNotificationLocked,remove =com.android.incallui
+12-17 19:31:50.617  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = true,ledNotification == null?true
+12-17 19:31:50.617  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:31:50.617  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:31:50.617  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:31:50.617  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:31:50.617  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:31:50.617  1795  1795 D HwPFWLogger: PFW.HwPFWService:mBroadcastReceiver action = android.intent.action.SCREEN_ON
+12-17 19:31:50.619  1795  2708 D HwPFWLogger: PFW.HwPFWService:handle PFW_MSG_SYSTEM
+12-17 19:31:50.619  1795  2708 D HwPFWLogger: PFW.HwPFWAppRestartPolicy:receive action = android.intent.action.SCREEN_ON
+12-17 19:31:50.619  3608  3608 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:50.620  3608  3608 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:50.620  1795  1795 D WifiService: onReceive, action:android.intent.action.SCREEN_ON
+12-17 19:31:50.621  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155650 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:31:50.621  1795  2670 D WifiController: StaEnabledState what=155650
+12-17 19:31:50.621  1795  2670 D WifiController: DefaultState what=155650
+12-17 19:31:50.621  3608  3608 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:50.621  3180  3332 I ScenarioAction: new ScenarioAction sPoolSize: 0
+12-17 19:31:50.622  3608  3608 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:50.623  1795  1795 D HwArpVerifier: startWifiRouteCheck
+12-17 19:31:50.624  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:31:50.624  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:31:50.624  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:31:50.625  1795  1795 D WifiProStatisticsManager: sendScreenOnEvent enter.
+12-17 19:31:50.625  1795  2733 D WiFi_PRO_WifiProStateMachine: device screen on,but isScreenOffMonitor is false
+12-17 19:31:50.625  1795  2734 D WifiProStatisticsManager: msg Loop is running.
+12-17 19:31:50.630  1795  2670 I AlarmManager: remove(PendingIntent{50e3a01: PendingIntentRecord{a8130a6 android broadcastIntent}}) changed bounds; rebatching
+12-17 19:31:50.632  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:31:50.632  1795 16501 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:50.632  5215  5215 D wpa_supplicant: nl80211: Drv Event 79 (NL80211_CMD_SET_REKEY_OFFLOAD) received for wlan0
+12-17 19:31:50.632  5215  5215 D wpa_supplicant: nl80211: Rekey offload event for BSSID 80:38:bc:08:42:c1
+12-17 19:31:50.632  5215  5215 D wpa_supplicant: nl80211: Rekey offload - Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 02
+12-17 19:31:50.632  5215  5215 D wpa_supplicant: wlan0: Event DRIVER_GTK_REKEY (35) received
+12-17 19:31:50.634  1795  3110 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:50.634  1795 11745 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:50.635  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:31:50.635  2852  2852 I BackgrounCallingLayout: mCallingStatusReceiver:onReceive::action=InCallScreenIsForegroundActivity, isForegroundActivity=true, mPhoneState=2
+12-17 19:31:50.635  2852  2852 I BackgrounCallingLayout: updateCallLayout:isBackground=false, isInteractive=true
+12-17 19:31:50.635  1795 15988 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:50.635  2852  2852 I HwPhoneStatusBar: mNotifyStateChangedReceiver::onReceive:action=InCallScreenIsForegroundActivity, mBackgroundState=false
+12-17 19:31:50.636  2852  2852 I StatusBar: onNotificationRemoved: StatusBarNotification(pkg=com.android.incallui user=UserHandle{0} id=2 tag=null key=0|com.android.incallui|2|null|1001: Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE)))
+12-17 19:31:50.636  2852  2852 I PhoneStatusBar: removeNotification:0|com.android.incallui|2|null|1001
+12-17 19:31:50.636  2852  2852 I StatusBar: removeNotificationViews:0|com.android.incallui|2|null|1001
+12-17 19:31:50.636  2852  2852 I NotificationGroupManager: onEntryRemoved:0|com.android.incallui|2|null|1001
+12-17 19:31:50.636  2852  2852 I NotificationGroupManager: onEntryRemovedInternal:0|com.android.incallui|2|null|1001, group=0|com.android.incallui|2|null|1001
+12-17 19:31:50.636  2852  2852 I NotificationGroupManager: summary = null
+12-17 19:31:50.636  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:31:50.636  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:31:50.637  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:31:50.637  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:31:50.638  1795 15987 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:31:50.648  1795 16499 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:50.654  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:50.655  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:31:50.655  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:31:50.655  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:false, mDimmed:false
+12-17 19:31:50.747  1795  2371 E LightSensor: read Events lux:  7.0
+12-17 19:31:50.748  1795  1825 D AutomaticBrightnessController: ambient lux=7.0,timeStamp =442847111015000
+12-17 19:31:50.748  1795  1825 D HwNormalizedAutomaticBrightnessController: mAmbientLuxValid=true,mWakeupFromSleep= false
+12-17 19:31:50.748  1795  1825 D HwAmbientLuxFilterAlgo: updateAmbientLux: Initializing: mAmbientLightRingBuffer=[7.0 / 1ms], mAmbientLux=7.0
+12-17 19:31:50.748  1795  1825 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:31:50.748  1795  1825 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:31:50.749  1795  1825 D HwAmbientLuxFilterAlgo: t=123023919,BT=123024419,DT=123024919,BT1=123027919,DT1=123031919,Bn=false,Dn=false,lx=[7.0/123023919],mLx=7.0,s=5.0,ss=0.0,AuIntervened=false,mProximityState=false,bLux=20.6,dLux=0.0,bLux1=20.6,dLux1=0.0
+12-17 19:31:50.749  1795  1825 D HwNormalizedAutomaticBrightnessController: need to update brightness: mAmbientLux=7.0
+12-17 19:31:50.749  1795  1825 D HwNormalizedSpline: interpolate:mPosBrightness=0.0lux=7.0,mIsReboot=true,mIsUserChange=false,mDelta=0.0
+12-17 19:31:50.749  1795  1825 D HwNormalizedSpline: offsetBrightness=14.639999,mOffsetBrightness_last14.639999,lux=7.0,mPosBrightness=0.0,mIsUserChange=false,mDelta=0.0,defaultBrightness=14.639999,mStartLuxDefaultBrightness=14.639999mLastLuxDefaultBrightness=14.639999
+12-17 19:31:50.750  1795  1825 D HwNormalizedSpline: write:userId=0,mPosBrightness =0.0,mOffsetBrightness_last=14.639999,mIsUserChange=false,mDeltaNew=0.0,mStartLuxDefaultBrightness=14.639999mLastLuxDefaultBrightness=14.639999,mAmLux=7.0
+12-17 19:31:50.750  1795  1825 D AutomaticBrightnessController: updateAutoBrightness: mScreenAutoBrightness=25, newScreenAutoBrightness=15
+12-17 19:31:50.750  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0

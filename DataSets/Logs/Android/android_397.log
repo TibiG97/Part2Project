@@ -1,0 +1,100 @@
+12-17 19:40:24.248   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:24.248   606  2379 E libteec : send data return = 128
+12-17 19:40:24.248   835  2385 E libteec : receive data len = 128
+12-17 19:40:24.248   835  2385 E libteec : begin
+12-17 19:40:24.248   835  2385 E libteec : qsc_decode end
+12-17 19:40:24.248   835  2385 D fpc_fingerprint_hal: workerFunction STATE_NAVIGATION
+12-17 19:40:24.248   835  2385 E libteec : begin
+12-17 19:40:24.248   606  2379 E libteec : receive data len = 128
+12-17 19:40:24.260   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:24.260   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:24.260   606  2379 E libteec : send data return = 128
+12-17 19:40:24.260   835  2385 E libteec : receive data len = 128
+12-17 19:40:24.260   835  2385 E libteec : begin
+12-17 19:40:24.260   835  2385 E libteec : qsc_decode end
+12-17 19:40:24.289  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:40:24.291  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:40:24.298  1795  1795 D Sensors : activate called handle:2 enable:0
+12-17 19:40:24.298  1795  1795 D Sensors : pa2240-proximity calling driver disable
+12-17 19:40:24.298  1795  1795 W huawei_ProximitySensor_CPP_Test: ProximitySensor, enable, 247: en=0
+12-17 19:40:24.298  1795  1795 W huawei_ProximitySensor_CPP_Test: ProximitySensor, enable, 248: flags=0
+12-17 19:40:24.298  1795  1795 W huawei_ProximitySensor_CPP_Test: ProximitySensor, enable, 249: mEnabled=1
+12-17 19:40:24.327  3180  3180 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:40:24.327  3180  3180 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:40:24.374  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:40:24.375  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:40:24.421   633 31867 I SDK     : <2016-12-17 19:40:24> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:24:421 Level[NOTICE] magic[3368294688 1013]:s(0, 6),r(0, 6)in 20s;vsock(135716B, 10762B, 0, 0), sock(852, 903, 0, 0), times(34, 0, 194, 57), delay(0, 0)ms, m(0, 6144)KB, p:38951, s:38951, t(148, 1, 32283B, 51115B), u(0, 0, 176808B, 48202B), c(2247, 2363, 0, 0), e(68178, 1650)/(1337, 1650), k:73, d(595, 683), de(0), s(online, 2, 1), SSL(0), UDP(0), r_d(0), s_d(0), c_d(0), dur(1391 m), vs(0, 0, 0), sysFM(0 KB), ls(1790, 1790),bypass[0]:[0]
+12-17 19:40:24.421   633 31867 I SDK     : 
+12-17 19:40:24.529  1795  2371 I huawei_ProximitySensor_CPP_Test: ProximitySensorr readEvents mHasPendingEvent is 1
+12-17 19:40:24.529  1795  2371 E LightSensor: read Events lux:134.0
+12-17 19:40:24.530  1795  1825 D AutomaticBrightnessController: ambient lux=134.0,timeStamp =443360892523000
+12-17 19:40:24.675  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:40:24.675  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:40:24.694  1795  2381 D libfingersense_wrapper: Calling fingersense_classify_touch()
+12-17 19:40:24.699  1795  2381 D libfingersense_wrapper: fingersense_classify_touch() finished
+12-17 19:40:24.702  1795  2380 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123163242, event=2, flags=0x0, uid=1000
+12-17 19:40:24.702  1795  2380 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=2, uid=1000
+12-17 19:40:24.702  1795  2380 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:24.703  3879  3879 I HwLauncher: FPSMonitor  [Launcher , dispatchTouchEvent begin, false, true] down event  x = 461 y = 790
+12-17 19:40:24.703  3879  3879 I HwLauncher: Launcher workspaceTranslationX = 0.0
+12-17 19:40:24.703  3879  3879 I HwLauncher: FPSMonitor  [PagedView , onIntercept] down event  x = 461 y = 790
+12-17 19:40:24.704  3879  3879 I HwLauncher: FPSMonitor  [Launcher , dispatchTouchEvent end, false, true] down event  x = 461 y = 790
+12-17 19:40:24.758  1795  2381 D libfingersense_wrapper: Calling fingersense_touch_up()
+12-17 19:40:24.758  1795  2381 D libfingersense_wrapper: fingersense_touch_up() finished
+12-17 19:40:24.759  3879  3879 I HwLauncher: FPSMonitor  [Launcher , dispatchTouchEvent begin, false, true] up event  x = 461 y = 790
+12-17 19:40:24.759  3879  3879 I HwLauncher: FPSMonitor  [PagedView , onIntercept] up event  x = 461 y = 790
+12-17 19:40:24.760  3879  3879 I HwLauncher: FPSMonitor  [Launcher , dispatchTouchEvent end, false, true] up event  x = 461 y = 790
+12-17 19:40:24.760  3879  3879 V AudioManager: playSoundEffect   effectType: 0
+12-17 19:40:24.760  3879  3879 V AudioManager: querySoundEffectsEnabled...
+12-17 19:40:24.760  3879  3879 I HwLauncher: Launcher onclick begin com.huawei.android.launcher.BubbleTextView{c3725b5 VFED..CL. ...P..ID 264,686-528,969 #9c010102}
+12-17 19:40:24.761  3879  3879 I HwLauncher: Launcher.Utilities  startActivitySafely useLaunchAnimation = true
+12-17 19:40:24.761  3879  3879 I HwLauncher: Launcher.Utilities  startActivitySafely begin startActivity() for current user
+12-17 19:40:24.761  1795 16500 I ActivityManager_activity: startActivityMayWait, callerApp: ProcessRecord{c5c29c4 3879:com.huawei.android.launcher/u0a61}, intent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mm/.ui.LauncherUI bnds=[276,650][540,933] }
+12-17 19:40:24.762  1795 16500 I TransactionSponsor: Transact:getHwAdminCachedListto device policy manager service.
+12-17 19:40:24.762  1795 16500 I TransactionProcessor: HwDPMS received transaction_getHwFrameworkAdminList user: 0:4006
+12-17 19:40:24.763  1795 16500 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mm/.ui.LauncherUI bnds=[276,650][540,933]} from uid 10061 on display 0
+12-17 19:40:24.763  1795 16500 E PF_API_NATIVE: check perfhub service fail! 
+12-17 19:40:24.763  1795  2377 V HwPackageManagerService: Returning system default Launcher 
+12-17 19:40:24.763  1795 16500 E PF_API_NATIVE: check perfhub service fail! 
+12-17 19:40:24.764  1795 16500 I ActivityManager: ActivityRecord info: ActivityInfo{c87973e com.tencent.mm.ui.LauncherUI}, euid: 0
+12-17 19:40:24.766  3180  3578 I ash     : running package: com.tencent.mm, visible: true
+12-17 19:40:24.769  1795 16500 I ActivityManager_activity: insertTaskAtTop, setTaskToReturnTo: fromHome=true,lastStackTop=TaskRecord{37babfb #297 A=com.huawei.android.launcher U=0 StackId=0 sz=1}, isHomeStack=false, topTask=TaskRecord{fcfa908 #384 A=com.android.browser U=0 StackId=1 sz=1}, task=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=1}
+12-17 19:40:24.769  1795 16500 I ActivityManager_activity: moveTaskToFront: moving tr=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=1} reason=bringingFoundTaskToFront
+12-17 19:40:24.769  1795 16500 I ActivityManager_activity: insertTaskAtTop, setTaskToReturnTo: fromHome=true,lastStackTop=TaskRecord{37babfb #297 A=com.huawei.android.launcher U=0 StackId=0 sz=1}, isHomeStack=false, topTask=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=1}, task=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=1}
+12-17 19:40:24.770  1795 16500 V HwWindowManagerService: moveTaskToTop mTaskChanged:true
+12-17 19:40:24.771  1795 16500 I WindowManger_windowChange: oldFocusWindow: Window{773320 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}, currentFocusWindow: null, currentFocusApp: AppWindowToken{b6efcd1 token=Token{a978b5b ActivityRecord{5f12a6a u0 com.tencent.mm/.ui.LauncherUI t383}}}
+12-17 19:40:24.772  1795 16500 V HwWindowManagerService: setFocusedApp update app ops, mTaskChanged set to:false
+12-17 19:40:24.772  1795 16500 I FreezeScreenScene: scheduleCheckFreezeScreen sendMessageDelayed
+12-17 19:40:24.772  1795 16500 I ActivityManager_activity: Start pausing: ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297}
+12-17 19:40:24.773  1795 16500 D PowerManagerService: acquire lock=230301592, flags=0x1, tag="*launch*", name=android, ws=WorkSource{10105}, uid=1000, pid=1795
+12-17 19:40:24.773  1795 16500 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:24.773  1795 16500 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:24.774  1795 16500 I ActivityManager_activity: resumeTopActivityLocked: Skip resume: need to start pausing
+12-17 19:40:24.774  1795 16500 I ActivityManager_activity: resumeTopActivityLocked: Skip resume: some activity pausing.
+12-17 19:40:24.776  3879  3879 I HwLauncher: Launcher.Utilities  startActivitySafely end startActivity() for current user
+12-17 19:40:24.776  3879  3879 I HwLauncher: Launcher this view's parent is not SearchGridView , so no need to reportRecentApp.
+12-17 19:40:24.777  3879  3879 I HwLauncher: Launcher onclick end
+12-17 19:40:24.783  3879  3879 I HwLauncher: Launcher onPause()
+12-17 19:40:24.785  1795  3247 I ActivityManager_activity: Moving to PAUSED: ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297} (pause complete)
+12-17 19:40:24.785  3879 20845 I HwLauncher: Launcher.MotionManager stopMotionAppsReco begin,mFlg = 403
+12-17 19:40:24.785  3879 20845 D MotionDetectionManager: stopMotionAppsReco motionApps: 403
+12-17 19:40:24.785  3879 20845 D MotionDetectionManager: stopMotionAppsReco not recognition motionApps 403
+12-17 19:40:24.785  3879 20845 W HwLauncher: Launcher.MotionManager stopMotionAppsReco service flg 403 is unavailable
+12-17 19:40:24.787   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:40:24.789  3180  3332 D ScenarioService: new above launcher pkgs: [com.tencent.mm]
+12-17 19:40:24.800  1795  3247 I ActivityManager_activity: completedResumed: ActivityRecord{5f12a6a u0 com.tencent.mm/.ui.LauncherUI t383}, launchTrack: activityPaused resumeTopComplete
+12-17 19:40:24.803  2883  2992 I HwSystemManager: NotificationGuideService:handle MSG_ACTIVIY_FOREGROUND, uid:10105
+12-17 19:40:24.803  1795  1809 I MultiTaskManagerService: onForegroundActivitiesChanged pid = 4492, uid = 10105
+12-17 19:40:24.803  3180  3578 D HwMultiWindowEx: isInMultiWindowMode ret: 0
+12-17 19:40:24.804  3180  3578 I ThermalStateManager: handle action thermal policy:100000
+12-17 19:40:24.805  3180  3593 I BacklightControl: Ratio: 100 Auto: true
+12-17 19:40:24.806  1795 15982 I LightsService: setLcdRatio ratio:100 autoAdjust:true
+12-17 19:40:24.806  1795 15982 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:40:24.808  1795  3121 W ActivityManager: getTasks: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:24.808  1795  3253 I HwNetworkPolicy: onTransact, code = 203
+12-17 19:40:24.810  1795  3111 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4097
+12-17 19:40:24.811  1795  1795 I NotificationManager: cancelNotification,index:0
+12-17 19:40:24.811  1795  1795 I NotificationManager: cancelNotification,cancelNotificationLocked,callingUid = 10105,callingPid = 4492
+12-17 19:40:24.811  1795  1795 I NotificationManager: cancelNotificationLocked called,tell the app,reason = 8
+12-17 19:40:24.811  1795  1795 I NotificationManager: cancelNotificationLocked:0|com.tencent.mm|4097|null|10105
+12-17 19:40:24.811  1795  1795 I NotificationManager: cancelNotificationLocked,remove =com.tencent.mm

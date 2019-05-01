@@ -1,0 +1,100 @@
+12-17 19:51:04.455  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:51:04.455  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:51:04.456  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:51:04.456  1795  3110 D PowerManagerService: acquire lock=52555690, flags=0x1, tag="WakerLock:233927177", name=com.tencent.mm, ws=null, uid=10105, pid=4634
+12-17 19:51:04.457  1795  3110 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:51:04.457  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:51:04.457  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:51:04.458  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:51:04.458  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:51:04.458  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:51:04.459  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:51:04.459  1795  2376 W ActivityManager: Sending non-protected broadcast com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE from system uid 1000 pkg com.huawei.systemmanager
+12-17 19:51:04.460  1795  2376 I ActivityManager_broadcast: collectReceiverComponents, callerApp: null, intent:com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE, receiver size:1, flags: 10000400
+12-17 19:51:04.460  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{3f5079b u0 com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE}: prev had 0
+12-17 19:51:04.466  1795 15987 I ActivityManager_broadcast: dispatch ordered broadcast [bgkeyapp] BroadcastRecord{70a61d9 u0 ALARM_ACTION(4492)}, has 1 receivers
+12-17 19:51:04.469 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:349) connecting max 30000ms to uc.huawei.com:7801
+12-17 19:51:04.471  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ACTION.note_tracemsg_lock, mPermissionType:0
+12-17 19:51:04.472 31949 31967 I TCP     : tcp.conn{4787} TcpSocket.connect_i(TcpSocket.java:84) connecting to ip address uc.huawei.com/172.30.70.63
+12-17 19:51:04.474  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{3f5079b u0 com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE}, has 1 receivers
+12-17 19:51:04.481  2883  2883 I HwSystemManager: ScheduleRecordPowerConsumeReceiver:onReceive: Action = com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE
+12-17 19:51:04.482  2852  2852 I TimeManager: act:android.intent.action.TIME_TICK  flag:1342177300 FLAG_IS_FIRST_POWER_OFF_ALARM=false android.intent.extra.ALARM_COUNT=1 
+12-17 19:51:04.483  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:51:04.483  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:51
+12-17 19:51:04.483  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:51
+12-17 19:51:04.483  2852  2852 I TimeManager: chinaDateTime:晚上7:51
+12-17 19:51:04.484  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:51:04.484  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:51
+12-17 19:51:04.484  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:51
+12-17 19:51:04.484  2852  2852 I TimeManager: chinaDateTime:晚上7:51
+12-17 19:51:04.484  1795  6985 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ACTION.note_tracemsg_lock flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:51:04.484  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:51:04.485  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:51
+12-17 19:51:04.485  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:51
+12-17 19:51:04.485  2852  2852 I TimeManager: chinaDateTime:晚上7:51
+12-17 19:51:04.485  1795 15982 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{2b38b6e 2883:com.huawei.systemmanager:service/1000}, flags: 10000400
+12-17 19:51:04.485  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:51:04.485  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:51
+12-17 19:51:04.485  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:51
+12-17 19:51:04.485  2852  2852 I TimeManager: chinaDateTime:晚上7:51
+12-17 19:51:04.485  1795 15982 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{487a738 u0 euid: 0 com.huawei.systemmanager/.util.content.HsmIntentService_bg}, euid: 0
+12-17 19:51:04.487  1795 17832 D PowerManagerService: acquire lock=357137, flags=0x1, tag="WakerLock:117709087", name=com.tencent.mm, ws=null, uid=10105, pid=4492
+12-17 19:51:04.487  1795 17832 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:51:04.490  2883  3452 I HwSystemManager: ScheduleRecordPowerConsumeReceiver:onReceive: Action = com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE
+12-17 19:51:04.491  2883  3452 I HwSystemManager: ChangeMode:readSaveMode, old function, it does not work from 5.0
+12-17 19:51:04.492  2883  3452 I HwSystemManager: RemainingTimeSceneHelper:updateTimeSceneData ,deltaRmCapacity= 0.0 deltaTimeStamp=539001 timestamp_temp= 1481974925490
+12-17 19:51:04.492  2883  3452 I HwSystemManager: RemainingTimeSceneHelper:invalid condition, do not update time scene.
+12-17 19:51:04.492  2883  3452 I HwSystemManager: RemainingTimeSceneHelper:updateTimeSceneData during time(ms)= 1
+12-17 19:51:04.492  1795  3884 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:51:04.493  1795 11746 I ActivityManager_broadcast: dispatch ordered broadcast [bgkeyapp] BroadcastRecord{11f79e u0 ALARM_ACTION(4634)}, has 1 receivers
+12-17 19:51:04.497  1795 16232 D PowerManagerService: release:lock=52555690, flg=0x0, tag="WakerLock:233927177", name=com.tencent.mm", ws=null, uid=10105, pid=4634
+12-17 19:51:04.497  1795 16232 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:51:04.502  1795 11747 D PowerManagerService: acquire lock=52555690, flags=0x1, tag="WakerLock:233927177", name=com.tencent.mm, ws=null, uid=10105, pid=4634
+12-17 19:51:04.502  1795 11747 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:51:04.502  2852  2852 W PanelView: set notification panel padding = 1675
+12-17 19:51:04.502  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:51:04.502  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:51:04.503  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:51:04.503  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:51:04.503  2852  2852 I EventCenter: EventCenter Get :android.intent.action.TIME_TICK
+12-17 19:51:04.504  1795  1806 I ActivityManager_broadcast: dispatch ordered broadcast [bgkeyapp] BroadcastRecord{db64295 u0 com.tencent.mm.TrafficStatsReceiver}, has 1 receivers
+12-17 19:51:04.505  2852  2852 W ResourceType: Failure getting entry for 0xffffffff (t=254 e=65535) (error -2147483647)
+12-17 19:51:04.505  2852  2852 E DateLunarView: mDateString is: 12月17日星期六
+12-17 19:51:04.510  2852  2852 W ResourceType: Failure getting entry for 0xffffffff (t=254 e=65535) (error -2147483647)
+12-17 19:51:04.511  2852  2852 E DateLunarView: mDateString is: 12月17日星期六
+12-17 19:51:04.524  2852  2852 W PanelView: set notification panel padding = 1675
+12-17 19:51:04.524  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:51:04.524  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:51:04.525  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:51:04.525  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:51:04.525  2852  2852 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+12-17 19:51:04.525  2852  2852 D KeyguardUpdateMonitor: handleTimeUpdate
+12-17 19:51:04.529  3879  3879 I HwLauncher: Model  onReceive intent=Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+12-17 19:51:04.529  3879  3879 I HwLauncher: Model  onReceive user=UserHandle{0}
+12-17 19:51:04.537  5224  5224 I Step_LSC: 20002302|logicalDealBroadcastEvent : Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+12-17 19:51:04.538  5224  5283 I Step_LSC: 20002302| ## MSG_DEAL_SYSTEM_EVENT android.intent.action.TIME_TICK
+12-17 19:51:04.555  1795  3247 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:51:04.556  1795  1795 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:51:04.604  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:51:04.609  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:51:04.627  2852  2852 W PanelView: set notification panel padding = 1675
+12-17 19:51:04.627  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:51:04.627  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:51:04.629  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:51:04.629  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:51:04.690  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ACTION.note_tracemsg_unlock, mPermissionType:0
+12-17 19:51:04.692  1795 11745 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ACTION.note_tracemsg_unlock flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:51:04.695  1795  3238 D PowerManagerService: release:lock=357137, flg=0x0, tag="WakerLock:117709087", name=com.tencent.mm", ws=null, uid=10105, pid=4492
+12-17 19:51:04.695  1795 16500 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:51:04.696  1795  3238 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:51:04.706  1795  3249 D PowerManagerService: release:lock=52555690, flg=0x0, tag="WakerLock:233927177", name=com.tencent.mm", ws=null, uid=10105, pid=4634
+12-17 19:51:04.707  1795  3249 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:51:04.707  1795  3249 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:52:46.080   597   597 I rmt_storage: rmt_storage_connect_cb: clnt_h=0x129 conn_h=0x7f8862a370
+12-17 19:52:46.081   597   597 I rmt_storage: rmt_storage_rw_iovec_cb: /boot/modem_fs1: clnt_h=0x1: req_h=0x129 msg_id=3: R/W request received
+12-17 19:52:46.081   597   597 I rmt_storage: wakelock acquired: 1, error no: 42
+12-17 19:52:46.081   597   779 I rmt_storage: rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1 Unblock worker thread (th_id: 547754226768)
+12-17 19:52:46.088  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:52:46.088  1795  2376 I AlarmManager: there are no wakeup alarms and the screen is off, we can delay what we have so far until the future
+12-17 19:52:46.089  1795  1795 I TrafficMonitor: update:rxPkts:1,txPkts:2,rxBytes:77,txBytes:117
+12-17 19:52:46.089  1795  1795 I TrafficMonitor: start expired. level:-1

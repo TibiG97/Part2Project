@@ -1,0 +1,100 @@
+12-17 19:40:29.387  1795  1809 D HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+12-17 19:40:29.387  2852  3328 I CommandQueue: updateBarBgColor
+12-17 19:40:29.387  2852  3328 D CommandQueue: CommandQueue, setBarBackgroundColor
+12-17 19:40:29.388  2852  2852 I TintManager: updateBarBgColor:emuiStyle=-1,statusBarColor=#FFFCFCFC,navigationBarColor=#00000000, isEmuiLight=-1
+12-17 19:40:29.388  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:40:29.388  2852  2852 I HwNavigationBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:40:29.389  2852  2852 D TintManager: statusBarIconTint=#B3000000,navigationBarIconTint=#00000000
+12-17 19:40:29.391  1795  1809 D KeyEvent: obtain, mHwFlags=0
+12-17 19:40:29.393  3879  4160 I Adreno  : QUALCOMM build                   : b6ac907, Ica15e0da0a
+12-17 19:40:29.393  3879  4160 I Adreno  : Build Date                       : 11/09/16
+12-17 19:40:29.393  3879  4160 I Adreno  : OpenGL ES Shader Compiler Version: XE031.09.00.03
+12-17 19:40:29.393  3879  4160 I Adreno  : Local Branch                     : 
+12-17 19:40:29.393  3879  4160 I Adreno  : Remote Branch                    : 
+12-17 19:40:29.393  3879  4160 I Adreno  : Remote Branch                    : 
+12-17 19:40:29.393  3879  4160 I Adreno  : Reconstruct Branch               : 
+12-17 19:40:29.399  3879  4201 I TotemWeather: WidgetDataManager:my location is 77666
+12-17 19:40:29.401  3879  3879 D KeyEvent: obtain, mHwFlags=0
+12-17 19:40:29.402  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123167637, downTime=123167611, deviceId=-1, source=0x101 }
+12-17 19:40:29.402  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123167637, downTime=123167611, deviceId=-1, source=0x101 }
+12-17 19:40:29.402  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123167637, downTime=123167611, deviceId=-1, source=0x101 }
+12-17 19:40:29.402  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123167637, downTime=123167611, deviceId=-1, source=0x101 }
+12-17 19:40:29.402  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123167637, downTime=123167611, deviceId=-1, source=0x101 }
+12-17 19:40:29.402  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123167637, downTime=123167611, deviceId=-1, source=0x101 }
+12-17 19:40:29.402  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123167637, downTime=123167611, deviceId=-1, source=0x101 }
+12-17 19:40:29.402  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123167637, downTime=123167611, deviceId=-1, source=0x101 }
+12-17 19:40:29.402  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123167637, downTime=123167611, deviceId=-1, source=0x101 }
+12-17 19:40:29.402  3879  3879 I HwLauncher: WeatherDynamicUpdater receive action = com.huawei.android.action.launcher_weather_icon_change
+12-17 19:40:29.404  3879  4071 I HwLauncher: WeatherDynamicUpdater receiver data is int[] = [0, 0, 96, 192, 96, 192, 96, 192] ; stringArray[] = [sunny, num1, num7, tempc] ; dynamic_gravity = center
+12-17 19:40:29.404  3879  4160 I OpenGLRenderer: Initialized EGL, version 1.4
+12-17 19:40:29.404  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[0] = sunny:0, 0, 0
+12-17 19:40:29.404  3879  4160 D OpenGLRenderer: Swap behavior 1
+12-17 19:40:29.404  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[1] = num1:96, 192, 0
+12-17 19:40:29.404  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[2] = num7:96, 192, 0
+12-17 19:40:29.404  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[3] = tempc:96, 192, 0
+12-17 19:40:29.405  3879  4071 I HwLauncher: WeatherDynamicUpdater  picNames.length not equal tmpMapList.size(), so no need to updatePreData... ; picNames.length = 4 , tmpMapList.size() = 1
+12-17 19:40:29.407  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:40:29.408  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{f83e2df V.ED..... ......ID 0,1-66,43 #7f1401be app:id/battery_outside_percent}
+12-17 19:40:29.409  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{280af00 V.ED..... ......ID 0,0-0,0 #7f1403e3 app:id/speed}
+12-17 19:40:29.409  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{88b1de7 V.ED..... ......I. 0,11-144,60 #7f14004e app:id/msim_status_bar_operators_card_one_id}
+12-17 19:40:29.409  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.time.HwStatusBarClock{dbc7fa6 V.ED..... ........ 294,0-441,72 #7f1401c9 app:id/clock}
+12-17 19:40:29.410  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{3f96501 V.ED..... ........ 0,1-66,43 #7f1401be app:id/battery_outside_percent}
+12-17 19:40:29.412  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{7ea3fda V.ED..... ......ID 0,0-0,0 #7f1403e3 app:id/speed}
+12-17 19:40:29.412  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{8a4a4ce V.ED..... ......ID 0,0-0,0 #7f14032f app:id/hw_notification_number}
+12-17 19:40:29.412  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{29531d0 V.ED..... ........ 0,0-144,49 #7f14004e app:id/msim_status_bar_operators_card_one_id}
+12-17 19:40:29.412  2852  2852 I PhoneStatusBarPolicy: updateBluetooth:::setBluetoothBatteryEnable false.
+12-17 19:40:29.412  2852  2852 I PhoneStatusBarPolicy: updateBluetooth::bluetoothEnabled:false, bluetoothConnected=false, bluetoothTransfering=false
+12-17 19:40:29.413  2852  2852 I HwStatusBarIconController: applyIconTint
+12-17 19:40:29.413  2852  2852 I HwStatusBarIconController: applyIconTint ignore
+12-17 19:40:29.457  2852  2852 D HwRecentsLockUtils: search
+12-17 19:40:29.458  1795  2778 E HsmCoreServiceImpl: onTransact in code is: 103
+12-17 19:40:29.458  1795  2778 I MediaProcessHandler: playingUids: 
+12-17 19:40:29.458  2852  2852 D HwRecentsLockUtils: search
+12-17 19:40:29.460  1795  3111 D ActivityManager: Skipping, home stack task: TaskRecord{37babfb #297 A=com.huawei.android.launcher U=0 StackId=0 sz=1}
+12-17 19:40:29.460  1795  3111 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }
+12-17 19:40:29.460  1795  3111 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[48,1199][1032,2447] }
+12-17 19:40:29.460  1795  3111 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.VIEW dat=file:///storage/emulated/0/Downloads/云播影视326.apk typ=application/vnd.android.package-archive flg=0x10800000 cmp=com.android.packageinstaller/.PackageInstallerActivity (has extras) }
+12-17 19:40:29.460  1795  3111 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=com.android.deskclock.ALARM_ALERT flg=0x10800004 cmp=com.android.deskclock/.alarmclock.LockAlarmFullActivity (has extras) }
+12-17 19:40:29.460  1795  3111 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.VIEW dat=file:///storage/emulated/0/Downloads/106_4389c1ec4cb78314a457ce5927578bb4.apk typ=application/vnd.android.package-archive flg=0x10800000 cmp=com.android.packageinstaller/.PackageInstallerActivity (has extras) }
+12-17 19:40:29.460  1795  3111 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.VIEW dat=file:///storage/emulated/0/tencent/TMAssistantSDK/Download/com.tencent.mm/1a41cb224d6d4b020176381a7c790891 typ=application/vnd.android.package-archive flg=0x10800000 cmp=com.android.packageinstaller/.PackageInstallerActivity (has extras) }
+12-17 19:40:29.460  1795  3111 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.VIEW dat=https://service.10046.mi.com/... flg=0x10800000 cmp=com.android.browser/.BrowserActivity (has extras) }
+12-17 19:40:29.460  1795  3111 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.media.action.STILL_IMAGE_CAMERA_SECURE flg=0x34800000 pkg=com.huawei.camera cmp=com.huawei.camera/.controller.SecureCameraActivity (has extras) }
+12-17 19:40:29.461  1795  3111 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { flg=0x10800000 cmp=com.huawei.camera/com.huawei.rapidcapture.RapidPlaceHolderActivity }
+12-17 19:40:29.461  1795  3111 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.VIEW dat=file:///storage/emulated/0/Downloads/12306zhixinghuochepiao_314.apk typ=application/vnd.android.package-archive flg=0x10800000 cmp=com.android.packageinstaller/.PackageInstallerActivity (has extras) }
+12-17 19:40:29.461  1795  3111 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { flg=0x34800000 cmp=com.huawei.systemmanager/com.huawei.harassmentinterception.ui.InterceptionActivity (has extras) }
+12-17 19:40:29.461  1795  3111 D ActivityManager: getRecentTasks: num=20,flags=62,totalTasks=47
+12-17 19:40:29.461  1795  3111 D ActivityManager: getRecentTasks: topActivity=ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:40:29.462  2852  2852 I SystemServicesProxy: get the task from ActivityManager size is 20 AMS:getRecentTasksForUser,args:numTasksToQuery=20,flags=62,userId=-2
+12-17 19:40:29.467  2852  2852 I RecentsTaskLoadPlan: to show tasks size is 20
+12-17 19:40:29.468  1795  3110 D ActivityManager: Skipping, home stack task: TaskRecord{37babfb #297 A=com.huawei.android.launcher U=0 StackId=0 sz=1}
+12-17 19:40:29.468  1795  3110 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }
+12-17 19:40:29.468  1795  3110 D ActivityManager: getRecentTasks: num=10,flags=62,totalTasks=47
+12-17 19:40:29.468  1795  3110 D ActivityManager: getRecentTasks: topActivity=ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:40:29.469  2852  2852 I SystemServicesProxy: get the task from ActivityManager size is 10 AMS:getRecentTasksForUser,args:numTasksToQuery=10,flags=62,userId=0
+12-17 19:40:29.493  1795  1821 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.5, mControlPoint1y = 0.2, mControlPoint2x = 0.6, mControlPoint2y = 1.0
+12-17 19:40:29.493  1795  1821 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.5, mControlPoint1y = 0.2, mControlPoint2x = 0.6, mControlPoint2y = 1.0
+12-17 19:40:29.498  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=c0000700 mask=ffffffff oldVal=8708 newVal=c0000700 diff=c0008008
+12-17 19:40:29.498  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:40:29.498  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:40:29.498  2852  2852 D BarTransitions.HwNavigationBarView: MODE_TRANSPARENT -> MODE_TRANSLUCENT animate=false
+12-17 19:40:29.498  2852  2852 D BarTransitions.HwNavigationBarView: applyModeBackground oldMode=MODE_TRANSPARENT newMode=MODE_TRANSLUCENT animate=false
+12-17 19:40:29.498  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:40:29.498  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:40:29.498  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000700, SystemUiVisibility=0xc0000700
+12-17 19:40:29.499  1795 16232 V SecInputMethodManagerService: Client requesting input be hidden, pid=3879
+12-17 19:40:29.499  1795 16232 V InputMethodManagerService: Unspecified window will hide input
+12-17 19:40:29.503  4690  4690 I SendBroadcastPermission: action:com.baidu.input.entry.launcer, mPermissionType:0
+12-17 19:40:29.505  3879  3879 I TotemWeather: WidgetDataManager:colorType : 3
+12-17 19:40:29.506  1795 17831 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{5299443 4690:com.baidu.input_huawei/u0a74}
+12-17 19:40:29.522  1795  1821 I ActivityManager_activity: windowsGone(): ActivityRecord{5f12a6a u0 com.tencent.mm/.ui.LauncherUI t383}
+12-17 19:40:29.544  3879  3879 I ActivityManager_activity: Reporting idle of ActivityRecord{4679a0a token=android.os.BinderProxy@5462fa {com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}} finished=false
+12-17 19:40:29.544  1795  6986 D PowerManagerService: release:lock=230301592, flg=0x0, tag="*launch*", name=android", ws=WorkSource{10061}, uid=1000, pid=1795
+12-17 19:40:29.544  1795  6986 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:29.544  1795  6986 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:29.721  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:40:26,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:40:29.721  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:40:26,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:40:29.721  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:40:29.722  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:40:29.722  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:40:29.722  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:40:29.723  2852  2852 D NetWorkUtils: mVSimCurCardType is -1

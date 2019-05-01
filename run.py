@@ -26,10 +26,10 @@ def main():
     baselines_data_loader = SyntheticDataLoader('NEWSET', 'baselines')
     attr_dataset, attr_labels, no_of_classes = baselines_data_loader.load_synthetic_data_set()
 
-    nested_cross_validation(data_set=attr_dataset,
-                            labels=attr_labels,
-                            model_name='LRG',
-                            tune_parameters=True,
+    nested_cross_validation(data_set=graph_dataset,
+                            labels=graph_labels,
+                            model_name='CNN',
+                            tune_parameters=False,
                             no_of_classes=no_of_classes,
                             no_of_outer_folds=10,
                             no_of_inner_folds=10,

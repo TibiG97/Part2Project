@@ -1,0 +1,100 @@
+12-17 19:31:42.381  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:31:42.382  1795  3121 D PowerManagerService: release:lock=49877686, flg=0x0, tag="RILJ_ACK_WL", name=com.android.phone", ws=null, uid=1001, pid=3218
+12-17 19:31:42.383  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:31:42.383  1795  1821 I WindowManager: All windows ready for display!
+12-17 19:31:42.383  1795  3121 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:42.383  1795  3121 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:42.383  1795  1809 I WindowOrientationListener: WindowOrientationListener enabled
+12-17 19:31:42.383  1795  1809 I qti_sensors_hal: batch,376,handle 0, timeout:0 ,period_ns:66667000
+12-17 19:31:42.383  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:31:42.383  1795  1809 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) handle:0 flags:0x0 period_ns 66667000
+12-17 19:31:42.384  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:31:42.384  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:42.386  3879  3879 I HwLauncher: Launcher receiver screen off broadcast sendmessage true
+12-17 19:31:42.390  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:31:42.391  1795  3225 I AlarmManager: set(PendingIntent{93fbec6: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) : type=2 triggerAtTime=443438755 win=60000 tElapsed=443438755 maxElapsed=443498755 interval=0 flags=0x8
+12-17 19:31:42.394  1795  1809 I qti_sensors_hal: read from oem info: data_readback
+12-17 19:31:42.394  1795  1809 I qti_sensors_hal: 0xcd, 0xb0, 0x24, 0x3e
+12-17 19:31:42.394  1795  1809 I qti_sensors_hal: 0x66, 0xca, 0x3c, 0x3e
+12-17 19:31:42.394  1795  1809 I qti_sensors_hal: 0xc0, 0x2a, 0x7c, 0x3f
+12-17 19:31:42.394  1795  1809 I qti_sensors_hal: 0x55, 0x0, 0x0, 0x0
+12-17 19:31:42.394  1795  1809 I qti_sensors_hal: 0x0, 0x0, 0x0, 0x0
+12-17 19:31:42.394  1795  1809 E qti_sensors_hal: read from oem info: data_valid_flag=0x55
+12-17 19:31:42.394  1795  1809 E qti_sensors_hal: read from oem info: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:31:42.394  1795  1809 E qti_sensors_hal: Final value: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:31:42.394  1795  1809 I qti_sensors_hal: batch:load_acc_oeminf_data x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:42.394  1795  1809 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) sample_rate=14.999925Hz report_rate_f=0.000000Hz curr sample rate:5.000000 cur rpt rate:0 max:400.000000 min:1.000000
+12-17 19:31:42.396  1795  1809 I qti_sensors_hal: flush,395,handle 0
+12-17 19:31:42.396  1795  1809 I qti_sensors_hal: flush,260 handle 0
+12-17 19:31:42.396  1795  1809 I WindowManager: Finished screen turning on...
+12-17 19:31:42.396  1795  1825 I PowerManager_screenOn: DisplayPowerController Unblocked screen on after 523 ms
+12-17 19:31:42.396  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:42.396  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=1.0
+12-17 19:31:42.398  1795  1825 D DisplayPowerController: Animating brightness: target=27, rate=40
+12-17 19:31:42.398  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=1058
+12-17 19:31:42.398  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:42.398  1795  2750 I HwLightsService: back light level before map = 1058
+12-17 19:31:42.398  1795  1825 D DisplayPowerController: Animating brightness: target=27, rate=40
+12-17 19:31:42.398  1795  1825 V KeyguardServiceDelegate: onScreenTurnedOn()
+12-17 19:31:42.398  1795  1825 I WindowManger_keyguard: onScreenTurnedOn()
+12-17 19:31:42.398  1795  1825 D DisplayPowerController: Display ready!
+12-17 19:31:42.398  1795  1825 D DisplayPowerController: Finished business...
+12-17 19:31:42.398  2852  2866 D KeyguardService: Caller checkPermission fail
+12-17 19:31:42.398  2852  2866 D KeyguardService: KGSvcCall onScreenTurnedOn.
+12-17 19:31:42.398  2852  2866 D KeyguardViewMediator: notifyScreenTurnedOn
+12-17 19:31:42.399  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOn
+12-17 19:31:42.399  2852  2852 I PhoneStatusBar: onScreenTurnedOn
+12-17 19:31:42.399  2852  2852 D KGWallpaper_Magazine: getNextIndex: 0; from 5 to 5; size: 44
+12-17 19:31:42.399  2852  2852 I HwLockScreenReporter: report msg is :{picture: Deepwater-05-2.3.001-bigpicture_05_8.jpg}
+12-17 19:31:42.399  2852  2852 W HwLockScreenReporter: report result = falsereport type:162 msg:{picture: Deepwater-05-2.3.001-bigpicture_05_8.jpg, channelId: 05}
+12-17 19:31:42.399  2852  2852 I OucScreenOnCounter: Screen already turned on at: 1481974212
+12-17 19:31:42.399  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:31:42.400  1795  1825 D FpDataCollector: case xxx, not a fingerprint unlock 
+12-17 19:31:42.400  1795  1825 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:42.400  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeFinished mInteractiveChanging=true, mInteractive=true
+12-17 19:31:42.400  2852  2852 I HwBrightnessUtils: APS brightness=26.0,ConvertToPercentage=0.25860584
+12-17 19:31:42.400  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:26 percentage:0.25860584
+12-17 19:31:42.400  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:2586
+12-17 19:31:42.400  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:2586
+12-17 19:31:42.400  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2586 fromUser:false
+12-17 19:31:42.400  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2586 fromUser:false
+12-17 19:31:42.401  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:42.403  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:31:42.403  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen off event
+12-17 19:31:42.410  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = false, mIsPreScrnOn = true, mScrnSwitchTime = 1481974301475, occurTime = 1481974302408, delta = 933, mScrnOffAccTime = 1730041, mScrnOnAccTime = 107017
+12-17 19:31:42.410  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1730041, mScrnOffAccTime = 1730041, mScrnOnAccTime = 107950
+12-17 19:31:42.411  1795  2371 E LightSensor: read Events lux: 14.0
+12-17 19:31:42.412  1795  1825 D AutomaticBrightnessController: ambient lux=14.0,timeStamp =442838775237000
+12-17 19:31:42.415  3626  3626 I iMonitor: create: 903001010
+12-17 19:31:42.417  3626  3626 I iMonitor: send: 903001010
+12-17 19:31:42.417   818  1152 I logserver: handle_exception_events enter
+12-17 19:31:42.418  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:31:42.419  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_OFF
+12-17 19:31:42.419  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:31:42.426  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_OFF
+12-17 19:31:42.427  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:31:42.436  1795  3110 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:0
+12-17 19:31:42.454  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.439679 Y: 6.981345 Z: -1.418021  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:42.460  1795  2728 D HwArpVerifier: getGateWayARPResponses: arp rtt = 14
+12-17 19:31:42.460  1795  2728 E HwCHRWifiRSSIGroupSummery: updatArpSummery mRSSI:-55  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=64, rtt_tcp_duration=525, rtt_lan_duration=154, rtt_lan_failures=0, rtt_lan_succ=3, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:31:42.463 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_OFF
+12-17 19:31:42.496  1795  1795 I PowerManager_screenOn: PowerManagerNotifier Sending wake up broadcast.
+12-17 19:31:42.496  1795  1795 I SendBroadcastPermission: action:android.intent.action.SCREEN_ON, mPermissionType:0
+12-17 19:31:42.500  1795  1805 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:31:42.502  1795  1795 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:31:42.502  1795  1795 I ActivityManager_broadcast: Enqueueing ordered broadcast[foreground] BroadcastRecord{f68be87 u-1 android.intent.action.SCREEN_ON}: prev had 0
+12-17 19:31:42.502  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [foreground] BroadcastRecord{f68be87 u-1 android.intent.action.SCREEN_ON}, has 57 receivers
+12-17 19:31:42.505  1795  2377 I AwareLog: AwareMem_DMEServer: start
+12-17 19:31:42.505  1795  2377 I AwareLog: AwareMem_EventTracker: [SCREEN_ON_1481974302505] is abandoned for memory 830512
+12-17 19:31:42.507  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_ON
+12-17 19:31:42.507  1795  2668 D WifiP2pService: InactiveState143466
+12-17 19:31:42.507  1795  2668 E HwWifiP2pService: Unhandled message when=123015678 what=143466 arg1=0 arg2=0
+12-17 19:31:42.507  1795  2668 D WifiP2pService: P2pEnabledState when=123015678 what=143466 arg1=0 arg2=0
+12-17 19:31:42.507  1795  2668 D WifiP2pService: DefaultState{ when=-1ms what=143466 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:31:42.507  1795  2668 D HwWifiP2pService: cancel alarm.
+12-17 19:31:42.512  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:31:42,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:31:42.512  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:31:42,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:31:42.512  1795  2671 D WifiStateMachine:  ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123015684/442838876 1 0
+12-17 19:31:42.512  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123015684/442838876 1 0
+12-17 19:31:42.512  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SCREEN_STATE_CHANGED  rt=123015684/442838876 1 0
+12-17 19:31:42.512  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SCREEN_STATE_CHANGED  rt=123015684/442838876 1 0

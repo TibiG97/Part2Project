@@ -1,0 +1,100 @@
+12-17 19:37:17.133  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:37:17.183  3782 20757 V AudioManager: isMusicActive...
+12-17 19:37:17.184  3782 20757 V AudioManager: isWiredHeadsetOn...
+12-17 19:37:17.249  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:37:25.642   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 26
+12-17 19:37:25.642   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:37:25.643   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:37:25.644  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 443181952621473 1000}
+12-17 19:37:25.646  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 443181952621473 1000}
+12-17 19:37:25.647   802   802 E Thermal-daemon: [ap] temp_new :25  temp_old :27
+12-17 19:37:25.647  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:37:25.648  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass active 1 443181952621473 1000
+12-17 19:37:25.649  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:37:25.649  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:37:25.649  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:37:25.649  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:37:25.649  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:37:25.649  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:37:25.649  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:37:25.649  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:37:25.649  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:37:25.650  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:37:25.650  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:37:25.650  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:37:25.650  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:37:25.650   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:37:25.650   802   802 E Thermal-daemon: Report temperature: [ap] temp :25  report_threshold:1
+12-17 19:37:25.651  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:37:25.651  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:37:25.651  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:37:25.651  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:37:25.651  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:37:25.651  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:37:25.651  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:37:25.651  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:37:25.651  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:37:25.651  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:37:25.652  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:37:25.652  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:37:25.652  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:37:25.652  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:37:25.652  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:37:25.657  1795 17832 D PowerManagerService: acquire lock=157725228, flags=0x1, tag="WakerLock:192052083", name=com.tencent.mm, ws=null, uid=10105, pid=4634
+12-17 19:37:25.657  1795 17832 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:37:25.657  1795 17832 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:37:25.668  4634  4634 I SendBroadcastPermission: action:null, mPermissionType:0
+12-17 19:37:25.669  1795  3249 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{6be12e7 4634:com.tencent.mm:push/u0a105}, intent:null, receiver size:1, flags: 10000400
+12-17 19:37:25.669  1795  3249 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { flg=0x10 cmp=com.tencent.mm/.booter.NotifyReceiver (has extras) } on bgkeyapp queue
+12-17 19:37:25.670  1795  3249 I ActivityManager_broadcast: Enqueueing ordered broadcast[bgkeyapp] BroadcastRecord{50b74f5 u0 null}: prev had 0
+12-17 19:37:25.670  1795  1812 I ActivityManager_broadcast: dispatch ordered broadcast [bgkeyapp] BroadcastRecord{50b74f5 u0 null}, has 1 receivers
+12-17 19:37:25.687  4492  4512 I SendBroadcastPermission: action:com.tencent.mm.ACTION.note_tracemsg_lock, mPermissionType:0
+12-17 19:37:25.688  1795  6988 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ACTION.note_tracemsg_lock flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:37:25.690  1795  3247 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:37:25.691  1795 15988 D PowerManagerService: acquire lock=234988170, flags=0x1, tag="WakerLock:73762469", name=com.tencent.mm, ws=null, uid=10105, pid=4492
+12-17 19:37:25.691  1795 15988 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:37:25.807  4492  4512 W System.err: text not in xml format
+12-17 19:37:25.832  4492  4512 W System.err: text not in xml format
+12-17 19:37:25.897  1795  6986 D PowerManagerService: acquire lock=116683003, flags=0x1, tag="WakerLock:218529747", name=com.tencent.mm, ws=null, uid=10105, pid=4634
+12-17 19:37:25.897  1795  6986 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:37:25.907  4492  4512 I SendBroadcastPermission: action:com.tencent.mm.ACTION.note_tracemsg_unlock, mPermissionType:0
+12-17 19:37:25.908  1795 16499 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ACTION.note_tracemsg_unlock flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:37:25.910  1795 16501 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:37:25.910  1795 11747 I AlarmManager: remove(PendingIntent{da2c518: PendingIntentRecord{c2780ac com.tencent.mm broadcastIntent}}) changed bounds; rebatching
+12-17 19:37:25.913  1795  3121 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:37:25.914  1795 20747 D PowerManagerService: release:lock=234988170, flg=0x0, tag="WakerLock:73762469", name=com.tencent.mm", ws=null, uid=10105, pid=4492
+12-17 19:37:25.914  1795 20747 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:37:25.916  1795  3139 I AlarmManager: set(PendingIntent{eeb6b71: PendingIntentRecord{f5f5d56 com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443452278 win=202498 tElapsed=443452278 maxElapsed=443654776 interval=0 flags=0x8
+12-17 19:37:25.917  1795 11746 D PowerManagerService: acquire lock=9380311, flags=0x1, tag="WakerLock:188385320", name=com.tencent.mm, ws=null, uid=10105, pid=4634
+12-17 19:37:25.918  1795 11746 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:37:25.988  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:37:26.009  4492  4492 V AudioManager: getRingerMode...
+12-17 19:37:26.025  4492  4492 V AudioManager: isWiredHeadsetOn...
+12-17 19:37:26.031  1795  2778 I AppOpsResource: CallBack is Overload  id=10105 OverloadNumber=41 threshold=200
+12-17 19:37:26.037  4492  4492 I MediaPlayer: setDataSource(157, 0, 576460752303423487)
+12-17 19:37:26.039   814  3102 I MediaPlayerService: MediaPlayerService::Client::setDataSource local file://?FileDescriptor=13&Offset=0&Length=20362&Path=/data/system_de/0/ringtones
+12-17 19:37:26.040   814  3102 D NuPlayer: codec of amr-wb is disabled!
+12-17 19:37:26.040   814  3102 D NuPlayer: hw fadein is disabled!
+12-17 19:37:26.042   814 20794 V NuPlayer: kWhatSetAudioSink
+12-17 19:37:26.042   814 20794 V NuPlayer: kWhatSetDataSource
+12-17 19:37:26.043  4492  4492 V AudioManager: getStreamVolume  treamType: 5
+12-17 19:37:26.064  4492  4492 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:37:26.067  4492  4492 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:37:26.071  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:37:26.072  1795  3249 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:37:26.079  1795  2728 D hw_netstat: total/977/596,com.tencent.mm/802/369,android.uid.system:1000/71/175,unknown:0/52/52,com.huawei.espacev2/52/0
+12-17 19:37:26.083  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=6  WEBRESENDSEGS=0  WEBRECVSEGS=4  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=9  WEBRTTSEGS=3  WEBSRTT=240  WEBSNDDUPACKS=0  SENDSEGS=0  RESENDSEGS=0  RECVSEGS=1  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=1  RTTDURATION=0  RTTSEGS=0  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:37:26.083  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-45  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=101, rtt_tcp_duration=852, rtt_lan_duration=223, rtt_lan_failures=0, rtt_lan_succ=7, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:37:26.083  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:37:26.083  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:37:26.086  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:37:26.088  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=6, mTXbad=0, mRXGood=3] rssi=-45
+12-17 19:37:26.089  1795  2728 E HwCHRWebMonitor: running processName=com.huawei.android.launcher
+12-17 19:37:26.091  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.huawei.espacev2 UID=10102  WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:37:26.092  4492  4492 V AudioManager: getRingerMode...
+12-17 19:37:26.092  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.tencent.mm UID=10105  WEBSENDSEGS=2  WEBRESENDSEGS=0  WEBRECVSEGS=2  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=1  WEBRTTSEGS=1  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:37:26.092  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:37:26.092  1795  2728 D HwArpVerifier: mAccessWebStatus : mRxSleepCnt = 1
+12-17 19:37:26.093  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 4, tx = 6
+12-17 19:37:26.093  1795  2728 D HwArpVerifier: AccessWebStatus : reset all
+12-17 19:37:26.096  7741  7758 D TmoMonitor: Cache monitor msg as screen_off

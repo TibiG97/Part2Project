@@ -1,0 +1,100 @@
+12-17 19:34:57.933  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:34:57.934  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:34:57.934  3218  3234 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:34:57.935  3218  3234 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:34:57.937  3858  4126 I amsnl   : csr
+12-17 19:34:57.937  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:34:57.939  1795 15988 D wifiserviceimpl: netmask =16580607
+12-17 19:34:57.939  3858  4126 I amsnl   : m1: false
+12-17 19:34:57.940  1795 11746 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:34:57.940  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:34:57.941  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:34:57.941  3858  4126 I amsnl   : csr
+12-17 19:34:57.941  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:34:57.942  1795  6986 D wifiserviceimpl: netmask =16580607
+12-17 19:34:57.943  3858  4126 I amsnl   : m1: false
+12-17 19:34:57.943  1795 16499 D PowerManagerService: release:lock=40278605, flg=0x0, tag="RILJ_ACK_WL", name=com.android.phone", ws=null, uid=1001, pid=3218
+12-17 19:34:57.943  1795 16499 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.943  1795 16499 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:34:57.944  1795  3237 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:34:57.944  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:34:57.944  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:34:57.954  3626  3753 I LogCollectService: only write eventinfo.log
+12-17 19:34:57.963  1795  1821 V WindowManager: dont Save surface because FLAG_DESTORY_SURFACE
+12-17 19:34:57.963  1795  1821 I WindowManager: Destroying surface Surface(name=com.android.incallui/com.android.incallui.InCallActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2056 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:907 com.android.server.wm.WindowState.destroyOrSaveSurface:2174 com.android.server.wm.AppWindowToken.destroySurfaces:366 com.android.server.wm.WindowStateAnimator.finishExit:587 com.android.server.wm.AppWindowAnimator.stepAnimationLocked:434 com.android.server.wm.WindowAnimator.updateAppWindowsLocked:182 com.android.server.wm.WindowAnimator.animateLocked:712 
+12-17 19:34:57.965  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -0.886768 Y: 5.758231 Z: 7.644994  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:58.025  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -0.818713 Y: 4.752524 Z: 8.492269  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:58.086  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -0.754428 Y: 4.930212 Z: 7.305143  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:58.109   625   718 E libnav  : CablComputeBacklightLevel(): UpdateType = DifferentSceneUpdate
+12-17 19:34:58.121  1795  1821 I WindowManager: Destroying surface Surface(name=) called by com.android.server.wm.WindowStateAnimator.destroySurface:2056 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:907 com.android.server.wm.WindowState.destroyOrSaveSurface:2174 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementInner:511 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementLoop:285 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:227 com.android.server.wm.WindowManagerService$H.handleMessage:8621 android.os.Handler.dispatchMessage:102 
+12-17 19:34:58.143  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -0.147601 Y: 5.015296 Z: 7.401052  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:58.199  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:34:58.199  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:34:58.199  1795  2748 D HwAmbientLuxFilterAlgo: t=123095816,BT=123096316,DT=123096816,BT1=123099816,DT1=123103816,Bn=false,Dn=false,lx=[44.0/123094313, 46.0/123094613, 46.0/123094914, 40.0/123095215, 39.0/123095515, 39.0/123095816],mLx=53.0,s=5.0,ss=7.1540613,AuIntervened=false,mProximityState=false,bLux=404.0,dLux=20.0,bLux1=404.0,dLux1=20.0
+12-17 19:34:58.203  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -0.063480 Y: 5.268607 Z: 6.738124  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:58.217  1795  1825 D AutomaticBrightnessController: ambient lux=66.0,timeStamp =443034579483000
+12-17 19:34:58.501  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:34:58.501  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:34:58.590  1795  1825 D AutomaticBrightnessController: ambient lux=95.0,timeStamp =443034953027000
+12-17 19:34:58.612  1795  2381 D libfingersense_wrapper: Calling fingersense_classify_touch()
+12-17 19:34:58.618  1795  2381 D libfingersense_wrapper: fingersense_classify_touch() finished
+12-17 19:34:58.619  1795  2380 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123096228, event=2, flags=0x0, uid=1000
+12-17 19:34:58.619  1795  2380 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=2, uid=1000
+12-17 19:34:58.619  1795  2380 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:58.620  2852  2852 I SlideTouchEvent: handleTouchEvent:MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=231.0, y[0]=97.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=123096228, downTime=123096228, deviceId=10, source=0x1002 }
+12-17 19:34:58.620  2852  2852 I PhoneStatusBar: suspendAutohide
+12-17 19:34:58.620  2852  2852 I vol.VolumeDialogControl: C onDismissRequested reason = 2
+12-17 19:34:58.620  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:34:58.620  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_OPAQUE, animate=false
+12-17 19:34:58.620  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=0, isEmuiStyle=false
+12-17 19:34:58.620  2852  2852 I TintImageView: onTouchEvent: code=4, action=0, event=MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=21.0, y[0]=97.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=123096228, downTime=123096228, deviceId=10, source=0x1002 }
+12-17 19:34:58.621  2852  2852 I TintImageView: sendEvent:action=0, flag=0
+12-17 19:34:58.621  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onDismissRequested reason = 2
+12-17 19:34:58.622  1795  3884 D KeyEvent: obtain, mHwFlags=0
+12-17 19:34:58.622  1795  3884 D HwCustPhoneWindowManager: answer call by keyCode = 4, down = true, isSupVolumnkeyAnswerCall = false
+12-17 19:34:58.622  1795  3884 I PowerManager_screenOn: HwPhoneWindowManager has intercept Key : 4, isdown : true, flags : 72
+12-17 19:34:58.622  1795  3884 D WindowManager: interceptKeyTq keycode=4 interactive=true keyguardActive=false policyFlags=2b000002 down true canceled false
+12-17 19:34:58.622  1795  3884 D WindowManager: interceptKeyBeforeQueueing: key 4 , result : 1
+12-17 19:34:58.622  1795  2380 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123096238, event=1, flags=0x0, uid=1000
+12-17 19:34:58.622  1795  2380 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=1, uid=1000
+12-17 19:34:58.623  1795  2380 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:58.623  1795  2380 D KeyEvent: obtain, mHwFlags=1874117200
+12-17 19:34:58.623  1795  2380 I TransactionSponsor: Transact:getHwAdminCachedValue to device policy manager service.
+12-17 19:34:58.623  1795  2380 I TransactionProcessor: HwDPMS received transaction_isHwFrameworkAdminAllowed, the ret: false
+12-17 19:34:58.624  1795  1809 D KeyEvent: obtain, mHwFlags=0
+12-17 19:34:58.624   633   633 D KeyEvent: obtain, mHwFlags=0
+12-17 19:34:58.624  4690  4690 D KeyEvent: obtain, mHwFlags=-1291845632
+12-17 19:34:58.625  1795  2778 I ActivityManager: moveTaskToBack: TaskRecord{da7d076 #370 A=com.huawei.espacev2 U=0 StackId=1 sz=1}
+12-17 19:34:58.625  1795  2778 I ActivityManager_activity: inValidate task: TaskRecord{35d0d96 #359 A=com.tencent.mm U=0 StackId=1 sz=0}
+12-17 19:34:58.631  1795  2778 I ActivityManager_activity: moveTaskToBack, setTaskToReturnTo: taskToReturnTo=1numTasks=7,isOnHomeDisplay=true,isOverHomeStack=true, prevIsHome=true
+12-17 19:34:58.631  1795  2778 I ActivityManager_activity: moveTaskToBack, resuming home stack
+12-17 19:34:58.631  1795  2778 I ActivityManager_activity: insertTaskAtTop, setTaskToReturnTo: fromHome=false,lastStackTop=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=1}, isHomeStack=true, topTask=TaskRecord{37babfb #297 A=com.huawei.android.launcher U=0 StackId=0 sz=1}, task=TaskRecord{37babfb #297 A=com.huawei.android.launcher U=0 StackId=0 sz=1}
+12-17 19:34:58.635  1795  2778 V HwWindowManagerService: moveTaskToTop mTaskChanged:true
+12-17 19:34:58.635  1795  2778 V HwWindowManagerService: setFocusedApp update app ops, mTaskChanged set to:false
+12-17 19:34:58.635  1795  2778 I FreezeScreenScene: scheduleCheckFreezeScreen sendMessageDelayed
+12-17 19:34:58.635  1795  2778 I ActivityManager_activity: Start pausing: ActivityRecord{62a5344 u0 com.huawei.espacev2/com.huawei.espace.module.main.ui.MainActivity t370}
+12-17 19:34:58.636  1795  2778 D PowerManagerService: acquire lock=230301592, flags=0x1, tag="*launch*", name=android, ws=WorkSource{10061}, uid=1000, pid=1795
+12-17 19:34:58.636  1795  2778 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:58.636  1795  2778 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:34:58.637  1795  2778 I ActivityManager_activity: resumeTopActivityLocked: Skip resume: need to start pausing
+12-17 19:34:58.638   633   633 D KeyEvent: obtain, mHwFlags=0
+12-17 19:34:58.638   633   633 W ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123096248, downTime=123096238, deviceId=-1, source=0x101 }
+12-17 19:34:58.638   633   633 W ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123096248, downTime=123096238, deviceId=-1, source=0x101 }
+12-17 19:34:58.638   633   633 W ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123096248, downTime=123096238, deviceId=-1, source=0x101 }
+12-17 19:34:58.639  4690  4690 D KeyEvent: obtain, mHwFlags=-1291845632
+12-17 19:34:58.639   633   633 W ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123096248, downTime=123096238, deviceId=-1, source=0x101 }
+12-17 19:34:58.639   633   633 W ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123096248, downTime=123096238, deviceId=-1, source=0x101 }
+12-17 19:34:58.639   633   633 W ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123096248, downTime=123096238, deviceId=-1, source=0x101 }
+12-17 19:34:58.639   633   633 W ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123096248, downTime=123096238, deviceId=-1, source=0x101 }
+12-17 19:34:58.639   633   633 W ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123096248, downTime=123096238, deviceId=-1, source=0x101 }
+12-17 19:34:58.639   633   633 W ViewRootImpl[MainActivity]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123096248, downTime=123096238, deviceId=-1, source=0x101 }
+12-17 19:34:58.655  1795  1805 I ActivityManager_activity: Moving to PAUSED: ActivityRecord{62a5344 u0 com.huawei.espacev2/com.huawei.espace.module.main.ui.MainActivity t370} (pause complete)
+12-17 19:34:58.656   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:34:58.668  1795  1805 I WindowManager: Taking screenshot from Surface with crop:[Rect(0, 72 - 1080, 1800)], width:[648], height:[1036], minLayer:[21005], maxLayer:[21005], inRotation:[false], rot:[0]
+12-17 19:34:58.691  1795  1805 I ActivityManager_activity: completedResumed: ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297}, launchTrack: activityPaused resumeTopComplete
+12-17 19:34:58.692  3180  3578 D HwMultiWindowEx: isInMultiWindowMode ret: 0
+12-17 19:34:58.692  3180  3578 I ash     : running package: com.huawei.espacev2, visible: false
+12-17 19:34:58.695  3879  3879 I HwLauncher: Launcher onStart()
+12-17 19:34:58.695  3879  3879 I HwLauncher: Launcher dynamicIconsRegister
+12-17 19:34:58.695  3879  3879 I HwLauncher: DynamicUpdater registerReceiver
+12-17 19:34:58.696   633   633 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null

@@ -1,0 +1,100 @@
+12-17 19:48:16.341   633 21014 I SDK     : 
+12-17 19:48:16.342  1795  1807 D NetworkPolicy: updateRulesForGlobalChangeLocked(false) took 60005ms
+12-17 19:48:16.343 16354 21005 I HwSystemManager: SavingSettingUtil:the pkgname = com.tencent.mm is exist!
+12-17 19:48:16.343 16354 21005 I HwSystemManager: HandlePowerStatistic:notificationShowJudger highWakeUpPkg = false
+12-17 19:48:16.343 16354 21005 I HwSystemManager: HandlePowerStatistic:uap.power 0.32455555555555554 uap.uid=10018
+12-17 19:48:16.347  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:48:16.350  1795  1807 I SendBroadcastPermission: action:android.os.action.LIGHT_DEVICE_IDLE_MODE_CHANGED, mPermissionType:0
+12-17 19:48:16.352  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:48:16.352  2852  2852 W PanelView: set notification panel padding = 1675
+12-17 19:48:16.353  2852  2852 W PanelView: set notification panel padding = 1675
+12-17 19:48:16.353  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:48:16.353  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:48:16.353  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:48:16.353  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:48:16.353  2852  2852 W PanelView: set notification panel padding = 1675
+12-17 19:48:16.353  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:48:16.353  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:48:16.354  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:48:16.354  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:48:16.356  2852  2852 W HwLockScreenPanel: Handle message: 4
+12-17 19:48:16.357  1795  1807 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:48:16.359  3782  3782 E DpmApi  : enableTrigger 
+12-17 19:48:16.359  3782  3782 E DpmApi  : enableTriggerMethod 
+12-17 19:48:16.377 16354 21005 I HwSystemManager: SavingSettingUtil:the pkgname = com.huawei.phoneservice is exist!
+12-17 19:48:16.377 16354 21005 I HwSystemManager: HandlePowerStatistic:notificationShowJudger highWakeUpPkg = false
+12-17 19:48:16.377 16354 21005 I HwSystemManager: HandlePowerStatistic:uap.power 0.09104166666666667 uap.uid=10126
+12-17 19:48:16.403 16354 21005 I HwSystemManager: SavingSettingUtil:the pkgname = com.huawei.hilink.framework is exist!
+12-17 19:48:16.404 16354 21005 I HwSystemManager: HandlePowerStatistic:notificationShowJudger highWakeUpPkg = false
+12-17 19:48:16.424  3626  3754 I LogDatabase: msg = 21 received
+12-17 19:48:16.444  3626  3754 I PackAutoLog: PackAutoLog onPrePack
+12-17 19:48:16.458  3626  3754 I LogDatabase: clearLog2 , eventidHead = 908000000eventidTail = 908999999
+12-17 19:48:16.458  3626  3754 I LogDatabase: clearLog2 , restrainFileNum = 128
+12-17 19:48:16.458  3626  3754 I FileUtils: restrainFilesNum, count = 128
+12-17 19:50:30.877  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:50:30.877  1795  2376 I AlarmManager: set again repeat alarm: next ,nextElapsed = 444264140,repeatInterval = 300000
+12-17 19:50:30.877  1795  2376 W AlarmManager: mIsScreenOn is: false, WAKEUP alarm trigger action = com.huawei.espace.pushcheck package name is: com.huawei.espacev2
+12-17 19:50:30.877  1795  2376 I AlarmManager: Alarm triggering (type 0 or 2): [Alarm{caeee84 type 0 when 1481975427776 com.huawei.espacev2}]
+12-17 19:50:30.878  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:50:30.878  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:50:30.878  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:50:30.878  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:50:30.878  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:50:30.878  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:50:30.878  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:50:30.878  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:50:30.878  1795  2376 I AlarmManager: sending alarm Alarm{13ff66d type 3 when 443816363 android},repeatInterval = 0,listenerTag =time_tick
+12-17 19:50:30.878  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:50:30.878  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[foreground] BroadcastRecord{a9f52a2 u-1 android.intent.action.TIME_TICK}: prev had 0
+12-17 19:50:30.878  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [foreground] BroadcastRecord{a9f52a2 u-1 android.intent.action.TIME_TICK}, has 11 receivers
+12-17 19:50:30.879  1795  2376 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:50:30.879  1795  2376 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:50:30.879  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:50:30.879  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:50:30.879  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:50:30.879  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:50:30.879  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:50:30.879  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:50:30.879  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:50:30.879  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:50:30.879  1795  1795 V AlarmManager: Received TIME_TICK alarm; rescheduling
+12-17 19:50:30.879  1795  1795 I AlarmManager: scheduleTimeTickEvent triggerAtTime = 443996363
+12-17 19:50:30.879  1795  2376 I AlarmManager: sending alarm Alarm{caeee84 type 0 when 1481975427776 com.huawei.espacev2},repeatInterval = 300000,listenerTag =null
+12-17 19:50:30.879  1795  2376 I ActivityManager_broadcast: collectReceiverComponents, callerApp: null, intent:com.huawei.espace.pushcheck, receiver size:1, flags: 10000400
+12-17 19:50:30.880  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{56e6ef0 u0 com.huawei.espace.pushcheck}: prev had 0
+12-17 19:50:30.880  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{56e6ef0 u0 com.huawei.espace.pushcheck}, has 1 receivers
+12-17 19:50:30.881  3180  3578 I ash     : com.baidu.input_huawei goes to hibernation overtime: 164586
+12-17 19:50:30.883  3180  3578 I AppManager: check dependency pid: 4690 is depended by pid: 1795
+12-17 19:50:30.883  3180  3578 I ash     : Application com.baidu.input_huawei is depended by other app, delay to H!
+12-17 19:50:30.884  2852  2852 I TimeManager: act:android.intent.action.TIME_TICK  flag:1342177300 FLAG_IS_FIRST_POWER_OFF_ALARM=false android.intent.extra.ALARM_COUNT=1 
+12-17 19:50:30.885  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:50:30.885  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:50
+12-17 19:50:30.885  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:50
+12-17 19:50:30.885  2852  2852 I TimeManager: chinaDateTime:晚上7:50
+12-17 19:50:30.886  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:50:30.886  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:50
+12-17 19:50:30.886  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:50
+12-17 19:50:30.886  2852  2852 I TimeManager: chinaDateTime:晚上7:50
+12-17 19:50:30.887  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:50:30.887  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:50
+12-17 19:50:30.887  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:50
+12-17 19:50:30.887  2852  2852 I TimeManager: chinaDateTime:晚上7:50
+12-17 19:50:30.887  1795  3249 D PowerManagerService: acquire lock=237604388, flags=0x1, tag="WakerLock:49171226", name=com.tencent.mm, ws=null, uid=10105, pid=4634
+12-17 19:50:30.887  1795  3249 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:50:30.887  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:50:30.887  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:50
+12-17 19:50:30.887  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:50
+12-17 19:50:30.887  2852  2852 I TimeManager: chinaDateTime:晚上7:50
+12-17 19:50:30.896 31949 31967 I PushService: main{1} PushService.onStartCommand(PushService.java:87) Push Service Start by  alarmCheck
+12-17 19:50:30.897  1795 16501 I AlarmManager: set(PendingIntent{3728c69: PendingIntentRecord{c3f6ee com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443987246 win=14989 tElapsed=443987246 maxElapsed=444002235 interval=0 flags=0x8
+12-17 19:50:30.898  1795 16498 D ConnectivityService: Returning blocked NetworkInfo to uid=10102
+12-17 19:50:30.898  1795 16501 I AlarmManager: remove(PendingIntent{2c0d78f: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) changed bounds; rebatching
+12-17 19:50:30.899  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:50:30.901 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.shutdown(TcpCirChannel.java:257) Login_By_Step-> shut down now connect
+12-17 19:50:30.902  1795  2728 D hw_netstat: total/1031/756,com.huawei.espacev2/827/460,unknown:0/127/139,com.tencent.mm/77/117,android.uid.system:1000/0/40
+12-17 19:50:30.903  1795 15982 I AlarmManager: set(PendingIntent{5638a1c: PendingIntentRecord{d1e8625 com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=444237262 win=202497 tElapsed=444237262 maxElapsed=444439759 interval=0 flags=0x8
+12-17 19:50:30.903 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:50:30.904  1795 11746 I AlarmManager: set(PendingIntent{87c93fa: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) : type=0 triggerAtTime=1481975730901 win=0 tElapsed=444267264 maxElapsed=444267264 interval=300000 flags=0x1
+12-17 19:50:30.904  2852  2852 W PanelView: set notification panel padding = 1675
+12-17 19:50:30.904  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=8  WEBRESENDSEGS=2  WEBRECVSEGS=1  WEBERRSEGS=0  WEBOUTRSTS=1  WEBESTABLISRST=1  WEBRTTDURATION=2  WEBRTTSEGS=1  WEBSRTT=280  WEBSNDDUPACKS=0  SENDSEGS=7  RESENDSEGS=0  RECVSEGS=3  ERRSEGS=0  OUTRSTS=2  ESTABLISRST=2  RTTDURATION=2  RTTSEGS=2  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:50:30.904  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-55  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=2569, rtt_tcp_duration=13022, rtt_lan_duration=230, rtt_lan_failures=0, rtt_lan_succ=8, rtt_lan_max=124, rtt_lan_min=7,same_area_frequency=0,adjacent_area_frequency=0]

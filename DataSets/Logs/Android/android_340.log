@@ -1,0 +1,100 @@
+12-17 19:35:25.811  4492  4492 W ViewRootImpl[LauncherUI]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x3, repeatCount=0, eventTime=123123342, downTime=123123305, deviceId=-1, source=0x101 }
+12-17 19:35:25.811  3879  3879 I HwLauncher: Launcher onStart()
+12-17 19:35:25.811  3879  3879 I HwLauncher: Launcher dynamicIconsRegister
+12-17 19:35:25.812  3879  3879 I HwLauncher: DynamicUpdater registerReceiver
+12-17 19:35:25.812  2883  2992 I HwSystemManager: NotificationGuideService:handle MSG_ACTIVIY_FOREGROUND, uid:10061
+12-17 19:35:25.812  4492  4492 W ViewRootImpl[LauncherUI]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x3, repeatCount=0, eventTime=123123342, downTime=123123305, deviceId=-1, source=0x101 }
+12-17 19:35:25.812  4492  4492 W ViewRootImpl[LauncherUI]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x3, repeatCount=0, eventTime=123123342, downTime=123123305, deviceId=-1, source=0x101 }
+12-17 19:35:25.813  4492  4492 W ViewRootImpl[LauncherUI]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x3, repeatCount=0, eventTime=123123342, downTime=123123305, deviceId=-1, source=0x101 }
+12-17 19:35:25.813  1795  1809 I MultiTaskManagerService: onForegroundActivitiesChanged pid = 3879, uid = 10061
+12-17 19:35:25.815  3180  3578 D HwMultiWindowEx: isInMultiWindowMode ret: 0
+12-17 19:35:25.815  3879  3879 I HwLauncher: DynamicUpdater call updateFolder
+12-17 19:35:25.815  3879  3879 I HwLauncher: DynamicIcon onResume  isvisible = false   mAttachedToWindow:true    mWindowVisible:falsecom.android.deskclock
+12-17 19:35:25.815  3879  3879 I HwLauncher: DynamicUpdater registerReceiver
+12-17 19:35:25.815  3180  3593 I BacklightControl: Ratio: 100 Auto: false
+12-17 19:35:25.816  3180  3578 I ash     : running package: com.tencent.mm, visible: false
+12-17 19:35:25.816  3879  3879 I HwLauncher: DynamicUpdater call updateFolder
+12-17 19:35:25.816  1795  6986 I LightsService: setLcdRatio ratio:100 autoAdjust:false
+12-17 19:35:25.816  3879  3879 I HwLauncher: DynamicIcon onResume  isvisible = false   mAttachedToWindow:true    mWindowVisible:falsecom.android.calendar
+12-17 19:35:25.816  3879  3879 I HwLauncher: DynamicUpdater registerReceiver
+12-17 19:35:25.818  3879  4071 E HwLauncher: SettingsEx , no such field.
+12-17 19:35:25.818  3879  4071 W HwLauncher: Clock getDataFormat the getSystemString failed.
+12-17 19:35:25.818  3879  3879 I HwLauncher: DynamicUpdater call updateFolder
+12-17 19:35:25.819  3879  3894 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=null][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=0] uid =10105 pid =4492
+12-17 19:35:25.819  3879  3879 I HwLauncher: DynamicIcon onResume  isvisible = true   mAttachedToWindow:false    mWindowVisible:falsecom.huawei.android.totemweather
+12-17 19:35:25.819  3879  3879 I HwLauncher: Launcher  Launcher.onStart() cost 7 ms
+12-17 19:35:25.819  3180  3578 I ThermalStateManager: handle action thermal policy:208
+12-17 19:35:25.819  3879  3879 I HwLauncher: Launcher onResume()
+12-17 19:35:25.820  3879  3879 I HwLauncher: Launcher doResumeWork()
+12-17 19:35:25.820  3879  4071 I HwLauncher: ClockDynamicUpdater clock update folder at ClockDynamicUpdater
+12-17 19:35:25.820  3879  4071 I HwLauncher: DynamicUpdater updateBitmap end and send update message
+12-17 19:35:25.820  3879  4071 I HwLauncher: WeatherDynamicUpdater positiveUpdate at WeatherDynamicUpdater
+12-17 19:35:25.822  3879  3894 I HwLauncher: ProviderCallUtils callBadge isCloned = false
+12-17 19:35:25.824  1795  3247 I HwNetworkPolicy: onTransact, code = 203
+12-17 19:35:25.825  2883  3258 I HwNetworkPolicyManager: getHwUidPolicy uid = 10061 policy = 0
+12-17 19:35:25.826  3879  3879 I HwLauncher: Launcher  onResume mIsToUninstallApp = false
+12-17 19:35:25.826  3879  3879 I HwLauncher: Launcher  Launcher hot start cost 14 ms
+12-17 19:35:25.829  3879  3879 I ActivityManager_activity: Resuming ActivityRecord{4679a0a token=android.os.BinderProxy@5462fa {com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}} with isForward=false,forwardBitChanged=false onlyLocalRequest=false
+12-17 19:35:25.831  1795  3121 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{c5c29c4 3879:com.huawei.android.launcher/u0a61}, flags: 10000400
+12-17 19:35:25.831  1795  3121 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{7e189db u0 euid: 0 com.huawei.android.totemweather/.service.WeatherService}, euid: 0
+12-17 19:35:25.832  1795  3249 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:25.834 16628  1435 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:25.835 16628  1435 I SendBroadcastPermission: action:com.huawei.android.action.launcher_weather_icon_change, mPermissionType:0
+12-17 19:35:25.836  1795  3238 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{fddc75d 16628:com.huawei.android.totemweather/u0a28}
+12-17 19:35:25.837 16628 16628 D HwCust  : Create obj success use class com.huawei.android.totemweather.utils.HwCustTotemLocationImpl
+12-17 19:35:25.838  3879 11576 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=[shortcut_c2a51ac39f4ec2a0c386c385c2b37ac2a040c3a7c289c3bec28b547dc2b0c2a6]][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=0] uid =10105 pid =4492
+12-17 19:35:25.842  1795  3225 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{773320 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher},EmuiStyle=-1,StatusBarColor=0xfffcfcfc,NavigationBarColor=0x0, mLastIsEmuiLightStyle=-1
+12-17 19:35:25.843  1795  1809 D HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+12-17 19:35:25.843  1795  3225 I WindowManger_windowChange: oldFocusWindow: null, currentFocusWindow: Window{773320 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}, currentFocusApp: AppWindowToken{dcf0cd7 token=Token{1e09e71 ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297}}}
+12-17 19:35:25.843  2852  3328 I CommandQueue: updateBarBgColor
+12-17 19:35:25.843  2852  3328 D CommandQueue: CommandQueue, setBarBackgroundColor
+12-17 19:35:25.844  2852  2852 I TintManager: updateBarBgColor:emuiStyle=-1,statusBarColor=#FFFCFCFC,navigationBarColor=#00000000, isEmuiLight=-1
+12-17 19:35:25.844  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:35:25.844  2852  2852 I HwNavigationBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:35:25.845  2852  2852 D TintManager: statusBarIconTint=#B3000000,navigationBarIconTint=#00000000
+12-17 19:35:25.847  1795  2381 D libfingersense_wrapper: Calling fingersense_touch_up()
+12-17 19:35:25.847  1795  2381 D libfingersense_wrapper: fingersense_touch_up() finished
+12-17 19:35:25.849  2852  2852 I SlideTouchEvent: handleTouchEvent:MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=319.0, y[0]=79.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=123123465, downTime=123123292, deviceId=10, source=0x1002 }
+12-17 19:35:25.849  2852  2852 I SlideTouchEvent: vel=0.0, MinimumFlingVelocity=150
+12-17 19:35:25.849  2852  2852 I PhoneStatusBar: resumeSuspendedAutohide
+12-17 19:35:25.849  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:35:25.849  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:35:25.849  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=4, isEmuiStyle=false
+12-17 19:35:25.849  2852  2852 I TintImageView: onTouchEvent: code=4, action=1, event=MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=109.0, y[0]=79.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=123123465, downTime=123123292, deviceId=10, source=0x1002 }
+12-17 19:35:25.849  2852  2852 I TintImageView: sendEvent:action=1, flag=0
+12-17 19:35:25.850  1795 20747 D KeyEvent: obtain, mHwFlags=0
+12-17 19:35:25.850  1795 20747 D HwCustPhoneWindowManager: answer call by keyCode = 4, down = false, isSupVolumnkeyAnswerCall = false
+12-17 19:35:25.850  3879  4160 I Adreno  : QUALCOMM build                   : b6ac907, Ica15e0da0a
+12-17 19:35:25.850  3879  4160 I Adreno  : Build Date                       : 11/09/16
+12-17 19:35:25.850  3879  4160 I Adreno  : OpenGL ES Shader Compiler Version: XE031.09.00.03
+12-17 19:35:25.850  3879  4160 I Adreno  : Local Branch                     : 
+12-17 19:35:25.850  3879  4160 I Adreno  : Remote Branch                    : 
+12-17 19:35:25.850  3879  4160 I Adreno  : Remote Branch                    : 
+12-17 19:35:25.850  3879  4160 I Adreno  : Reconstruct Branch               : 
+12-17 19:35:25.850  1795 20747 I PowerManager_screenOn: HwPhoneWindowManager has intercept Key : 4, isdown : false, flags : 72
+12-17 19:35:25.850  1795 20747 D WindowManager: interceptKeyTq keycode=4 interactive=true keyguardActive=false policyFlags=2b000002 down false canceled false
+12-17 19:35:25.850  1795 20747 D WindowManager: interceptKeyBeforeQueueing: key 4 , result : 1
+12-17 19:35:25.851  2852  2914 V AudioManager: querySoundEffectsEnabled...
+12-17 19:35:25.853  1795  2380 D KeyEvent: obtain, mHwFlags=1874117200
+12-17 19:35:25.853  1795  2380 I TransactionSponsor: Transact:getHwAdminCachedValue to device policy manager service.
+12-17 19:35:25.854  1795  2380 I TransactionProcessor: HwDPMS received transaction_isHwFrameworkAdminAllowed, the ret: false
+12-17 19:35:25.854  3879  3879 I HwLauncher: DynamicUpdater call updateFolder
+12-17 19:35:25.854  1795  1809 D KeyEvent: obtain, mHwFlags=0
+12-17 19:35:25.854  3879  3879 D KeyEvent: obtain, mHwFlags=0
+12-17 19:35:25.854  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123123467, downTime=123123305, deviceId=-1, source=0x101 }
+12-17 19:35:25.854  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123123467, downTime=123123305, deviceId=-1, source=0x101 }
+12-17 19:35:25.854  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123123467, downTime=123123305, deviceId=-1, source=0x101 }
+12-17 19:35:25.854  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123123467, downTime=123123305, deviceId=-1, source=0x101 }
+12-17 19:35:25.854  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123123467, downTime=123123305, deviceId=-1, source=0x101 }
+12-17 19:35:25.854  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123123467, downTime=123123305, deviceId=-1, source=0x101 }
+12-17 19:35:25.855  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123123467, downTime=123123305, deviceId=-1, source=0x101 }
+12-17 19:35:25.855  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123123467, downTime=123123305, deviceId=-1, source=0x101 }
+12-17 19:35:25.855  3879  3879 W ViewRootImpl[UniHomeLauncher]: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x68, hwFlags=0x0, repeatCount=0, eventTime=123123467, downTime=123123305, deviceId=-1, source=0x101 }
+12-17 19:35:25.855  3879  3879 I HwLauncher: WeatherDynamicUpdater receive action = com.huawei.android.action.launcher_weather_icon_change
+12-17 19:35:25.855  3879  4071 I HwLauncher: WeatherDynamicUpdater receiver data is int[] = [0, 0, 96, 192, 96, 192, 96, 192] ; stringArray[] = [sunny, num1, num7, tempc] ; dynamic_gravity = center
+12-17 19:35:25.855  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[0] = sunny:0, 0, 0
+12-17 19:35:25.861  3879  4071 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:25.861  3879  4201 I TotemWeather: WidgetDataManager:my location is 77666
+12-17 19:35:25.862  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[1] = num1:96, 192, 0
+12-17 19:35:25.862  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[2] = num7:96, 192, 0
+12-17 19:35:25.862  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[3] = tempc:96, 192, 0

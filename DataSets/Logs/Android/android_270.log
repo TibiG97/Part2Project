@@ -1,0 +1,100 @@
+12-17 19:33:43.490  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:33:43.490  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:33:43.491  3608  3608 D InCall  : InCallPresenter - notifyInCallScreenIsForeground: false
+12-17 19:33:43.491  3608  3608 I SendBroadcastPermission: action:InCallScreenIsForegroundActivity, mPermissionType:0
+12-17 19:33:43.492  1795 20747 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{ec55919 3608:com.android.incallui/1001}
+12-17 19:33:43.492  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:33:43.492  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:33:43.492  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:33:43.494  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:33:43.494  5215  5215 E wpa_supplicant: RSSI=-58;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:33:43.494  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:33:43.494  1795 17832 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:43.494  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:33:43.495  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:43.495  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-57 "Huawei-Employee"WPA_EAP
+12-17 19:33:43.495  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:33:43.495  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:33:43.495  1795  3247 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:43.496  2852  2852 D ReporterUtil:  e id:344 type:{pkg:com.android.incallui}
+12-17 19:33:43.496  2852  2852 V KeyguardUpdateMonitor: KGSvcFp onAuthenticationAcquired.2001
+12-17 19:33:43.497  2852  2852 I EventCenter: EventCenter Get :android.com.huawei.bone.NOTIFY_SPORT_DATA
+12-17 19:33:43.497  2852  2852 D StepCounterView: onStepCounterChange stepsNum:4211
+12-17 19:33:43.497  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:33:43.497  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)) important=2, post=1481974423391, when=1481531589202, vis=0, userid=0
+12-17 19:33:43.497  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onScreenOff
+12-17 19:33:43.497  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_OFF  flag:1342177296 
+12-17 19:33:43.497  1795  2739 D HuaweiWifiWatchdogStateMachine: LM mrssi=-58
+12-17 19:33:43.497  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current loss[-58]=0%, volume=7
+12-17 19:33:43.497  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history loss[-58]=0%, volume=28887
+12-17 19:33:43.498  1795  1795 D WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -58
+12-17 19:33:43.498  1795  2739 I HuaweiWifiWatchdogStateMachine: spd good count:0, add sc:0.0, rate:1.0
+12-17 19:33:43.498  1795  2739 I HuaweiWifiWatchdogStateMachine: current mHighDataFlowRate = 1.0
+12-17 19:33:43.498  1795  1795 I QosMonitor: queryRtt: rtt_type = 3
+12-17 19:33:43.498  1795  2739 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 7, 0. Lr =0% Totpkt=7
+12-17 19:33:43.498  1795  1795 I WifiProJNI: ######### GET RTT:3 ########
+12-17 19:33:43.498  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=7
+12-17 19:33:43.498  1795  1795 I WifiProJNI: ######### CMD_QUERY_PKTS ########
+12-17 19:33:43.498  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=1
+12-17 19:33:43.498  1795  2737 D WifiProJNI: Received kernel message payload: event 4
+12-17 19:33:43.498  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=9
+12-17 19:33:43.498  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:33:43.498  1795  2737 D WifiProJNI: Received kernel message payload: event 0
+12-17 19:33:43.498  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=9
+12-17 19:33:43.498  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:33:43.498  1795  1795 D HuaweiWifiWatchdogStateMachine: setSampleRtt: unvalid rtt
+12-17 19:33:43.498  1795  1795 I MQoS    : rtt=480,tcp_tx_pkts=1480289,tcp_rx_pkts=1768500
+12-17 19:33:43.498  1795  5350 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+12-17 19:33:43.499  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:33:43.500  1795  2739 D HuaweiWifiWatchdogStateMachine: dumpTcpResult: len=9,rtt=480,rttPkt=1,rttWn=17,cgt=0,cgtWn=0
+12-17 19:33:43.500  1795  2739 I HuaweiWifiWatchdogStateMachine: PTcp RTT:0, rtt pkt=0, tcp_rx=0, tcp_tx=0, tcp_reTran=0, rtRate=0
+12-17 19:33:43.500  1795  2739 D HuaweiWifiWatchdogStateMachine: mRssiBadCount =0, RSSI not bad.
+12-17 19:33:43.500  1795  2739 D HuaweiWifiWatchdogStateMachine: detectNetworkAvailable:hw.wifipro.dns_fail_count = 1001
+12-17 19:33:43.500  1795  2739 I HuaweiWifiWatchdogStateMachine: rs ota tcp lr rttvb bad: false, false, false, false, false; rsth:-75
+12-17 19:33:43.500  1795  2739 D HuaweiWifiWatchdogStateMachine: GSC:0, GSR:1.0, RSR:1.0, RTH:-75
+12-17 19:33:43.500  1795  2739 D HuaweiWifiWatchdogStateMachine: bqeLevel = 0 rtt=0,rtt_pkts=0 speed=0 rssi=-58
+12-17 19:33:43.500  1795  2739 I HuaweiWifiWatchdogStateMachine:  pkt chk not bad, reset sc to 0.
+12-17 19:33:43.500  1795  2739 D HuaweiWifiWatchdogStateMachine: ### mPktChkBadCnt=0
+12-17 19:33:43.508  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:43.509  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:43.510  1795  1809 I HwPhoneWindowManager: OverscanTimeout run
+12-17 19:33:43.514  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:43.515  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:43.516  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:43.516  2852  2852 I StackScrollAlgorithm: overlapAmount:607.0, previousNotificationEnd:463.0, newYTranslation:-144.0, location:2, i:2, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:43.516  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:33:43.516  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:33:43.516  2852  2852 I NotificationContentView: transferRemoteInputFocus: 1
+12-17 19:33:43.518  2852  2852 I HwExpandableNotificationRowHelper: unclear notification ,notificationPkgName:com.android.incallui key:0|com.android.incallui|2|null|1001
+12-17 19:33:43.518  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:33:43.519   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 28
+12-17 19:33:43.520   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 28TCP_OK
+12-17 19:33:43.521  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:33:43.521  2852  2852 I BackgrounCallingLayout: mCallingStatusReceiver:onReceive::action=InCallScreenIsForegroundActivity, isForegroundActivity=false, mPhoneState=2
+12-17 19:33:43.522   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 32 bytes [12]_00_03_02_03_12_05_87_41_A1_2F_2B_84 cmdCode(CC_Heartbeat.0x0312)msgType(MT_ACK.2)msgClass(MC_InstanceMessage.3)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(28)version(3)sno(8741)
+12-17 19:33:43.523  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:33:43.524  2852  2852 I BackgrounCallingLayout: updateCallLayout:isBackground=false, isInteractive=false
+12-17 19:33:43.524  2852  2852 W HwPhoneStatusBar: mNotifyStateChangedReceiver do nothing
+12-17 19:33:43.524  2852  2852 I HwPhoneStatusBar: mNotifyStateChangedReceiver::onReceive:action=InCallScreenIsForegroundActivity, mBackgroundState=false
+12-17 19:33:43.525  2852  2852 D StatusBar: updateNotification(StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)))
+12-17 19:33:43.525  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:43.526  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:33:43.526  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.huawei.health|10010|null|10099
+12-17 19:33:43.526  2852  2852 D StatusBar: applyInPlace=true shouldPeek=false alertAgain=true
+12-17 19:33:43.526  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.huawei.health|10010|null|10099
+12-17 19:33:43.526  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.huawei.health|10010|null|10099, group=0|com.huawei.health|10010|null|10099
+12-17 19:33:43.526  2852  2852 D StatusBar: reusing notification for key: 0|com.huawei.health|10010|null|10099
+12-17 19:33:43.527  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:43.527  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:43.527  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:33:43.532  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:33:43.532  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:33:43.532  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:33:43.532  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:43.534  3180  3332 I WakelockMonitor: start wakelock monitor.
+12-17 19:33:43.535  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:43.535  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:43.535  3180  3578 I ScreenLockClean: call busy and not start clean apps.
+12-17 19:33:43.536  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:43.536  2852  2852 I StackScrollAlgorithm: overlapAmount:607.0, previousNotificationEnd:463.0, newYTranslation:-144.0, location:2, i:2, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:43.536  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true

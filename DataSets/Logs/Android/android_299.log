@@ -1,0 +1,100 @@
+12-17 19:34:57.616  3218  3517 I QImsService: ImsSenderRxr :  Tag -1 3 204 0[SUB0]
+12-17 19:34:57.616  3218  3517 I QImsService: ImsSenderRxr :  responseImsRegistration[SUB0]
+12-17 19:34:57.616  3218  3517 I QImsService: ImsSenderRxr : Ims registrationorg.codeaurora.ims.ImsQmiIF$Registration@8fb0a93[SUB0]
+12-17 19:34:57.616  3218  3517 I QImsService: ImsSenderRxr : [UNSL]< UNSOL_RESPONSE_IMS_NETWORK_STATE_CHANGED[SUB0]
+12-17 19:34:57.617  1795 15987 D PowerManagerService: acquire lock=40278605, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:34:57.617  1795 15987 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.617  1795  1821 I ActivityManager_activity: windowsVisibleLocked(): ActivityRecord{62a5344 u0 com.huawei.espacev2/com.huawei.espace.module.main.ui.MainActivity t370} idle: true
+12-17 19:34:57.617  3218  3517 I QImsService: ImsSenderRxr : Response data: [12, 13, -1, -1, -1, -1, 16, 3, 24, -46, 1, 32, 0, 18, 12, 8, 1, 24, 10, 58, 6, 16, 0, 34, 2, 8, 2, 18, 12, 8, 1, 24, 0, 58, 6, 16, 0, 34, 2, 8, 2, 18, 12, 8, 1, 24, 3, 58, 6, 16, 0, 34, 2, 8, 2, 18, 12, 8, 1, 24, 1, 58, 6, 16, 0, 34, 2, 8, 2, 18, 12, 8, 1, 24, 2, 58, 6, 16, 0, 34, 2, 8, 2, 18, 14, 8, 1, 24, 11, 58, 8, 8, 14, 16, 2, 34, 2, 8, 1][SUB0]
+12-17 19:34:57.618  3218  3517 I QImsService: ImsSenderRxr :  Tag -1 3 210 0[SUB0]
+12-17 19:34:57.618  1795  1808 I ActivityManager_activity: insertTaskAtTop, setTaskToReturnTo: fromHome=false,lastStackTop=TaskRecord{da7d076 #370 A=com.huawei.espacev2 U=0 StackId=1 sz=1}, isHomeStack=false, topTask=TaskRecord{da7d076 #370 A=com.huawei.espacev2 U=0 StackId=1 sz=1}, task=TaskRecord{da7d076 #370 A=com.huawei.espacev2 U=0 StackId=1 sz=1}
+12-17 19:34:57.618  3218  3517 I QImsService: ImsSenderRxr : isValid = true type = 10 status = 0 userdata = null[SUB0]
+12-17 19:34:57.618  3218  3517 I QImsService: ImsSenderRxr :  networkMode = -1 status = 0 restrictCause = 0 registered = 2[SUB0]
+12-17 19:34:57.618  3218  3517 I QImsService: ImsSenderRxr : isValid = true type = 0 status = 0 userdata = null[SUB0]
+12-17 19:34:57.618  3218  3517 I QImsService: ImsSenderRxr :  networkMode = -1 status = 0 restrictCause = 0 registered = 2[SUB0]
+12-17 19:34:57.618  3218  3517 I QImsService: ImsSenderRxr : isValid = true type = 3 status = 0 userdata = null[SUB0]
+12-17 19:34:57.618  3218  3517 I QImsService: ImsSenderRxr :  networkMode = -1 status = 0 restrictCause = 0 registered = 2[SUB0]
+12-17 19:34:57.618  3218  3517 I QImsService: ImsSenderRxr : isValid = true type = 1 status = 0 userdata = null[SUB0]
+12-17 19:34:57.618  3218  3517 I QImsService: ImsSenderRxr :  networkMode = -1 status = 0 restrictCause = 0 registered = 2[SUB0]
+12-17 19:34:57.618  3218  3517 I QImsService: ImsSenderRxr : isValid = true type = 2 status = 0 userdata = null[SUB0]
+12-17 19:34:57.618  3218  3517 I QImsService: ImsSenderRxr :  networkMode = -1 status = 0 restrictCause = 0 registered = 2[SUB0]
+12-17 19:34:57.618  3218  3517 I QImsService: ImsSenderRxr : isValid = true type = 11 status = 0 userdata = null[SUB0]
+12-17 19:34:57.618  3218  3517 I QImsService: ImsSenderRxr :  networkMode = 14 status = 2 restrictCause = 0 registered = 1[SUB0]
+12-17 19:34:57.618  3218  3517 I QImsService: ImsSenderRxr : [UNSL]< UNSOL_SRV_STATUS_UPDATE [org.codeaurora.ims.ServiceStatus@e35dac9, org.codeaurora.ims.ServiceStatus@60d95ce, org.codeaurora.ims.ServiceStatus@2c1bcef, org.codeaurora.ims.ServiceStatus@3e873fc, org.codeaurora.ims.ServiceStatus@e385a85, org.codeaurora.ims.ServiceStatus@17140da][SUB0]
+12-17 19:34:57.618  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:34:57.624  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000012000000514f454d484f4f4b1d04080002000000ffff]
+12-17 19:34:57.624  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 28 bytes data for SUB0
+12-17 19:34:57.624  3382  3399 D QcrilMsgTunnelSocket: Rac Change (PDC) data: [-1, -1]
+12-17 19:34:57.624  3382  3399 D QcrilMsgTunnelSocket: Broadcasting intent ACTION_RAC_CHANGED
+12-17 19:34:57.624  3382  3399 I SendBroadcastPermission: action:qualcomm.intent.action.ACTION_RAC_CHANGED, mPermissionType:0
+12-17 19:34:57.625  1795 20747 D PowerManagerService: acquire lock=40278605, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:34:57.625  1795 20747 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.625  3218  3375 I SendBroadcastPermission: action:com.huawei.android.intent.action.RAC_CHANGED, mPermissionType:0
+12-17 19:34:57.629   625   718 E libnav  : CablComputeBacklightLevel(): UpdateType = DifferentSceneUpdate
+12-17 19:34:57.632  1795  1808 V HwWindowManagerService: moveTaskToTop mTaskChanged:true
+12-17 19:34:57.632  1795  1808 V HwWindowManagerService: setFocusedApp update app ops, mTaskChanged set to:false
+12-17 19:34:57.633  1795  1808 I FreezeScreenScene: scheduleCheckFreezeScreen sendMessageDelayed
+12-17 19:34:57.636  3608  3608 D InCall  : VideoCallPresenter - onUiUnready:
+12-17 19:34:57.636  1795  3110 I qti_sensors_hal: batch,376,handle 0, timeout:0 ,period_ns:66667000
+12-17 19:34:57.636  1795  3110 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) handle:0 flags:0x0 period_ns 66667000
+12-17 19:34:57.637  1795  3237 D PowerManagerService: acquire lock=40278605, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:34:57.637  1795  3237 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.644  3218  3218 W CfgFilePolicy: No config file found for:xml/VirtualNet_cust.xml
+12-17 19:34:57.644  3218  3218 W CfgFilePolicy: CFG_DIRS length : 9
+12-17 19:34:57.646  1795  3110 I qti_sensors_hal: read from oem info: data_readback
+12-17 19:34:57.646  1795  3110 I qti_sensors_hal: 0xcd, 0xb0, 0x24, 0x3e
+12-17 19:34:57.646  1795  3110 I qti_sensors_hal: 0x66, 0xca, 0x3c, 0x3e
+12-17 19:34:57.646  1795  3110 I qti_sensors_hal: 0xc0, 0x2a, 0x7c, 0x3f
+12-17 19:34:57.646  1795  3110 I qti_sensors_hal: 0x55, 0x0, 0x0, 0x0
+12-17 19:34:57.646  1795  3110 I qti_sensors_hal: 0x0, 0x0, 0x0, 0x0
+12-17 19:34:57.646  1795  3110 E qti_sensors_hal: read from oem info: data_valid_flag=0x55
+12-17 19:34:57.646  1795  3110 E qti_sensors_hal: read from oem info: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:34:57.646  1795  3110 E qti_sensors_hal: Final value: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:34:57.646  1795  3110 I qti_sensors_hal: batch:load_acc_oeminf_data x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:57.646  1795  3110 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) sample_rate=14.999925Hz report_rate_f=0.000000Hz curr sample rate:14.999925 cur rpt rate:0 max:400.000000 min:1.000000
+12-17 19:34:57.646  1795  3110 I qti_sensors_hal: batch: current sample rate, report rate & buffering are equal to requested (14.999925,0.000000,0)
+12-17 19:34:57.647  3608  3608 I InCall  : VideoCallFragment - onStop:
+12-17 19:34:57.647  3608  3608 I InCall  : VTCallButtonPresenter - --- onUiUnready ---
+12-17 19:34:57.647  3608  3608 D InCall  : CallCardFragment - unInitGLbase
+12-17 19:34:57.647  3608  3608 D InCall  : InCallActivity - onStop()...
+12-17 19:34:57.647  3608  3608 D InCall  : InCallPresenter - onActivityStopped
+12-17 19:34:57.647  3608  3608 D InCall  : InCallPresenter - notifyVideoPauseController
+12-17 19:34:57.647  3608  3608 I InCall  : InCallPresenter - updateStatusBar: state = 0x0
+12-17 19:34:57.649  1795  3884 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.android.incallui
+12-17 19:34:57.649  3608  3608 D InCall  : InCallActivity -  bgCallTwinkingSwitch is true inQuickExiting is false mIsForegroundActivity is false
+12-17 19:34:57.651  3608  3608 I CallUtils: show_incallscreen  0
+12-17 19:34:57.652  3608  3608 E InCall  : InCallPresenter - Setting a second activity before destroying the first.
+12-17 19:34:57.655  3608  3608 I InCall  : InCallPresenter - UI Destroyed)
+12-17 19:34:57.657  1795 15982 D ActivityManager: setExcludeFromRecents:pkgName=null
+12-17 19:34:57.657  3608  3608 D InCall  : InCallPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:34:57.657  3608  3608 D InCall  : InCallPresenter - onCallListChange oldState= NO_CALLS newState=NO_CALLS
+12-17 19:34:57.657  3608  3608 D InCall  : InCallPresenter - mShowRedial is false, mQuickExitFlag is false
+12-17 19:34:57.657  3608  3608 D InCall  : InCallPresenter - onCallListChange newState changed to NO_CALLS
+12-17 19:34:57.657  3608  3608 I InCall  : InCallPresenter - Phone switching state: NO_CALLS -> NO_CALLS
+12-17 19:34:57.658  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.ProximitySensor@18f03d8 of state NO_CALLS
+12-17 19:34:57.658  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.StatusBarNotifier@98372bb of state NO_CALLS
+12-17 19:34:57.658  3608  3608 D InCall  : StatusBarNotifier - cancelInCall()...
+12-17 19:34:57.658  3608  3608 D InCall  : StatusBarNotifier - updateInCallNotification: timer cleared
+12-17 19:34:57.658  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.VideoPauseController@adc8584 of state NO_CALLS
+12-17 19:34:57.658  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onStateChange, hasPrimaryCallChanged=false canVideoPause=false IsInBackground=false
+12-17 19:34:57.658  3608  3608 I InCall  : InCallPresenter - attemptCleanup? false
+12-17 19:34:57.658  3608  3608 I InCall  : InCallPresenter - attemptCleanup() mInCallActivity = null, newState = NO_CALLS
+12-17 19:34:57.661  1795  1795 I SendBroadcastPermission: action:android.intent.action.DROPBOX_ENTRY_ADDED, mPermissionType:0
+12-17 19:34:57.662   818  1150 I logserver: handle_logfile_events, Object Path:/data/system/dropbox/, mask=0x00000080
+12-17 19:34:57.662   818  1150 I logserver: process_one_event, event->len=48, name=system_app_wtf@1481974497661.txt
+12-17 19:34:57.663  1795  1809 I MultiTaskManagerService: onForegroundActivitiesChanged pid = 3608, uid = 1001
+12-17 19:34:57.663  1795  3077 D NtpPhoneStateListener: onServiceStateChanged subId:0 isCdma=false
+12-17 19:34:57.663  3168  3168 I CHR_ChrCommonInfo: 0 1 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.664  1795  1795 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:57.664  1795  1795 D LocationManagerServiceUtil: ServiceStateChanged numeric = 46000
+12-17 19:34:57.664  1795  1795 D LocationManagerServiceUtil: ServiceStateChanged use pkgName = com.amap.android.ams
+12-17 19:34:57.664  2852  3556 I NetworkController.MobileSignalController(0): onServiceStateChanged voiceState=0 dataState=1 isSuspend=false voiceStateOld=0 dataStateOld=1
+12-17 19:34:57.664  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 0.151089 Y: 6.636328 Z: 8.426150  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:57.664  2852  2914 I HwMobileSignalController: onServiceStateChanged: state=0 1 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.665  1795  1795 D HwCHRWifiCellID: 0 1 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.665  1795  1795 D HwCHRWifiCellID: onServiceStateChanged, state is 0 1 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.665  1795  1795 D HwCHRWifiCellID: 0 1 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.665  1795  1795 D HwCHRWifiCellID: onServiceStateChanged, state is 0 1 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.665  1795  1795 D HwCHRWifiCellID: 0 1 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.665  1795  1795 D HwCHRWifiCellID: onServiceStateChanged, state is 0 1 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.665  1795  1795 D HwMultiNlpPolicy: PhoneStateListener 0, mDataSub 0

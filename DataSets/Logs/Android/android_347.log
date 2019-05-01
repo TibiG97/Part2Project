@@ -1,0 +1,100 @@
+12-17 19:35:36.596  1795 15982 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{506ad58 2852:com.android.systemui/u0a33}
+12-17 19:35:36.596  1795 15982 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{9e88608 u-1 com.android.systemui.statusbar.visible.change}: prev had 0
+12-17 19:35:36.597  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:36.597  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{9e88608 u-1 com.android.systemui.statusbar.visible.change}, has 1 receivers
+12-17 19:35:36.597  2852  2914 I PanelBar: INTENT_STATUSBAR_VISIBLE_CHANGE sended, EXTRA_VISIBLE = false
+12-17 19:35:36.606 17709 17709 D HwIntelligent3_IntelligentReceiver: onReceive ,intent:Intent { act=com.android.systemui.statusbar.visible.change flg=0x10 cmp=com.huawei.intelligent/.main.receiver.IntelligentReceiver (has extras) }
+12-17 19:35:36.607  2852  2852 I StackScrollAlgorithm: overlapAmount:323.0, previousNotificationEnd:0.0, newYTranslation:-323.0, location:4, i:0, getTopPadding:499.0, getLocationOnScreen():-822
+12-17 19:35:36.607  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:299, i:0
+12-17 19:35:36.607  1795  6985 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{7e9b22a 17709:com.huawei.intelligent/u0a17}, flags: 10000400
+12-17 19:35:36.607  2852  2852 I StackScrollAlgorithm: overlapAmount:198.0, previousNotificationEnd:-84.0, newYTranslation:-282.0, location:8, i:1, getTopPadding:499.0, getLocationOnScreen():-822
+12-17 19:35:36.607  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:174, i:1
+12-17 19:35:36.607  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:35:36.607  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:35:36.608  1795  6985 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{307b1a1 u0 euid: 0 com.huawei.intelligent/.main.receiver.IntelligentIntentService}, euid: 0
+12-17 19:35:36.613  1795  6986 I NotificationManager: onNotificationVisibilityChanged called
+12-17 19:35:36.614  2852  2852 D PhoneStatusBar: makeExpandedInvisible: mExpandedVisible=true
+12-17 19:35:36.614  2852  2852 I PanelBar: collapsePanel:false
+12-17 19:35:36.614  2852  2852 I PanelView: closeQs
+12-17 19:35:36.614  2852  2852 I QSContainer: updateQsState:false
+12-17 19:35:36.614  1795  3111 I NotificationManager: Marking notification as seen 0|com.huawei.health|10010|null|10099
+12-17 19:35:36.614  2852  2852 I QSContainer: updateQsState:false
+12-17 19:35:36.614  2852  2852 I StackScroller: setScrollingEnabled: true
+12-17 19:35:36.616  2852  2852 I PanelView: instantCollapse
+12-17 19:35:36.616  2852  2852 I PanelBar: collapsePanel2
+12-17 19:35:36.616  2852  2852 I PanelView: closeQs
+12-17 19:35:36.621  1795 11747 I NotificationManager: onNotificationVisibilityChanged called
+12-17 19:35:36.623  2852  2852 W StatusBarWindowManager: Apply window Height 72
+12-17 19:35:36.623  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: 72; Flag: 81840048
+12-17 19:35:36.624  2852  2852 W StatusBarWindowManager: Apply window Height 72
+12-17 19:35:36.624  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: 72; Flag: 81840048
+12-17 19:35:36.625  2852  2852 I PhoneStatusBar: resumeSuspendedAutohide
+12-17 19:35:36.625  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:35:36.625  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:35:36.626  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:35:36.626  2852  2852 D PhoneStatusBar: disable: < expand icons* alerts system_info* back home recent clock navigationbar search quick_settings >
+12-17 19:35:36.626  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{3f96501 V.ED..... ........ 0,1-66,43 #7f1401be app:id/battery_outside_percent}
+12-17 19:35:36.627  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.time.HwStatusBarClock{dbc7fa6 V.ED..... ........ 294,0-441,72 #7f1401c9 app:id/clock}
+12-17 19:35:36.628  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{29531d0 V.ED..... ........ 0,0-144,49 #7f14004e app:id/msim_status_bar_operators_card_one_id}
+12-17 19:35:36.628 17709 20709 D IntelligentIntentService: eventAction :class com.huawei.intelligent.main.receiver.action.ActionBarPullDownAction
+12-17 19:35:36.628 17709 20709 E HwIntelligent3_ActionBarPullDownAction: doAction not pull down return
+12-17 19:35:36.670  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:35:36.676  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:35:36.676  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:35:36.676  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:35:36.678  2852  2852 D UnderLayer: ondraw 0, Rect(0, 0 - 1080, 72)
+12-17 19:35:36.742  1795 16500 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:36.742  4634  4634 I SendBroadcastPermission: action:com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver, mPermissionType:0
+12-17 19:35:36.743  1795 15988 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{6be12e7 4634:com.tencent.mm:push/u0a105}, intent:com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver, receiver size:1, flags: 10000400
+12-17 19:35:36.743  1795 15988 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 cmp=com.tencent.mm/.plugin.report.service.KVCommCrossProcessReceiver (has extras) } on bgkeyapp queue
+12-17 19:35:36.743  1795 15988 I ActivityManager_broadcast: Enqueueing ordered broadcast[bgkeyapp] BroadcastRecord{5ebdfc6 u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}: prev had 0
+12-17 19:35:36.743  1795  1812 I ActivityManager_broadcast: dispatch ordered broadcast [bgkeyapp] BroadcastRecord{5ebdfc6 u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}, has 1 receivers
+12-17 19:35:36.889  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:35:36.889  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:35:36.889  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:35:37.004   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:35:37.004   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:35:37.021  1795  2748 D lux trace:: [111.0/123130745, 106.0/123131122, 110.0/123131497, 109.0/123131873, 110.0/123132249, 106.0/123132616, 111.0/123132992, 108.0/123133347, 109.0/123134430]
+12-17 19:35:37.223  1795  1806 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:37.650   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 124
+12-17 19:35:37.656   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 124TCP_OK
+12-17 19:35:37.659   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 128 bytes [12]_00_03_03_04_1F_05_48_5E_A1_2F_2B_84 cmdCode(CC_MessageReadNotify.0x041F)msgType(MT_NOTIFY.3)msgClass(MC_NotifyMessage.4)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(124)version(3)sno(485E)
+12-17 19:35:37.693   633   692 I Hw_Fluent: RecentLogic{4456} RecentLogic.addConversationEntity(RecentLogic.java:906) add chat recent!
+12-17 19:35:37.700  3879  3879 I HwLauncher: UnreadContentObserver onChange() : className=com.huawei.android.launcher.NewEspaceMessageContentObserver
+12-17 19:35:37.929   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:35:37.939  4634  4634 I SendBroadcastPermission: action:null, mPermissionType:0
+12-17 19:35:37.941  1795 11747 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{6be12e7 4634:com.tencent.mm:push/u0a105}, intent:null, receiver size:1, flags: 10000400
+12-17 19:35:37.941  1795 11747 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { flg=0x10 cmp=com.tencent.mm/.booter.NotifyReceiver (has extras) } on bgkeyapp queue
+12-17 19:35:37.941  1795 11747 I ActivityManager_broadcast: Enqueueing ordered broadcast[bgkeyapp] BroadcastRecord{cc0cb87 u0 null}: prev had 0
+12-17 19:35:37.941  1795  1812 I ActivityManager_broadcast: dispatch ordered broadcast [bgkeyapp] BroadcastRecord{cc0cb87 u0 null}, has 1 receivers
+12-17 19:35:38.010  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:35:31,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:38.010  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:35:31,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:38.010  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:38.011  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:38.012  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:38.013  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:38.014  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:38.014  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:38.028  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:35:38.074  4492  4512 W System.err: text not in xml format
+12-17 19:35:38.156  1795  1805 I AlarmManager: remove(PendingIntent{d83fab4: PendingIntentRecord{3adddfa com.tencent.mm broadcastIntent}}) changed bounds; rebatching
+12-17 19:35:38.159  1795  3253 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:38.162  1795  2778 I AlarmManager: set(PendingIntent{2ccc6dd: PendingIntentRecord{1b63252 com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443344524 win=202499 tElapsed=443344524 maxElapsed=443547023 interval=0 flags=0x8
+12-17 19:35:38.201  3879  3879 I HwLauncher: UnreadContentObserver  handle update icon message
+12-17 19:35:38.225  1795  2748 D HwAmbientLuxFilterAlgo: t=123135842,BT=123136842,DT=123139842,BT1=123139842,DT1=123143842,Bn=false,Dn=false,lx=[108.0/123134337, 109.0/123134638, 106.0/123134939, 109.0/123135240, 109.0/123135541, 124.0/123135842],mLx=17.0,s=5.0,ss=0.77776855,AuIntervened=false,mProximityState=false,bLux=176.0,dLux=3.5,bLux1=176.0,dLux1=3.5
+12-17 19:35:38.226  3180  3578 I ash     : pkg null calling: com.huawei.espacev2, pid: 0 ,type: acquire_provider
+12-17 19:35:38.231  3879  4071 I HwLauncher: NewEspaceMessageContentObserver  getNewEspaceMessageCount: 0
+12-17 19:35:38.231  3879  4071 W HwLauncher: UnreadContentObserver newUnreadCount:0,oldUnreadCount:4 className :com.huawei.android.launcher.NewEspaceMessageContentObserver
+12-17 19:35:38.233  3879  4071 D ApplicationPackageManager: queryIntentActivitiesAsUser size results:1, for package:com.huawei.espacev2
+12-17 19:35:38.233  3879  4071 I HwLauncher: AllIdleAppsList  updatePackage  isCloneApp =  false
+12-17 19:35:38.233  1795 16501 D ApplicationPackageManager: queryIntentActivitiesAsUser size results:1, for package:com.huawei.espacev2
+12-17 19:35:38.234  3879  4071 I HwLauncher: AllIdleAppsList  updatePackage : package[com.huawei.espacev2] matched activity's size is 1 and data List size is 69
+12-17 19:35:38.240  3879  4071 I HwResourcesImpl: load icon id : 7f03003f, pkgName : com.huawei.espacev2
+12-17 19:35:38.241  3879  4071 W CfgFilePolicy: No config file found for:/themes/diff/icons
+12-17 19:35:38.241  3879  4071 W CfgFilePolicy: CFG_DIRS length : 9
+12-17 19:35:38.241  3879  4071 I HwResourcesImpl: icon : com.huawei.espacev2 found in app
+12-17 19:35:38.242  3879  4071 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:38.255  3879  4071 I HwLauncher: Launcher.IconCache, cacheLocked  Utilities.createIconBitmap entry.title = eSpace ComponentName:ComponentInfo{com.huawei.espacev2/com.huawei.espace.module.start.ui.StartActivity} user:UserHandle{0}
+12-17 19:35:38.264  3180  3578 I ash     : pkg null calling: com.huawei.espacev2, pid: 0 ,type: acquire_provider
+12-17 19:35:38.268  3879  4071 I HwLauncher: NewEspaceMessageContentObserver  getNewEspaceMessageCount: 0
+12-17 19:35:38.269  3879  4071 I HwLauncher: Workspace  The same unread count.

@@ -1,0 +1,100 @@
+12-17 19:40:25.927   633   692 I TCP     : tcp.conn{4485} TcpClientThread.connectSocket(TcpClientThread.java:349) connecting max 30000ms to 172.30.70.63:7801
+12-17 19:40:25.928   633   692 I TCP     : tcp.conn{4485} TcpSocket.connect_i(TcpSocket.java:84) connecting to ip address /172.30.70.63
+12-17 19:40:25.929   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:292) connected
+12-17 19:40:25.930   633   692 I TCP     : tcp.conn{4485} TcpClientThread.connectSocket(TcpClientThread.java:360) notify user tcp connected successully at 36852 to 172.30.70.63(*):7801
+12-17 19:40:25.939  1795  1825 D AutomaticBrightnessController: ambient lux=121.0,timeStamp =443362302507000
+12-17 19:40:25.944   633   692 I TCP     : tcp.conn{4485} TcpClientThread.onRecv(TcpClientThread.java:522) tcp connection event TCP_CONNECTED
+12-17 19:40:25.945   633   692 I eSpaceService: LoginThread{6121} LoginC.doLoginByStep(LoginC.java:203) Login_By_Step-> at Connected
+12-17 19:40:25.947   633   692 I ECS     : LoginThread{6121} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 1044 bytes [16]_00_00_04_10_00_03_01_00_01_00_87_44_00_00_00_00 cmdCode(CC_VersionCheck.0x0001)msgType(MT_ARG.1)msgClass(MC_VersionCheck.0)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(false)length(1040)version(3)sno(8744)
+12-17 19:40:25.947   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 1718
+12-17 19:40:25.948   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 1718TCP_OK
+12-17 19:40:25.949   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 1722 bytes [12]_00_03_02_00_01_04_87_44_EC_D5_32_80 cmdCode(CC_VersionCheck.0x0001)msgType(MT_ACK.2)msgClass(MC_VersionCheck.0)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(true)length(1718)version(3)sno(8744)
+12-17 19:40:25.949   633   692 I eSpaceService: LoginThread{6121} LoginC.doLoginByStep(LoginC.java:203) Login_By_Step-> at CheckVersionOK
+12-17 19:40:25.964   633   692 I ECS     : LoginThread{6121} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 442 bytes [16]_00_00_01_B6_00_03_01_01_1D_05_87_45_EC_D5_32_80 cmdCode(CC_KeyExchange.0x011D)msgType(MT_ARG.1)msgClass(MC_PersonalInformation.1)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(438)version(3)sno(8745)
+12-17 19:40:25.965   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 80
+12-17 19:40:25.967   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 80TCP_OK
+12-17 19:40:25.968   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 84 bytes [12]_00_03_02_01_1D_05_87_45_EC_D5_32_80 cmdCode(CC_KeyExchange.0x011D)msgType(MT_ACK.2)msgClass(MC_PersonalInformation.1)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(80)version(3)sno(8745)
+12-17 19:40:25.969   633   692 I eSpaceService: LoginThread{6121} LoginC.doLoginByStep(LoginC.java:203) Login_By_Step-> at KeyExchangeOK
+12-17 19:40:25.970   633   692 I SsoLogin: LoginThread{6121} LoginRequester.getRequestData(LoginRequester.java:120) [Aynoffice SSO] --> getStrAnyofficeSsoTicket failed, set no sso login., setAuthType = 1
+12-17 19:40:25.971   633   692 I ECS     : LoginThread{6121} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 656 bytes [16]_00_00_02_8C_00_03_01_01_01_05_87_46_EC_D5_32_80 cmdCode(CC_Login.0x0101)msgType(MT_ARG.1)msgClass(MC_PersonalInformation.1)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(652)version(3)sno(8746)
+12-17 19:40:26.123  1795  1795 I TrafficMonitor: update:rxPkts:13,txPkts:14,rxBytes:2891,txBytes:3279
+12-17 19:40:26.124  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:40:26.124  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:40:26.131   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 26
+12-17 19:40:26.131   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:40:26.132   802   802 E Thermal-daemon: [pa_0] temp_new :25  temp_old :26
+12-17 19:40:26.134   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:40:26.134   802   802 E Thermal-daemon: Report temperature: [pa_0] temp :25  report_threshold:1
+12-17 19:40:26.135   802   802 E Thermal-daemon: [charger_ic] temp_new :25  temp_old :26
+12-17 19:40:26.136   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:40:26.136   802   802 E Thermal-daemon: Report temperature: [charger_ic] temp :25  report_threshold:1
+12-17 19:40:26.137   802   802 E Thermal-daemon: [ap] temp_new :26  temp_old :25
+12-17 19:40:26.138   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:40:26.138   802   802 E Thermal-daemon: Report temperature: [ap] temp :26  report_threshold:1
+12-17 19:40:26.140  1795 17831 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4097
+12-17 19:40:26.140  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:40:26.142  1795  3249 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4098
+12-17 19:40:26.142  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:40:26.143  1795  3225 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4099
+12-17 19:40:26.143  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:40:26.144  1795  3237 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4100
+12-17 19:40:26.145  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:40:26.146  1795  3121 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4101
+12-17 19:40:26.146  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:40:26.150  1795 16501 V SecInputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:40:26.150  1795 15988 V InputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:40:26.161  1795  2778 D HwInputMethodManagerService: ------------startInput--------------
+12-17 19:40:26.161  1795  2778 V SecInputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:40:26.162  1795  2778 D HwInputMethodManagerService: hideSecSoftInput = false
+12-17 19:40:26.165  4690  4690 I SendBroadcastPermission: action:com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER, mPermissionType:0
+12-17 19:40:26.166  1795 16498 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{5299443 4690:com.baidu.input_huawei/u0a74}, intent:com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER, receiver size:1, flags: 10000400
+12-17 19:40:26.166  1795 16498 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{5299443 4690:com.baidu.input_huawei/u0a74}
+12-17 19:40:26.166  1795 16498 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{5c2dc33 u0 com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER}: prev had 0
+12-17 19:40:26.167  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{5c2dc33 u0 com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER}, has 1 receivers
+12-17 19:40:26.172  4492  4492 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-17 19:40:26.179  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:40:26.179  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:40:26.206  4492  4492 I SendBroadcastPermission: action:null, mPermissionType:0
+12-17 19:40:26.207  1795  6985 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{9ef8336 4492:com.tencent.mm/u0a105}, intent:null, receiver size:1, flags: 10000400
+12-17 19:40:26.207  1795  6985 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { flg=0x10 cmp=com.tencent.mm/.booter.MMReceivers$ToolsProcessReceiver (has extras) } on bgkeyapp queue
+12-17 19:40:26.207  1795  6985 I ActivityManager_broadcast: Enqueueing ordered broadcast[bgkeyapp] BroadcastRecord{5817bf0 u0 null}: prev had 0
+12-17 19:40:26.208  1795  1812 I ActivityManager_broadcast: dispatch ordered broadcast [bgkeyapp] BroadcastRecord{5817bf0 u0 null}, has 1 receivers
+12-17 19:40:26.219  1795  2396 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:26.227 18589 18731 I memcheck: needTrimMemory: trimFrom = 0, avail = 961352, vmSize = 2203016, vssLimit = 4190896, totalPss = 86704, pssLimit = 2876772, agressiveGrowthLimit = 1150708, gentleGrowthLimit = 2013740, availablePmThreshold = 221184, availableVmThreshold = 153600
+12-17 19:40:26.294  1795  1825 D AutomaticBrightnessController: ambient lux=129.0,timeStamp =443362656790000
+12-17 19:40:26.437  1795 16500 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:26.447  1795 11745 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:26.459  1795  6988 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:26.465  1795 17831 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:26.522  3879  3894 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=null][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=0] uid =10105 pid =4492
+12-17 19:40:26.525  3879  3894 I HwLauncher: ProviderCallUtils callBadge isCloned = false
+12-17 19:40:26.549  1795 15988 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:26.555  3879  5881 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=[shortcut_c2a51ac39f4ec2a0c386c385c2b37ac2a040c3a7c289c3bec28b547dc2b0c2a6]][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=0] uid =10105 pid =4492
+12-17 19:40:26.561  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:40:26.568  1795  2728 D hw_netstat: total/3579/4792,com.huawei.espacev2/3027/4236,com.tencent.mm/425/497,unknown:0/127/59
+12-17 19:40:26.571  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=10  WEBRESENDSEGS=0  WEBRECVSEGS=5  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=42  WEBRTTSEGS=4  WEBSRTT=580  WEBSNDDUPACKS=0  SENDSEGS=12  RESENDSEGS=0  RECVSEGS=10  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=11  RTTSEGS=6  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:40:26.571  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-44  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=105, rtt_tcp_duration=894, rtt_lan_duration=223, rtt_lan_failures=0, rtt_lan_succ=7, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:40:26.571  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:40:26.572  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:40:26.588  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:40:26.590  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=29, mTXbad=0, mRXGood=24] rssi=-44
+12-17 19:40:26.591  1795  2728 E HwCHRWebMonitor: running processName=com.tencent.mm
+12-17 19:40:26.592  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.huawei.espacev2 UID=10102  WEBSENDSEGS=6  WEBRESENDSEGS=0  WEBRECVSEGS=2  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=38  WEBRTTSEGS=2  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:40:26.592  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.tencent.mm UID=10105  WEBSENDSEGS=4  WEBRESENDSEGS=0  WEBRECVSEGS=3  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=4  WEBRTTSEGS=2  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:40:26.592  1795  2728 E HwCHRWebMonitor: item_uid= 10105 running_uid=10105 suckTime=0 mOnAppSuckTime=0 mFailReason=0
+12-17 19:40:26.592  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:40:26.592  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 5, tx = 10
+12-17 19:40:26.592  1795  2728 D HwArpVerifier: AccessWebStatus : reset all
+12-17 19:40:26.612   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 5740
+12-17 19:40:26.621   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 5740TCP_OK
+12-17 19:40:26.626   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 5744 bytes [12]_00_03_02_01_01_05_87_46_EC_D5_32_80 cmdCode(CC_Login.0x0101)msgType(MT_ACK.2)msgClass(MC_PersonalInformation.1)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(5740)version(3)sno(8746)
+12-17 19:40:26.629   633   692 I eSpaceService: msg.recv{4490} LoginC.onLoginOk(LoginC.java:1326) Login_By_Step->LoginOK 0
+12-17 19:40:26.630   633   692 I eSpaceService: msg.recv{4490} LoginResp.printNonSensitiveComponentParams(LoginResp.java:65) {heartBeatTime=2, sipDSCP=0, mobileAnr=3, myBonusChineseName=整点一问, myBonusURL=http://eapp.huawei.com/emall/, feedbackUrl=http://3ms.huawei.com/hi/group/2028001/threads.html#category=1136267, dataDSCP=0, maxcontact=5000, regExpires=300, gatewaySVNAddr=byod-web.huawei.com, voiceDSCP=46, cloudUserId=espace_client, kindlyTips=MsgType:9;Tips:;MsgType:10;Tips: 未知消息类型，您当前的版本不支持 / Unknown message type, your current version is not supported;, myBonusDisplay=0, cpuCheckCircle=0.5, audiocodecMobile=112,98,18,8,109,110,0,97, anyContactUserId=espace_client, cloudServerURL=http://app-inter.huawei.com/AnyContacts/api/v1/userauth/getserverconf, timeEnable=0, wrMDMFile=1, myBonusEnglishDis=Treasure-hunt for bonus points!, noPushStart=00:00, cloudUploadURL=http://app-inter.huawei.com/AnyContacts/api/v1/user_call_log/call, anyContactToken=865906b4f8d93484707e8565b38b97a375637cd2, anyContactUploadURL=http://spes.huawei.com/AnyContacts/api/v1/user_call_log/call, mosValue=3.0, pushType=2, anyContactServerURL=http://spes.huawei.com/AnyContacts/api/v1/userauth/getserverconf, audioCodec=112,98,18,8,109,110,0,97, audioDSCP=4, totalsize=60, portraitpixelw=320, noPushEnd=00:00, VoIPRegister=1, isEnableAnyOfficeBrowser=YES, gatewaySVNPort=443, clientsBothOnline=1, maaDSCP=0, sipTLSPort=5061, limittext=30000, performanceIMReport=200, rejectResponse=486, callsessiontimeout=180, imageEncry=1, priorityRtp=2, limitimagebytes=100, JailbreakingDetect=1, performancedataReport=200, myBonusEnglishName=Fight for Points, pushflag=1, videoDSCP=0, enableSRTP=1, maxConfMember=10, revokeMsg=1, enableSipTLS=1, portraitpixelh=320}
+12-17 19:40:26.632   633   692 I eSpaceService: msg.recv{4490} LoginResp.decodeFromAck(LoginResp.java:53) 111110001010001111000000100000000100001000100000011101111111101011001
+12-17 19:40:26.633  1795  2396 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:26.633   633   692 I eSpaceService: msg.recv{4490} LoginC.doLoginSucceed(LoginC.java:1042) Login Ack , set account to w00290667
+12-17 19:40:26.635   633   692 I ECS     : msg.recv{4490} TcpSocket.setDSCP(TcpSocket.java:297) set dscp = 0
+12-17 19:40:26.635   633   692 I ECS     : pool-1-thread-1{4483} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 144 bytes [16]_00_00_00_8C_00_03_01_03_13_05_87_47_EC_D5_32_80 cmdCode(CC_SetPersonalState.0x0313)msgType(MT_ARG.1)msgClass(MC_InstanceMessage.3)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(140)version(3)sno(8747)
+12-17 19:40:26.637   633   692 I eSpaceService: LoginThread{6121} LoginC.doLoginByStep(LoginC.java:203) Login_By_Step-> at LoginSuccess
+12-17 19:40:26.638   633   692 I eSpaceService: LoginThread{6121} LoginThread.cancel(LoginC.java:838) Login_By_Step-> thread cancel 6121
+12-17 19:40:26.639   633   692 I eSpaceService: LoginThread{6121} LoginThread.doinLoop(LoginC.java:912) Login_By_Step-> Thread is over  true 6121

@@ -1,0 +1,100 @@
+12-17 19:33:15.163  4634  4634 I SendBroadcastPermission: action:com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver, mPermissionType:0
+12-17 19:33:15.165  1795  3247 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{6be12e7 4634:com.tencent.mm:push/u0a105}, intent:com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver, receiver size:1, flags: 10000400
+12-17 19:33:15.165  1795  3247 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 cmp=com.tencent.mm/.plugin.report.service.KVCommCrossProcessReceiver (has extras) } on bgkeyapp queue
+12-17 19:33:15.166  1795  3247 I ActivityManager_broadcast: Enqueueing ordered broadcast[bgkeyapp] BroadcastRecord{45ad0c7 u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}: prev had 0
+12-17 19:33:15.166  1795  1812 I ActivityManager_broadcast: dispatch ordered broadcast [bgkeyapp] BroadcastRecord{45ad0c7 u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}, has 1 receivers
+12-17 19:33:15.319  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:15.343   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:94) watch thread onLoop... 
+12-17 19:33:15.345   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:33:15.347   633   692 I eSpaceService: Watch Thread{4481} LoginC.doWatch(LoginC.java:1459) Login_By_Step-> watch count =  0
+12-17 19:33:15.354  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.668241 Y: 8.076757 Z: 1.924242  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:15.551  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 4.161939 Y: 8.335653 Z: 0.803701  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:15.747  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 4.365918 Y: 8.445486 Z: 0.873247  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:15.874   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:33:15.874   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:33:15.878   802   802 E Thermal-daemon: [ap] temp_new :28  temp_old :27
+12-17 19:33:15.879   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:33:15.879   802   802 E Thermal-daemon: Report temperature: [ap] temp :28  report_threshold:1
+12-17 19:33:15.943  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 4.358075 Y: 8.633780 Z: 1.128266  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:16.099  1795  3249 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:16.139  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.793775 Y: 8.774984 Z: 1.816054  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:16.337  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.425046 Y: 7.213767 Z: 4.010752  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:16.371  3180  4307 I AwareLog: MemoryRecoveryDMEPlugin: handle message MSG_MEM_LEAK_CHECK
+12-17 19:33:16.748  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:33:16.748  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:33:16.748  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:33:16.816  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:17.860  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:18.322  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:18.752  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:33:18.752  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:33:18.752  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:33:18.893  1795  1819 I EventHub: monitor check touch devices
+12-17 19:33:18.894  1795  1819 I EventHub: EventHub monitor: no key events in the past 785s, no motion events in the past 124s
+12-17 19:33:18.896  1795  1819 I InputDispatcher: InputDispatcher::monitor frozen check!
+12-17 19:33:18.896  1795  1819 I InputDispatcher: frozenCheckLocked mDispatchFrozen=0 mNextUnblockedEvent=0
+12-17 19:33:19.088  5224  5224 I Step_LSC: 20002302|onStandStepChanged 65573
+12-17 19:33:19.089  5224  5224 I Step_LSC: 20002302|standStepCounter report 100 steps,write fe
+12-17 19:33:19.091  5224  5224 I Step_LSC: 20002302|compensate received
+12-17 19:33:19.091  5224  5283 I Step_LSC: 20002302|MSG_RECORD_DATA_TO_FILE 
+12-17 19:33:19.094  5224  5283 I Step_LSC: 20002302|MSG_RECORD_DATA_TO_FILE datas.size()=8374
+12-17 19:33:19.132  3180  3578 I ash     :  ignore audio app: com.android.browser stop delta time:37142864
+12-17 19:33:19.132  3180  3578 I ash     : com.android.browser { running duration=52033 } transition to: doze reason:
+12-17 19:33:19.132  3180  3578 I ash     : doze package: com.android.browser, visible: false
+12-17 19:33:19.188  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:33:19.191  1795  2728 D hw_netstat: total/0/0
+12-17 19:33:19.192  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSRTT=480  WEBSNDDUPACKS=0  SENDSEGS=0  RESENDSEGS=0  RECVSEGS=0  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=0  RTTSEGS=0  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:33:19.192  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-59  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=65, rtt_tcp_duration=531, rtt_lan_duration=188, rtt_lan_failures=0, rtt_lan_succ=5, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:33:19.193  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:33:19.193  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:33:19.208  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:33:19.209  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=0, mTXbad=0, mRXGood=3] rssi=-59
+12-17 19:33:19.210  1795  2728 E HwCHRWebMonitor: running processName=com.android.incallui
+12-17 19:33:19.210  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:33:19.210  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 0, tx = 0
+12-17 19:33:19.210  1795  2728 D HwArpVerifier: getDNSFailedCntDiff  dnsNewFailCnt =  1001, aws.getOldDnsFailedCnt() = 1001, dnsDiff = 0
+12-17 19:33:19.246  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4197
+12-17 19:33:19.246  5224  5283 I Step_ExtendStepDataManager: 20002302|before compensate: cache step_4197
+12-17 19:33:19.248  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4197
+12-17 19:33:19.248  5224  5283 I Step_ExtendStepDataManager: 20002302|compensate 24699573 9
+12-17 19:33:19.250  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4198
+12-17 19:33:19.250  5224  5283 I Step_ExtendStepDataManager: 20002302|after compensate: cache step_4198
+12-17 19:33:19.250  5224  5283 I Step_LSC: 20002302|REPORT : 4198 89805 2995 0
+12-17 19:33:19.251  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:33:19.253  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:33:19.255  1795 15988 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{580cfb2 5224:com.huawei.health:DaemonService/u0a99}
+12-17 19:33:19.256  5224  5283 I Step_HSNH: 20002302|upDateHealthNotification()|90|2.99|4198
+12-17 19:33:19.256  2852  2852 I EventCenter: EventCenter Get :android.com.huawei.bone.NOTIFY_SPORT_DATA
+12-17 19:33:19.256  2852  2852 D StepCounterView: onStepCounterChange stepsNum:4198
+12-17 19:33:19.257  5224  5283 I Step_HSNH: 20002302|rebuild notification
+12-17 19:33:19.260  1795  1806 I NotificationManager: enqueueNotificationInternal: pkg=com.huawei.health id=10010 notification=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)
+12-17 19:33:19.262  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.huawei.health|10010|null|10099
+12-17 19:33:19.263  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:33:19.266  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)) important=2, post=1481974399260, when=1481531589202, vis=0, userid=0
+12-17 19:33:19.267  2852  2852 D StatusBar: updateNotification(StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)))
+12-17 19:33:19.267  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:19.268  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:33:19.269  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.huawei.health|10010|null|10099
+12-17 19:33:19.269  2852  2852 D StatusBar: applyInPlace=true shouldPeek=false alertAgain=true
+12-17 19:33:19.269  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.huawei.health|10010|null|10099
+12-17 19:33:19.269  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.huawei.health|10010|null|10099, group=0|com.huawei.health|10010|null|10099
+12-17 19:33:19.269  2852  2852 D StatusBar: reusing notification for key: 0|com.huawei.health|10010|null|10099
+12-17 19:33:19.269  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:19.270  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:19.270  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:33:19.279  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:33:19.279  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:33:19.279  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:33:19.279  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:19.285   633 31867 I SDK     : <2016-12-17 19:33:19> [NOTICE] SDK: UE-SeC 2016-12-17 19:33:19:285 Level[NOTICE] magic[3368294688 1013]:s(0, 0),r(0, 0)in 20s;vsock(135716B, 10762B, 0, 0), sock(846, 897, 0, 0), times(34, 0, 194, 57), delay(0, 0)ms, m(0, 6144)KB, p:38859, s:38859, t(148, 1, 32198B, 50795B), u(0, 0, 176580B, 47974B), c(2247, 2363, 0, 0), e(67994, 1639)/(1330, 1639), k:73, d(589, 677), de(0), s(online, 2, 1), SSL(0), UDP(0), r_d(0), s_d(0), c_d(0), dur(1384 m), vs(0, 0, 0), sysFM(0 KB), ls(1779, 1779),bypass[0]:[0]
+12-17 19:33:19.285   633 31867 I SDK     : 
+12-17 19:33:19.289  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:19.289  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:19.290  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:19.290  2852  2852 I StackScrollAlgorithm: overlapAmount:607.0, previousNotificationEnd:463.0, newYTranslation:-144.0, location:2, i:2, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:19.290  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:33:19.290  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:33:19.746  1795  1795 I TrafficMonitor: expired arrive. level:-1
+12-17 19:33:19.747  1795  1795 I TrafficMonitor: during_ms:2004,period_ms:2000
+12-17 19:33:19.747  1795  1795 I TrafficMonitor: count:78,rx_sum:0,tx_sum:0,rxBytes:0,during_ms:2004,rx_speed:0.0,tx_speed:0.0,rto:0.0
+12-17 19:33:19.747  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:0, rxSpd:0B/s, txpkt:0, txSpd:0

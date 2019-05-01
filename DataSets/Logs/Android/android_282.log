@@ -1,0 +1,100 @@
+12-17 19:34:56.292  1795 15988 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{34bf34f 0:system/1000}, intent:android.intent.action.PHONE_STATE, receiver size:4, flags: 10000400
+12-17 19:34:56.292  3608  3608 D InCall  : InCallPresenter - InCallPresenter removeCoverItem and cView != null:false
+12-17 19:34:56.292  3608  3608 D InCall  : InCall - removeCoverItem:null
+12-17 19:34:56.292  3608  3608 I InCall  : ProximitySensor - Proximity wake lock already released
+12-17 19:34:56.292  1795 15988 D HwPFWLogger: AutoStartupDataMgr:isUnderControll third party not in whitelist: com.autonavi.minimap
+12-17 19:34:56.292  1795 15988 D HwPFWLogger: AutoStartupDataMgr:retrieveStartupSettings type 0 of com.autonavi.minimap is 0
+12-17 19:34:56.292  1795 15988 I HwPFWLogger: AppAutoStartupPolicy:prevent start receiver of package com.autonavi.minimap for action android.intent.action.PHONE_STATE
+12-17 19:34:56.292  1795 15988 D HwPFWLogger: AutoStartupDataMgr:isUnderControll third party not in whitelist: com.sina.weibo
+12-17 19:34:56.293  1795 15988 D HwPFWLogger: AutoStartupDataMgr:retrieveStartupSettings type 0 of com.sina.weibo is 0
+12-17 19:34:56.293  1795 15988 I HwPFWLogger: AppAutoStartupPolicy:prevent start receiver of package com.sina.weibo for action android.intent.action.PHONE_STATE
+12-17 19:34:56.293  1795 15988 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.293  1795 15988 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.293  1795 15988 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{a885b20 u-1 android.intent.action.PHONE_STATE}: prev had 1
+12-17 19:34:56.293  1795 15988 I Telecom : PhoneStateBroadcaster: Broadcasted state change: 0: CSW.sD@EsU
+12-17 19:34:56.293  1795 15988 I Telecom : InCallController: onCanAddCallChanged : false: CSW.sD@EsU
+12-17 19:34:56.294  1795 15988 I Telecom : CallsManager:  entered manageMSimInCallTones : CSW.sD@EsU
+12-17 19:34:56.294  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:34:56.294  3608  3608 I CallUtils: disconnectCauseReason:Normal call clearing, NORMAL
+12-17 19:34:56.294  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:34:56.294  3608  3608 I CallUtils: cause :4
+12-17 19:34:56.294  3608  3608 I CallUtils: cause :97
+12-17 19:34:56.294  3608  3608 I CallUtils: cause :52
+12-17 19:34:56.294  3608  3608 I CallUtils: cause :53
+12-17 19:34:56.294  3608  3608 I CallUtils: cause :66
+12-17 19:34:56.294  3608  3608 I CallUtils: cause :63
+12-17 19:34:56.294  3608  3608 I CallUtils: cause :64
+12-17 19:34:56.294  3608  3608 I CallUtils: cause :67
+12-17 19:34:56.295  1795  2709 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{34bf34f 0:system/1000}, flags: 10000400
+12-17 19:34:56.296  1795  2709 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{34bf34f 0:system/1000}, flags: 10000400
+12-17 19:34:56.296  3180  3332 I ScenarioAction: new ScenarioAction sPoolSize: 0
+12-17 19:34:56.296  3180  3332 I BatteryMonitor: screen off: 1m12s, awake: 7s wakeups: 0, battery changed: 0
+12-17 19:34:56.296  2852  2866 I MonitorImpl: onChange com.huawei.keyguard.events.CallLogMonitor@71fd234
+12-17 19:34:56.297  1795  1795 I NotificationManager: mIntentReceiver-ACTION_PHONE_STATE_CHANGED
+12-17 19:34:56.297  3466  3466 I Contacts: PLog CallLogFragment refreshData
+12-17 19:34:56.297  3466  3466 I Contacts: PLog CallLogFragment fetchCalls , requestId : 104
+12-17 19:34:56.298  1795  1808 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.PHONE_STATE flg=0x10 (has extras) } to ProcessRecord{5299443 4690:com.baidu.input_huawei/u0a74} (pid=4690, uid=10074) requires android.permission.READ_PRIVILEGED_PHONE_STATE due to sender android (uid 1000)
+12-17 19:34:56.298  2835  2835 E MMIjni  : Trying to connect...
+12-17 19:34:56.298  2835  2835 E MMIjni  : have sent: 43
+12-17 19:34:56.298  2852  2852 D KeyguardUpdateMonitor: received broadcast android.intent.action.PHONE_STATE
+12-17 19:34:56.298  2883  3125 I HwSystemManager: StartupResidentService:InnerHandler Message:7
+12-17 19:34:56.298  1795  1808 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.PHONE_STATE flg=0x10 (has extras) } to ProcessRecord{3b2f782 633:com.huawei.espacev2/u0a102} (pid=633, uid=10102) requires android.permission.READ_PRIVILEGED_PHONE_STATE due to sender android (uid 1000)
+12-17 19:34:56.298  1795  1808 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.PHONE_STATE flg=0x10 (has extras) } to ProcessRecord{9ef8336 4492:com.tencent.mm/u0a105} (pid=4492, uid=10105) requires android.permission.READ_PRIVILEGED_PHONE_STATE due to sender android (uid 1000)
+12-17 19:34:56.298   835  2386 E fpc_fingerprint_hal: ldh not found setvalue=43
+12-17 19:34:56.298  1795  1808 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.PHONE_STATE flg=0x10 (has extras) } to ProcessRecord{3495781 18589:com.tencent.mm:tools/u0a105} (pid=18589, uid=10105) requires android.permission.READ_PRIVILEGED_PHONE_STATE due to sender android (uid 1000)
+12-17 19:34:56.298   835  2386 D fpc_fingerprint_hal: ldh run_socket_server() str=0
+12-17 19:34:56.298  2835  2835 E MMIjni  : received: 0/n
+12-17 19:34:56.298  2835  2835 V AuthenticationService: new AFD/DFD type: 0 result: 0
+12-17 19:34:56.299  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -1.040454 Y: 5.250556 Z: 7.173613  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:56.299  1795 15988 D Telecom : CallsManager: getActiveSubscription: 0: CSW.sD@EsU
+12-17 19:34:56.300  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{a09fa23 u-1 android.intent.action.PHONE_STATE}, has 2 receivers
+12-17 19:34:56.300  1795  1808 W BroadcastQueue: Permission Denial: receiving Intent { act=android.intent.action.PHONE_STATE flg=0x10 (has extras) } to com.huawei.espacev2/com.huawei.espace.widget.PhoneListenerReceiver requires android.permission.READ_PRIVILEGED_PHONE_STATE due to sender android (uid 1000)
+12-17 19:34:56.300  2835  2835 E MMIjni  : Trying to connect...
+12-17 19:34:56.300  2835  2835 E MMIjni  : have sent: 43
+12-17 19:34:56.300   835  2386 E fpc_fingerprint_hal: ldh not found setvalue=43
+12-17 19:34:56.300   835  2386 D fpc_fingerprint_hal: ldh run_socket_server() str=0
+12-17 19:34:56.303  3118  3826 I ctaifs<存储已屏蔽的号码>[存储已屏蔽的号码][com.android.providers.blockednumber[query] Query CallLog
+12-17 19:34:56.303  2835  2835 E MMIjni  : received: 0/n
+12-17 19:34:56.303  2835  2835 V AuthenticationService: new AFD/DFD type: 0 result: 0
+12-17 19:34:56.303  1795  1795 I NotificationManager: updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?false
+12-17 19:34:56.303  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:34:56.303  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:34:56.303  1795  2709 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{34bf34f 0:system/1000}, flags: 10000400
+12-17 19:34:56.303  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:34:56.303  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:34:56.303  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:34:56.304  1795  2709 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{34bf34f 0:system/1000}, flags: 10000400
+12-17 19:34:56.304  3118  3825 I ctaifs<存储已屏蔽的号码>[存储已屏蔽的号码][com.android.providers.blockednumber[query] Query CallLog
+12-17 19:34:56.304  2883  3125 I HwSystemManager: StartupResidentService:InnerHandler Message:7
+12-17 19:34:56.306  3180  3578 D HwMultiWindowEx: isInMultiWindowMode ret: 0
+12-17 19:34:56.306  3180  3578 I BacklightControl: can't adjust backlight when app launch from other scene.
+12-17 19:34:56.307  1795 15988 I Telecom : CallsManager: removeCall with id TC@TC@11 in state DISCONNECTED: CSW.sD@EsU
+12-17 19:34:56.307  3180  3578 I ThermalStateManager: handle action thermal policy:208
+12-17 19:34:56.308  1795 15988 I Telecom : ServiceBinder: Service unbound ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, from unbind.: CSW.sD@EsU
+12-17 19:34:56.309  2852  2852 I BackgrounCallingLayout: mPhoneStatusReceiver:onReceive::mPhoneState=0
+12-17 19:34:56.309  2852  2852 D KeyguardUpdateMonitor: handlePhoneStateChanged(IDLE)
+12-17 19:34:56.309  2852  2852 D KeyguardUpdateMonitor: received broadcast android.intent.action.PHONE_STATE
+12-17 19:34:56.314  3218  3439 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:34:56.314  3180  3578 I ash     : ash->screen on
+12-17 19:34:56.315  2852  2852 I BackgrounCallingLayout: mPhoneStatusReceiver:onReceive::mPhoneState=0
+12-17 19:34:56.315  2852  2852 D KeyguardUpdateMonitor: handlePhoneStateChanged(IDLE)
+12-17 19:34:56.315  1795  1821 I ActivityManager_activity: windowsVisibleLocked(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310} idle: true
+12-17 19:34:56.315 32607 32607 D BetaClub: [LogCapReceiver.startSendSocketService]Receive action:android.intent.action.PHONE_STATE
+12-17 19:34:56.315  1795  1821 I WindowManager: All windows ready for display!
+12-17 19:34:56.315 32607 32607 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1527 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.huawei.betaclub.receiver.LogCapReceiver.startSendSocketService:31 com.huawei.betaclub.receiver.LogCapReceiver.onReceive:14 
+12-17 19:34:56.317  2883  3125 I HwSystemManager: StartupResidentService:InnerHandler Message:7
+12-17 19:34:56.317  3466  3466 I Contacts: PLog CallLogFragment fetchCalls , requestId : 105
+12-17 19:34:56.317  3118  3826 I ctaifs<存储已屏蔽的号码>[存储已屏蔽的号码][com.android.providers.blockednumber[query] Query CallLog
+12-17 19:34:56.317  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:34:56.317  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.PHONE_STATE
+12-17 19:34:56.318  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.PHONE_STATE
+12-17 19:34:56.319  1795  1809 I WindowOrientationListener: WindowOrientationListener enabled
+12-17 19:34:56.319  1795 15988 D Telecom : CallsManager: setParameters VOICE_PHONE_STATUS=HANGUP: CSW.sD@EsU
+12-17 19:34:56.319  1795 15988 V AudioManager: setParameters  keyValuePairs: VOICE_PHONE_STATUS=HANGUP
+12-17 19:34:56.320  3608  3608 D CallUtils: isContactExists = false, isVoiceMailNumber = false, isEmergencyNumber = false, isPredefinedNumber = true, isPresentationNotAllowed = false, isUnknownContact = false
+12-17 19:34:56.320  3608  3608 D CallUtils: isIncoming = true, isNotMarked = false, hasActived = true, isDisconnect = true, callLogCount = 0
+12-17 19:34:56.320  3608  3608 D CallUtils: canShowCallEndOptionsDialog = false
+12-17 19:34:56.320  3608  3608 D InCall  : InCallPresenter - resetRedialParameters
+12-17 19:34:56.320  3608  3608 D InCall  : InCallPresenter - notifyInCallScreenIsForeground: true
+12-17 19:34:56.320  3608  3608 I SendBroadcastPermission: action:InCallScreenIsForegroundActivity, mPermissionType:0
+12-17 19:34:56.320  1795  1809 I qti_sensors_hal: batch,376,handle 0, timeout:0 ,period_ns:66667000

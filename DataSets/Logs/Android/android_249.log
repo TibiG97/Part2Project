@@ -1,0 +1,100 @@
+12-17 19:33:14.272   835   835 E libteec : begin
+12-17 19:33:14.272   606  2379 E libteec : receive data len = 128
+12-17 19:33:14.274  3218  3234 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 phoneId=0
+12-17 19:33:14.274  3218  3234 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 retVal=false
+12-17 19:33:14.274  1795  1795 D HwConnectivityService: CtrlSocket getMobileDataEnabled = false
+12-17 19:33:14.274  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:14.275  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:14.275  2852  2852 I StackScrollAlgorithm: overlapAmount:607.0, previousNotificationEnd:463.0, newYTranslation:-144.0, location:2, i:2, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:14.275  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:33:14.275  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:33:14.276   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:14.276   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:14.276   606  2379 E libteec : send data return = 128
+12-17 19:33:14.276  2852  2852 I NotificationContentView: transferRemoteInputFocus: 1
+12-17 19:33:14.276   835   835 E libteec : receive data len = 128
+12-17 19:33:14.276   835   835 E libteec : begin
+12-17 19:33:14.276   835   835 E libteec : qsc_decode end
+12-17 19:33:14.276   835   835 D fpc_fingerprint_hal: fpc_get_authenticator_id id 14657234628792947271
+12-17 19:33:14.276  1795  2326 V FingerprintService: startAuthentication(com.android.systemui)
+12-17 19:33:14.276  1795  1795 I NotificationManager: mIntentReceiver-ACTION_SCREEN_OFF
+12-17 19:33:14.276   835  2385 E libteec : begin
+12-17 19:33:14.276  1795  2326 V FingerprintService: starting client AuthenticationClient(com.android.systemui), initiatedByClient = true)
+12-17 19:33:14.276  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = false,ledNotification == null?false
+12-17 19:33:14.276  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:33:14.276  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:33:14.276  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:33:14.277  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:33:14.277   606  2379 E libteec : receive data len = 128
+12-17 19:33:14.277  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:33:14.277   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:1
+12-17 19:33:14.277   835   835 V fingerprintd: authenticate(sid=0, gid=0)
+12-17 19:33:14.277  2852  2852 I HwExpandableNotificationRowHelper: unclear notification ,notificationPkgName:com.android.incallui key:0|com.android.incallui|2|null|1001
+12-17 19:33:14.277  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:33:14.279  1046  9753 V ThreadsEx: HDebug print the key screen_state
+12-17 19:33:14.279  1046  9753 D audio_hw_primary: adev_set_parameters: enter: screen_state=off
+12-17 19:33:14.279  1046  9753 I Huawei_audio_cust: huawei_audio huawei_choose_HandsFree_device_incall_forHWtest: test Type =4
+12-17 19:33:14.279  1046  9753 I Huawei_audio_cust: huawei_audio huawei_choose_Handset_device_incall_forHWtest: test Type =4
+12-17 19:33:14.280  1046  9753 I Huawei_audio_cust: get_spk_pa_type: pa is max98925
+12-17 19:33:14.280  1046  9753 I Huawei_audio_cust: huawei_common_set_parameters: exit with code(0)
+12-17 19:33:14.280  1046  9753 V Huawei_audio_cust: huawei_cust_set_parameters: exit with code(0)
+12-17 19:33:14.280  1046  9753 V msm8916_platform: platform_set_parameters: enter: - screen_state=off
+12-17 19:33:14.280  1046  9753 V msm8916_platform: platform_set_parameters: exit with code(0)
+12-17 19:33:14.280  1046  9753 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:33:14.280  1046  9753 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:33:14.280  1046  9753 V audio_hw_primary: adev_set_parameters: exit with code(0)
+12-17 19:33:14.282  1795  1795 I AlarmManager: set(PendingIntent{2f9e644: PendingIntentRecord{527f32d android broadcastIntent}}) : type=2 triggerAtTime=447190646 win=300000 tElapsed=447190646 maxElapsed=447490646 interval=0 flags=0x8
+12-17 19:33:14.285  1795  1795 D HwPFWLogger: PFW.HwPFWService:mBroadcastReceiver action = android.intent.action.SCREEN_OFF
+12-17 19:33:14.285  1795  2708 D HwPFWLogger: PFW.HwPFWService:handle PFW_MSG_SYSTEM
+12-17 19:33:14.285   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:14.285   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:14.285  1795  2708 D HwPFWLogger: PFW.HwPFWAppRestartPolicy:receive action = android.intent.action.SCREEN_OFF
+12-17 19:33:14.285   606  2379 E libteec : send data return = 128
+12-17 19:33:14.285   835  2385 E libteec : receive data len = 128
+12-17 19:33:14.285   835  2385 E libteec : begin
+12-17 19:33:14.285   835  2385 E libteec : qsc_decode end
+12-17 19:33:14.285   835  2385 D fpc_fingerprint_hal: worker idle
+12-17 19:33:14.286   835  2385 D fpc_fingerprint_hal: workerFunction STATE_AUTHENTICATE
+12-17 19:33:14.286   835  2385 E libteec : begin
+12-17 19:33:14.286  1795  2326 W FingerprintService: client com.android.systemui is authenticating...
+12-17 19:33:14.286   606  2379 E libteec : receive data len = 128
+12-17 19:33:14.287  1795  1795 D WifiService: onReceive, action:android.intent.action.SCREEN_OFF
+12-17 19:33:14.287  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155651 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:33:14.287  1795  2670 D WifiController: StaEnabledState what=155651
+12-17 19:33:14.287  1795  2670 D WifiController: DefaultState what=155651
+12-17 19:33:14.287  1795  2670 D WifiController: wifiSleepPolicy:1
+12-17 19:33:14.287  1795  2670 D WifiController: set idle timer: 1800000 ms
+12-17 19:33:14.288  1795  2670 I AlarmManager: set(PendingIntent{50e3a01: PendingIntentRecord{a8130a6 android broadcastIntent}}) : type=0 triggerAtTime=1481976194287 win=0 tElapsed=444730650 maxElapsed=444730650 interval=0 flags=0x9
+12-17 19:33:14.289  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 1 len = 0, 4096
+12-17 19:33:14.289  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:33:14.289   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:14.289   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:14.289   606  2379 E libteec : send data return = 128
+12-17 19:33:14.289   835  2385 E libteec : receive data len = 128
+12-17 19:33:14.289   835  2385 E libteec : begin
+12-17 19:33:14.289   835  2385 E libteec : qsc_decode end
+12-17 19:33:14.289   835  2385 I fpc_tac : fpc_tac_send_get_indices_cmd indices:0x7f9860c000, index_count:1
+12-17 19:33:14.289   835  2385 E libteec : begin
+12-17 19:33:14.289   606  2379 E libteec : receive data len = 1152
+12-17 19:33:14.289  1795  2671 D PowerManagerService: release:lock=244575063, flg=0x0, tag="WifiSuspend", name=android", ws=null, uid=1000, pid=1795
+12-17 19:33:14.290  1795  2671 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:14.290  1795  2671 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:14.293   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:14.293   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:14.293   606  2379 E libteec : send data return = 1152
+12-17 19:33:14.293   835  2385 E libteec : receive data len = 1152
+12-17 19:33:14.293   835  2385 E libteec : begin
+12-17 19:33:14.293   835  2385 E libteec : qsc_decode end
+12-17 19:33:14.293   835  2385 E libteec : begin
+12-17 19:33:14.293   606  2379 E libteec : receive data len = 128
+12-17 19:33:14.295  1795  2736 E hwintelligencewifi:  DefaultState MSG_SCREEN_OFF mIsAutoOpenSearch = false
+12-17 19:33:14.295  1795  2377 I IO.IOStatsService: onReceive:screen off
+12-17 19:33:14.296   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:14.296   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:14.296   606  2379 E libteec : send data return = 128
+12-17 19:33:14.296   835  2385 E libteec : receive data len = 128
+12-17 19:33:14.296   835  2385 E libteec : begin
+12-17 19:33:14.296   835  2385 E libteec : qsc_decode end
+12-17 19:33:14.296   835  2385 I fpc_tac : fpc_tac_begin_identify---need_liveness_authentication: 0
+12-17 19:33:14.297   835  2385 E libteec : begin
+12-17 19:33:14.297   606  2379 E libteec : receive data len = 192

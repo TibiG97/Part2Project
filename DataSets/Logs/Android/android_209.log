@@ -1,0 +1,100 @@
+12-17 19:33:03.564   835  2385 E libteec : receive data len = 128
+12-17 19:33:03.564   835  2385 E libteec : begin
+12-17 19:33:03.564   835  2385 E libteec : qsc_decode end
+12-17 19:33:03.564   835  2385 D fpc_fingerprint_hal: workerFunction STATE_NAVIGATION
+12-17 19:33:03.565   835  2385 E libteec : begin
+12-17 19:33:03.565   606  2379 E libteec : send data return = 128
+12-17 19:33:03.565   606  2379 E libteec : receive data len = 128
+12-17 19:33:03.566  1795  2671 D WifiStateMachine:  ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123067252/442919930 1 0
+12-17 19:33:03.566  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123067252/442919930 1 0
+12-17 19:33:03.566  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SCREEN_STATE_CHANGED  rt=123067252/442919930 1 0
+12-17 19:33:03.566  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SCREEN_STATE_CHANGED  rt=123067253/442919930 1 0
+12-17 19:33:03.567  1795  2671 D WifiStateMachine:  SupplicantStartedState CMD_SCREEN_STATE_CHANGED  rt=123067253/442919930 1 0
+12-17 19:33:03.567  1795  2671 D WifiStateMachine:  DefaultState CMD_SCREEN_STATE_CHANGED  rt=123067253/442919930 1 0
+12-17 19:33:03.567  2852  2852 I PhoneStatusBar: removeNotification:0|com.android.incallui|2|null|1001
+12-17 19:33:03.567  2852  2852 I StatusBar: removeNotificationViews:0|com.android.incallui|2|null|1001
+12-17 19:33:03.567  2852  2852 I NotificationGroupManager: onEntryRemoved:0|com.android.incallui|2|null|1001
+12-17 19:33:03.567  2852  2852 I NotificationGroupManager: onEntryRemovedInternal:0|com.android.incallui|2|null|1001, group=0|com.android.incallui|2|null|1001
+12-17 19:33:03.567  2852  2852 I NotificationGroupManager: summary = null
+12-17 19:33:03.567  1795  2671 D WifiStateMachine: handleScreenStateChanged: allow send scan results broadcast.
+12-17 19:33:03.567  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:33:03.567  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:33:03.568  1795  2671 W AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConnectivityManager$3@bdcaf7b
+12-17 19:33:03.568  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:33:03.568  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 2, mHwSingleScanCounter: 0
+12-17 19:33:03.568  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:33:03.568  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:03.569  1795  1825 D DisplayPowerController: Animating brightness: target=21, rate=40
+12-17 19:33:03.569  1795  1805 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:03.569  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=823
+12-17 19:33:03.569  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:03.569  1795  2750 I HwLightsService: back light level before map = 823
+12-17 19:33:03.569  1795  2671 I AlarmManager: set(null) : type=2 triggerAtTime=442926767 win=0 tElapsed=442926767 maxElapsed=442926767 interval=0 flags=0x9
+12-17 19:33:03.569  1795  1825 D DisplayPowerController: Animating brightness: target=21, rate=40
+12-17 19:33:03.569  1795  1825 V KeyguardServiceDelegate: onScreenTurnedOn()
+12-17 19:33:03.569  1795  1825 I WindowManger_keyguard: onScreenTurnedOn()
+12-17 19:33:03.569  1795  1825 D DisplayPowerController: Display ready!
+12-17 19:33:03.569  1795  1825 D DisplayPowerController: Finished business...
+12-17 19:33:03.569  2852  2822 D KeyguardService: Caller checkPermission fail
+12-17 19:33:03.569  2852  2822 D KeyguardService: KGSvcCall onScreenTurnedOn.
+12-17 19:33:03.569  2852  2822 D KeyguardViewMediator: notifyScreenTurnedOn
+12-17 19:33:03.569  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOn
+12-17 19:33:03.569  2852  2852 I PhoneStatusBar: onScreenTurnedOn
+12-17 19:33:03.570  1795  1825 D FpDataCollector: case xxx, not a fingerprint unlock 
+12-17 19:33:03.570  1795  1825 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:03.570  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeFinished mInteractiveChanging=true, mInteractive=true
+12-17 19:33:03.570  1795 17831 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:03.573  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:33:03.573  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:33:03.573  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_ON mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:33:03.573  1795  1795 D HwConnectivityService: CtrlSocket receive screen on intent!
+12-17 19:33:03.573  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus
+12-17 19:33:03.573  1795  2671 D WifiStateMachine:  ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123067259/442919937 1 0
+12-17 19:33:03.573  1795  1795 D HwConnectivityService: pid=1000, cmd=100, param=0
+12-17 19:33:03.573  1795  1795 D HwConnectivityService: mFilterMsgFlag: 0,msg.arg1: 3
+12-17 19:33:03.573  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123067259/442919937 1 0
+12-17 19:33:03.573  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:33:03.574  1795  2691 D HwConnectivityService: handleFilterMsg action: 3mFilterMsgFlag3
+12-17 19:33:03.574  1795  1795 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 1000 cmd = 100 param = 0 ret = 0
+12-17 19:33:03.574  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus reset
+12-17 19:33:03.574  1795  2691 D HwConnectivityService: [tiger]setBastetFilterInfo action 3pid 1000
+12-17 19:33:03.574  1795  2691 D HwConnectivityService: stopFilter m_filterIsStarted:false
+12-17 19:33:03.574  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:33:03.577  1795  1795 I NotificationManager: mIntentReceiver-ACTION_SCREEN_ON
+12-17 19:33:03.577  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = true,ledNotification == null?true
+12-17 19:33:03.577  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:33:03.577  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:33:03.577  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:33:03.577  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:33:03.577  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:33:03.579  1795 20747 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:03.581  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:33:03.581  1046  9753 V ThreadsEx: HDebug print the key screen_state
+12-17 19:33:03.581  1046  9753 D audio_hw_primary: adev_set_parameters: enter: screen_state=on
+12-17 19:33:03.582  1046  9753 I Huawei_audio_cust: huawei_audio huawei_choose_HandsFree_device_incall_forHWtest: test Type =4
+12-17 19:33:03.582  1046  9753 I Huawei_audio_cust: huawei_audio huawei_choose_Handset_device_incall_forHWtest: test Type =4
+12-17 19:33:03.582  1046  9753 I Huawei_audio_cust: get_spk_pa_type: pa is max98925
+12-17 19:33:03.582  1046  9753 I Huawei_audio_cust: huawei_common_set_parameters: exit with code(0)
+12-17 19:33:03.582  1046  9753 V Huawei_audio_cust: huawei_cust_set_parameters: exit with code(0)
+12-17 19:33:03.582  1046  9753 V msm8916_platform: platform_set_parameters: enter: - screen_state=on
+12-17 19:33:03.582  1046  9753 V msm8916_platform: platform_set_parameters: exit with code(0)
+12-17 19:33:03.582  1046  9753 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:33:03.582  1046  9753 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:33:03.582  1046  9753 V audio_hw_primary: adev_set_parameters: exit with code(0)
+12-17 19:33:03.584   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:03.584   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:03.584   606  2379 E libteec : send data return = 128
+12-17 19:33:03.585   835  2385 E libteec : receive data len = 128
+12-17 19:33:03.585   835  2385 E libteec : begin
+12-17 19:33:03.585   835  2385 E libteec : qsc_decode end
+12-17 19:33:03.585  1795  1795 I AlarmManager: remove(PendingIntent{2f9e644: PendingIntentRecord{527f32d android broadcastIntent}}) changed bounds; rebatching
+12-17 19:33:03.586  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:33:03.586  5215  5215 E wpa_supplicant: RSSI=-57;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:33:03.586  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:33:03.587  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:33:03.587  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-57 "Huawei-Employee"WPA_EAP
+12-17 19:33:03.587  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123067273/442919951 0 0
+12-17 19:33:03.587  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123067273/442919951 0 0
+12-17 19:33:03.587  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123067273/442919951 0 0
+12-17 19:33:03.587  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123067273/442919951 0 0
+12-17 19:33:03.587  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 0'

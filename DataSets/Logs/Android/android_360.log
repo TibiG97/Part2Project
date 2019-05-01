@@ -1,0 +1,100 @@
+12-17 19:35:55.840  2852  2852 E KGWallpaper_Magazine: setCurrentPicture to 6
+12-17 19:35:55.843  2852  2852 I BitmapUtils: getSuggestColorInfo::isStatusBarArea=true, colorMSD=3403, average color=41, color type=1, mask type=2; light 63497.117
+12-17 19:35:55.843  2852  2852 I BitmapUtils: java.lang.Exception
+12-17 19:35:55.843  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.util.BitmapUtils.getSuggestColorInfo(BitmapUtils.java:816)
+12-17 19:35:55.843  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.util.BitmapUtils.getColorInfo(BitmapUtils.java:739)
+12-17 19:35:55.843  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.KeyguardWallpaper.updateWallpaper(KeyguardWallpaper.java:145)
+12-17 19:35:55.843  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.KeyguardWallpaper.-wrap4(KeyguardWallpaper.java)
+12-17 19:35:55.843  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.KeyguardWallpaper$2.onMagazinePicLoaded(KeyguardWallpaper.java:315)
+12-17 19:35:55.843  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.MagazineWallpaper$3.onMagazinePicLoaded(MagazineWallpaper.java:733)
+12-17 19:35:55.843  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.MagazineWallpaper$BgPicLoader$1.run(MagazineWallpaper.java:531)
+12-17 19:35:55.843  2852  2852 I BitmapUtils: 	at android.os.Handler.handleCallback(Handler.java:755)
+12-17 19:35:55.843  2852  2852 I BitmapUtils: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-17 19:35:55.843  2852  2852 I BitmapUtils: 	at android.os.Looper.loop(Looper.java:199)
+12-17 19:35:55.843  2852  2852 I BitmapUtils: 	at android.app.ActivityThread.main(ActivityThread.java:6524)
+12-17 19:35:55.843  2852  2852 I BitmapUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+12-17 19:35:55.843  2852  2852 I BitmapUtils: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:941)
+12-17 19:35:55.843  2852  2852 I BitmapUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:831)
+12-17 19:35:55.845  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=0.25912303
+12-17 19:35:55.852  2852  2852 I BitmapUtils: getSuggestColorInfo::isStatusBarArea=false, colorMSD=13088, average color=61, color type=1, mask type=1; light 1175663.2
+12-17 19:35:55.852  2852  2852 I BitmapUtils: java.lang.Exception
+12-17 19:35:55.852  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.util.BitmapUtils.getSuggestColorInfo(BitmapUtils.java:816)
+12-17 19:35:55.852  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.util.BitmapUtils.getColorInfo(BitmapUtils.java:742)
+12-17 19:35:55.852  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.KeyguardWallpaper.updateWallpaper(KeyguardWallpaper.java:145)
+12-17 19:35:55.852  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.KeyguardWallpaper.-wrap4(KeyguardWallpaper.java)
+12-17 19:35:55.852  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.KeyguardWallpaper$2.onMagazinePicLoaded(KeyguardWallpaper.java:315)
+12-17 19:35:55.852  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.MagazineWallpaper$3.onMagazinePicLoaded(MagazineWallpaper.java:733)
+12-17 19:35:55.852  2852  2852 I BitmapUtils: 	at com.huawei.keyguard.support.magazine.MagazineWallpaper$BgPicLoader$1.run(MagazineWallpaper.java:531)
+12-17 19:35:55.852  2852  2852 I BitmapUtils: 	at android.os.Handler.handleCallback(Handler.java:755)
+12-17 19:35:55.852  2852  2852 I BitmapUtils: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-17 19:35:55.852  2852  2852 I BitmapUtils: 	at android.os.Looper.loop(Looper.java:199)
+12-17 19:35:55.852  2852  2852 I BitmapUtils: 	at android.app.ActivityThread.main(ActivityThread.java:6524)
+12-17 19:35:55.852  2852  2852 I BitmapUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+12-17 19:35:55.852  2852  2852 I BitmapUtils: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:941)
+12-17 19:35:55.852  2852  2852 I BitmapUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:831)
+12-17 19:35:55.852  2852  2852 W KGWallpaper: update Wallpaper and block update ui; color  {1=1, 2=1, 3=1, 4=2, 5=2}
+12-17 19:35:55.852  2852  2852 D KGWallpaper: loadType:1
+12-17 19:35:55.852  2852  2852 W WallpaperPagerAdapter: loadPagerImageView loadType:1 mCurrentPosition:1073741823
+12-17 19:35:55.852  2852  2852 W WallpaperPagerAdapter: 1 load  mCurrentIndexOfList:0 mLoadType:1
+12-17 19:35:55.852  2852  2852 W WallpaperPagerAdapter: getNextListIndex indexChecked after:1
+12-17 19:35:55.852  2852 20752 D KGWallpaper_Magazine: getNextIndex: 1; from 6 to 7; size: 44
+12-17 19:35:55.854  2852 20752 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:55.861  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=0.12150252
+12-17 19:35:55.878  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=0.031359017
+12-17 19:35:55.894  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=1.0967255E-4
+12-17 19:35:55.911  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=0.0
+12-17 19:35:55.911  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:35:55.911  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetScreenState: state=1
+12-17 19:35:55.911  1795  1825 D FpDataCollector: DisplayPowerState :OFF
+12-17 19:35:55.914  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=0
+12-17 19:35:55.914  1795  2750 I HwLightsService: back light level before map = 0
+12-17 19:35:55.914  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:55.922  1795  1825 I WindowManger_keyguard: Screen turned off...
+12-17 19:35:55.922  1795  1825 I WindowOrientationListener: WindowOrientationListener disabled
+12-17 19:35:55.922  1795  1825 I qti_sensors_hal: activate: handle is 0, en is 0
+12-17 19:35:55.922  1795  1825 I qti_sensors_hal: activate: 295 activate sensors is 2000000000000
+12-17 19:35:55.922  1795  1825 I qti_sensors_hal: enable,93:handle is 0, en is 0
+12-17 19:35:55.923  1795  1825 V KeyguardServiceDelegate: onScreenTurnedOff()
+12-17 19:35:55.923  1795  1825 I WindowManger_keyguard: onScreenTurnedOff()
+12-17 19:35:55.923  1795  1825 W HwScreenOnProximityLock: releaseLock: return because sensor listener is held = false
+12-17 19:35:55.924  2852  3328 D KeyguardService: Caller checkPermission fail
+12-17 19:35:55.924  2852  3328 D KeyguardService: KGSvcCall onScreenTurnedOff.
+12-17 19:35:55.924  2852  3328 D KeyguardViewMediator: notifyScreenTurnedOff
+12-17 19:35:55.924  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOff
+12-17 19:35:55.926  1795  1825 D HwAmbientLuxFilterAlgo: clear buffer data and algo flags
+12-17 19:35:55.926  1795  1825 D lux trace:: [59.0/123151557, 58.0/123152309, 55.0/123152686, 59.0/123153061, 54.0/123153414]
+12-17 19:35:55.926  1795  1825 D Sensors : activate called handle:3 enable:0
+12-17 19:35:55.926  1795  1825 D Sensors : bh1745-light calling driver disable
+12-17 19:35:55.926  1795  1825 W LightSensor: LightSensor, enable, 283: en=0
+12-17 19:35:55.926  1795  1825 W LightSensor: LightSensor, enable, 284: flags=0
+12-17 19:35:55.926  1795  1825 W LightSensor: LightSensor, enable, 285: mEnabled=1
+12-17 19:35:55.926  1795  1825 E LightSensor: LightSensor disable, event occur num: 140
+12-17 19:35:55.931  1795  1825 D AutomaticBrightnessController: Disable LightSensor at time:123153548
+12-17 19:35:55.931  1795  1825 D DisplayPowerController: mode change : autoBrightnessEnabled=false,adjustment=0.0,state=1
+12-17 19:35:55.931  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:35:55.931  1795  1825 D HwNormalizedRampAnimator: bright trace:564/123149256,559/123149272,553/123149289,548/123149305,543/123149322,538/123149339,533/123149355,527/123149372,522/123149388,517/123149405,512/123149421,507/123149438,502/123149455,496/123149471,491/123149488,486/123149504,481/123149521,476/123149537,470/123149554,465/123149571,460/123149587,455/123149604,450/123149620,444/123149637,439/123149654,434/123149670,429/123149686,424/123149703,419/123149720,413/123149736,408/123149753,403/123149769,398/123149786,393/123149803,387/123149819,382/123149836,377/123149852,372/123149869,367/123149886,361/123149902
+12-17 19:35:55.931  1795  1825 D HwNormalizedRampAnimator: 356/123149919,351/123149935,346/123149952,341/123149968,335/123149985,330/123150001,325/123150018,320/123150035,315/123150051,310/123150068,304/123150084,299/123150101,294/123150117,289/123150134,284/123150151,278/123150167,273/123150184,268/123150200,263/123150217,258/123150233,252/123150250,247/123150267,242/123150283,237/123150300,235/123150316,
+12-17 19:35:55.931  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=OFF, backlight=0
+12-17 19:35:55.932  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:35:55.932  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:35:55.932  1795  1821 I DisplayManagerService: Display device changed state: "内置屏幕", OFF
+12-17 19:35:55.932   612   612 D SurfaceFlinger: Set power mode=0, type=0 flinger=0x7f9a25b400
+12-17 19:35:55.932   612   612 I SDM     : HWCDisplay::SetPowerMode: display = 0, mode = 0
+12-17 19:35:55.932   612   612 I SDM     : DisplayBase::SetDisplayState: Set state = 0, display 0
+12-17 19:35:55.933  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=false
+12-17 19:35:55.933  1795  1795 D DeviceIdleController: becomeInactiveIfAppropriateLocked()
+12-17 19:35:55.933  1795  1795 D DeviceIdleController: Moved from STATE_ACTIVE to STATE_INACTIVE
+12-17 19:35:55.933  1795  1795 D DeviceIdleController: stopMonitoringMotionLocked()
+12-17 19:35:55.933  1795  1795 D DeviceIdleController: scheduleAlarmLocked(1800000, false)
+12-17 19:35:55.933  1795  1795 I AlarmManager: set(null) : type=2 triggerAtTime=444892296 win=1350000 tElapsed=444892296 maxElapsed=446242296 interval=0 flags=0x8
+12-17 19:35:55.933  1795  1795 D DeviceIdleController: Moved from LIGHT_STATE_ACTIVE to LIGHT_STATE_INACTIVE
+12-17 19:35:55.933  1795  1795 D DeviceIdleController: scheduleLightAlarmLocked(300000)
+12-17 19:35:55.934  1795  1795 I AlarmManager: set(null) : type=2 triggerAtTime=443392297 win=225000 tElapsed=443392297 maxElapsed=443617297 interval=0 flags=0x8
+12-17 19:35:55.934  1795  2376 W AlarmManager: mIsScreenOn is: true, WAKEUP alarm talarm.operation == null,package name is: android listenerTag is: WifiConnectivityManager Schedule Periodic Scan Timer creator uid is: 1000
+12-17 19:35:55.934  1795  2376 I AlarmManager: Alarm triggering (type 0 or 2): [Alarm{6eed583 type 2 when 443092298 android}]
+12-17 19:35:55.934  1795  2376 I AlarmManager: sending alarm Alarm{6eed583 type 2 when 443092298 android},repeatInterval = 0,listenerTag =WifiConnectivityManager Schedule Periodic Scan Timer
+12-17 19:35:55.935  1795  2671 I WifiConnectivityManager: periodicScanTimerHandler mScreenOn true
+12-17 19:35:55.935  1795  2376 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:55.935  1795  2376 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:55.935  1795 11746 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:55.936  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 0, mHwSingleScanCounter: 3

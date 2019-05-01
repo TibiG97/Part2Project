@@ -1,0 +1,100 @@
+12-17 19:35:15.979  1795  1809 I WindowManager: rotationForOrientationLw(orient=1, last=0); user=0 
+12-17 19:35:15.979  2852  2852 I HwBrightnessUtils: APS brightness=28.0,ConvertToPercentage=0.2714138
+12-17 19:35:15.979  1795  1809 I WindowManager: Application requested orientation 1, got rotation 0 which has compatible metrics
+12-17 19:35:15.979  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:28 percentage:0.2714138
+12-17 19:35:15.979  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:2714
+12-17 19:35:15.979  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:2714
+12-17 19:35:15.979  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2714 fromUser:false
+12-17 19:35:15.980  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2714 fromUser:false
+12-17 19:35:15.985  3180  3578 I ash     : 1795 binder call 2852
+12-17 19:35:15.991  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:16.008  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:16.009  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:16.009  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:16.010  2852  2852 I HwBrightnessUtils: APS brightness=29.0,ConvertToPercentage=0.2776395
+12-17 19:35:16.010  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:29 percentage:0.2776395
+12-17 19:35:16.010  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:2776
+12-17 19:35:16.010  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:2776
+12-17 19:35:16.010  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2776 fromUser:false
+12-17 19:35:16.011  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2776 fromUser:false
+12-17 19:35:16.024  1795  1825 D HwNormalizedRampAnimator: bright trace:757/123108955,749/123108972,741/123108989,733/123109005,725/123109022,717/123109038,709/123109055,701/123109072,693/123109088,685/123109105,677/123109121,669/123109138,661/123109155,653/123109171,645/123109188,637/123109204,629/123109221,621/123109237,613/123109254,605/123109271,597/123109287,589/123109304,581/123109321,573/123109337,565/123109354,557/123109370,549/123109386,541/123109403,533/123109419,525/123109436,517/123109453,509/123109470,501/123109486,493/123109503,485/123109519,477/123109536,469/123109552,461/123109568,453/123109585,445/123109603
+12-17 19:35:16.024  1795  1825 D HwNormalizedRampAnimator: 437/123109618,429/123109635,421/123109651,413/123109668,405/123109684,397/123109701,389/123109718,381/123109734,373/123109751,365/123109767,357/123109784,349/123109801,341/123109817,333/123109834,325/123109864,317/123109867,309/123109883,301/123109900,293/123109916,285/123109933,277/123109950,274/123109966,289/123112682,304/123112698,319/123112715,334/123112731,349/123112747,364/123112764,378/123112780,393/123112797,408/123112814,423/123112830,438/123112848,453/123112865,468/123112881,483/123112897,498/123112912,513/123112929,528/123112946,543/123112962
+12-17 19:35:16.024  1795  1825 D HwNormalizedRampAnimator: 557/123112979,572/123112995,587/123113012,602/123113028,617/123113045,632/123113062,647/123113078,662/123113095,677/123113111,692/123113128,707/123113144,722/123113161,737/123113177,751/123113194,766/123113210,781/123113227,796/123113243,811/123113261,826/123113277,841/123113293,856/123113310,871/123113327,886/123113343,901/123113360,916/123113377,930/123113393,945/123113410,960/123113426,975/123113443,990/123113459,1005/123113475,1020/123113492,1035/123113509,1050/123113526,1065/123113542,1080/123113558,1095/123113575,1110/123113591,1124/123113608,1139/123113625
+12-17 19:35:16.025  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:16.042  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:16.058  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:35:16.058  1795  2750 I HwLightsService: back light level before map = 1176
+12-17 19:35:16.058  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:16.058  1795  1825 D DisplayPowerController: Animating brightness: target=30, rate=40
+12-17 19:35:16.058  1795  1825 D DisplayPowerController: Finished business...
+12-17 19:35:16.059  1795  1825 D FpDataCollector: case xxx, not a fingerprint unlock 
+12-17 19:35:16.330  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:35:16.330  3858  4126 I amsnl   : csr
+12-17 19:35:16.330  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:35:16.331  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:35:16.332  1795 16498 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:35:16.334  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 30 -66 -7 300 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:35:16.335  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 30 -66 -7 300 2147483647 2147483647 false gw|lte
+12-17 19:35:16.337  1795 11747 D wifiserviceimpl: netmask =16580607
+12-17 19:35:16.337  3858  4126 I amsnl   : m1: false
+12-17 19:35:16.339  1795  3139 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:16.341  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:35:16.342  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:35:16.342  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+12-17 19:35:16.376  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:35:16.380  1795  2728 D hw_netstat: total/80/52,com.huawei.android.totemweather/80/52
+12-17 19:35:16.397  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=1  WEBRESENDSEGS=0  WEBRECVSEGS=2  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSRTT=830  WEBSNDDUPACKS=0  SENDSEGS=0  RESENDSEGS=0  RECVSEGS=0  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=0  RTTSEGS=0  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:35:16.397  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-44  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=94, rtt_tcp_duration=834, rtt_lan_duration=205, rtt_lan_failures=0, rtt_lan_succ=6, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:35:16.397  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:35:16.398  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:35:16.401  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:35:16.403  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=1, mTXbad=0, mRXGood=14] rssi=-44
+12-17 19:35:16.404  1795  2728 E HwCHRWebMonitor: running processName=com.tencent.mm
+12-17 19:35:16.405  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.huawei.android.totemweather UID=10028  WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=1  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:35:16.405  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:35:16.405  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 2, tx = 1
+12-17 19:35:16.405  1795  2728 D HwArpVerifier: AccessWebStatus : reset all
+12-17 19:35:16.452  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:35:16.461  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:35:16.463  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 0 mComponentName :ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:35:16.463  3879  4071 I HwLauncher: BadgeContentObserver newBadgeNumber:0,oldBadgeNumber:0 mComponentName : ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:35:16.486  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:35:16.486  5215  5215 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+12-17 19:35:16.486  5215  5215 D wpa_supplicant: wlan0: nl80211: New scan results available
+12-17 19:35:16.486  5215  5215 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472
+12-17 19:35:16.486  5215  5215 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+12-17 19:35:16.487  5215  5215 D wpa_supplicant: wlan0: Scan completed in 0.546653 seconds
+12-17 19:35:16.487  5215  5215 D wpa_supplicant: nl80211: Associated on 2452 MHz
+12-17 19:35:16.487  5215  5215 D wpa_supplicant: nl80211: Associated with 80:38:bc:08:42:c1
+12-17 19:35:16.487  5215  5215 D wpa_supplicant: nl80211: Received scan results (16 BSSes)
+12-17 19:35:16.487  5215  5215 D wpa_supplicant: nl80211: Scan results indicate BSS status with 80:38:bc:08:42:c1 as associated
+12-17 19:35:16.487  5215  5215 D wpa_supplicant: Sorted scan results
+12-17 19:35:16.488  5215  5215 D wpa_supplicant: 80:38:bc:08:42:e1 freq=2472 qual=0 noise=-89~ level=-43 snr=46* flags=0xb age=0 est=65000
+12-17 19:35:16.488  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:35:16.488  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:35:16.488  5215  5215 D wpa_supplicant: 80:38:bc:08:42:c1 freq=2452 qual=0 noise=-89~ level=-48 snr=41* flags=0x2b age=0 est=65000
+12-17 19:35:16.488  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:35:16.488  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:35:16.488  5215  5215 D wpa_supplicant: 80:38:bc:0b:29:60 freq=2412 qual=0 noise=-89~ level=-64 snr=25 flags=0xb age=0 est=65000
+12-17 19:35:16.488  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 00 ...
+12-17 19:35:16.488  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 00 ...
+12-17 19:35:16.488  5215  5215 D wpa_supplicant: 80:38:bc:0a:f1:40 freq=2412 qual=0 noise=-89~ level=-68 snr=21 flags=0xb age=0 est=54000
+12-17 19:35:16.489  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 00 ...
+12-17 19:35:16.489  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 00 ...
+12-17 19:35:16.489  5215  5215 D wpa_supplicant: 00:26:f2:1b:9d:b2 freq=2437 qual=0 noise=-89~ level=-75 snr=14 flags=0xb age=0 est=36000
+12-17 19:35:16.489  5215  5215 D wpa_supplicant: IEs - hexdump(len=109): 00 06 4e 54 50 43 30 32 01 08 82 84 8b 96 24 30 48 6c 03 01 06 2a 01 04 2f 01 04 32 04 0c 12 18 ...
+12-17 19:35:16.489  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=115): 00 06 4e 54 50 43 30 32 01 08 82 84 8b 96 24 30 48 6c 03 01 06 05 04 00 03 00 00 2a 01 04 2f 01 ...
+12-17 19:35:16.489  5215  5215 D wpa_supplicant: 80:38:bc:0a:f0:60 freq=2432 qual=0 noise=-89~ level=-77 snr=12 flags=0xb age=0 est=36000
+12-17 19:35:16.489  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 00 ...
+12-17 19:35:16.489  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 00 ...
+12-17 19:35:16.489  5215  5215 D wpa_supplicant: 80:38:bc:0a:f9:21 freq=2472 qual=0 noise=-89~ level=-78 snr=11 flags=0xb age=0 est=36000
+12-17 19:35:16.489  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:35:16.489  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:35:16.489  5215  5215 D wpa_supplicant: 80:38:bc:0a:fa:e1 freq=2412 qual=0 noise=-89~ level=-82 snr=7 flags=0xb age=0 est=18000
+12-17 19:35:16.490  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:35:16.490  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:35:16.490  5215  5215 D wpa_supplicant: 80:38:bc:0a:f9:40 freq=2452 qual=0 noise=-89~ level=-83 snr=6 flags=0xb age=0 est=13000
+12-17 19:35:16.490  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 00 ...
+12-17 19:35:16.490  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 00 ...
+12-17 19:35:16.490  5215  5215 D wpa_supplicant: 80:38:bc:0b:36:a1 freq=2472 qual=0 noise=-89~ level=-86 snr=3 flags=0xb age=0 est=6500
+12-17 19:35:16.490  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...

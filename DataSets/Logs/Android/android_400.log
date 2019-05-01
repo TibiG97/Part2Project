@@ -1,0 +1,100 @@
+12-17 19:40:25.577  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:40:25.577  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:40:25.578  1795  2748 D HwAmbientLuxFilterAlgo: t=123164127,BT=123164627,DT=123165127,BT1=123168127,DT1=123172127,Bn=false,Dn=false,lx=[123.0/123162623, 132.0/123162924, 134.0/123163225, 130.0/123163525, 125.0/123163826, 125.0/123164127],mLx=87.0,s=5.0,ss=19.850792,AuIntervened=false,mProximityState=false,bLux=574.0,dLux=20.0,bLux1=574.0,dLux1=20.0
+12-17 19:40:25.588  1795  1825 D AutomaticBrightnessController: ambient lux=129.0,timeStamp =443361950754000
+12-17 19:40:25.693  1795  2377 I AwareLog: AwareMem_EventTracker: [POLLING_TIMEOUT_123164242] is abandoned for memory 855864
+12-17 19:40:25.709  1795  3253 I AlarmManager: remove(PendingIntent{ee1e94a: PendingIntentRecord{8e90824 com.tencent.mm broadcastIntent}}) changed bounds; rebatching
+12-17 19:40:25.714  1795  1806 I AlarmManager: remove(PendingIntent{48110bb: PendingIntentRecord{91e1542 com.tencent.mm broadcastIntent}}) changed bounds; rebatching
+12-17 19:40:25.717  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:40:23,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:40:25.717  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:40:23,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:40:25.717  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:40:25.718  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:40:25.719  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:40:25.719  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:40:25.720  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:40:25.721  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:40:25.733  1795 11746 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:25.736  1795  2381 D libfingersense_wrapper: Calling fingersense_classify_touch()
+12-17 19:40:25.740  1795  2396 I AlarmManager: remove(PendingIntent{9af49d8: PendingIntentRecord{f5f5d56 com.tencent.mm broadcastIntent}}) changed bounds; rebatching
+12-17 19:40:25.740  1795  2381 D libfingersense_wrapper: fingersense_classify_touch() finished
+12-17 19:40:25.742  1795  2380 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123164284, event=2, flags=0x0, uid=1000
+12-17 19:40:25.742  1795  2380 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=2, uid=1000
+12-17 19:40:25.742  1795  2380 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:25.746  1795  1805 I AlarmManager: set(PendingIntent{d327131: PendingIntentRecord{9dd5016 com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443632108 win=202499 tElapsed=443632108 maxElapsed=443834607 interval=0 flags=0x8
+12-17 19:40:25.747  1795 16500 V SecInputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:40:25.747  1795 11747 V InputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:40:25.767  1795  3247 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:25.768  1795  2381 D libfingersense_wrapper: Calling fingersense_touch_up()
+12-17 19:40:25.768  1795  2381 D libfingersense_wrapper: fingersense_touch_up() finished
+12-17 19:40:25.783  1795  6988 I AlarmManager: remove(PendingIntent{8a5fd97: PendingIntentRecord{9dd5016 com.tencent.mm broadcastIntent}}) changed bounds; rebatching
+12-17 19:40:25.787  4492  4492 V AudioManager: playSoundEffect   effectType: 0
+12-17 19:40:25.787  4492  4492 V AudioManager: querySoundEffectsEnabled...
+12-17 19:40:25.793  1795 16501 I AlarmManager: set(PendingIntent{bbb2b84: PendingIntentRecord{20bef6d com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443632154 win=202498 tElapsed=443632154 maxElapsed=443834652 interval=0 flags=0x8
+12-17 19:40:25.814  1795 16498 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:25.818  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ui.ACTION_ACTIVE, mPermissionType:0
+12-17 19:40:25.819  1795  2778 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ui.ACTION_ACTIVE flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:40:25.827  4492  4492 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+12-17 19:40:25.827  4492  4492 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+12-17 19:40:25.828  4492  4492 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@bd54c0e
+12-17 19:40:25.828  4492  4492 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+12-17 19:40:25.828  4492  4492 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+12-17 19:40:25.828  4492  4492 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@7d1d62f
+12-17 19:40:25.844   633   692 I ECS     : Heartbeat timer.timers{6110} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 112 bytes [16]_00_00_00_6C_00_03_01_03_12_05_87_43_A1_2F_2B_84 cmdCode(CC_Heartbeat.0x0312)msgType(MT_ARG.1)msgClass(MC_InstanceMessage.3)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(108)version(3)sno(8743)
+12-17 19:40:25.869   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 140
+12-17 19:40:25.871   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 140TCP_OK
+12-17 19:40:25.874   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 144 bytes [12]_00_03_02_03_12_05_87_43_A1_2F_2B_84 cmdCode(CC_Heartbeat.0x0312)msgType(MT_ACK.2)msgClass(MC_InstanceMessage.3)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(140)version(3)sno(8743)
+12-17 19:40:25.875   633   692 I eSpaceService: msg.recv{4490} IpMessageHandler.onError(IpMessageHandler.java:65) Request Faild:CmdID=786,action=null,status=-2
+12-17 19:40:25.877   633   692 I eSpaceService: msg.recv{4490} EspaceService.onMessagCommonError(EspaceService.java:752) eSpace has got  a commonError  code = -2
+12-17 19:40:25.877   633   692 I eSpaceService: msg.recv{4490} LoginC.resultNotify(LoginC.java:508) Login_By_Step->SESSION_TIMEOUT
+12-17 19:40:25.878   633   692 I eSpaceService: msg.recv{4490} TcpCirChannel.shutdown(TcpCirChannel.java:257) Login_By_Step-> shut down now connect
+12-17 19:40:25.878  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:40:25.878  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:40:25.879   633   692 I ECS     : msg.recv{4490} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:40:25.880   633   692 I ECS     : msg.recv{4490} TcpClient.disconnect_i(TcpClient.java:202) ==================== TCP CLIENT DISCONNECT ====================
+12-17 19:40:25.882   633   692 I TCP     : msg.recv{4490} TcpClientThread.disconnectSocket(TcpClientThread.java:369) disconnecting to 172.30.70.63(*):7801
+12-17 19:40:25.883   633   692 W TCP     : tcp.recv{4488} TcpSocket.read(TcpSocket.java:242) <<< WARN(5) >>> java.net.SocketException: Socket closed
+12-17 19:40:25.883   633   692 E TCP     : tcp.recv{4488} TcpClientThread.readSocket(TcpClientThread.java:452) <<< ERROR(6) >>> socket read length failure -104
+12-17 19:40:25.884   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:314) disconnected
+12-17 19:40:25.885   633   692 I TCP     : msg.recv{4490} TcpSocket.close(TcpSocket.java:158) shutdown output: java.net.SocketException: Socket is closed
+12-17 19:40:25.886   633   692 I TCP     : msg.recv{4490} TcpSocket.close(TcpSocket.java:170) shutdown input: java.net.SocketException: Socket is closed
+12-17 19:40:25.887   633   692 I TCP     : msg.recv{4490} TcpClientThread.closeSocket(TcpClientThread.java:396) closed socket.
+12-17 19:40:25.889   633   692 I eSpaceService: msg.recv{4490} StatusManager.clearAll(StatusManager.java:227)  clear all friends' status
+12-17 19:40:25.890   633   692 I ECS     : msg.recv{4490} SimpleThread.close(SimpleThread.java:69) stopping Heartbeat timer.timers{6110}
+12-17 19:40:25.890   633   692 I ECS     : Heartbeat timer.timers{6110} SimpleThread.onLoop_i(SimpleThread.java:144) thread loop broken
+12-17 19:40:25.892   633 20850 I SDK     : <2016-12-17 19:40:25> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:25:892 Level[NOTICE] magic[2599479584 2579]:ReadSdkGroupItem: Succeed in fetching group item[HW_W3_MDM_PASSWORD] share[1]
+12-17 19:40:25.892   633 20850 I SDK     : 
+12-17 19:40:25.892   633 20850 I SDK     : <2016-12-17 19:40:25> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:25:892 Level[NOTICE] magic[2599479584 2579]:ReadSdkGroupItem: Succeed in fetching group item[HW_W3_ACCOUNT] share[1]
+12-17 19:40:25.892   633 20850 I SDK     : 
+12-17 19:40:25.895   633   692 I ECS     : Heartbeat timer.timers{6110} SimpleThread.onDeath_i(SimpleThread.java:133) thread end
+12-17 19:40:25.896   633   692 I ECS     : msg.recv{4490} SimpleThread.close(SimpleThread.java:88) stopped Heartbeat timer.timers{6110}
+12-17 19:40:25.896   816 20851 D DnsProxyListener: GetAddrInfoHandler addr: uc.huawei.com {304, 917808, 10102} 172.30.70.63
+12-17 19:40:25.897   633   692 I TupC30  : pool-2-thread-2{4430} 2.doInBackground(TupHelper.java:1260) UnRegister VOIP enter
+12-17 19:40:25.899   633   692 I TupC30  : pool-2-thread-2{4430} 2.doInBackground(TupHelper.java:1270) UnRegister VOIP end
+12-17 19:40:25.900  1795  2396 D HwInputMethodManagerService: ------------startInput--------------
+12-17 19:40:25.900  1795  2396 D HwSecImmHelper: isPasswordInputType = false, inputType = 147457
+12-17 19:40:25.900  1795  2396 V SecInputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:40:25.900  1795  2396 D HwInputMethodManagerService: hideSecSoftInput = false
+12-17 19:40:25.900   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:94) watch thread onLoop... 
+12-17 19:40:25.902  4690  4690 I SendBroadcastPermission: action:com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER, mPermissionType:0
+12-17 19:40:25.903   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:40:25.903  1795  6986 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{5299443 4690:com.baidu.input_huawei/u0a74}, intent:com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER, receiver size:1, flags: 10000400
+12-17 19:40:25.903  1795  6986 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{5299443 4690:com.baidu.input_huawei/u0a74}
+12-17 19:40:25.903  1795  6986 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{d5657a2 u0 com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER}: prev had 0
+12-17 19:40:25.903  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{d5657a2 u0 com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER}, has 1 receivers
+12-17 19:40:25.907   633   692 I eSpaceService: Watch Thread{4481} LoginC.doReconnect(LoginC.java:957) Login_By_Step->--> setStep(LoginStep.BeginConnect);
+12-17 19:40:25.908  1795 16232 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:25.910   633   692 I eSpaceService: LoginThread{6121} LoginThread.run(LoginC.java:857) Login_By_Step-> Thread is run   6121
+12-17 19:40:25.911   633   692 I eSpaceService: LoginThread{6121} LoginThread.doinLoop(LoginC.java:867) Login_By_Step-> Thread is begin   6121
+12-17 19:40:25.912   633   692 I eSpaceService: LoginThread{6121} LoginC.doLoginByStep(LoginC.java:203) Login_By_Step-> at BeginConnect
+12-17 19:40:25.912   633   692 I eSpaceService: LoginThread{6121} LoginC.beginLogin(LoginC.java:293) Login_By_Step->--> beginLogin
+12-17 19:40:25.917   633   692 E HW_DEBUG: pool-3-thread-1{4478} 10.run(RecentConversationFunc.java:2177) <<< ERROR(6) >>> not connect!
+12-17 19:40:25.918   633   692 I eSpaceService: LoginThread{6121} SvnWapper.getSSOInfoOk(SvnWapper.java:310) [HWUC SSO] ---> Get sso Login params succeed
+12-17 19:40:25.919  1795 17832 W ActivityManager: getTasks: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:25.919   633   692 I eSpaceService: LoginThread{6121} LoginC.goToStepInStep(LoginC.java:278) Login_By_Step->SVNConnect
+12-17 19:40:25.920   633   692 I eSpaceService: LoginThread{6121} LoginC.doLoginByStep(LoginC.java:203) Login_By_Step-> at SVNConnect
+12-17 19:40:25.921   633   692 I ECS     : Thread-1492{6122} LoginC.connectToServerThread(LoginC.java:451) Connect to MAA , ip = uc.huawei.com
+12-17 19:40:25.922   633   692 I eSpaceService: Thread-1492{6122} LoginC.connectToServerThread(LoginC.java:470) getLocalIp = 10.33.11.129
+12-17 19:40:25.923   633   692 I eSpaceService: Thread-1492{6122} TcpCirChannel.connect(TcpCirChannel.java:219) Connect to server  address = [172.30.70.63,]  port = 7801
+12-17 19:40:25.924   633   692 I ECS     : Thread-1492{6122} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:40:25.925   633   692 I ECS     : Thread-1492{6122} TcpClient.connect(TcpClient.java:162) ==================== TCP CLIENT CONNECT [2] ====================
+12-17 19:40:25.926   633   692 I TCP     : Thread-1492{6122} TcpClientThread.connect(TcpClientThread.java:52) will connect to 172.30.70.63:7801

@@ -1,0 +1,100 @@
+12-17 19:35:44.471  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:35:44.471  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:35:44.485  5215  5215 E wpa_supplicant: RSSI=-45;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:35:44.485  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:35:44.485  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:44.486  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-44 "Huawei-Employee"WPA_EAP
+12-17 19:35:44.486  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:35:44.486  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:35:44.501  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:35:44.503  1795  2739 D HuaweiWifiWatchdogStateMachine: LM mrssi=-45
+12-17 19:35:44.503  1795  1795 D WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -45
+12-17 19:35:44.503  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current loss[-45]=0%, volume=4
+12-17 19:35:44.503  1795  1795 I QosMonitor: queryRtt: rtt_type = 3
+12-17 19:35:44.503  1795  1795 I WifiProJNI: ######### GET RTT:3 ########
+12-17 19:35:44.503  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=7
+12-17 19:35:44.503  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history loss[-45]=0.02%, volume=189534
+12-17 19:35:44.503  1795  2737 D WifiProJNI: Received kernel message payload: event 4
+12-17 19:35:44.504  1795  2739 I HuaweiWifiWatchdogStateMachine: spd good count:0, add sc:0.0, rate:1.0
+12-17 19:35:44.504  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=9
+12-17 19:35:44.504  1795  2739 I HuaweiWifiWatchdogStateMachine: current mHighDataFlowRate = 1.0
+12-17 19:35:44.504  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:35:44.504  1795  2739 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 4, 0. Lr =0% Totpkt=4
+12-17 19:35:44.504  1795  1795 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current RTT[-45]=80, volume=1
+12-17 19:35:44.504  1795  1795 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history RTT[-45]=392, volume=44043
+12-17 19:35:44.504  1795  1795 D HuaweiWifiWatchdogStateMachine: setSampleRtt: rtt=80,rtt_pkts =1,rtt_when=6
+12-17 19:35:44.504  1795  1795 I WifiProJNI: ######### CMD_QUERY_PKTS ########
+12-17 19:35:44.504  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=1
+12-17 19:35:44.504  1795  1795 I QosMonitor: resetRtt: rtt_type = 3
+12-17 19:35:44.504  1795  1795 I WifiProJNI: ######### RESET RTT:3 ########
+12-17 19:35:44.504  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=6
+12-17 19:35:44.504  1795  2737 D WifiProJNI: Received kernel message payload: event 0
+12-17 19:35:44.504  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=9
+12-17 19:35:44.505  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:35:44.505  1795  1795 I MQoS    : rtt=80,tcp_tx_pkts=1480357,tcp_rx_pkts=1768561
+12-17 19:35:44.505  1795  5350 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+12-17 19:35:44.505  1795  5350 I MQoS    : skip-low-Level:0(0),DataDisable;use level-0
+12-17 19:35:44.506  1795  2739 D HuaweiWifiWatchdogStateMachine: dumpTcpResult: len=9,rtt=80,rttPkt=1,rttWn=6,cgt=0,cgtWn=0
+12-17 19:35:44.506  1795  2739 I HuaweiWifiWatchdogStateMachine: PTcp RTT:0, rtt pkt=0, tcp_rx=2, tcp_tx=2, tcp_reTran=0, rtRate=0
+12-17 19:35:44.506  1795  2739 D HuaweiWifiWatchdogStateMachine: mRssiBadCount =0, RSSI not bad.
+12-17 19:35:44.506  1795  2739 D HuaweiWifiWatchdogStateMachine: detectNetworkAvailable:hw.wifipro.dns_fail_count = 1001
+12-17 19:35:44.506  1795  2739 D HuaweiWifiWatchdogStateMachine: detectNetworkAvailable: tcpRxPkts != 0, reset
+12-17 19:35:44.506  1795  2739 I HuaweiWifiWatchdogStateMachine: rs ota tcp lr rttvb bad: false, false, false, false, false; rsth:-75
+12-17 19:35:44.507  1795  2739 D HuaweiWifiWatchdogStateMachine: GSC:0, GSR:1.0, RSR:1.0, RTH:-75
+12-17 19:35:44.507  1795  2739 D HuaweiWifiWatchdogStateMachine: bqeLevel = 0 rtt=0,rtt_pkts=0 speed=370 rssi=-45
+12-17 19:35:44.507  1795  2739 I HuaweiWifiWatchdogStateMachine:  pkt chk not bad, reset sc to 0.
+12-17 19:35:44.507  1795  2739 D HuaweiWifiWatchdogStateMachine: ### mPktChkBadCnt=0
+12-17 19:35:44.547  1795  2748 D HwAmbientLuxFilterAlgo: t=123142164,BT=123143164,DT=123146164,BT1=123146164,DT1=123150164,Bn=false,Dn=false,lx=[130.0/123140660, 130.0/123140961, 128.0/123141262, 123.0/123141562, 130.0/123141863, 129.0/123142164],mLx=17.0,s=5.0,ss=0.38639292,AuIntervened=false,mProximityState=false,bLux=176.0,dLux=3.5,bLux1=176.0,dLux1=3.5
+12-17 19:35:44.903  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:35:44.903  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:35:44.903  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:35:44.962  1795  1819 I EventHub: monitor check touch devices
+12-17 19:35:44.962  1795  1819 I EventHub: EventHub monitor: no key events in the past 845s, no motion events in the past 19s
+12-17 19:35:44.962  1795  1819 I InputDispatcher: InputDispatcher::monitor frozen check!
+12-17 19:35:44.962  1795  1819 I InputDispatcher: frozenCheckLocked mDispatchFrozen=0 mNextUnblockedEvent=0
+12-17 19:35:45.354   633 31867 I SDK     : <2016-12-17 19:35:45> [NOTICE] SDK: UE-SeC 2016-12-17 19:35:45:353 Level[NOTICE] magic[3368294688 1013]:s(0, 0),r(0, 0)in 20s;vsock(135716B, 10762B, 0, 0), sock(846, 897, 0, 0), times(34, 0, 194, 57), delay(0, 0)ms, m(0, 6144)KB, p:38918, s:38918, t(148, 1, 32198B, 50795B), u(0, 0, 176580B, 47974B), c(2247, 2363, 0, 0), e(68112, 1639)/(1330, 1639), k:73, d(589, 677), de(0), s(online, 2, 1), SSL(0), UDP(0), r_d(0), s_d(0), c_d(0), dur(1386 m), vs(0, 0, 0), sysFM(0 KB), ls(1779, 1779),bypass[0]:[0]
+12-17 19:35:45.354   633 31867 I SDK     : 
+12-17 19:35:45.449  1795  2748 D lux trace:: [125.0/123139184, 121.0/123139561, 122.0/123139937, 130.0/123140312, 128.0/123141062, 123.0/123141436, 130.0/123141790, 129.0/123142144, 127.0/123142890]
+12-17 19:35:45.766  1795  1807 D FreezeScreenScene: handleMessage CHECK_FREEZE_SCREEN_MSG
+12-17 19:35:45.850  5224  5283 I Step_LSC: 20002302|MSG_RECORD_DATA_TO_FILE_DELAY,mCache com.huawei.health.manager.a.c@d8a737
+12-17 19:35:45.851  5224  5283 I Step_LSC: 20002302|MSG_RECORD_DATA_TO_FILE_DELAY datas.size()=8376
+12-17 19:35:45.897  1795  1795 I TrafficMonitor: expired arrive. level:-1
+12-17 19:35:45.898  1795  1795 I TrafficMonitor: during_ms:2003,period_ms:2000
+12-17 19:35:45.898  1795  1795 I TrafficMonitor: count:108,rx_sum:0,tx_sum:0,rxBytes:0,during_ms:2003,rx_speed:0.0,tx_speed:0.0,rto:0.0
+12-17 19:35:45.898  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:0, rxSpd:0B/s, txpkt:0, txSpd:0
+12-17 19:35:46.349  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:35:46.350  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:35:46.350  3858  4126 I amsnl   : csr
+12-17 19:35:46.350  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 30 -83 -7 300 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:35:46.351  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:35:46.351  1795  1806 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:35:46.351  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 30 -83 -7 300 2147483647 2147483647 false gw|lte
+12-17 19:35:46.354  1795  2396 D wifiserviceimpl: netmask =16580607
+12-17 19:35:46.355  3858  4126 I amsnl   : m1: false
+12-17 19:35:46.358  1795  6985 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:46.359  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:35:46.360  3858  4126 I amsnl   : c: true, w: false, t: false, l: false
+12-17 19:35:46.361  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+12-17 19:35:46.653  1795  2748 D HwAmbientLuxFilterAlgo: t=123144270,BT=123145270,DT=123148270,BT1=123148270,DT1=123152270,Bn=false,Dn=false,lx=[129.0/123142765, 127.0/123143067, 131.0/123143368, 127.0/123143668, 127.0/123143969, 130.0/123144270],mLx=17.0,s=5.0,ss=0.61206895,AuIntervened=false,mProximityState=false,bLux=176.0,dLux=3.5,bLux1=176.0,dLux1=3.5
+12-17 19:35:46.905  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:35:46.906  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:35:46.906  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:35:46.944   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:35:47.003  3626  3626 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:35:47.009  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:35:47.009  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:35:47.009  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:35:47.009  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:35:47.009  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:35:47.009  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:35:47.009  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:35:47.009  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:35:47.009  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:35:47.009  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:35:47.012  3626  3626 I iMonitor: create: 903001011
+12-17 19:35:47.014   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:35:47.014   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:35:47.015  3626  3626 I iMonitor: send: 903001011
+12-17 19:35:47.016   818  1152 I logserver: handle_exception_events enter
+12-17 19:35:47.016  3626  3626 W PTM.PeriodCheckManager: mSendService start
+12-17 19:35:47.017  3626  3770 I LSC_903001011: process buffer and get message

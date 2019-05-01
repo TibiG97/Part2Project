@@ -1,0 +1,100 @@
+12-17 19:31:39.007  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:31:39.010  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:31:39.010  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:31:39.024   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:31:39.164  1795  2371 E LightSensor: read Events lux:  9.0
+12-17 19:31:39.164  1795  1825 D AutomaticBrightnessController: ambient lux=9.0,timeStamp =442835527350000
+12-17 19:31:39.266  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:31:38,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:31:39.266  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:31:38,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:31:39.267  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:31:39.268  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:31:39.270  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:31:39.272  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:31:39.273  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:31:39.274  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:31:39.276  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:31:39.280  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:31:39.280  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:31:39.281  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -72 0 -1 255 -1 255 -1 255 255 99 2147483647 2147483647 2147483647 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:31:39.281  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -72 0 -1 255 -1 255 -1 255 255 99 2147483647 2147483647 2147483647 2147483647 2147483647 false gw|lte
+12-17 19:31:39.282  3858  4126 I amsnl   : csr
+12-17 19:31:39.283  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:31:39.285  1795 15988 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:31:39.288  1795  3225 D wifiserviceimpl: netmask =16580607
+12-17 19:31:39.288  3858  4126 I amsnl   : m1: false
+12-17 19:31:39.289  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:16 targetClass:1 masterLevel:5 slaveLevel:-1
+12-17 19:31:39.290  1795  1806 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:31:39.291  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:31:39.292  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:31:39.309  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:31:39.309  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:31:39.494 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 659
+12-17 19:31:39.496 31949 31967 I TCP     : msg.recv{4791} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 659TCP_OK
+12-17 19:31:39.497 31949 31967 I ECS     : msg.recv{4791} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 663 bytes [12]_00_03_02_05_01_04_81_AF_DE_BB_33_25 cmdCode(CC_PCheckVersion.0x0501)msgType(MT_ACK.2)msgClass(MC_Push.5)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(true)length(659)version(3)sno(81AF)
+12-17 19:31:39.517  1795  2371 E LightSensor: read Events lux: 10.0
+12-17 19:31:39.518  1795  1825 D AutomaticBrightnessController: ambient lux=10.0,timeStamp =442835880721000
+12-17 19:31:39.610  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:31:39.610  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:31:39.626  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:31:39.626  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:31:39.627  3858  4126 I amsnl   : csr
+12-17 19:31:39.627  1795  3249 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:31:39.627  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:31:39.627  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -72 0 -1 255 -1 255 -1 255 255 99 2147483647 2147483647 2147483647 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:31:39.628  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -72 0 -1 255 -1 255 -1 255 255 99 2147483647 2147483647 2147483647 2147483647 2147483647 false gw|lte
+12-17 19:31:39.631  1795 20747 D wifiserviceimpl: netmask =16580607
+12-17 19:31:39.632  3858  4126 I amsnl   : m1: false
+12-17 19:31:39.634  1795 16498 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:31:39.635  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:16 targetClass:1 masterLevel:5 slaveLevel:-1
+12-17 19:31:39.635  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:31:39.636  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:31:39.911  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:31:39.911  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:31:39.912  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 0.000000
+12-17 19:31:39.912  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =-621811850 
+12-17 19:31:39.913  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:true
+12-17 19:31:39.913  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:39.914  1795  1825 D DisplayPowerController: Animating brightness: target=16, rate=40
+12-17 19:31:39.914  1795  1825 I PowerManager_screenOn: PowerManagerService goToSleepNoUpdateLocked: eventTime=123013086, reason=7, flags=0, uid=1000
+12-17 19:31:39.914  1795  1825 I PowerManagerService: Going to sleep due to proximity...
+12-17 19:31:39.914  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=3, reason=7, interactive=false, mInteractive=true, mInteractiveChanging=false
+12-17 19:31:39.915  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityPositivebyPhone -> updatePowerStateLocked
+12-17 19:31:39.915  1795  1825 D PowerManagerService: ready=true,policy=3,wakefulness=3,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:39.915  1795  1825 E PowerManagerService: startDreaming = true
+12-17 19:31:39.915  1795  1825 D PowerManagerService: reallyGoToSleepNoUpdateLocked: eventTime=123013087, uid=1000
+12-17 19:31:39.915  1795  1825 I PowerManagerService: Sleeping (uid 1000)...
+12-17 19:31:39.915  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=0, reason=2, interactive=false, mInteractive=false, mInteractiveChanging=true
+12-17 19:31:39.916  1795  1825 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:39.916  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:39.922  1795  1795 D PowerManagerService: acquire lock=228612087, flags=0x1, tag="ActivityManager-Sleep", name=android, ws=null, uid=1000, pid=1795
+12-17 19:31:39.923  1795  1795 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:39.923  1795  1795 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:39.923  1795  1795 I ActivityManager_activity: Start pausing: ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}
+12-17 19:31:39.925  3608  3608 I InCall  : VideoCallFragment - onPause:
+12-17 19:31:39.925  3608  3608 I InCall  : VideoCallPresenter - isVideoCallWorking, state is: 3
+12-17 19:31:39.925  3608  3608 D InCall  : VideoCallPresenter - pauseVideo: Error bad state mPrimaryCall=[Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)] mVideoCall=null
+12-17 19:31:39.925  3608  3608 D InCall  : InCallActivity - onPause()...
+12-17 19:31:39.925  3608  3608 D InCall  : DialpadFragment - Notifying dtmf key up.
+12-17 19:31:39.926  3608  3608 D InCall  : ContactInfoCache - Contact lookup. In memory cache hit; lookup complete
+12-17 19:31:39.939  3608  3608 D InCall  : StatusBarNotifier - Showing notification for first time.
+12-17 19:31:39.939  3608  3608 D InCall  : StatusBarNotifier - Data changed.  Showing notification
+12-17 19:31:39.940  3608  3608 D InCall  : StatusBarNotifier - contactsentry_photo is null
+12-17 19:31:39.949  3608  3608 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:39.949  3608  3608 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:39.949  3608  3608 E InCall  : StatusBarNotifier - getNotificationBuilder
+12-17 19:31:39.951  3608  3608 D InCall  : StatusBarNotifier - Will show "hang-up" action in the ongoing active call Notification
+12-17 19:31:39.954  3608  3608 E WindowManagerEx: ret: 0
+12-17 19:31:39.955  1795 17831 D HwWindowManagerService: imeVis=false
+12-17 19:31:39.955  3608  3608 E WindowManagerEx: ret: 0
+12-17 19:31:39.955  1795  3247 D HwWindowManagerService: imeVis=false
+12-17 19:31:39.955  3608  3608 E WindowManagerEx: ret: 0
+12-17 19:31:39.955  3608  3608 I InCall  : StatusBarNotifier - isTopIsFullscreen = false--isTopIsFullscreenInput()--false
+12-17 19:31:39.955  3608  3608 E InCall  : StatusBarNotifier - buildAndSendNotification state=3 showHeadUpNotification=false mHeadupViewShow=false
+12-17 19:31:39.956  3608  3608 D InCall  : StatusBarNotifier - isDreaming = false
+12-17 19:31:39.956  3608  3608 D InCall  : StatusBarNotifier - Notifying IN_CALL_NOTIFICATION: Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE))
+12-17 19:31:39.957  1795  1825 I DisplayPowerController: checkPhoneWindowIsTop:pakcage name:com.android.incallui,ClassName name:com.android.incallui.InCallActivity
+12-17 19:31:39.957  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=0.0
+12-17 19:31:39.958  1795  1825 I DisplayPowerController: set brightness to DIM brightness:6
+12-17 19:31:39.958  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:31:39.958  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=0
+12-17 19:31:39.958  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0

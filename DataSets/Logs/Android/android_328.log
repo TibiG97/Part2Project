@@ -1,0 +1,100 @@
+12-17 19:35:13.613  1795  2380 I TransactionProcessor: HwDPMS received transaction_isHwFrameworkAdminAllowed, the ret: false
+12-17 19:35:13.614  1795  1809 D KeyEvent: obtain, mHwFlags=0
+12-17 19:35:13.614  4492  4492 D KeyEvent: obtain, mHwFlags=3
+12-17 19:35:13.614  4690  4690 D KeyEvent: obtain, mHwFlags=-1291845632
+12-17 19:35:13.618  1795  1805 V SecInputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:35:13.619  1795  3884 V InputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:35:13.734  1795  2371 E LightSensor: read Events lux: 12.0
+12-17 19:35:13.883   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:35:14.052  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ui.ACTION_DEACTIVE, mPermissionType:0
+12-17 19:35:14.053  1795  3110 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ui.ACTION_DEACTIVE flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:35:14.105  4492  4492 V AudioManager: getMode...
+12-17 19:35:14.106  4492  4492 V AudioManager: isSpeakerphoneOn...
+12-17 19:35:14.107  4492  4492 V AudioManager: isBluetoothScoOn...
+12-17 19:35:14.108  4492  4492 V AudioManager: isBluetoothScoOn...
+12-17 19:35:14.109  4492  4492 V AudioManager: getMode...
+12-17 19:35:14.110  4492  4492 V AudioManager: isSpeakerphoneOn...
+12-17 19:35:14.110  4492  4492 V AudioManager: isBluetoothScoOn...
+12-17 19:35:14.115  1795  3225 V SecInputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:35:14.116  1795 11746 V InputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:35:14.128  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ui.ACTION_ACTIVE, mPermissionType:0
+12-17 19:35:14.129  1795 16498 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ui.ACTION_ACTIVE flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:35:14.131  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ui.ACTION_ACTIVE, mPermissionType:0
+12-17 19:35:14.131  1795 20747 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ui.ACTION_ACTIVE flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:35:14.248  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:35:14.248  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:35:14.252  5215  5215 E wpa_supplicant: RSSI=-44;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:35:14.252  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:35:14.253  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:14.253  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-42 "Huawei-Employee"WPA_EAP
+12-17 19:35:14.255  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:14.726  3879 11576 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=null][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=0] uid =10105 pid =4492
+12-17 19:35:14.728  3879 11576 I HwLauncher: ProviderCallUtils callBadge isCloned = false
+12-17 19:35:14.752  1795  3884 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:14.756  3879  3894 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=[shortcut_c2a51ac39f4ec2a0c386c385c2b37ac2a040c3a7c289c3bec28b547dc2b0c2a6]][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=0] uid =10105 pid =4492
+12-17 19:35:14.860  1795  1795 I TrafficMonitor: update:rxPkts:2,txPkts:1,rxBytes:80,txBytes:52
+12-17 19:35:14.861  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:35:14.861  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:35:14.961  1795  1819 I EventHub: monitor check touch devices
+12-17 19:35:14.961  1795  1819 I EventHub: EventHub monitor: no key events in the past 815s, 
+12-17 19:35:14.962  1795  1819 I InputDispatcher: InputDispatcher::monitor frozen check!
+12-17 19:35:14.962  1795  1819 I InputDispatcher: frozenCheckLocked mDispatchFrozen=0 mNextUnblockedEvent=0
+12-17 19:35:14.967  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:35:02,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:14.967  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:35:02,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:14.967  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:14.969  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:14.971  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:14.973  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:14.974  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:14.975  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:15.051  1795  2748 D HwAmbientLuxFilterAlgo: t=123112668,BT=123112464,DT=123116668,BT1=123115464,DT1=123120668,Bn=true,Dn=false,lx=[8.0/123111164, 12.0/123111464, 15.0/123111765, 15.0/123112066, 20.0/123112367, 55.0/123112668],mLx=2.0,s=5.0,ss=4.820276,AuIntervened=false,mProximityState=false,bLux=9.6,dLux=0.0,bLux1=9.6,dLux1=0.0
+12-17 19:35:15.051  1795  2748 D HwAmbientLuxFilterAlgo: updateAmbientLux: Brightened, mAmbientLightRingBuffer=[21.0 / 67ms, 13.0 / 301ms, 10.0 / 301ms, 10.0 / 301ms, 9.0 / 300ms, 6.0 / 301ms, 4.0 / 302ms, 3.0 / 301ms, 3.0 / 301ms, 3.0 / 301ms, 3.0 / 301ms, 2.0 / 301ms, 2.0 / 301ms, 2.0 / 301ms, 2.0 / 301ms, 2.0 / 304ms, 2.0 / 301ms, 2.0 / 300ms, 2.0 / 301ms, 2.0 / 301ms, 2.0 / 301ms, 2.0 / 301ms, 3.0 / 301ms, 2.0 / 301ms, 3.0 / 300ms, 4.0 / 300ms, 4.0 / 300ms, 5.0 / 302ms, 5.0 / 302ms, 8.0 / 300ms, 12.0 / 301ms, 15.0 / 301ms, 15.0 / 301ms, 20.0 / 301ms, 55.0 / 1ms], mAmbientLux=17.0,s=5.0,ss=4.820276,needBs=false,needDs=false
+12-17 19:35:15.051  1795  2748 D HwNormalizedAutomaticBrightnessController: need to update brightness: mAmbientLux=17.0
+12-17 19:35:15.051  1795  2748 D HwNormalizedSpline: interpolate:mPosBrightness=0.0lux=17.0,mIsReboot=true,mIsUserChange=false,mDelta=0.0
+12-17 19:35:15.052  1795  2748 D HwNormalizedSpline: offsetBrightness=29.84,mOffsetBrightness_last29.84,lux=17.0,mPosBrightness=0.0,mIsUserChange=false,mDelta=0.0,defaultBrightness=29.84,mStartLuxDefaultBrightness=29.84mLastLuxDefaultBrightness=29.84
+12-17 19:35:15.053  1795  2748 D HwNormalizedSpline: write:userId=0,mPosBrightness =0.0,mOffsetBrightness_last=29.84,mIsUserChange=false,mDeltaNew=0.0,mStartLuxDefaultBrightness=29.84mLastLuxDefaultBrightness=29.84,mAmLux=17.0
+12-17 19:35:15.053  1795  2748 D AutomaticBrightnessController: updateAutoBrightness: mScreenAutoBrightness=7, newScreenAutoBrightness=30
+12-17 19:35:15.053  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:35:15.053  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.054  1795  1825 D DisplayPowerController: Animating brightness: target=30, rate=40
+12-17 19:35:15.054  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:35:15.056  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.058  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.060  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.064  1795  1825 D HwGradualBrightnessAlgo: AutoMode=true,Target=1176,Current=274,amount=14.919752,duration=1.0
+12-17 19:35:15.066  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.067  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.068  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:15.070  2852  2852 I HwBrightnessUtils: APS brightness=7.0,ConvertToPercentage=0.08548999
+12-17 19:35:15.070  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:7 percentage:0.08548999
+12-17 19:35:15.070  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:855
+12-17 19:35:15.070  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:855
+12-17 19:35:15.071  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:855 fromUser:false
+12-17 19:35:15.071  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:855 fromUser:false
+12-17 19:35:15.082  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.098  1795  2750 I HwLightsService: back light level before map = 319
+12-17 19:35:15.099  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.100  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.101  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:15.104  2852  2852 I HwBrightnessUtils: APS brightness=8.0,ConvertToPercentage=0.10030571
+12-17 19:35:15.105  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:8 percentage:0.10030571
+12-17 19:35:15.105  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1003
+12-17 19:35:15.105  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1003
+12-17 19:35:15.105  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1003 fromUser:false
+12-17 19:35:15.105  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1003 fromUser:false
+12-17 19:35:15.115  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.131  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.140  1795  2381 D libfingersense_wrapper: Calling fingersense_classify_touch()
+12-17 19:35:15.147  1795  2381 D libfingersense_wrapper: fingersense_classify_touch() finished
+12-17 19:35:15.147  1795  2750 I HwLightsService: back light level before map = 364
+12-17 19:35:15.148  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.149  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.150  1795  2380 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123112757, event=2, flags=0x0, uid=1000
+12-17 19:35:15.150  1795  2380 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=2, uid=1000
+12-17 19:35:15.150  1795  2380 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:15.152  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:15.154  2852  2852 I HwBrightnessUtils: APS brightness=9.0,ConvertToPercentage=0.11354411
+12-17 19:35:15.154  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:9 percentage:0.11354411
+12-17 19:35:15.154  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1135
+12-17 19:35:15.154  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1135
+12-17 19:35:15.154  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1135 fromUser:false

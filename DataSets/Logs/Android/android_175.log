@@ -1,0 +1,100 @@
+12-17 19:32:32.704  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:32:32.705  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:32:32.707  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.huawei.health|10010|null|10099
+12-17 19:32:32.707  2852  2852 D StatusBar: applyInPlace=true shouldPeek=false alertAgain=true
+12-17 19:32:32.707  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.huawei.health|10010|null|10099
+12-17 19:32:32.707  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.huawei.health|10010|null|10099, group=0|com.huawei.health|10010|null|10099
+12-17 19:32:32.707  2852  2852 D StatusBar: reusing notification for key: 0|com.huawei.health|10010|null|10099
+12-17 19:32:32.708  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:32:32.708  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:32:32.709  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:32:32.722  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:32:32.722  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:32:32.722  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:32:32.723  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:32:32.729  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:32:32.730  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:32:32.731  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:32:32.731  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:32:32.731  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:32:32.768  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.182385 Y: 7.009787 Z: 1.993788  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:32.924  3180  4307 I AwareLog: MemoryRecoveryDMEPlugin: handle message MSG_MEM_LEAK_CHECK
+12-17 19:32:32.957  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:33.377  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:33.669  1795  1795 I TrafficMonitor: expired arrive. level:-1
+12-17 19:32:33.670  1795  1795 I TrafficMonitor: during_ms:2004,period_ms:2000
+12-17 19:32:33.670  1795  1795 I TrafficMonitor: count:66,rx_sum:0,tx_sum:0,rxBytes:0,during_ms:2004,rx_speed:0.0,tx_speed:0.0,rto:0.0
+12-17 19:32:33.670  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:0, rxSpd:0B/s, txpkt:0, txSpd:0
+12-17 19:32:33.767  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:33.779  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:33.824   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:32:33.824   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:32:33.907  1795 20747 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:32:33.966  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:34.060  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:34.104  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:34.159  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:34.199  3180  3578 I ash     :  ignore audio app: com.tencent.mm stop delta time:29662911
+12-17 19:32:34.212  3180  3578 D ApplicationPackageManager: queryIntentActivitiesAsUser size results:1, for package:com.tencent.mm
+12-17 19:32:34.213  3180  3578 I ash     : com.tencent.mm { doze duration=37472 } transition to: hibernation reason:
+12-17 19:32:34.213  3180  3578 I ash     : perform hibernation actions!
+12-17 19:32:34.214  1795  1806 D SmartHeartBeat: setAlarmsAdjust ...
+12-17 19:32:34.215  3180  3578 I ash     : com.tencent.mm is unified heartbeat(ms): 300000 reason: hibernation
+12-17 19:32:34.217  1795 16232 I PGManagerService: proxyBroadcast:[com.tencent.mm] proxy:true
+12-17 19:32:34.218  3180  3578 I ash     : proxy com.tencent.mm broadcast OK !
+12-17 19:32:34.221   803   905 I Pged-PgedBinderService: Proc: 4634 utime:1085
+12-17 19:32:34.222  3180  3578 I ash     : perform hibernation actions delay: 1000
+12-17 19:32:34.573  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:34.699  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:32:34.699  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:32:34.699  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:32:34.865  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:34.865  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:34.955  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:35.220  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:35.226   803 15280 I Pged-PgedBinderService: Proc: 4634 utime:1085
+12-17 19:32:35.231  1795 16499 D PowerManagerService: acquire lock=123756293, flags=0x1, tag="hibernation", name=com.huawei.powergenie, ws=null, uid=1000, pid=3180
+12-17 19:32:35.232  1795 16499 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:35.232  1795 16499 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:32:35.237  1795  3225 D GpsFreezeProc: addFreezeProcess pkg:com.tencent.mm
+12-17 19:32:35.238  1795  3225 I GnssLocationProvider: setRequest ProviderRequest[OFF]
+12-17 19:32:35.238  1795  3225 I GnssLocationProvider: stopNavigating, mStarted=false
+12-17 19:32:35.240  3180  3578 I ash     : proxy app:com.tencent.mm,uid:10105,result:true
+12-17 19:32:35.259  3180  3578 D PgedBinderAdapter: frz ok, pid: [4492, 4634, 18589]
+12-17 19:32:35.259  3180  3578 I PGServer: report state:6 event type:1 pid:0 uid:10105 pkg:com.tencent.mm to pid: 1795
+12-17 19:32:35.260  3180  3578 I ash     : Freeze com.tencent.mm OK !
+12-17 19:32:35.260  3180  3578 I PgedBinderAdapter: Listener network packet by uids: [10105]
+12-17 19:32:35.263  3180  3578 I ash     : add listener com.tencent.mm net packet OK !,uid:10105
+12-17 19:32:35.263  1795  1807 I AwareLog: AppHiber_Task:  Screen   Off  State, frozenInhandleMsg Return
+12-17 19:32:35.265   803 20390 E Pged-NetworkMonitor: open file error
+12-17 19:32:35.269  1795  1805 I PGManagerService: proxyWakeLockByPidUid, pid: 4492, uid: 10105, proxy: true
+12-17 19:32:35.272  3180  3578 I ash     : Proxy wakelock uid = 10105 pid = 4492
+12-17 19:32:35.277  1795  3253 I PGManagerService: proxyWakeLockByPidUid, pid: 4634, uid: 10105, proxy: true
+12-17 19:32:35.278  3180  3578 I ash     : Proxy wakelock uid = 10105 pid = 4634
+12-17 19:32:35.280  1795 15988 I PGManagerService: proxyWakeLockByPidUid, pid: 18589, uid: 10105, proxy: true
+12-17 19:32:35.280  3180  3578 I ash     : Proxy wakelock uid = 10105 pid = 18589
+12-17 19:32:35.283  1795  3110 D PowerManagerService: release:lock=123756293, flg=0x0, tag="hibernation", name=com.huawei.powergenie", ws=null, uid=1000, pid=3180
+12-17 19:32:35.284  1795  3110 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:35.284  1795  3110 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:32:35.296  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:36.088  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:32:36.096  1795  2728 D hw_netstat: total/0/0
+12-17 19:32:36.102  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSRTT=250  WEBSNDDUPACKS=0  SENDSEGS=0  RESENDSEGS=0  RECVSEGS=0  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=0  RTTSEGS=0  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:32:36.102  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-57  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=64, rtt_tcp_duration=525, rtt_lan_duration=172, rtt_lan_failures=0, rtt_lan_succ=4, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:32:36.102  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:32:36.103  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:32:36.123  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:32:36.129  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=0, mTXbad=0, mRXGood=0] rssi=-57
+12-17 19:32:36.131  1795  2728 E HwCHRWebMonitor: running processName=com.android.incallui
+12-17 19:32:36.131  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:32:36.132  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 0, tx = 0
+12-17 19:32:36.132  1795  2728 D HwArpVerifier: getDNSFailedCntDiff  dnsNewFailCnt =  1001, aws.getOldDnsFailedCnt() = 1001, dnsDiff = 0
+12-17 19:32:36.305  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:32:36.306  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:32:36.325  5215  5215 E wpa_supplicant: RSSI=-57;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:32:36.325  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:32:36.327  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:32:36.328  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-56 "Huawei-Employee"WPA_EAP
+12-17 19:32:36.328  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:32:36.329  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:32:36.343  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34

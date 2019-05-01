@@ -1,0 +1,100 @@
+12-17 19:55:47.418  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -2.506870 Y: 4.968024 Z: 7.127319  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:55:47.426   835  2385 E libteec : begin
+12-17 19:55:47.426   606  2379 E libteec : receive data len = 128
+12-17 19:55:47.436   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:55:47.437   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:55:47.437   835  2385 E libteec : receive data len = 128
+12-17 19:55:47.437   835  2385 E libteec : begin
+12-17 19:55:47.437   835  2385 E libteec : qsc_decode end
+12-17 19:55:47.437   606  2379 E libteec : send data return = 128
+12-17 19:55:47.478  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -2.711032 Y: 4.793158 Z: 8.066760  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:55:47.489  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:55:47.489  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:55:47.492  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:55:47.494  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:55:47.537   835  2385 E libteec : begin
+12-17 19:55:47.537   606  2379 E libteec : receive data len = 128
+12-17 19:55:47.539  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -3.218616 Y: 5.179755 Z: 8.283708  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:55:47.547   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:55:47.547   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:55:47.547   606  2379 E libteec : send data return = 128
+12-17 19:55:47.547   835  2385 E libteec : receive data len = 128
+12-17 19:55:47.547   835  2385 E libteec : begin
+12-17 19:55:47.547   835  2385 E libteec : qsc_decode end
+12-17 19:55:47.568  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 0 len = 0, 4096
+12-17 19:55:47.568  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:55:47.568  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:55:47.568  5215  5215 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+12-17 19:55:47.568  5215  5215 D wpa_supplicant: wlan0: nl80211: New scan results available
+12-17 19:55:47.568  5215  5215 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472
+12-17 19:55:47.568  5215  5215 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+12-17 19:55:47.568  5215  5215 D wpa_supplicant: wlan0: Scan completed in 0.447188 seconds
+12-17 19:55:47.568  5215  5215 D wpa_supplicant: nl80211: Associated on 2452 MHz
+12-17 19:55:47.568  5215  5215 D wpa_supplicant: nl80211: Associated with 80:38:bc:08:42:c1
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: nl80211: Received scan results (11 BSSes)
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: nl80211: Scan results indicate BSS status with 80:38:bc:08:42:c1 as associated
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: Sorted scan results
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: 80:38:bc:08:43:01 freq=2472 qual=0 noise=-89~ level=-36 snr=53* flags=0xb age=0 est=65000
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: 80:38:bc:08:42:c1 freq=2452 qual=0 noise=-89~ level=-48 snr=41* flags=0x2b age=0 est=65000
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: 80:38:bc:0a:f1:41 freq=2412 qual=0 noise=-89~ level=-65 snr=24 flags=0xb age=0 est=65000
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: 80:38:bc:0b:29:61 freq=2412 qual=0 noise=-89~ level=-68 snr=21 flags=0xb age=0 est=54000
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: 80:38:bc:0b:28:01 freq=2432 qual=0 noise=-89~ level=-71 snr=18 flags=0xb age=0 est=48000
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: 00:26:f2:1b:9d:b2 freq=2437 qual=0 noise=-89~ level=-79 snr=10 flags=0xb age=0 est=24000
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: IEs - hexdump(len=109): 00 06 4e 54 50 43 30 32 01 08 82 84 8b 96 24 30 48 6c 03 01 06 2a 01 04 2f 01 04 32 04 0c 12 18 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=115): 00 06 4e 54 50 43 30 32 01 08 82 84 8b 96 24 30 48 6c 03 01 06 05 04 00 03 00 00 2a 01 04 2f 01 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: 80:38:bc:0b:30:21 freq=2412 qual=0 noise=-89~ level=-81 snr=8 flags=0xb age=0 est=19500
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: 80:38:bc:0a:f1:a0 freq=2412 qual=0 noise=-89~ level=-83 snr=6 flags=0xb age=0 est=13000
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 00 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 00 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: 80:38:bc:0a:f4:60 freq=2472 qual=0 noise=-89~ level=-88 snr=1 flags=0xb age=0 est=6500
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 00 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 00 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: 80:38:bc:0b:04:41 freq=2472 qual=0 noise=-89~ level=-90 snr=-1 flags=0xb age=0 est=6500
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: 80:38:bc:08:39:c1 freq=2412 qual=0 noise=-89~ level=-93 snr=-4 flags=0xb age=0 est=6500
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:55:47.569  5215  5215 D wpa_supplicant: wlan0: BSS: Start scan result update 116
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 536 BSSID 80:38:bc:08:43:01 SSID 'Huawei-Employee' freq 2472
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=42
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 537 BSSID 80:38:bc:0a:f1:41 SSID 'Huawei-Employee' freq 2412
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=768 send_len=42
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 538 BSSID 80:38:bc:0b:29:61 SSID 'Huawei-Employee' freq 2412
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=1536 send_len=42
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 539 BSSID 80:38:bc:0b:28:01 SSID 'Huawei-Employee' freq 2432
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=1536 send_len=42
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:55:47.570  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 540 BSSID 00:26:f2:1b:9d:b2 SSID 'NTPC02' freq 2437
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=2304 send_len=42
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:55:47.570  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 541 BSSID 80:38:bc:0b:30:21 SSID 'Huawei-Employee' freq 2412
+12-17 19:55:47.570  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=1536 send_len=42
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:55:47.570  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 542 BSSID 80:38:bc:0a:f1:a0 SSID 'wlanaccessv2.0' freq 2412
+12-17 19:55:47.570  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=42
+12-17 19:55:47.570  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 543 BSSID 80:38:bc:0a:f4:60 SSID 'wlanaccessv2.0' freq 2472
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=768 send_len=42
+12-17 19:55:47.570  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00

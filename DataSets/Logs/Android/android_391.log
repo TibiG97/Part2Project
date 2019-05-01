@@ -1,0 +1,100 @@
+12-17 19:40:23.818  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.818  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.818  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.818  1795  3975 E LocSvc_libulp: I/int ulp_brain_process_zpp_position_report(const enum loc_sess_status, LocPosTechMask, UlpLocation *), report ZPP position to providers,report_position = 1
+12-17 19:40:23.818  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.818  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.818  1795  3975 E LocSvc_libulp: I/===> int ulp_brain_turn_onoff_dr_provider() line 848 
+12-17 19:40:23.818  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.818  1795  3975 E LocSvc_libulp: I/===> int ulp_dr_stop_engine() line 235 
+12-17 19:40:23.818  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.818  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.818  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.818  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.818  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:40:23.819  1795  3884 I AlarmManager: remove(PendingIntent{34e59a: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) changed bounds; rebatching
+12-17 19:40:23.819  3626  3770 I LSC_903001012: process buffer and get message
+12-17 19:40:23.819  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:40:23.823  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:40:23.823  1795  2371 E LightSensor: read Events lux:123.0
+12-17 19:40:23.823  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen on event
+12-17 19:40:23.823  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: interrupt
+12-17 19:40:23.823  1795  1825 D AutomaticBrightnessController: ambient lux=123.0,timeStamp =443360187063000
+12-17 19:40:23.825  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:40:23.825  3180  3578 I ash     : ash->screen on
+12-17 19:40:23.827  3180  3578 I ash     : com.huawei.espacev2 { hibernation duration=207831 } transition to: running reason:scron_im
+12-17 19:40:23.827  3180  3578 I ash     : clear hibernation actions!
+12-17 19:40:23.828  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:40:23.829  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:40:23.832  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = true, mIsPreScrnOn = false, mScrnSwitchTime = 1481974556308, occurTime = 1481974823830, delta = 267522, mScrnOffAccTime = 1907204, mScrnOnAccTime = 184687
+12-17 19:40:23.832  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 2174726, mScrnOffAccTime = 2174726, mScrnOnAccTime = 184687
+12-17 19:40:23.835  1795 16499 I PGManagerService: proxyWakeLockByPidUid, pid: 31949, uid: 10102, proxy: false
+12-17 19:40:23.835  1795 16499 D HwPowerManagerService: remove pxy wl, pid: 31949, uid: 10102 from pxy process list.
+12-17 19:40:23.835  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:40:23.835  3180  3578 I ash     : Unproxy wakelock uid = 10102 pid = 31949
+12-17 19:40:23.835  5224  5224 I Step_LSC: 20002302|logicalDealBroadcastEvent : Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+12-17 19:40:23.836  1795 17831 I PGManagerService: proxyWakeLockByPidUid, pid: 633, uid: 10102, proxy: false
+12-17 19:40:23.836  1795 17831 D HwPowerManagerService: remove pxy wl, pid: 633, uid: 10102 from pxy process list.
+12-17 19:40:23.836  3180  3578 I ash     : Unproxy wakelock uid = 10102 pid = 633
+12-17 19:40:23.836  5224  5283 I Step_LSC: 20002302| ## MSG_DEAL_SYSTEM_EVENT android.intent.action.SCREEN_ON
+12-17 19:40:23.837  5224  5283 I Step_StandStepCounter: 20002302|flush sensor data
+12-17 19:40:23.837  1795  1805 D PowerManagerService: acquire lock=60141323, flags=0x1, tag="hibernation", name=com.huawei.powergenie, ws=null, uid=1000, pid=3180
+12-17 19:40:23.837  1795  3237 I qti_sensors_hal: flush,395,handle 49
+12-17 19:40:23.837  1795  3237 I qti_sensors_hal: flush:sensor(android.sensor.step_counter) handle:49
+12-17 19:40:23.837  1795  1805 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.837  1795  1805 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:23.837  5224  5283 I Step_SharedPerferenceUtils: 20002302| getTodayTotalDetailSteps from Prefence success and todaySendorSteps= 1481974440000##4238##172215##0##0##443037372
+12-17 19:40:23.839  5224  5283 I Step_SharedPerferenceUtils: 20002302|setTodayTotalDetailSteps to Prefence todaySendorSteps=1481974740000##4255##172215##0##0##443360202
+12-17 19:40:23.840  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:40:23.840 31949 31967 W TCP     : tcp.recv{4790} TcpSocket.read(TcpSocket.java:242) <<< WARN(5) >>> java.net.SocketException: Connection reset
+12-17 19:40:23.841  1795 16232 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:23.842   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:94) watch thread onLoop... 
+12-17 19:40:23.843  3626  3626 I iMonitor: create: 903001010
+12-17 19:40:23.843   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:40:23.843  5224  5283 I Step_LSC: 20002302|calculateCaloriesWithCache datas.size=8376
+12-17 19:40:23.844 31949 31988 I PushService: connect :false
+12-17 19:40:23.845  5224  5283 I Step_LSC: 20002302|calculateCaloriesWithCache totalCalories=91089
+12-17 19:40:23.845   633   692 I eSpaceService: Watch Thread{4481} LoginC.doWatch(LoginC.java:1459) Login_By_Step-> watch count =  0
+12-17 19:40:23.845  5224  5283 I Step_LSC: 20002302|calculateAltitudeWithCache datas.size=8376
+12-17 19:40:23.846  3180  3578 D PgedBinderAdapter: unfrz ok, pid: [31949, 633]
+12-17 19:40:23.846  3180  3578 I PGServer: report state:6 event type:2 pid:0 uid:10102 pkg:com.huawei.espacev2 to pid: 1795
+12-17 19:40:23.847  5224  5283 I Step_LSC: 20002302|calculateAltitudeWithCache totalAltitude=0
+12-17 19:40:23.847  3180  3578 I ash     : Unfreeze com.huawei.espacev2 OK !
+12-17 19:40:23.847  1795  3247 D PowerManagerService: release:lock=60141323, flg=0x0, tag="hibernation", name=com.huawei.powergenie", ws=null, uid=1000, pid=3180
+12-17 19:40:23.847  5224  5283 I Step_LSC: 20002302|REPORT : 4255 91089 3038 0
+12-17 19:40:23.847  1795  3247 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.847  1795  3247 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:23.848  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:40:23.849  1795  6985 I PGManagerService: proxyBroadcast:[com.huawei.espacev2] proxy:false
+12-17 19:40:23.849  3180  3578 I ash     : unproxy com.huawei.espacev2 broadcast OK !
+12-17 19:40:23.849  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{7419042 u0 android.intent.action.USER_PRESENT}, has 1 receivers
+12-17 19:40:23.850  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:40:23.850  1795 15987 D SmartHeartBeat: setAlarmsAdjust ...
+12-17 19:40:23.850  1795  2376 I AlarmManager: set again repeat alarm: next ,nextElapsed = 443632923,repeatInterval = 300000
+12-17 19:40:23.850  3180  3578 I ash     : cancel unified heartbeat: com.huawei.espacev2 reason:left H
+12-17 19:40:23.851  1795 15988 D GpsFreezeProc: removeFreezeProcess pkg:com.huawei.espacev2
+12-17 19:40:23.851  1795 15988 I GnssLocationProvider: setRequest ProviderRequest[OFF]
+12-17 19:40:23.851  1795 15988 I GnssLocationProvider: stopNavigating, mStarted=false
+12-17 19:40:23.852  3626  3626 I iMonitor: send: 903001010
+12-17 19:40:23.852   818  1152 I logserver: handle_exception_events enter
+12-17 19:40:23.853  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_ON
+12-17 19:40:23.853  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:40:23.855  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:40:23.855  1795 11745 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{580cfb2 5224:com.huawei.health:DaemonService/u0a99}
+12-17 19:40:23.856  2852  2852 I EventCenter: EventCenter Get :android.com.huawei.bone.NOTIFY_SPORT_DATA
+12-17 19:40:23.857  5224  5283 I Step_HSNH: 20002302|upDateHealthNotification()|91|3.04|4255
+12-17 19:40:23.858  5224  5283 I Step_HSNH: 20002302|rebuild notification
+12-17 19:40:23.858 31949 31967 E TCP     : tcp.recv{4790} TcpClientThread.readSocket(TcpClientThread.java:452) <<< ERROR(6) >>> socket read length failure -104
+12-17 19:40:23.859 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:300) recv error
+12-17 19:40:23.861  1795  6986 I NotificationManager: enqueueNotificationInternal: pkg=com.huawei.health id=10010 notification=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)
+12-17 19:40:23.862  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.huawei.health|10010|null|10099
+12-17 19:40:23.863 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.selfDisconnectSocket(TcpClientThread.java:377) self disconnecting to uc.huawei.com:7801
+12-17 19:40:23.864 31949 31967 I TCP     : tcp.recv{4790} TcpSocket.close(TcpSocket.java:158) shutdown output: java.net.SocketException: Socket is closed
+12-17 19:40:23.864   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:40:23.864 31949 31967 I TCP     : tcp.recv{4790} TcpSocket.close(TcpSocket.java:170) shutdown input: java.net.SocketException: Socket is closed
+12-17 19:40:23.865 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.closeSocket(TcpClientThread.java:396) closed socket.
+12-17 19:40:23.865  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 443360227883696 0}
+12-17 19:40:23.865 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onRecv(TcpClientThread.java:522) tcp connection event TCP_CLOSED
+12-17 19:40:23.866  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 443360227883696 0}
+12-17 19:40:23.866  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_ON
+12-17 19:40:23.867 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:314) disconnected

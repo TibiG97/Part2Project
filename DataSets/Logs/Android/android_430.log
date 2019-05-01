@@ -1,0 +1,100 @@
+12-17 19:42:44.492  3218  3517 I QImsService: ImsSenderRxr : Ims registrationorg.codeaurora.ims.ImsQmiIF$Registration@bf57cc4[SUB0]
+12-17 19:42:44.492  3218  3517 I QImsService: ImsSenderRxr : [UNSL]< UNSOL_RESPONSE_IMS_NETWORK_STATE_CHANGED[SUB0]
+12-17 19:42:44.493  3218  3517 I QImsService: ImsSenderRxr : Response data: [12, 13, -1, -1, -1, -1, 16, 3, 24, -46, 1, 32, 0, 18, 12, 8, 1, 24, 10, 58, 6, 16, 0, 34, 2, 8, 2, 18, 12, 8, 1, 24, 0, 58, 6, 16, 0, 34, 2, 8, 2, 18, 12, 8, 1, 24, 3, 58, 6, 16, 0, 34, 2, 8, 2, 18, 12, 8, 1, 24, 1, 58, 6, 16, 0, 34, 2, 8, 2, 18, 12, 8, 1, 24, 2, 58, 6, 16, 0, 34, 2, 8, 2, 18, 14, 8, 1, 24, 11, 58, 8, 8, 14, 16, 0, 34, 2, 8, 2][SUB0]
+12-17 19:42:44.493  3218  3517 I QImsService: ImsSenderRxr :  Tag -1 3 210 0[SUB0]
+12-17 19:42:44.493  3218  3517 I QImsService: ImsSenderRxr : isValid = true type = 10 status = 0 userdata = null[SUB0]
+12-17 19:42:44.493  3218  3517 I QImsService: ImsSenderRxr :  networkMode = -1 status = 0 restrictCause = 0 registered = 2[SUB0]
+12-17 19:42:44.493  3218  3517 I QImsService: ImsSenderRxr : isValid = true type = 0 status = 0 userdata = null[SUB0]
+12-17 19:42:44.493  3218  3517 I QImsService: ImsSenderRxr :  networkMode = -1 status = 0 restrictCause = 0 registered = 2[SUB0]
+12-17 19:42:44.493  3218  3517 I QImsService: ImsSenderRxr : isValid = true type = 3 status = 0 userdata = null[SUB0]
+12-17 19:42:44.493  3218  3517 I QImsService: ImsSenderRxr :  networkMode = -1 status = 0 restrictCause = 0 registered = 2[SUB0]
+12-17 19:42:44.493  3218  3517 I QImsService: ImsSenderRxr : isValid = true type = 1 status = 0 userdata = null[SUB0]
+12-17 19:42:44.493  3218  3517 I QImsService: ImsSenderRxr :  networkMode = -1 status = 0 restrictCause = 0 registered = 2[SUB0]
+12-17 19:42:44.493  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 26 -86 -6 270 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:42:44.493  3218  3517 I QImsService: ImsSenderRxr : isValid = true type = 2 status = 0 userdata = null[SUB0]
+12-17 19:42:44.493  3218  3517 I QImsService: ImsSenderRxr :  networkMode = -1 status = 0 restrictCause = 0 registered = 2[SUB0]
+12-17 19:42:44.493  3218  3517 I QImsService: ImsSenderRxr : isValid = true type = 11 status = 0 userdata = null[SUB0]
+12-17 19:42:44.493  3218  3517 I QImsService: ImsSenderRxr :  networkMode = 14 status = 0 restrictCause = 0 registered = 2[SUB0]
+12-17 19:42:44.493  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 26 -86 -6 270 2147483647 2147483647 false gw|lte
+12-17 19:42:44.493  3858  4126 I amsnl   : csr
+12-17 19:42:44.493  1795  1806 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:42:44.493  3218  3517 I QImsService: ImsSenderRxr : [UNSL]< UNSOL_SRV_STATUS_UPDATE [org.codeaurora.ims.ServiceStatus@72207ad, org.codeaurora.ims.ServiceStatus@4a22ae2, org.codeaurora.ims.ServiceStatus@ee94e73, org.codeaurora.ims.ServiceStatus@f2fa130, org.codeaurora.ims.ServiceStatus@58471a9, org.codeaurora.ims.ServiceStatus@5bc132e][SUB0]
+12-17 19:42:44.493  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:42:44.494  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:42:44.494  3168  3307 I CHR_ChrCommonInfo: WIFI connected
+12-17 19:42:44.494  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:42:44.494   633   692 I eSpaceService: Watch Thread{4481} LoginC.doWatch(LoginC.java:1459) Login_By_Step-> watch count =  0
+12-17 19:42:44.496  3168  3307 I CHR_ChrCommonInfo: SSIDcnn  "Huawei-Employee":connectBSSID  = 80:38:bc:08:42:c1
+12-17 19:42:44.496  3168  3307 I CHR_ProtocolLogManager: faultID: 11 sub: 0
+12-17 19:42:44.496  3168  3307 I CHR_ChrUtil: is Beta User, userType = 3
+12-17 19:42:44.496  1795  3884 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.498  1795  3249 D wifiserviceimpl: netmask =16580607
+12-17 19:42:44.499  3858  4126 I amsnl   : m1: false
+12-17 19:42:44.499  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+12-17 19:42:44.499  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000012000000514f454d484f4f4b1d04080002000000ffff]
+12-17 19:42:44.499  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 28 bytes data for SUB0
+12-17 19:42:44.499  3382  3399 D QcrilMsgTunnelSocket: Rac Change (PDC) data: [-1, -1]
+12-17 19:42:44.499  3382  3399 D QcrilMsgTunnelSocket: Broadcasting intent ACTION_RAC_CHANGED
+12-17 19:42:44.500  3382  3399 I SendBroadcastPermission: action:qualcomm.intent.action.ACTION_RAC_CHANGED, mPermissionType:0
+12-17 19:42:44.500  3168  3307 I CHR_ProtocolLogManager: iMonitor version, packing logs call the same interface
+12-17 19:42:44.500  3168  3307 I CHR_IMonitorLogManager: uploadIMonitorEvent, faultID = 11, iMonitorID = 904000000, logRequest =0, eventID = 5, eventScenario = -1, eventFailCause = 0
+12-17 19:42:44.501  3168  3307 I iMonitor: create: 904000000
+12-17 19:42:44.502  1795  3139 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:44.502  1795  3139 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.503  1795 11747 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.503  3218  3375 I SendBroadcastPermission: action:com.huawei.android.intent.action.RAC_CHANGED, mPermissionType:0
+12-17 19:42:44.503  1795 11745 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.504  1795  3253 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.505  3218  3218 I QImsService: ImsServiceSubHandler : Message received: what = 2
+12-17 19:42:44.505  3218  3218 I QImsService: ImsServiceSubHandler : handleImsStateChanged
+12-17 19:42:44.505  3218  3218 I QImsService: ImsServiceSubHandler : Notify IMS state is UNREGISTERED
+12-17 19:42:44.505  3218  3218 I SendBroadcastPermission: action:huawei.intent.action.IMS_SERVICE_STATE_CHANGED, mPermissionType:0
+12-17 19:42:44.506  3168  3307 I iMonitor: send: 904000000
+12-17 19:42:44.506  1795  3110 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{24cdca7 3218:com.android.phone/1001}, intent:huawei.intent.action.IMS_SERVICE_STATE_CHANGED, receiver size:1, flags: 10000400
+12-17 19:42:44.506  1795  3110 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{24cdca7 3218:com.android.phone/1001}
+12-17 19:42:44.506  1795  3110 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{24cdca7 3218:com.android.phone/1001}
+12-17 19:42:44.506  1795  3110 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{e2d74fc u0 huawei.intent.action.IMS_SERVICE_STATE_CHANGED}: prev had 0
+12-17 19:42:44.507   818  1152 I logserver: handle_exception_events enter
+12-17 19:42:44.507  2852  2852 D HwPhoneStatusBarPolicy: state is UNREGISTERED
+12-17 19:42:44.508  2852  2852 I HwPhoneStatusBarPolicy: updateVolte::volteState=UNREGISTERED
+12-17 19:42:44.508  2852  2852 I HwStatusBarIconController: applyIconTint
+12-17 19:42:44.508  2852  2852 I HwStatusBarIconController: applyIconTint ignore
+12-17 19:42:44.508  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{e2d74fc u0 huawei.intent.action.IMS_SERVICE_STATE_CHANGED}, has 1 receivers
+12-17 19:42:44.508  3218  3218 D HwQcomVolteChrService: getDefaultPhone phone = Handler (com.android.internal.telephony.GsmCdmaPhone) {6d6dfc5}
+12-17 19:42:44.508  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:huawei.intent.action.IMS_SERVICE_STATE_CHANGED
+12-17 19:42:44.509  3218  3218 I SendBroadcastPermission: action:com.android.imscontection.DISCONNECTED, mPermissionType:0
+12-17 19:42:44.509  3626  3770 I LSC_904000000: process buffer and get message
+12-17 19:42:44.509  3168  3307 I CHR_ChrCommonInfo: getChrComHead default4GSlotId = 0
+12-17 19:42:44.509  1795  3225 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:42:44.512  1795  3111 W ActivityManager: Sending non-protected broadcast com.android.imscontection.DISCONNECTED from system 3218:com.android.phone/1001 pkg com.android.phone
+12-17 19:42:44.513  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:42:44.513  3218  3218 I QImsService: ImsServiceSub : sendBroadcastForDisconnected
+12-17 19:42:44.513  3858  4126 I amsnl   : c: true, w: false, t: false, l: false
+12-17 19:42:44.513  3218  3218 I QImsService: ImsServiceSubHandler : Message received: what = 4
+12-17 19:42:44.513  3218  3218 I QImsService: ImsServiceSubHandler : Received event: EVENT_SRV_STATUS_UPDATE
+12-17 19:42:44.513  3218  3218 I QImsService: ImsServiceSub : type = 10 status = 0 isValid = true
+12-17 19:42:44.513  3218  3218 I QImsService: ImsServiceSub : type = 0 status = 0 isValid = true
+12-17 19:42:44.513  3218  3218 I QImsService: ImsServiceSub : Call Type 0has num updates = 1
+12-17 19:42:44.513  3218  3218 I QImsService: ImsServiceSub : StatusForAccessTech networkMode = -1 registered = 2 status = 0 restrictCause = 0
+12-17 19:42:44.513  3218  3218 I QImsService: ImsServiceSub : disabledFeature = 0
+12-17 19:42:44.513  3218  3218 I QImsService: ImsServiceSub : type = 3 status = 0 isValid = true
+12-17 19:42:44.513  3218  3218 I QImsService: ImsServiceSub : Call Type 3has num updates = 1
+12-17 19:42:44.513  3218  3218 I QImsService: ImsServiceSub : StatusForAccessTech networkMode = -1 registered = 2 status = 0 restrictCause = 0
+12-17 19:42:44.513  3218  3218 I QImsService: ImsServiceSub : disabledFeature = 1
+12-17 19:42:44.513  3218  3218 I QImsService: ImsServiceSub : type = 1 status = 0 isValid = true
+12-17 19:42:44.513  3218  3218 I QImsService: ImsServiceSub : Call Type 1has num updates = 1
+12-17 19:42:44.514  3218  3218 I QImsService: ImsServiceSub : StatusForAccessTech networkMode = -1 registered = 2 status = 0 restrictCause = 0
+12-17 19:42:44.514  3218  3218 I QImsService: ImsServiceSub : disabledFeature = 1
+12-17 19:42:44.514  3218  3218 I QImsService: ImsServiceSub : type = 2 status = 0 isValid = true
+12-17 19:42:44.514  3218  3218 I QImsService: ImsServiceSub : Call Type 2has num updates = 1
+12-17 19:42:44.514  3218  3218 I QImsService: ImsServiceSub : StatusForAccessTech networkMode = -1 registered = 2 status = 0 restrictCause = 0
+12-17 19:42:44.514  3218  3218 I QImsService: ImsServiceSub : disabledFeature = 1
+12-17 19:42:44.514  3218  3218 I QImsService: ImsServiceSub : type = 11 status = 0 isValid = true
+12-17 19:42:44.514  3218  3218 I QImsService: ImsServiceSub : Call Type 11has num updates = 1
+12-17 19:42:44.514  3218  3218 I QImsService: ImsServiceSub : StatusForAccessTech networkMode = 14 registered = 2 status = 0 restrictCause = 0
+12-17 19:42:44.514  3218  3218 I QImsService: ImsServiceSub : disabledFeature = 4
+12-17 19:42:44.514  3218  3218 I QImsService: ImsServiceClassTracker : updateFeatureCapabilities video false voice false
+12-17 19:42:44.514  3218  3218 I QImsService: ImsServiceStateReceiver : updateHDIcon isVideo : false isVoice : false phoneId: 0 show HD Icon: false
+12-17 19:42:44.515  3168  3307 I CHR_ChrUtil: is Beta User, userType = 3
+12-17 19:42:44.519  3168  3307 I CHR_ChrUtil: is Beta User, userType = 3
+12-17 19:42:44.519  3168  3369 I CHR_ChrLogService: msg = 1 received

@@ -1,0 +1,100 @@
+12-17 19:35:53.768  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:35:53.768  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:35:53.771  2852  2852 D UnderLayer: ondraw 0, Rect(0, 0 - 1080, 72)
+12-17 19:35:53.873  1795  2748 D lux trace:: [128.0/123147604, 131.0/123147960, 129.0/123148317, 131.0/123149029, 119.0/123149741, 106.0/123150098, 110.0/123150473, 61.0/123150848, 58.0/123151202]
+12-17 19:35:54.731  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:35:54.731  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:35:54.733  1795 15988 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:35:54.733  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 29 -84 -7 300 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:35:54.734  3858  4126 I amsnl   : csr
+12-17 19:35:54.734  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 29 -84 -7 300 2147483647 2147483647 false gw|lte
+12-17 19:35:54.735  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:35:54.739  1795 11746 D wifiserviceimpl: netmask =16580607
+12-17 19:35:54.739  3858  4126 I amsnl   : m1: false
+12-17 19:35:54.742  1795  6985 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:54.742  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+12-17 19:35:54.743  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:35:54.744  3858  4126 I amsnl   : c: true, w: false, t: false, l: false
+12-17 19:35:54.918  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:35:54.918  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:35:54.918  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:35:55.077  1795  2748 D HwAmbientLuxFilterAlgo: t=123152694,BT=123153694,DT=123156694,BT1=123156694,DT1=123160694,Bn=false,Dn=false,lx=[61.0/123151189, 58.0/123151490, 59.0/123151791, 59.0/123152092, 58.0/123152393, 55.0/123152694],mLx=17.0,s=5.0,ss=0.5364274,AuIntervened=false,mProximityState=false,bLux=176.0,dLux=3.5,bLux1=176.0,dLux1=3.5
+12-17 19:35:55.491   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:94) watch thread onLoop... 
+12-17 19:35:55.497   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:35:55.688  1795  1825 D PowerManagerService: handleUserActivityTimeout
+12-17 19:35:55.689  1795  1825 D PowerManagerService: updateWakefulnessLocked: Bed time...
+12-17 19:35:55.689  1795  1825 I PowerManager_screenOn: PowerManagerService goToSleepNoUpdateLocked: eventTime=123153306, reason=2, flags=0, uid=1000
+12-17 19:35:55.689  1795  1825 I PowerManagerService: Going to sleep due to screen timeout (uid 1000)...
+12-17 19:35:55.689  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=3, reason=2, interactive=false, mInteractive=true, mInteractiveChanging=false
+12-17 19:35:55.690  1795  1825 D PowerManagerService: ready=true,policy=2,wakefulness=3,wksummary=0x0,uasummary=0x4,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:55.690  1795  1825 E PowerManagerService: startDreaming = true
+12-17 19:35:55.691  1795  1825 D PowerManagerService: reallyGoToSleepNoUpdateLocked: eventTime=123153308, uid=1000
+12-17 19:35:55.691  1795  1825 I PowerManagerService: Sleeping (uid 1000)...
+12-17 19:35:55.691  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=0, reason=2, interactive=false, mInteractive=false, mInteractiveChanging=true
+12-17 19:35:55.691  1795  1825 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:55.692  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:35:55.694  1795  3139 D HwInputMethodManagerService: ------------startInput--------------
+12-17 19:35:55.695  1795  3139 V SecInputMethodManagerService: Client requesting input be hidden, pid=3879
+12-17 19:35:55.695  1795  3139 D HwInputMethodManagerService: hideSecSoftInput = false
+12-17 19:35:55.705  1795  1795 I WindowManger_keyguard: call onScreenTurnedOff(3)
+12-17 19:35:55.705  1795  1795 I WindowManger_keyguard: onStartedGoingToSleep(3)
+12-17 19:35:55.706  2852  2822 D KeyguardService: Caller checkPermission fail
+12-17 19:35:55.706  2852  2822 D KeyguardService: KGSvcCall onStartedGoingToSleep.
+12-17 19:35:55.707  1795  1795 D PowerManagerService: acquire lock=228612087, flags=0x1, tag="ActivityManager-Sleep", name=android, ws=null, uid=1000, pid=1795
+12-17 19:35:55.707  1795  1795 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:55.707  1795  1795 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:55.708  1795  1795 I ActivityManager_activity: Start pausing: ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297}
+12-17 19:35:55.709  3879  3879 I HwLauncher: Launcher onPause()
+12-17 19:35:55.710  3879 20746 I HwLauncher: Launcher.MotionManager stopMotionAppsReco begin,mFlg = 403
+12-17 19:35:55.711  3879 20746 D MotionDetectionManager: stopMotionAppsReco motionApps: 403
+12-17 19:35:55.711  3879 20746 D MotionDetectionManager: stopMotionAppsReco not recognition motionApps 403
+12-17 19:35:55.711  3879 20746 W HwLauncher: Launcher.MotionManager stopMotionAppsReco service flg 403 is unavailable
+12-17 19:35:55.755  1795  3225 I ActivityManager_activity: Moving to PAUSED: ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297} (pause complete)
+12-17 19:35:55.755  1795 15988 I AlarmManager: set(PendingIntent{7382037: PendingIntentRecord{e40a9a4 com.android.systemui broadcastIntent}}) : type=2 triggerAtTime=443097071 win=0 tElapsed=443097119 maxElapsed=443097119 interval=0 flags=0x9
+12-17 19:35:55.755  1795  1825 I DisplayPowerController: checkPhoneWindowIsTop:pakcage name:com.huawei.android.launcher,ClassName name:com.huawei.android.launcher.unihome.UniHomeLauncher
+12-17 19:35:55.756  1795  1825 I DisplayPowerController: set brightness to DIM brightness:6
+12-17 19:35:55.756  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:35:55.761  3879  3879 I HwLauncher: Launcher onStop()
+12-17 19:35:55.762  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=0.968641
+12-17 19:35:55.763  2852  2822 D KeyguardViewMediator: setting alarm to turn off keyguard, seq = 482
+12-17 19:35:55.764  2852  2822 I KeyguardViewMediator: onStartedGoingToSleep(3) Lock : false reset: false
+12-17 19:35:55.764  2852  2822 D KeyguardViewMediator: notifyStartedGoingToSleep
+12-17 19:35:55.765  2852  2852 W MusicUtils: findCurrentMediaPlayPackage sessions size is 0
+12-17 19:35:55.765  1795  2396 D PowerManagerService: release:lock=228612087, flg=0x0, tag="ActivityManager-Sleep", name=android", ws=null, uid=1000, pid=1795
+12-17 19:35:55.765  2852  2852 V MusicInfo: showing music false  false
+12-17 19:35:55.765  1795  2396 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:55.765  1795  2396 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:55.766  2852  2852 V MagazineUtils: Is User Assigned Wallpaper? : 0  false
+12-17 19:35:55.766  2852  2852 W KGWallpaper: onStartedGoingToSleep switch to next Magazine
+12-17 19:35:55.768  2852  2852 D KGWallpaper_Magazine: getNextIndex: 1; from 5 to 6; size: 44
+12-17 19:35:55.768  2852  2852 W KGWallpaper_Magazine: Load magazine with type : 1
+12-17 19:35:55.768  2852  2852 W KGWallpaper_Magazine: loadPic: 1
+12-17 19:35:55.768  2852  2925 D KGWallpaper_Magazine: getNextIndex: 1; from 5 to 6; size: 44
+12-17 19:35:55.768  2852  2852 V KeyguardUpdateMonitor: FingerStat Visible: false; Interactive: true; Switching: false; Bouncer:false; GoingToSleep: true Occluded: false; dreaming: false; Authenticated: false
+12-17 19:35:55.769  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:35:55.769  2852  2925 I ExifParser: mTiffStream skip = 0
+12-17 19:35:55.769  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:35:55.769  2852  2925 W ExifData: The tag is null error!
+12-17 19:35:55.770  2852  2925 D KGWallpaper_Magazine: getNextIndex: 0; from 5 to 5; size: 44
+12-17 19:35:55.770  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:35:55.770  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:35:55.770  2852  2925 I ExifParser: mTiffStream skip = 0
+12-17 19:35:55.770  1795  6988 I Security_fingerprint: FingerprintService getEnrolledFingerprints
+12-17 19:35:55.770  2852  2852 V KeyguardUpdateMonitor: KGSvcFp startListeningForFingerprint()
+12-17 19:35:55.770  2852  2852 I KeyguardUpdateMonitor: authenticate by 0 mode!
+12-17 19:35:55.771  2852  2925 W ExifData: The tag is null error!
+12-17 19:35:55.771  2852  2925 D KGWallpaper_Magazine: getNextIndex: -1; from 5 to 4; size: 44
+12-17 19:35:55.771  2852  2925 I ExifParser: mTiffStream skip = 0
+12-17 19:35:55.772  1795  1805 I Security_fingerprint: FingerprintService authenticate
+12-17 19:35:55.772  2852  2925 W ExifData: The tag is null error!
+12-17 19:35:55.772  1795  2326 W HwFingerprintService: setLivenessSwitch:start
+12-17 19:35:55.772  2852  2852 W KeyguardUpdateMonitor: Fingerprint RunningStateChanged. 1
+12-17 19:35:55.772  1795  2326 W HwFingerprintService: checkNeedLivenessList:start
+12-17 19:35:55.772  1795  2326 W HwFingerprintService: NEED_LIVENESS_AUTHENTICATION = 0
+12-17 19:35:55.772  2852  2925 V KGWallpaper_Magazine: load magazine wallpaper start
+12-17 19:35:55.772  2852  2852 D KeyguardViewMediator: handleNotifyStartedGoingToSleep
+12-17 19:35:55.772  2852  2852 I PhoneStatusBar: onStartedGoingToSleep
+12-17 19:35:55.772  2852  2925 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:55.773   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:1002
+12-17 19:35:55.773   835   835 I fingerprintd: fingerprintd
+12-17 19:35:55.773   835   835 I fingerprintd: FingerprintDaemonProxyEx::setLivenessSwitch

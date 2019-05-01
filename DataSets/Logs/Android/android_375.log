@@ -1,0 +1,100 @@
+12-17 19:36:56.062  2852  2852 W KeyguardUpdateMonitor: ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000
+12-17 19:36:56.062  2852  2852 I KgBattery: BatteryInfo updated:  3lpc-1
+12-17 19:36:56.062  2852  2852 W AppHandler: sendMessage with obj100
+12-17 19:36:56.062  2852  2852 D KeyguardUpdateMonitor: handleBatteryUpdate
+12-17 19:36:56.062  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:36:56.072  7194  7208 E BastetManager: Failed to get bastet service
+12-17 19:36:56.073  2852  2852 W HwLockScreenPanel: Handle message: 100
+12-17 19:36:56.074  2852  2852 W HwLockScreenPanel: refreshBatteryInfo: null
+12-17 19:36:56.075  7194  7208 W PushLog2824: [ReceiverDispatcher-336]init bastet error(android/null:-1)
+12-17 19:36:56.075  7194  7208 W PushLog2824: java.lang.NullPointerException: Attempt to invoke interface method 'int com.huawei.android.bastet.IBastetManager.prepareHeartbeatProxy(int, com.huawei.android.bastet.IBastetListener)' on a null object reference
+12-17 19:36:56.075  7194  7208 W PushLog2824: 	at com.huawei.android.bastet.HwBastet.prepareHeartbeatProxy(HwBastet.java:366)
+12-17 19:36:56.075  7194  7208 W PushLog2824: 	at com.huawei.android.bastet.HwBastet.<init>(HwBastet.java:107)
+12-17 19:36:56.075  7194  7208 W PushLog2824: 	at com.huawei.android.pushagent.utils.bastet.PushBastet.bS(Unknown Source)
+12-17 19:36:56.075  7194  7208 W PushLog2824: 	at com.huawei.android.pushagent.utils.bastet.PushBastet.bR(Unknown Source)
+12-17 19:36:56.075  7194  7208 W PushLog2824: 	at y.bh(Unknown Source)
+12-17 19:36:56.075  7194  7208 W PushLog2824: 	at com.huawei.android.pushagent.model.channel.ChannelMgr.c(Unknown Source)
+12-17 19:36:56.075  7194  7208 W PushLog2824: 	at ah.onReceive(Unknown Source)
+12-17 19:36:56.075  7194  7208 W PushLog2824: 	at f.run(Unknown Source)
+12-17 19:36:56.075  7194  7208 W PushLog2824: 	at android.os.Handler.handleCallback(Handler.java:755)
+12-17 19:36:56.075  7194  7208 W PushLog2824: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-17 19:36:56.075  7194  7208 W PushLog2824: 	at android.os.Looper.loop(Looper.java:156)
+12-17 19:36:56.075  7194  7208 W PushLog2824: 	at d.run(Unknown Source)
+12-17 19:36:56.075  7194  7208 I PushLog2824: [ReceiverDispatcher-336]resetBastet(android/null:-1)
+12-17 19:36:56.076  7194  7208 I PushLog2824: [ReceiverDispatcher-336]enter clearBastetProxy, mHwBastet is null(android/null:-1)
+12-17 19:36:56.078  7194  7208 I PushLog2824: [ReceiverDispatcher-336]init push bastet failed!(android/null:-1)
+12-17 19:36:56.080  1795  3884 I AlarmManager: set(PendingIntent{7b6494: PendingIntentRecord{59e210c android broadcastIntent}}) : type=0 triggerAtTime=1481974626079 win=0 tElapsed=443162443 maxElapsed=443162443 interval=0 flags=0x9
+12-17 19:36:56.085  7194  7208 I PushLog2824: [ReceiverDispatcher-336]read to Send:DA(android/null:-1)
+12-17 19:36:56.087  7194  7208 I PushLog2824: [ReceiverDispatcher-336]send msg to remote srv success(android/null:-1)
+12-17 19:36:56.087   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:36:56.087  1795 11745 D PowerManagerService: release:lock=261296616, flg=0x0, tag="eventloop", name=android", ws=null, uid=1000, pid=7194
+12-17 19:36:56.088  1795 11745 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:36:56.088  1795 11745 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:36:56.088  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 443152450933985 1000}
+12-17 19:36:56.089  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 443152450933985 1000}
+12-17 19:36:56.090  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass active 1 443152450933985 1000
+12-17 19:36:56.090  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:36:56.090  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:36:56.090  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:36:56.090  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:36:56.091  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:36:56.092  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:36:56.093  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:36:56.093  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:36:56.093  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:36:56.093  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:36:56.093  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:36:56.093  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:36:56.094  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:36:56.094  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:36:56.094  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:36:56.094  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:36:56.144  1795 16499 D PowerManagerService: acquire lock=195500861, flags=0x1, tag="dispatcher", name=android, ws=null, uid=1000, pid=7194
+12-17 19:36:56.144  1795 16499 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:36:56.144  1795 16499 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:36:56.145  7194 19339 I PushLog2824: [SocketRead_19:27:23-13099]received a msg cmdId:DB(android/null:-1)
+12-17 19:36:56.147  3180  3578 D PacketsControl: wifi connected. do nothing.
+12-17 19:36:56.148  1795  3121 I AlarmManager: remove(PendingIntent{ea15f32: PendingIntentRecord{59e210c android broadcastIntent}}) changed bounds; rebatching
+12-17 19:36:56.160  1795 16500 I AlarmManager: set(PendingIntent{862f483: PendingIntentRecord{3c38496 android broadcastIntent}}) : type=0 triggerAtTime=1481975186160 win=0 tElapsed=443722524 maxElapsed=443722524 interval=0 flags=0x9
+12-17 19:36:56.161  7194 19339 I PushLog2824: [SocketRead_19:27:23-13099]broadcast(),and mReceivers  4(android/null:-1)
+12-17 19:36:56.162  1795  3225 D PowerManagerService: acquire lock=261296616, flags=0x1, tag="eventloop", name=android, ws=null, uid=1000, pid=7194
+12-17 19:36:56.162  1795  3225 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:36:56.165  1795  3139 D PowerManagerService: release:lock=261296616, flg=0x0, tag="eventloop", name=android", ws=null, uid=1000, pid=7194
+12-17 19:36:56.165  1795  3139 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:36:56.346  1795 11746 D PowerManagerService: release:lock=195500861, flg=0x0, tag="dispatcher", name=android", ws=null, uid=1000, pid=7194
+12-17 19:36:56.346  1795 11746 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:36:56.347  1795 11746 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:37:17.044  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:37:17.044  1795  2376 I AlarmManager: there are no wakeup alarms and the screen is off, we can delay what we have so far until the future
+12-17 19:37:17.046  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:37:17.046  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:37:17.046  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:37:17.046  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:37:17.046  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:37:17.046  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:37:17.046  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:37:17.046  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:37:17.046  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:37:17.048  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:37:17.048  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:37:17.048  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:37:17.048  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:37:17.048  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:37:17.048  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:37:17.048  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:37:17.048  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:37:17.058   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:37:17.060  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 443173421641998}
+12-17 19:37:17.062  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 443173421641998}
+12-17 19:37:17.063  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass idle 1 443173421641998
+12-17 19:37:17.064  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:37:17.064  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:37:17.065  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:37:17.065  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:37:17.065  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:37:17.066  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:37:17.067  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:37:17.067  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:37:17.067  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:37:17.067  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:37:17.067  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f

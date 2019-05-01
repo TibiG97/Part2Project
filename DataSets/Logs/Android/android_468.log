@@ -1,0 +1,100 @@
+12-17 19:55:46.710  1795  1809 I PowerManager_screenOn: finishKeyguardDrawn -> waitForAllWindowsDrawn
+12-17 19:55:46.710  1795  1809 I PowerManager_screenOn: waitForAllWindowsDrawn  cover is open or null
+12-17 19:55:46.712  3180  3332 I SensorState: sensor:20 enable:true uid:10033
+12-17 19:55:46.712  3180  3332 I PGServer: report state:4 event type:1 pid:20 uid:10033 pkg:null to pid: 1795
+12-17 19:55:46.712  3180  3332 I SensorState: addSensor,mHandles:{20=1}
+12-17 19:55:46.713  1795  1825 D Sensors : batch called handle:3 sample_ns:300000000 latency_ns:0
+12-17 19:55:46.713  1795  1825 D Sensors : activate called handle:3 enable:1
+12-17 19:55:46.713  1795  1825 D Sensors : bh1745-light calling driver setDelay 300 ms
+12-17 19:55:46.713  3180  3578 I ash     : 1795 binder call 2852
+12-17 19:55:46.713  1795  1825 D Sensors : bh1745-light calling driver enable
+12-17 19:55:46.713  1795  1825 W LightSensor: LightSensor, enable, 283: en=1
+12-17 19:55:46.713  1795  1825 W LightSensor: LightSensor, enable, 284: flags=1
+12-17 19:55:46.713  1795  1825 W LightSensor: LightSensor, enable, 285: mEnabled=0
+12-17 19:55:46.716  1795  1825 D AutomaticBrightnessController: Enable LightSensor at time:mLightSensorEnableTime=123201163,mLightSensorEnableElapsedTimeNanos=444283072884373
+12-17 19:55:46.716  1795  1825 D AutomaticBrightnessController: mAmbientLuxValid= false,sensor is not ready
+12-17 19:55:46.716  1795  1825 D DisplayPowerController: mode change : autoBrightnessEnabled=true,adjustment=0.0,state=2
+12-17 19:55:46.717  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:55:46.717  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:55:46.717  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=0
+12-17 19:55:46.717  1795  2750 D PowerManagerService: Setting HAL auto-suspend mode to false
+12-17 19:55:46.717  1795  2750 D PowerManagerService: Setting HAL interactive mode to true
+12-17 19:55:46.717  1795  2750 I QTI PowerHAL: Got set_interactive hint
+12-17 19:55:46.717  1795  2750 D libfingersense_wrapper: Calling fingersense_on_resume()
+12-17 19:55:46.717  1795  2750 D libfingersense_wrapper: fingersense_on_resume() finished
+12-17 19:55:46.718   836  2387 I knuckle_sensor: Sending SAM_ENABLE to fs_data
+12-17 19:55:46.718  1795  1821 I DisplayManagerService: Display device changed state: "内置屏幕", ON
+12-17 19:55:46.719  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=true
+12-17 19:55:46.719  1795  1795 I DeviceIdleController: becomeActiveLocked, reason = screen
+12-17 19:55:46.719  1795  1795 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:55:46.719   832  1840 E Parcel  : Reading a NULL string not supported here.
+12-17 19:55:46.719   832  1840 E Parcel  : Reading a NULL string not supported here.
+12-17 19:55:46.719  1795  1807 D DeviceIdleController: handleMessage(5)
+12-17 19:55:46.719   612   612 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f9a25b400
+12-17 19:55:46.719   612   612 I SDM     : HWCDisplay::SetPowerMode: display = 0, mode = 2
+12-17 19:55:46.719   612   612 I SDM     : DisplayBase::SetDisplayState: Set state = 1, display 0
+12-17 19:55:46.721  1795  1795 D DeviceIdleController: stopMonitoringMotionLocked()
+12-17 19:55:46.721  1795  1795 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:55:46.721  1795  1807 D NetdConnector: SND -> {11654 firewall disable_chain dozable}
+12-17 19:55:46.722   836   928 I knuckle_sensor: Got ENABLE response, status = 0, id = 77
+12-17 19:55:46.723  1795 16500 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.725  1795 11745 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.726  1795  2396 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.726  3626  3754 I LogDatabase: msg = 21 received
+12-17 19:55:46.727  1795 16499 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.728  3626  3754 D LogItem : /log/nc_chr/wifi/done/ not exist
+12-17 19:55:46.730  3626  3754 I PackAutoLog: PackAutoLog onPrePack
+12-17 19:55:46.731  3626  3754 D LogItem : /log/nc_chr/wifi/done/ not exist
+12-17 19:55:46.732  3626  3754 D LogItem : /log/nc_chr/wifi/done/ not exist
+12-17 19:55:46.739  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000012000000514f454d484f4f4b1d04080002000000ffff]
+12-17 19:55:46.739  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 28 bytes data for SUB0
+12-17 19:55:46.739  3382  3399 D QcrilMsgTunnelSocket: Rac Change (PDC) data: [-1, -1]
+12-17 19:55:46.739  3382  3399 D QcrilMsgTunnelSocket: Broadcasting intent ACTION_RAC_CHANGED
+12-17 19:55:46.739  3382  3399 I SendBroadcastPermission: action:qualcomm.intent.action.ACTION_RAC_CHANGED, mPermissionType:0
+12-17 19:55:46.740  1795 15987 D PowerManagerService: acquire lock=190146162, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:55:46.740  1795 15987 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.741  3218  3375 I SendBroadcastPermission: action:com.huawei.android.intent.action.RAC_CHANGED, mPermissionType:0
+12-17 19:55:46.745  1795 11746 D PowerManagerService: acquire lock=190146162, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:55:46.745  1795 11746 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.746  1795 16232 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.749  1795  3139 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.750  1795  1806 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.751  1795  1805 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.753  1795  1821 I WindowManager: All windows ready for display!
+12-17 19:55:46.754  1795  1809 I WindowManager: Finished screen turning on...
+12-17 19:55:46.754  1795  1825 I PowerManager_screenOn: DisplayPowerController Unblocked screen on after 76 ms
+12-17 19:55:46.754  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=true, brightnessWaitRet=false, screenAutoBrightness=-1, userId=0
+12-17 19:55:46.754  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=1.0
+12-17 19:55:46.755  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:55:46.768  3626  3754 I LogDatabase: clearLog2 , eventidHead = 909000000eventidTail = 909999999
+12-17 19:55:46.768  3626  3754 I LogDatabase: clearLog2 , restrainFileNum = 128
+12-17 19:55:46.768  3626  3754 I FileUtils: restrainFilesNum, count = 128
+12-17 19:55:46.775  1795  6986 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.775  1795 20747 D PowerManagerService: acquire lock=190146162, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:55:46.776  1795 20747 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.783  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:55:46.802  1795  1795 E hwintelligencewifi: onCellLocationChanged
+12-17 19:55:46.802  1795  2736 D HwInnerWifiManagerImpl: SupplicantState = COMPLETED
+12-17 19:55:46.802  1795  2736 D HwInnerWifiManagerImpl: isPhoneAP = false
+12-17 19:55:46.805  3218  3439 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:55:46.805  3218  3439 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:55:46.807  1795  2736 E hwintelligencewifi: getCurrentCellid type type = PHONE_TYPE_GSM
+12-17 19:55:46.807  1795  2736 E hwintelligencewifi: getCurrentCellid type is PHONE_TYPE_GSM
+12-17 19:55:46.809  1795  2736 E hwintelligencewifi: getCurrentCellid PHONE_TYPE_GSM cellidString = 4600046525442
+12-17 19:55:46.809  1795  2736 E hwintelligencewifi: updataApInfo cellid =4600046525442
+12-17 19:55:46.809  1795  2736 E hwintelligencewifi: addCurrentApInfo cellid =4600046525442
+12-17 19:55:46.809  3168  3168 I CHR_TelStatusListenr: onCellLocationChanged: cellInfo = [10167,46525442,-1]
+12-17 19:55:46.809  1795  2736 E hwintelligencewifi: addCurrentApInfo info is already there
+12-17 19:55:46.809  1795  2736 W hwintelligencewifi: updateBssidTimer time = 1481975746809
+12-17 19:55:46.813  1795  2736 E hwintelligencewifi: inlineAddCurrentApInfo mInfos.size()=132
+12-17 19:55:46.815  1795  1795 D WifiScanGenie_Controller: cellid has changed
+12-17 19:55:46.816  1795  3884 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.817  1795 15982 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.817  1795 11746 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.818  1795  3111 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.818  1795  1795 D WifiScanGenie_Controller: mCurrentCellId has Changed,try update
+12-17 19:55:46.818  1795  1795 D WifiScanGenie_Controller: WifiScanGenie handleWiFiConnected, cellIdChanged:true
+12-17 19:55:46.818  1795  1795 D HwInnerWifiManagerImpl: SupplicantState = COMPLETED
+12-17 19:55:46.818  1795  1795 D HwInnerWifiManagerImpl: isPhoneAP = false
+12-17 19:55:46.818  1795  1795 D WifiScanGenie_Controller: wifi connect,mCurrentPriority: 35
+12-17 19:55:46.819  3218  3236 W PhoneInterfaceManager: shouldBlockLocation running ...

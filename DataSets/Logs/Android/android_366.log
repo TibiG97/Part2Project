@@ -1,0 +1,100 @@
+12-17 19:35:57.499  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:35:57.499  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 0, tx = 0
+12-17 19:35:57.499  1795  2728 D HwArpVerifier: getDNSFailedCntDiff  dnsNewFailCnt =  1001, aws.getOldDnsFailedCnt() = 0, dnsDiff = 1001
+12-17 19:35:57.499  1795  2728 D HwArpVerifier: mAccessWebStatus : getNetDisableCnt = 1, rx = 0, tx = 0
+12-17 19:35:57.499  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:35:57.500  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:35:57.508  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:35:57.511  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:35:57.513  1795  2728 E HwCHRWifiFile: getFileResult throw exceptionjava.io.FileNotFoundException: /sys/kernel/debug/bcmdhd/debug_wl_counters (No such file or directory)
+12-17 19:35:57.514  1795  2728 E HwCHRWifiLinkMonitor: HwCHRWifiBcmIncrCounterLst [txbyte=0  txframe=0  txnoassoc=0  txphyerror=0  txctl=0  txfail=0  txphyerr=0  txfrmsnt=0  txnoack=0  txfrag=0  txnocts=0  txrts=0  txnobuf=0  txallfrm=0  txerror=0  txretrans=0  rxbyte=0  rxframe=0  rxbadfcs=0  rxbadplcp=0  rxmulti=0  rxfrag=0  rxctl=0  rxbadcm=0  rxnobuf=0  rxcrsglitch=0  rxbadds=0  rxnondata=0  rxmulti=0  reset=0  rxdfrmocast=0  rxmfrmocast=0  rxdfrmucastmbss=0  rxmfrmucastmbss=0  rxbeaconmbss=0  rxdfmucastobss=0  rxbeaconobss=0  rxstrt=0  rxcfrmocast=0  rxcfrmucast=0  rxdfrmmcast=0  rxmfrmmcast=0  rxcfrmmcast=0  ]
+12-17 19:35:57.522  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:36:01.793  1795 16232 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:36:01.794  1795 16232 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:36:01.795  1795  1795 I DeviceIdleController: updateChargingLocked: charging=false
+12-17 19:36:01.795  1795  1825 D PowerManagerService: updateIsPoweredLocked: wasPowered=false, mIsPowered=false, oldPlugType=0, mPlugType=0, mBatteryLevel=78
+12-17 19:36:01.795  1795  1825 I HwCustPowerManager_FLOW: handleDreamLocked
+12-17 19:36:01.795  1795  1795 D WifiService: onReceive, action:android.intent.action.BATTERY_CHANGED
+12-17 19:36:01.795  1795  1795 D WifiService: ACTION_BATTERY_CHANGED pluggedType: 0
+12-17 19:36:01.795  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155652 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:36:01.795  1795  2670 D WifiController: StaEnabledState what=155652
+12-17 19:36:01.796  1795  2670 D WifiController: DefaultState what=155652
+12-17 19:36:01.796  1795  2670 D WifiController: battery changed pluggedType: 0
+12-17 19:36:01.796  1795  2670 D WifiController: wifiSleepPolicy:1
+12-17 19:36:01.796  2852  2852 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-17 19:36:01.796  2852  2852 W KeyguardUpdateMonitor: ACTION_BATTERY_CHANGED AMP: 0; Volt: 0
+12-17 19:36:01.796  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:36:01.796  2852  2852 W KeyguardUpdateMonitor: ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000
+12-17 19:36:01.796  2852  2852 I KgBattery: BatteryInfo updated:  3lpc-1
+12-17 19:36:01.796  2852  2852 W AppHandler: sendMessage with obj100
+12-17 19:36:01.796  2852  2852 D KeyguardUpdateMonitor: handleBatteryUpdate
+12-17 19:36:01.796  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:36:01.796  2852  2852 W HwLockScreenPanel: Handle message: 100
+12-17 19:36:01.798  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:36:01.798  2852  2852 W HwLockScreenPanel: refreshBatteryInfo: null
+12-17 19:36:01.798  3218  3218 D VideoCall_LowBattery: BatteryIntent received: android.intent.action.BATTERY_CHANGED
+12-17 19:36:01.798  1795  2376 W AlarmManager: mIsScreenOn is: false, WAKEUP alarm trigger action = com.android.internal.policy.impl.PhoneWindowManager.DELAYED_KEYGUARD package name is: com.android.systemui
+12-17 19:36:01.798  1795  2376 I AlarmManager: Alarm triggering (type 0 or 2): [Alarm{eed2309 type 2 when 443097071 com.android.systemui}]
+12-17 19:36:01.799  1795  2376 I AlarmManager: sending alarm Alarm{ed5f407 type 3 when 443096364 android},repeatInterval = 0,listenerTag =time_tick
+12-17 19:36:01.799  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.BATTERY_CHANGED  flag:1610612752 technology=Li-ion icon-small=17303220 max_charging_voltage=0 health=2 max_charging_current=0 status=3 plugged=0 present=true charge_counter=0 level=78 scale=100 temperature=272 voltage=4069 invalid_charger=0 
+12-17 19:36:01.799  2852  2852 I PowerUI : buckets   .....15 .. 10 .. 5level          78 --> 78status         3 --> 3plugType       0 --> 0invalidCharger 0 --> 0bucket         1 --> 1plugged        false --> false
+12-17 19:36:01.799  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:36:01.799  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:36:01.799  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:36:01.799  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:36:01.799  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:36:01.799  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:36:01.799  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:36:01.799  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:36:01.799  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:36:01.799  3782  3862 W QCNEJ   : |CORE| CNE received unexpected action: android.intent.action.BATTERY_CHANGED
+12-17 19:36:01.800  3218  3218 E QtiImsExtUtils: getImsPhoneId failed. Exception = org.codeaurora.ims.QtiImsException: ImsService is not running
+12-17 19:36:01.800  3218  3218 E QtiImsExtUtils: getConfigForPhoneId phoneId is invalid
+12-17 19:36:01.800  3218  3218 E QtiImsExtUtils: isCarrierConfigEnabled bundle is null
+12-17 19:36:01.800  3218  3218 D VideoCall_LowBattery:  allowVideoCallsInLowBattery: false isCarrierOneSupported: false mIsLowbattery: false
+12-17 19:36:01.800  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:36:01.800  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:36:01.800  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:36:01.800  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:36:01.800  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:36:01.800  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:36:01.800  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:36:01.800  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:36:01.802  1795 16500 I NotificationManager: cancelNotificationWithTag pid 2852,uid = 10033,tag = low_battery,pkg =com.android.systemui,id =2132017204
+12-17 19:36:01.802  1795  1795 I NotificationManager: cancelNotification,index:-1
+12-17 19:36:01.802  2852  2852 I HwPowerUI: processLowerBatteryLevel plugged:false batteryLevel:78 intent:act:android.intent.action.BATTERY_CHANGED  flag:1610612752 technology=Li-ion icon-small=17303220 max_charging_voltage=0 health=2 max_charging_current=0 status=3 plugged=0 present=true charge_counter=0 level=78 scale=100 temperature=272 voltage=4069 invalid_charger=0 
+12-17 19:36:01.802  2852  2852 I HwPowerUI: doTemperatueWarning, health:2
+12-17 19:36:01.803  2852  2852 I HwBatteryManager: onBatteryLevelChanged: level=78, pluggedIn=false, charging=false, PercentColor=-1275068417
+12-17 19:36:01.804  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[foreground] BroadcastRecord{5cd893c u-1 android.intent.action.TIME_TICK}: prev had 0
+12-17 19:36:01.804  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [foreground] BroadcastRecord{5cd893c u-1 android.intent.action.TIME_TICK}, has 11 receivers
+12-17 19:36:01.805  1795  2376 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:36:01.805  1795  2376 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:36:01.805  1795  1795 V AlarmManager: Received TIME_TICK alarm; rescheduling
+12-17 19:36:01.805  1795  1795 I AlarmManager: scheduleTimeTickEvent triggerAtTime = 443156364
+12-17 19:36:01.806  1795  2376 I AlarmManager: sending alarm Alarm{eed2309 type 2 when 443097071 com.android.systemui},repeatInterval = 0,listenerTag =null
+12-17 19:36:01.806  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[foreground] BroadcastRecord{8bbe6c5 u0 com.android.internal.policy.impl.PhoneWindowManager.DELAYED_KEYGUARD}: prev had 1
+12-17 19:36:01.809  3180  3578 I ash     : com.huawei.espacev2 goes to hibernation overtime: 3104
+12-17 19:36:01.810  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:36:01.810  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:36:01.810  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:36:01.810  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:36:01.810  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:36:01.832  2852  2852 I TimeManager: act:android.intent.action.TIME_TICK  flag:1342177300 FLAG_IS_FIRST_POWER_OFF_ALARM=false android.intent.extra.ALARM_COUNT=1 
+12-17 19:36:01.832  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:36:01.833  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:36
+12-17 19:36:01.833  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:36
+12-17 19:36:01.833  2852  2852 I TimeManager: chinaDateTime:晚上7:36
+12-17 19:36:01.833  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:36:01.834  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:36
+12-17 19:36:01.834  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:36
+12-17 19:36:01.834  2852  2852 I TimeManager: chinaDateTime:晚上7:36
+12-17 19:36:01.834  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:36:01.834  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:36
+12-17 19:36:01.834  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:36
+12-17 19:36:01.834  2852  2852 I TimeManager: chinaDateTime:晚上7:36
+12-17 19:36:01.835  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:36:01.835  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:36
+12-17 19:36:01.835  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:36
+12-17 19:36:01.835  2852  2852 I TimeManager: chinaDateTime:晚上7:36
+12-17 19:36:01.846  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:36:01.846  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true

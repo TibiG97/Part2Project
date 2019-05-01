@@ -1,0 +1,100 @@
+12-17 19:40:23.867  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass active 1 443360227883696 0
+12-17 19:40:23.868 31949 31967 I PushService: main{1} PushService.onStartCommand(PushService.java:87) Push Service Start by  userEvent
+12-17 19:40:23.868  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:40:23.868  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:40:23.868  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:40:23.868  1795 17832 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{c4bf590 u0 android.intent.action.USER_PRESENT}, has 1 receivers
+12-17 19:40:23.868  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:40:23.869  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:40:23.869  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:40:23.869  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:40:23.871  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -2.723315 Y: 1.621008 Z: 8.376805  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:40:23.872   633   633 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:872 Level[NOTICE] magic[3979851060 1019]:SDK:proc user present event!
+12-17 19:40:23.872   633   633 I SDK     : 
+12-17 19:40:23.872   633   633 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:872 Level[NOTICE] magic[3979851060 1019]:SDK:end proc user present event!
+12-17 19:40:23.872   633   633 I SDK     : 
+12-17 19:40:23.873  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:40:23.873   633 20833 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:872 Level[NOTICE] magic[2599479584 1019]:SDK:begin nativeForceTunnelReconnect
+12-17 19:40:23.873   633 20833 I SDK     : 
+12-17 19:40:23.873   633 20833 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:873 Level[NOTICE] magic[2599479584 1944]:DetectAndReconnectTunnel
+12-17 19:40:23.873   633 20833 I SDK     : 
+12-17 19:40:23.873   633 20833 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:873 Level[NOTICE] magic[2599479584 452]:l4vpn : l4vpn status is 1
+12-17 19:40:23.873   633 20833 I SDK     : 
+12-17 19:40:23.873  1795  2376 W AlarmManager: mIsScreenOn is: true, WAKEUP alarm trigger action = com.huawei.espace.pushcheck package name is: com.huawei.espacev2
+12-17 19:40:23.873  1795  2376 I AlarmManager: Alarm triggering (type 0 or 2): [Alarm{95fb0bd type 0 when 1481974796559 com.huawei.espacev2}]
+12-17 19:40:23.873  1795  2376 I AlarmManager: sending alarm Alarm{95fb0bd type 0 when 1481974796559 com.huawei.espacev2},repeatInterval = 300000,listenerTag =null
+12-17 19:40:23.873   633 20833 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:873 Level[NOTICE] magic[2599479584 1955]:AnyOffice_ReconnectTunnel : L4VPN in use
+12-17 19:40:23.873   633 20833 I SDK     : 
+12-17 19:40:23.874  3608  3608 D InCall  : InCallActivity - mScreenOnReceiver mCallEndOptionsDialog = null
+12-17 19:40:23.876  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)) important=2, post=1481974823861, when=1481531589202, vis=0, userid=0
+12-17 19:40:23.876  2852  2852 D StatusBar: updateNotification(StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)))
+12-17 19:40:23.876  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:40:23.877   633 20833 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:874 Level[NOTICE] magic[2599479584 452]:l4vpn : l4vpn status is 1
+12-17 19:40:23.877   633 20833 I SDK     : 
+12-17 19:40:23.877  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:40:23.878   633 20833 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:877 Level[NOTICE] magic[2599479584 1874]:AnyOffice_IsTunnelAvailable: Begin to detect if tunnel is avalilable!
+12-17 19:40:23.878   633 20833 I SDK     : 
+12-17 19:40:23.878  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.huawei.health|10010|null|10099
+12-17 19:40:23.878  2852  2852 D StatusBar: applyInPlace=true shouldPeek=false alertAgain=true
+12-17 19:40:23.878  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.huawei.health|10010|null|10099
+12-17 19:40:23.878  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.huawei.health|10010|null|10099, group=0|com.huawei.health|10010|null|10099
+12-17 19:40:23.878   633 20833 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:878 Level[NOTICE] magic[2599479584 166]:Detect id is [4] when login ,this time!
+12-17 19:40:23.878   633 20833 I SDK     : 
+12-17 19:40:23.878  2852  2852 D StatusBar: reusing notification for key: 0|com.huawei.health|10010|null|10099
+12-17 19:40:23.878   633 20833 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:878 Level[NOTICE] magic[2599479584 247]:Send udp detect packet ok when login,id:[4];count:[0]!
+12-17 19:40:23.878   633 20833 I SDK     : 
+12-17 19:40:23.878  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:40:23.878   633 20833 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:878 Level[NOTICE] magic[2599479584 247]:Send udp detect packet ok when login,id:[4];count:[1]!
+12-17 19:40:23.878   633 20833 I SDK     : 
+12-17 19:40:23.878   633 20833 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:878 Level[NOTICE] magic[2599479584 247]:Send udp detect packet ok when login,id:[4];count:[2]!
+12-17 19:40:23.878   633 20833 I SDK     : 
+12-17 19:40:23.878   633 20833 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:878 Level[NOTICE] magic[2599479584 247]:Send udp detect packet ok when login,id:[4];count:[3]!
+12-17 19:40:23.878   633 20833 I SDK     : 
+12-17 19:40:23.879   633 20833 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:879 Level[NOTICE] magic[2599479584 247]:Send udp detect packet ok when login,id:[4];count:[4]!
+12-17 19:40:23.879   633 20833 I SDK     : 
+12-17 19:40:23.879  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:40:23.879   633 20833 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:879 Level[NOTICE] magic[2599479584 247]:Send udp detect packet ok when login,id:[4];count:[5]!
+12-17 19:40:23.879   633 20833 I SDK     : 
+12-17 19:40:23.879  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:40:23.881  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:40:23.881  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:40:23.881  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:40:23.882  1795  2376 I ActivityManager_broadcast: collectReceiverComponents, callerApp: null, intent:com.huawei.espace.pushcheck, receiver size:1, flags: 10000400
+12-17 19:40:23.882  1795  2376 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{396decb u0 com.huawei.espace.pushcheck}: prev had 1
+12-17 19:40:23.883  1795  2376 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.883  1795  2376 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:23.883  1795 17832 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{396decb u0 com.huawei.espace.pushcheck}, has 1 receivers
+12-17 19:40:23.884  1795 16232 I AlarmManager: remove(PendingIntent{b20e6a8: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) changed bounds; rebatching
+12-17 19:40:23.886  1795 20747 I AlarmManager: set(PendingIntent{13995c1: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) : type=0 triggerAtTime=1481975123886 win=0 tElapsed=443660250 maxElapsed=443660250 interval=300000 flags=0x1
+12-17 19:40:23.890 20818 20818 D BetaClub: [IssueTypeParser.parseRndIssueType]load configuration
+12-17 19:40:23.890  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:40:23.890  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:40:23.890  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:40:23.891  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:40:23.892  3180  3578 I ash     : unproxy app:com.huawei.espacev2,uid:10102,result:true
+12-17 19:40:23.892  3180  3578 I PgedBinderAdapter: Stop listener network packet!
+12-17 19:40:23.892   803   905 E Pged-IPgedBinderService: ****monitorNetworkPacket num is too larger,num is 0***
+12-17 19:40:23.893   835  2385 E libteec : begin
+12-17 19:40:23.893   606  2379 E libteec : receive data len = 128
+12-17 19:40:23.893  3180  3578 I ash     : perform running actions!
+12-17 19:40:23.893  3180  3578 I ash     : running package: com.huawei.espacev2, visible: false
+12-17 19:40:23.893  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:40:23.894  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:40:23.895  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:40:23.895  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:40:23.895  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:40:23.896  1795  6986 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:16
+12-17 19:40:23.896  1795  6986 D StubTelephonyRegistry: LISTEN_CELL_LOCATION uid:10028
+12-17 19:40:23.897 16628 16628 I TotemWeather: RetryTaskController:mTaskList is null
+12-17 19:40:23.900   633 20834 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:900 Level[NOTICE] magic[2540620064 910]:svn_gethostbyname_withtimeout: parse <login.huawei.com> in <20> seconds use l4vpn<1>
+12-17 19:40:23.900   633 20834 I SDK     : 
+12-17 19:40:23.901   633 20834 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:901 Level[NOTICE] magic[2540620064 7737]:CMTM_API_SendDNSRequestMsg , callback=CCAA8295, data=BF563360,self =2540620064
+12-17 19:40:23.901   633 20834 I SDK     : 
+12-17 19:40:23.901   633 20834 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:901 Level[NOTICE] magic[2540620064 11279]:Begin add DNS request , callback=CCAA8295, data=BF563360
+12-17 19:40:23.901   633 20834 I SDK     : 
+12-17 19:40:23.901   633 20834 I SDK     : <2016-12-17 19:40:23> [NOTICE] SDK: UE-SeC 2016-12-17 19:40:23:901 Level[NOTICE] magic[2540620064 7860]:CMTM_AddDNSRequest ok,pucURL =login.huawei.com,self =2540620064,iOldGatewayLock =0
+12-17 19:40:23.901   633 20834 I SDK     : 
+12-17 19:40:23.901 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.shutdown(TcpCirChannel.java:257) Login_By_Step-> shut down now connect
+12-17 19:40:23.903  3180  3578 I ash     : ash->screen unlock
+12-17 19:40:23.903 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:40:23.904  1795 16500 D SmartHeartBeat: setAlarmsAdjust ...

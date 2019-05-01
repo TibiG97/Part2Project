@@ -1,0 +1,100 @@
+12-17 19:33:43.363   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:43.363   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:43.364   835  2385 E libteec : receive data len = 128
+12-17 19:33:43.364   835  2385 E libteec : begin
+12-17 19:33:43.364   835  2385 E libteec : qsc_decode end
+12-17 19:33:43.364   835  2385 I fpc_tac : fpc_tac_send_get_indices_cmd indices:0x7f9860c000, index_count:1
+12-17 19:33:43.364   835  2385 E libteec : begin
+12-17 19:33:43.365   606  2379 E libteec : send data return = 128
+12-17 19:33:43.365   606  2379 E libteec : receive data len = 1152
+12-17 19:33:43.368   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:43.368   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:43.368   606  2379 E libteec : send data return = 1152
+12-17 19:33:43.368   835  2385 E libteec : receive data len = 1152
+12-17 19:33:43.368   835  2385 E libteec : begin
+12-17 19:33:43.368   835  2385 E libteec : qsc_decode end
+12-17 19:33:43.368   835  2385 E libteec : begin
+12-17 19:33:43.368   606  2379 E libteec : receive data len = 128
+12-17 19:33:43.369  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:43.370  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:43.370  1795  2377 I AwareLog: AwareMem_DMEServer: stop
+12-17 19:33:43.372   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:43.372   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:43.372   606  2379 E libteec : send data return = 128
+12-17 19:33:43.372   835  2385 E libteec : receive data len = 128
+12-17 19:33:43.372   835  2385 E libteec : begin
+12-17 19:33:43.372   835  2385 E libteec : qsc_decode end
+12-17 19:33:43.372   835  2385 I fpc_tac : fpc_tac_begin_identify---need_liveness_authentication: 0
+12-17 19:33:43.372   835  2385 E libteec : begin
+12-17 19:33:43.372   606  2379 E libteec : receive data len = 192
+12-17 19:33:43.372  5224  5283 I Step_LSC: 20002302|REPORT : 4211 89805 2995 0
+12-17 19:33:43.375  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:43.375  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_OFF
+12-17 19:33:43.375  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:43.376  1795  2668 D WifiP2pService: InactiveState143467
+12-17 19:33:43.376  1795  2668 E HwWifiP2pService: Unhandled message when=123085927 what=143467 arg1=0 arg2=0
+12-17 19:33:43.376  1795  2668 D WifiP2pService: P2pEnabledState when=123085927 what=143467 arg1=0 arg2=0
+12-17 19:33:43.376  1795  2668 D WifiP2pService: DefaultState{ when=-2ms what=143467 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:33:43.376  1795  2668 D HwWifiP2pService: SleepPolicy:1
+12-17 19:33:43.377  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:33:43.377   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:43.377   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:43.377   835  2385 E libteec : receive data len = 192
+12-17 19:33:43.377   835  2385 E libteec : begin
+12-17 19:33:43.377   835  2385 E libteec : qsc_decode end
+12-17 19:33:43.377   835  2385 I fpc_tac : fpc_tac_send_set_arbitrary_data_cmd:ok, response:0
+12-17 19:33:43.377   835  2385 D fingerprintd: onAcquired(2001)
+12-17 19:33:43.377   835  2385 E libteec : begin
+12-17 19:33:43.377   606  2379 E libteec : send data return = 192
+12-17 19:33:43.377   606  2379 E libteec : receive data len = 128
+12-17 19:33:43.377  1795  3111 W FingerprintService: onAcquired 1
+12-17 19:33:43.377  1795  2326 W FingerprintService: onAcquired 2
+12-17 19:33:43.380  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SCREEN_STATE_CHANGED  rt=123085933/442959744 0 0
+12-17 19:33:43.380  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SCREEN_STATE_CHANGED  rt=123085933/442959744 0 0
+12-17 19:33:43.380  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SCREEN_STATE_CHANGED  rt=123085933/442959744 0 0
+12-17 19:33:43.380  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SCREEN_STATE_CHANGED  rt=123085933/442959744 0 0
+12-17 19:33:43.380  1795  2671 D WifiStateMachine:  SupplicantStartedState !CMD_SCREEN_STATE_CHANGED  rt=123085933/442959744 0 0
+12-17 19:33:43.381  1795  2671 D WifiStateMachine:  DefaultState !CMD_SCREEN_STATE_CHANGED  rt=123085933/442959744 0 0
+12-17 19:33:43.381  1795  2671 D PowerManagerService: acquire lock=244575063, flags=0x1, tag="WifiSuspend", name=android, ws=null, uid=1000, pid=1795
+12-17 19:33:43.381  1795  2671 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:43.381  1795  2671 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:43.381  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:43.382  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:43.382  1795  2671 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:33:43.383  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:33:43.383  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:33:43.383  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_OFF mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:33:43.383  1795  1795 D HwConnectivityService: receive screen off intent!
+12-17 19:33:43.383  1795  1795 D HwConnectivityService: wifi tethering: false
+12-17 19:33:43.383  1795  1795 D HwConnectivityService: Usb tethering: false
+12-17 19:33:43.383  1795  1795 D HwConnectivityService: bt tethering: false
+12-17 19:33:43.383  1795  1795 D HwConnectivityService: pluggedStatus: 0
+12-17 19:33:43.383  1795  1795 D HwConnectivityService: is charging: false
+12-17 19:33:43.384  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:33:43.384  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:33:43.385  1795  2671 D WifiStateMachine:  ConnectedState CMD_ENABLE_RSSI_POLL  rt=123085937/442959748 0 0
+12-17 19:33:43.385  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_ENABLE_RSSI_POLL  rt=123085937/442959748 0 0
+12-17 19:33:43.385  1795  2671 D WifiStateMachine:  ConnectedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123085937/442959748 1 0
+12-17 19:33:43.385  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123085937/442959748 1 0
+12-17 19:33:43.385  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SET_SUSPEND_OPT_ENABLED  rt=123085937/442959748 1 0
+12-17 19:33:43.385  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123085937/442959748 1 0
+12-17 19:33:43.385  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:43.385  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 1'
+12-17 19:33:43.385  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 1'
+12-17 19:33:43.385  1795 11745 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{580cfb2 5224:com.huawei.health:DaemonService/u0a99}
+12-17 19:33:43.385  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:43.386  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 1 len = 0, 4096
+12-17 19:33:43.386  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:33:43.387  3218 13125 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 phoneId=0
+12-17 19:33:43.387  1795  2671 D PowerManagerService: release:lock=244575063, flg=0x0, tag="WifiSuspend", name=android", ws=null, uid=1000, pid=1795
+12-17 19:33:43.387  3218 13125 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 retVal=false
+12-17 19:33:43.387  1795  1795 D HwConnectivityService: CtrlSocket getMobileDataEnabled = false
+12-17 19:33:43.387  1795  2671 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:43.387  1795  2671 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:43.388  5224  5283 I Step_HSNH: 20002302|upDateHealthNotification()|90|2.99|4211
+12-17 19:33:43.389  5224  5283 I Step_HSNH: 20002302|rebuild notification
+12-17 19:33:43.390  1795  1795 I NotificationManager: mIntentReceiver-ACTION_SCREEN_OFF
+12-17 19:33:43.390  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = false,ledNotification == null?false
+12-17 19:33:43.390  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:33:43.390  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:33:43.390  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0

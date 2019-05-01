@@ -1,0 +1,100 @@
+12-17 19:40:23.535  2852  3565 I DataSwitchTile: isMobileDataEnable::dateEnable=false, cotrollerEnable=false
+12-17 19:40:23.535   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:23.535  2852  2852 V KeyguardUpdateMonitor: setKeyguardViewState: false-false
+12-17 19:40:23.535   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:23.535  2852  2852 W AppHandler: sendImmediateMessage 10
+12-17 19:40:23.535   606  2379 E libteec : send data return = 128
+12-17 19:40:23.535  2852  2852 W HwLockScreenPanel: Handle message: 10
+12-17 19:40:23.535   835  2385 E libteec : receive data len = 128
+12-17 19:40:23.535   835  2385 E libteec : begin
+12-17 19:40:23.535   835  2385 E libteec : qsc_decode end
+12-17 19:40:23.535   835  2385 I fpc_tac : Store template db took 7 ms
+12-17 19:40:23.535   835  2385 E libteec : begin
+12-17 19:40:23.535   606  2379 E libteec : receive data len = 128
+12-17 19:40:23.537  2852  2852 W CameraLayout: Cameralayout setVisibility. true false  2
+12-17 19:40:23.537  2852  2852 D MagazineDetailView: resetPagerState
+12-17 19:40:23.538  2852  2852 I HwBackDropView: checkVisibility : false; false
+12-17 19:40:23.538  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOn
+12-17 19:40:23.538  2852  2852 I PhoneStatusBar: onScreenTurnedOn
+12-17 19:40:23.538  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:40:23.538  2852  2852 I StatusBarWindowManager: apply skiped :0
+12-17 19:40:23.538  2852  2852 D PhoneStatusBar: disable: < expand ICONS* alerts SYSTEM_INFO* BACK HOME RECENT clock navigationbar SEARCH quick_settings >
+12-17 19:40:23.541  1795 16498 I WindowManger_windowChange: oldFocusWindow: Window{e050fd4 u0 StatusBar}, currentFocusWindow: null, currentFocusApp: AppWindowToken{dcf0cd7 token=Token{1e09e71 ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297}}}
+12-17 19:40:23.542  1795 16498 I WindowManager: rotationForOrientationLw(orient=1, last=0); user=0 
+12-17 19:40:23.542  1795 16498 I WindowManager: Application requested orientation 1, got rotation 0 which has compatible metrics
+12-17 19:40:23.543  1795 16498 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.546   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:23.546   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:23.546   606  2379 E libteec : send data return = 128
+12-17 19:40:23.546   835  2385 E libteec : receive data len = 128
+12-17 19:40:23.546   835  2385 E libteec : begin
+12-17 19:40:23.546   835  2385 E libteec : qsc_decode end
+12-17 19:40:23.546   835  2385 I fpc_tac : Store template db took 10 ms
+12-17 19:40:23.546   835  2385 E libteec : begin
+12-17 19:40:23.546   606  2379 E libteec : receive data len = 128
+12-17 19:40:23.548  2852  2852 I StackScrollAlgorithm: overlapAmount:323.0, previousNotificationEnd:0.0, newYTranslation:-323.0, location:4, i:0, getTopPadding:499.0, getLocationOnScreen():-822
+12-17 19:40:23.548  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:299, i:0
+12-17 19:40:23.548  2852  2852 I StackScrollAlgorithm: overlapAmount:198.0, previousNotificationEnd:-84.0, newYTranslation:-282.0, location:8, i:1, getTopPadding:499.0, getLocationOnScreen():-822
+12-17 19:40:23.548  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:174, i:1
+12-17 19:40:23.548  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:40:23.548  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:40:23.548  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:40:23.548 17709 20811 D IntelligentIntentService: eventAction :class com.huawei.intelligent.main.receiver.action.ActionBarPullDownAction
+12-17 19:40:23.548 17709 20811 E HwIntelligent3_ActionBarPullDownAction: doAction not pull down return
+12-17 19:40:23.549   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:23.549   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:23.549   606  2379 E libteec : send data return = 128
+12-17 19:40:23.549   835  2385 E libteec : receive data len = 128
+12-17 19:40:23.549   835  2385 E libteec : begin
+12-17 19:40:23.549   835  2385 E libteec : qsc_decode end
+12-17 19:40:23.549   835  2385 D fpc_fingerprint_hal: do_identify took 328 ms, total:267744 wait:267416
+12-17 19:40:23.549   835  2385 E libteec : begin
+12-17 19:40:23.549   606  2379 E libteec : receive data len = 128
+12-17 19:40:23.558   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:23.558   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:23.558   606  2379 E libteec : send data return = 128
+12-17 19:40:23.558   835  2385 E libteec : receive data len = 128
+12-17 19:40:23.558   835  2385 E libteec : begin
+12-17 19:40:23.558   835  2385 E libteec : qsc_decode end
+12-17 19:40:23.558   835  2385 D fpc_fingerprint_hal: workerFunction STATE_WAIT_FINGER_UP
+12-17 19:40:23.558   835  2385 E libteec : begin
+12-17 19:40:23.558   606  2379 E libteec : receive data len = 128
+12-17 19:40:23.561  1795  3247 D PowerManagerService: release:lock=76530234, flg=0x0, tag="RILJ_ACK_WL", name=com.android.phone", ws=null, uid=1001, pid=3218
+12-17 19:40:23.561  1795  3247 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.562  1795  1821 I WindowManger_windowChange: oldFocusWindow: null, currentFocusWindow: Window{773320 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}, currentFocusApp: AppWindowToken{dcf0cd7 token=Token{1e09e71 ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297}}}
+12-17 19:40:23.568   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:23.568   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:23.568   606  2379 E libteec : send data return = 128
+12-17 19:40:23.568   835  2385 E libteec : receive data len = 128
+12-17 19:40:23.568   835  2385 E libteec : begin
+12-17 19:40:23.568   835  2385 E libteec : qsc_decode end
+12-17 19:40:23.568  1795  6985 V SecInputMethodManagerService: Client requesting input be hidden, pid=3879
+12-17 19:40:23.569  1795  6985 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@7062ec7 attribute=android.view.inputmethod.EditorInfo@4ccbcf4, token = android.os.BinderProxy@98d3223
+12-17 19:40:23.579  2852  2852 V KeyguardUpdateMonitor: FingerStat Visible: false; Interactive: false; Switching: false; Bouncer:false; GoingToSleep: false Occluded: false; dreaming: false; Authenticated: true
+12-17 19:40:23.579  2852  2852 I KeyguardUpdateMonitor: Ignore update FP: 0 false
+12-17 19:40:23.579  1795  3253 D PowerManagerService: release:lock=173909064, flg=0x0, tag="lockoutResetCallback", name=com.android.systemui", ws=null, uid=10033, pid=2852
+12-17 19:40:23.579  1795  3253 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.580  2852  2852 D KGWallpaper_Magazine: getNextIndex: 0; from 6 to 6; size: 44
+12-17 19:40:23.580  2852  2852 I HwLockScreenReporter: report msg is :{picture: Deepwater-05-2.3.001-bigpicture_05_9.jpg}
+12-17 19:40:23.580  2852  2852 W HwLockScreenReporter: report result = falsereport type:162 msg:{picture: Deepwater-05-2.3.001-bigpicture_05_9.jpg, channelId: 05}
+12-17 19:40:23.580  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:40:23.581  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=c0000700 mask=ffffffff oldVal=8608 newVal=c0000700 diff=c0008108
+12-17 19:40:23.581  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:40:23.581  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:40:23.581  2852  2852 D BarTransitions.HwNavigationBarView: MODE_TRANSPARENT -> MODE_TRANSLUCENT animate=false
+12-17 19:40:23.581  2852  2852 D BarTransitions.HwNavigationBarView: applyModeBackground oldMode=MODE_TRANSPARENT newMode=MODE_TRANSLUCENT animate=false
+12-17 19:40:23.581  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:40:23.581  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:40:23.581  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000700, SystemUiVisibility=0xc0000700
+12-17 19:40:23.592  2852  2852 D CameraLayout: setLift 0.0
+12-17 19:40:23.592  2852  2852 D UnderLayer: setClipY 0
+12-17 19:40:23.594  2852  2852 I FingerprintController: FpPerformance after onFingerAuthenticated, will wakeup
+12-17 19:40:23.594  2852  2852 I KG_FP.Utils: FpPerformance FpUtils.fingerTurnOnScreen():true
+12-17 19:40:23.594  2852  2852 W KG_FP.Utils: Start Fast finger turnon screen
+12-17 19:40:23.594  1795  1805 D HwPowerManagerService: stopWakeUpReadyInternal, mBrightnessWaitModeEnabled = true enableBright = true
+12-17 19:40:23.594  1795  1805 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=1, reason=0, interactive=true, mInteractive=false, mInteractiveChanging=false
+12-17 19:40:23.595  1795  1805 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:40:23.595  1795  1805 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.595  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:40:23.595  1795  1825 I DisplayPowerController: Blocking screen on until keyguard dismiss done.
+12-17 19:40:23.595  2852  2852 I FingerprintController: releasing fp wakelock

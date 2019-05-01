@@ -1,0 +1,100 @@
+12-17 19:54:27.563  7194  7208 W PushLog2824: 	at android.os.Looper.loop(Looper.java:156)
+12-17 19:54:27.563  7194  7208 W PushLog2824: 	at d.run(Unknown Source)
+12-17 19:54:27.563  7194  7208 I PushLog2824: [ReceiverDispatcher-336]resetBastet(android/null:-1)
+12-17 19:54:27.563  7194  7208 I PushLog2824: [ReceiverDispatcher-336]enter clearBastetProxy, mHwBastet is null(android/null:-1)
+12-17 19:54:27.566  7194  7208 I PushLog2824: [ReceiverDispatcher-336]init push bastet failed!(android/null:-1)
+12-17 19:54:27.567  1795  3249 I AlarmManager: set(PendingIntent{3ada303: PendingIntentRecord{59e210c android broadcastIntent}}) : type=0 triggerAtTime=1481975677567 win=0 tElapsed=444213931 maxElapsed=444213931 interval=0 flags=0x9
+12-17 19:54:27.575  7194  7208 I PushLog2824: [ReceiverDispatcher-336]read to Send:DA(android/null:-1)
+12-17 19:54:27.576  7194  7208 I PushLog2824: [ReceiverDispatcher-336]send msg to remote srv success(android/null:-1)
+12-17 19:54:27.577   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:54:27.577  1795 16499 D PowerManagerService: release:lock=249417510, flg=0x0, tag="eventloop", name=android", ws=null, uid=1000, pid=7194
+12-17 19:54:27.578  1795 16499 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:54:27.578  1795 16499 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:54:27.578  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 444203940562895 1000}
+12-17 19:54:27.579  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 444203940562895 1000}
+12-17 19:54:27.581  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass active 1 444203940562895 1000
+12-17 19:54:27.582  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:54:27.583  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:54:27.583  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:54:27.583  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:54:27.842  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:54:27.843  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:54:27.843  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:54:27.843  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:54:27.844  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:54:27.844  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:54:27.844  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:54:27.845  1795  1795 I TrafficMonitor: update:rxPkts:2,txPkts:2,rxBytes:123,txBytes:123
+12-17 19:54:27.845  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:54:27.845  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:54:27.846  1795 16498 D PowerManagerService: acquire lock=267092608, flags=0x1, tag="dispatcher", name=android, ws=null, uid=1000, pid=7194
+12-17 19:54:27.846  1795 16498 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:54:27.846  1795 16498 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:54:27.859  7194 19339 I PushLog2824: [SocketRead_19:27:23-13099]received a msg cmdId:DB(android/null:-1)
+12-17 19:54:27.861  3180  3578 D PacketsControl: wifi connected. do nothing.
+12-17 19:54:27.863  1795 15982 I AlarmManager: remove(PendingIntent{809c0b9: PendingIntentRecord{59e210c android broadcastIntent}}) changed bounds; rebatching
+12-17 19:54:27.872  1795 17832 I AlarmManager: set(PendingIntent{cf59cfe: PendingIntentRecord{3c38496 android broadcastIntent}}) : type=0 triggerAtTime=1481976237872 win=0 tElapsed=444774236 maxElapsed=444774236 interval=0 flags=0x9
+12-17 19:54:27.873  7194 19339 I PushLog2824: [SocketRead_19:27:23-13099]broadcast(),and mReceivers  4(android/null:-1)
+12-17 19:54:27.874  1795 16232 D PowerManagerService: acquire lock=249417510, flags=0x1, tag="eventloop", name=android, ws=null, uid=1000, pid=7194
+12-17 19:54:27.874  1795 16232 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:54:27.876  1795  3225 D PowerManagerService: release:lock=249417510, flg=0x0, tag="eventloop", name=android", ws=null, uid=1000, pid=7194
+12-17 19:54:27.877  1795  3225 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:54:28.060  1795  3111 D PowerManagerService: release:lock=267092608, flg=0x0, tag="dispatcher", name=android", ws=null, uid=1000, pid=7194
+12-17 19:54:28.061  1795  3111 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:54:28.061  1795  3111 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:54:28.395   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 29
+12-17 19:54:28.395   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:55:15.923  1795  1806 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:55:15.923  1795  1806 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:55:15.923  1795  1825 D PowerManagerService: updateIsPoweredLocked: wasPowered=false, mIsPowered=false, oldPlugType=0, mPlugType=0, mBatteryLevel=78
+12-17 19:55:15.923  1795  1795 I DeviceIdleController: updateChargingLocked: charging=false
+12-17 19:55:15.923  1795  1825 I HwCustPowerManager_FLOW: handleDreamLocked
+12-17 19:55:15.923  1795  1795 D WifiService: onReceive, action:android.intent.action.BATTERY_CHANGED
+12-17 19:55:15.923  1795  1795 D WifiService: ACTION_BATTERY_CHANGED pluggedType: 0
+12-17 19:55:15.924  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155652 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:55:15.924  1795  2670 D WifiController: StaEnabledState what=155652
+12-17 19:55:15.924  2852  2852 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-17 19:55:15.924  1795  2670 D WifiController: DefaultState what=155652
+12-17 19:55:15.924  1795  2670 D WifiController: battery changed pluggedType: 0
+12-17 19:55:15.924  1795  2670 D WifiController: wifiSleepPolicy:1
+12-17 19:55:15.924  2852  2852 W KeyguardUpdateMonitor: ACTION_BATTERY_CHANGED AMP: 0; Volt: 0
+12-17 19:55:15.924  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:55:15.924  2852  2852 W KeyguardUpdateMonitor: ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000
+12-17 19:55:15.924  2852  2852 I KgBattery: BatteryInfo updated:  3lpc-1
+12-17 19:55:15.924  2852  2852 W AppHandler: sendMessage with obj100
+12-17 19:55:15.924  2852  2852 D KeyguardUpdateMonitor: handleBatteryUpdate
+12-17 19:55:15.924  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:55:15.924  2852  2852 W HwLockScreenPanel: Handle message: 100
+12-17 19:55:15.924  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:55:15.924  1795  2376 I AlarmManager: there are no wakeup alarms and the screen is off, we can delay what we have so far until the future
+12-17 19:55:15.925  3782  3862 W QCNEJ   : |CORE| CNE received unexpected action: android.intent.action.BATTERY_CHANGED
+12-17 19:55:15.925  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:55:15.925  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:55:15.925  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:55:15.925  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:55:15.925  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:55:15.925  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:55:15.925  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:55:15.925  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:55:15.925  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:55:15.925  2852  2852 W HwLockScreenPanel: refreshBatteryInfo: null
+12-17 19:55:15.925  1795  1808 V HwBroadcastQueue: trim and enqueue background Parallel:(3) Ordered:(0)(BroadcastRecord{7d8b4c5 u-1 android.intent.action.BATTERY_CHANGED})
+12-17 19:55:15.926  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.BATTERY_CHANGED  flag:1610612752 technology=Li-ion icon-small=17303220 max_charging_voltage=0 health=2 max_charging_current=0 status=3 plugged=0 present=true charge_counter=0 level=78 scale=100 temperature=292 voltage=4093 invalid_charger=0 
+12-17 19:55:15.926  1795  1808 V HwBroadcastQueue: trim and enqueue background Parallel:(3) Ordered:(0)(BroadcastRecord{726bd4b u-1 android.intent.action.BATTERY_CHANGED})
+12-17 19:55:15.926  2852  2852 I PowerUI : buckets   .....15 .. 10 .. 5level          78 --> 78status         3 --> 3plugType       0 --> 0invalidCharger 0 --> 0bucket         1 --> 1plugged        false --> false
+12-17 19:55:15.926  1795  1808 V HwBroadcastQueue: trim and enqueue background Parallel:(3) Ordered:(0)(BroadcastRecord{c2da328 u-1 android.intent.action.BATTERY_CHANGED})
+12-17 19:55:15.926  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:55:15.926  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:55:15.926  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:55:15.926  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:55:15.926  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:55:15.926  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:55:15.926  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:55:15.926  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:55:15.926  3218  3218 D VideoCall_LowBattery: BatteryIntent received: android.intent.action.BATTERY_CHANGED
+12-17 19:55:15.927  1795 16500 I NotificationManager: cancelNotificationWithTag pid 2852,uid = 10033,tag = low_battery,pkg =com.android.systemui,id =2132017204
+12-17 19:55:15.927  3218  3218 E QtiImsExtUtils: getImsPhoneId failed. Exception = org.codeaurora.ims.QtiImsException: ImsService is not running
+12-17 19:55:15.927  3218  3218 E QtiImsExtUtils: getConfigForPhoneId phoneId is invalid
+12-17 19:55:15.927  3218  3218 E QtiImsExtUtils: isCarrierConfigEnabled bundle is null
+12-17 19:55:15.927  3218  3218 D VideoCall_LowBattery:  allowVideoCallsInLowBattery: false isCarrierOneSupported: false mIsLowbattery: false
+12-17 19:55:15.927  1795  1795 I NotificationManager: cancelNotification,index:-1

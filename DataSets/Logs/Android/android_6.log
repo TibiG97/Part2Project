@@ -1,0 +1,100 @@
+12-17 19:31:36.930  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:31:36.942  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:36.943  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:36.950  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:31:36.952  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:36.952  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:36.956  3608  3608 D InCall  : InCallPresenter - notifyInCallScreenIsForeground: false
+12-17 19:31:36.956  3608  3608 I SendBroadcastPermission: action:InCallScreenIsForegroundActivity, mPermissionType:0
+12-17 19:31:36.957  1795 11745 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{ec55919 3608:com.android.incallui/1001}
+12-17 19:31:36.958  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:36.958  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:36.962  1795  1809 I HwPhoneWindowManager: OverscanTimeout run
+12-17 19:31:36.965  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:36.966  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:36.969  2852  2852 I HwExpandableNotificationRowHelper: unclear notification ,notificationPkgName:com.android.incallui key:0|com.android.incallui|2|null|1001
+12-17 19:31:36.970  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.android.incallui|2|null|1001
+12-17 19:31:36.970  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.android.incallui|2|null|1001, group=0|com.android.incallui|2|null|1001
+12-17 19:31:36.970  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:31:36.970  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:31:36.970  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:31:36.972  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:31:36.973  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:31:36.973  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:31:36.973  1795 17832 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:31:36.974  1795  3884 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:31:36.974  2852  2852 D ReporterUtil:  e id:344 type:{pkg:com.android.incallui}
+12-17 19:31:36.974  2852  2852 V KeyguardUpdateMonitor: KGSvcFp onAuthenticationAcquired.2001
+12-17 19:31:36.974  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onScreenOff
+12-17 19:31:36.974  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_OFF  flag:1342177296 
+12-17 19:31:36.975  1795  1795 I TrafficMonitor: update:rxPkts:5,txPkts:6,rxBytes:954,txBytes:427
+12-17 19:31:36.975  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:31:36.975  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:31:36.975  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:31:36.977  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:31:36.980  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:31:36.980  2852  2852 I BackgrounCallingLayout: mCallingStatusReceiver:onReceive::action=InCallScreenIsForegroundActivity, isForegroundActivity=false, mPhoneState=2
+12-17 19:31:36.982  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:31:36.982  2852  2852 I BackgrounCallingLayout: updateCallLayout:isBackground=false, isInteractive=false
+12-17 19:31:36.983  2852  2852 W HwPhoneStatusBar: mNotifyStateChangedReceiver do nothing
+12-17 19:31:36.983  2852  2852 I HwPhoneStatusBar: mNotifyStateChangedReceiver::onReceive:action=InCallScreenIsForegroundActivity, mBackgroundState=false
+12-17 19:31:36.988  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:31:36.989  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:31:36.994  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:31:36.995  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:31:36.996  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:31:36.996  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:31:36.996  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:31:36.996  2852  2852 I NotificationContentView: transferRemoteInputFocus: 1
+12-17 19:31:36.997  2852  2852 I HwExpandableNotificationRowHelper: unclear notification ,notificationPkgName:com.android.incallui key:0|com.android.incallui|2|null|1001
+12-17 19:31:36.997  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:31:36.997  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:31:36.999  3180  3332 I WakelockMonitor: start wakelock monitor.
+12-17 19:31:36.999  3180  3578 I ScreenLockClean: call busy and not start clean apps.
+12-17 19:31:37.000  3180  3578 I ash     : ash->screen off
+12-17 19:31:37.001  3180  3578 I ash     : Default InputMethod : com.baidu.input_huawei
+12-17 19:31:37.001  3180  3578 I ash     : screen off inputmethod, delay to hibernation
+12-17 19:31:37.001  3180  3578 I ThermalStateManager: handle action thermal policy:301
+12-17 19:31:37.002  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:31:37.002  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: false
+12-17 19:31:37.012  3879  3879 I HwLauncher: Launcher receiver screen off broadcast sendmessage true
+12-17 19:31:37.014  2852  2852 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:31:37.018  1795  2396 I AlarmManager: set(PendingIntent{1bbe01d: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) : type=2 triggerAtTime=443433381 win=60000 tElapsed=443433381 maxElapsed=443493381 interval=0 flags=0x8
+12-17 19:31:37.026  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:31:37.026  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen off event
+12-17 19:31:37.031  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = false, mIsPreScrnOn = true, mScrnSwitchTime = 1481974296249, occurTime = 1481974297030, delta = 781, mScrnOffAccTime = 1727581, mScrnOnAccTime = 104251
+12-17 19:31:37.031  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1727581, mScrnOffAccTime = 1727581, mScrnOnAccTime = 105032
+12-17 19:31:37.035  3626  3626 I iMonitor: create: 903001010
+12-17 19:31:37.037  3626  3626 I iMonitor: send: 903001010
+12-17 19:31:37.038   818  1152 I logserver: handle_exception_events enter
+12-17 19:31:37.039  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:31:37.042  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_OFF
+12-17 19:31:37.047  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:31:37.050  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_OFF
+12-17 19:31:37.059  1795  2778 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:0
+12-17 19:31:37.089 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_OFF
+12-17 19:31:37.115  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.841397 Y: 5.652548 Z: -1.924242  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:37.126  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:31:37.131  1795 11746 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:31:37.141   818  1086 E iMonitor: dropped event (cpu0) 
+12-17 19:31:37.141   818  1086 E iMonitor: setTracingEnabled:0
+12-17 19:31:37.141   818  1086 E iMonitor: error writing to /sys/kernel/debug/tracing/trace_marker: Bad file descriptor (9)
+12-17 19:31:37.311  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.637418 Y: 5.440726 Z: -1.166909  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:37.318   818  1086 E iMonitor: setTracingEnabled:1
+12-17 19:31:37.318   818  1086 E iMonitor: Systrace:: buffer is full and will reset.
+12-17 19:31:37.368 31949 31967 I TCP     : msg.recv{4791} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 659TCP_OK
+12-17 19:31:37.369 31949 31967 I ECS     : msg.recv{4791} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 663 bytes [12]_00_03_02_05_01_04_81_AE_AE_C5_08_4E cmdCode(CC_PCheckVersion.0x0501)msgType(MT_ACK.2)msgClass(MC_Push.5)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(true)length(659)version(3)sno(81AE)
+12-17 19:31:37.401  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:31:37.403  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:31:37.507  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 8.931897 Y: 5.527030 Z: -0.595051  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:37.541  3782 20159 V AudioManager: isMusicActive...
+12-17 19:31:37.542  3782 20159 V AudioManager: isWiredHeadsetOn...
+12-17 19:31:37.654   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:94) watch thread onLoop... 
+12-17 19:31:37.655   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:31:37.704  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.747251 Y: 5.252448 Z: 1.298289  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:37.707  5224  5224 I Step_LSC: 20002302|onStandStepChanged 65556
+12-17 19:31:37.707  5224  5224 I Step_LSC: 20002302|compensate received
+12-17 19:31:37.709  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4180
+12-17 19:31:37.709  5224  5283 I Step_ExtendStepDataManager: 20002302|before compensate: cache step_4180
+12-17 19:31:37.710  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4180
+12-17 19:31:37.711  5224  5283 I Step_ExtendStepDataManager: 20002302|compensate 24699571 6

@@ -1,0 +1,100 @@
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=44
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.719  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY'
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-17 19:40:23.719 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Mounted:/storage/emulated/0:true
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: OKC-Native: Append OKC IE!
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: OKC-Native: Append done!
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7fb502f3c0
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7fb502f3c0 after 0.000039 second wait
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: wlan0: nl80211: scan request
+12-17 19:40:23.719  2852  2852 I TrafficPanelManager: showTraffic
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-17 19:40:23.719  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=67): 7f 05 00 00 0a 02 01 dd 0f 00 e0 fc 80 00 00 00 01 00 00 00 00 00 00 00 dd 29 00 e0 fc 80 00 00 ...
+12-17 19:40:23.719  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:40:23.719  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:40:23.719  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:40:23.719  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-17 19:40:23.720  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:40:23.720  5215  5215 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+12-17 19:40:23.720  5215  5215 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-17 19:40:23.720  5215  5215 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-17 19:40:23.720  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:40:23.720  5215  5215 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000117 seconds
+12-17 19:40:23.720  2852  2852 W PanelView: HwPanelView restoreDrawState
+12-17 19:40:23.720  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=24
+12-17 19:40:23.720  2852  2852 W PanelView: setAnimationParam 0.0 4  1.0
+12-17 19:40:23.720  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.720  2852  2852 W PanelView: updateAlaphaAndScaleForChild 0  com.android.systemui.statusbar.phone.NotificationsQuickSettingsContainer{4bf91f3 V.E...... ......ID 0,0-1080,72 #7f1403cf app:id/notification_container_parent}
+12-17 19:40:23.720  1795  2680 I AlarmManager: set(null) : type=2 triggerAtTime=443375083 win=11250 tElapsed=443375083 maxElapsed=443386333 interval=0 flags=0x8
+12-17 19:40:23.720  1795  2671 D WifiStateMachine:  ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123162269/443360083 1 0
+12-17 19:40:23.720  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123162269/443360083 1 0
+12-17 19:40:23.720  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:40:23.720  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:40:23.720  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:40:23.720  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:40:23.720  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:40:23.720  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:40:23.720  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:40:23.720  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:40:23.720  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:40:23.721  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:40:23.721  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:23.721  1795  5219 E WifiMonitor: WifiMonitor:wlan0 cnt=31137 dispatchEvent: CTRL-EVENT-SCAN-STARTED 
+12-17 19:40:23.723  2852  2852 I HwBrightnessUtils: APS brightness=45.0,ConvertToPercentage=0.36545926
+12-17 19:40:23.723  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:45 percentage:0.36545926
+12-17 19:40:23.723  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:3655
+12-17 19:40:23.723  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:3655
+12-17 19:40:23.723  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:3655 fromUser:false
+12-17 19:40:23.724  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:3655 fromUser:false
+12-17 19:40:23.724  2852  2852 I SystemUIIdleHandler: enter addToIdleMessage(type:1002), mainloop is busy, add to idleMessage
+12-17 19:40:23.724  1795  1795 I NotificationManager: mIntentReceiver-ACTION_SCREEN_ON
+12-17 19:40:23.724  1795  1795 I NotificationManager: updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?false
+12-17 19:40:23.724  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:40:23.724  1795  1795 D qdlights: set_speaker_light_locked mode 0, colorRGB=00000000, onMS=0, offMS=0
+12-17 19:40:23.724  1795  1795 E         : come into oem_qmi_common_stream_from_modem_len --->modem 
+12-17 19:40:23.725  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:40:23.725  1795  1795 D         : Lib:oem_qmi_cmd:Build socket connection success. And retry:0
+12-17 19:40:23.725  1795  1795 E         : Lib:oem_qmi_cmd: Send to server  passed!!
+12-17 19:40:23.725   800  1015 D         : oem-qmi: Connection accepted
+12-17 19:40:23.725   800  1015 D         : oem-qmi: recv_id_l = 14 recv_id=14
+12-17 19:40:23.725   800  1015 D         : oem-qmi: Waiting to accept connection
+12-17 19:40:23.725   800 20829 D         : oem-qmi: request_handler recv_id = 14
+12-17 19:40:23.727  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:40:23.727  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:40:23.727  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:40:23.729  1795  1795 E         : ######  output 0
+12-17 19:40:23.729  1795  1795 E         : ---qmi : rapi_event_type=143, qmi_ret=0, return_status=1. 
+12-17 19:40:23.729  1795  1795 E qdlights: send modem leds order success.
+12-17 19:40:23.729  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:35:49,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:40:23.729  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:35:49,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:40:23.729  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:40:23.730  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:40:23.730  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:40:23.730  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:40:23.730  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:40:23.731  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:40:23.732  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:40:23.732  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:40:23.733  1046  1467 V ThreadsEx: HDebug print the key screen_state
+12-17 19:40:23.733  1046  1467 D audio_hw_primary: adev_set_parameters: enter: screen_state=on
+12-17 19:40:23.733  1046  1467 I Huawei_audio_cust: huawei_audio huawei_choose_HandsFree_device_incall_forHWtest: test Type =4
+12-17 19:40:23.733  1046  1467 I Huawei_audio_cust: huawei_audio huawei_choose_Handset_device_incall_forHWtest: test Type =4
+12-17 19:40:23.733  1046  1467 I Huawei_audio_cust: get_spk_pa_type: pa is max98925
+12-17 19:40:23.733  1046  1467 I Huawei_audio_cust: huawei_common_set_parameters: exit with code(0)
+12-17 19:40:23.733  1046  1467 V Huawei_audio_cust: huawei_cust_set_parameters: exit with code(0)
+12-17 19:40:23.733  1046  1467 V msm8916_platform: platform_set_parameters: enter: - screen_state=on
+12-17 19:40:23.733  1046  1467 V msm8916_platform: platform_set_parameters: exit with code(0)
+12-17 19:40:23.733  1046  1467 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:40:23.733  1046  1467 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:40:23.733  1046  1467 V audio_hw_primary: adev_set_parameters: exit with code(0)
+12-17 19:40:23.733  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:40:23.734 20818 20818 D ActivityThread: ActivityThread,attachApplication
+12-17 19:40:23.734  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:40:23.734  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true

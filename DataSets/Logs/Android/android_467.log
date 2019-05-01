@@ -1,0 +1,100 @@
+12-17 19:55:46.665  3626  3729 I NCCHR_LogDatabaseNc: moveToDoneDir enter
+12-17 19:55:46.665  1795 16498 D FingerprintService:  Remaining Num Attempts = 5
+12-17 19:55:46.665  3626  3729 D NCCHR_LogDatabaseNc: closeStreamIfHave LogEntry: id=15
+12-17 19:55:46.665  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:55:46.665  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:55:46.665  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:55:46.665  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:55:46.665  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:55:46.665  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:55:46.665  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:55:46.665  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:55:46.665  3626  3729 I NCCHR_LogServiceSetting: is Beta User, userType = 3
+12-17 19:55:46.666  3626  3729 I NCCHR_LogServiceSetting: is Beta User, userType = 3
+12-17 19:55:46.666  3626  3729 D NCCHR_LogDatabaseNc: File is moved successful!
+12-17 19:55:46.666  3626  3729 D NCCHR_LogDatabaseNc: metricFileReportProcess move 1 log file to done dir for metricId = 15
+12-17 19:55:46.666  2852  2852 W KG_FP.Utils: Fast TurnonScreen start
+12-17 19:55:46.666  3626  3729 I NCCHR_LogServiceSetting: is Beta User, userType = 3
+12-17 19:55:46.667  1795 16501 D HwPowerManagerService: startWakeUpReadyInternal, mBrightnessWaitModeEnabled = false
+12-17 19:55:46.667  1795 16501 D HwPowerManagerService: wakeUpNoUpdateWithoutInteractiveLocked: eventTime=123201113, uid=10033
+12-17 19:55:46.667  1795 16501 I HwPowerManagerService: Waking up from sleep (uid 10033)...
+12-17 19:55:46.667  1795 16501 I PowerManager_screenOn: PowerManagerNotifier onWakeUp: event=startWakeUpReady, reasonUid=10033 opPackageName=com.android.systemui opUid=10033
+12-17 19:55:46.667  3626  3729 I iMonitor: create: 909800001
+12-17 19:55:46.667  1795 16501 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123201113, event=0, flags=0x0, uid=10033
+12-17 19:55:46.667  1795 16501 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=0, uid=10033
+12-17 19:55:46.667  3626  3729 W NCCHR_IMonitorLogManager: uploadChr send chr for metric id = 15, iMonitorId:909800001
+12-17 19:55:46.667  1795 16501 D PowerManagerService: setColorTemperatureAccordingToSetting
+12-17 19:55:46.667  1795 16501 D HwPowerManagerService: setColorTemperatureAccordingToSetting
+12-17 19:55:46.667  1795 16501 D HwPowerManagerService: isDisplayFeatureSupported feature:1
+12-17 19:55:46.667  1795 16501 D HW_DISPLAY_EFFECT: hw_get_smart_display_supported: start++
+12-17 19:55:46.667  1795 16501 D HW_DISPLAY_EFFECT: hw_get_smart_display_supported: end--
+12-17 19:55:46.667  1795 16501 D HWPowerManger_JNI: Surport 3 dimension color temperature.
+12-17 19:55:46.667  1795 16501 D HwPowerManagerService: setColorTemperatureAccordingToSetting new.
+12-17 19:55:46.667  1795 16501 D HwPowerManagerService: ColorTemperature read from old setting:128
+12-17 19:55:46.667  1795 16501 D HwPowerManagerService: setColorTemperature:128
+12-17 19:55:46.667  1795 16501 D HW_DISPLAY_EFFECT: hw_set_colortemperature: start++
+12-17 19:55:46.667  1795 16501 W HW_DISPLAY_EFFECT: Warning: hw_set_colortemperature is COLOR_TEMP_2_DIMENSION interface, not supported presently.
+12-17 19:55:46.667  1795 16501 D HW_DISPLAY_EFFECT: hw_set_colortemperature: end--
+12-17 19:55:46.667  3626  3729 I iMonitor: send: 909800001
+12-17 19:55:46.667  1795 16501 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.667  1795 16501 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.Display".
+12-17 19:55:46.668  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=true, brightnessWaitRet=false, screenAutoBrightness=-1, userId=0
+12-17 19:55:46.668  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetScreenState: state=2
+12-17 19:55:46.668  1795  1825 D FpDataCollector: DisplayPowerState :ON
+12-17 19:55:46.668  3626  3729 D NCCHR_LogDatabaseNc: metricFileReportProcess call uploadChr for metricId = 15, result=true
+12-17 19:55:46.668  3626  3729 D NCCHR_LogDatabaseNc: metricFileReportProcess enter for metricId = 18
+12-17 19:55:46.668  3626  3729 I NCCHR_LogServiceSetting: is Beta User, userType = 3
+12-17 19:55:46.668  3626  3729 D NCCHR_LogDatabaseNc: metricFileReportProcess move 0 log file to done dir for metricId = 18
+12-17 19:55:46.668  3626  3729 I NCCHR_LogServiceSetting: is Beta User, userType = 3
+12-17 19:55:46.668  2852  2852 W HwBackDropView: setDrawBehindAsSrc skipped. null
+12-17 19:55:46.668  3626  3729 I NCCHR_LogDatabaseNc: not done file exist.
+12-17 19:55:46.668  3626  3729 D NCCHR_LogDatabaseNc: metricFileReportProcess enter for metricId = 14
+12-17 19:55:46.668  3626  3729 I NCCHR_LogServiceSetting: is Beta User, userType = 3
+12-17 19:55:46.669  3626  3729 D NCCHR_LogDatabaseNc: metricFileReportProcess move 0 log file to done dir for metricId = 14
+12-17 19:55:46.669  3626  3729 I NCCHR_LogServiceSetting: is Beta User, userType = 3
+12-17 19:55:46.669  3626  3729 I NCCHR_LogDatabaseNc: not done file exist.
+12-17 19:55:46.669  3626  3729 D NCCHR_LogDatabaseNc: metricFileReportProcess enter for metricId = 19
+12-17 19:55:46.669  3626  3729 I NCCHR_LogServiceSetting: is Beta User, userType = 3
+12-17 19:55:46.669  3626  3729 D NCCHR_LogDatabaseNc: metricFileReportProcess move 0 log file to done dir for metricId = 19
+12-17 19:55:46.669  3626  3729 I NCCHR_LogServiceSetting: is Beta User, userType = 3
+12-17 19:55:46.669  3626  3729 E NCCHR_LogDatabaseNc: checkExistLogFile invalid file dir.
+12-17 19:55:46.670  1795  6988 D PowerManagerService: acquire lock=244692861, flags=0x1, tag="wake-and-unlock wakelock", name=com.android.systemui, ws=null, uid=10033, pid=2852
+12-17 19:55:46.670  1795  6988 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:46.670  1795  6988 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:55:46.672   835  2385 E libteec : begin
+12-17 19:55:46.672   606  2379 E libteec : receive data len = 128
+12-17 19:55:46.673   818  1152 I logserver: handle_exception_events enter
+12-17 19:55:46.674  3626  3770 I LSC_909800001: process buffer and get message
+12-17 19:55:46.679  1795  1825 I PowerManager_screenOn: DisplayPowerController Blocking screen on until initial contents have been drawn.
+12-17 19:55:46.679  1795  1825 I WindowManger_keyguard: Screen turned on for keyguard
+12-17 19:55:46.679  1795  1825 I PowerManager_screenOn: KeyguardServiceDelegate  onScreenTurnedOn(showListener = com.android.server.policy.PhoneWindowManager$3@bf53b21)
+12-17 19:55:46.679  2852  2866 D KeyguardService: Caller checkPermission fail
+12-17 19:55:46.679  2852  2866 D KeyguardService: KGSvcCall onScreenTurningOn.
+12-17 19:55:46.679  2852  2866 D KeyguardViewMediator: notifyScreenOn
+12-17 19:55:46.680  2852  2852 I FingerprintController: fingerprint acquired, grabbing fp wakelock
+12-17 19:55:46.680  2852  2852 D KG_Policy: getRemainingChance 5
+12-17 19:55:46.680  1795  3884 D FingerprintService:  Remaining Num Attempts = 5
+12-17 19:55:46.681  1795  1825 D Sensors : batch called handle:2 sample_ns:200000000 latency_ns:0
+12-17 19:55:46.681  1795  1825 D Sensors : activate called handle:2 enable:1
+12-17 19:55:46.681  1795  1825 D Sensors : pa2240-proximity calling driver setDelay 200 ms
+12-17 19:55:46.681  1795  1825 E huawei_ProximitySensor_CPP_Test: write 200 failed
+12-17 19:55:46.681  1795  1825 D Sensors : pa2240-proximity calling driver enable
+12-17 19:55:46.681  1795  1825 W huawei_ProximitySensor_CPP_Test: ProximitySensor, enable, 247: en=1
+12-17 19:55:46.681  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurningOn
+12-17 19:55:46.681  2852  2852 I PhoneStatusBar: onScreenTurningOn
+12-17 19:55:46.681  1795  1825 W huawei_ProximitySensor_CPP_Test: ProximitySensor, enable, 248: flags=1
+12-17 19:55:46.681  1795  1825 W huawei_ProximitySensor_CPP_Test: ProximitySensor, enable, 249: mEnabled=0
+12-17 19:55:46.690  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:55:46.690  3626  3753 I UserSpecification: handleOverSize()
+12-17 19:55:46.695  3626  3753 I SizeStateMachine: Sdcard free size is 16294318080 B. InitialState is 0
+12-17 19:55:46.701  3626  3753 I SizeStateMachine: handleMaxSizeState: logServiceSize = 64638024
+12-17 19:55:46.701  3626  3753 I SizeStateMachine: handleOverMaxSizeState: maxTotalSize = 2147483648
+12-17 19:55:46.708  1795  1825 D HwNormalizedAutomaticBrightnessController: set power status:mPowerStatus=false,powerStatus=true
+12-17 19:55:46.708  1795  2371 I huawei_ProximitySensor_CPP_Test: ProximitySensorr readEvents mHasPendingEvent is 1
+12-17 19:55:46.709  1795 20747 D Sensors : batch called handle:2 sample_ns:20000000 latency_ns:0
+12-17 19:55:46.709  1795 20747 D Sensors : pa2240-proximity calling driver setDelay 20 ms
+12-17 19:55:46.709  1795 20747 E huawei_ProximitySensor_CPP_Test: write 20 failed
+12-17 19:55:46.710  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOn End with : 923050
+12-17 19:55:46.710  1795  2778 I WindowManger_keyguard: **** SHOWN CALLED ****
+12-17 19:55:46.710  1795  2778 D WindowManager: mKeyguardDelegate.ShowListener.onDrawn.
+12-17 19:55:46.710  1795  2778 I WindowManger_keyguard: hideScrim()

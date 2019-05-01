@@ -1,0 +1,100 @@
+12-17 19:40:29.723  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:40:29.733  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:40:29.741  1795  1821 I ActivityManager_activity: windowsVisibleLocked(): ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297} idle: true
+12-17 19:40:29.751  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:40:29.751  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:40:29.757  1795  1809 I MultiTaskManagerService: onForegroundActivitiesChanged pid = 4492, uid = 10105
+12-17 19:40:29.767  5215  5215 E wpa_supplicant: RSSI=-46;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:40:29.767  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:40:29.767  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:40:29.767  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-44 "Huawei-Employee"WPA_EAP
+12-17 19:40:29.768  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:40:29.780   625   718 E libnav  : CablComputeBacklightLevel(): UpdateType = DifferentSceneUpdate
+12-17 19:40:29.783  1795  1821 I WindowManager: Destroying surface Surface(name=com.tencent.mm/com.tencent.mm.ui.LauncherUI) called by com.android.server.wm.WindowStateAnimator.destroySurface:2056 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:907 com.android.server.wm.WindowState.destroyOrSaveSurface:2174 com.android.server.wm.AppWindowToken.destroySurfaces:366 com.android.server.wm.WindowStateAnimator.finishExit:587 com.android.server.wm.AppWindowAnimator.stepAnimationLocked:434 com.android.server.wm.WindowAnimator.updateAppWindowsLocked:182 com.android.server.wm.WindowAnimator.animateLocked:712 
+12-17 19:40:29.789  1795  2748 D HwAmbientLuxFilterAlgo: t=123168338,BT=123169338,DT=123172338,BT1=123172338,DT1=123176338,Bn=false,Dn=false,lx=[228.0/123166835, 224.0/123167135, 233.0/123167436, 237.0/123167737, 237.0/123168037, 241.0/123168338],mLx=87.0,s=5.0,ss=13.216393,AuIntervened=false,mProximityState=false,bLux=574.0,dLux=20.0,bLux1=574.0,dLux1=20.0
+12-17 19:40:29.998  3879  4160 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+12-17 19:40:29.998  3879  4160 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+12-17 19:40:30.129  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:40:30.129  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:40:30.129  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:40:30.144   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:40:30.177  3879  3894 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=null][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=0] uid =10105 pid =4492
+12-17 19:40:30.178  3879  3894 I HwLauncher: ProviderCallUtils callBadge isCloned = false
+12-17 19:40:30.229  1795  3237 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:30.230  3879  5007 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=[shortcut_c2a51ac39f4ec2a0c386c385c2b37ac2a040c3a7c289c3bec28b547dc2b0c2a6]][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=0] uid =10105 pid =4492
+12-17 19:40:30.237  1795  1806 I AlarmManager: set(PendingIntent{c82d329: PendingIntentRecord{ac096ae com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443966598 win=449998 tElapsed=443966598 maxElapsed=444416596 interval=0 flags=0x8
+12-17 19:40:30.241  1795  3884 I AlarmManager: set(PendingIntent{a7d5c4f: PendingIntentRecord{d9a8fdc com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443966602 win=449998 tElapsed=443966602 maxElapsed=444416600 interval=0 flags=0x8
+12-17 19:40:30.248  1795  3121 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:30.261  1795 20747 I AlarmManager: remove(PendingIntent{2cc78e5: PendingIntentRecord{20bef6d com.tencent.mm broadcastIntent}}) changed bounds; rebatching
+12-17 19:40:30.264  1795 11746 I AlarmManager: set(PendingIntent{4036fba: PendingIntentRecord{55d6e6b com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443636627 win=202499 tElapsed=443636627 maxElapsed=443839126 interval=0 flags=0x8
+12-17 19:40:30.284  1795 15982 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:30.346  1795  3238 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:30.357  1795  6988 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:30.366  1795  3249 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:30.373  1795 16501 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:30.682  1795  1805 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:30.682  1795  1805 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:30.689  1795  3110 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:30.695  1795 11747 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:30.695  1795 11747 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:30.695  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+12-17 19:40:30.695  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:40:30.696  1795  6985 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:40:30.696  3858  4126 I amsnl   : csr
+12-17 19:40:30.696  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:40:30.701  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+12-17 19:40:30.701  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:40:30.701  1795  3121 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:40:30.702  1795  3121 D wifiserviceimpl: netmask =16580607
+12-17 19:40:30.702  3858  4126 I amsnl   : m1: false
+12-17 19:40:30.704  1795 16500 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:30.705  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:40:30.706  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:40:30.706  3858  4126 I amsnl   : csr
+12-17 19:40:30.706  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:40:30.711  1795 15982 D wifiserviceimpl: netmask =16580607
+12-17 19:40:30.711  3858  4126 I amsnl   : m1: false
+12-17 19:40:30.714  1795  3238 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:30.715  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:40:30.716  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:40:30.724  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:40:29,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:40:30.724  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:40:29,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:40:30.725  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:40:30.726  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:40:30.727  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:40:30.728  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:40:30.728  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:40:30.729  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:40:30.731  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:40:30.732  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:40:30.742  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:40:30.744  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 0 mComponentName :ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:40:30.744  3879  4071 I HwLauncher: BadgeContentObserver newBadgeNumber:0,oldBadgeNumber:0 mComponentName : ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:40:30.814  1795  2381 D InputReader: processEventsLocked code=116
+12-17 19:40:30.815  1795  2381 D InputDispatcher: notifyKey - action=0x0, keyCode=0x1a
+12-17 19:40:30.815  1795  2381 D KeyEvent: obtain, mHwFlags=1
+12-17 19:40:30.815  1795  2381 D HwCustPhoneWindowManager: answer call by keyCode = 26, down = true, isSupVolumnkeyAnswerCall = false
+12-17 19:40:30.815  1795  2381 I PowerManager_screenOn: HwPhoneWindowManager has intercept Key : 26, isdown : true, flags : 8
+12-17 19:40:30.816  1795  2381 D WindowManager: interceptKeyTq keycode=26 interactive=true keyguardActive=false policyFlags=22000000 down true canceled false
+12-17 19:40:30.816  1795  2381 D PowerManagerService: acquire lock=260780748, flags=0x1, tag="PhoneWindowManager.mPowerKeyWakeLock", name=android, ws=null, uid=1000, pid=1795
+12-17 19:40:30.816  1795  2381 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:30.816  1795  2381 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:30.817  1795  2381 I WindowManager: takeScreenshot enabled  true  VolumeDownKeyTriggered  false PowerKeyTriggered  true VolumeUpKeyTriggered  false
+12-17 19:40:30.819  3180 19270 I DownloadState: @@@@@@@@@@@@ uid :10102 download :false
+12-17 19:40:30.819  3180 19270 I PGServer: report state:5 event type:2 pid:0 uid:10102 pkg:null to pid: 1795
+12-17 19:40:30.825  1795  2381 D WindowManager: interceptKeyBeforeQueueing: key 26 , result : 0
+12-17 19:40:30.992  1795  2381 D InputReader: processEventsLocked code=116
+12-17 19:40:30.992  1795  2381 D InputDispatcher: notifyKey - action=0x1, keyCode=0x1a
+12-17 19:40:30.993  1795  2381 D KeyEvent: obtain, mHwFlags=1
+12-17 19:40:30.993  1795  2381 D HwCustPhoneWindowManager: answer call by keyCode = 26, down = false, isSupVolumnkeyAnswerCall = false
+12-17 19:40:30.993  1795  2381 I PowerManager_screenOn: HwPhoneWindowManager has intercept Key : 26, isdown : false, flags : 8
+12-17 19:40:30.994  1795  2381 D WindowManager: interceptKeyTq keycode=26 interactive=true keyguardActive=false policyFlags=22000000 down false canceled false
+12-17 19:40:30.994  1795  2381 I WindowManager: takeScreenshot cancelPendingScreenshotChordAction
+12-17 19:40:30.994  1795  2381 I PowerManager_screenOn: PowerManagerService goToSleepNoUpdateLocked: eventTime=123169363, reason=4, flags=0, uid=1000
+12-17 19:40:30.994  1795  2381 I PowerManagerService: Going to sleep due to power button (uid 1000)...
+12-17 19:40:30.995  1795  2381 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=3, reason=4, interactive=false, mInteractive=true, mInteractiveChanging=false
+12-17 19:40:30.995  1795  2381 D PowerManagerService: ready=true,policy=3,wakefulness=3,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:30.996  1795  2381 D PowerManagerService: release:lock=260780748, flg=0x0, tag="PhoneWindowManager.mPowerKeyWakeLock", name=android", ws=null, uid=1000, pid=1795
+12-17 19:40:30.996  1795  2381 D PowerManagerService: ready=true,policy=3,wakefulness=3,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:30.996  1795  2381 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:30.997  1795  2381 D WindowManager: interceptKeyBeforeQueueing: key 26 , result : 0

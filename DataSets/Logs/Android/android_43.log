@@ -1,0 +1,100 @@
+12-17 19:31:44.663  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SCREEN_STATE_CHANGED  rt=123017835/442841027 1 0
+12-17 19:31:44.663  1795  2671 D WifiStateMachine:  SupplicantStartedState CMD_SCREEN_STATE_CHANGED  rt=123017835/442841027 1 0
+12-17 19:31:44.664  1795  2671 D WifiStateMachine:  DefaultState CMD_SCREEN_STATE_CHANGED  rt=123017835/442841027 1 0
+12-17 19:31:44.664  1795  2671 D WifiStateMachine: handleScreenStateChanged: allow send scan results broadcast.
+12-17 19:31:44.665  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:31:44.666  1795  2671 W AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConnectivityManager$3@bdcaf7b
+12-17 19:31:44.666  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:31:44.666  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 2, mHwSingleScanCounter: 0
+12-17 19:31:44.668  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:31:44.668  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:31:44.668   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:44.668   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:44.668  1795  2671 I AlarmManager: set(null) : type=2 triggerAtTime=442842152 win=0 tElapsed=442846031 maxElapsed=442846031 interval=0 flags=0x9
+12-17 19:31:44.669   835  2385 E libteec : receive data len = 128
+12-17 19:31:44.669   835  2385 E libteec : begin
+12-17 19:31:44.669   835  2385 E libteec : qsc_decode end
+12-17 19:31:44.669   835  2385 D fpc_fingerprint_hal: worker idle
+12-17 19:31:44.669   606  2379 E libteec : send data return = 128
+12-17 19:31:44.668  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:31:44.669   835  2385 D fpc_fingerprint_hal: workerFunction STATE_CANCEL
+12-17 19:31:44.669   835  2385 E libteec : begin
+12-17 19:31:44.669  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:31:44.669  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_ON mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:31:44.669  1795  1795 D HwConnectivityService: CtrlSocket receive screen on intent!
+12-17 19:31:44.669  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus
+12-17 19:31:44.670  1795  1795 D HwConnectivityService: pid=1000, cmd=100, param=0
+12-17 19:31:44.670  1795  2326 W FingerprintService: client com.android.systemui is no longer authenticating
+12-17 19:31:44.670  1795  2326 W FingerprintService: onError 2
+12-17 19:31:44.670  1795  2326 V FingerprintService: ClientMonitor destroy
+12-17 19:31:44.670  1795  2326 V FingerprintService: Done with client: com.android.systemui
+12-17 19:31:44.670  1795  2326 V FingerprintService: handleError(client=com.android.systemui, error = 5)
+12-17 19:31:44.670  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:31:44.670   606  2379 E libteec : receive data len = 128
+12-17 19:31:44.671  1795  1795 D HwConnectivityService: mFilterMsgFlag: 0,msg.arg1: 3
+12-17 19:31:44.671  1795  2691 D HwConnectivityService: handleFilterMsg action: 3mFilterMsgFlag3
+12-17 19:31:44.671  1795  1795 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 1000 cmd = 100 param = 0 ret = 0
+12-17 19:31:44.671  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus reset
+12-17 19:31:44.671  1795  2691 D HwConnectivityService: [tiger]setBastetFilterInfo action 3pid 1000
+12-17 19:31:44.671  1795  2691 D HwConnectivityService: stopFilter m_filterIsStarted:false
+12-17 19:31:44.671  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:44.680   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:44.680   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:44.680   606  2379 E libteec : send data return = 128
+12-17 19:31:44.680   835  2385 E libteec : receive data len = 128
+12-17 19:31:44.680   835  2385 E libteec : begin
+12-17 19:31:44.680   835  2385 E libteec : qsc_decode end
+12-17 19:31:44.680   835  2385 D fpc_fingerprint_hal: workerFunction STATE_NAVIGATION
+12-17 19:31:44.680   835  2385 E libteec : begin
+12-17 19:31:44.680   606  2379 E libteec : receive data len = 128
+12-17 19:31:44.687  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:31:44.687  2852  2852 V KeyguardUpdateMonitor: KGSvcFp onAuthenticationError.5
+12-17 19:31:44.687  2852  2852 W KeyguardUpdateMonitor: Fingerprint RunningStateChanged. 10
+12-17 19:31:44.687  2852  2852 W StatusBarWindowManager: Apply window Height 72
+12-17 19:31:44.687  2852  2852 I StatusBarWindowManager: apply skiped :0
+12-17 19:31:44.692  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:44.692   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:44.692   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:44.692   606  2379 E libteec : send data return = 128
+12-17 19:31:44.693   835  2385 E libteec : receive data len = 128
+12-17 19:31:44.693   835  2385 E libteec : begin
+12-17 19:31:44.693   835  2385 E libteec : qsc_decode end
+12-17 19:31:44.709  1795  1825 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:44.726  1795  1825 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:44.739  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 0.000000
+12-17 19:31:44.739  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =-90022377 
+12-17 19:31:44.742  1795  1825 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:44.759  1795  1825 I ActivityManager_activity: completedResumed: ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}, launchTrack: outofsleep resumeTopComplete
+12-17 19:31:44.765  1795  1825 I WindowManger_keyguard: Screen turned on for keyguard
+12-17 19:31:44.765  1795  1825 I PowerManager_screenOn: KeyguardServiceDelegate  onScreenTurnedOn(showListener = com.android.server.policy.PhoneWindowManager$3@bf53b21)
+12-17 19:31:44.766  2852  2866 D KeyguardService: Caller checkPermission fail
+12-17 19:31:44.766  2852  2866 D KeyguardService: KGSvcCall onScreenTurningOn.
+12-17 19:31:44.766  1795  2671 D WifiStateMachine:  ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123017938/442841130 1 0
+12-17 19:31:44.766  2852  2866 D KeyguardViewMediator: notifyScreenOn
+12-17 19:31:44.766  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123017938/442841130 1 0
+12-17 19:31:44.767  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:31:44.767  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurningOn
+12-17 19:31:44.767  2852  2852 I PhoneStatusBar: onScreenTurningOn
+12-17 19:31:44.767  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:31:44.767  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOn End with : 135
+12-17 19:31:44.767  1795 11747 I WindowManger_keyguard: **** SHOWN CALLED ****
+12-17 19:31:44.767  1795 11747 D WindowManager: mKeyguardDelegate.ShowListener.onDrawn.
+12-17 19:31:44.767  1795 11747 I WindowManger_keyguard: hideScrim()
+12-17 19:31:44.767  3608  3608 D InCall  : InCallActivity - onStart()...
+12-17 19:31:44.773  1795  1795 I NotificationManager: mIntentReceiver-ACTION_SCREEN_ON
+12-17 19:31:44.773  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = true,ledNotification == null?true
+12-17 19:31:44.773  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:31:44.773  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:31:44.773  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:31:44.773  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:31:44.773  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:31:44.774  1795  1825 D HwNormalizedAutomaticBrightnessController: set power status:mPowerStatus=false,powerStatus=true
+12-17 19:31:44.775  1795  1825 D Sensors : batch called handle:3 sample_ns:300000000 latency_ns:0
+12-17 19:31:44.775  1795  1825 D Sensors : activate called handle:3 enable:1
+12-17 19:31:44.775  1795  1825 D Sensors : bh1745-light calling driver setDelay 300 ms
+12-17 19:31:44.775  1795  1825 D Sensors : bh1745-light calling driver enable
+12-17 19:31:44.775  1795  1825 W LightSensor: LightSensor, enable, 283: en=1
+12-17 19:31:44.775  1795  1825 W LightSensor: LightSensor, enable, 284: flags=1
+12-17 19:31:44.775  1795  1825 W LightSensor: LightSensor, enable, 285: mEnabled=0
+12-17 19:31:44.780  5215  5215 E wpa_supplicant: RSSI=-57;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:31:44.781  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48

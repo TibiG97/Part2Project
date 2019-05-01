@@ -1,0 +1,100 @@
+12-17 19:31:46.080  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:31:46.080  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:31:46.081  1795 17831 I Security_fingerprint: FingerprintService getEnrolledFingerprints
+12-17 19:31:46.082  2852  2852 V KeyguardUpdateMonitor: KGSvcFp startListeningForFingerprint()
+12-17 19:31:46.082  2852  2852 I KeyguardUpdateMonitor: authenticate by 0 mode!
+12-17 19:31:46.083  1795 15988 I Security_fingerprint: FingerprintService authenticate
+12-17 19:31:46.083  2852  2852 W KeyguardUpdateMonitor: Fingerprint RunningStateChanged. 1
+12-17 19:31:46.083  1795  2326 W HwFingerprintService: setLivenessSwitch:start
+12-17 19:31:46.083  1795  2326 W HwFingerprintService: checkNeedLivenessList:start
+12-17 19:31:46.083  1795  2326 W HwFingerprintService: NEED_LIVENESS_AUTHENTICATION = 0
+12-17 19:31:46.083  2852  2852 W HwLockScreenPanel: Handle message: 15
+12-17 19:31:46.085  2852  2852 W CameraLayout: Cameralayout setVisibility. true false  2
+12-17 19:31:46.085  2852  2852 D MagazineDetailView: resetPagerState
+12-17 19:31:46.085  1795  2377 I AwareLog: AwareMem_DMEServer: stop
+12-17 19:31:46.087   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:1002
+12-17 19:31:46.087   835   835 I fingerprintd: fingerprintd
+12-17 19:31:46.087   835   835 I fingerprintd: FingerprintDaemonProxyEx::setLivenessSwitch
+12-17 19:31:46.087   835   835 I fingerprintd: fingerprintdex--dev->need_liveness_authentication = false;
+12-17 19:31:46.088  1795  2326 W HwFingerprintService: framework setLivenessSwitch is ok ---end
+12-17 19:31:46.088   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:7
+12-17 19:31:46.088   835   835 D fpc_fingerprint_hal: fpc_get_authenticator_id
+12-17 19:31:46.088   835  2385 D fpc_fingerprint_hal: fpc poll irq interupt
+12-17 19:31:46.089   835  2385 D fpc_fingerprint_hal: wait_finger_down, took 845 ms
+12-17 19:31:46.089   835  2385 E libteec : begin
+12-17 19:31:46.089   606  2379 E libteec : receive data len = 128
+12-17 19:31:46.096  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_OFF
+12-17 19:31:46.096  1795  2668 D WifiP2pService: InactiveState143467
+12-17 19:31:46.097  1795  2668 E HwWifiP2pService: Unhandled message when=123019268 what=143467 arg1=0 arg2=0
+12-17 19:31:46.097  1795  2668 D WifiP2pService: P2pEnabledState when=123019268 what=143467 arg1=0 arg2=0
+12-17 19:31:46.097  1795  2668 D WifiP2pService: DefaultState{ when=-1ms what=143467 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:31:46.097  1795  2668 D HwWifiP2pService: SleepPolicy:1
+12-17 19:31:46.100   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:46.101   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:46.101   606  2379 E libteec : send data return = 128
+12-17 19:31:46.101   835  2385 E libteec : receive data len = 128
+12-17 19:31:46.101   835  2385 E libteec : begin
+12-17 19:31:46.101   835  2385 E libteec : qsc_decode end
+12-17 19:31:46.101   835  2385 D fpc_fingerprint_hal: worker idle
+12-17 19:31:46.101   835   835 E libteec : begin
+12-17 19:31:46.101   606  2379 E libteec : receive data len = 128
+12-17 19:31:46.107   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:46.107   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:46.107   606  2379 E libteec : send data return = 128
+12-17 19:31:46.107   835   835 E libteec : receive data len = 128
+12-17 19:31:46.107   835   835 E libteec : begin
+12-17 19:31:46.107   835   835 E libteec : qsc_decode end
+12-17 19:31:46.107   835   835 D fpc_fingerprint_hal: fpc_get_authenticator_id id 14657234628792947271
+12-17 19:31:46.107   835  2385 E libteec : begin
+12-17 19:31:46.108   606  2379 E libteec : receive data len = 128
+12-17 19:31:46.108  1795  2326 V FingerprintService: startAuthentication(com.android.systemui)
+12-17 19:31:46.108  1795  2326 V FingerprintService: starting client AuthenticationClient(com.android.systemui), initiatedByClient = true)
+12-17 19:31:46.109  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SCREEN_STATE_CHANGED  rt=123019280/442842472 0 0
+12-17 19:31:46.109  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SCREEN_STATE_CHANGED  rt=123019280/442842472 0 0
+12-17 19:31:46.109  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SCREEN_STATE_CHANGED  rt=123019281/442842472 0 0
+12-17 19:31:46.109  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SCREEN_STATE_CHANGED  rt=123019281/442842472 0 0
+12-17 19:31:46.109  1795  2671 D WifiStateMachine:  SupplicantStartedState !CMD_SCREEN_STATE_CHANGED  rt=123019281/442842472 0 0
+12-17 19:31:46.109  1795  2671 D WifiStateMachine:  DefaultState !CMD_SCREEN_STATE_CHANGED  rt=123019281/442842472 0 0
+12-17 19:31:46.109  1795  2671 D PowerManagerService: acquire lock=244575063, flags=0x1, tag="WifiSuspend", name=android, ws=null, uid=1000, pid=1795
+12-17 19:31:46.109  1795  2671 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:46.109  1795  2671 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:46.109   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:1
+12-17 19:31:46.109   835   835 V fingerprintd: authenticate(sid=0, gid=0)
+12-17 19:31:46.111  1795  2671 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:31:46.111  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:31:46.111  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:31:46.111  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_OFF mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:31:46.111  1795  1795 D HwConnectivityService: receive screen off intent!
+12-17 19:31:46.111  1795  1795 D HwConnectivityService: wifi tethering: false
+12-17 19:31:46.111  1795  1795 D HwConnectivityService: Usb tethering: false
+12-17 19:31:46.111  1795  1795 D HwConnectivityService: bt tethering: false
+12-17 19:31:46.111  1795  1795 D HwConnectivityService: pluggedStatus: 0
+12-17 19:31:46.111  1795  1795 D HwConnectivityService: is charging: false
+12-17 19:31:46.113  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:31:46.113  1795  2671 D WifiStateMachine:  ConnectedState CMD_ENABLE_RSSI_POLL  rt=123019285/442842476 0 0
+12-17 19:31:46.113  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_ENABLE_RSSI_POLL  rt=123019285/442842477 0 0
+12-17 19:31:46.113  1795  2671 D WifiStateMachine:  ConnectedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123019285/442842477 1 0
+12-17 19:31:46.113  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123019285/442842477 1 0
+12-17 19:31:46.113  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SET_SUSPEND_OPT_ENABLED  rt=123019285/442842477 1 0
+12-17 19:31:46.113  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123019285/442842477 1 0
+12-17 19:31:46.113  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 1'
+12-17 19:31:46.114  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 1'
+12-17 19:31:46.117  3218  3236 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 phoneId=0
+12-17 19:31:46.117  3218  3236 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 retVal=false
+12-17 19:31:46.117  1795  1795 D HwConnectivityService: CtrlSocket getMobileDataEnabled = false
+12-17 19:31:46.118   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:46.118   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:46.118   606  2379 E libteec : send data return = 128
+12-17 19:31:46.118   835  2385 E libteec : receive data len = 128
+12-17 19:31:46.118   835  2385 E libteec : begin
+12-17 19:31:46.118   835  2385 E libteec : qsc_decode end
+12-17 19:31:46.118   835  2385 D fpc_fingerprint_hal: worker idle
+12-17 19:31:46.118   835  2385 D fpc_fingerprint_hal: workerFunction STATE_AUTHENTICATE
+12-17 19:31:46.118   835  2385 E libteec : begin
+12-17 19:31:46.118   606  2379 E libteec : receive data len = 128
+12-17 19:31:46.118  1795  2326 W FingerprintService: client com.android.systemui is authenticating...
+12-17 19:31:46.120  1795  1795 I NotificationManager: mIntentReceiver-ACTION_SCREEN_OFF
+12-17 19:31:46.120  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = false,ledNotification == null?true
+12-17 19:31:46.120  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:31:46.120  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:31:46.120  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0

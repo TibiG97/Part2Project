@@ -1,0 +1,100 @@
+12-17 19:42:05.544  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:42:05.544  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:42:05.544  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:42:05.544  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:42:05.545  2852  2852 D KeyguardUpdateMonitor: handleTimeUpdate
+12-17 19:42:05.548 17709 20888 I PositionDao: save position time : 2016-12-17 19:42:05 uri : content://com.huawei.provider.PlaceRecognition/position/1021
+12-17 19:42:05.548 17709 20888 I PositionCollector: same with last gps info
+12-17 19:42:05.548  3879  3879 I HwLauncher: Model  onReceive intent=Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+12-17 19:42:05.548 17709 20888 I PlaceRecognitionService: work done startId : 1
+12-17 19:42:05.548  3879  3879 I HwLauncher: Model  onReceive user=UserHandle{0}
+12-17 19:42:05.551 17709 17709 I PlaceRecognitionService: onDestroy
+12-17 19:42:05.552 17709 20888 I CalendarSync: deInit mIsReceiverRegistered : true
+12-17 19:42:05.553  3626  3753 I LogCollectService: msg = 39 received
+12-17 19:42:05.553  3626  3753 I APRStatisticsReportTask: getKickTimerByUserType: 21600000
+12-17 19:42:05.553  3626  3753 I APRStatisticsReportTask: getKickTimerByUserType: 21600000
+12-17 19:42:05.558  5224  5224 I Step_LSC: 20002302|logicalDealBroadcastEvent : Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+12-17 19:42:05.559  5224  5283 I Step_LSC: 20002302| ## MSG_DEAL_SYSTEM_EVENT android.intent.action.TIME_TICK
+12-17 19:42:05.571  1795 16499 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:42:05.572  1795 15988 I AlarmManager: remove(PendingIntent{922f10: PendingIntentRecord{957442a com.huawei.imonitor startService}}) changed bounds; rebatching
+12-17 19:42:05.575  1795  1795 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:05.575  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:42:05.578  3626  3754 I LogDatabase: msg = 10 received
+12-17 19:42:05.618  1795  2728 D HwArpVerifier: getGateWayARPResponses: arp rtt = 7
+12-17 19:42:05.618  1795  2728 E HwCHRWifiRSSIGroupSummery: updatArpSummery mRSSI:-46  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=105, rtt_tcp_duration=894, rtt_lan_duration=230, rtt_lan_failures=0, rtt_lan_succ=8, rtt_lan_max=124, rtt_lan_min=7,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:42:05.619  1795  2728 D HwArpVerifier: There are 1 mac address for gateway 
+12-17 19:42:05.619  1795  2728 D HwArpVerifier: from HEART_CHECK transmit to state:HEART_CHECK
+12-17 19:42:05.619  1795  2728 D HwArpVerifier: msg what=124 arg1(token)=1008 arg2(mode)=0 delay=30000
+12-17 19:42:05.619  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:42:05.621  1795  2728 D hw_netstat: total/17770/7906,com.huawei.espacev2/11397/3081,android.uid.system:1000/5541/3573,com.tencent.mm/577/1069,unknown:0/255/183
+12-17 19:42:05.623  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=24  WEBRESENDSEGS=0  WEBRECVSEGS=20  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=1  WEBRTTDURATION=17  WEBRTTSEGS=11  WEBSRTT=120  WEBSNDDUPACKS=0  SENDSEGS=20  RESENDSEGS=0  RECVSEGS=20  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=14  RTTSEGS=8  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:42:05.623  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-46  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=116, rtt_tcp_duration=911, rtt_lan_duration=230, rtt_lan_failures=0, rtt_lan_succ=8, rtt_lan_max=124, rtt_lan_min=7,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:42:05.623  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:42:05.623  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:42:05.624  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:42:05.625  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:42:05.626  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=47, mTXbad=0, mRXGood=34] rssi=-46
+12-17 19:42:05.626  1795  2728 E HwCHRWebMonitor: Good NetWork Traffic , so mOnAppSuckTime, mUnModifyCount reset 0
+12-17 19:42:05.626  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:42:05.626  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 20, tx = 24
+12-17 19:42:05.626  1795  2728 D HwArpVerifier: AccessWebStatus : reset all
+12-17 19:42:05.627  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:42:05.643  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:42:05.643  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:42:05.643  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:42:05.644  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:42:05.644  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:42:05.680  3626  3754 I DeviceInfo: start read /proc/ddr_info
+12-17 19:42:05.680  3626  3754 E DeviceInfo: file is not exist: /proc/ddr_info
+12-17 19:42:05.680  3626  3754 E DeviceInfo: can't get ddr, default value: NULL
+12-17 19:42:05.682  3626  3755 I LogTrack: msg = 0 received
+12-17 19:42:05.682  3626  3755 I LogTrack: Handler Thread:com.huawei.lcagent.service.LogTrack
+12-17 19:42:05.684  3626  3754 I FileUtils: restrainFilesNum, count = 2147483647
+12-17 19:42:05.684  3626  3754 I LogDatabase: msg = 8 received
+12-17 19:42:05.684  3626  3755 I LogTrack: msg = 0 received
+12-17 19:42:05.684  3626  3755 I LogTrack: Handler Thread:com.huawei.lcagent.service.LogTrack
+12-17 19:42:05.684  3626  3754 I LogDatabase: handleUploadAllLog counter = 563403474 , flag = 1
+12-17 19:42:05.686  3626  3754 I LogDatabase: moveToDoneDir
+12-17 19:42:05.686  3626  3754 I LogDatabase: moveToDoneDir
+12-17 19:42:05.689  3626  3754 I PackAutoLog: PackAutoLog onPrePack
+12-17 19:42:05.695  3626  3754 I LogDatabase: getFileList /storage/emulated/0/log/LogService
+12-17 19:42:05.698  3626  3754 I LogDatabase: getFileList /data/log/LogService
+12-17 19:42:05.699  3626  3754 I LogDatabase:  filterLogList , eventIdThroughput = 259693
+12-17 19:42:05.699  3626  3754 I LogDatabase:  normalThreshold  = 21474836480 eventIdThreshold  = 104857600 singleSizeThreshold  = 9223372036854775807 extraThreshold  = 21474836480
+12-17 19:42:05.699  3626  3754 I LogDatabase:  filterLogList while , eventId = 909002014 filename = Eventid_MLA-AL00_MLA-AL00C00B318-log_D470C2EF_20161217192714_909002014_NORMAL.zip  logTypeInfoList size = 1
+12-17 19:42:05.714  3626  3754 I EventInfoSnetCountManager: getSentSize id=1
+12-17 19:42:05.718  3626  3754 I EventInfoSnetCountManager: updateCountAndSize oldCount = 48 , oldSize = 358715837 , addCount = 1 , addSize = 1943296 , type = Wifi
+12-17 19:42:05.727  3626  3754 I LogDatabase:  filterLogList , logListSize = 565346770
+12-17 19:42:05.731  3626  3754 I EventInfoSnetCountManager: getSentSize id=1
+12-17 19:42:05.734  3626  3754 I LogDatabase:  filterLogList ,thisTypeThreshold = 1073741824 thisTypeSent = 360659133 type = Wifi
+12-17 19:42:05.735  3626  3754 I LogDatabase:  filterLogList while , eventId = 909800002 filename = Eventid_MLA-AL00_MLA-AL00C00B318-log_D470C2EF_20161217192714_909800002_NORMAL.zip  logTypeInfoList size = 1
+12-17 19:42:05.743  3626  3754 I EventInfoSnetCountManager: getSentSize id=1
+12-17 19:42:05.747  3626  3754 I EventInfoSnetCountManager: updateCountAndSize oldCount = 49 , oldSize = 360659133 , addCount = 1 , addSize = 1458777 , type = Wifi
+12-17 19:42:05.756  3626  3754 I LogDatabase:  filterLogList , logListSize = 566805547
+12-17 19:42:05.761  3626  3754 I EventInfoSnetCountManager: getSentSize id=1
+12-17 19:42:05.764  3626  3754 I LogDatabase:  filterLogList ,thisTypeThreshold = 1073741824 thisTypeSent = 362117910 type = Wifi
+12-17 19:42:05.764  3626  3754 I LogDatabase:  filterLogList while , eventId = 0 filename = Eventid_MLA-AL00_MLA-AL00C00B318-log_D470C2EF_20161217194205_eventinfo_NORMAL.zip  logTypeInfoList size = 0
+12-17 19:42:05.777  3626  3754 I EventInfoSnetCountManager: getSentSize id=2
+12-17 19:42:05.781  3626  3754 I EventInfoSnetCountManager: updateCountAndSize oldCount = 21 , oldSize = 263741 , addCount = 1 , addSize = 1260 , type = EventInfoLog
+12-17 19:42:05.794  3626  3754 I LogDatabase:  filterLogList , logListSizeEventInfo = 260953
+12-17 19:42:05.794  3626  3754 I LogDatabase:  filterLogList while , eventId = 4 filename = LOG_CHR_MLA-AL00_D470C2EF_20161217184242.log.zip  logTypeInfoList size = 1
+12-17 19:42:05.808  3626  3754 I EventInfoSnetCountManager: getSentSize id=3
+12-17 19:42:05.812  3626  3754 I EventInfoSnetCountManager: updateCountAndSize oldCount = 21 , oldSize = 58866 , addCount = 1 , addSize = 566 , type = LOG_CHR
+12-17 19:42:05.848  3626  3754 I LogDatabase:  filterLogList , logListSize = 566806113
+12-17 19:42:05.852  3626  3754 I EventInfoSnetCountManager: getSentSize id=3
+12-17 19:42:05.857  3626  3754 I LogDatabase:  filterLogList ,thisTypeThreshold = 1073741824 thisTypeSent = 59432 type = LOG_CHR
+12-17 19:42:05.857  3626  3754 I LogDatabase:  filterLogList while , eventId = 1 filename = Stabilization_MLA-AL00_MLA-AL00C00B318-log_D470C2EF_20161217193040_radio_NORMAL.zip  logTypeInfoList size = 1
+12-17 19:42:05.871  3626  3754 I EventInfoSnetCountManager: getSentSize id=7
+12-17 19:42:05.876  3626  3754 I EventInfoSnetCountManager: updateCountAndSize oldCount = 2 , oldSize = 9417509 , addCount = 1 , addSize = 2624241 , type = radio
+12-17 19:42:07.025  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:42:07.025  3626  3754 I LogDatabase:  filterLogList , logListSize = 569430354
+12-17 19:42:07.026  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:42:07.026  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:42:07.026  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:42:07.026  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:42:07.026  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:42:07.026  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:42:07.026  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:42:07.026  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:42:07.026  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:42:07.027  1795  2323 E UsbDeviceManager: Error reading charge file

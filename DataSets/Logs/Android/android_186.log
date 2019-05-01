@@ -1,0 +1,100 @@
+12-17 19:33:00.790  2852  2866 D KeyguardService: Caller checkPermission fail
+12-17 19:33:00.790  2852  2866 D KeyguardService: KGSvcCall onFinishedGoingToSleep.
+12-17 19:33:00.790  2852  2866 D KeyguardViewMediator: onFinishedGoingToSleep(6)
+12-17 19:33:00.790  2852  2866 D KeyguardViewMediator: notifyFinishedGoingToSleep
+12-17 19:33:00.790  2852  2866 W AppHandler: sendMessage 15
+12-17 19:33:00.790  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:00.791  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:00.794  3608  3608 I InCall  : VideoCallFragment - onStop:
+12-17 19:33:00.794  3608  3608 D InCall  : InCallActivity - onStop()...
+12-17 19:33:00.794  3608  3608 D InCall  : InCallPresenter - onActivityStopped
+12-17 19:33:00.794  3608  3608 D InCall  : InCallPresenter - notifyVideoPauseController
+12-17 19:33:00.795  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onPause
+12-17 19:33:00.795  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onPause, Ignoring...
+12-17 19:33:00.795  3608  3608 I InCall  : InCallPresenter - updateStatusBar: state = 0x0
+12-17 19:33:00.795  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = true, mIsPreScrnOn = false, mScrnSwitchTime = 1481974350926, occurTime = 1481974380793, delta = 29867, mScrnOffAccTime = 1765420, mScrnOnAccTime = 121089
+12-17 19:33:00.795  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1795287, mScrnOffAccTime = 1795287, mScrnOnAccTime = 121089
+12-17 19:33:00.796  1795  3121 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.android.incallui
+12-17 19:33:00.796  3608  3608 D InCall  : InCallActivity -  bgCallTwinkingSwitch is true inQuickExiting is false mIsForegroundActivity is false
+12-17 19:33:00.798  3608  3608 I CallUtils: show_incallscreen  0
+12-17 19:33:00.799  3626  3626 I iMonitor: create: 903001010
+12-17 19:33:00.800  5224  5224 I Step_LSC: 20002302|logicalDealBroadcastEvent : Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+12-17 19:33:00.801  5224  5283 I Step_LSC: 20002302| ## MSG_DEAL_SYSTEM_EVENT android.intent.action.SCREEN_ON
+12-17 19:33:00.801  5224  5283 I Step_StandStepCounter: 20002302|flush sensor data
+12-17 19:33:00.802  1795  3139 I qti_sensors_hal: flush,395,handle 49
+12-17 19:33:00.802  1795  3139 I qti_sensors_hal: flush:sensor(android.sensor.step_counter) handle:49
+12-17 19:33:00.802  5224  5283 I Step_LSC: 20002302|REPORT : 4195 89805 2995 0
+12-17 19:33:00.803  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:33:00.803  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:00.804   818  1152 I logserver: handle_exception_events enter
+12-17 19:33:00.804  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:00.804  1795  6986 D PowerManagerService: release:lock=228612087, flg=0x0, tag="ActivityManager-Sleep", name=android", ws=null, uid=1000, pid=1795
+12-17 19:33:00.805  1795  6986 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:00.805  3626  3626 I iMonitor: send: 903001010
+12-17 19:33:00.805  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:33:00.805  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:33:00.812  1795  3111 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{580cfb2 5224:com.huawei.health:DaemonService/u0a99}
+12-17 19:33:00.813  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:00.814  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:00.814  5224  5283 I Step_HSNH: 20002302|upDateHealthNotification()|90|2.99|4195
+12-17 19:33:00.815  5224  5283 I Step_HSNH: 20002302|rebuild notification
+12-17 19:33:00.817  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:33:00.817  1795 16498 I NotificationManager: enqueueNotificationInternal: pkg=com.huawei.health id=10010 notification=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)
+12-17 19:33:00.818  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.huawei.health|10010|null|10099
+12-17 19:33:00.819  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_ON
+12-17 19:33:00.819  7741  7741 D Mms_TX_NOTIFY: ScreenState present
+12-17 19:33:00.827  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:00.827  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_ON
+12-17 19:33:00.827  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:00.829  3608  3608 D InCall  : InCallActivity - mScreenOnReceiver mCallEndOptionsDialog = null
+12-17 19:33:00.832  2852  2852 I HwExpandableNotificationRowHelper: unclear notification ,notificationPkgName:com.android.incallui key:0|com.android.incallui|2|null|1001
+12-17 19:33:00.832  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.android.incallui|2|null|1001
+12-17 19:33:00.832  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.android.incallui|2|null|1001, group=0|com.android.incallui|2|null|1001
+12-17 19:33:00.833  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:33:00.833  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:33:00.833  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:33:00.835  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:33:00.835  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:33:00.837  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:33:00.838  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:00.838  1795 15987 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:00.839  1795 16232 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:00.839  2852  2852 D ReporterUtil:  e id:344 type:{pkg:com.android.incallui}
+12-17 19:33:00.839  2852  2852 D KeyguardViewMediator: handleNotifyFinishedGoingToSleep
+12-17 19:33:00.839  2852  2852 I PhoneStatusBar: onFinishedGoingToSleep
+12-17 19:33:00.839  2852  2852 V KeyguardStatusView: Disable transport text marquee
+12-17 19:33:00.839  2852  2852 V KeyguardUpdateMonitor: FingerStat Visible: false; Interactive: false; Switching: false; Bouncer:false; GoingToSleep: false Occluded: false; dreaming: false; Authenticated: false
+12-17 19:33:00.840  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:33:00.840  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:33:00.841  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:33:00.841  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:33:00.841  1795  3237 I Security_fingerprint: FingerprintService getEnrolledFingerprints
+12-17 19:33:00.841  2852  2852 V KeyguardUpdateMonitor: KGSvcFp startListeningForFingerprint()
+12-17 19:33:00.841  2852  2852 I KeyguardUpdateMonitor: authenticate by 0 mode!
+12-17 19:33:00.842  1795 11745 I Security_fingerprint: FingerprintService authenticate
+12-17 19:33:00.843  1795  2326 W HwFingerprintService: setLivenessSwitch:start
+12-17 19:33:00.843  1795  2326 W HwFingerprintService: checkNeedLivenessList:start
+12-17 19:33:00.843  1795  2326 W HwFingerprintService: NEED_LIVENESS_AUTHENTICATION = 0
+12-17 19:33:00.843  2852  2852 W KeyguardUpdateMonitor: Fingerprint RunningStateChanged. 1
+12-17 19:33:00.843  2852  2852 W HwLockScreenPanel: Handle message: 15
+12-17 19:33:00.843   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:1002
+12-17 19:33:00.843   835   835 I fingerprintd: fingerprintd
+12-17 19:33:00.843   835   835 I fingerprintd: FingerprintDaemonProxyEx::setLivenessSwitch
+12-17 19:33:00.843   835   835 I fingerprintd: fingerprintdex--dev->need_liveness_authentication = false;
+12-17 19:33:00.844  1795  2326 W HwFingerprintService: framework setLivenessSwitch is ok ---end
+12-17 19:33:00.844  1795  6988 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:16
+12-17 19:33:00.844   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:7
+12-17 19:33:00.844  1795  6988 D StubTelephonyRegistry: LISTEN_CELL_LOCATION uid:10028
+12-17 19:33:00.844   835   835 D fpc_fingerprint_hal: fpc_get_authenticator_id
+12-17 19:33:00.844 16628 16628 I TotemWeather: RetryTaskController:Screen is off or Network is unable
+12-17 19:33:00.844  2852  2852 W CameraLayout: Cameralayout setVisibility. true false  2
+12-17 19:33:00.844  2852  2852 D MagazineDetailView: resetPagerState
+12-17 19:33:00.845   835  2385 D fpc_fingerprint_hal: fpc poll irq interupt
+12-17 19:33:00.845   835  2385 D fpc_fingerprint_hal: wait_finger_down, took 568 ms
+12-17 19:33:00.845   835  2385 E libteec : begin
+12-17 19:33:00.845   606  2379 E libteec : receive data len = 128
+12-17 19:33:00.845  2852  2852 I EventCenter: EventCenter Get :android.com.huawei.bone.NOTIFY_SPORT_DATA
+12-17 19:33:00.850  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:00.851  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:00.854 31949 31967 I PushService: main{1} PushService.onStartCommand(PushService.java:87) Push Service Start by  userEvent
+12-17 19:33:00.855 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.shutdown(TcpCirChannel.java:257) Login_By_Step-> shut down now connect

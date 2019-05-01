@@ -1,0 +1,100 @@
+12-17 19:34:56.798  1046  1125 D audio_hw_primary: check_usecases_codec_backend:becf: force routing 0
+12-17 19:34:56.798  1046  1125 V msm8916_platform: platform_check_backends_match: snd_device1 = handset, snd_device2 = voice-handset
+12-17 19:34:56.798  1046  1125 V msm8916_platform: platform_check_backends_match: be_itf1 = (null), be_itf2 = (null), match 1
+12-17 19:34:56.798  1046  1125 D audio_hw_primary: check_usecases_codec_backend:becf: (40) check_usecases curr device: handset, usecase device:voice-handset backends match 1
+12-17 19:34:56.798  1046  1125 D audio_hw_primary: check_usecases_codec_backend:becf: check_usecases num.of Usecases to switch 0
+12-17 19:34:56.798  1046  1125 D hardware_info: hw_info_append_hw_type : device_name = handset
+12-17 19:34:56.798  1046  1125 D msm8916_platform: platform_can_split_snd_device: snd_device(1) num devices(0) new_snd_devices(0)
+12-17 19:34:56.798  1046  1125 D audio_hw_primary: enable_snd_device: snd_device(1: handset)
+12-17 19:34:56.798  1046  1125 I soundtrigger: audio_extn_sound_trigger_update_device_status: device 0x1 of type 0 for Event 1, with Raise=0
+12-17 19:34:56.798  1046  1125 D aud_dev_arbi: acquireOneDevice: device owner for device 1 is 1
+12-17 19:34:56.798  1795  2371 E LightSensor: read Events lux: 46.0
+12-17 19:34:56.799  1795  1825 D AutomaticBrightnessController: ambient lux=46.0,timeStamp =443033162250000
+12-17 19:34:56.813  1046  1125 I audio_hw_primary: select_devices Selected apptype: 69937
+12-17 19:34:56.813  1046  1125 V audio_hw_primary: enable_audio_route: enter: usecase(1)
+12-17 19:34:56.813  1046  1125 D soundtrigger: audio_extn_sound_trigger_update_stream_status: uc_id 1 of type 0 for Event 3, with Raise=0
+12-17 19:34:56.813  1046  1125 I audio_hw_utils: audio_extn_utils_send_app_type_cfg PLAYBACK app_type 69937, acdb_dev_id 7, sample_rate 48000
+12-17 19:34:56.813  1046  1125 I audio_hw_utils: audio_extn_utils_send_app_type_cfg:becf: adm: app_type 69936, acdb_dev_id 7, sample_rate 48000
+12-17 19:34:56.813  1046  1125 D msm8916_platform: platform_can_split_snd_device: snd_device(1) num devices(1) new_snd_devices(1)
+12-17 19:34:56.813  1046  1125 V msm8916_platform: platform_send_audio_calibration: sending audio calibration for snd_device(1) acdb_id(7)
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 7, path = 0, app id = 0x11131, sample rate = 48000
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> send_asm_topology
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> send_adm_topology
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> send_audtable
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE_SIZE
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> send_audvoltable
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE, vol index 0
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> send_audstrmtable
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_V2
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 16
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> send_afe_topology
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 7, Topology Id 112fc
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> send_afe_cal
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+12-17 19:34:56.813  1046  1125 D         : Failed to fetch the lookup information of the device 00000007 
+12-17 19:34:56.813  1046  1125 E ACDB-LOADER: Error: ACDB AFE returned = -19
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 7 path = 0
+12-17 19:34:56.813  1046  1125 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+12-17 19:34:56.813  1046  1125 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+12-17 19:34:56.822  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -1.330066 Y: 3.543570 Z: 9.465226  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:56.832  1046  1125 V audio_hw_primary: enable_audio_route: exit
+12-17 19:34:56.832  1046  1125 D audio_hw_primary: select_devices: done
+12-17 19:34:56.832  1046  1125 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:34:56.832  1046  1125 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:34:56.832  1046  1125 V audio_hw_primary: out_set_parameters: exit: code(0)
+12-17 19:34:56.832  1046  9753 I APM_AudioPolicyManager: setOutputDevice() createAudioPatch returned 0 patchHandle 1684 num_sources 1 num_sinks 1
+12-17 19:34:56.832  1046  9753 V APM_AudioPolicyManager: checkAndSetVolume() cannot set stream 6 volume with force use = 0 for comm
+12-17 19:34:56.833  1046  1052 I AudioFlinger: setStreamVolume thread=0xf0e974c0; stream=8; value=0.000000
+12-17 19:34:56.833  1046  9753 V APM_AudioPolicyManager: checkAndSetVolume() stream 9 muted count 1
+12-17 19:34:56.833  1046  1053 I APM_AudioPolicyManager: stopOutput() output 13, stream 0, session 3377
+12-17 19:34:56.833  1046  1053 V APM_AudioPolicyManager: setBeaconMute(1) mBeaconMuteRefCount=0 mBeaconPlayingRefCount=0
+12-17 19:34:56.833  1046  1053 I APM_AudioPolicyManager: getNewOutputDevice() selected device 0
+12-17 19:34:56.833  1046  1053 I APM_AudioPolicyManager: setOutputDevice() device 0x0000 delayMs 96 force 0
+12-17 19:34:56.833  1046  1053 V APM_AudioPolicyManager: setOutputDevice() prevDevice 0x0001
+12-17 19:34:56.833  1046  1053 I APM_AudioPolicyManager: setOutputDevice() setting same device 0x0000 or null device
+12-17 19:34:56.833  1046  1053 V APM_AudioPolicyManager: releaseOutput() 13
+12-17 19:34:56.834  1046  1046 V APM_AudioPolicyManager: listAudioPorts() role 0 type 0 num_ports 0 ports 0xf00e80a8
+12-17 19:34:56.834  1046  1046 V APM_AudioPolicyManager: listAudioPorts() got 0 ports needed 12
+12-17 19:34:56.835  1046  1046 V APM_AudioPolicyManager: listAudioPorts() role 0 type 0 num_ports 12 ports 0xf04f8800
+12-17 19:34:56.835  1046  1046 V APM_AudioPolicyManager: listAudioPorts() got 12 ports needed 12
+12-17 19:34:56.835  1795  1795 I AudioSystem-JNI: listAudioPorts AudioSystem::listAudioPorts numPorts 12 generation 215 generation1 215
+12-17 19:34:56.835  3180  3332 W AudioState: audio stop and not found session about sessionId: 3377
+12-17 19:34:56.837  1795  1795 I TrafficMonitor: update:rxPkts:5,txPkts:6,rxBytes:954,txBytes:427
+12-17 19:34:56.837  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:34:56.837  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:34:56.838  1795  3364 D Telecom : TelecomServiceImpl: isInCall callState is 0: CSW.sD->ICTP.r->ICTP.cUTP->CAMSM.pM_3002@EsU_2_0_0
+12-17 19:34:56.839  3218  3517 I QImsService: ImsSenderRxr : Response data: [12, 13, -1, -1, -1, -1, 16, 3, 24, -37, 1, 32, 0, 13, 100, 0, 0, 0, 21, 10, 0, 0, 0, 29, 100, 0, 0, 0, 37, 0, 0, 0, 0, 45, -1, 0, 0, 0, 53, -1, -1, 0, 0, 61, -1, 0, 0, 0, 69, -1, -1, 0, 0][SUB0]
+12-17 19:34:56.839  3218  3517 I QImsService: ImsSenderRxr :  Tag -1 3 219 0[SUB0]
+12-17 19:34:56.839  3218  3517 I QImsService: ImsSenderRxr : [UNSL]< UNSOL_SSAC_CHANGED org.codeaurora.ims.ImsQmiIF$SsacInfo@41bfc64[SUB0]
+12-17 19:34:56.839  3218  3218 I QImsService: ImsServiceSubHandler : Message received: what = 27
+12-17 19:34:56.839  3218  3218 I QImsService: ImsServiceSub : handleSsac voice = 100
+12-17 19:34:56.839  3218  3218 I QImsService: ImsServiceSub : broadcastVopsSsacIntent Vops = true , Ssac = false
+12-17 19:34:56.839  3218  3218 I SendBroadcastPermission: action:org.codeaurora.VOIP_VOPS_SSAC_STATUS, mPermissionType:0
+12-17 19:34:56.840  1795  3364 I SendBroadcastPermission: action:android.media.STREAM_DEVICES_CHANGED_ACTION, mPermissionType:0
+12-17 19:34:56.840  1795  3111 W ActivityManager: Sending non-protected broadcast org.codeaurora.VOIP_VOPS_SSAC_STATUS from system 3218:com.android.phone/1001 pkg com.android.phone
+12-17 19:34:56.841  1795  3364 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.842  1795  3364 I SendBroadcastPermission: action:android.media.STREAM_DEVICES_CHANGED_ACTION, mPermissionType:0
+12-17 19:34:56.842  2852  3361 I vol.VolumeDialogControl: onVolumeChangedW stream = 1, flags = 0
+12-17 19:34:56.842  2852  3361 V AudioManager: getLastAudibleStreamVolume  treamType: 1
+12-17 19:34:56.842  1795  3364 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.843  1795  3364 I SendBroadcastPermission: action:android.media.STREAM_DEVICES_CHANGED_ACTION, mPermissionType:0
+12-17 19:34:56.843  1795  3364 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.844  1795  3364 I SendBroadcastPermission: action:android.media.STREAM_DEVICES_CHANGED_ACTION, mPermissionType:0
+12-17 19:34:56.844  1795  3364 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.845  1795  3364 I SendBroadcastPermission: action:android.media.STREAM_DEVICES_CHANGED_ACTION, mPermissionType:0
+12-17 19:34:56.845  1795  3364 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.845  1795  3364 I SendBroadcastPermission: action:android.media.STREAM_DEVICES_CHANGED_ACTION, mPermissionType:0
+12-17 19:34:56.846  1795  3364 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.846  1795  3364 I SendBroadcastPermission: action:android.media.STREAM_DEVICES_CHANGED_ACTION, mPermissionType:0
+12-17 19:34:56.847  1795  3364 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.847  1046  9752 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 2, device 0x0002, index 0
+12-17 19:34:56.848  1046  2704 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 8, device 0x0002, index 0
+12-17 19:34:56.848  1046  1046 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 7, device 0x0002, index 7
+12-17 19:34:56.849  1046  1467 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 5, device 0x0002, index 0

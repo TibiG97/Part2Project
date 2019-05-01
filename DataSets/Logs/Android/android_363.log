@@ -1,0 +1,100 @@
+12-17 19:35:56.247  2883  2883 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:35:56.248  1795  6988 D PowerManagerService: acquire lock=184063844, flags=0x1, tag="NetworkStats", name=android, ws=null, uid=1000, pid=1795
+12-17 19:35:56.248  1795  6988 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:56.251  1795  6988 D NetdConnector: SND -> {11634 bandwidth gettetherstats}
+12-17 19:35:56.253  1795  2665 D NetdConnector: RCV <- {200 11634 Tethering stats list completed}
+12-17 19:35:56.254  1795  2665 D NetdConnector: RCV <- {200 11634 Tethering stats list completed}
+12-17 19:35:56.254  2883  2883 I HwSystemManager: AntiMalManager:receive Broadcast ACTION_SCREEN_OFF mOnTimeSum:261524986 onTime:0 isPowerConnected:false
+12-17 19:35:56.255  2883  2883 I HwSystemManager: AutoCleanReceiveServer:receive action:android.intent.action.SCREEN_OFF
+12-17 19:35:56.257  2883  2883 I HwSystemManager: AutoCleanReceiveServer:telemamanger state isIdle:false
+12-17 19:35:56.257  1795  6988 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:35:56.257  2883  2883 I HwSystemManager: AutoCleanReceiveServer:checkToStartCleanService, current is not charging, need not start clean service
+12-17 19:35:56.257  1795  6988 D HwNetworkStatsService: mActiveIface: null
+12-17 19:35:56.258  1795  6988 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+12-17 19:35:56.260  1795  6988 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:35:56.260  1795  6988 D PowerManagerService: release:lock=184063844, flg=0x0, tag="NetworkStats", name=android", ws=null, uid=1000, pid=1795
+12-17 19:35:56.260  1795  6988 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:56.263  1795  3077 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_OFF
+12-17 19:35:56.263  1795  3077 I GnssLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:false
+12-17 19:35:56.263  1795  3077 I GnssLocationProvider: disableGps:false  isEnabled()=true
+12-17 19:35:56.266  2852  3361 I vol.VolumeDialogControl: C onScreenOff 
+12-17 19:35:56.266  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onScreenOff
+12-17 19:35:56.268  3168  3168 I CHR_TelStatusListenr0: [Timer rat:4 level:5] suspend
+12-17 19:35:56.268  3168  3168 I CHR_TelStatusListenr0: [Timer serviceState:0 simReady:true] suspend
+12-17 19:35:56.268  3168  3168 I CHR_TelStatusListenr1: [Timer serviceState:1 simReady:false] suspend
+12-17 19:35:56.269  3168  3168 I CHR_TelphonyStatusService: duration: 755268 STATUS_REPORT_TIMESPAN: 86400000 / (1000 * 60 * 60 * 24) day STATUS_REPORT_TIMESPAN_FOR_BETA: 21600000 / (1000 * 60 * 60 * 24) day
+12-17 19:35:56.269  3168  3168 I CHR_ChrUtil: is Beta User, userType = 3
+12-17 19:35:56.269  2883  3040 I HwSystemManager: TrafficNotifyAfterLocked:mLockStartTraffic = 0;mLockStartTrafficList = {}
+12-17 19:35:56.272  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:35:56.272  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:35:56.273  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:35:56.274  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:35:56.274  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_OFF  flag:1342177296 
+12-17 19:35:56.277  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:35:56.282  3180  3332 I WakelockMonitor: start wakelock monitor.
+12-17 19:35:56.284  3180  3578 I ash     : ash->screen off
+12-17 19:35:56.285  3180  3578 I ash     : Default InputMethod : com.baidu.input_huawei
+12-17 19:35:56.285  3180  3578 I ash     : screen off inputmethod, delay to hibernation
+12-17 19:35:56.285  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:35:56.285  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:35:56.286  3180  3578 I ThermalStateManager: handle action thermal policy:301
+12-17 19:35:56.287  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:35:56.287  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: false
+12-17 19:35:56.293  3218  3439 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:56.295  3879  3879 I HwLauncher: Launcher receiver screen off broadcast sendmessage true
+12-17 19:35:56.300  1795  3110 I AlarmManager: set(PendingIntent{43652c2: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) : type=2 triggerAtTime=443692663 win=60000 tElapsed=443692663 maxElapsed=443752663 interval=0 flags=0x8
+12-17 19:35:56.303  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:35:56.303  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:35:56.303  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen off event
+12-17 19:35:56.309  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:35:56.309  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = false, mIsPreScrnOn = true, mScrnSwitchTime = 1481974496458, occurTime = 1481974556308, delta = 59850, mScrnOffAccTime = 1907204, mScrnOnAccTime = 124837
+12-17 19:35:56.309  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1907204, mScrnOffAccTime = 1907204, mScrnOnAccTime = 184687
+12-17 19:35:56.313  3626  3626 I iMonitor: create: 903001010
+12-17 19:35:56.314  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:35:56.317  3626  3626 I iMonitor: send: 903001010
+12-17 19:35:56.317   818  1152 I logserver: handle_exception_events enter
+12-17 19:35:56.318  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:35:56.321  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:35:56.325  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_OFF
+12-17 19:35:56.327  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 1 len = 0, 4096
+12-17 19:35:56.327  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: wlan0: nl80211: New scan results available
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: wlan0: Scan completed in 0.388487 seconds
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: nl80211: Associated on 2452 MHz
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: nl80211: Associated with 80:38:bc:08:42:c1
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: nl80211: Received scan results (14 BSSes)
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: nl80211: Scan results indicate BSS status with 80:38:bc:08:42:c1 as associated
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: Sorted scan results
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: 80:38:bc:08:42:e1 freq=2472 qual=0 noise=-89~ level=-43 snr=46* flags=0xb age=30 est=65000
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: 80:38:bc:08:42:c1 freq=2452 qual=0 noise=-89~ level=-48 snr=41* flags=0x2b age=30 est=65000
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: 80:38:bc:0b:29:60 freq=2412 qual=0 noise=-89~ level=-64 snr=25 flags=0xb age=30 est=65000
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 00 ...
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 00 ...
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: 80:38:bc:0a:f1:40 freq=2412 qual=0 noise=-89~ level=-68 snr=21 flags=0xb age=30 est=54000
+12-17 19:35:56.328  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 00 ...
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 00 ...
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: 80:38:bc:0a:f2:00 freq=2452 qual=0 noise=-89~ level=-74 snr=15 flags=0xb age=30 est=48000
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 00 ...
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 00 ...
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: 80:38:bc:0a:f0:60 freq=2432 qual=0 noise=-89~ level=-77 snr=12 flags=0xb age=30 est=36000
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 00 ...
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 00 ...
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: 80:38:bc:0a:f9:21 freq=2472 qual=0 noise=-89~ level=-78 snr=11 flags=0xb age=30 est=36000
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:35:56.329  1795  2671 D PowerManagerService: release:lock=244575063, flg=0x0, tag="WifiSuspend", name=android", ws=null, uid=1000, pid=1795
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: 80:38:bc:0a:f9:40 freq=2452 qual=0 noise=-89~ level=-83 snr=6 flags=0xb age=30 est=13000
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 00 ...
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 00 ...
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: 80:38:bc:0b:36:a1 freq=2472 qual=0 noise=-89~ level=-86 snr=3 flags=0xb age=30 est=6500
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:35:56.329  5215  5215 D wpa_supplicant: 80:38:bc:0a:f1:a1 freq=2412 qual=0 noise=-89~ level=-88 snr=1 flags=0xb age=30 est=6500

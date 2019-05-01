@@ -1,0 +1,100 @@
+17/02/02 00:02:12 INFO executor.Executor: Finished task 28.0 in stage 303.0 (TID 52442). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52456
+17/02/02 00:02:12 INFO executor.Executor: Running task 42.0 in stage 303.0 (TID 52456)
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 310 non-empty blocks out of 480 blocks
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 2 ms
+17/02/02 00:02:12 INFO python.PythonRunner: Times: total = 19, boot = -37, init = 39, finish = 17
+17/02/02 00:02:12 INFO executor.Executor: Finished task 38.0 in stage 303.0 (TID 52452). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO python.PythonRunner: Times: total = 56, boot = -34, init = 36, finish = 54
+17/02/02 00:02:12 INFO python.PythonRunner: Times: total = 18, boot = -37, init = 38, finish = 17
+17/02/02 00:02:12 INFO executor.Executor: Finished task 31.0 in stage 303.0 (TID 52445). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO executor.Executor: Finished task 39.0 in stage 303.0 (TID 52453). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52457
+17/02/02 00:02:12 INFO executor.Executor: Running task 43.0 in stage 303.0 (TID 52457)
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52458
+17/02/02 00:02:12 INFO executor.Executor: Running task 44.0 in stage 303.0 (TID 52458)
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52459
+17/02/02 00:02:12 INFO executor.Executor: Running task 45.0 in stage 303.0 (TID 52459)
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 299 non-empty blocks out of 480 blocks
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 1 ms
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 296 non-empty blocks out of 480 blocks
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 1 ms
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 305 non-empty blocks out of 480 blocks
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 1 ms
+17/02/02 00:02:12 INFO python.PythonRunner: Times: total = 20, boot = -35, init = 37, finish = 18
+17/02/02 00:02:12 INFO executor.Executor: Finished task 42.0 in stage 303.0 (TID 52456). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52460
+17/02/02 00:02:12 INFO executor.Executor: Running task 46.0 in stage 303.0 (TID 52460)
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 301 non-empty blocks out of 480 blocks
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 1 ms
+17/02/02 00:02:12 INFO python.PythonRunner: Times: total = 53, boot = -36, init = 37, finish = 52
+17/02/02 00:02:12 INFO executor.Executor: Finished task 34.0 in stage 303.0 (TID 52450). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52462
+17/02/02 00:02:12 INFO executor.Executor: Running task 48.0 in stage 303.0 (TID 52462)
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 289 non-empty blocks out of 480 blocks
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 0 ms
+17/02/02 00:02:12 INFO python.PythonRunner: Times: total = 22, boot = -24, init = 25, finish = 21
+17/02/02 00:02:12 INFO executor.Executor: Finished task 43.0 in stage 303.0 (TID 52457). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52464
+17/02/02 00:02:12 INFO executor.Executor: Running task 49.0 in stage 303.0 (TID 52464)
+17/02/02 00:02:12 INFO python.PythonRunner: Times: total = 23, boot = -3, init = 4, finish = 22
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 299 non-empty blocks out of 480 blocks
+17/02/02 00:02:12 INFO executor.Executor: Finished task 44.0 in stage 303.0 (TID 52458). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 1 ms
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52465
+17/02/02 00:02:12 INFO executor.Executor: Running task 50.0 in stage 303.0 (TID 52465)
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 282 non-empty blocks out of 480 blocks
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 1 ms
+17/02/02 00:02:12 INFO python.PythonRunner: Times: total = 19, boot = -20, init = 21, finish = 18
+17/02/02 00:02:12 INFO executor.Executor: Finished task 46.0 in stage 303.0 (TID 52460). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52468
+17/02/02 00:02:12 INFO executor.Executor: Running task 54.0 in stage 303.0 (TID 52468)
+17/02/02 00:02:12 INFO python.PythonRunner: Times: total = 56, boot = -38, init = 39, finish = 55
+17/02/02 00:02:12 INFO executor.Executor: Finished task 41.0 in stage 303.0 (TID 52455). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 293 non-empty blocks out of 480 blocks
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 0 ms
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52470
+17/02/02 00:02:12 INFO executor.Executor: Running task 56.0 in stage 303.0 (TID 52470)
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 291 non-empty blocks out of 480 blocks
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 1 ms
+17/02/02 00:02:12 INFO python.PythonRunner: Times: total = 17, boot = -22, init = 23, finish = 16
+17/02/02 00:02:12 INFO executor.Executor: Finished task 49.0 in stage 303.0 (TID 52464). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52473
+17/02/02 00:02:12 INFO executor.Executor: Running task 59.0 in stage 303.0 (TID 52473)
+17/02/02 00:02:12 INFO python.PythonRunner: Times: total = 50, boot = -14, init = 16, finish = 48
+17/02/02 00:02:12 INFO python.PythonRunner: Times: total = 60, boot = -22, init = 24, finish = 58
+17/02/02 00:02:12 INFO python.PythonRunner: Times: total = 20, boot = -13, init = 14, finish = 19
+17/02/02 00:02:12 INFO executor.Executor: Finished task 48.0 in stage 303.0 (TID 52462). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO executor.Executor: Finished task 45.0 in stage 303.0 (TID 52459). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO executor.Executor: Finished task 50.0 in stage 303.0 (TID 52465). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 299 non-empty blocks out of 480 blocks
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52484
+17/02/02 00:02:12 INFO executor.Executor: Running task 70.0 in stage 303.0 (TID 52484)
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52485
+17/02/02 00:02:12 INFO executor.Executor: Running task 71.0 in stage 303.0 (TID 52485)
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52486
+17/02/02 00:02:12 INFO executor.Executor: Running task 72.0 in stage 303.0 (TID 52486)
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 1 ms
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 301 non-empty blocks out of 480 blocks
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 0 ms
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 308 non-empty blocks out of 480 blocks
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 1 ms
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 289 non-empty blocks out of 480 blocks
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 2 ms
+17/02/02 00:02:12 INFO python.PythonRunner: Times: total = 84, boot = -23, init = 24, finish = 83
+17/02/02 00:02:12 INFO executor.Executor: Finished task 56.0 in stage 303.0 (TID 52470). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52492
+17/02/02 00:02:12 INFO executor.Executor: Running task 78.0 in stage 303.0 (TID 52492)
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 285 non-empty blocks out of 480 blocks
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 1 ms
+17/02/02 00:02:12 INFO python.PythonRunner: Times: total = 95, boot = -20, init = 21, finish = 94
+17/02/02 00:02:12 INFO executor.Executor: Finished task 54.0 in stage 303.0 (TID 52468). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52496
+17/02/02 00:02:12 INFO executor.Executor: Running task 81.0 in stage 303.0 (TID 52496)
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 306 non-empty blocks out of 480 blocks
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Started 3 remote fetches in 1 ms
+17/02/02 00:02:12 INFO python.PythonRunner: Times: total = 30, boot = -76, init = 77, finish = 29
+17/02/02 00:02:12 INFO executor.Executor: Finished task 59.0 in stage 303.0 (TID 52473). 1344 bytes result sent to driver
+17/02/02 00:02:12 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 52500
+17/02/02 00:02:12 INFO executor.Executor: Running task 85.0 in stage 303.0 (TID 52500)
+17/02/02 00:02:12 INFO storage.ShuffleBlockFetcherIterator: Getting 289 non-empty blocks out of 480 blocks

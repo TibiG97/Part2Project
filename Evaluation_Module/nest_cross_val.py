@@ -295,7 +295,8 @@ def nested_cross_validation(data_set: np.array,
                 best_model, best_parameters = tune_mlp_parameters(data_set=training_set,
                                                                   labels=training_labels,
                                                                   no_of_folds=no_of_inner_folds,
-                                                                  no_of_samples=no_of_samples)
+                                                                  no_of_samples=no_of_samples,
+                                                                  no_of_classes=no_of_classes)
             if model_name == 'RF':
                 best_model, best_parameters = tune_rf_parameters(data_set=training_set,
                                                                  labels=training_labels,

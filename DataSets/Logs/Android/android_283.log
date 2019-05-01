@@ -1,0 +1,100 @@
+12-17 19:34:56.320  1795  1809 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) handle:0 flags:0x0 period_ns 66667000
+12-17 19:34:56.322  3118  3825 I ctaifs<存储已屏蔽的号码>[存储已屏蔽的号码][com.android.providers.blockednumber[query] Query CallLog
+12-17 19:34:56.323  1795 15982 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{e68e93f 32607:com.huawei.betaclub/1000}, flags: 10000400
+12-17 19:34:56.323  1795 15982 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{292bcd9 u0 euid: 0 com.huawei.betaclub/.receiver.LogCapService}, euid: 0
+12-17 19:34:56.325  3180  3578 I ash     : ash->screen unlock
+12-17 19:34:56.327  1795 20550 D Telecom : CallLogEx: addEntryAndRemoveExpiredEntries insert result=content://0@call_log/calls/55
+12-17 19:34:56.328  1795 20550 I ctaifs  : <通话管理>[通话管理][com.android.server.telecom]:[addEntryAndRemoveExpiredEntries] 修改通话记录..
+12-17 19:34:56.331  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:34:56.331  1795 11746 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{ec55919 3608:com.android.incallui/1001}
+12-17 19:34:56.333  3608  3608 D InCall  : InCallPresenter - oldState = 3 newState = 10
+12-17 19:34:56.333  3879  5881 I HwLauncher: Launcher.LauncherProvider  launcher call - method:change_badge arg: extras:[package=com.android.contacts][badgenumber=0][class=com.android.contacts.activities.DialtactsActivity] uid =10003 pid =3118
+12-17 19:34:56.333  1795 16501 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{a885b20 u-1 android.intent.action.PHONE_STATE}, has 2 receivers
+12-17 19:34:56.334  3608  3608 D InCall  : InCallPresenter - onDetailsChanged: call=[Call_10, DISCONNECTED, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)]
+12-17 19:34:56.334  3608  3608 I InCall  : VTCallButtonPresenter - onDetailsChanged callId=Call_10 callState=10
+12-17 19:34:56.334  3608  3608 D HwCustCallCardFragmentImpl: state = 10
+12-17 19:34:56.336  2883  3125 I HwSystemManager: StartupResidentService:InnerHandler Message:7
+12-17 19:34:56.337  3118  3819 I ctaifs<联系人>[联系人][com.android.contacts]: [query] Query CallLog
+12-17 19:34:56.338  3608 20555 D StatisticalHelper: report eventID(4064) msg(hasMarked = true contactExists = false roam = Not Roaming) true
+12-17 19:34:56.340  2852  2852 I BackgrounCallingLayout: mCallingStatusReceiver:onReceive::action=InCallScreenIsForegroundActivity, isForegroundActivity=true, mPhoneState=0
+12-17 19:34:56.340  3118 12766 I ctaifs<联系人>[联系人][com.android.contacts]: [query] Query CallLog
+12-17 19:34:56.341  2852  2852 I BackgrounCallingLayout: updateCallLayout:isBackground=false, isInteractive=true
+12-17 19:34:56.342  2852  2852 I HwPhoneStatusBar: mNotifyStateChangedReceiver::onReceive:action=InCallScreenIsForegroundActivity, mBackgroundState=false
+12-17 19:34:56.342  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:34:56.342  3879  5881 I HwLauncher: ProviderCallUtils callBadge isCloned = false
+12-17 19:34:56.343  1795  1809 I qti_sensors_hal: read from oem info: data_readback
+12-17 19:34:56.343  1795  1809 I qti_sensors_hal: 0xcd, 0xb0, 0x24, 0x3e
+12-17 19:34:56.343  1795  1809 I qti_sensors_hal: 0x66, 0xca, 0x3c, 0x3e
+12-17 19:34:56.343  1795  1809 I qti_sensors_hal: 0xc0, 0x2a, 0x7c, 0x3f
+12-17 19:34:56.343  1795  1809 I qti_sensors_hal: 0x55, 0x0, 0x0, 0x0
+12-17 19:34:56.343  1795  1809 I qti_sensors_hal: 0x0, 0x0, 0x0, 0x0
+12-17 19:34:56.343  1795  1809 E qti_sensors_hal: read from oem info: data_valid_flag=0x55
+12-17 19:34:56.343  1795  1809 E qti_sensors_hal: read from oem info: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:34:56.343  1795  1809 E qti_sensors_hal: Final value: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:34:56.343  1795  1809 I qti_sensors_hal: batch:load_acc_oeminf_data x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:56.343  1795  1809 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) sample_rate=14.999925Hz report_rate_f=0.000000Hz curr sample rate:5.000000 cur rpt rate:0 max:400.000000 min:1.000000
+12-17 19:34:56.343  3879  3894 I HwLauncher: Launcher.LauncherProvider  launcher call - method:change_badge arg: extras:[package=com.android.contacts][badgenumber=0][class=com.android.contacts.activities.DialtactsActivity] uid =10003 pid =3118
+12-17 19:34:56.344  1795  1809 I qti_sensors_hal: flush,395,handle 0
+12-17 19:34:56.344  1795  1809 I qti_sensors_hal: flush,260 handle 0
+12-17 19:34:56.344  1795  1809 I WindowManager: Finished screen turning on...
+12-17 19:34:56.344  1795  1825 I PowerManager_screenOn: DisplayPowerController Unblocked screen on after 494 ms
+12-17 19:34:56.344  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:34:56.344  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=1.0
+12-17 19:34:56.345  3608  3608 I InCall  : VideoCallPresenter -  onDetailsChanged Call: callId=Call_10 callState=10 mPrimaryCall: null
+12-17 19:34:56.345  3608  3608 I InCall  : VideoCallPresenter -  onDetailsChanged: Details not for current active call so returning. 
+12-17 19:34:56.345  1795  1825 D DisplayPowerController: Animating brightness: target=44, rate=40
+12-17 19:34:56.345  3608  3608 D InCall  : CallCardPresenter - isPredefinedNumber is true
+12-17 19:34:56.345  3608  3608 I InCall  : CallCardPresenter - updateNumberLocation
+12-17 19:34:56.345  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:34:56.345  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=1725
+12-17 19:34:56.345  1795  1825 D DisplayPowerController: Animating brightness: target=44, rate=40
+12-17 19:34:56.345  1795  2750 I HwLightsService: back light level before map = 1725
+12-17 19:34:56.345  1795  1825 V KeyguardServiceDelegate: onScreenTurnedOn()
+12-17 19:34:56.345  1795  1825 I WindowManger_keyguard: onScreenTurnedOn()
+12-17 19:34:56.346  1795  1825 D DisplayPowerController: Display ready!
+12-17 19:34:56.346  1795  1825 D DisplayPowerController: Finished business...
+12-17 19:34:56.346  2852  3328 D KeyguardService: Caller checkPermission fail
+12-17 19:34:56.346  2852  3328 D KeyguardService: KGSvcCall onScreenTurnedOn.
+12-17 19:34:56.346  2852  3328 D KeyguardViewMediator: notifyScreenTurnedOn
+12-17 19:34:56.346  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOn
+12-17 19:34:56.346  2852  2852 I PhoneStatusBar: onScreenTurnedOn
+12-17 19:34:56.346  1795  1825 D FpDataCollector: case xxx, not a fingerprint unlock 
+12-17 19:34:56.346  2852  2852 D KGWallpaper_Magazine: getNextIndex: 0; from 5 to 5; size: 44
+12-17 19:34:56.346  2852  2852 I HwLockScreenReporter: report msg is :{picture: Deepwater-05-2.3.001-bigpicture_05_8.jpg}
+12-17 19:34:56.346  2852  2852 W HwLockScreenReporter: report result = falsereport type:162 msg:{picture: Deepwater-05-2.3.001-bigpicture_05_8.jpg, channelId: 05}
+12-17 19:34:56.346  2852  2852 I OucScreenOnCounter: Screen already turned on at: 1481974212
+12-17 19:34:56.346  1795  1825 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:56.346  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeFinished mInteractiveChanging=true, mInteractive=true
+12-17 19:34:56.350  3466  3512 I Contacts: DialpadFragment SIM 1 enable:true, SIM 2 enable:false
+12-17 19:34:56.350  3466  3512 I Contacts: DialpadFragment Sim presence : 1
+12-17 19:34:56.353  3879  3894 I HwLauncher: ProviderCallUtils callBadge isCloned = false
+12-17 19:34:56.354  3466  3466 I Contacts: DialpadFragment SIM 1 enable:true, SIM 2 enable:false
+12-17 19:34:56.354  3466  3466 I Contacts: DialpadFragment Sim presence : 1
+12-17 19:34:56.354  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:34:56.357  3118 23600 I ctaifs<系统用户界面>[系统用户界面][com.android.systemui]: [query] Query CallLog
+12-17 19:34:56.357  3608  3608 D InCall  : Call - TelecomCallCallback onCallDestroyed call=Call [id: TC@11, state: DISCONNECTED, details: [pa: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, 89860011191407483029, UserHandle{0}, hdl: xxxxxxxxxxxxxxxx, caps: [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], props: [Properties:]]]
+12-17 19:34:56.357  3608  3608 W InCall  : CallList - Removing call not previously disconnected Call_10
+12-17 19:34:56.360  3466  3466 I Contacts: DialpadFragment sim_one is presence -> updateSingleCardButton
+12-17 19:34:56.360  1046  2704 V audio_hw_primary: disable_audio_route: enter: usecase(25)
+12-17 19:34:56.360  1046  2704 D audio_hw_primary: disable_audio_route: reset and update mixer path: voicemmode1-call
+12-17 19:34:56.361  1795  3225 I WindowManger_keyguard: Setting mHideLockScreen to true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:34:56.363  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:34:56.366  1046  2704 V msm8916_platform: platform_sound_trigger_usecase_needs_event:usecase_id[25] no need to raise event.
+12-17 19:34:56.366  1046  2704 D soundtrigger: audio_extn_sound_trigger_update_stream_status: uc_id 25 of type 2 for Event 2, with Raise=0
+12-17 19:34:56.366  1046  2704 V audio_hw_primary: disable_audio_route: exit
+12-17 19:34:56.366  1046  2704 D hardware_info: hw_info_append_hw_type : device_name = voice-handset
+12-17 19:34:56.366  1046  2704 D audio_hw_primary: disable_snd_device: snd_device(15: voice-handset)
+12-17 19:34:56.366  1046  2704 D msm8916_platform: platform_can_split_snd_device: snd_device(15) num devices(0) new_snd_devices(0)
+12-17 19:34:56.369  1046  2704 D aud_dev_arbi: releaseOneDevice: not sending command, device argument (1) does not match any registered device
+12-17 19:34:56.369  1046  2704 D aud_dev_arbi: releaseOneDevice: device 1 owner is 0
+12-17 19:34:56.369  1046  2704 I soundtrigger: audio_extn_sound_trigger_update_device_status: device 0xf of type 0 for Event 0, with Raise=0
+12-17 19:34:56.369  1046  2704 D hardware_info: hw_info_append_hw_type : device_name = voice-dmic-ef
+12-17 19:34:56.369  1046  2704 D audio_hw_primary: disable_snd_device: snd_device(87: voice-dmic-ef)
+12-17 19:34:56.369  1046  2704 D msm8916_platform: platform_can_split_snd_device: snd_device(87) num devices(0) new_snd_devices(0)
+12-17 19:34:56.370  3466  3466 I Contacts: DialpadFragment sim_one is presence -> updateSingleCardButton
+12-17 19:34:56.370  3466  3512 I Contacts: DialpadFragment SIM 1 enable:true, SIM 2 enable:false
+12-17 19:34:56.370  3466  3512 I Contacts: DialpadFragment Sim presence : 1
+12-17 19:34:56.371  3118 23618 I ctaifs<通话管理>[通话管理][com.android.server.telecom]: [delete] Delete CallLog
+12-17 19:34:56.371  3466  3466 I Contacts: PLog CallLogFragment onQueryComplete, requestId : 104
+12-17 19:34:56.371  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:34:56.371  3466  3466 I Contacts: CallLogQueryHandler onQueryComplete token:59 listener:CallLogFragment{d65bfc6 #0 id=0x7f1000d2} cursor ==null:false

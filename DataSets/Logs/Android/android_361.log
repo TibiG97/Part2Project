@@ -1,0 +1,100 @@
+12-17 19:35:55.936  1795  2671 E WifiConnectivityManager: isWifiScanSpecialChannels is false,mWifiState : 1
+12-17 19:35:55.936  2852 20752 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:55.936  1795  2671 I AlarmManager: set(null) : type=2 triggerAtTime=443172300 win=0 tElapsed=443172300 maxElapsed=443172300 interval=0 flags=0x9
+12-17 19:35:55.937  1795  1805 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:55.937  1795  2671 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:55.937  1795  3884 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:55.938   832  1841 E Parcel  : Reading a NULL string not supported here.
+12-17 19:35:55.938   832  1841 E Parcel  : Reading a NULL string not supported here.
+12-17 19:35:55.938  1795  2680 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SCAN TYPE=ONLY'
+12-17 19:35:55.938  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY'
+12-17 19:35:55.938  5215  5215 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-17 19:35:55.938  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:35:55.938  5215  5215 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-17 19:35:55.938  5215  5215 D wpa_supplicant: OKC-Native: Append OKC IE!
+12-17 19:35:55.938  5215  5215 D wpa_supplicant: OKC-Native: Append done!
+12-17 19:35:55.938  5215  5215 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7fb502f3c0
+12-17 19:35:55.938  5215  5215 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-17 19:35:55.938  5215  5215 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7fb502f3c0 after 0.000040 second wait
+12-17 19:35:55.938  5215  5215 D wpa_supplicant: wlan0: nl80211: scan request
+12-17 19:35:55.938  5215  5215 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-17 19:35:55.938  5215  5215 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=67): 7f 05 00 00 0a 02 01 dd 0f 00 e0 fc 80 00 00 00 01 00 00 00 00 00 00 00 dd 29 00 e0 fc 80 00 00 ...
+12-17 19:35:55.939  5215  5215 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-17 19:35:55.939  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:35:55.939  5215  5215 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+12-17 19:35:55.939  5215  5215 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-17 19:35:55.939  5215  5215 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-17 19:35:55.939  5215  5215 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000124 seconds
+12-17 19:35:55.939  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=24
+12-17 19:35:55.939  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:35:55.939  1795  2680 I AlarmManager: set(null) : type=2 triggerAtTime=443107303 win=11250 tElapsed=443107303 maxElapsed=443118553 interval=0 flags=0x8
+12-17 19:35:55.945  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:35:55.945  1795  3238 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:55.945  1795  3238 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:55.945  1795  5219 E WifiMonitor: WifiMonitor:wlan0 cnt=31118 dispatchEvent: CTRL-EVENT-SCAN-STARTED 
+12-17 19:35:55.948  2852 20752 I BitmapUtils: RGB565toARGB888 create bmp = 162x288
+12-17 19:35:55.957   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:35:55.971  2852 20752 W BitmapUtils: blurBitmap : android.graphics.Bitmap@7367993use source bitmap; use rgb888 as target; Consueme: 23ms
+12-17 19:35:55.971  2852 20752 W BokehDrawable: onPostExecute android.graphics.Bitmap@35c61c9, []
+12-17 19:35:55.979  2852  2865 I art     : Background partial concurrent mark sweep GC freed 8982(477KB) AllocSpace objects, 4(340KB) LOS objects, 11% free, 63MB/71MB, paused 1.019ms total 100.978ms
+12-17 19:35:56.156  1795  2750 D SurfaceControl: Excessive delay in setPowerMode(): 224ms
+12-17 19:35:56.156  1795  2750 D PowerManagerService: Setting HAL interactive mode to false
+12-17 19:35:56.156  1795  2750 I QTI PowerHAL: Got set_interactive hint
+12-17 19:35:56.156   625   718 E libnav  : AbaSuspend skips CABL deactivate: state was 3
+12-17 19:35:56.157  1795  2750 D libfingersense_wrapper: Calling fingersense_on_pause()
+12-17 19:35:56.157  1795  2750 D libfingersense_wrapper: fingersense_on_pause() finished
+12-17 19:35:56.157  1795  2750 D PowerManagerService: Setting HAL auto-suspend mode to true
+12-17 19:35:56.158   836  2387 I knuckle_sensor: Sending SAM_DISABLE to fs_data
+12-17 19:35:56.158  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:35:56.159  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:35:56.159  1795  1825 D DisplayPowerController: Display ready!
+12-17 19:35:56.159  1795  1825 D DisplayPowerController: Finished business...
+12-17 19:35:56.159   836   928 I knuckle_sensor: Got DISABLE response, status = 0, id = 75
+12-17 19:35:56.159  1795  1825 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:56.159  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeFinished mInteractiveChanging=true, mInteractive=false
+12-17 19:35:56.159  1795  1825 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:35:56.160  1795  1825 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Display".
+12-17 19:35:56.160  1795  1795 I WindowManger_keyguard: Finished going to sleep... (why=3)
+12-17 19:35:56.160  1795  1795 I WindowManger_keyguard: onFinishedGoingToSleep(3)
+12-17 19:35:56.160  1795  1795 I PowerManager_screenOn: PowerManagerNotifier Sending go to sleep broadcast.
+12-17 19:35:56.160  1795  1795 I SendBroadcastPermission: action:android.intent.action.SCREEN_OFF, mPermissionType:0
+12-17 19:35:56.161  2852  3344 D KeyguardService: Caller checkPermission fail
+12-17 19:35:56.161  2852  3344 D KeyguardService: KGSvcCall onFinishedGoingToSleep.
+12-17 19:35:56.161  2852  3344 D KeyguardViewMediator: onFinishedGoingToSleep(3)
+12-17 19:35:56.161  2852  3344 D KeyguardViewMediator: notifyFinishedGoingToSleep
+12-17 19:35:56.161  2852  3344 W AppHandler: sendMessage 15
+12-17 19:35:56.161  2852  2852 D KeyguardViewMediator: handleNotifyFinishedGoingToSleep
+12-17 19:35:56.161  2852  2852 I PhoneStatusBar: onFinishedGoingToSleep
+12-17 19:35:56.161  2852  2852 W AppHandler: sendMessage 21 with args (2, 0)
+12-17 19:35:56.162  2852  2852 V KeyguardStatusView: Disable transport text marquee
+12-17 19:35:56.162  2852  2852 V KeyguardUpdateMonitor: FingerStat Visible: false; Interactive: false; Switching: false; Bouncer:false; GoingToSleep: false Occluded: false; dreaming: false; Authenticated: false
+12-17 19:35:56.163  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:35:56.163  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:35:56.163  2852  2852 I KeyguardUpdateMonitor: Ignore update FP: 1 true
+12-17 19:35:56.163  2852  2852 W HwLockScreenPanel: Handle message: 15
+12-17 19:35:56.164  1795  1795 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:35:56.164  1795  1795 I ActivityManager_broadcast: Enqueueing ordered broadcast[foreground] BroadcastRecord{e10630d u-1 android.intent.action.SCREEN_OFF}: prev had 0
+12-17 19:35:56.165  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [foreground] BroadcastRecord{e10630d u-1 android.intent.action.SCREEN_OFF}, has 56 receivers
+12-17 19:35:56.165  2852  2852 W CameraLayout: Cameralayout setVisibility. true false  2
+12-17 19:35:56.165  2852  2852 D MagazineDetailView: resetPagerState
+12-17 19:35:56.165  2852  2852 W HwLockScreenPanel: Handle message: 21
+12-17 19:35:56.165  2852  2852 V MagazineDetailView: Wallpaper changed
+12-17 19:35:56.166  2852  2852 V MagazineUtils: Is User Assigned Wallpaper? : 0  false
+12-17 19:35:56.170  2852  2852 D KGWallpaper_Magazine: getNextIndex: 0; from 6 to 6; size: 44
+12-17 19:35:56.171  2852  2852 E LocalLinkTextView: setDescription without uselink line!
+12-17 19:35:56.171  1795  2377 I AwareLog: AwareMem_DMEServer: stop
+12-17 19:35:56.173  2852  2925 D KGWallpaper_Magazine: getNextIndex: 1; from 6 to 7; size: 44
+12-17 19:35:56.174  2852  2925 I ExifParser: mTiffStream skip = 0
+12-17 19:35:56.175  2852  2925 W ExifData: The tag is null error!
+12-17 19:35:56.176  2852  2925 D KGWallpaper_Magazine: getNextIndex: 0; from 6 to 6; size: 44
+12-17 19:35:56.177  2852  2925 I ExifParser: mTiffStream skip = 0
+12-17 19:35:56.178  2852  2925 W ExifData: The tag is null error!
+12-17 19:35:56.178  2852  2925 D KGWallpaper_Magazine: getNextIndex: -1; from 6 to 5; size: 44
+12-17 19:35:56.179  2852  2925 I ExifParser: mTiffStream skip = 0
+12-17 19:35:56.180  2852  2925 W ExifData: The tag is null error!
+12-17 19:35:56.181  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_OFF
+12-17 19:35:56.182  1795  2668 D WifiP2pService: InactiveState143467
+12-17 19:35:56.182  1795  2668 E HwWifiP2pService: Unhandled message when=123153799 what=143467 arg1=0 arg2=0
+12-17 19:35:56.182  1795  2668 D WifiP2pService: P2pEnabledState when=123153799 what=143467 arg1=0 arg2=0
+12-17 19:35:56.182  1795  2668 D WifiP2pService: DefaultState{ when=0 what=143467 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:35:56.182  1795  2668 D HwWifiP2pService: SleepPolicy:1

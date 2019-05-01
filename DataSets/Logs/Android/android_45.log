@@ -1,0 +1,100 @@
+12-17 19:31:45.015  3180  3578 I ash     : 1795 binder call 2852
+12-17 19:31:45.015  3608  3608 D InCall  : InCallActivity - onResume()... end
+12-17 19:31:45.015  3608  3608 I InCall  : VideoCallFragment - onResume
+12-17 19:31:45.015  3608  3608 I InCall  : VideoCallPresenter - isVideoCallWorking, state is: 3
+12-17 19:31:45.015  3608  3608 I InCall  : VideoCallFragment - onResume: Surface exist, resume videos
+12-17 19:31:45.016  1795  3121 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:45.016  1795  3121 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:45.016  3608  3608 D InCall  : VideoCallPresenter - resumeVideo: Error bad state mPrimaryCall=[Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)] mVideoCall=null
+12-17 19:31:45.016  3608  3608 I InCall  : VTCallButtonFragment - --- onResume ---
+12-17 19:31:45.016  3608  3608 I ActivityManager_activity: Resuming ActivityRecord{fd45985 token=android.os.BinderProxy@af8ea9b {com.android.incallui/com.android.incallui.InCallActivity}} with isForward=true,forwardBitChanged=true onlyLocalRequest=false
+12-17 19:31:45.018  1046  2704 V ThreadsEx: HDebug print the key screen_state
+12-17 19:31:45.018  1046  2704 D audio_hw_primary: adev_set_parameters: enter: screen_state=on
+12-17 19:31:45.019  1046  2704 I Huawei_audio_cust: huawei_audio huawei_choose_HandsFree_device_incall_forHWtest: test Type =4
+12-17 19:31:45.019  1046  2704 I Huawei_audio_cust: huawei_audio huawei_choose_Handset_device_incall_forHWtest: test Type =4
+12-17 19:31:45.019  1046  2704 I Huawei_audio_cust: get_spk_pa_type: pa is max98925
+12-17 19:31:45.019  1046  2704 I Huawei_audio_cust: huawei_common_set_parameters: exit with code(0)
+12-17 19:31:45.019  1046  2704 V Huawei_audio_cust: huawei_cust_set_parameters: exit with code(0)
+12-17 19:31:45.019  1046  2704 V msm8916_platform: platform_set_parameters: enter: - screen_state=on
+12-17 19:31:45.019  1046  2704 V msm8916_platform: platform_set_parameters: exit with code(0)
+12-17 19:31:45.019  1046  2704 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:31:45.019  1046  2704 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:31:45.019  1046  2704 V audio_hw_primary: adev_set_parameters: exit with code(0)
+12-17 19:31:45.021  1795  2778 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:45.022  1795  3237 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:45.022  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:45.023  3608  3608 I InCall  : CallList - hasAnyLiveCall call = [Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)]
+12-17 19:31:45.023  3608  3608 I InCall  : ProximitySensor - isDisplayOn: true
+12-17 19:31:45.025  1795 20747 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:45.025  1795 20747 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:45.026  2852  2852 I TintManager: updateBarBgColor:emuiStyle=0,statusBarColor=#00000000,navigationBarColor=#00000000, isEmuiLight=-1
+12-17 19:31:45.026  2852  2852 I HwPhoneStatusBarTransitions: restoreBackgroundColor:new=1711276032, old=0
+12-17 19:31:45.026  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=true
+12-17 19:31:45.026  1795  1795 I DeviceIdleController: becomeActiveLocked, reason = screen
+12-17 19:31:45.026  2852  2852 I HwNavigationBarTransitions: restoreBackgroundColor:new=0, old=0
+12-17 19:31:45.025  1795  3110 I qti_sensors_hal: flush,395,handle 0
+12-17 19:31:45.026  1795  3110 I qti_sensors_hal: flush,260 handle 0
+12-17 19:31:45.026  1795  1795 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:31:45.027  2852  2852 D TintManager: statusBarIconTint=#B3FFFFFF,navigationBarIconTint=#00000000
+12-17 19:31:45.027  1795  1807 D DeviceIdleController: handleMessage(5)
+12-17 19:31:45.028  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:31:45.028  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:31:45.028  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:31:45.030  1795  1795 D DeviceIdleController: stopMonitoringMotionLocked()
+12-17 19:31:45.030  1795  1795 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:31:45.035   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:31:45.038  1795 16501 D PowerManagerService: acquire lock=223841435, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:31:45.038  1795 16501 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:45.038  1795 16501 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:45.040  1795 16499 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:45.041  1795 11746 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:45.041  1795  3253 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:45.042  1795 11747 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:45.044  1795  1805 I PowerManager_screenOn: PowerManagerService wakeUpNoUpdateLocked: eventTime=123018215, uid=1000
+12-17 19:31:45.044  1795  1805 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:45.060  3608  3608 D InCall  : CallCardFragment - onGlobalLayout
+12-17 19:31:45.069  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 9.000000
+12-17 19:31:45.069  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =240480800 
+12-17 19:31:45.070  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:false
+12-17 19:31:45.070  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:45.070  1795  1825 D DisplayPowerController: Animating brightness: target=25, rate=40
+12-17 19:31:45.070  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityNegative -> updatePowerStateLocked
+12-17 19:31:45.070  1795  1825 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123018242, event=0, flags=0x0, uid=1000
+12-17 19:31:45.071  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=0, uid=1000
+12-17 19:31:45.071  1795  1825 I PowerManager_screenOn: PowerManagerService wakeUpNoUpdateLocked: eventTime=123018242, uid=1000
+12-17 19:31:45.071  1795  1825 I PowerManager_screenOn: PowerManagerService Waking up from dozing (uid 1000)...
+12-17 19:31:45.071  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=1, reason=0, interactive=true, mInteractive=false, mInteractiveChanging=true
+12-17 19:31:45.071  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakeUp: event=android.server.power:POWER, reasonUid=1000 opPackageName=android opUid=1000
+12-17 19:31:45.071  1795  1825 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123018242, event=0, flags=0x0, uid=1000
+12-17 19:31:45.071  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=0, uid=1000
+12-17 19:31:45.071  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityNegative by Phone
+12-17 19:31:45.071  1795  1825 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:45.077  1795  1795 I HwScreenOnProximityLock: removeProximityView success vp android.view.ViewRootImpl@6004838
+12-17 19:31:45.077  1795  1795 D Sensors : batch called handle:2 sample_ns:20000000 latency_ns:0
+12-17 19:31:45.077  1795  1795 D Sensors : pa2240-proximity calling driver setDelay 20 ms
+12-17 19:31:45.077  1795  1795 E huawei_ProximitySensor_CPP_Test: write 20 failed
+12-17 19:31:45.078  1795  1795 I NotificationManager: cancelNotification,index:0
+12-17 19:31:45.078  1795  1795 I NotificationManager: cancelNotification,cancelNotificationLocked,callingUid = 1001,callingPid = 3608
+12-17 19:31:45.078  1795  1795 I NotificationManager: cancelNotificationLocked called,tell the app,reason = 8
+12-17 19:31:45.078  1795  1795 I NotificationManager: cancelNotificationLocked:0|com.android.incallui|2|null|1001
+12-17 19:31:45.079  1795  1795 I NotificationManager: cancelNotificationLocked,remove =com.android.incallui
+12-17 19:31:45.079  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = true,ledNotification == null?true
+12-17 19:31:45.079  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:31:45.079  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:31:45.079  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:31:45.079  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:31:45.079  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:31:45.079  1795  1821 I ActivityManager_activity: Incall is gone
+12-17 19:31:45.080  1795  1821 I ActivityManager_activity: windowsGone(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}
+12-17 19:31:45.080  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:45.081  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:45.082  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:45.084  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:45.085  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:31:45.085  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:31:45.085  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:31:45.085  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=true
+12-17 19:31:45.085  1795  1795 I DeviceIdleController: becomeActiveLocked, reason = screen
+12-17 19:31:45.089  1795  3253 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:45.098  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:45.126  1795  1795 V SecInputMethodManagerService: Client requesting input be hidden, pid=1795

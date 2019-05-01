@@ -1,0 +1,100 @@
+12-17 19:31:46.244  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_OFF
+12-17 19:31:46.249  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:31:46.250  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:31:46.254  1795  3139 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:0
+12-17 19:31:46.257  1795  2671 I SendBroadcastPermission: action:android.net.wifi.SCAN_RESULTS, mPermissionType:0
+12-17 19:31:46.263  1795  2671 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{34bf34f 0:system/1000}, intent:android.net.wifi.SCAN_RESULTS, receiver size:1, flags: 10000400
+12-17 19:31:46.263  1795  2671 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:31:46.263  1795  2671 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:31:46.263  1795  2671 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{f400f81 u-1 android.net.wifi.SCAN_RESULTS}: prev had 0
+12-17 19:31:46.264  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{f400f81 u-1 android.net.wifi.SCAN_RESULTS}, has 1 receivers
+12-17 19:31:46.266  1795  2671 W WifiStateMachine: attemptAutoConnect: false
+12-17 19:31:46.267  1795  1809 I HwPhoneWindowManager: OverscanTimeout run
+12-17 19:31:46.268  1795  2736 E hwintelligencewifi:  DefaultState message.what = 7
+12-17 19:31:46.271  3858  4126 I amsnl   : wsr
+12-17 19:31:46.274  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:31:46.276  1795  2778 D wifiserviceimpl: netmask =16580607
+12-17 19:31:46.276  3858  4126 I amsnl   : m1: false
+12-17 19:31:46.277  1795 15988 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:31:46.293 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_OFF
+12-17 19:31:46.295  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:31:46.296  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:31:46.327  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:31:46.329   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 26
+12-17 19:31:46.329   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:31:46.330   802   802 E Thermal-daemon: [pa_0] temp_new :27  temp_old :28
+12-17 19:31:46.330   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:31:46.330   802   802 E Thermal-daemon: Report temperature: [pa_0] temp :27  report_threshold:1
+12-17 19:31:46.332  1795 16500 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:31:46.333   802   802 E Thermal-daemon: [ap] temp_new :28  temp_old :27
+12-17 19:31:46.334   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:31:46.334   802   802 E Thermal-daemon: Report temperature: [ap] temp :28  report_threshold:1
+12-17 19:31:46.343  1795  2396 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:31:46.423  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:31:46.427  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:31:46.442  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.609677 Y: 6.954871 Z: 3.152956  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:46.501  3180  3578 I ash     :  ignore audio app: com.android.browser stop delta time:37050233
+12-17 19:31:46.501  3180  3578 I ash     : com.android.browser { running duration=30002 } transition to: doze reason:
+12-17 19:31:46.501  3180  3578 I ash     : doze package: com.android.browser, visible: false
+12-17 19:31:46.638  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.797971 Y: 7.841391 Z: 1.205552  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:46.735  3782 20224 V AudioManager: isMusicActive...
+12-17 19:31:46.736  3782 20224 V AudioManager: isWiredHeadsetOn...
+12-17 19:31:46.763  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:46.797 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.onRecv(TcpClientThread.java:522) tcp connection event TCP_CONNECTED
+12-17 19:31:46.805 31949 31967 I PushService: tcp.conn{4787} ServiceC.connectedNotify(ServiceC.java:289) 172.30.70.63
+12-17 19:31:46.808 31949 31967 I ECS     : tcp.conn{4787} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 100 bytes [16]_00_00_00_60_00_03_01_05_01_04_81_B3_00_00_00_00 cmdCode(CC_PCheckVersion.0x0501)msgType(MT_ARG.1)msgClass(MC_Push.5)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(true)length(96)version(3)sno(81B3)
+12-17 19:31:46.816 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 659
+12-17 19:31:46.817 31949 31967 I TCP     : msg.recv{4791} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 659TCP_OK
+12-17 19:31:46.819 31949 31967 I ECS     : msg.recv{4791} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 663 bytes [12]_00_03_02_05_01_04_81_B3_22_80_41_53 cmdCode(CC_PCheckVersion.0x0501)msgType(MT_ACK.2)msgClass(MC_Push.5)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(true)length(659)version(3)sno(81B3)
+12-17 19:31:46.834  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 4.491452 Y: 7.943381 Z: 0.061820  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:46.898  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:47.030  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 4.334546 Y: 8.547476 Z: -0.100463  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:47.088  1795  1795 I TrafficMonitor: update:rxPkts:8,txPkts:10,rxBytes:1758,txBytes:736
+12-17 19:31:47.088  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:31:47.089  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:31:47.226  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 4.538526 Y: 8.563162 Z: -0.108188  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:47.366  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:47.422  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.880063 Y: 8.908361 Z: 0.811427  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:47.540  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:31:47.547  1795  2728 D hw_netstat: total/2637/1104,com.huawei.espacev2/2481/1104,unknown:0/156/0
+12-17 19:31:47.550  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSRTT=250  WEBSNDDUPACKS=0  SENDSEGS=15  RESENDSEGS=0  RECVSEGS=12  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=9  RTTSEGS=6  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:31:47.550  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-61  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=64, rtt_tcp_duration=525, rtt_lan_duration=154, rtt_lan_failures=0, rtt_lan_succ=3, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:31:47.550  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:31:47.550  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:31:47.564  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:31:47.566  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=12, mTXbad=0, mRXGood=9] rssi=-61
+12-17 19:31:47.567  1795  2728 E HwCHRWebMonitor: running processName=com.android.incallui
+12-17 19:31:47.568  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.huawei.espacev2 UID=10102  WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:31:47.569  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:31:47.569  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 0, tx = 0
+12-17 19:31:47.569  1795  2728 D HwArpVerifier: getDNSFailedCntDiff  dnsNewFailCnt =  1001, aws.getOldDnsFailedCnt() = 1001, dnsDiff = 0
+12-17 19:31:47.619  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.629010 Y: 7.354987 Z: 2.542470  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:47.674  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:47.815  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.201718 Y: 6.947028 Z: 2.635207  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:47.985  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:48.011  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.785932 Y: 7.653113 Z: 3.199325  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:48.129  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:48.207  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.997754 Y: 8.037527 Z: 2.426541  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:48.220  3180  4307 I AwareLog: MemoryRecoveryDMEPlugin: handle message MSG_MEM_LEAK_CHECK
+12-17 19:31:48.358  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:48.810  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:31:48.810  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:31:48.830  5215  5215 E wpa_supplicant: RSSI=-56;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:31:48.830  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:31:48.831  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:31:48.832  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-56 "Huawei-Employee"WPA_EAP
+12-17 19:31:48.833  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:31:48.833  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:31:48.848  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:31:48.852  1795  1795 D WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -56
+12-17 19:31:48.852  1795  2739 D HuaweiWifiWatchdogStateMachine: LM mrssi=-56
+12-17 19:31:48.852  1795  1795 I QosMonitor: queryRtt: rtt_type = 3
+12-17 19:31:48.852  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current loss[-56]=0%, volume=22
+12-17 19:31:48.852  1795  1795 I WifiProJNI: ######### GET RTT:3 ########
+12-17 19:31:48.852  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=7
+12-17 19:31:48.853  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history loss[-56]=0.05%, volume=74708
+12-17 19:31:48.853  1795  2739 I HuaweiWifiWatchdogStateMachine: spd good count:0, add sc:0.0, rate:1.0
+12-17 19:31:48.853  1795  2739 I HuaweiWifiWatchdogStateMachine: current mHighDataFlowRate = 1.0
+12-17 19:31:48.853  1795  2739 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 22, 0. Lr =0% Totpkt=22
+12-17 19:31:48.853  1795  2737 D WifiProJNI: Received kernel message payload: event 4
+12-17 19:31:48.854  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=9

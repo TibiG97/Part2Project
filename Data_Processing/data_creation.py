@@ -259,7 +259,7 @@ def create_dataset_1(name: str,
     :return: a synthetic dataset that respects the given distributions
     """
 
-    main_dir_path = create_directory(get_directory() + '/DataSets', name)
+    main_dir_path = create_directory(get_directory() + '/DataSets/Provenance_Graphs', name)
 
     for class_number in range(1, no_of_classes + 1):
 

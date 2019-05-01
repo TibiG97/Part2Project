@@ -1,0 +1,100 @@
+12-17 19:31:36.805  1795  2326 V FingerprintService: starting client AuthenticationClient(com.android.systemui), initiatedByClient = true)
+12-17 19:31:36.805   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:1
+12-17 19:31:36.805   835   835 V fingerprintd: authenticate(sid=0, gid=0)
+12-17 19:31:36.809  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.android.incallui user=UserHandle{0} id=2 tag=null key=0|com.android.incallui|2|null|1001: Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE))) important=2, post=1481974296486, when=1481974245373, vis=0, userid=0
+12-17 19:31:36.809  2852  2852 I PhoneStatusBar: addNotification key=0|com.android.incallui|2|null|1001
+12-17 19:31:36.810  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:36.810  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:31:36.810  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:31:36.810  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:31:36.812  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:31:36.812  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:36.815  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:31:36.816  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:36.819  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:36.820  2852  2852 I StatusBarIconView: updateTint: tint=1
+12-17 19:31:36.821  2852  2852 D HwCust  : Create obj success use class com.android.systemui.statusbar.HwCustExpandableNotificationRowImpl
+12-17 19:31:36.822  1795  2377 I AwareLog: AwareMem_DMEServer: stop
+12-17 19:31:36.822   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:36.822   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:36.822   606  2379 E libteec : send data return = 128
+12-17 19:31:36.823   835  2385 E libteec : receive data len = 128
+12-17 19:31:36.823   835  2385 E libteec : begin
+12-17 19:31:36.823   835  2385 E libteec : qsc_decode end
+12-17 19:31:36.823   835  2385 D fpc_fingerprint_hal: worker idle
+12-17 19:31:36.823   835  2385 D fpc_fingerprint_hal: workerFunction STATE_AUTHENTICATE
+12-17 19:31:36.823   835  2385 E libteec : begin
+12-17 19:31:36.823  1795  2326 W FingerprintService: client com.android.systemui is authenticating...
+12-17 19:31:36.825   606  2379 E libteec : receive data len = 128
+12-17 19:31:36.826  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_OFF
+12-17 19:31:36.827  1795  2668 D WifiP2pService: InactiveState143467
+12-17 19:31:36.827  1795  2668 E HwWifiP2pService: Unhandled message when=123009998 what=143467 arg1=0 arg2=0
+12-17 19:31:36.827  1795  2668 D WifiP2pService: P2pEnabledState when=123009998 what=143467 arg1=0 arg2=0
+12-17 19:31:36.827  1795  2668 D WifiP2pService: DefaultState{ when=-1ms what=143467 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:31:36.827  1795  2668 D HwWifiP2pService: SleepPolicy:1
+12-17 19:31:36.829   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:36.829   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:36.829   606  2379 E libteec : send data return = 128
+12-17 19:31:36.829   835  2385 E libteec : receive data len = 128
+12-17 19:31:36.829   835  2385 E libteec : begin
+12-17 19:31:36.829   835  2385 E libteec : qsc_decode end
+12-17 19:31:36.829   835  2385 I fpc_tac : fpc_tac_send_get_indices_cmd indices:0x7f9860c000, index_count:1
+12-17 19:31:36.829   835  2385 E libteec : begin
+12-17 19:31:36.829   606  2379 E libteec : receive data len = 1152
+12-17 19:31:36.829  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:36.831  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:31:36.831  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SCREEN_STATE_CHANGED  rt=123010003/442833195 0 0
+12-17 19:31:36.831  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SCREEN_STATE_CHANGED  rt=123010003/442833195 0 0
+12-17 19:31:36.831  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SCREEN_STATE_CHANGED  rt=123010003/442833195 0 0
+12-17 19:31:36.831  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SCREEN_STATE_CHANGED  rt=123010003/442833195 0 0
+12-17 19:31:36.831  1795  2671 D WifiStateMachine:  SupplicantStartedState !CMD_SCREEN_STATE_CHANGED  rt=123010003/442833195 0 0
+12-17 19:31:36.831  1795  2671 D WifiStateMachine:  DefaultState !CMD_SCREEN_STATE_CHANGED  rt=123010003/442833195 0 0
+12-17 19:31:36.831  1795  2671 D PowerManagerService: acquire lock=244575063, flags=0x1, tag="WifiSuspend", name=android, ws=null, uid=1000, pid=1795
+12-17 19:31:36.832  1795  2671 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:36.832  1795  2671 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:36.832  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:31:36.832  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:31:36.832  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_OFF mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:31:36.832  1795  1795 D HwConnectivityService: receive screen off intent!
+12-17 19:31:36.832  1795  1795 D HwConnectivityService: wifi tethering: false
+12-17 19:31:36.832  1795  1795 D HwConnectivityService: Usb tethering: false
+12-17 19:31:36.832  1795  1795 D HwConnectivityService: bt tethering: false
+12-17 19:31:36.832   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:36.832  1795  1795 D HwConnectivityService: pluggedStatus: 0
+12-17 19:31:36.832   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:36.832  1795  1795 D HwConnectivityService: is charging: false
+12-17 19:31:36.832   606  2379 E libteec : send data return = 1152
+12-17 19:31:36.832   835  2385 E libteec : receive data len = 1152
+12-17 19:31:36.832   835  2385 E libteec : begin
+12-17 19:31:36.832   835  2385 E libteec : qsc_decode end
+12-17 19:31:36.832   835  2385 E libteec : begin
+12-17 19:31:36.832   606  2379 E libteec : receive data len = 128
+12-17 19:31:36.833  1795  2671 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:31:36.835  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:31:36.835  1795  2671 D WifiStateMachine:  ConnectedState CMD_ENABLE_RSSI_POLL  rt=123010007/442833199 0 0
+12-17 19:31:36.835  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_ENABLE_RSSI_POLL  rt=123010007/442833199 0 0
+12-17 19:31:36.835  1795  2671 D WifiStateMachine:  ConnectedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123010007/442833199 1 0
+12-17 19:31:36.835  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123010007/442833199 1 0
+12-17 19:31:36.835  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SET_SUSPEND_OPT_ENABLED  rt=123010007/442833199 1 0
+12-17 19:31:36.835  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123010007/442833199 1 0
+12-17 19:31:36.835  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 1'
+12-17 19:31:36.836  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 1'
+12-17 19:31:36.836   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:36.836   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:36.836   606  2379 E libteec : send data return = 128
+12-17 19:31:36.836  3218 13125 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 phoneId=0
+12-17 19:31:36.836   835  2385 E libteec : receive data len = 128
+12-17 19:31:36.836   835  2385 E libteec : begin
+12-17 19:31:36.836   835  2385 E libteec : qsc_decode end
+12-17 19:31:36.836   835  2385 I fpc_tac : fpc_tac_begin_identify---need_liveness_authentication: 0
+12-17 19:31:36.836   835  2385 E libteec : begin
+12-17 19:31:36.836  3218 13125 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 retVal=false
+12-17 19:31:36.836   606  2379 E libteec : receive data len = 192
+12-17 19:31:36.836  1795  1795 D HwConnectivityService: CtrlSocket getMobileDataEnabled = false
+12-17 19:31:36.839  1795  1795 I NotificationManager: mIntentReceiver-ACTION_SCREEN_OFF
+12-17 19:31:36.839  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = false,ledNotification == null?true
+12-17 19:31:36.839  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:31:36.839  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:31:36.839  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:31:36.839  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:31:36.839  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff

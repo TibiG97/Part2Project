@@ -1,0 +1,100 @@
+12-17 19:33:04.337  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:04.337  1046  2704 V ThreadsEx: HDebug print the key screen_state
+12-17 19:33:04.337  1046  2704 D audio_hw_primary: adev_set_parameters: enter: screen_state=off
+12-17 19:33:04.337  1046  2704 I Huawei_audio_cust: huawei_audio huawei_choose_HandsFree_device_incall_forHWtest: test Type =4
+12-17 19:33:04.337  1046  2704 I Huawei_audio_cust: huawei_audio huawei_choose_Handset_device_incall_forHWtest: test Type =4
+12-17 19:33:04.337  1046  2704 I Huawei_audio_cust: get_spk_pa_type: pa is max98925
+12-17 19:33:04.338  1046  2704 I Huawei_audio_cust: huawei_common_set_parameters: exit with code(0)
+12-17 19:33:04.338  1046  2704 V Huawei_audio_cust: huawei_cust_set_parameters: exit with code(0)
+12-17 19:33:04.338  1046  2704 V msm8916_platform: platform_set_parameters: enter: - screen_state=off
+12-17 19:33:04.338  1046  2704 V msm8916_platform: platform_set_parameters: exit with code(0)
+12-17 19:33:04.338  1046  2704 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:33:04.338  1046  2704 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:33:04.338  1046  2704 V audio_hw_primary: adev_set_parameters: exit with code(0)
+12-17 19:33:04.340  1795  1795 I AlarmManager: set(PendingIntent{2f9e644: PendingIntentRecord{527f32d android broadcastIntent}}) : type=2 triggerAtTime=447180704 win=300000 tElapsed=447180704 maxElapsed=447480704 interval=0 flags=0x8
+12-17 19:33:04.343  1795  1795 D HwPFWLogger: PFW.HwPFWService:mBroadcastReceiver action = android.intent.action.SCREEN_OFF
+12-17 19:33:04.343  1795  2708 D HwPFWLogger: PFW.HwPFWService:handle PFW_MSG_SYSTEM
+12-17 19:33:04.343  1795  2708 D HwPFWLogger: PFW.HwPFWAppRestartPolicy:receive action = android.intent.action.SCREEN_OFF
+12-17 19:33:04.346  1795  1795 D WifiService: onReceive, action:android.intent.action.SCREEN_OFF
+12-17 19:33:04.346  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155651 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:33:04.346  1795  2670 D WifiController: StaEnabledState what=155651
+12-17 19:33:04.346  1795  2670 D WifiController: DefaultState what=155651
+12-17 19:33:04.346  1795  2670 D WifiController: wifiSleepPolicy:1
+12-17 19:33:04.346  1795  2670 D WifiController: set idle timer: 1800000 ms
+12-17 19:33:04.346  1795  2670 I AlarmManager: set(PendingIntent{50e3a01: PendingIntentRecord{a8130a6 android broadcastIntent}}) : type=0 triggerAtTime=1481976184346 win=0 tElapsed=444720710 maxElapsed=444720710 interval=0 flags=0x9
+12-17 19:33:04.348  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:04.348  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:04.353  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:04.353  1795  2736 E hwintelligencewifi:  DefaultState MSG_SCREEN_OFF mIsAutoOpenSearch = false
+12-17 19:33:04.353  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:04.353  1795  2377 I IO.IOStatsService: onReceive:screen off
+12-17 19:33:04.357  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 1 len = 0, 4096
+12-17 19:33:04.357  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:33:04.358  1795  2671 D PowerManagerService: release:lock=244575063, flg=0x0, tag="WifiSuspend", name=android", ws=null, uid=1000, pid=1795
+12-17 19:33:04.359  1795  2671 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:04.359  1795  2671 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:04.359  1795  2377 I IO.IOStatsService: saveIOStatsAndLatestUids,the time interval is too shorter than the last screen off
+12-17 19:33:04.360  2883  2883 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:33:04.360  1795 15988 D PowerManagerService: acquire lock=171238858, flags=0x1, tag="WakerLock:192052083", name=com.tencent.mm, ws=null, uid=10105, pid=4634
+12-17 19:33:04.360  1795 15988 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:04.360  1795 15988 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:04.361  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:04.361  1795  3884 D PowerManagerService: acquire lock=184063844, flags=0x1, tag="NetworkStats", name=android, ws=null, uid=1000, pid=1795
+12-17 19:33:04.361  1795  3884 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:04.361  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:04.364  1795  3884 D NetdConnector: SND -> {11625 bandwidth gettetherstats}
+12-17 19:33:04.365  1795  2665 D NetdConnector: RCV <- {200 11625 Tethering stats list completed}
+12-17 19:33:04.366  4634  4634 I SendBroadcastPermission: action:null, mPermissionType:0
+12-17 19:33:04.366  2883  2883 I HwSystemManager: AntiMalManager:receive Broadcast ACTION_SCREEN_OFF mOnTimeSum:260909299 onTime:553626 isPowerConnected:false
+12-17 19:33:04.366  1795  2665 D NetdConnector: RCV <- {200 11625 Tethering stats list completed}
+12-17 19:33:04.367  2883  2883 I HwSystemManager: AutoCleanReceiveServer:receive action:android.intent.action.SCREEN_OFF
+12-17 19:33:04.369  1795  3884 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:33:04.369  1795  3884 D HwNetworkStatsService: mActiveIface: null
+12-17 19:33:04.369  1795  2778 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{6be12e7 4634:com.tencent.mm:push/u0a105}, intent:null, receiver size:1, flags: 10000400
+12-17 19:33:04.369  2883  2883 I HwSystemManager: AutoCleanReceiveServer:telemamanger state isIdle:true
+12-17 19:33:04.369  2883  2883 I HwSystemManager: AutoCleanReceiveServer:checkToStartCleanService,phone is use state,phone is use,need not start clean service
+12-17 19:33:04.370  1795  2778 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { flg=0x10 cmp=com.tencent.mm/.booter.NotifyReceiver (has extras) } on bgkeyapp queue
+12-17 19:33:04.370  1795  2778 I ActivityManager_broadcast: Enqueueing ordered broadcast[bgkeyapp] BroadcastRecord{ac5933b u0 null}: prev had 0
+12-17 19:33:04.370  1795  1812 I ActivityManager_broadcast: dispatch ordered broadcast [bgkeyapp] BroadcastRecord{ac5933b u0 null}, has 1 receivers
+12-17 19:33:04.370  1795  3884 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+12-17 19:33:04.376  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:04.377  1795  3884 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:33:04.377  1795  3884 D PowerManagerService: release:lock=184063844, flg=0x0, tag="NetworkStats", name=android", ws=null, uid=1000, pid=1795
+12-17 19:33:04.377  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:04.377  1795  3884 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:04.384  1795  3077 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_OFF
+12-17 19:33:04.384  1795  3077 I GnssLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:false
+12-17 19:33:04.384  1795  3077 I GnssLocationProvider: disableGps:false  isEnabled()=true
+12-17 19:33:04.385  2883  3040 I HwSystemManager: TrafficNotifyAfterLocked:mLockStartTraffic = 0;mLockStartTrafficList = {}
+12-17 19:33:04.389  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:04.390  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:04.391  4492  4512 I SendBroadcastPermission: action:com.tencent.mm.ACTION.note_tracemsg_lock, mPermissionType:0
+12-17 19:33:04.391  2852  3361 I vol.VolumeDialogControl: C onScreenOff 
+12-17 19:33:04.392  1795 16500 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ACTION.note_tracemsg_lock flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:33:04.393  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:33:04.393  3168  3168 I CHR_TelStatusListenr0: [Timer rat:0 level:5] suspend
+12-17 19:33:04.393  3168  3168 I CHR_TelStatusListenr0: [Timer serviceState:0 simReady:true] suspend
+12-17 19:33:04.393  3168  3168 I CHR_TelStatusListenr1: [Timer serviceState:1 simReady:false] suspend
+12-17 19:33:04.393  3168  3168 I CHR_TelphonyStatusService: duration: 583393 STATUS_REPORT_TIMESPAN: 86400000 / (1000 * 60 * 60 * 24) day STATUS_REPORT_TIMESPAN_FOR_BETA: 21600000 / (1000 * 60 * 60 * 24) day
+12-17 19:33:04.393  3168  3168 I CHR_ChrUtil: is Beta User, userType = 3
+12-17 19:33:04.394  1795  3238 D PowerManagerService: acquire lock=60676696, flags=0x1, tag="WakerLock:73762469", name=com.tencent.mm, ws=null, uid=10105, pid=4492
+12-17 19:33:04.394  1795  3238 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:04.394  1795 11745 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:04.396  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:33:04.397  2852  3556 I SystemUIIdleHandler: enter addToIdleMessage(type:1001), mainloop is busy, add to idleMessage
+12-17 19:33:04.397  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:33:04.397  2852  3556 I SystemUIIdleHandler: enter addToIdleMessage(type:1001), mainloop is busy, add to idleMessage
+12-17 19:33:04.402  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:33:04.402  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:33:04.403  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:04.404  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:04.406  3218 13114 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:33:04.408  1795  1809 I HwPhoneWindowManager: OverscanTimeout run
+12-17 19:33:04.408  2852  2852 I HwExpandableNotificationRowHelper: unclear notification ,notificationPkgName:com.android.incallui key:0|com.android.incallui|2|null|1001
+12-17 19:33:04.409  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.android.incallui|2|null|1001
+12-17 19:33:04.409  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.android.incallui|2|null|1001, group=0|com.android.incallui|2|null|1001
+12-17 19:33:04.409  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:33:04.409  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:33:04.409  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:33:04.410  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:33:04.411  2852  2852 I StackScroller: generateAddAnimation:null, false

@@ -1,0 +1,100 @@
+12-17 19:31:51.082  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:31:51.082  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:31:51.082  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:31:51.082  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:31:51.083   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:51.083   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:51.083   606  2379 E libteec : send data return = 128
+12-17 19:31:51.083   835  2385 E libteec : receive data len = 128
+12-17 19:31:51.083   835  2385 E libteec : begin
+12-17 19:31:51.083   835  2385 E libteec : qsc_decode end
+12-17 19:31:51.083   835  2385 I fpc_tac : fpc_tac_begin_identify---need_liveness_authentication: 0
+12-17 19:31:51.083   835  2385 E libteec : begin
+12-17 19:31:51.083   606  2379 E libteec : receive data len = 192
+12-17 19:31:51.085  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:31:51.086  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:31:51.087   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:51.087   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:51.087   835  2385 E libteec : receive data len = 192
+12-17 19:31:51.087   835  2385 E libteec : begin
+12-17 19:31:51.087   835  2385 E libteec : qsc_decode end
+12-17 19:31:51.087   835  2385 I fpc_tac : fpc_tac_send_set_arbitrary_data_cmd:ok, response:0
+12-17 19:31:51.087   835  2385 D fingerprintd: onAcquired(2001)
+12-17 19:31:51.087   835  2385 E libteec : begin
+12-17 19:31:51.087  1795  6988 W FingerprintService: onAcquired 1
+12-17 19:31:51.087   606  2379 E libteec : send data return = 192
+12-17 19:31:51.088   606  2379 E libteec : receive data len = 128
+12-17 19:31:51.088  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:31:51.088  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:31:51.100  1795  2371 E LightSensor: read Events lux: 10.0
+12-17 19:31:51.100  1795  1825 D AutomaticBrightnessController: ambient lux=10.0,timeStamp =442847463535000
+12-17 19:31:51.102  1795  1795 I WindowManager: Destroying surface Surface(name=) called by com.android.server.wm.WindowStateAnimator.destroySurface:2056 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:907 com.android.server.wm.WindowState.removeLocked:1527 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2723 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2688 com.android.server.wm.WindowManagerService.removeWindowLocked:2677 com.android.server.wm.WindowManagerService.removeWindowLocked:2546 com.android.server.wm.WindowManagerService.removeWindow:2541 
+12-17 19:31:51.105  1795  1795 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:51.105  1795  1795 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:51.106   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:51.106   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:51.106   606  2379 E libteec : send data return = 128
+12-17 19:31:51.107   835  2385 E libteec : receive data len = 128
+12-17 19:31:51.107   835  2385 E libteec : begin
+12-17 19:31:51.107   835  2385 E libteec : qsc_decode end
+12-17 19:31:51.107   835  2385 I fpc_fingerprint_hal: wait_finger_down: operation cancled
+12-17 19:31:51.107   835  2385 D fpc_fingerprint_hal: wait_finger_down, took 19 ms
+12-17 19:31:51.107   835  2385 E fpc_fingerprint_hal: capture_image failed -4
+12-17 19:31:51.107   835  2385 E libteec : begin
+12-17 19:31:51.107   606  2379 E libteec : receive data len = 128
+12-17 19:31:51.110  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.632428 Y: 6.886817 Z: 3.460777  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:51.111   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:51.111   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:51.111   606  2379 E libteec : send data return = 128
+12-17 19:31:51.111   835  2385 E libteec : receive data len = 128
+12-17 19:31:51.111   835  2385 E libteec : begin
+12-17 19:31:51.111   835  2385 E libteec : qsc_decode end
+12-17 19:31:51.111   835  2385 E fpc_fingerprint_hal: do_identify failed -4
+12-17 19:31:51.111   835  2385 D fingerprintd: onError(5)
+12-17 19:31:51.111   835  2385 I fpc_fingerprint_hal: do_identify operation CANCELED
+12-17 19:31:51.111  1795  3884 W FingerprintService: onError 1
+12-17 19:31:51.111   835  2385 D fpc_fingerprint_hal: do_identify took 21 ms, total:40 wait:19
+12-17 19:31:51.111   835  2385 E libteec : begin
+12-17 19:31:51.111   606  2379 E libteec : receive data len = 128
+12-17 19:31:51.120  1795  1795 I WindowManger_windowChange: oldFocusWindow: Window{c5d22bd u0 android}, currentFocusWindow: Window{e71ca6c u0 com.android.phone}, currentFocusApp: AppWindowToken{844a0b2 token=Token{2fd6a14 ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}}}
+12-17 19:31:51.120   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:51.120   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:51.120   606  2379 E libteec : send data return = 128
+12-17 19:31:51.120   835  2385 E libteec : receive data len = 128
+12-17 19:31:51.120   835  2385 E libteec : begin
+12-17 19:31:51.120   835  2385 E libteec : qsc_decode end
+12-17 19:31:51.121   835  2385 D fpc_fingerprint_hal: worker idle
+12-17 19:31:51.121   835  2385 D fpc_fingerprint_hal: workerFunction STATE_CANCEL
+12-17 19:31:51.121   835  2385 E libteec : begin
+12-17 19:31:51.121   606  2379 E libteec : receive data len = 128
+12-17 19:31:51.121  1795  2326 W FingerprintService: client com.android.systemui is no longer authenticating
+12-17 19:31:51.121  1795  2326 W FingerprintService: onAcquired 2
+12-17 19:31:51.121  1795  2326 W FingerprintService: onError 2
+12-17 19:31:51.121  1795  2326 V FingerprintService: ClientMonitor destroy
+12-17 19:31:51.121  1795  2326 V FingerprintService: Done with client: com.android.systemui
+12-17 19:31:51.121  1795  2326 V FingerprintService: handleError(client=com.android.systemui, error = 5)
+12-17 19:31:51.121  1795  1795 I PowerManager_screenOn: PowerManagerNotifier Sending go to sleep broadcast.
+12-17 19:31:51.121  1795  1795 I SendBroadcastPermission: action:android.intent.action.SCREEN_OFF, mPermissionType:0
+12-17 19:31:51.123  1795 16500 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:51.124  1795  1795 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:31:51.124  1795  1795 I ActivityManager_broadcast: Enqueueing ordered broadcast[foreground] BroadcastRecord{97e05fe u-1 android.intent.action.SCREEN_OFF}: prev had 0
+12-17 19:31:51.124  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [foreground] BroadcastRecord{97e05fe u-1 android.intent.action.SCREEN_OFF}, has 55 receivers
+12-17 19:31:51.129  1795  1795 I TrafficMonitor: update:rxPkts:5,txPkts:6,rxBytes:954,txBytes:427
+12-17 19:31:51.129  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:31:51.129  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:31:51.130   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:51.130   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:51.130   606  2379 E libteec : send data return = 128
+12-17 19:31:51.130   835  2385 E libteec : receive data len = 128
+12-17 19:31:51.130   835  2385 E libteec : begin
+12-17 19:31:51.130   835  2385 E libteec : qsc_decode end
+12-17 19:31:51.130   835  2385 D fpc_fingerprint_hal: workerFunction STATE_NAVIGATION
+12-17 19:31:51.131   835  2385 E libteec : begin
+12-17 19:31:51.131   606  2379 E libteec : receive data len = 128
+12-17 19:31:51.136  1795  2377 I AwareLog: AwareMem_DMEServer: stop
+12-17 19:31:51.141  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:51.141  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_OFF
+12-17 19:31:51.141  1795  2668 D WifiP2pService: InactiveState143467
+12-17 19:31:51.141  1795  2668 E HwWifiP2pService: Unhandled message when=123024313 what=143467 arg1=0 arg2=0
+12-17 19:31:51.141  1795  2668 D WifiP2pService: P2pEnabledState when=123024313 what=143467 arg1=0 arg2=0
+12-17 19:31:51.141  1795  2668 D WifiP2pService: DefaultState{ when=0 what=143467 target=com.android.internal.util.StateMachine$SmHandler }

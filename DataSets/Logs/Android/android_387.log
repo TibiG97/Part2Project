@@ -1,0 +1,100 @@
+12-17 19:40:23.700  1795  3139 I ActivityManager: Start proc 20818:com.huawei.betaclub:loguploadservice/1000 for service com.huawei.betaclub/com.huawei.logupload.LogUploadService
+12-17 19:40:23.703  3180  3578 I ash     : start process:com.huawei.betaclub:loguploadservice reason:service pid:20818 uid:1000 pkgs:null
+12-17 19:40:23.703 20818 20818 I         : power log dlsym ok
+12-17 19:40:23.705  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_ON
+12-17 19:40:23.705  1795  2668 D WifiP2pService: InactiveState143466
+12-17 19:40:23.705  1795  2668 E HwWifiP2pService: Unhandled message when=123162254 what=143466 arg1=0 arg2=0
+12-17 19:40:23.706  1795  2668 D WifiP2pService: P2pEnabledState when=123162254 what=143466 arg1=0 arg2=0
+12-17 19:40:23.706  1795  2668 D WifiP2pService: DefaultState{ when=-1ms what=143466 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:40:23.706  1795  2668 D HwWifiP2pService: cancel alarm.
+12-17 19:40:23.709 32607 20815 D BetaClub: [StartupguideUtils.isBeta]is beta=false
+12-17 19:40:23.712  1795  2671 D WifiStateMachine:  ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123162261/443360075 1 0
+12-17 19:40:23.712  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123162261/443360075 1 0
+12-17 19:40:23.712  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SCREEN_STATE_CHANGED  rt=123162261/443360075 1 0
+12-17 19:40:23.712  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SCREEN_STATE_CHANGED  rt=123162261/443360075 1 0
+12-17 19:40:23.712  1795  2671 D WifiStateMachine:  SupplicantStartedState CMD_SCREEN_STATE_CHANGED  rt=123162261/443360075 1 0
+12-17 19:40:23.712  1795  2671 D WifiStateMachine:  DefaultState CMD_SCREEN_STATE_CHANGED  rt=123162261/443360075 1 0
+12-17 19:40:23.712 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Path:/storage/emulated/0
+12-17 19:40:23.712  1795  2671 D WifiStateMachine: handleScreenStateChanged: allow send scan results broadcast.
+12-17 19:40:23.713  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:40:23.714  1795  2671 W AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConnectivityManager$3@bdcaf7b
+12-17 19:40:23.714  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:40:23.714  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 2, mHwSingleScanCounter: 0
+12-17 19:40:23.715 32607 32607 I BetaClub: [RouteService.onDestroy]
+12-17 19:40:23.715  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 0, mHwSingleScanCounter: 1
+12-17 19:40:23.715  1795  2671 E WifiConnectivityManager: isWifiScanSpecialChannels is false,mWifiState : 1
+12-17 19:40:23.716  1795  2671 I AlarmManager: set(null) : type=2 triggerAtTime=443380079 win=0 tElapsed=443380079 maxElapsed=443380079 interval=0 flags=0x9
+12-17 19:40:23.717  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:40:23.717  1795  2680 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SCAN TYPE=ONLY'
+12-17 19:40:23.717  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:40:23.717  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: false action: android.intent.action.SCREEN_ON mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:40:23.717  1795  1795 D HwConnectivityService: CtrlSocket receive screen on intent!
+12-17 19:40:23.717  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 519 BSSID 80:38:bc:0a:fa:e1 SSID 'Huawei-Employee' due to wpa_bss_flush_by_age
+12-17 19:40:23.717  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus
+12-17 19:40:23.717  1795  1795 D HwConnectivityService: pid=1000, cmd=100, param=0
+12-17 19:40:23.717  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=44
+12-17 19:40:23.717  1795  1795 D HwConnectivityService: mFilterMsgFlag: 0,msg.arg1: 3
+12-17 19:40:23.717  1795  2691 D HwConnectivityService: handleFilterMsg action: 3mFilterMsgFlag3
+12-17 19:40:23.717  1795  2691 D HwConnectivityService: [tiger]setBastetFilterInfo action 3pid 1000
+12-17 19:40:23.717  1795  2691 D HwConnectivityService: stopFilter m_filterIsStarted:false
+12-17 19:40:23.717  1795  1795 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 1000 cmd = 100 param = 0 ret = 0
+12-17 19:40:23.717  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus reset
+12-17 19:40:23.717  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.717  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 520 BSSID 80:38:bc:0b:37:21 SSID 'Huawei-Employee' due to wpa_bss_flush_by_age
+12-17 19:40:23.717  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=44
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.718  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 521 BSSID 80:38:bc:0a:f9:81 SSID 'Huawei-Employee' due to wpa_bss_flush_by_age
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=768 send_len=44
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.718  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 495 BSSID 80:38:bc:08:42:e1 SSID 'Huawei-Employee' due to wpa_bss_flush_by_age
+12-17 19:40:23.718  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=44
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 488 BSSID 80:38:bc:0b:29:60 SSID 'wlanaccessv2.0' due to wpa_bss_flush_by_age
+12-17 19:40:23.718  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=44
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.718  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 522 BSSID 80:38:bc:0a:f1:40 SSID 'wlanaccessv2.0' due to wpa_bss_flush_by_age
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=44
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.718  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 528 BSSID 80:38:bc:0a:f2:00 SSID 'wlanaccessv2.0' due to wpa_bss_flush_by_age
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=44
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.718  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 523 BSSID 80:38:bc:0a:f0:60 SSID 'wlanaccessv2.0' due to wpa_bss_flush_by_age
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=44
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 496 BSSID 80:38:bc:0a:f9:21 SSID 'Huawei-Employee' due to wpa_bss_flush_by_age
+12-17 19:40:23.718  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=44
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 524 BSSID 80:38:bc:0a:f9:40 SSID 'wlanaccessv2.0' due to wpa_bss_flush_by_age
+12-17 19:40:23.718  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=44
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 498 BSSID 80:38:bc:0b:36:a1 SSID 'Huawei-Employee' due to wpa_bss_flush_by_age
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=768 send_len=44
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 525 BSSID 80:38:bc:0a:f1:a1 SSID 'Huawei-Employee' due to wpa_bss_flush_by_age
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=768 send_len=44
+12-17 19:40:23.718  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 489 BSSID 80:38:bc:0b:04:40 SSID 'wlanaccessv2.0' due to wpa_bss_flush_by_age
+12-17 19:40:23.718  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=44
+12-17 19:40:23.718  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.718  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 423 BSSID 00:26:f2:1b:9d:b2 SSID 'NTPC02' due to wpa_bss_flush_by_age
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=44
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.718  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:23.718  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 526 BSSID 80:38:bc:08:39:c0 SSID 'wlanaccessv2.0' due to wpa_bss_flush_by_age
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=44
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:23.719  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 527 BSSID 80:38:bc:0a:f0:c0 SSID 'wlanaccessv2.0' due to wpa_bss_flush_by_age
+12-17 19:40:23.719  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0

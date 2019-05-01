@@ -1,0 +1,100 @@
+12-17 19:42:44.520  3168  3307 I CHR_TelStatusListenr0: stepAtomic
+12-17 19:42:44.520  3168  3369 I CHR_ChrLogService: msg = 2 received
+12-17 19:42:44.520  3168  3370 I CHR_LogDatabase: msg = 1 received
+12-17 19:42:44.520  3168  3370 I CHR_ChrUtil: is Beta User, userType = 3
+12-17 19:42:44.520  3168  3370 I CHR_ChrUtil: is Beta User, userType = 3
+12-17 19:42:44.520  3168  3307 I CHR_ProtocolLogManager: write chr success
+12-17 19:42:44.520  3168  3369 I CHR_ChrLogService: msg = 4 received
+12-17 19:42:44.520  3168  3370 I CHR_LogDatabase: msg = 2 received
+12-17 19:42:44.521  3168  3370 I CHR_LogDatabase: msg = 5 received
+12-17 19:42:44.521  3168  3370 I CHR_ChrUtil: is Beta User, userType = 3
+12-17 19:42:44.521  3168  3370 I CHR_ChrUtil: is Beta User, userType = 3
+12-17 19:42:44.521  3466  3466 I Contacts: DialpadFragment SIM 1 enable:true, SIM 2 enable:false
+12-17 19:42:44.521  3466  3466 I Contacts: DialpadFragment Sim presence : 1
+12-17 19:42:44.526  3466  3466 I Contacts: DialpadFragment sim_one is presence -> updateSingleCardButton
+12-17 19:42:44.526  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:42:44.530  1795  3139 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.531  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:42:44.531  3626  3753 I UserSpecification: handleOverSize()
+12-17 19:42:44.536  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000012000000514f454d484f4f4b1d04080002000000ffff]
+12-17 19:42:44.536  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 28 bytes data for SUB0
+12-17 19:42:44.536  3382  3399 D QcrilMsgTunnelSocket: Rac Change (PDC) data: [-1, -1]
+12-17 19:42:44.536  3382  3399 D QcrilMsgTunnelSocket: Broadcasting intent ACTION_RAC_CHANGED
+12-17 19:42:44.536  3382  3399 I SendBroadcastPermission: action:qualcomm.intent.action.ACTION_RAC_CHANGED, mPermissionType:0
+12-17 19:42:44.538  3626  3753 I SizeStateMachine: Sdcard free size is 16288952320 B. InitialState is 0
+12-17 19:42:44.538  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:42:44.539  1795  3111 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:44.540  1795  3111 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.540  3218  3375 I SendBroadcastPermission: action:com.huawei.android.intent.action.RAC_CHANGED, mPermissionType:0
+12-17 19:42:44.541  1795 17832 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:44.542  1795 17832 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.546  3218  3218 I QImsService: ImsServiceStateReceiver : isShowHDIconSupported config showHDIcon : true
+12-17 19:42:44.546  3218  3218 D ImsViceParser: getCallPullInfo mDialogIds null
+12-17 19:42:44.547  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000012000000514f454d484f4f4b1d04080002000000ffff]
+12-17 19:42:44.547  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 28 bytes data for SUB0
+12-17 19:42:44.547  3382  3399 D QcrilMsgTunnelSocket: Rac Change (PDC) data: [-1, -1]
+12-17 19:42:44.547  3382  3399 D QcrilMsgTunnelSocket: Broadcasting intent ACTION_RAC_CHANGED
+12-17 19:42:44.547  3382  3399 I SendBroadcastPermission: action:qualcomm.intent.action.ACTION_RAC_CHANGED, mPermissionType:0
+12-17 19:42:44.547  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:42:44.547  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:42:44.548  1795  3139 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:42:44.548  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 26 -86 -6 270 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:42:44.548  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 26 -86 -6 270 2147483647 2147483647 false gw|lte
+12-17 19:42:44.548  3858  4126 I amsnl   : csr
+12-17 19:42:44.548  1795 16232 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:44.549  1795 16232 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.549  3218  3375 I SendBroadcastPermission: action:com.huawei.android.intent.action.RAC_CHANGED, mPermissionType:0
+12-17 19:42:44.549  3218  3218 D HwCust  : Create obj success use class com.android.settings.deviceinfo.HwCustStatusImpl
+12-17 19:42:44.549  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:42:44.551  1795  1806 D wifiserviceimpl: netmask =16580607
+12-17 19:42:44.551  3858  4126 I amsnl   : m1: false
+12-17 19:42:44.551  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+12-17 19:42:44.552  1795 11746 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:42:44.553  3218  3218 W CfgFilePolicy: No config file found for:xml/VirtualNet_cust.xml
+12-17 19:42:44.553  3218  3218 W CfgFilePolicy: CFG_DIRS length : 9
+12-17 19:42:44.555  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:42:44.555  3858  4126 I amsnl   : c: true, w: false, t: false, l: false
+12-17 19:42:44.557  3626  3753 I SizeStateMachine: handleMaxSizeState: logServiceSize = 71138986
+12-17 19:42:44.557  3626  3753 I SizeStateMachine: handleOverMaxSizeState: maxTotalSize = 2147483648
+12-17 19:42:44.561  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:42:44.569  1795 20747 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.570  1795 16500 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.570  1795 16498 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.571  1795  3110 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.585  1795  3247 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.588  3626  3754 I LogDatabase: msg = 21 received
+12-17 19:42:44.595  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:42:44.604  3626  3754 I SentLogNumThreshold:  getMaxNumInDoneByEventId eventId = 1
+12-17 19:42:44.604  3626  3754 I LogDatabase:  radio restrainFileNum = 128
+12-17 19:42:44.604  3626  3754 I LogDatabase:  radio srcPath = /storage/emulated/0/log/LogService/1/done
+12-17 19:42:44.604  3626  3754 I LogDatabase: clearLog2 , eventidHead = 1eventidTail = 1
+12-17 19:42:44.604  3626  3754 I LogDatabase: clearLog2 , restrainFileNum = 128
+12-17 19:42:44.604  3626  3754 I FileUtils: restrainFilesNum, count = 128
+12-17 19:42:44.629   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:42:44.630   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:42:44.634   802   802 E Thermal-daemon: [ap] temp_new :28  temp_old :27
+12-17 19:42:44.634   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:42:44.634   802   802 E Thermal-daemon: Report temperature: [ap] temp :28  report_threshold:1
+12-17 19:42:44.749  1795  3249 D PowerManagerService: release:lock=15081967, flg=0x0, tag="RILJ_ACK_WL", name=com.android.phone", ws=null, uid=1001, pid=3218
+12-17 19:42:44.750  1795  3249 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.750  1795  3249 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:42:44.851   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:42:44.853  1795  2665 D NetdConnector: RCV <- {601 limit alert globalAlert wlan0}
+12-17 19:42:44.855  1795  2665 D NetdConnector: RCV <- {601 limit alert globalAlert wlan0}
+12-17 19:42:44.858  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 601 limit alert globalAlert wlan0
+12-17 19:42:44.860  1795  2666 D PowerManagerService: acquire lock=184063844, flags=0x1, tag="NetworkStats", name=android, ws=null, uid=1000, pid=1795
+12-17 19:42:44.860  1795  2666 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.860  3782  3807 I QtiTetherService: limitReached Alert received limitName: globalAlert on Interface: wlan0
+12-17 19:42:44.860  1795  2666 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:42:44.870  1795  2666 D NetdConnector: SND -> {11648 bandwidth gettetherstats}
+12-17 19:42:44.873  1795  2665 D NetdConnector: RCV <- {200 11648 Tethering stats list completed}
+12-17 19:42:44.875  1795  2665 D NetdConnector: RCV <- {200 11648 Tethering stats list completed}
+12-17 19:42:44.881  1795  2666 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:42:44.881  1795  2666 D HwNetworkStatsService: mActiveIface: null
+12-17 19:42:44.902  1795  2666 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+12-17 19:42:44.903  1795  2666 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:42:44.903  1795  2666 D PowerManagerService: release:lock=184063844, flg=0x0, tag="NetworkStats", name=android", ws=null, uid=1000, pid=1795
+12-17 19:42:44.904  1795  2666 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.904  1795  2666 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:42:44.905  1795  2666 D NetdConnector: SND -> {11649 bandwidth setglobalalert 2097152}
+12-17 19:42:44.910  1795  2665 D NetdConnector: RCV <- {200 11649 Bandwidth command succeeeded}

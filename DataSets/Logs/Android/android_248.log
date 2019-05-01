@@ -1,0 +1,100 @@
+12-17 19:33:14.234  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:14.236  1795  1795 I PowerManager_screenOn: PowerManagerNotifier Sending go to sleep broadcast.
+12-17 19:33:14.236  1795  1795 I SendBroadcastPermission: action:android.intent.action.SCREEN_OFF, mPermissionType:0
+12-17 19:33:14.239  2852  2852 I HwExpandableNotificationRowHelper: unclear notification ,notificationPkgName:com.android.incallui key:0|com.android.incallui|2|null|1001
+12-17 19:33:14.240  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.android.incallui|2|null|1001
+12-17 19:33:14.240  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.android.incallui|2|null|1001, group=0|com.android.incallui|2|null|1001
+12-17 19:33:14.240  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:33:14.240  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:33:14.240  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:33:14.241  1795 11747 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:14.243  1795  1795 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:33:14.243  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:33:14.243  1795  1795 I ActivityManager_broadcast: Enqueueing ordered broadcast[foreground] BroadcastRecord{a464e1 u-1 android.intent.action.SCREEN_OFF}: prev had 0
+12-17 19:33:14.243  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [foreground] BroadcastRecord{a464e1 u-1 android.intent.action.SCREEN_OFF}, has 55 receivers
+12-17 19:33:14.245  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:33:14.246  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:14.246  1795  1805 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:14.247  1795  3225 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:14.247  2852  2852 D ReporterUtil:  e id:344 type:{pkg:com.android.incallui}
+12-17 19:33:14.247  1795  2377 I AwareLog: AwareMem_DMEServer: stop
+12-17 19:33:14.249  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:33:14.249  2852  2852 I BackgrounCallingLayout: mCallingStatusReceiver:onReceive::action=InCallScreenIsForegroundActivity, isForegroundActivity=false, mPhoneState=2
+12-17 19:33:14.251  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:33:14.251  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_OFF
+12-17 19:33:14.252  1795  2668 D WifiP2pService: InactiveState143467
+12-17 19:33:14.252  1795  2668 E HwWifiP2pService: Unhandled message when=123077938 what=143467 arg1=0 arg2=0
+12-17 19:33:14.252  1795  2668 D WifiP2pService: P2pEnabledState when=123077938 what=143467 arg1=0 arg2=0
+12-17 19:33:14.252  1795  2668 D WifiP2pService: DefaultState{ when=0 what=143467 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:33:14.252  1795  2668 D HwWifiP2pService: SleepPolicy:1
+12-17 19:33:14.252  2852  2852 I BackgrounCallingLayout: updateCallLayout:isBackground=false, isInteractive=false
+12-17 19:33:14.253  2852  2852 W HwPhoneStatusBar: mNotifyStateChangedReceiver do nothing
+12-17 19:33:14.253  2852  2852 I HwPhoneStatusBar: mNotifyStateChangedReceiver::onReceive:action=InCallScreenIsForegroundActivity, mBackgroundState=false
+12-17 19:33:14.253  2852  2852 D KeyguardViewMediator: handleNotifyFinishedGoingToSleep
+12-17 19:33:14.253  2852  2852 I PhoneStatusBar: onFinishedGoingToSleep
+12-17 19:33:14.254  2852  2852 V KeyguardStatusView: Disable transport text marquee
+12-17 19:33:14.254  2852  2852 V KeyguardUpdateMonitor: FingerStat Visible: false; Interactive: false; Switching: false; Bouncer:false; GoingToSleep: false Occluded: false; dreaming: false; Authenticated: false
+12-17 19:33:14.255  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:33:14.255  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:33:14.256  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:33:14.256  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:33:14.256  1795  3121 I Security_fingerprint: FingerprintService getEnrolledFingerprints
+12-17 19:33:14.257  2852  2852 V KeyguardUpdateMonitor: KGSvcFp startListeningForFingerprint()
+12-17 19:33:14.257  2852  2852 I KeyguardUpdateMonitor: authenticate by 0 mode!
+12-17 19:33:14.258  1795 11745 I Security_fingerprint: FingerprintService authenticate
+12-17 19:33:14.258  1795  2326 W HwFingerprintService: setLivenessSwitch:start
+12-17 19:33:14.258  1795  2326 W HwFingerprintService: checkNeedLivenessList:start
+12-17 19:33:14.258  2852  2852 W KeyguardUpdateMonitor: Fingerprint RunningStateChanged. 1
+12-17 19:33:14.258  1795  2326 W HwFingerprintService: NEED_LIVENESS_AUTHENTICATION = 0
+12-17 19:33:14.258  2852  2852 W HwLockScreenPanel: Handle message: 15
+12-17 19:33:14.259  2852  2852 W CameraLayout: Cameralayout setVisibility. true false  2
+12-17 19:33:14.259  2852  2852 D MagazineDetailView: resetPagerState
+12-17 19:33:14.260  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SCREEN_STATE_CHANGED  rt=123077946/442930624 0 0
+12-17 19:33:14.261  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SCREEN_STATE_CHANGED  rt=123077947/442930624 0 0
+12-17 19:33:14.261  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SCREEN_STATE_CHANGED  rt=123077947/442930624 0 0
+12-17 19:33:14.261  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SCREEN_STATE_CHANGED  rt=123077947/442930624 0 0
+12-17 19:33:14.261  1795  2671 D WifiStateMachine:  SupplicantStartedState !CMD_SCREEN_STATE_CHANGED  rt=123077947/442930624 0 0
+12-17 19:33:14.261  1795  2671 D WifiStateMachine:  DefaultState !CMD_SCREEN_STATE_CHANGED  rt=123077947/442930624 0 0
+12-17 19:33:14.261  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:33:14.261  1795  2671 D PowerManagerService: acquire lock=244575063, flags=0x1, tag="WifiSuspend", name=android, ws=null, uid=1000, pid=1795
+12-17 19:33:14.261  1795  2671 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:14.261  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:33:14.261  1795  2671 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:14.261   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:1002
+12-17 19:33:14.261   835   835 I fingerprintd: fingerprintd
+12-17 19:33:14.261   835   835 I fingerprintd: FingerprintDaemonProxyEx::setLivenessSwitch
+12-17 19:33:14.261   835   835 I fingerprintd: fingerprintdex--dev->need_liveness_authentication = false;
+12-17 19:33:14.261  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_OFF mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:33:14.261  1795  1795 D HwConnectivityService: receive screen off intent!
+12-17 19:33:14.261  1795  1795 D HwConnectivityService: wifi tethering: false
+12-17 19:33:14.261  1795  1795 D HwConnectivityService: Usb tethering: false
+12-17 19:33:14.261  1795  1795 D HwConnectivityService: bt tethering: false
+12-17 19:33:14.261  1795  2326 W HwFingerprintService: framework setLivenessSwitch is ok ---end
+12-17 19:33:14.261  1795  1795 D HwConnectivityService: pluggedStatus: 0
+12-17 19:33:14.261  1795  1795 D HwConnectivityService: is charging: false
+12-17 19:33:14.262   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:7
+12-17 19:33:14.262   835   835 D fpc_fingerprint_hal: fpc_get_authenticator_id
+12-17 19:33:14.262   835  2385 D fpc_fingerprint_hal: fpc poll irq interupt
+12-17 19:33:14.262   835  2385 D fpc_fingerprint_hal: wait_finger_down, took 824 ms
+12-17 19:33:14.262   835  2385 E libteec : begin
+12-17 19:33:14.262   606  2379 E libteec : receive data len = 128
+12-17 19:33:14.263  1795  2671 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:33:14.264  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:14.265  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:33:14.265  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:14.265  1795  2671 D WifiStateMachine:  ConnectedState CMD_ENABLE_RSSI_POLL  rt=123077951/442930629 0 0
+12-17 19:33:14.265  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_ENABLE_RSSI_POLL  rt=123077951/442930629 0 0
+12-17 19:33:14.265  1795  2671 D WifiStateMachine:  ConnectedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123077951/442930629 1 0
+12-17 19:33:14.265  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123077951/442930629 1 0
+12-17 19:33:14.265  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SET_SUSPEND_OPT_ENABLED  rt=123077951/442930629 1 0
+12-17 19:33:14.265  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123077952/442930629 1 0
+12-17 19:33:14.266  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 1'
+12-17 19:33:14.266  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 1'
+12-17 19:33:14.271   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:14.271   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:14.271   606  2379 E libteec : send data return = 128
+12-17 19:33:14.271   835  2385 E libteec : receive data len = 128
+12-17 19:33:14.271   835  2385 E libteec : begin
+12-17 19:33:14.271   835  2385 E libteec : qsc_decode end
+12-17 19:33:14.271   835  2385 D fpc_fingerprint_hal: worker idle
+12-17 19:33:14.272  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0

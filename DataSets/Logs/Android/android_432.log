@@ -1,0 +1,100 @@
+12-17 19:42:44.912  1795  2665 D NetdConnector: RCV <- {200 11649 Bandwidth command succeeeded}
+12-17 19:42:44.921  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000011000000514f454d484f4f4bfa0308000100000000]
+12-17 19:42:44.921  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 28 bytes data for SUB0
+12-17 19:42:44.921  3382  3399 D QcrilMsgTunnelSocket: Response ID 525306 is not served in this process.
+12-17 19:42:44.921  3382  3399 D QcrilMsgTunnelSocket: To broadcast an Intent via the notifier to external apps
+12-17 19:42:44.922  3382  3382 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+12-17 19:42:44.922  3382  3382 I SendBroadcastPermission: action:com.qualcomm.intent.action.ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW, mPermissionType:0
+12-17 19:42:44.922  1795 16501 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:44.922  1795 16501 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.923  1795 16501 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:42:44.924  1795  3121 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{4ff57fc 3382:com.qualcomm.qcrilmsgtunnel/1001}
+12-17 19:42:44.926  3218  3218 D QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+12-17 19:42:44.926  3218  3218 D QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+12-17 19:42:44.934  1795  3253 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:44.934  1795  3253 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.938  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:42:44.938  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:42:44.939  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 22 -86 -8 300 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:42:44.939  3858  4126 I amsnl   : csr
+12-17 19:42:44.939  1795  3139 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:42:44.939  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 22 -86 -8 300 2147483647 2147483647 false gw|lte
+12-17 19:42:44.939  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:42:44.942  1795 16498 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.942  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:42:44.943  1795 16499 D wifiserviceimpl: netmask =16580607
+12-17 19:42:44.944  1795  3237 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.944  3858  4126 I amsnl   : m1: false
+12-17 19:42:44.945  1795  6985 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.946  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+12-17 19:42:44.946  1795  1805 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.947  1795 11746 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:42:44.948  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:42:44.949  3858  4126 I amsnl   : c: true, w: false, t: false, l: false
+12-17 19:42:44.952  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000012000000514f454d484f4f4b1d04080002000000ffff]
+12-17 19:42:44.952  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 28 bytes data for SUB0
+12-17 19:42:44.952  3382  3399 D QcrilMsgTunnelSocket: Rac Change (PDC) data: [-1, -1]
+12-17 19:42:44.952  3382  3399 D QcrilMsgTunnelSocket: Broadcasting intent ACTION_RAC_CHANGED
+12-17 19:42:44.952  3382  3399 I SendBroadcastPermission: action:qualcomm.intent.action.ACTION_RAC_CHANGED, mPermissionType:0
+12-17 19:42:44.953  1795 16232 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:44.953  1795 16232 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.954  3218  3375 I SendBroadcastPermission: action:com.huawei.android.intent.action.RAC_CHANGED, mPermissionType:0
+12-17 19:42:44.955   817  1099 D QC-time-services: Lib:time_genoff_operation: pargs->base = 12
+12-17 19:42:44.955   817  1099 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 0
+12-17 19:42:44.955   817  1099 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 1481974963000
+12-17 19:42:44.956   817  1099 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+12-17 19:42:44.956   828   898 D QC-time-services: Daemon: Connection accepted:time_genoff
+12-17 19:42:44.956   828 20942 D QC-time-services: Daemon:Received base = 12, unit = 1, operation = 0,value = 1481974963000
+12-17 19:42:44.956   828 20942 D QC-time-services: Daemon:genoff_opr: Base = 12, val = 1481974963000, operation = 0
+12-17 19:42:44.956   828 20942 D QC-time-services: Daemon:Value read from QTimer mseconds = 443502001
+12-17 19:42:44.956   828 20942 D QC-time-services: Daemon:Value read from RTC mseconds on boot = 3362371000
+12-17 19:42:44.956   828 20942 D QC-time-services: Daemon:Delta read on boot mseconds = 3362348612
+12-17 19:42:44.956   828 20942 D QC-time-services: Daemon:new time 1481974963000 
+12-17 19:42:44.957   828 20942 D QC-time-services: Daemon: delta 1478169112387 genoff 1478169112387 
+12-17 19:42:44.957   828 20942 D QC-time-services: Daemon:genoff_persistent_update: Writing genoff = 1478169112387 to memory
+12-17 19:42:44.957   828 20942 D QC-time-services: Daemon:Opening File: /data/time/ats_12
+12-17 19:42:44.957   828 20942 D QC-time-services: Daemon:time_persistent_memory_opr:Genoff write operation 
+12-17 19:42:44.960  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:42:44.960  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:42:44.960   817  1099 E QC-time-services: Receive Passed == base = 12, unit = 1, operation = 0, result = 0
+12-17 19:42:44.960   828   898 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+12-17 19:42:44.960   817  1099 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+12-17 19:42:44.960   817  1099 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 0
+12-17 19:42:44.960   817  1099 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 1481974963000
+12-17 19:42:44.961   817  1099 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+12-17 19:42:44.961   828   898 D QC-time-services: Daemon: Connection accepted:time_genoff
+12-17 19:42:44.961   828 20946 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 0,value = 1481974963000
+12-17 19:42:44.962   828 20946 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 1481974963000, operation = 0
+12-17 19:42:44.962   828 20946 D QC-time-services: Daemon:Value read from QTimer mseconds = 443502006
+12-17 19:42:44.962   828 20946 D QC-time-services: Daemon:Value read from RTC mseconds on boot = 3362371000
+12-17 19:42:44.962   828 20946 D QC-time-services: Daemon:Delta read on boot mseconds = 3362348612
+12-17 19:42:44.962   828 20946 D QC-time-services: Daemon:new time 1481974963000 
+12-17 19:42:44.962   828 20946 D QC-time-services: Daemon: delta 1478169112382 genoff 1478169112382 
+12-17 19:42:44.962   828 20946 D QC-time-services: Daemon:genoff_persistent_update: Writing genoff = 1478169112382 to memory
+12-17 19:42:44.962   828 20946 D QC-time-services: Daemon:Opening File: /data/time/ats_13
+12-17 19:42:44.962   828 20946 D QC-time-services: Daemon:time_persistent_memory_opr:Genoff write operation 
+12-17 19:42:44.966   817  1099 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 0, result = 0
+12-17 19:42:44.968  1795  3110 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:44.968  3218  3517 I QImsService: ImsSenderRxr : Response data: [12, 13, -1, -1, -1, -1, 16, 3, 24, -52, 1, 32, 0, 8, 2, 21, 0, 0, 0, 0, 32, 14][SUB0]
+12-17 19:42:44.968  3218  3517 I QImsService: ImsSenderRxr :  Tag -1 3 204 0[SUB0]
+12-17 19:42:44.968  3218  3517 I QImsService: ImsSenderRxr :  responseImsRegistration[SUB0]
+12-17 19:42:44.968  1795  3110 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.968  3218  3517 I QImsService: ImsSenderRxr : Ims registrationorg.codeaurora.ims.ImsQmiIF$Registration@ace18eb[SUB0]
+12-17 19:42:44.968  3218  3517 I QImsService: ImsSenderRxr : [UNSL]< UNSOL_RESPONSE_IMS_NETWORK_STATE_CHANGED[SUB0]
+12-17 19:42:44.969  3218  3218 I QImsService: ImsServiceSubHandler : Message received: what = 2
+12-17 19:42:44.969  3218  3218 I QImsService: ImsServiceSubHandler : handleImsStateChanged
+12-17 19:42:44.969  3218  3218 I QImsService: ImsServiceSubHandler : Notify IMS state is UNREGISTERED
+12-17 19:42:44.969  3218  3218 I SendBroadcastPermission: action:huawei.intent.action.IMS_SERVICE_STATE_CHANGED, mPermissionType:0
+12-17 19:42:44.970  1795  2778 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{24cdca7 3218:com.android.phone/1001}, intent:huawei.intent.action.IMS_SERVICE_STATE_CHANGED, receiver size:1, flags: 10000400
+12-17 19:42:44.971  1795  2778 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{24cdca7 3218:com.android.phone/1001}
+12-17 19:42:44.971  1795  2778 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{24cdca7 3218:com.android.phone/1001}
+12-17 19:42:44.973  1795  2778 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{9e7c785 u0 huawei.intent.action.IMS_SERVICE_STATE_CHANGED}: prev had 0
+12-17 19:42:44.973   828   898 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+12-17 19:42:44.975  3218  3236 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:42:44.976  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{9e7c785 u0 huawei.intent.action.IMS_SERVICE_STATE_CHANGED}, has 1 receivers
+12-17 19:42:44.976  2852  2852 D HwPhoneStatusBarPolicy: state is UNREGISTERED
+12-17 19:42:44.976  2852  2852 I HwPhoneStatusBarPolicy: updateVolte::volteState=UNREGISTERED
+12-17 19:42:44.976  2852  2852 I HwStatusBarIconController: applyIconTint
+12-17 19:42:44.976  2852  2852 I HwStatusBarIconController: applyIconTint ignore
+12-17 19:42:44.979  3218  3218 D HwQcomVolteChrService: getDefaultPhone phone = Handler (com.android.internal.telephony.GsmCdmaPhone) {6d6dfc5}
+12-17 19:42:44.980  3218  3218 I SendBroadcastPermission: action:com.android.imscontection.DISCONNECTED, mPermissionType:0

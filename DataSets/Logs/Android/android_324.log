@@ -1,0 +1,100 @@
+12-17 19:35:11.379  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2012 fromUser:false
+12-17 19:35:11.379  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2012 fromUser:false
+12-17 19:35:11.389  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.390  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:35:11.391  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=1, mTXbad=0, mRXGood=1] rssi=-38
+12-17 19:35:11.392  1795  2728 E HwCHRWebMonitor: running processName=com.tencent.mm
+12-17 19:35:11.392  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:35:11.393  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 0, tx = 0
+12-17 19:35:11.393  1795  2728 D HwArpVerifier: getDNSFailedCntDiff  dnsNewFailCnt =  1001, aws.getOldDnsFailedCnt() = 0, dnsDiff = 1001
+12-17 19:35:11.393  1795  2728 D HwArpVerifier: mAccessWebStatus : getNetDisableCnt = 1, rx = 0, tx = 0
+12-17 19:35:11.393  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:35:11.393  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:35:11.405  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.407  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:35:11.408  1795  2728 E HwCHRWifiFile: getFileResult throw exceptionjava.io.FileNotFoundException: /sys/kernel/debug/bcmdhd/debug_wl_counters (No such file or directory)
+12-17 19:35:11.409  1795  2728 E HwCHRWifiLinkMonitor: HwCHRWifiBcmIncrCounterLst [txbyte=0  txframe=0  txnoassoc=0  txphyerror=0  txctl=0  txfail=0  txphyerr=0  txfrmsnt=0  txnoack=0  txfrag=0  txnocts=0  txrts=0  txnobuf=0  txallfrm=0  txerror=0  txretrans=0  rxbyte=0  rxframe=0  rxbadfcs=0  rxbadplcp=0  rxmulti=0  rxfrag=0  rxctl=0  rxbadcm=0  rxnobuf=0  rxcrsglitch=0  rxbadds=0  rxnondata=0  rxmulti=0  reset=0  rxdfrmocast=0  rxmfrmocast=0  rxdfrmucastmbss=0  rxmfrmucastmbss=0  rxbeaconmbss=0  rxdfmucastobss=0  rxbeaconobss=0  rxstrt=0  rxcfrmocast=0  rxcfrmucast=0  rxdfrmmcast=0  rxmfrmmcast=0  rxcfrmmcast=0  ]
+12-17 19:35:11.422  1795  2750 I HwLightsService: back light level before map = 717
+12-17 19:35:11.422  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.439  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.441  1795  2748 D lux trace:: [21.0/123102292, 13.0/123102645, 10.0/123103022, 9.0/123103379, 6.0/123103755, 4.0/123104130, 3.0/123104506, 2.0/123105609, 3.0/123108843]
+12-17 19:35:11.456  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.458  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:11.458   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:35:11.458  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:11.461   633   692 I eSpaceService: Watch Thread{4481} LoginC.doWatch(LoginC.java:1459) Login_By_Step-> watch count =  0
+12-17 19:35:11.462  2852  2852 I HwBrightnessUtils: APS brightness=17.0,ConvertToPercentage=0.19306579
+12-17 19:35:11.462  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:17 percentage:0.19306579
+12-17 19:35:11.462  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1931
+12-17 19:35:11.462  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1931
+12-17 19:35:11.463  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1931 fromUser:false
+12-17 19:35:11.463  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1931 fromUser:false
+12-17 19:35:11.472  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.489  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.505  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.522  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.539  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.541  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:11.542  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:11.545  2852  2852 I HwBrightnessUtils: APS brightness=16.0,ConvertToPercentage=0.1846686
+12-17 19:35:11.545  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:16 percentage:0.1846686
+12-17 19:35:11.545  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1847
+12-17 19:35:11.545  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1847
+12-17 19:35:11.546  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1847 fromUser:false
+12-17 19:35:11.546  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1847 fromUser:false
+12-17 19:35:11.555  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.564  1795  3139 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:11.564  1795  3139 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:11.570  1795  1805 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:11.570  1795  1805 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:11.571  1795  2750 I HwLightsService: back light level before map = 645
+12-17 19:35:11.571  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.572  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+12-17 19:35:11.572  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:35:11.574  3858  4126 I amsnl   : csr
+12-17 19:35:11.574  1795  3249 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:35:11.574  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:35:11.577  1795  3111 D wifiserviceimpl: netmask =16580607
+12-17 19:35:11.578  3858  4126 I amsnl   : m1: false
+12-17 19:35:11.580  1795 16499 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:11.581  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:35:11.581  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:35:11.585  1795  3253 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:11.585  1795  3253 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:11.587  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.588  1795 20747 D Sensors : batch called handle:3 sample_ns:300000000 latency_ns:0
+12-17 19:35:11.588  1795 20747 D Sensors : bh1745-light calling driver setDelay 300 ms
+12-17 19:35:11.589  1795  3121 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:11.589  1795  3121 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:11.591  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+12-17 19:35:11.591  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:35:11.591  3858  4126 I amsnl   : csr
+12-17 19:35:11.591  1795  3238 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:35:11.591  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:35:11.593  1795  3237 D wifiserviceimpl: netmask =16580607
+12-17 19:35:11.593  3858  4126 I amsnl   : m1: false
+12-17 19:35:11.595  1795  3225 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:11.596  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:35:11.596  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:35:11.604  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.621  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.622  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:11.623  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:11.625  2852  2852 I HwBrightnessUtils: APS brightness=15.0,ConvertToPercentage=0.1759541
+12-17 19:35:11.625  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:15 percentage:0.1759541
+12-17 19:35:11.625  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1760
+12-17 19:35:11.625  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1760
+12-17 19:35:11.625  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1760 fromUser:false
+12-17 19:35:11.626  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1760 fromUser:false
+12-17 19:35:11.638  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.655  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.672  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.688  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.705  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:11.707  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:11.708  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:11.710  2852  2852 I HwBrightnessUtils: APS brightness=14.0,ConvertToPercentage=0.16687968
+12-17 19:35:11.710  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:14 percentage:0.16687968
+12-17 19:35:11.710  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1669
+12-17 19:35:11.710  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1669
+12-17 19:35:11.711  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1669 fromUser:false

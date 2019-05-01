@@ -1,0 +1,100 @@
+12-17 19:34:56.273  3608  3608 D InCall  : CallButtonPresenter - onStateChangeInCallButton InCallState:INCALL callList:com.android.incallui.CallList@86c7f97
+12-17 19:34:56.273  1795  1825 E huawei_ProximitySensor_CPP_Test: write 200 failed
+12-17 19:34:56.273  3608  3608 D InCall  : CallButtonFragment - Show call button UI: false
+12-17 19:34:56.273  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_ON  flag:1342177296 
+12-17 19:34:56.273  1795  1825 D DisplayPowerController: Animating brightness: target=44, rate=40
+12-17 19:34:56.274  1795 20550 D Telecom : CallsManager: isEncryptEnabled able = false
+12-17 19:34:56.274  1795 15988 D Telecom : CallsManager: getActiveSubscription: 0: CSW.sD@EsU
+12-17 19:34:56.275  1795 15988 D Telecom : DtmfLocalTonePlayer: stopping local tone.: CSW.sD@EsU
+12-17 19:34:56.276  1795 15988 D Telecom : DtmfLocalTonePlayer: Posting delete.: CSW.sD@EsU
+12-17 19:34:56.276  1795  3360 I Telecom : CallAudioRouteStateMachine: Message received: UPDATE_SYSTEM_AUDIO_ROUTE=1201, arg1=0: CSW.sD->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@EsU_0
+12-17 19:34:56.276  1795  3360 I Telecom : CallAudioRouteStateMachine: setSystemAudioState: changing from [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER] to [AudioState isMuted: false, route: EARPIECE, supportedRouteMask: EARPIECE, SPEAKER]: CSW.sD->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@EsU_0
+12-17 19:34:56.276  1795  3360 I Telecom : Telecom: Non-call EVENT: AUDIO_ROUTE, EARPIECE: CSW.sD->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@EsU_0
+12-17 19:34:56.276  1795  3360 D Telecom : CallsManager: onAudioStateChanged: CSW.sD->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@EsU_0
+12-17 19:34:56.276  3608  3608 D CallUtils: userSetupComplete = true
+12-17 19:34:56.276  3608  3608 D CallUtils: deviceProvisioned = true
+12-17 19:34:56.276  1795  3360 I Telecom : InCallController: Calling onAudioStateChanged: CSW.sD->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@EsU_0
+12-17 19:34:56.276  1795  3360 I SendBroadcastPermission: action:action.huawei.PHONE_AUDIO_MODE, mPermissionType:0
+12-17 19:34:56.276  1795 19920 I ToneGenerator: Pid:1795 ToneGenerator destructor
+12-17 19:34:56.277  3608  3608 D InCall  : CallButtonFragment - updateAudioButtons - speaker toggle mode
+12-17 19:34:56.277  3608  3608 D InCall  : CallButtonFragment - audioButtonChecked: false
+12-17 19:34:56.277  3608  3608 D InCall  : CallButtonFragment - showSpeakerphoneOnIcon: false
+12-17 19:34:56.277  3608  3608 D InCall  : CallButtonFragment - updateAudioButtons - disableSupport
+12-17 19:34:56.277  3608  3608 D InCall  : CallButtonFragment - hasCall--audioButtonEnabled: false
+12-17 19:34:56.278  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.CallCardPresenter@2dcf682 of state INCALL
+12-17 19:34:56.278  3608  3608 D InCall  : CallCardPresenter - onStateChange() INCALL
+12-17 19:34:56.279  3608  3608 D HwCustCallCardFragmentImpl: state = 10
+12-17 19:34:56.282  3608  3608 D HwCustCallCardFragmentImpl: setCallState callState= DISCONNECTED
+12-17 19:34:56.282  3608  3608 I InCall  : CallCardFragment - showEncryptCallButton show =false
+12-17 19:34:56.282  3608  3608 I InCall  : CallCardFragment - setEncryptCallButtonEnabled enabled =false
+12-17 19:34:56.282  3608  3608 I InCall  : CallCardFragment - setmEncryptIconVisibility mEncryptIcon = null
+12-17 19:34:56.283  1795 15988 D Telecom : CallAudioManager: Disconnect cause: DisconnectCause [ Code: (REMOTE) Label: () Description: () Reason: (Normal call clearing, NORMAL) Tone: (27) ].: CSW.sD@EsU
+12-17 19:34:56.284  1795 15988 D Telecom : CallAudioManager: Found a disconnected call with tone to play 2.: CSW.sD@EsU
+12-17 19:34:56.284  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:34:56.285  1795  3364 I Telecom : CallAudioModeStateMachine: Message received: TONE_STARTED_PLAYING.: CSW.sD->CAMSM.pM_3001@EsU_1
+12-17 19:34:56.285  3608  3608 D InCall  : CallCardPresenter - isPredefinedNumber is true
+12-17 19:34:56.285  1795 15988 D Telecom : CallVibrateController: onCallStateChanged() isIncoming = true, disconnectCause = 3, isNewlyDisconnected = true: CSW.sD@EsU
+12-17 19:34:56.285  1795 15988 I PowerManager_vibrator: Vibrating for 50 ms.
+12-17 19:34:56.285  1795 15988 I PowerManager_vibrator: vibrate on: uid is 1000,pid is 1795,packagename = com.android.server.telecom
+12-17 19:34:56.285  1795  3364 I Telecom : CallAudioModeStateMachine: Message received: NO_MORE_ACTIVE_OR_DIALING_CALLS.: CSW.sD->CAMSM.pM_1001@EsU_3
+12-17 19:34:56.285  1795 15988 I PowerManager_vibrator: Turning vibrator on for 50 ms.
+12-17 19:34:56.285  1795  3364 I Telecom : CallAudioModeStateMachine: Audio focus entering TONE/HOLDING state: CSW.sD->CAMSM.pM_1001@EsU_3
+12-17 19:34:56.285  1795  3364 V AudioManager: requestAudioFocusForCall   streamType: 0  durationHint: 2
+12-17 19:34:56.285  1795  3364 I MediaFocusControl:  AudioFocus  requestAudioFocus() from uid/pid 1000/1795 clientId=AudioFocus_For_Phone_Ring_And_Calls req=2 flags=0x4
+12-17 19:34:56.285  1795  3364 V AudioManager: setMode  mode: 2
+12-17 19:34:56.285  1795 15988 I Telecom : BluetoothManager: isBluetoothAudioConnected: ==> FALSE (null mBluetoothHeadset): CSW.sD@EsU
+12-17 19:34:56.285  3608  3608 I InCall  : CallCardPresenter - onStateChangeInCallCard InCallState:INCALL
+12-17 19:34:56.285  3608  3608 I InCall  : CallCardPresenter - setCallCardTypeVisible true
+12-17 19:34:56.285  1795 20551 D Telecom : InCallTonePlayer: run(toneId = 2): CSW.sD->ICTP.r@EsU_2
+12-17 19:34:56.285  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.VideoCallPresenter@8a5b08b of state INCALL
+12-17 19:34:56.285  3608  3608 I InCall  : VideoCallPresenter - onStateChange oldStateINCALL newState=INCALL isVideoMode=false
+12-17 19:34:56.285  1795 20551 I Telecom : BluetoothManager: isBluetoothAudioConnected: ==> FALSE (null mBluetoothHeadset): CSW.sD->ICTP.r@EsU_2
+12-17 19:34:56.285  1795  3077 D GpsNetInitiatedHandler: onCallStateChanged(): state is 0
+12-17 19:34:56.285  3608  3608 I InCall  : VideoCallPresenter - exitVideoMode
+12-17 19:34:56.286  1795 20551 I ToneGenerator: Pid:1795 ToneGenerator constructor
+12-17 19:34:56.286  3608  3608 I InCall  : VideoCallFragment - inflateVideoUi false
+12-17 19:34:56.286  1046  1046 V APM_AudioPolicyManager: getOutput() device 1, stream 0, samplingRate 0, format 0, channelMask 3, flags 0
+12-17 19:34:56.286  1046  1046 I APM_AudioPolicyManager: getOutput() device 1, stream 0, samplingRate 0, format 0, channelMask 3, flags 0
+12-17 19:34:56.286  1046  1046 V APM_AudioPolicyManager: selectOutput() commonFlags for output 13, 0000
+12-17 19:34:56.286  1046  1046 V APM_AudioPolicyManager: selectOutput() commonFlags for output 21, 0000
+12-17 19:34:56.286  1046  1046 V APM_AudioPolicyManager: selectOutput() commonFlags for output 29, 0000
+12-17 19:34:56.286  1046  1046 I APM_AudioPolicyManager: getOutputForDevice() returns output 13
+12-17 19:34:56.286  3608  3608 I InCall  : VideoCallPresenter - enableCamera: VideoCall=null enabling=false
+12-17 19:34:56.286  3608  3608 W InCall  : VideoCallPresenter - enableCamera: VideoCall is null.
+12-17 19:34:56.286  1795 15988 I SendBroadcastPermission: action:android.intent.action.PHONE_STATE, mPermissionType:0
+12-17 19:34:56.286  3608  3608 I InCall  : VideoCallPresenter - no incoming call recoverView
+12-17 19:34:56.286  3608  3608 D AudioDeviceManager: onVideoModeChanged currentVideoMode = false
+12-17 19:34:56.286  1795 20551 I ToneGenerator: Create New Track: 0x7f66a50f00
+12-17 19:34:56.286  3608  3608 D InCall  : VideoCallFragment - cleanupSurfaces
+12-17 19:34:56.286  3608  3608 D InCall  : VideoCallFragment - sCleanupSurfaces
+12-17 19:34:56.286  3608  3608 I InCall  : VideoCallPresenter - onStateChange primaryChanged=true
+12-17 19:34:56.286  3608  3608 I InCall  : VideoCallPresenter - onStateChange primary= null
+12-17 19:34:56.287  3608  3608 I InCall  : VideoCallPresenter - onStateChange mPrimaryCall = [Call_10, DISCONNECTED, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)]
+12-17 19:34:56.287  3608  3608 I InCall  : VideoCallPresenter - update mVideoCall
+12-17 19:34:56.287  3608  3608 D InCall  : VideoCallPresenter - onPrimaryCallChanged: isVideoCall=false isVideoMode=false
+12-17 19:34:56.287  3608  3608 D InCall  : InCallPresenter - Notify com.android.incallui.DialpadPresenter@4437bdd of state INCALL
+12-17 19:34:56.287  3608  3608 D InCall  : DialpadPresenter - DialpadPresenter mCall = null
+12-17 19:34:56.287  3180  3578 I ash     : 1795 binder call 3118
+12-17 19:34:56.287  1046  2703 V APM_AudioPolicyManager: getOutputForAttr() usage=2, content=1, tag= flags=00000000 session 3377 selectedDeviceId 0
+12-17 19:34:56.287  1046  2703 V APM_AudioPolicyManager: getOutputForAttr() device 0x1, samplingRate 0, format 1, channelMask 1, flags 4
+12-17 19:34:56.287  1046  2703 I APM_AudioPolicyManager: getOutput() device 1, stream 0, samplingRate 0, format 1, channelMask 1, flags 4
+12-17 19:34:56.287  1046  2703 V APM_AudioPolicyManager: selectOutput() commonFlags for output 13, 0001
+12-17 19:34:56.287  1046  2703 V APM_AudioPolicyManager: selectOutput() commonFlags for output 21, 0001
+12-17 19:34:56.287  1046  2703 I APM_AudioPolicyManager: getOutputForDevice() returns output 13
+12-17 19:34:56.287  1046  2703 I APM_AudioPolicyManager: getOutputForAttr() returns output 13 stream 0
+12-17 19:34:56.288  3608  3608 D InCall  : InCallActivity - showCurrentOperatorInfo
+12-17 19:34:56.290  1795 15988 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{34bf34f 0:system/1000}, intent:android.intent.action.PHONE_STATE, receiver size:4, flags: 10000400
+12-17 19:34:56.291  1795 15988 D HwPFWLogger: AutoStartupDataMgr:isUnderControll third party not in whitelist: com.autonavi.minimap
+12-17 19:34:56.291  1795 15988 D HwPFWLogger: AutoStartupDataMgr:retrieveStartupSettings type 0 of com.autonavi.minimap is 0
+12-17 19:34:56.291  1795 15988 I HwPFWLogger: AppAutoStartupPolicy:prevent start receiver of package com.autonavi.minimap for action android.intent.action.PHONE_STATE
+12-17 19:34:56.291  1795 15988 D HwPFWLogger: AutoStartupDataMgr:isUnderControll third party not in whitelist: com.sina.weibo
+12-17 19:34:56.291  1795 15988 D HwPFWLogger: AutoStartupDataMgr:retrieveStartupSettings type 0 of com.sina.weibo is 0
+12-17 19:34:56.291  1795 15988 I HwPFWLogger: AppAutoStartupPolicy:prevent start receiver of package com.sina.weibo for action android.intent.action.PHONE_STATE
+12-17 19:34:56.291  3608  3608 D InCall  : CallCardFragment - isPresentSub1:true, isPresentSub2:false, presentSubCount:1
+12-17 19:34:56.291  3608  3608 I InCall  : CallList - hasAnyLiveCall sub = 0
+12-17 19:34:56.291  3608  3608 I InCall  : CallList - no active call on sub 1
+12-17 19:34:56.291  3608  3608 D InCall  : CallCardFragment - activeSubCount:1 ,activeSub:0
+12-17 19:34:56.291  1795 15988 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.291  1795 15988 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.291  1795 15988 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{a09fa23 u-1 android.intent.action.PHONE_STATE}: prev had 0
+12-17 19:34:56.292  1795 15988 I SendBroadcastPermission: action:android.intent.action.PHONE_STATE, mPermissionType:0

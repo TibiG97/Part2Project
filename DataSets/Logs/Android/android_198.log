@@ -1,0 +1,100 @@
+12-17 19:33:02.035  1795  1795 I TrafficMonitor: during_ms:2002,period_ms:2000
+12-17 19:33:02.035  1795  1795 I TrafficMonitor: count:69,rx_sum:0,tx_sum:0,rxBytes:0,during_ms:2002,rx_speed:0.0,tx_speed:0.0,rto:0.0
+12-17 19:33:02.035  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:0, rxSpd:0B/s, txpkt:0, txSpd:0
+12-17 19:33:02.035  2852  2852 I QSContainer: updateQsState:false
+12-17 19:33:02.035  2852  2852 I QSContainer: updateQsState:false
+12-17 19:33:02.035  2852  2852 I StackScroller: setScrollingEnabled: true
+12-17 19:33:02.036  2852  2852 I PanelView: instantCollapse
+12-17 19:33:02.036  2852  2852 I PanelBar: collapsePanel2
+12-17 19:33:02.036  1046  1046 V ThreadsEx: HDebug print the key screen_state
+12-17 19:33:02.036  1046  1046 D audio_hw_primary: adev_set_parameters: enter: screen_state=on
+12-17 19:33:02.036  1046  1046 I Huawei_audio_cust: huawei_audio huawei_choose_HandsFree_device_incall_forHWtest: test Type =4
+12-17 19:33:02.036  1046  1046 I Huawei_audio_cust: huawei_audio huawei_choose_Handset_device_incall_forHWtest: test Type =4
+12-17 19:33:02.036  1046  1046 I Huawei_audio_cust: get_spk_pa_type: pa is max98925
+12-17 19:33:02.036  1046  1046 I Huawei_audio_cust: huawei_common_set_parameters: exit with code(0)
+12-17 19:33:02.036  1046  1046 V Huawei_audio_cust: huawei_cust_set_parameters: exit with code(0)
+12-17 19:33:02.036  1046  1046 V msm8916_platform: platform_set_parameters: enter: - screen_state=on
+12-17 19:33:02.036  1046  1046 V msm8916_platform: platform_set_parameters: exit with code(0)
+12-17 19:33:02.036  1046  1046 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:33:02.036  1046  1046 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:33:02.036  1046  1046 V audio_hw_primary: adev_set_parameters: exit with code(0)
+12-17 19:33:02.040  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=c0000000 mask=ffffffff oldVal=c0000600 newVal=c0000000 diff=600
+12-17 19:33:02.040  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000000, SystemUiVisibility=0xc0000000
+12-17 19:33:02.041  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:33:02.041  3180  3332 I ScenarioAction: new ScenarioAction sPoolSize: 0
+12-17 19:33:02.041  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:33:02.041  2852  2852 I StatusBar: onNotificationRemoved: StatusBarNotification(pkg=com.android.incallui user=UserHandle{0} id=2 tag=null key=0|com.android.incallui|2|null|1001: Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE)))
+12-17 19:33:02.041  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=80000300 mask=ffffffff oldVal=c0000000 newVal=80000300 diff=40000300
+12-17 19:33:02.041  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_OPAQUE, animate=false
+12-17 19:33:02.042  2852  2852 D BarTransitions.HwPhoneStatusBarView: MODE_TRANSLUCENT -> MODE_OPAQUE animate=false
+12-17 19:33:02.042  2852  2852 D BarTransitions.HwPhoneStatusBarView: applyModeBackground oldMode=MODE_TRANSLUCENT newMode=MODE_OPAQUE animate=false
+12-17 19:33:02.042  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:33:02.042  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:33:02.042  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:33:02.042  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0x80000300, SystemUiVisibility=0x80000300
+12-17 19:33:02.042  2852  2852 I PhoneStatusBar: removeNotification:0|com.android.incallui|2|null|1001
+12-17 19:33:02.042  2852  2852 I StatusBar: removeNotificationViews:0|com.android.incallui|2|null|1001
+12-17 19:33:02.042  2852  2852 I NotificationGroupManager: onEntryRemoved:0|com.android.incallui|2|null|1001
+12-17 19:33:02.042  2852  2852 I NotificationGroupManager: onEntryRemovedInternal:0|com.android.incallui|2|null|1001, group=0|com.android.incallui|2|null|1001
+12-17 19:33:02.042  2852  2852 I NotificationGroupManager: summary = null
+12-17 19:33:02.043  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:33:02.043  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:33:02.044  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:33:02.044  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:02.044  1795 20747 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:02.050  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:33:02.050  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:33:02.050  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:false, mDimmed:false
+12-17 19:33:02.053  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.403821 Y: 6.923178 Z: -0.541257  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:02.084  3608  3608 I ActivityManager_activity: Reporting idle of ActivityRecord{fd45985 token=android.os.BinderProxy@af8ea9b {com.android.incallui/com.android.incallui.InCallActivity}} finished=false
+12-17 19:33:02.084  1795  1795 D HwInputMethodManagerService: ------------startInput--------------
+12-17 19:33:02.087  1795  1795 V SecInputMethodManagerService: Client requesting input be hidden, pid=1795
+12-17 19:33:02.087  1795  1821 I ActivityManager_activity: windowsVisibleLocked(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310} idle: true
+12-17 19:33:02.087  1795  1795 D HwInputMethodManagerService: hideSecSoftInput = false
+12-17 19:33:02.087  1795  1821 I WindowManager: All windows ready for display!
+12-17 19:33:02.087  1795  1809 I WindowOrientationListener: WindowOrientationListener enabled
+12-17 19:33:02.087  1795  1795 I AlarmManager: remove(PendingIntent{2f9e644: PendingIntentRecord{527f32d android broadcastIntent}}) changed bounds; rebatching
+12-17 19:33:02.088  1795  1809 I qti_sensors_hal: batch,376,handle 0, timeout:0 ,period_ns:66667000
+12-17 19:33:02.088  1795  1809 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) handle:0 flags:0x0 period_ns 66667000
+12-17 19:33:02.088  1795  2377 V HwPackageManagerService: Returning system default Launcher 
+12-17 19:33:02.088  1795  2377 I AwareLog: AwareMem_EventTracker: [APP_ACTIVITY_FINISH_123065771] is abandoned for memory 836908
+12-17 19:33:02.097  1795  1809 I qti_sensors_hal: read from oem info: data_readback
+12-17 19:33:02.097  1795  1809 I qti_sensors_hal: 0xcd, 0xb0, 0x24, 0x3e
+12-17 19:33:02.097  1795  1809 I qti_sensors_hal: 0x66, 0xca, 0x3c, 0x3e
+12-17 19:33:02.098  1795  1809 I qti_sensors_hal: 0xc0, 0x2a, 0x7c, 0x3f
+12-17 19:33:02.098  1795  1809 I qti_sensors_hal: 0x55, 0x0, 0x0, 0x0
+12-17 19:33:02.098  1795  1809 I qti_sensors_hal: 0x0, 0x0, 0x0, 0x0
+12-17 19:33:02.098  1795  1809 E qti_sensors_hal: read from oem info: data_valid_flag=0x55
+12-17 19:33:02.098  1795  1809 E qti_sensors_hal: read from oem info: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:33:02.098  1795  1809 E qti_sensors_hal: Final value: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:33:02.098  1795  1809 I qti_sensors_hal: batch:load_acc_oeminf_data x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:02.098  1795  1809 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) sample_rate=14.999925Hz report_rate_f=0.000000Hz curr sample rate:5.000000 cur rpt rate:0 max:400.000000 min:1.000000
+12-17 19:33:02.099  1795  1809 I qti_sensors_hal: flush,395,handle 0
+12-17 19:33:02.099  1795  1809 I qti_sensors_hal: flush,260 handle 0
+12-17 19:33:02.099  1795  1809 I WindowManager: Finished screen turning on...
+12-17 19:33:02.099  1795  1825 I PowerManager_screenOn: DisplayPowerController Unblocked screen on after 505 ms
+12-17 19:33:02.099  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:02.099  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=1.0
+12-17 19:33:02.100  1795  1795 D HwPFWLogger: PFW.HwPFWService:mBroadcastReceiver action = android.intent.action.SCREEN_ON
+12-17 19:33:02.100  1795  1825 D DisplayPowerController: Animating brightness: target=24, rate=40
+12-17 19:33:02.100  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:02.100  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=941
+12-17 19:33:02.100  1795  1825 D DisplayPowerController: Animating brightness: target=24, rate=40
+12-17 19:33:02.100  1795  1825 V KeyguardServiceDelegate: onScreenTurnedOn()
+12-17 19:33:02.100  1795  1825 I WindowManger_keyguard: onScreenTurnedOn()
+12-17 19:33:02.100  1795  2750 I HwLightsService: back light level before map = 941
+12-17 19:33:02.101  1795  1825 D DisplayPowerController: Display ready!
+12-17 19:33:02.101  1795  1825 D DisplayPowerController: Finished business...
+12-17 19:33:02.101  2852  2866 D KeyguardService: Caller checkPermission fail
+12-17 19:33:02.101  2852  2866 D KeyguardService: KGSvcCall onScreenTurnedOn.
+12-17 19:33:02.101  2852  2866 D KeyguardViewMediator: notifyScreenTurnedOn
+12-17 19:33:02.101  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOn
+12-17 19:33:02.101  2852  2852 I PhoneStatusBar: onScreenTurnedOn
+12-17 19:33:02.101  2852  2852 D KGWallpaper_Magazine: getNextIndex: 0; from 5 to 5; size: 44
+12-17 19:33:02.101  1795  1825 D FpDataCollector: case xxx, not a fingerprint unlock 
+12-17 19:33:02.101  2852  2852 I HwLockScreenReporter: report msg is :{picture: Deepwater-05-2.3.001-bigpicture_05_8.jpg}
+12-17 19:33:02.101  2852  2852 W HwLockScreenReporter: report result = falsereport type:162 msg:{picture: Deepwater-05-2.3.001-bigpicture_05_8.jpg, channelId: 05}
+12-17 19:33:02.101  2852  2852 I OucScreenOnCounter: Screen already turned on at: 1481974212
+12-17 19:33:02.101  1795  1825 D PowerManagerService: ready=true,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:02.101  1795  1825 E PowerManagerService: startDreaming = true
+12-17 19:33:02.102  1795  2708 D HwPFWLogger: PFW.HwPFWService:handle PFW_MSG_SYSTEM

@@ -1,0 +1,100 @@
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: wlan0: nl80211: New scan results available
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: wlan0: Scan completed in 0.458924 seconds
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: nl80211: Associated on 2452 MHz
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: nl80211: Associated with 80:38:bc:08:42:c1
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: nl80211: Received scan results (9 BSSes)
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: nl80211: Scan results indicate BSS status with 80:38:bc:08:42:c1 as associated
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: Sorted scan results
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: 80:38:bc:08:42:e1 freq=2472 qual=0 noise=-89~ level=-43 snr=46* flags=0xb age=30 est=65000
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:34:56.393  1795  1806 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: 80:38:bc:08:42:c1 freq=2452 qual=0 noise=-89~ level=-48 snr=41* flags=0x2b age=30 est=65000
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: 00:26:f2:1b:9d:b2 freq=2437 qual=0 noise=-89~ level=-60 snr=29 flags=0xb age=30 est=54000
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: IEs - hexdump(len=109): 00 06 4e 54 50 43 30 32 01 08 82 84 8b 96 24 30 48 6c 03 01 06 2a 01 04 2f 01 04 32 04 0c 12 18 ...
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=115): 00 06 4e 54 50 43 30 32 01 08 82 84 8b 96 24 30 48 6c 03 01 06 05 04 00 03 00 00 2a 01 04 2f 01 ...
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: 80:38:bc:0a:f9:21 freq=2472 qual=0 noise=-89~ level=-78 snr=11 flags=0xb age=30 est=36000
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:34:56.393  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: 80:38:bc:0a:fa:e1 freq=2412 qual=0 noise=-89~ level=-82 snr=7 flags=0xb age=30 est=18000
+12-17 19:34:56.394  1795  2736 E hwintelligencewifi: addCurrentApInfo info is already there
+12-17 19:34:56.394  1046  1125 I audio_hw_primary: select_devices Selected apptype: 69937
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:34:56.394  1046  1125 V audio_hw_primary: enable_audio_route: enter: usecase(1)
+12-17 19:34:56.394  1046  1125 D soundtrigger: audio_extn_sound_trigger_update_stream_status: uc_id 1 of type 0 for Event 3, with Raise=0
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:34:56.394  1795  2736 W hwintelligencewifi: updateBssidTimer time = 1481974496394
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: 80:38:bc:0b:36:a1 freq=2472 qual=0 noise=-89~ level=-86 snr=3 flags=0xb age=30 est=6500
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: 80:38:bc:0b:04:40 freq=2472 qual=0 noise=-89~ level=-91 snr=-2 flags=0xb age=30 est=6500
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 00 ...
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 00 ...
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: 80:38:bc:0b:37:21 freq=2412 qual=0 noise=-89~ level=-92 snr=-3 flags=0xb age=30 est=6500
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: 80:38:bc:0a:f9:81 freq=2412 qual=0 noise=-89~ level=-93 snr=-4 flags=0xb age=30 est=6500
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:34:56.394  1046  1125 I audio_hw_utils: audio_extn_utils_send_app_type_cfg PLAYBACK app_type 69937, acdb_dev_id 7, sample_rate 48000
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: wlan0: BSS: Start scan result update 112
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 519 BSSID 80:38:bc:0a:fa:e1 SSID 'Huawei-Employee' freq 2412
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=42
+12-17 19:34:56.394  1795 11746 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:34:56.394  1046  1125 I audio_hw_utils: audio_extn_utils_send_app_type_cfg:becf: adm: app_type 69936, acdb_dev_id 7, sample_rate 48000
+12-17 19:34:56.394  1046  1125 D msm8916_platform: platform_can_split_snd_device: snd_device(15) num devices(1) new_snd_devices(15)
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 520 BSSID 80:38:bc:0b:37:21 SSID 'Huawei-Employee' freq 2412
+12-17 19:34:56.394  1046  1125 V msm8916_platform: platform_send_audio_calibration: sending audio calibration for snd_device(15) acdb_id(7)
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 7, path = 0, app id = 0x11131, sample rate = 48000
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=42
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> send_asm_topology
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+12-17 19:34:56.394  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 521 BSSID 80:38:bc:0a:f9:81 SSID 'Huawei-Employee' freq 2412
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> send_adm_topology
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=768 send_len=42
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> send_audtable
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 486 BSSID 80:38:bc:0a:f1:40 SSID 'wlanaccessv2.0' due to no match in scan
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE_SIZE
+12-17 19:34:56.394  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=768 send_len=44
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+12-17 19:34:56.394  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> send_audvoltable
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 479 BSSID 80:38:bc:0a:f2:00 SSID 'wlanaccessv2.0' due to no match in scan
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE, vol index 0
+12-17 19:34:56.394  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=44
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> send_audstrmtable
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_V2
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 16
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 490 BSSID 80:38:bc:0a:ef:61 SSID 'Huawei-Employee' due to no match in scan
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> send_afe_topology
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=768 send_len=44
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 7, Topology Id 112fc
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 491 BSSID 80:38:bc:0a:f0:20 SSID 'wlanaccessv2.0' due to no match in scan
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> send_afe_cal
+12-17 19:34:56.394  1046  1125 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+12-17 19:34:56.394  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=1536 send_len=44
+12-17 19:34:56.395  1046  1125 D         : Failed to fetch the lookup information of the device 00000007 
+12-17 19:34:56.395  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:34:56.395  1046  1125 E ACDB-LOADER: Error: ACDB AFE returned = -19
+12-17 19:34:56.395  1046  1125 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+12-17 19:34:56.395  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 492 BSSID 80:38:bc:0b:14:80 SSID 'wlanaccessv2.0' due to no match in scan
+12-17 19:34:56.395  1046  1125 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 7 path = 0
+12-17 19:34:56.395  1046  1125 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY

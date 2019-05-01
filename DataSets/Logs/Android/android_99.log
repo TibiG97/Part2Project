@@ -1,0 +1,100 @@
+12-17 19:31:56.694  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:31:56.694  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000300, SystemUiVisibility=0xc0000300
+12-17 19:31:56.695  2852  2852 D KeyguardViewMediator: handleNotifyWakingUp
+12-17 19:31:56.695  2852  2852 I PhoneStatusBar: onStartedWakingUp
+12-17 19:31:56.695  2852  2852 V KeyguardUpdateMonitor: FingerStat Visible: false; Interactive: true; Switching: false; Bouncer:false; GoingToSleep: false Occluded: false; dreaming: false; Authenticated: false
+12-17 19:31:56.695  2852  2852 V KeyguardUpdateMonitor: KGSvcFp stopListeningForFingerprint(). 1
+12-17 19:31:56.695  1795  1805 I Security_fingerprint: FingerprintService cancelAuthentication
+12-17 19:31:56.695  1795  2326 V FingerprintService: stop client com.android.systemui
+12-17 19:31:56.695  2852  2852 W KeyguardUpdateMonitor: Fingerprint RunningStateChanged. 2
+12-17 19:31:56.696   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:2
+12-17 19:31:56.696   835   835 V fingerprintd: stopAuthentication()
+12-17 19:31:56.696   835   835 D fpc_fingerprint_hal: fpc_cancel
+12-17 19:31:56.696   835  2385 D fpc_fingerprint_hal: fpc poll irq interupt
+12-17 19:31:56.696   835  2385 D fpc_fingerprint_hal: wait_finger_down, took 169 ms
+12-17 19:31:56.696   835  2385 E fpc_fingerprint_hal: capture_image failed -4
+12-17 19:31:56.697   835  2385 E libteec : begin
+12-17 19:31:56.697  2852  2852 D TimeKeeper: getTimeTickInfo:[mMillisUntilFinished:0, mHour:0, mMinute:0, mSecond:0]
+12-17 19:31:56.697  3626  3626 I iMonitor: create: 903001010
+12-17 19:31:56.697  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:31:56.697   606  2379 E libteec : receive data len = 128
+12-17 19:31:56.697  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:31:56.697  2852  2852 W HwLockScreenPanel: createLockScreenView when reset
+12-17 19:31:56.697  2852  2852 I HwLockScreenPanel: loadMagazine
+12-17 19:31:56.699  2852  2852 V KeyguardStatusView: Enable transport text marquee
+12-17 19:31:56.699  3626  3626 I iMonitor: send: 903001010
+12-17 19:31:56.699   818  1152 I logserver: handle_exception_events enter
+12-17 19:31:56.700  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:31:56.701   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:56.701   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:56.701   606  2379 E libteec : send data return = 128
+12-17 19:31:56.701   835  2385 E libteec : receive data len = 128
+12-17 19:31:56.701   835  2385 E libteec : begin
+12-17 19:31:56.701   835  2385 E libteec : qsc_decode end
+12-17 19:31:56.701   835  2385 E fpc_fingerprint_hal: do_identify failed -4
+12-17 19:31:56.701   835  2385 D fingerprintd: onError(5)
+12-17 19:31:56.701   835  2385 I fpc_fingerprint_hal: do_identify operation CANCELED
+12-17 19:31:56.701   835  2385 D fpc_fingerprint_hal: do_identify took 20 ms, total:189 wait:169
+12-17 19:31:56.701   835  2385 E libteec : begin
+12-17 19:31:56.701  1795 15988 W FingerprintService: onError 1
+12-17 19:31:56.702   606  2379 E libteec : receive data len = 128
+12-17 19:31:56.704  2852  2852 W HwLockScreenPanel: Handle message: 14
+12-17 19:31:56.707  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:56.710   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:56.710   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:56.710   606  2379 E libteec : send data return = 128
+12-17 19:31:56.710   835  2385 E libteec : receive data len = 128
+12-17 19:31:56.710   835  2385 E libteec : begin
+12-17 19:31:56.710   835  2385 E libteec : qsc_decode end
+12-17 19:31:56.710   835  2385 D fpc_fingerprint_hal: worker idle
+12-17 19:31:56.711   835  2385 D fpc_fingerprint_hal: workerFunction STATE_CANCEL
+12-17 19:31:56.711   835  2385 E libteec : begin
+12-17 19:31:56.711   606  2379 E libteec : receive data len = 128
+12-17 19:31:56.711  1795  2326 W FingerprintService: client com.android.systemui is no longer authenticating
+12-17 19:31:56.711  1795  2326 W FingerprintService: onError 2
+12-17 19:31:56.711  1795  2326 V FingerprintService: ClientMonitor destroy
+12-17 19:31:56.711  1795  2326 V FingerprintService: Done with client: com.android.systemui
+12-17 19:31:56.711  1795  2326 V FingerprintService: handleError(client=com.android.systemui, error = 5)
+12-17 19:31:56.712  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:31:56.713  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:31:56.713  2852  2852 V KeyguardUpdateMonitor: KGSvcFp onAuthenticationError.5
+12-17 19:31:56.713  2852  2852 W KeyguardUpdateMonitor: Fingerprint RunningStateChanged. 10
+12-17 19:31:56.713  2852  2852 W StatusBarWindowManager: Apply window Height 72
+12-17 19:31:56.713  2852  2852 I StatusBarWindowManager: apply skiped :0
+12-17 19:31:56.715  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:31:56.720   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:56.720   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:56.721   606  2379 E libteec : send data return = 128
+12-17 19:31:56.721   835  2385 E libteec : receive data len = 128
+12-17 19:31:56.721   835  2385 E libteec : begin
+12-17 19:31:56.721   835  2385 E libteec : qsc_decode end
+12-17 19:31:56.721   835  2385 D fpc_fingerprint_hal: workerFunction STATE_NAVIGATION
+12-17 19:31:56.721   835  2385 E libteec : begin
+12-17 19:31:56.721   606  2379 E libteec : receive data len = 128
+12-17 19:31:56.726  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:56.733   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:56.733   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:56.733   606  2379 E libteec : send data return = 128
+12-17 19:31:56.734   835  2385 E libteec : receive data len = 128
+12-17 19:31:56.734   835  2385 E libteec : begin
+12-17 19:31:56.734   835  2385 E libteec : qsc_decode end
+12-17 19:31:56.741  3180  3578 I ash     :  ignore audio app: com.tencent.mm stop delta time:29625453
+12-17 19:31:56.741  3180  3578 I ash     : com.tencent.mm { running duration=30001 } transition to: doze reason:
+12-17 19:31:56.741  3180  3578 I ash     : doze package: com.tencent.mm, visible: false
+12-17 19:31:56.743  1795  1825 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:56.759  1795  1825 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:56.774  1795  1825 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity},EmuiStyle=1,StatusBarColor=0x0,NavigationBarColor=0x0, mLastIsEmuiLightStyle=1
+12-17 19:31:56.776  1795  1825 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:56.776  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.581952 Y: 7.213767 Z: 3.964383  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:56.793  1795  1825 I ActivityManager_activity: completedResumed: ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}, launchTrack: outofsleep resumeTopComplete
+12-17 19:31:56.799  1795  1825 I WindowManger_keyguard: Screen turned on for keyguard
+12-17 19:31:56.799  1795  1825 I PowerManager_screenOn: KeyguardServiceDelegate  onScreenTurnedOn(showListener = com.android.server.policy.PhoneWindowManager$3@bf53b21)
+12-17 19:31:56.800  2852  2866 D KeyguardService: Caller checkPermission fail
+12-17 19:31:56.801  2852  2866 D KeyguardService: KGSvcCall onScreenTurningOn.
+12-17 19:31:56.801  2852  2866 D KeyguardViewMediator: notifyScreenOn
+12-17 19:31:56.801  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurningOn
+12-17 19:31:56.801  2852  2852 I PhoneStatusBar: onScreenTurningOn
+12-17 19:31:56.801  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOn End with : 110
+12-17 19:31:56.801  1795 15987 I WindowManger_keyguard: **** SHOWN CALLED ****
+12-17 19:31:56.801  1795 15987 D WindowManager: mKeyguardDelegate.ShowListener.onDrawn.
+12-17 19:31:56.801  1795 15987 I WindowManger_keyguard: hideScrim()

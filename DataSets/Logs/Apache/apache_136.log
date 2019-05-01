@@ -1,0 +1,100 @@
+[Tue Nov 15 12:48:08 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Tue Nov 15 12:48:08 2005] [error] mod_jk child workerEnv in error state 2
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] Directory index forbidden by rule: /var/www/html/
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cp
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cp
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/perl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/perl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cp
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/perl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cp
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/perl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cp
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/perl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] Directory index forbidden by rule: /var/www/html/
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cp
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/perl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] Directory index forbidden by rule: /var/www/html/
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cp
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/perl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] Directory index forbidden by rule: /var/www/html/
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cp
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/perl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] Directory index forbidden by rule: /var/www/html/
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cp
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/perl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] Directory index forbidden by rule: /var/www/html/
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cp
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/perl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] Directory index forbidden by rule: /var/www/html/
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cp
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/perl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] Directory index forbidden by rule: /var/www/html/
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/cp
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/perl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/stat-cgi
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] File does not exist: /var/www/html/awstats/awstats.pl
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] Directory index forbidden by rule: /var/www/html/
+[Tue Nov 15 12:48:08 2005] [error] [client 201.6.53.88] script not found or unable to stat: /var/www/cgi-bin/awstats

@@ -1,0 +1,100 @@
+12-17 19:34:59.684  1795  3225 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{380ae0e u0 com.huawei.android.action.alarm_weather}: prev had 0
+12-17 19:34:59.685  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{380ae0e u0 com.huawei.android.action.alarm_weather}, has 1 receivers
+12-17 19:34:59.689 17709 17709 D HwIntelligent3_IntelligentReceiver: onReceive ,intent:Intent { act=com.huawei.android.action.alarm_weather flg=0x10 cmp=com.huawei.intelligent/.main.receiver.IntelligentReceiver (has extras) }
+12-17 19:34:59.689  1795  3111 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{7e9b22a 17709:com.huawei.intelligent/u0a17}, flags: 10000400
+12-17 19:34:59.690  1795  3111 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{fa6902f u0 euid: 0 com.huawei.intelligent/.main.receiver.IntelligentIntentService}, euid: 0
+12-17 19:34:59.690  2852 20624 I WeatherUtils: getCurrentWeatherInfo currentTemperature is :17.0 mWeatherIcon Id is: 33
+12-17 19:34:59.701  3218  4159 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:34:59.702  3218  4159 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:34:59.702 17709 20626 D IntelligentIntentService: eventAction :class com.huawei.intelligent.main.businesslogic.weatheralarm.receiveaction.WeatherAction
+12-17 19:34:59.703 17709 20626 I HwIntelligent3_WeatherAction: handleActionAlarm : value is {"alarm_weather":[],"alarm_city":{"city_type":1,"time_zone":"Asia\/Shanghai","goto_cityId":1,"city_name":"Longgang District"}} :  --> flow check at WeatherAction doAction 36
+12-17 19:34:59.703 17709 20626 I HwIntelligent3_IntelligentProvider: Provider.call: getPrefString
+12-17 19:34:59.704 17709 20626 I HwIntelligent3_IntelligentProvider: Provider.call: getPrefString
+12-17 19:34:59.705 17709 20626 D HwIntelligent3_WeatherServiceManager: getLastLocCityWeather jsonString {"mCityInfo":{"mCityCode":"","mCityId":0,"mCityName":"龙岗区","mCityType":10,"mTimeZone":"Asia/Shanghai"},"mTempFlag":0,"mTempUnit":"℃","mWholeDayWeathers":[{"mAirStatuDes":"良","mDay":{"mCity":"龙岗区","mCurTempe":18,"mDes":"阴","mHighTempe":21,"mIconIndex":8,"mLowTempe":13,"mUnit":"℃"},"mIndex":1,"mNight":{"mCity":"龙岗区","mCurTempe":18,"mDes":"阴","mHighTempe":21,"mIconIndex":75,"mLowTempe":13,"mUnit":"℃"},"mObservation":1481929200000,"mPM10":70,"mPM25":35,"mPunm":60,"mSunrise":1481929020000,"mSunset":1481967720000,"mTempFlag":"TEMP_FLAG_C","mTimeZone":"Asia/Shanghai"},{"mAirStatuDes":"","mDay":{"mCity":"龙岗区","mCurTempe":18,"mDes":"晴","mHighTempe":24,"mIconIndex":1,"mLowTempe":14,"mUnit":"℃"},"mIndex":2,"mNight":{"mCity":"龙岗区","mCurTempe":18,"mDes":"晴","mHighTempe":24,"mIconIndex":1,"mLowTempe":14,"mUnit":"℃"},"mObservation":1482015600000,"mPM10":0,"mPM25":0,"mPunm":0,"mSunrise":1482015420000,"mSunset":1482054120000,"mTempFlag":"TEMP_FLAG_C","mTimeZone":"Asia/Shanghai"},{"mAirStatuDes":"","mDay":{"mCity":"龙岗区","mCurTempe":18,"mDes":"晴","mHighTempe":24,"mIconIndex":1,"mLowTempe":18,"mUnit":"℃"},"mIndex":3,"mNight":{"mCity":"龙岗区","mCurTempe":18,"mDes":"阴","mHighTempe":24,"mIconIndex":8,"mLowTempe":18,"mUnit":"℃"},"mObservation":1482102000000,"mPM10":0,"mPM25":0,"mPunm":0,"mSunrise":1482101880000,"mSunset":1482140580000,"mTempFlag":"TEMP_FLAG_C","mTimeZone":"Asia/Shanghai"},{"mAirStatuDes":"","mDay":{"mCity":"龙岗区","mCurTempe":18,"mDes":"阵雨","mHighTempe":24,"mIconIndex":12,"mLowTempe":19,"mUnit":"℃"},"mIndex":4,"mNight":{"mCity":"龙岗区","mCurTempe":18,"mDes":"阵雨","mHighTempe":24,"mIconIndex":12,"mLowTempe":19,"mUnit":"℃"},"mObservation":1482188400000,"mPM10":0,"mPM25":0,"mPunm":0,"mSunrise":1482188340000,"mSunset":1482226980000,"mTempFlag":"TEMP_FLAG_C","mTimeZone":"Asia/Shanghai"},{"mAirStatuDes":"","mDay":{"mCity":"龙岗区","mCurTempe":18,"mDes":"阴","mHighTempe":24,"mIconIndex":8,"mLowTempe":17,"mUnit":"℃"},"mIndex":5,"mNight":{"mCity":"龙岗区","mCurTempe":18,"mDes":"阵雨","mHighTempe":24,"mIconIndex":12,"mLowTempe":17,"mUnit":"℃"},"mObservation":1482274800000,"mPM10":0,"mPM25":0,"mPunm":0,"mSunrise":1482274740000,"mSunset":1482313440000,"mTempFlag":"TEMP_FLAG_C","mTimeZone":"Asia/Shanghai"},{"mAirStatuDes":"","mDay":{"mCity":"龙岗区","mCurTempe":0,"mDes":"","mHighTempe":0,"mIconIndex":0,"mLowTempe":0,"mUnit":"℃"},"mIndex":0,"mNight":{"mCity":"龙岗区","mCurTempe":0,"mDes":"","mHighTempe":0,"mIconIndex":0,"mLowTempe":0,"mUnit":"℃"},"mObservation":0,"mPM10":0,"mPM25":0,"mPunm":0,"mSunrise":0,"mSunset":0,"mTempFlag":"TEMP_FLAG_C","mTimeZone":"Asia/Shanghai"}]}
+12-17 19:34:59.711 16628 16649 I TotemWeather: RetryTaskController:onTaskSuccess, cityId = 1
+12-17 19:34:59.711 16628 16649 I TotemWeather: RetryTaskController:removeRetryTask cityId = 1
+12-17 19:34:59.711 16628 16649 I TotemWeather: RetryTaskController:preRemovedTask is null
+12-17 19:34:59.712 16628 16649 I TotemWeather: RetryTaskController:mTaskList is null
+12-17 19:34:59.712 16628 16649 I TotemWeather: RetryTaskController:paraMap is empty
+12-17 19:34:59.712  2852 20625 I WeatherUtils: getCurrentWeatherInfo currentTemperature is :17.0 mWeatherIcon Id is: 33
+12-17 19:34:59.725  2852 20625 I WeatherUtils: getCurrentWeatherInfo currentTemperature is :17.0 mWeatherIcon Id is: 33
+12-17 19:34:59.725  2852 20625 D WeatherHelper: homeWeatherInfo = com.huawei.keyguard.events.weather.WeatherInfo@b0d5fc8
+12-17 19:34:59.729  2852  2852 D DateTimeView: onClockLocationChange
+12-17 19:34:59.729  2852  2852 D DateTimeView: onClockLocationChange
+12-17 19:34:59.730  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:34:59.732  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:34:59.755   816 20627 D DnsProxyListener: GetAddrInfoHandler addr: data.hicloud.com {304, 917808, 10028} 117.78.58.31
+12-17 19:34:59.819  3879  4201 I TotemWeather: WidgetDataManager:my location is 77666
+12-17 19:34:59.845  1795  1795 D Telecom : NumberMarkController: call findNumberMark()
+12-17 19:34:59.845  1795  1795 D Telecom : NumberMarkController: findNumberMark mPhoneNumbers.size() = 0
+12-17 19:34:59.853  3879  3879 I TotemWeather: WidgetDataManager:colorType : 3
+12-17 19:34:59.921  1795  2377 I AwareLog: AwareMem_EventTracker: [POLLING_TIMEOUT_123097538] is abandoned for memory 822696
+12-17 19:35:00.055  1795  2381 D libfingersense_wrapper: Calling fingersense_classify_touch()
+12-17 19:35:00.064  1795  2381 D libfingersense_wrapper: fingersense_classify_touch() finished
+12-17 19:35:00.066  1795  2380 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123097671, event=2, flags=0x0, uid=1000
+12-17 19:35:00.067  1795  2380 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=2, uid=1000
+12-17 19:35:00.067  1795  2380 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:00.068  3879  3879 I HwLauncher: FPSMonitor  [Launcher , dispatchTouchEvent begin, false, true] down event  x = 460 y = 747
+12-17 19:35:00.068  3879  3879 I HwLauncher: Launcher workspaceTranslationX = 0.0
+12-17 19:35:00.069  3879  3879 I HwLauncher: FPSMonitor  [PagedView , onIntercept] down event  x = 460 y = 747
+12-17 19:35:00.069  3879  3879 I HwLauncher: FPSMonitor  [Launcher , dispatchTouchEvent end, false, true] down event  x = 460 y = 747
+12-17 19:35:00.146  1795  2381 D libfingersense_wrapper: Calling fingersense_touch_up()
+12-17 19:35:00.146  1795  2381 D libfingersense_wrapper: fingersense_touch_up() finished
+12-17 19:35:00.147  3879  3879 I HwLauncher: FPSMonitor  [Launcher , dispatchTouchEvent begin, false, true] up event  x = 460 y = 747
+12-17 19:35:00.147  3879  3879 I HwLauncher: FPSMonitor  [PagedView , onIntercept] up event  x = 460 y = 747
+12-17 19:35:00.148  3879  3879 I HwLauncher: FPSMonitor  [Launcher , dispatchTouchEvent end, false, true] up event  x = 460 y = 747
+12-17 19:35:00.148  3879  3879 V AudioManager: playSoundEffect   effectType: 0
+12-17 19:35:00.148  3879  3879 V AudioManager: querySoundEffectsEnabled...
+12-17 19:35:00.149  3879  3879 I HwLauncher: Launcher onclick begin com.huawei.android.launcher.BubbleTextView{c3725b5 VFED..CL. ...P..ID 264,686-528,969 #9c010102}
+12-17 19:35:00.149  3879  3879 I HwLauncher: Launcher.Utilities  startActivitySafely useLaunchAnimation = true
+12-17 19:35:00.149  3879  3879 I HwLauncher: Launcher.Utilities  startActivitySafely begin startActivity() for current user
+12-17 19:35:00.150  1795 11745 I ActivityManager_activity: startActivityMayWait, callerApp: ProcessRecord{c5c29c4 3879:com.huawei.android.launcher/u0a61}, intent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mm/.ui.LauncherUI bnds=[276,650][540,933] }
+12-17 19:35:00.151  1795 11745 I TransactionSponsor: Transact:getHwAdminCachedListto device policy manager service.
+12-17 19:35:00.151  1795 11745 I TransactionProcessor: HwDPMS received transaction_getHwFrameworkAdminList user: 0:4006
+12-17 19:35:00.151  1795 11745 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mm/.ui.LauncherUI bnds=[276,650][540,933]} from uid 10061 on display 0
+12-17 19:35:00.151  1795 11745 E PF_API_NATIVE: check perfhub service fail! 
+12-17 19:35:00.152  1795  2377 V HwPackageManagerService: Returning system default Launcher 
+12-17 19:35:00.152  1795 11745 E PF_API_NATIVE: check perfhub service fail! 
+12-17 19:35:00.152  1795 11745 I ActivityManager: ActivityRecord info: ActivityInfo{d33e63c com.tencent.mm.ui.LauncherUI}, euid: 0
+12-17 19:35:00.154  3180  3578 I ash     : doze package: com.tencent.mm, visible: true
+12-17 19:35:00.154  3180  3578 I ash     : com.tencent.mm { doze duration=3301 } transition to: running reason:visible
+12-17 19:35:00.154  3180  3578 I ash     : perform running actions!
+12-17 19:35:00.157  1795 11745 I ActivityManager_activity: insertTaskAtTop, setTaskToReturnTo: fromHome=true,lastStackTop=TaskRecord{37babfb #297 A=com.huawei.android.launcher U=0 StackId=0 sz=1}, isHomeStack=false, topTask=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=1}, task=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=1}
+12-17 19:35:00.157  1795 11745 I ActivityManager_activity: moveTaskToFront: moving tr=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=1} reason=bringingFoundTaskToFront
+12-17 19:35:00.157  1795 11745 I ActivityManager_activity: insertTaskAtTop, setTaskToReturnTo: fromHome=true,lastStackTop=TaskRecord{37babfb #297 A=com.huawei.android.launcher U=0 StackId=0 sz=1}, isHomeStack=false, topTask=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=1}, task=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=1}
+12-17 19:35:00.158  1795 11745 V HwWindowManagerService: moveTaskToTop mTaskChanged:true
+12-17 19:35:00.158  1795 11745 I WindowManger_windowChange: oldFocusWindow: Window{773320 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}, currentFocusWindow: null, currentFocusApp: AppWindowToken{b6efcd1 token=Token{a978b5b ActivityRecord{5f12a6a u0 com.tencent.mm/.ui.LauncherUI t383}}}
+12-17 19:35:00.159  1795 11745 V HwWindowManagerService: setFocusedApp update app ops, mTaskChanged set to:false
+12-17 19:35:00.160  1795 11745 I FreezeScreenScene: scheduleCheckFreezeScreen sendMessageDelayed
+12-17 19:35:00.160  1795 11745 I ActivityManager_activity: Start pausing: ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297}
+12-17 19:35:00.160  1795 11745 D PowerManagerService: acquire lock=230301592, flags=0x1, tag="*launch*", name=android, ws=WorkSource{10105}, uid=1000, pid=1795
+12-17 19:35:00.160  1795 11745 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:00.160  1795 11745 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:00.161  1795 11745 I ActivityManager_activity: resumeTopActivityLocked: Skip resume: need to start pausing
+12-17 19:35:00.161  1795 11745 I ActivityManager_activity: resumeTopActivityLocked: Skip resume: some activity pausing.
+12-17 19:35:00.164  3879  3879 I HwLauncher: Launcher.Utilities  startActivitySafely end startActivity() for current user
+12-17 19:35:00.164  3879  3879 I HwLauncher: Launcher this view's parent is not SearchGridView , so no need to reportRecentApp.
+12-17 19:35:00.164  3879  3879 I HwLauncher: Launcher onclick end
+12-17 19:35:00.171  3879  3879 I HwLauncher: Launcher onPause()
+12-17 19:35:00.172  3879 20628 I HwLauncher: Launcher.MotionManager stopMotionAppsReco begin,mFlg = 403
+12-17 19:35:00.172  3879 20628 D MotionDetectionManager: stopMotionAppsReco motionApps: 403
+12-17 19:35:00.172  3879 20628 D MotionDetectionManager: stopMotionAppsReco not recognition motionApps 403
+12-17 19:35:00.172  3879 20628 W HwLauncher: Launcher.MotionManager stopMotionAppsReco service flg 403 is unavailable
+12-17 19:35:00.172  1795 15987 I ActivityManager_activity: Moving to PAUSED: ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297} (pause complete)
+12-17 19:35:00.173   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:35:00.175  3180  3332 D ScenarioService: new above launcher pkgs: [com.tencent.mm]
+12-17 19:35:00.190  1795 15987 I ActivityManager_activity: completedResumed: ActivityRecord{5f12a6a u0 com.tencent.mm/.ui.LauncherUI t383}, launchTrack: activityPaused resumeTopComplete
+12-17 19:35:00.192  2883  2992 I HwSystemManager: NotificationGuideService:handle MSG_ACTIVIY_FOREGROUND, uid:10105
+12-17 19:35:00.192  3180  3578 D HwMultiWindowEx: isInMultiWindowMode ret: 0
+12-17 19:35:00.192  3180  3593 I BacklightControl: Ratio: 100 Auto: true
+12-17 19:35:00.193  1795  1809 I MultiTaskManagerService: onForegroundActivitiesChanged pid = 4492, uid = 10105
+12-17 19:35:00.193  3180  3578 I ThermalStateManager: handle action thermal policy:100000
+12-17 19:35:00.193  1795  3225 I LightsService: setLcdRatio ratio:100 autoAdjust:true
+12-17 19:35:00.194  1795  3225 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:00.195  1795  2778 W ActivityManager: getTasks: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:00.196  1795  6986 I HwNetworkPolicy: onTransact, code = 203
+12-17 19:35:00.198  2883  3258 I HwNetworkPolicyManager: getHwUidPolicy uid = 10105 policy = 0
+12-17 19:35:00.201  1795  3111 I NotificationManager: cancelNotificationWithTag pid 4492,uid = 10105,tag = null,pkg =com.tencent.mm,id =4097
+12-17 19:35:00.202  1795  1795 I NotificationManager: cancelNotification,index:0
+12-17 19:35:00.202  1795  1795 I NotificationManager: cancelNotification,cancelNotificationLocked,callingUid = 10105,callingPid = 4492
+12-17 19:35:00.202  1795  1795 I NotificationManager: cancelNotificationLocked called,tell the app,reason = 8

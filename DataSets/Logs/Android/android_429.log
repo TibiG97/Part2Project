@@ -1,0 +1,100 @@
+12-17 19:42:43.396  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:42:43.396  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:42:43.397  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:42:43.397  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:42:43.397  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:42:43.398  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:42:43.398  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:42:43.398  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:42:43.431 20894 20910 I ChinaUploader: getOutputStream
+12-17 19:42:43.431 20894 20910 I ChinaUploader: skip4096000
+12-17 19:42:43.455 20894 20910 I ChinaUploader: ds.flush()
+12-17 19:42:43.455 20894 20910 I ChinaUploader: ds.flush() end
+12-17 19:42:43.455 20894 20910 I ChinaUploader: CommonUtils.closeDataOutputStream
+12-17 19:42:43.455 20894 20910 I ChinaUploader:  statusLine before
+12-17 19:42:43.489   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:94) watch thread onLoop... 
+12-17 19:42:43.490   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:42:44.044  1795  1795 I TrafficMonitor: update:rxPkts:685,txPkts:1329,rxBytes:37772,txBytes:1829522
+12-17 19:42:44.044  1795  1795 I TrafficMonitor: start expired. level:3
+12-17 19:42:44.044  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:42:44.442  1795 16501 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:44.442  1795 16501 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.442  1795 16501 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:42:44.446  3218  3218 I QImsService:  : onOemHookRawEvent begin.
+12-17 19:42:44.446  3168  3168 I CHR_QcChrModemService: onModemInfo: type=3,valueLen=40,subId=0
+12-17 19:42:44.446  3168  3168 I CHR_QcChrModemService: reportMmEvent
+12-17 19:42:44.446  3218  3218 I QImsService:  : isIMSUnsolOemHookEvent is true
+12-17 19:42:44.446  3218  3218 I QImsService:  : onOemHookRawEvent event = 598026
+12-17 19:42:44.446  3168  3168 I CHR_QcChrModemService: reportMmEvent: RejectType=69,OrgRejectCause=0,OptRejectCause=0,RejectDomain=3,RejectPlmn=4587535,RejectCellId=161,RejectLa=10167,RejectRa=-1,RejectRatType=2
+12-17 19:42:44.446  3218  3218 I QImsService: ImsServiceSub : onGWModemInfo begin
+12-17 19:42:44.446  3218  3218 E QImsService: ImsServiceSub : unknow tag
+12-17 19:42:44.449  3168  3168 I CHR_ProtocolLogManager: reportAbnormalLevelA ChrEventInfo: faultID = 11, sub = 0, logRequest = 0, mDate = Sat Dec 17 19:42:44 GMT+08:00 2016
+12-17 19:42:44.450  3168  3307 I CHR_ProtocolLogManager: The event is: 2
+12-17 19:42:44.450  3168  3307 I CHR_ProtocolLogManager: handleReportChrAPCommonPara faultID:11 sub:0 mLogRequest:0
+12-17 19:42:44.456  3168  3307 W System.err: java.lang.reflect.InvocationTargetException
+12-17 19:42:44.456  3168  3307 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-17 19:42:44.456  3168  3307 W System.err: 	at com.huawei.android.chr.qcom.QcomModemInfoCollector.getHardWareVersion(QcomModemInfoCollector.java:1462)
+12-17 19:42:44.456  3168  3307 W System.err: 	at com.huawei.android.chr.ProtocolLogManager.addSubCommonBaseParaInfo(ProtocolLogManager.java:275)
+12-17 19:42:44.456  3168  3307 W System.err: 	at com.huawei.android.chr.ProtocolLogManager.addAPCommonParaForEvent(ProtocolLogManager.java:381)
+12-17 19:42:44.456  3168  3307 W System.err: 	at com.huawei.android.chr.ProtocolLogManager.handleReportChrAPCommonPara(ProtocolLogManager.java:595)
+12-17 19:42:44.456  3168  3307 W System.err: 	at com.huawei.android.chr.ProtocolLogManager.handleMessage(ProtocolLogManager.java:153)
+12-17 19:42:44.456  3168  3307 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+12-17 19:42:44.456  3168  3307 W System.err: 	at android.os.Looper.loop(Looper.java:156)
+12-17 19:42:44.456  3168  3307 W System.err: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-17 19:42:44.457  3168  3307 W System.err: Caused by: com.huawei.android.util.NoExtAPIException: method not supported.
+12-17 19:42:44.457  3168  3307 W System.err: 	at com.huawei.android.manufacture.ProjectMenuCustEx.getApparatusModel(ProjectMenuCustEx.java:79)
+12-17 19:42:44.457  3168  3307 W System.err: 	... 9 more
+12-17 19:42:44.457  3168  3307 D QmiChr_Native: Enter QmiChr_FetchSignalFromModem
+12-17 19:42:44.457  3168  3307 D QmiChr_Native: FetchSignalFromModem, maxSize = 6, input_len = 2
+12-17 19:42:44.457  3168  3307 E         : come into oem_qmi_common_stream_from_modem_len --->modem 
+12-17 19:42:44.458  3168  3307 D         : Lib:oem_qmi_cmd:Build socket connection success. And retry:0
+12-17 19:42:44.458  3168  3307 E         : Lib:oem_qmi_cmd: Send to server  passed!!
+12-17 19:42:44.458   800  1015 D         : oem-qmi: Connection accepted
+12-17 19:42:44.458   800  1015 D         : oem-qmi: recv_id_l = 14 recv_id=14
+12-17 19:42:44.458   800  1015 D         : oem-qmi: Waiting to accept connection
+12-17 19:42:44.458   800 20930 D         : oem-qmi: request_handler recv_id = 14
+12-17 19:42:44.460  3168  3307 E         : ######  output 0
+12-17 19:42:44.460  3168  3307 E         : ---qmi : rapi_event_type=10044, qmi_ret=0, return_status=1. 
+12-17 19:42:44.460  3168  3307 D QmiChr_Native: FetchSignalFromModem, result =1, outputLen =6
+12-17 19:42:44.460  3168  3307 D QmiChr_Native: Enter QmiChr_FetchModemInfo
+12-17 19:42:44.460  3168  3307 D QmiChr_Native: QmiChr_FetchModemInfo, maxSize = 24, input_len = 3
+12-17 19:42:44.460  3168  3307 E         : come into oem_qmi_common_stream_from_modem_len --->modem 
+12-17 19:42:44.460  3168  3307 D         : Lib:oem_qmi_cmd:Build socket connection success. And retry:0
+12-17 19:42:44.460   800  1015 D         : oem-qmi: Connection accepted
+12-17 19:42:44.460  3168  3307 E         : Lib:oem_qmi_cmd: Send to server  passed!!
+12-17 19:42:44.460   800  1015 D         : oem-qmi: recv_id_l = 15 recv_id=15
+12-17 19:42:44.461   800  1015 D         : oem-qmi: Waiting to accept connection
+12-17 19:42:44.461   800 20931 D         : oem-qmi: request_handler recv_id = 15
+12-17 19:42:44.463  3168  3307 E         : ######  output 0
+12-17 19:42:44.463  3168  3307 E         : ---qmi : rapi_event_type=10051, qmi_ret=0, return_status=1. 
+12-17 19:42:44.463  3168  3307 D QmiChr_Native: QmiChr_FetchModemInfo, result =1, outputLen =24
+12-17 19:42:44.466  3168  3307 D QmiChr_Native: Enter QmiChr_GetProtocolInfo
+12-17 19:42:44.466  3168  3307 D QmiChr_Native: GetProtocolInfo, max Size is 1024.
+12-17 19:42:44.466  3168  3307 E         : come into oem_qmi_common_stream_from_modem_len --->modem 
+12-17 19:42:44.466  3168  3307 D         : Lib:oem_qmi_cmd:Build socket connection success. And retry:0
+12-17 19:42:44.466  3168  3307 E         : Lib:oem_qmi_cmd: Send to server  passed!!
+12-17 19:42:44.467   800  1015 D         : oem-qmi: Connection accepted
+12-17 19:42:44.467   800  1015 D         : oem-qmi: recv_id_l = 14 recv_id=14
+12-17 19:42:44.467   800  1015 D         : oem-qmi: Waiting to accept connection
+12-17 19:42:44.467   800 20932 D         : oem-qmi: request_handler recv_id = 14
+12-17 19:42:44.471  3168  3307 E         : ######  output 1
+12-17 19:42:44.471  3168  3307 E         : ---qmi : rapi_event_type=10024, qmi_ret=0, return_status=1. 
+12-17 19:42:44.471  3168  3307 D QmiChr_Native: GetProtocolInfo, result =1, outputLen =16
+12-17 19:42:44.474  3168  3307 I CHR_ChrCommonInfo: getSlotCardState = MASTER_ONLY
+12-17 19:42:44.479  1795 20747 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:44.479  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000011000000514f454d484f4f4bfa0308000100000000]
+12-17 19:42:44.479  1795 20747 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.479  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 28 bytes data for SUB0
+12-17 19:42:44.479  3382  3399 D QcrilMsgTunnelSocket: Response ID 525306 is not served in this process.
+12-17 19:42:44.479  3382  3399 D QcrilMsgTunnelSocket: To broadcast an Intent via the notifier to external apps
+12-17 19:42:44.480  3382  3382 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+12-17 19:42:44.480  3382  3382 I SendBroadcastPermission: action:com.qualcomm.intent.action.ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW, mPermissionType:0
+12-17 19:42:44.482  1795  3253 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{4ff57fc 3382:com.qualcomm.qcrilmsgtunnel/1001}
+12-17 19:42:44.484  3218  3218 D QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+12-17 19:42:44.484  3218  3218 D QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+12-17 19:42:44.490  1795 16500 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:44.490  1795 16500 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:44.492  3218  3517 I QImsService: ImsSenderRxr : Response data: [12, 13, -1, -1, -1, -1, 16, 3, 24, -52, 1, 32, 0, 8, 2, 21, 0, 0, 0, 0, 32, 14][SUB0]
+12-17 19:42:44.492  3218  3517 I QImsService: ImsSenderRxr :  Tag -1 3 204 0[SUB0]
+12-17 19:42:44.492  3218  3517 I QImsService: ImsSenderRxr :  responseImsRegistration[SUB0]
+12-17 19:42:44.492  3168  3307 E CHR_ProtocolLogManager: sub_other: 1

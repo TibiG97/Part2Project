@@ -1,0 +1,100 @@
+Dec 11 17:19:25 LabSZ sshd[23678]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru 
+Dec 11 17:19:32 LabSZ sshd[23678]: Failed password for invalid user hadoop from 82.200.65.218 port 39388 ssh2
+Dec 11 17:19:32 LabSZ sshd[23678]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:19:33 LabSZ sshd[23680]: Invalid user hadoop from 82.200.65.218
+Dec 11 17:19:33 LabSZ sshd[23680]: input_userauth_request: invalid user hadoop [preauth]
+Dec 11 17:19:33 LabSZ sshd[23680]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:19:33 LabSZ sshd[23680]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru 
+Dec 11 17:19:40 LabSZ sshd[23680]: Failed password for invalid user hadoop from 82.200.65.218 port 39994 ssh2
+Dec 11 17:19:41 LabSZ sshd[23680]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:19:42 LabSZ sshd[23682]: Invalid user hadoop from 82.200.65.218
+Dec 11 17:19:42 LabSZ sshd[23682]: input_userauth_request: invalid user hadoop [preauth]
+Dec 11 17:19:42 LabSZ sshd[23682]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:19:42 LabSZ sshd[23682]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru 
+Dec 11 17:19:48 LabSZ sshd[23682]: Failed password for invalid user hadoop from 82.200.65.218 port 40592 ssh2
+Dec 11 17:19:48 LabSZ sshd[23682]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:19:50 LabSZ sshd[23684]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru  user=root
+Dec 11 17:19:57 LabSZ sshd[23684]: Failed password for root from 82.200.65.218 port 41200 ssh2
+Dec 11 17:19:57 LabSZ sshd[23684]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:19:58 LabSZ sshd[23686]: Invalid user test from 82.200.65.218
+Dec 11 17:19:58 LabSZ sshd[23686]: input_userauth_request: invalid user test [preauth]
+Dec 11 17:19:58 LabSZ sshd[23686]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:19:58 LabSZ sshd[23686]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru 
+Dec 11 17:20:05 LabSZ sshd[23686]: Failed password for invalid user test from 82.200.65.218 port 41872 ssh2
+Dec 11 17:20:05 LabSZ sshd[23686]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:20:06 LabSZ sshd[23688]: Invalid user test from 82.200.65.218
+Dec 11 17:20:06 LabSZ sshd[23688]: input_userauth_request: invalid user test [preauth]
+Dec 11 17:20:06 LabSZ sshd[23688]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:20:06 LabSZ sshd[23688]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru 
+Dec 11 17:20:13 LabSZ sshd[23688]: Failed password for invalid user test from 82.200.65.218 port 42476 ssh2
+Dec 11 17:20:13 LabSZ sshd[23688]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:20:14 LabSZ sshd[23690]: Invalid user cashier from 82.200.65.218
+Dec 11 17:20:14 LabSZ sshd[23690]: input_userauth_request: invalid user cashier [preauth]
+Dec 11 17:20:14 LabSZ sshd[23690]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:20:14 LabSZ sshd[23690]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru 
+Dec 11 17:20:22 LabSZ sshd[23690]: Failed password for invalid user cashier from 82.200.65.218 port 43036 ssh2
+Dec 11 17:20:22 LabSZ sshd[23690]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:20:23 LabSZ sshd[23692]: Invalid user nagios from 82.200.65.218
+Dec 11 17:20:23 LabSZ sshd[23692]: input_userauth_request: invalid user nagios [preauth]
+Dec 11 17:20:23 LabSZ sshd[23692]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:20:23 LabSZ sshd[23692]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru 
+Dec 11 17:20:29 LabSZ sshd[23692]: Failed password for invalid user nagios from 82.200.65.218 port 43724 ssh2
+Dec 11 17:20:30 LabSZ sshd[23692]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:20:31 LabSZ sshd[23694]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru  user=git
+Dec 11 17:20:38 LabSZ sshd[23694]: Failed password for git from 82.200.65.218 port 44312 ssh2
+Dec 11 17:20:38 LabSZ sshd[23694]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:20:39 LabSZ sshd[23696]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru  user=git
+Dec 11 17:20:46 LabSZ sshd[23696]: Failed password for git from 82.200.65.218 port 44922 ssh2
+Dec 11 17:20:46 LabSZ sshd[23696]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:20:47 LabSZ sshd[23698]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru  user=git
+Dec 11 17:20:54 LabSZ sshd[23698]: Failed password for git from 82.200.65.218 port 45536 ssh2
+Dec 11 17:20:54 LabSZ sshd[23698]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:20:55 LabSZ sshd[23700]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru  user=git
+Dec 11 17:21:02 LabSZ sshd[23700]: Failed password for git from 82.200.65.218 port 46078 ssh2
+Dec 11 17:21:02 LabSZ sshd[23700]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:21:03 LabSZ sshd[23702]: Invalid user gpadmin from 82.200.65.218
+Dec 11 17:21:03 LabSZ sshd[23702]: input_userauth_request: invalid user gpadmin [preauth]
+Dec 11 17:21:03 LabSZ sshd[23702]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:21:03 LabSZ sshd[23702]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru 
+Dec 11 17:21:10 LabSZ sshd[23702]: Failed password for invalid user gpadmin from 82.200.65.218 port 46630 ssh2
+Dec 11 17:21:10 LabSZ sshd[23702]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:21:11 LabSZ sshd[23704]: Invalid user dspace from 82.200.65.218
+Dec 11 17:21:11 LabSZ sshd[23704]: input_userauth_request: invalid user dspace [preauth]
+Dec 11 17:21:11 LabSZ sshd[23704]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:21:11 LabSZ sshd[23704]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru 
+Dec 11 17:21:18 LabSZ sshd[23704]: Failed password for invalid user dspace from 82.200.65.218 port 47188 ssh2
+Dec 11 17:21:18 LabSZ sshd[23704]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:21:19 LabSZ sshd[23706]: Invalid user java from 82.200.65.218
+Dec 11 17:21:19 LabSZ sshd[23706]: input_userauth_request: invalid user java [preauth]
+Dec 11 17:21:19 LabSZ sshd[23706]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:21:19 LabSZ sshd[23706]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru 
+Dec 11 17:21:26 LabSZ sshd[23706]: Failed password for invalid user java from 82.200.65.218 port 47740 ssh2
+Dec 11 17:21:26 LabSZ sshd[23706]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:21:27 LabSZ sshd[23708]: Invalid user java from 82.200.65.218
+Dec 11 17:21:27 LabSZ sshd[23708]: input_userauth_request: invalid user java [preauth]
+Dec 11 17:21:27 LabSZ sshd[23708]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:21:27 LabSZ sshd[23708]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru 
+Dec 11 17:21:34 LabSZ sshd[23708]: Failed password for invalid user java from 82.200.65.218 port 48282 ssh2
+Dec 11 17:21:34 LabSZ sshd[23708]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:21:35 LabSZ sshd[23710]: Invalid user tomcat from 82.200.65.218
+Dec 11 17:21:35 LabSZ sshd[23710]: input_userauth_request: invalid user tomcat [preauth]
+Dec 11 17:21:35 LabSZ sshd[23710]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:21:35 LabSZ sshd[23710]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru 
+Dec 11 17:21:42 LabSZ sshd[23710]: Failed password for invalid user tomcat from 82.200.65.218 port 48890 ssh2
+Dec 11 17:21:42 LabSZ sshd[23710]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:21:43 LabSZ sshd[23712]: Invalid user tomcat from 82.200.65.218
+Dec 11 17:21:43 LabSZ sshd[23712]: input_userauth_request: invalid user tomcat [preauth]
+Dec 11 17:21:43 LabSZ sshd[23712]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:21:43 LabSZ sshd[23712]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru 
+Dec 11 17:21:50 LabSZ sshd[23712]: Failed password for invalid user tomcat from 82.200.65.218 port 49428 ssh2
+Dec 11 17:21:50 LabSZ sshd[23712]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:21:52 LabSZ sshd[23714]: Invalid user tomcat from 82.200.65.218
+Dec 11 17:21:52 LabSZ sshd[23714]: input_userauth_request: invalid user tomcat [preauth]
+Dec 11 17:21:52 LabSZ sshd[23714]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:21:52 LabSZ sshd[23714]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru 
+Dec 11 17:21:59 LabSZ sshd[23714]: Failed password for invalid user tomcat from 82.200.65.218 port 50032 ssh2
+Dec 11 17:21:59 LabSZ sshd[23714]: Received disconnect from 82.200.65.218: 11: Bye Bye [preauth]
+Dec 11 17:22:00 LabSZ sshd[23716]: Invalid user tomcat from 82.200.65.218
+Dec 11 17:22:00 LabSZ sshd[23716]: input_userauth_request: invalid user tomcat [preauth]
+Dec 11 17:22:00 LabSZ sshd[23716]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:22:00 LabSZ sshd[23716]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=gw-bell-xen.ll-nsk.zsttk.ru 

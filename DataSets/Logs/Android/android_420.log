@@ -1,0 +1,100 @@
+12-17 19:42:23.133  1795  3121 D PowerManagerService: acquire lock=35489510, flags=0x1, tag="dispatcher", name=android, ws=null, uid=1000, pid=7194
+12-17 19:42:23.134  1795  3121 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:23.135  1795 11747 D PowerManagerService: release:lock=220791105, flg=0x0, tag="eventloop", name=android", ws=null, uid=1000, pid=7194
+12-17 19:42:23.135  1795 11747 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:23.234  1795  3247 D PowerManagerService: release:lock=35489510, flg=0x0, tag="dispatcher", name=android", ws=null, uid=1000, pid=7194
+12-17 19:42:23.234  1795  3247 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:23.240  1795  1795 I TrafficMonitor: update:rxPkts:17,txPkts:18,rxBytes:8692,txBytes:6399
+12-17 19:42:23.240  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:42:23.240  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:42:23.448  1795 16501 D SmartHeartBeat: setAlarmsPending ...
+12-17 19:42:23.449  3180  3578 I BlackListAlarmRestrict: [pending] net alarms
+12-17 19:42:23.690   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:94) watch thread onLoop... 
+12-17 19:42:23.691   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:42:23.692   633   692 I eSpaceService: Watch Thread{4481} LoginC.doWatch(LoginC.java:1459) Login_By_Step-> watch count =  0
+12-17 19:42:23.781  3626  3755 I LogTrack: msg = 0 received
+12-17 19:42:23.782  3626  3755 I LogTrack: Handler Thread:com.huawei.lcagent.service.LogTrack
+12-17 19:42:23.782  3626  3754 I LogDatabase: moveToUploaingDir
+12-17 19:42:23.783  3626  3754 I LogDatabase: moveToUploaingDir
+12-17 19:42:23.784  3626  3754 I PackAutoLog: PackAutoLog onPrePack
+12-17 19:42:23.787  3626  3754 I LogDatabase: moveToUploaingDir
+12-17 19:42:23.794  3626  3754 I LogDatabase: moveToUploaingDir
+12-17 19:42:23.796  3626  3754 I LogDatabase: moveToUploaingDir
+12-17 19:42:23.797  3626  3754 I LogDatabase: moveToUploaingDir
+12-17 19:42:23.799  3626  3754 I LogDatabase: moveToUploaingDir
+12-17 19:42:23.806  3626  3754 W LogsInDoneDirManger: getLogDetailInfo: cannot found.
+12-17 19:42:23.813  3626  3754 W LogsInDoneDirManger: getLogDetailInfo: cannot found.
+12-17 19:42:23.817  1795  1795 I TrafficMonitor: expired arrive. level:-1
+12-17 19:42:23.818  1795  1795 I TrafficMonitor: during_ms:2002,period_ms:2000
+12-17 19:42:23.818  1795  1795 I TrafficMonitor: count:123,rx_sum:17,tx_sum:18,rxBytes:8692,during_ms:2002,rx_speed:4341.658341658343,tx_speed:3196.3036963036966,rto:0.9444444444444444
+12-17 19:42:23.818  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:17, rxSpd:4341B/s, txpkt:18, txSpd:3196
+12-17 19:42:23.821  3626  3754 W LogsInDoneDirManger: getLogDetailInfo: cannot found.
+12-17 19:42:23.827  3626  3754 W LogsInDoneDirManger: getLogDetailInfo: cannot found.
+12-17 19:42:23.835  3626  3754 W LogsInDoneDirManger: getLogDetailInfo: cannot found.
+12-17 19:42:23.842  3626  3754 W LogsInDoneDirManger: getLogDetailInfo: cannot found.
+12-17 19:42:23.849  3626  3754 W LogsInDoneDirManger: getLogDetailInfo: cannot found.
+12-17 19:42:23.853  3626  3754 I LogDatabase: packAllLogInDoneDir, packageDetailsInfoJSONArray [{},{},{},{},{},{},{}]
+12-17 19:42:23.861  3626  3753 I LogCollectService: msg = 14 received
+12-17 19:42:23.861  3626  3753 I LogCollectService: handlePackAllLogDone eventinfoSize =  1260
+12-17 19:42:23.862  3626  3753 I LogCollectService: HwLogUpload exist
+12-17 19:42:23.863  1795 16232 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{2080b89 3626:com.huawei.imonitor/1000}, flags: 10000400
+12-17 19:42:23.864  1795 16232 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{190b427 u0 euid: 0 com.huawei.logupload/.LogUploadService}, euid: 0
+12-17 19:42:23.864  1795 16232 I ActivityManager_service: mAm.startProcessLocked for service: ServiceRecord{190b427 u0 euid: 0 com.huawei.logupload/.LogUploadService}, appinfo euid: 0
+12-17 19:42:23.864  1795 16232 I ActivityManager: new Process app=ProcessRecord{eaac6d4 0:com.huawei.logupload/1000}, name: com.huawei.logupload, euid: 0
+12-17 19:42:23.874  1795 16232 I ActivityManager: Start proc 20894:com.huawei.logupload/1000 for service com.huawei.logupload/.LogUploadService
+12-17 19:42:23.875  3626  3753 I LogCollectService: handlePackAllLogDone zipFileSize = 6476143
+12-17 19:42:23.877  3180  3578 I ash     : start process:com.huawei.logupload reason:service pid:20894 uid:1000 pkgs:null
+12-17 19:42:23.878 20894 20894 I         : power log dlsym ok
+12-17 19:42:23.894 20894 20894 D ActivityThread: ActivityThread,attachApplication
+12-17 19:42:23.896  1795 20747 D ActivityManager: ActivityManagerService,attachApplication,callingPid = 20894
+12-17 19:42:23.896  1795 20747 I ActivityManager_service: New app record ProcessRecord{eaac6d4 20894:com.huawei.logupload/1000} thread=android.os.BinderProxy@343707d pid=20894 procname=com.huawei.logupload
+12-17 19:42:23.900  1795  2377 E ProcessInfoCollector: getProcessInfo: failed to find this proc 
+12-17 19:42:23.921 20894 20894 W System  : ClassLoader referenced unknown path: /system/app/HwLogUploadService/lib/arm64
+12-17 19:42:23.925 20894 20894 W art     : JIT profile information will not be recorded: profile file does not exits.
+12-17 19:42:23.946 20894 20894 W Log     : HWLog = false
+12-17 19:42:23.946 20894 20894 W Log     : HWModuleLog = false
+12-17 19:42:23.948 20894 20894 I DataMigrateUtils: moveDataForNVersion isNVersion
+12-17 19:42:23.950 20894 20894 I StrategyJudger: isBetaStrategy
+12-17 19:42:23.951 20894 20907 I LogUploadHandler: msg = 7 received
+12-17 19:42:23.955 20894 20894 W LogUploadService: preNetWorkType:1; currentNetWorkType:1
+12-17 19:42:23.956 20894 20894 I LogUploadService: onStartCommand com.huawei.lcagent.UPLOAD_REQUEST
+12-17 19:42:23.958 20894 20894 I LogUploadService:  /storage/emulated/0/log/LogService/uploading/MLA-AL00_MLA-AL00C00B318-log_D470C2EF_20161217194207137_ALL.zip 
+12-17 19:42:23.958 20894 20894 I LogUploadService: com.huawei.logupload.data.LogUploadInfo@948b0b5
+12-17 19:42:23.962 20894 20907 I LogUploadHandler: msg = 2 received
+12-17 19:42:23.999 20894 20907 I CommonConstants: setTaskStatus id: 381
+12-17 19:42:24.006 20894 20907 E UploadTrack: path:/storage/emulated/0/log/LogService/12/uploadtrack.txt
+12-17 19:42:24.006 20894 20907 I LogUploadHandler: msg = 3 received
+12-17 19:42:24.007 20894 20907 I StrategyJudger:  BETA_USER
+12-17 19:42:24.007 20894 20907 I LogUploadHandler: msg = 0 received
+12-17 19:42:24.008 20894 20907 I UploadThreadManager: upload0
+12-17 19:42:24.009 20894 20907 I UploadThreadManager: after start
+12-17 19:42:24.009 20894 20910 I StrategyJudger:  BETA_USER
+12-17 19:42:24.010 20894 20910 I CommonConstants: setTaskStatus id: 381
+12-17 19:42:24.014 20894 20910 I Lock    : acquire: get wake and wifi lock!
+12-17 19:42:24.014 20894 20910 I BetaNotificationSent: sendBroadcast to show notifition
+12-17 19:42:24.014 20894 20910 I BetaNotificationSent: sendBroadcast , size < 10 * SIZE_M , do not send
+12-17 19:42:24.034  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:42:24.034  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:42:24.035  3858  4126 I amsnl   : csr
+12-17 19:42:24.035  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 27 -86 -7 296 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:42:24.035  1795  3139 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:42:24.035  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 27 -86 -7 296 2147483647 2147483647 false gw|lte
+12-17 19:42:24.035  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:42:24.041  1795 16501 D wifiserviceimpl: netmask =16580607
+12-17 19:42:24.041  3858  4126 I amsnl   : m1: false
+12-17 19:42:24.043  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+12-17 19:42:24.044  1795 11745 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:42:24.045  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:42:24.045  3858  4126 I amsnl   : c: true, w: false, t: false, l: false
+12-17 19:42:24.084 20894 20910 I ChinaServerRequster: logUploadRequest start
+12-17 19:42:24.086 20894 20910 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+12-17 19:42:24.106   816 20911 D DnsProxyListener: GetAddrInfoHandler addr: logservice.vmall.com {304, 917808, 1000} 118.194.56.239
+12-17 19:42:24.241  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:42:24.242  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:42:24.245  5215  5215 E wpa_supplicant: RSSI=-63;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:42:24.245  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:42:24.246  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:42:24.246  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-63 "Huawei-Employee"WPA_EAP
+12-17 19:42:24.246  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:42:24.247  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:42:24.249  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34

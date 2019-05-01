@@ -1,0 +1,100 @@
+12-17 19:32:25.577  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:32:25.578  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.huawei.health|10010|null|10099
+12-17 19:32:25.578  2852  2852 D StatusBar: applyInPlace=true shouldPeek=false alertAgain=true
+12-17 19:32:25.578  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.huawei.health|10010|null|10099
+12-17 19:32:25.578  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.huawei.health|10010|null|10099, group=0|com.huawei.health|10010|null|10099
+12-17 19:32:25.578  2852  2852 D StatusBar: reusing notification for key: 0|com.huawei.health|10010|null|10099
+12-17 19:32:25.578  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:32:25.579  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:32:25.579  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:32:25.587  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:32:25.587  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:32:25.587  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:32:25.588  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:32:25.598  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:32:25.599  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:32:25.600  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:32:25.600  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:32:25.725  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:32:25.725  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:32:25.725  1795  2748 D HwAmbientLuxFilterAlgo: t=123051441,BT=123051941,DT=123052441,BT1=123055441,DT1=123059441,Bn=false,Dn=false,lx=[11.0/123049936, 13.0/123050237, 12.0/123050538, 12.0/123050839, 12.0/123051140, 12.0/123051441],mLx=13.0,s=5.0,ss=2.0952382,AuIntervened=false,mProximityState=false,bLux=92.0,dLux=1.5,bLux1=92.0,dLux1=1.5
+12-17 19:32:25.734  1795  2371 E LightSensor: read Events lux: 10.0
+12-17 19:32:25.735  1795  1825 D AutomaticBrightnessController: ambient lux=10.0,timeStamp =442882097969000
+12-17 19:32:26.026  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:32:26.026  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:32:26.069  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:32:26.079  1795  2728 D hw_netstat: total/902/375,com.huawei.espacev2/827/316,unknown:0/75/59
+12-17 19:32:26.083  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSRTT=250  WEBSNDDUPACKS=0  SENDSEGS=4  RESENDSEGS=0  RECVSEGS=3  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=2  RTTSEGS=2  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:32:26.084  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-56  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=64, rtt_tcp_duration=525, rtt_lan_duration=172, rtt_lan_failures=0, rtt_lan_succ=4, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:32:26.085  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:32:26.086  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:32:26.101  1795  1825 D AutomaticBrightnessController: ambient lux=11.0,timeStamp =442882463227000
+12-17 19:32:26.106  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:32:26.109  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=5, mTXbad=0, mRXGood=4] rssi=-56
+12-17 19:32:26.113  1795  2728 E HwCHRWebMonitor: running processName=com.android.incallui
+12-17 19:32:26.116  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.huawei.espacev2 UID=10102  WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:32:26.117  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:32:26.117  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 0, tx = 0
+12-17 19:32:26.118  1795  2728 D HwArpVerifier: getDNSFailedCntDiff  dnsNewFailCnt =  1001, aws.getOldDnsFailedCnt() = 1001, dnsDiff = 0
+12-17 19:32:26.327  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:32:26.327  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:32:26.441  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:32:26.441  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:32:26.452  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 0.000000
+12-17 19:32:26.453  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =-1325947436 
+12-17 19:32:26.456  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:true
+12-17 19:32:26.456  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:32:26.458  1795  1825 D DisplayPowerController: Animating brightness: target=24, rate=40
+12-17 19:32:26.459  1795  1825 I PowerManager_screenOn: PowerManagerService goToSleepNoUpdateLocked: eventTime=123052175, reason=7, flags=0, uid=1000
+12-17 19:32:26.459  1795  1825 I PowerManagerService: Going to sleep due to proximity...
+12-17 19:32:26.459  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=3, reason=7, interactive=false, mInteractive=true, mInteractiveChanging=false
+12-17 19:32:26.460  5215  5215 E wpa_supplicant: RSSI=-55;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:32:26.460  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:32:26.461  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityPositivebyPhone -> updatePowerStateLocked
+12-17 19:32:26.462  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:32:26.462  1795  1825 D PowerManagerService: ready=true,policy=3,wakefulness=3,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:26.463  1795  1825 E PowerManagerService: startDreaming = true
+12-17 19:32:26.464  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-55 "Huawei-Employee"WPA_EAP
+12-17 19:32:26.464  1795  1825 D PowerManagerService: reallyGoToSleepNoUpdateLocked: eventTime=123052180, uid=1000
+12-17 19:32:26.464  1795  1825 I PowerManagerService: Sleeping (uid 1000)...
+12-17 19:32:26.465  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=0, reason=2, interactive=false, mInteractive=false, mInteractiveChanging=true
+12-17 19:32:26.466  1795  1825 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:26.466  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:32:26.468  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:32:26.473  1795  1795 D PowerManagerService: acquire lock=228612087, flags=0x1, tag="ActivityManager-Sleep", name=android, ws=null, uid=1000, pid=1795
+12-17 19:32:26.473  1795  1795 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:26.473  1795  1795 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:32:26.474  1795  1795 I ActivityManager_activity: Start pausing: ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}
+12-17 19:32:26.475  3608  3608 I InCall  : VideoCallFragment - onPause:
+12-17 19:32:26.476  3608  3608 I InCall  : VideoCallPresenter - isVideoCallWorking, state is: 3
+12-17 19:32:26.476  3608  3608 D InCall  : VideoCallPresenter - pauseVideo: Error bad state mPrimaryCall=[Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)] mVideoCall=null
+12-17 19:32:26.476  3608  3608 D InCall  : InCallActivity - onPause()...
+12-17 19:32:26.476  3608  3608 D InCall  : DialpadFragment - Notifying dtmf key up.
+12-17 19:32:26.477  3608  3608 D InCall  : ContactInfoCache - Contact lookup. In memory cache hit; lookup complete
+12-17 19:32:26.488  3608  3608 D InCall  : StatusBarNotifier - Showing notification for first time.
+12-17 19:32:26.488  3608  3608 D InCall  : StatusBarNotifier - Data changed.  Showing notification
+12-17 19:32:26.488  3608  3608 D InCall  : StatusBarNotifier - contactsentry_photo is null
+12-17 19:32:26.495  3608  3608 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:32:26.495  3608  3608 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:32:26.495  3608  3608 E InCall  : StatusBarNotifier - getNotificationBuilder
+12-17 19:32:26.523  1795  1825 I DisplayPowerController: checkPhoneWindowIsTop:pakcage name:com.android.incallui,ClassName name:com.android.incallui.InCallActivity
+12-17 19:32:26.524  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=0.0
+12-17 19:32:26.524  1795  1825 I DisplayPowerController: set brightness to DIM brightness:6
+12-17 19:32:26.524  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:32:26.524  3608  3608 D InCall  : StatusBarNotifier - Will show "hang-up" action in the ongoing active call Notification
+12-17 19:32:26.525  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:32:26.525  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=0
+12-17 19:32:26.525  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetScreenState: state=1
+12-17 19:32:26.525  1795  1825 D FpDataCollector: DisplayPowerState :OFF
+12-17 19:32:26.525  1795  2750 I HwLightsService: back light level before map = 0
+12-17 19:32:26.525  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:32:26.526  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:32:26.526  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:32:26.527  2852  2852 I HwBrightnessUtils: APS brightness=0.0,ConvertToPercentage=NaN
+12-17 19:32:26.527  3608  3608 E WindowManagerEx: ret: 0
+12-17 19:32:26.527  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:0 percentage:NaN
+12-17 19:32:26.527  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:0
+12-17 19:32:26.527  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:0
+12-17 19:32:26.528  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:0 fromUser:false
+12-17 19:32:26.528  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:0 fromUser:false
+12-17 19:32:26.528  1795 11746 D HwWindowManagerService: imeVis=false

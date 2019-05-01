@@ -1,0 +1,100 @@
+12-17 19:42:07.027  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:42:07.027  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:42:07.027  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:42:07.027  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:42:07.027  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:42:07.027  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:42:07.027  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:42:07.034  3626  3754 I EventInfoSnetCountManager: getSentSize id=7
+12-17 19:42:07.040  3626  3754 I LogDatabase:  filterLogList ,thisTypeThreshold = 10737418240 thisTypeSent = 12041750 type = radio
+12-17 19:42:07.041  3626  3754 I LogDatabase:  filterLogList , upload apr file
+12-17 19:42:07.041  3626  3754 I LogDatabase:  filterLogList while , eventId = 902050003 filename = Eventid_MLA-AL00_MLA-AL00C00B318-log_D470C2EF_20161217193008_902050003_NORMAL.zip  logTypeInfoList size = 1
+12-17 19:42:07.041 32607 20887 D BetaClub_Http: [HttpClient.getDataWithRetry] success 
+12-17 19:42:07.061  3626  3754 I EventInfoSnetCountManager: getSentSize id=4
+12-17 19:42:07.066  3626  3754 I EventInfoSnetCountManager: updateCountAndSize oldCount = 9 , oldSize = 66104639 , addCount = 1 , addSize = 473565 , type = Performance
+12-17 19:42:07.077  3626  3754 I LogDatabase:  filterLogList , logListSize = 569903919
+12-17 19:42:07.082  3626  3754 I EventInfoSnetCountManager: getSentSize id=4
+12-17 19:42:07.087  3626  3754 I LogDatabase:  filterLogList ,thisTypeThreshold = 1073741824 thisTypeSent = 66578204 type = Performance
+12-17 19:42:07.087  3626  3754 I LogDatabase: checkLogListWithQuota
+12-17 19:42:07.097  3626  3754 I ThresholdInfo: getThreshold: 128
+12-17 19:42:07.106  3626  3754 I ThresholdInfo: getThreshold: 128
+12-17 19:42:07.115  3626  3754 I ThresholdInfo: getThreshold: 128
+12-17 19:42:07.125  3626  3754 I ThresholdInfo: getThreshold: 128
+12-17 19:42:07.136  3626  3754 I ThresholdInfo: getThreshold: 128
+12-17 19:42:07.136  3626  3754 E SentLogNumThreshold: filt loglist failed
+12-17 19:42:07.136  3626  3754 I LogDatabase: checkLogListWithQuota, all log could be uplad
+12-17 19:42:07.137  3626  3754 I LogDatabase: packAllLogInDoneDir
+12-17 19:42:07.195  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:42:07.216  3626  3754 W DeviceInfoFile: !devFile.exists()
+12-17 19:42:07.217  3626  3754 I PackAutoLog: PackAutoLog onPrePack
+12-17 19:42:07.374 32607 20887 D BetaClub_Http: [HttpClient.getDataWithRetry] success 
+12-17 19:42:07.402  3180  4307 I AwareLog: MemoryRecoveryDMEPlugin: handle message MSG_MEM_LEAK_CHECK
+12-17 19:42:07.462  1795 20747 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:42:08.250  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:42:08.251  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:42:08.251  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:42:08.251  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:42:08.251  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:42:08.251  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:42:08.251  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:42:08.251  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:42:08.251  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:42:08.251  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:42:08.251  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:42:08.252  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:42:08.252  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:42:08.252  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:42:08.252  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:42:08.252  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:42:08.252  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:42:08.252  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:42:08.252  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:42:08.253   633   692 I eSpaceService: Watch Thread{4481} LoginC.doWatch(LoginC.java:1459) Login_By_Step-> watch count =  0
+12-17 19:42:08.256 32607 20887 D BetaClub_Http: [HttpClient.getDataWithRetry] success 
+12-17 19:42:08.282  1795  1819 I EventHub: monitor check touch devices
+12-17 19:42:08.282  1795  1819 I InputDispatcher: InputDispatcher::monitor frozen check!
+12-17 19:42:08.282  1795  1819 I InputDispatcher: frozenCheckLocked mDispatchFrozen=0 mNextUnblockedEvent=0
+12-17 19:42:08.297  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:42:23.002  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:42:23.003  1795 16499 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:42:23.005  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:42:23.005  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:42:23.005  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:42:23.005  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:42:23.005  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:42:23.005  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:42:23.005  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:42:23.005  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:42:23.005  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:42:23.005  1795 15988 D PowerManagerService: acquire lock=873242, flags=0x1, tag="dispatcher", name=android, ws=null, uid=1000, pid=7194
+12-17 19:42:23.005  1795 15988 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:23.005  1795 15988 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:42:23.006  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:42:23.006  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:42:23.006  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:42:23.006  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:42:23.006  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:42:23.006  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:42:23.006  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:42:23.006  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:42:23.006  7194 19339 I PushLog2824: [SocketRead_19:27:23-13099]received a msg cmdId:A0(android/null:-1)
+12-17 19:42:23.109  3180  3578 D PacketsControl: wifi connected. do nothing.
+12-17 19:42:23.115  1795  6988 I AlarmManager: set(PendingIntent{7c4d028: PendingIntentRecord{3c38496 android broadcastIntent}}) : type=0 triggerAtTime=1481975513115 win=0 tElapsed=444049479 maxElapsed=444049479 interval=0 flags=0x9
+12-17 19:42:23.116  1795  6988 I AlarmManager: remove(PendingIntent{7c4d028: PendingIntentRecord{3c38496 android broadcastIntent}}) changed bounds; rebatching
+12-17 19:42:23.118  7194 19339 I PushLog2824: [SocketRead_19:27:23-13099]broadcast(),and mReceivers  4(android/null:-1)
+12-17 19:42:23.119  1795  3249 D PowerManagerService: acquire lock=220791105, flags=0x1, tag="eventloop", name=android, ws=null, uid=1000, pid=7194
+12-17 19:42:23.119  1795  3249 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:23.124  7194  7208 I PushLog2824: [ReceiverDispatcher-336]enter isSupportCtrlSocketV2, mHasCheckCtrlSocketVersion:true,mIsSupportCtrlSokceV2:true(android/null:-1)
+12-17 19:42:23.124  7194  7208 I PushLog2824: [ReceiverDispatcher-336]ctrlSocket cmd is 2, param is 180(android/null:-1)
+12-17 19:42:23.125  1795  3139 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 7194 cmd = 2 para = 180
+12-17 19:42:23.125  1795  3139 D HwConnectivityService: pid=7194, cmd=2, param=180
+12-17 19:42:23.125  1795  3139 D HwConnectivityService: mFilterMsgFlag: 0,msg.arg1: 0
+12-17 19:42:23.125  1795  3139 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 7194 cmd = 2 param = 180 ret = 0
+12-17 19:42:23.126  7194  7208 I PushLog2824: [ReceiverDispatcher-336]ctrlSocket success(android/null:-1)
+12-17 19:42:23.126  7194  7208 I PushLog2824: [ReceiverDispatcher-336]jsonStr does not  have a mapping for app(android/null:-1)
+12-17 19:42:23.126  7194  7208 I PushLog2824: [ReceiverDispatcher-336]dispkgName is com.sina.weibo(android/null:-1)
+12-17 19:42:23.129  7194  7208 I PushLog2824: [ReceiverDispatcher-336]com.sina.weibo  in user 0 ,uid is 10137(android/null:-1)
+12-17 19:42:23.131  7194  7208 I PushLog2824: [ReceiverDispatcher-336]areNotificationsEnabledForPackage:false(android/null:-1)
+12-17 19:42:23.131  7194  7208 I PushLog2824: [ReceiverDispatcher-336]read to Send:A1(android/null:-1)
+12-17 19:42:23.132  7194  7208 I PushLog2824: [ReceiverDispatcher-336]send msg to remote srv success(android/null:-1)
+12-17 19:42:23.132  7194  7208 I PushLog2824: [ReceiverDispatcher-336]rspPushMessage the response msg is :A1,msgId:2DB48EA53270C315,flag:09(android/null:-1)

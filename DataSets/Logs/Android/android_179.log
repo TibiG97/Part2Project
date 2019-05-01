@@ -1,0 +1,100 @@
+12-17 19:33:00.247   835  2385 E libteec : begin
+12-17 19:33:00.247   835  2385 E libteec : qsc_decode end
+12-17 19:33:00.247   835  2385 E fpc_fingerprint_hal: do_identify failed -4
+12-17 19:33:00.247   835  2385 D fingerprintd: onError(5)
+12-17 19:33:00.248   835  2385 I fpc_fingerprint_hal: do_identify operation CANCELED
+12-17 19:33:00.248  1795  3884 W FingerprintService: onError 1
+12-17 19:33:00.248   835  2385 D fpc_fingerprint_hal: do_identify took 30 ms, total:29542 wait:29512
+12-17 19:33:00.248   835  2385 E libteec : begin
+12-17 19:33:00.248  2852  2852 W HwLockScreenPanel: Handle message: 14
+12-17 19:33:00.249  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 0.000000
+12-17 19:33:00.249  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =-1889592640 
+12-17 19:33:00.249   606  2379 E libteec : receive data len = 128
+12-17 19:33:00.249  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:true
+12-17 19:33:00.250  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:00.250  1795  1825 D DisplayPowerController: Animating brightness: target=36, rate=40
+12-17 19:33:00.250  1795  1825 I PowerManager_screenOn: PowerManagerService goToSleepNoUpdateLocked: eventTime=123063936, reason=7, flags=0, uid=1000
+12-17 19:33:00.250  1795  1825 I PowerManagerService: Going to sleep due to proximity...
+12-17 19:33:00.250  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=3, reason=7, interactive=false, mInteractive=true, mInteractiveChanging=true
+12-17 19:33:00.251  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:33:00.251  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityPositivebyPhone -> updatePowerStateLocked
+12-17 19:33:00.251  1795  1825 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:00.252  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:33:00.252  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:33:00.253  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=c0000300 mask=ffffffff oldVal=80000300 newVal=c0000300 diff=40000000
+12-17 19:33:00.253  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:33:00.253  3608  3608 D InCall  : InCallPresenter - onActivityStarted
+12-17 19:33:00.253  3608  3608 D InCall  : InCallPresenter - notifyVideoPauseController
+12-17 19:33:00.253  2852  2852 D BarTransitions.HwPhoneStatusBarView: MODE_OPAQUE -> MODE_TRANSLUCENT animate=false
+12-17 19:33:00.253  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onResume
+12-17 19:33:00.253  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onResume. Ignoring...
+12-17 19:33:00.253  3608  3608 D InCall  : InCallActivity - doOrientationChanged prevOrientation=1 newOrientation=1
+12-17 19:33:00.253  2852  2852 D BarTransitions.HwPhoneStatusBarView: applyModeBackground oldMode=MODE_OPAQUE newMode=MODE_TRANSLUCENT animate=false
+12-17 19:33:00.253  3608  3608 D InCall  : InCallActivity - onStart()... end
+12-17 19:33:00.253  1795 17831 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{580cfb2 5224:com.huawei.health:DaemonService/u0a99}
+12-17 19:33:00.254  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:33:00.254  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:33:00.254  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:33:00.254  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000300, SystemUiVisibility=0xc0000300
+12-17 19:33:00.255  3608  3608 I InCall  : InCallActivity - onResume()...
+12-17 19:33:00.256  2852  2852 I TintManager: updateBarBgColor:emuiStyle=1,statusBarColor=#00000000,navigationBarColor=#00000000, isEmuiLight=1
+12-17 19:33:00.256  1795 16499 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:00.256  3608  3608 I InCall  : InCallActivity - bgCallTwinkingSwitch is truemIsForegroundActivity is true
+12-17 19:33:00.256  1795 16499 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:00.256  3608  3608 D InCall  : InCallPresenter - notifyInCallScreenIsForeground: true
+12-17 19:33:00.256  3608  3608 I SendBroadcastPermission: action:InCallScreenIsForegroundActivity, mPermissionType:0
+12-17 19:33:00.256  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundColor:new=0, old=1711276032
+12-17 19:33:00.256  2852  2852 I HwNavigationBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:33:00.257  1795  3247 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{ec55919 3608:com.android.incallui/1001}
+12-17 19:33:00.257  2852  2852 D TintManager: statusBarIconTint=#B3FFFFFF,navigationBarIconTint=#00000000
+12-17 19:33:00.257  3608  3608 D InCall  : StatusBarNotifier - cancelInCall()...
+12-17 19:33:00.258   832  1840 E Parcel  : Reading a NULL string not supported here.
+12-17 19:33:00.258   832  1840 E Parcel  : Reading a NULL string not supported here.
+12-17 19:33:00.258  1795  6985 I NotificationManager: cancelNotificationWithTag pid 3608,uid = 1001,tag = null,pkg =com.android.incallui,id =2
+12-17 19:33:00.258  3608  3608 D InCall  : StatusBarNotifier - updateInCallNotification: timer cleared
+12-17 19:33:00.258  1795 15982 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:00.259  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=c0000600 mask=ffffffff oldVal=c0000300 newVal=c0000600 diff=500
+12-17 19:33:00.259  1795  3884 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:00.259  3608  3608 I InCall  : ProximitySensor - ProximitySensor{keybrd=0, dpad=0, offhook=1, hor=0, ui=1, aud=EARPIECE}
+12-17 19:33:00.259  3608  3608 D InCall  : ProximitySensor - Turning on proximity sensor
+12-17 19:33:00.259  3608  3608 I InCall  : ProximitySensor - Proximity wake lock already acquired
+12-17 19:33:00.259  3608  3608 D InCall  : AnswerPresenter - onUiShowingtrue
+12-17 19:33:00.260  3608  3608 D InCall  : AnswerPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:33:00.260  3608  3608 D HwCust  : Create obj success use class com.android.incallui.HwCustAnswerPresenterImpl
+12-17 19:33:00.260  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:33:00.260  1795  1821 I ActivityManager_activity: windowsVisibleLocked(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310} idle: false
+12-17 19:33:00.260  2852  2852 D BarTransitions.HwPhoneStatusBarView: MODE_TRANSLUCENT -> MODE_TRANSPARENT animate=false
+12-17 19:33:00.260  2852  2852 D BarTransitions.HwPhoneStatusBarView: applyModeBackground oldMode=MODE_TRANSLUCENT newMode=MODE_TRANSPARENT animate=false
+12-17 19:33:00.261  1795 16500 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:00.261  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:33:00.261  1795 16500 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:00.261  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=true
+12-17 19:33:00.261  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000600, SystemUiVisibility=0xc0000600
+12-17 19:33:00.261  1795  1795 I HwScreenOnProximityLock: preparePoriximityView addView 
+12-17 19:33:00.262  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:00.262  5224  5283 I Step_HSNH: 20002302|upDateHealthNotification()|90|2.99|4195
+12-17 19:33:00.264  1795  1795 I HwPointEventFilter: do not support AFT because of no config
+12-17 19:33:00.264  3608  3608 D InCall  : AnswerPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:33:00.265  5224  5283 I Step_HSNH: 20002302|rebuild notification
+12-17 19:33:00.266   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:00.266   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:00.266   606  2379 E libteec : send data return = 128
+12-17 19:33:00.266   835  2385 E libteec : receive data len = 128
+12-17 19:33:00.266   835  2385 E libteec : begin
+12-17 19:33:00.266   835  2385 E libteec : qsc_decode end
+12-17 19:33:00.266   835  2385 D fpc_fingerprint_hal: worker idle
+12-17 19:33:00.266   835  2385 D fpc_fingerprint_hal: workerFunction STATE_CANCEL
+12-17 19:33:00.267   835  2385 E libteec : begin
+12-17 19:33:00.267   606  2379 E libteec : receive data len = 128
+12-17 19:33:00.267  1795  2326 W FingerprintService: client com.android.systemui is no longer authenticating
+12-17 19:33:00.267  1795  2326 W FingerprintService: onError 2
+12-17 19:33:00.267  1795  2326 V FingerprintService: ClientMonitor destroy
+12-17 19:33:00.267  1795  2326 V FingerprintService: Done with client: com.android.systemui
+12-17 19:33:00.267  1795  2326 V FingerprintService: handleError(client=com.android.systemui, error = 5)
+12-17 19:33:00.269  1795 16498 I NotificationManager: enqueueNotificationInternal: pkg=com.huawei.health id=10010 notification=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)
+12-17 19:33:00.274  1795  1806 D PowerManagerService: acquire lock=5152000, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:33:00.274  1795  1806 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:00.274  1795  1806 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:00.276   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:00.276   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:00.276   606  2379 E libteec : send data return = 128

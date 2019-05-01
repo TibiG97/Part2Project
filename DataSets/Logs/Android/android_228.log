@@ -1,0 +1,100 @@
+12-17 19:33:10.845  1795  1825 I DisplayPowerController: set brightness to DIM brightness:6
+12-17 19:33:10.845  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:33:10.845  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:10.845  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetScreenState: state=1
+12-17 19:33:10.845  1795  1825 D FpDataCollector: DisplayPowerState :OFF
+12-17 19:33:10.846  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=0
+12-17 19:33:10.846  1795  2750 I HwLightsService: back light level before map = 0
+12-17 19:33:10.847  1795 17832 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:10.847  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:33:10.849  3608  3608 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:10.850  3608  3608 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:10.850  3608  3608 E InCall  : StatusBarNotifier - getNotificationBuilder
+12-17 19:33:10.852  3608  3608 D InCall  : StatusBarNotifier - Will show "hang-up" action in the ongoing active call Notification
+12-17 19:33:10.854  3608  3608 E WindowManagerEx: ret: 0
+12-17 19:33:10.855  1795  1805 D HwWindowManagerService: imeVis=false
+12-17 19:33:10.855  3608  3608 E WindowManagerEx: ret: 0
+12-17 19:33:10.855  1795  3121 D HwWindowManagerService: imeVis=false
+12-17 19:33:10.855  3608  3608 E WindowManagerEx: ret: 0
+12-17 19:33:10.855  3608  3608 I InCall  : StatusBarNotifier - isTopIsFullscreen = false--isTopIsFullscreenInput()--false
+12-17 19:33:10.855  3608  3608 E InCall  : StatusBarNotifier - buildAndSendNotification state=3 showHeadUpNotification=false mHeadupViewShow=false
+12-17 19:33:10.855  3608  3608 D InCall  : StatusBarNotifier - isDreaming = false
+12-17 19:33:10.856  3608  3608 D InCall  : StatusBarNotifier - Notifying IN_CALL_NOTIFICATION: Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE))
+12-17 19:33:10.858  1795  1825 D HwAmbientLuxFilterAlgo: clear buffer data and algo flags
+12-17 19:33:10.859  1795  1825 D lux trace:: [20.0/123074463]
+12-17 19:33:10.859  1795  1825 D Sensors : activate called handle:3 enable:0
+12-17 19:33:10.859  1795  1825 D Sensors : bh1745-light calling driver disable
+12-17 19:33:10.859  1795  1825 W LightSensor: LightSensor, enable, 283: en=0
+12-17 19:33:10.859  1795  1825 W LightSensor: LightSensor, enable, 284: flags=0
+12-17 19:33:10.859  1795  1825 W LightSensor: LightSensor, enable, 285: mEnabled=1
+12-17 19:33:10.859  1795  1825 E LightSensor: LightSensor disable, event occur num: 2
+12-17 19:33:10.863  1795  3237 I NotificationManager: enqueueNotificationInternal: pkg=com.android.incallui id=2 notification=Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE))
+12-17 19:33:10.865  1795  1825 D AutomaticBrightnessController: Disable LightSensor at time:123074551
+12-17 19:33:10.865  1795  1825 D DisplayPowerController: mode change : autoBrightnessEnabled=false,adjustment=0.0,state=1
+12-17 19:33:10.865  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:33:10.865  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=OFF, backlight=0
+12-17 19:33:10.865  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:10.865  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:33:10.865  3608  3608 I InCall  : ProximitySensor - ProximitySensor{keybrd=0, dpad=0, offhook=1, hor=0, ui=1, aud=EARPIECE}
+12-17 19:33:10.865   612   612 D SurfaceFlinger: Set power mode=0, type=0 flinger=0x7f9a25b400
+12-17 19:33:10.865  3608  3608 D InCall  : ProximitySensor - Turning on proximity sensor
+12-17 19:33:10.865   612   612 I SDM     : HWCDisplay::SetPowerMode: display = 0, mode = 0
+12-17 19:33:10.865  3608  3608 I InCall  : ProximitySensor - Proximity wake lock already acquired
+12-17 19:33:10.865   612   612 I SDM     : DisplayBase::SetDisplayState: Set state = 0, display 0
+12-17 19:33:10.865  3608  3608 D InCall  : AnswerPresenter - onUiShowingfalse
+12-17 19:33:10.865  3608  3608 D InCall  : GlowPadAnswerFragment - Show answer UI: false
+12-17 19:33:10.866  3608  3608 D InCall  : GlowPadWrapper - stopPing
+12-17 19:33:10.866  3608  3608 I InCall  : GlowPadAnswerFragment - showVideoAnswerButtonfalsefalse
+12-17 19:33:10.866  1795 16232 I ActivityManager_activity: Moving to PAUSED: ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310} (pause complete)
+12-17 19:33:10.869   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:33:10.869   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:33:10.882  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.641950 Y: 4.964240 Z: 3.135837  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:10.943  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.294110 Y: 5.479392 Z: 3.728918  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:10.945  1795  3111 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:11.004  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.437741 Y: 6.193030 Z: 4.188876  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:11.027   816 20470 D DnsProxyListener: GetAddrInfoHandler addr: uc.huawei.com {304, 917808, 10102} 172.30.70.63
+12-17 19:33:11.028  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 0 len = 0, 4096
+12-17 19:33:11.028  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:33:11.029  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:33:11.029  5215  5215 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+12-17 19:33:11.029  5215  5215 D wpa_supplicant: wlan0: nl80211: New scan results available
+12-17 19:33:11.029  5215  5215 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472
+12-17 19:33:11.029  5215  5215 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+12-17 19:33:11.029  5215  5215 D wpa_supplicant: wlan0: Scan completed in 0.446220 seconds
+12-17 19:33:11.029  5215  5215 D wpa_supplicant: nl80211: Associated on 2452 MHz
+12-17 19:33:11.029  5215  5215 D wpa_supplicant: nl80211: Associated with 80:38:bc:08:42:c1
+12-17 19:33:11.029  5215  5215 D wpa_supplicant: nl80211: Received scan results (32 BSSes)
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: nl80211: Scan results indicate BSS status with 80:38:bc:08:42:c1 as associated
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: Sorted scan results
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: 80:38:bc:08:42:e1 freq=2472 qual=0 noise=-89~ level=-48 snr=41* flags=0xb age=0 est=65000
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 0d 05 04 ...
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: 80:38:bc:08:42:c1 freq=2452 qual=0 noise=-89~ level=-48 snr=41* flags=0x2b age=0 est=65000
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: 80:38:bc:08:42:c0 freq=2452 qual=0 noise=-89~ level=-59 snr=30* flags=0xb age=0 est=65000
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 00 ...
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 00 ...
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: 80:38:bc:0b:2b:e0 freq=2432 qual=0 noise=-89~ level=-61 snr=28 flags=0xb age=0 est=65000
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 00 ...
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 00 ...
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: 80:38:bc:0b:29:e0 freq=2452 qual=0 noise=-89~ level=-62 snr=27 flags=0xb age=0 est=65000
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 00 ...
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 00 ...
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: 00:26:f2:1b:9d:b2 freq=2437 qual=0 noise=-89~ level=-66 snr=23 flags=0xb age=0 est=54000
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: IEs - hexdump(len=109): 00 06 4e 54 50 43 30 32 01 08 82 84 8b 96 24 30 48 6c 03 01 06 2a 01 04 2f 01 04 32 04 0c 12 18 ...
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=115): 00 06 4e 54 50 43 30 32 01 08 82 84 8b 96 24 30 48 6c 03 01 06 05 04 00 03 00 00 2a 01 04 2f 01 ...
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: 80:38:bc:0a:ef:41 freq=2452 qual=0 noise=-89~ level=-69 snr=20 flags=0xb age=0 est=54000
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:33:11.030 31949 31967 I TCP     : tcp.conn{4787} TcpSocket.connect_i(TcpSocket.java:84) connecting to ip address uc.huawei.com/172.30.70.63
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: 80:38:bc:0a:f1:40 freq=2412 qual=0 noise=-89~ level=-71 snr=18 flags=0xb age=0 est=48000
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 00 ...
+12-17 19:33:11.030  1795  2736 E hwintelligencewifi: addCurrentApInfo info is already there
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 00 ...
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: 80:38:bc:0a:fa:e0 freq=2412 qual=0 noise=-89~ level=-76 snr=13 flags=0xb age=0 est=36000
+12-17 19:33:11.030  1795  2736 W hwintelligencewifi: updateBssidTimer time = 1481974391030
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 00 ...
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 00 ...
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: 80:38:bc:0a:f2:00 freq=2452 qual=0 noise=-89~ level=-77 snr=12 flags=0xb age=0 est=36000
+12-17 19:33:11.030  5215  5215 D wpa_supplicant: IEs - hexdump(len=193): 00 0e 77 6c 61 6e 61 63 63 65 73 73 76 32 2e 30 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 00 ...

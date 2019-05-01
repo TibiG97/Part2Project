@@ -1,0 +1,100 @@
+12-17 19:33:03.198  1795  1825 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:33:03.198  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakeUp: event=android.server.power:POWER, reasonUid=1000 opPackageName=android opUid=1000
+12-17 19:33:03.198  1795  1825 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123066883, event=0, flags=0x0, uid=1000
+12-17 19:33:03.198  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=0, uid=1000
+12-17 19:33:03.198  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityNegative by Phone
+12-17 19:33:03.198  1795  1825 D PowerManagerService: setColorTemperatureAccordingToSetting
+12-17 19:33:03.198  1795  1825 D HwPowerManagerService: setColorTemperatureAccordingToSetting
+12-17 19:33:03.198  1795  1825 D HwPowerManagerService: isDisplayFeatureSupported feature:1
+12-17 19:33:03.198  1795  1825 D HW_DISPLAY_EFFECT: hw_get_smart_display_supported: start++
+12-17 19:33:03.198  1795  1825 D HW_DISPLAY_EFFECT: hw_get_smart_display_supported: end--
+12-17 19:33:03.198  1795  1825 D HWPowerManger_JNI: Surport 3 dimension color temperature.
+12-17 19:33:03.198  1795  1825 D HwPowerManagerService: setColorTemperatureAccordingToSetting new.
+12-17 19:33:03.198  1795  1825 D HwPowerManagerService: ColorTemperature read from old setting:128
+12-17 19:33:03.198  1795  1825 D HwPowerManagerService: setColorTemperature:128
+12-17 19:33:03.198  1795  1825 D HW_DISPLAY_EFFECT: hw_set_colortemperature: start++
+12-17 19:33:03.198  1795  1825 W HW_DISPLAY_EFFECT: Warning: hw_set_colortemperature is COLOR_TEMP_2_DIMENSION interface, not supported presently.
+12-17 19:33:03.198  1795  1825 D HW_DISPLAY_EFFECT: hw_set_colortemperature: end--
+12-17 19:33:03.198  1795  1825 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:03.198  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:03.199  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetScreenState: state=2
+12-17 19:33:03.199  1795  1825 D FpDataCollector: DisplayPowerState :ON
+12-17 19:33:03.203  3782 20440 V AudioManager: isMusicActive...
+12-17 19:33:03.203  3782 20440 V AudioManager: isWiredHeadsetOn...
+12-17 19:33:03.204  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOff
+12-17 19:33:03.204  1795  1795 I WindowManager: Destroying surface Surface(name=) called by com.android.server.wm.WindowStateAnimator.destroySurface:2056 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:907 com.android.server.wm.WindowState.removeLocked:1527 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2723 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2688 com.android.server.wm.WindowManagerService.removeWindowLocked:2677 com.android.server.wm.WindowManagerService.removeWindowLocked:2546 com.android.server.wm.WindowManagerService.removeWindow:2541 
+12-17 19:33:03.206  1795  1795 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:03.207  1795  1795 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:03.210  1795  1825 I PowerManager_screenOn: DisplayPowerController Blocking screen on until initial contents have been drawn.
+12-17 19:33:03.211  1795  1825 I WindowManger_keyguard: Screen turned on for keyguard
+12-17 19:33:03.211  1795  1825 I PowerManager_screenOn: KeyguardServiceDelegate  onScreenTurnedOn(showListener = com.android.server.policy.PhoneWindowManager$3@bf53b21)
+12-17 19:33:03.212  2852  3344 D KeyguardService: Caller checkPermission fail
+12-17 19:33:03.212  2852  3344 D KeyguardService: KGSvcCall onScreenTurningOn.
+12-17 19:33:03.212  2852  3344 D KeyguardViewMediator: notifyScreenOn
+12-17 19:33:03.212  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurningOn
+12-17 19:33:03.212  2852  2852 I PhoneStatusBar: onScreenTurningOn
+12-17 19:33:03.212  1795  1825 D HwNormalizedAutomaticBrightnessController: set power status:mPowerStatus=false,powerStatus=true
+12-17 19:33:03.212  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOn End with : 1623
+12-17 19:33:03.213  1795  3249 I WindowManger_keyguard: **** SHOWN CALLED ****
+12-17 19:33:03.213  1795  3249 D WindowManager: mKeyguardDelegate.ShowListener.onDrawn.
+12-17 19:33:03.213  1795  3249 I WindowManger_keyguard: hideScrim()
+12-17 19:33:03.213  1795  1825 D Sensors : batch called handle:3 sample_ns:300000000 latency_ns:0
+12-17 19:33:03.213  1795  1809 I PowerManager_screenOn: finishKeyguardDrawn -> waitForAllWindowsDrawn
+12-17 19:33:03.213  1795  1825 D Sensors : activate called handle:3 enable:1
+12-17 19:33:03.213  1795  1825 D Sensors : bh1745-light calling driver setDelay 300 ms
+12-17 19:33:03.213  1795  1825 D Sensors : bh1745-light calling driver enable
+12-17 19:33:03.213  1795  1825 W LightSensor: LightSensor, enable, 283: en=1
+12-17 19:33:03.213  1795  1825 W LightSensor: LightSensor, enable, 284: flags=1
+12-17 19:33:03.213  1795  1825 W LightSensor: LightSensor, enable, 285: mEnabled=0
+12-17 19:33:03.216  1795  1825 D AutomaticBrightnessController: Enable LightSensor at time:mLightSensorEnableTime=123066902,mLightSensorEnableElapsedTimeNanos=442919576501213
+12-17 19:33:03.216  1795  1825 D AutomaticBrightnessController: mAmbientLuxValid= false,sensor is not ready
+12-17 19:33:03.216  1795  1825 D DisplayPowerController: mode change : autoBrightnessEnabled=true,adjustment=0.0,state=2
+12-17 19:33:03.216  1795  1825 D HwNormalizedAutomaticBrightnessController: mWakeupFromSleep= true,currentTime=123066902,mLightSensorEnableTime=123066899
+12-17 19:33:03.216  1795  1825 D DisplayPowerController: Animating brightness: target=-1, rate=0
+12-17 19:33:03.216  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:33:03.217  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=0
+12-17 19:33:03.217  1795  2750 D PowerManagerService: Setting HAL auto-suspend mode to false
+12-17 19:33:03.217  1795  2750 D PowerManagerService: Setting HAL interactive mode to true
+12-17 19:33:03.217  1795  2750 I QTI PowerHAL: Got set_interactive hint
+12-17 19:33:03.217  1795  2750 D libfingersense_wrapper: Calling fingersense_on_resume()
+12-17 19:33:03.217  1795  2750 D libfingersense_wrapper: fingersense_on_resume() finished
+12-17 19:33:03.217   836  2387 I knuckle_sensor: Sending SAM_ENABLE to fs_data
+12-17 19:33:03.218   612   612 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f9a25b400
+12-17 19:33:03.218   612   612 I SDM     : HWCDisplay::SetPowerMode: display = 0, mode = 2
+12-17 19:33:03.218   612   612 I SDM     : DisplayBase::SetDisplayState: Set state = 1, display 0
+12-17 19:33:03.220   836   928 I knuckle_sensor: Got ENABLE response, status = 0, id = 71
+12-17 19:33:03.328  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:03.386  1795  2371 E LightSensor: read Events lux: 11.0
+12-17 19:33:03.386  1795  1825 D AutomaticBrightnessController: ambient lux=11.0,timeStamp =442919749751000
+12-17 19:33:03.386  1795  1825 D HwNormalizedAutomaticBrightnessController: mAmbientLuxValid=true,mWakeupFromSleep= false
+12-17 19:33:03.387  1795  1825 D HwAmbientLuxFilterAlgo: updateAmbientLux: Initializing: mAmbientLightRingBuffer=[11.0 / 1ms], mAmbientLux=11.0
+12-17 19:33:03.387  1795  1825 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:33:03.387  1795  1825 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:33:03.387  1795  1825 D HwNormalizedAutomaticBrightnessController: need to update brightness: mAmbientLux=11.0
+12-17 19:33:03.387  1795  1825 D HwNormalizedSpline: interpolate:mPosBrightness=0.0lux=11.0,mIsReboot=true,mIsUserChange=false,mDelta=0.0
+12-17 19:33:03.387  1795  1825 D HwNormalizedSpline: offsetBrightness=20.72,mOffsetBrightness_last20.72,lux=11.0,mPosBrightness=0.0,mIsUserChange=false,mDelta=0.0,defaultBrightness=20.72,mStartLuxDefaultBrightness=20.72mLastLuxDefaultBrightness=20.72
+12-17 19:33:03.387  1795  1825 D HwNormalizedSpline: write:userId=0,mPosBrightness =0.0,mOffsetBrightness_last=20.72,mIsUserChange=false,mDeltaNew=0.0,mStartLuxDefaultBrightness=20.72mLastLuxDefaultBrightness=20.72,mAmLux=11.0
+12-17 19:33:03.387  1795  1825 D AutomaticBrightnessController: updateAutoBrightness: mScreenAutoBrightness=24, newScreenAutoBrightness=21
+12-17 19:33:03.387  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:03.388  1795  1825 D DisplayPowerController: Animating brightness: target=21, rate=0
+12-17 19:33:03.388  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:03.388  1795  1825 D DisplayPowerController: Animating brightness: target=21, rate=40
+12-17 19:33:03.429  1795  2750 D SurfaceControl: Excessive delay in setPowerMode(): 211ms
+12-17 19:33:03.432  1795  1795 I WindowManger_windowChange: oldFocusWindow: Window{2918562 u0 android}, currentFocusWindow: Window{e71ca6c u0 com.android.phone}, currentFocusApp: AppWindowToken{844a0b2 token=Token{2fd6a14 ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}}}
+12-17 19:33:03.433  1795  1809 I PowerManager_screenOn: waitForAllWindowsDrawn  cover is open or null
+12-17 19:33:03.434  1795  3884 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:03.439  1795  1821 I DisplayManagerService: Display device changed state: "内置屏幕", ON
+12-17 19:33:03.442  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:03.454  1795  1795 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:03.471  1795  1795 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:03.486  1795  1795 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity},EmuiStyle=1,StatusBarColor=0x0,NavigationBarColor=0x0, mLastIsEmuiLightStyle=1
+12-17 19:33:03.487  1795  1795 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:03.504  1795  1795 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:03.520  1795  1795 I ActivityManager_activity: completedResumed: ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}, launchTrack: outofsleep resumeTopComplete
+12-17 19:33:03.522  1795  1795 I WindowManger_keyguard: Started waking up...
+12-17 19:33:03.522  1795  1795 I WindowManger_keyguard: onStartedWakingUp()
+12-17 19:33:03.523  1795  1795 I PowerManager_screenOn: PowerManagerNotifier Sending wake up broadcast.
+12-17 19:33:03.523  1795  1795 I SendBroadcastPermission: action:android.intent.action.SCREEN_ON, mPermissionType:0
+12-17 19:33:03.523  2852  2867 D KeyguardService: Caller checkPermission fail
+12-17 19:33:03.523  2852  2867 D KeyguardService: KGSvcCall onStartedWakingUp.
+12-17 19:33:03.523  1795  1821 I ActivityManager_activity: Incall is gone

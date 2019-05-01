@@ -1,0 +1,100 @@
+12-17 19:33:11.536  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:33:11.536  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: false
+12-17 19:33:11.536  2852  2852 I PanelView: instantCollapse
+12-17 19:33:11.536  2852  2852 I PanelBar: collapsePanel2
+12-17 19:33:11.536  2852  2852 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:33:11.542  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:11.542  2852  2852 I StackScrollAlgorithm: overlapAmount:607.0, previousNotificationEnd:463.0, newYTranslation:-144.0, location:2, i:2, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:11.542  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:33:11.542  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:33:11.558  3879  3879 I HwLauncher: Launcher receiver screen off broadcast sendmessage true
+12-17 19:33:11.573  1795 15982 I AlarmManager: set(PendingIntent{718fa15: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) : type=2 triggerAtTime=443527936 win=60000 tElapsed=443527936 maxElapsed=443587936 interval=0 flags=0x8
+12-17 19:33:11.596  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:33:11.596  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen off event
+12-17 19:33:11.603  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = false, mIsPreScrnOn = true, mScrnSwitchTime = 1481974390701, occurTime = 1481974391602, delta = 901, mScrnOffAccTime = 1803796, mScrnOnAccTime = 122488
+12-17 19:33:11.603  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1803796, mScrnOffAccTime = 1803796, mScrnOnAccTime = 123389
+12-17 19:33:11.608  3626  3626 I iMonitor: create: 903001010
+12-17 19:33:11.610  3626  3626 I iMonitor: send: 903001010
+12-17 19:33:11.611   818  1152 I logserver: handle_exception_events enter
+12-17 19:33:11.612  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:33:11.618  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_OFF
+12-17 19:33:11.628  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_OFF
+12-17 19:33:11.629  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:33:11.640  1795 16232 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:0
+12-17 19:33:11.659  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.276532 Y: 7.174536 Z: 0.602776  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:11.669 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_OFF
+12-17 19:33:11.706  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:33:11.711  1795  3884 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:11.751  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:33:11.753  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:33:11.855  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.817304 Y: 7.213767 Z: 0.123639  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:11.857  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:11.894  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:12.052  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.939176 Y: 6.350791 Z: -0.255020  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:12.118  3782 20475 V AudioManager: isMusicActive...
+12-17 19:33:12.119  3782 20475 V AudioManager: isWiredHeadsetOn...
+12-17 19:33:12.248  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.539075 Y: 6.648901 Z: -0.123639  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:12.321  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:12.409  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:12.444  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 8.084607 Y: 7.158850 Z: 0.888713  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:12.640  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.574094 Y: 6.609686 Z: 3.338430  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:12.744  1795  1795 I TrafficMonitor: update:rxPkts:5,txPkts:6,rxBytes:954,txBytes:427
+12-17 19:33:12.744  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:33:12.744  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:33:12.799  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:12.836  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.605481 Y: 7.198081 Z: 4.420328  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:13.033  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.825147 Y: 6.868582 Z: 4.211677  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:13.036  5224  5224 I Step_LSC: 20002302|onStandStepChanged 65572
+12-17 19:33:13.037  5224  5224 I Step_LSC: 20002302|compensate received
+12-17 19:33:13.040  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4196
+12-17 19:33:13.041  5224  5283 I Step_ExtendStepDataManager: 20002302|before compensate: cache step_4196
+12-17 19:33:13.043  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4196
+12-17 19:33:13.045  5224  5283 I Step_ExtendStepDataManager: 20002302|compensate 24699573 8
+12-17 19:33:13.048  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4197
+12-17 19:33:13.048  5224  5283 I Step_ExtendStepDataManager: 20002302|after compensate: cache step_4197
+12-17 19:33:13.090  1795  2728 D HwArpVerifier: check_wifi_state_mode = 0 mCheckStateToken=1008 token1008
+12-17 19:33:13.090  1795  2728 D HwArpVerifier: reportArpDetail: 10.33.8.1  00:00:5e:00:01:09   2   wlan0
+12-17 19:33:13.091  1795  2728 D wifiserviceimpl: netmask =16580607
+12-17 19:33:13.134  1795  2728 D HWMultiGW: setGateWay 10.33.8.1
+12-17 19:33:13.138  5224  5283 I Step_LSC: 20002302|REPORT : 4197 89805 2995 0
+12-17 19:33:13.139  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:33:13.141  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:33:13.143  1795  6985 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{580cfb2 5224:com.huawei.health:DaemonService/u0a99}
+12-17 19:33:13.144  2852  2852 I EventCenter: EventCenter Get :android.com.huawei.bone.NOTIFY_SPORT_DATA
+12-17 19:33:13.145  2852  2852 D StepCounterView: onStepCounterChange stepsNum:4197
+12-17 19:33:13.147  5224  5283 I Step_HSNH: 20002302|upDateHealthNotification()|90|2.99|4197
+12-17 19:33:13.149  5224  5283 I Step_HSNH: 20002302|rebuild notification
+12-17 19:33:13.154  1795  1805 I NotificationManager: enqueueNotificationInternal: pkg=com.huawei.health id=10010 notification=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)
+12-17 19:33:13.157  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.huawei.health|10010|null|10099
+12-17 19:33:13.159  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:33:13.163  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)) important=2, post=1481974393155, when=1481531589202, vis=0, userid=0
+12-17 19:33:13.164  2852  2852 D StatusBar: updateNotification(StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)))
+12-17 19:33:13.165  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:13.166  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:33:13.167  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.huawei.health|10010|null|10099
+12-17 19:33:13.167  2852  2852 D StatusBar: applyInPlace=true shouldPeek=false alertAgain=true
+12-17 19:33:13.167  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.huawei.health|10010|null|10099
+12-17 19:33:13.167  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.huawei.health|10010|null|10099, group=0|com.huawei.health|10010|null|10099
+12-17 19:33:13.167  2852  2852 D StatusBar: reusing notification for key: 0|com.huawei.health|10010|null|10099
+12-17 19:33:13.168  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:13.169  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:13.169  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:33:13.182  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:33:13.182  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:33:13.182  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:33:13.183  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:13.189  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:13.190  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:13.191  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:13.192  2852  2852 I StackScrollAlgorithm: overlapAmount:607.0, previousNotificationEnd:463.0, newYTranslation:-144.0, location:2, i:2, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:13.192  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:33:13.192  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:33:13.229  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.652555 Y: 7.252997 Z: 4.196226  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:13.362  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 9.000000
+12-17 19:33:13.362  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =-1661438856 
+12-17 19:33:13.365  1795  1795 I HwScreenOnProximityLock: removeProximityView success vp android.view.ViewRootImpl@1c402e2
+12-17 19:33:13.365  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:false
+12-17 19:33:13.365  1795  1825 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.Display".
+12-17 19:33:13.367  1795  1795 D Sensors : batch called handle:2 sample_ns:20000000 latency_ns:0
+12-17 19:33:13.367  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:13.367  1795  1795 D Sensors : pa2240-proximity calling driver setDelay 20 ms

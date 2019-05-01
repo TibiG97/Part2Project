@@ -1,0 +1,100 @@
+12-17 19:34:58.698  3879  3879 I HwLauncher: DynamicUpdater call updateFolder
+12-17 19:34:58.698  3879  3879 I HwLauncher: DynamicIcon onResume  isvisible = false   mAttachedToWindow:true    mWindowVisible:falsecom.android.deskclock
+12-17 19:34:58.698  3879  3879 I HwLauncher: DynamicUpdater registerReceiver
+12-17 19:34:58.698  3879  4071 E HwLauncher: SettingsEx , no such field.
+12-17 19:34:58.698  3879  4071 W HwLauncher: Clock getDataFormat the getSystemString failed.
+12-17 19:34:58.699  3879  3879 I HwLauncher: DynamicUpdater call updateFolder
+12-17 19:34:58.699  3879  3879 I HwLauncher: DynamicIcon onResume  isvisible = false   mAttachedToWindow:true    mWindowVisible:falsecom.android.calendar
+12-17 19:34:58.699  3879  3879 I HwLauncher: DynamicUpdater registerReceiver
+12-17 19:34:58.699  2883  2992 I HwSystemManager: NotificationGuideService:handle MSG_ACTIVIY_FOREGROUND, uid:10061
+12-17 19:34:58.700  3879  4071 I HwLauncher: ClockDynamicUpdater clock update folder at ClockDynamicUpdater
+12-17 19:34:58.700  3879  4071 I HwLauncher: DynamicUpdater updateBitmap end and send update message
+12-17 19:34:58.700  3879  3879 I HwLauncher: DynamicUpdater call updateFolder
+12-17 19:34:58.700  3879  4071 I HwLauncher: WeatherDynamicUpdater positiveUpdate at WeatherDynamicUpdater
+12-17 19:34:58.700  3879  3879 I HwLauncher: DynamicIcon onResume  isvisible = true   mAttachedToWindow:false    mWindowVisible:falsecom.huawei.android.totemweather
+12-17 19:34:58.700  3879  3879 I HwLauncher: Launcher  Launcher.onStart() cost 6 ms
+12-17 19:34:58.701  1795  1809 I MultiTaskManagerService: onForegroundActivitiesChanged pid = 3879, uid = 10061
+12-17 19:34:58.701  3879  3879 I HwLauncher: Launcher onResume()
+12-17 19:34:58.702  3879  3879 I HwLauncher: Launcher doResumeWork()
+12-17 19:34:58.704  1795  3111 I HwNetworkPolicy: onTransact, code = 203
+12-17 19:34:58.704  2883  3258 I HwNetworkPolicyManager: getHwUidPolicy uid = 10061 policy = 0
+12-17 19:34:58.704  3879  3879 I HwLauncher: Launcher  onResume mIsToUninstallApp = false
+12-17 19:34:58.704  3879  3879 I HwLauncher: Launcher  Launcher hot start cost 10 ms
+12-17 19:34:58.705  3879  3879 I ActivityManager_activity: Resuming ActivityRecord{4679a0a token=android.os.BinderProxy@5462fa {com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}} with isForward=false,forwardBitChanged=false onlyLocalRequest=false
+12-17 19:34:58.709  1795  3110 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{c5c29c4 3879:com.huawei.android.launcher/u0a61}, flags: 10000400
+12-17 19:34:58.710  1795  3110 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{cd801e3 u0 euid: 0 com.huawei.android.totemweather/.service.WeatherService}, euid: 0
+12-17 19:34:58.716 16628 16655 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:34:58.717 16628 16628 D HwCust  : Create obj success use class com.huawei.android.totemweather.utils.HwCustTotemLocationImpl
+12-17 19:34:58.718 16628 16655 I SendBroadcastPermission: action:com.huawei.android.action.launcher_weather_icon_change, mPermissionType:0
+12-17 19:34:58.718  1795  1806 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{fddc75d 16628:com.huawei.android.totemweather/u0a28}
+12-17 19:34:58.722  1795  6985 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{773320 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher},EmuiStyle=-1,StatusBarColor=0xfffcfcfc,NavigationBarColor=0x0, mLastIsEmuiLightStyle=-1
+12-17 19:34:58.722  1795  1809 D HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+12-17 19:34:58.723  1795  6985 I WindowManger_windowChange: oldFocusWindow: null, currentFocusWindow: Window{773320 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}, currentFocusApp: AppWindowToken{dcf0cd7 token=Token{1e09e71 ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297}}}
+12-17 19:34:58.723 16628 20599 I TotemWeather: DeviceStateListener:MyCityChanged: false
+12-17 19:34:58.723 16628 20599 I TotemWeather: TaskController:add this task to mTaskList:null
+12-17 19:34:58.723  2852  2822 I CommandQueue: updateBarBgColor
+12-17 19:34:58.723  2852  2822 D CommandQueue: CommandQueue, setBarBackgroundColor
+12-17 19:34:58.724  2852  2852 I TintManager: updateBarBgColor:emuiStyle=-1,statusBarColor=#FFFCFCFC,navigationBarColor=#00000000, isEmuiLight=-1
+12-17 19:34:58.724  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundColor:new=0, old=1711276032
+12-17 19:34:58.727  2852  2852 I HwNavigationBarTransitions: setBackgroundColor:new=0, old=-16777216
+12-17 19:34:58.728  2852  2852 D TintManager: statusBarIconTint=#B3000000,navigationBarIconTint=#00000000
+12-17 19:34:58.728  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=708 mask=ffffffff oldVal=40000500 newVal=708 diff=40000208
+12-17 19:34:58.728  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:34:58.728  2852  2852 D BarTransitions.HwPhoneStatusBarView: MODE_TRANSLUCENT -> MODE_TRANSPARENT animate=false
+12-17 19:34:58.728  2852  2852 D BarTransitions.HwPhoneStatusBarView: applyModeBackground oldMode=MODE_TRANSLUCENT newMode=MODE_TRANSPARENT animate=false
+12-17 19:34:58.728  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_OPAQUE, animate=false
+12-17 19:34:58.729  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=0, isEmuiStyle=false
+12-17 19:34:58.729  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:34:58.729  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0x708, SystemUiVisibility=0x708
+12-17 19:34:58.729 16628 27121 I TotemWeather: TaskController:handleTask citycode= nullstate= 0
+12-17 19:34:58.729  3879  4160 I Adreno  : QUALCOMM build                   : b6ac907, Ica15e0da0a
+12-17 19:34:58.729  3879  4160 I Adreno  : Build Date                       : 11/09/16
+12-17 19:34:58.729  3879  4160 I Adreno  : OpenGL ES Shader Compiler Version: XE031.09.00.03
+12-17 19:34:58.729  3879  4160 I Adreno  : Local Branch                     : 
+12-17 19:34:58.729  3879  4160 I Adreno  : Remote Branch                    : 
+12-17 19:34:58.729  3879  4160 I Adreno  : Remote Branch                    : 
+12-17 19:34:58.729  3879  4160 I Adreno  : Reconstruct Branch               : 
+12-17 19:34:58.730 16628 16649 I TotemWeather: HwLocationManager:startLocation
+12-17 19:34:58.730 16628 16649 I TotemWeather: ThirdLocation:Third locaiton is enable
+12-17 19:34:58.730 16628 20599 I SendBroadcastPermission: action:com.huawei.android.action.WEATHER_CHANGE, mPermissionType:0
+12-17 19:34:58.731  1795 16501 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{fddc75d 16628:com.huawei.android.totemweather/u0a28}, intent:com.huawei.android.action.WEATHER_CHANGE, receiver size:1, flags: 10000400
+12-17 19:34:58.731  1795 16501 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{fddc75d 16628:com.huawei.android.totemweather/u0a28}
+12-17 19:34:58.731  1795 16501 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{fddc75d 16628:com.huawei.android.totemweather/u0a28}
+12-17 19:34:58.731  1795 16501 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{efed93f u0 com.huawei.android.action.WEATHER_CHANGE}: prev had 0
+12-17 19:34:58.732  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{efed93f u0 com.huawei.android.action.WEATHER_CHANGE}, has 1 receivers
+12-17 19:34:58.735  3879  3879 I HwLauncher: DynamicUpdater call updateFolder
+12-17 19:34:58.735  3218 13114 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:34:58.735  3218 13114 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:34:58.738  1795  2381 D libfingersense_wrapper: Calling fingersense_touch_up()
+12-17 19:34:58.739  1795  2381 D libfingersense_wrapper: fingersense_touch_up() finished
+12-17 19:34:58.741  2852  2852 I SlideTouchEvent: handleTouchEvent:MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=231.0, y[0]=97.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=123096356, downTime=123096228, deviceId=10, source=0x1002 }
+12-17 19:34:58.741  2852  2852 I SlideTouchEvent: vel=0.0, MinimumFlingVelocity=150
+12-17 19:34:58.741  2852  2852 I PhoneStatusBar: resumeSuspendedAutohide
+12-17 19:34:58.741  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:34:58.741  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_OPAQUE, animate=false
+12-17 19:34:58.741  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=0, isEmuiStyle=false
+12-17 19:34:58.741  2852  2852 I TintImageView: onTouchEvent: code=4, action=1, event=MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=21.0, y[0]=97.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=123096356, downTime=123096228, deviceId=10, source=0x1002 }
+12-17 19:34:58.741  2852  2852 I TintImageView: sendEvent:action=1, flag=0
+12-17 19:34:58.742  3879  4160 I OpenGLRenderer: Initialized EGL, version 1.4
+12-17 19:34:58.742  3879  4160 D OpenGLRenderer: Swap behavior 1
+12-17 19:34:58.743 16628 16649 I TotemWeather: BaiduLocation:start baidu locate.
+12-17 19:34:58.746  1795 20747 D KeyEvent: obtain, mHwFlags=0
+12-17 19:34:58.746  3879  3879 I HwLauncher: WeatherDynamicUpdater receive action = com.huawei.android.action.launcher_weather_icon_change
+12-17 19:34:58.746  1795 20747 D HwCustPhoneWindowManager: answer call by keyCode = 4, down = false, isSupVolumnkeyAnswerCall = false
+12-17 19:34:58.746  1795 20747 I PowerManager_screenOn: HwPhoneWindowManager has intercept Key : 4, isdown : false, flags : 72
+12-17 19:34:58.746  1795 20747 D WindowManager: interceptKeyTq keycode=4 interactive=true keyguardActive=false policyFlags=2b000002 down false canceled false
+12-17 19:34:58.746  1795 20747 D WindowManager: interceptKeyBeforeQueueing: key 4 , result : 1
+12-17 19:34:58.746  1795  3225 W ActivityManager: getRunningAppProcesses: caller 10028 does not hold REAL_GET_TASKS; limiting output
+12-17 19:34:58.746  3879  4071 I HwLauncher: WeatherDynamicUpdater receiver data is int[] = [0, 0, 96, 192, 96, 192, 96, 192] ; stringArray[] = [sunny, num1, num7, tempc] ; dynamic_gravity = center
+12-17 19:34:58.746  1795  2380 D KeyEvent: obtain, mHwFlags=1874117200
+12-17 19:34:58.746  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[0] = sunny:0, 0, 0
+12-17 19:34:58.747  1795  2380 I TransactionSponsor: Transact:getHwAdminCachedValue to device policy manager service.
+12-17 19:34:58.747  1795  2380 I TransactionProcessor: HwDPMS received transaction_isHwFrameworkAdminAllowed, the ret: false
+12-17 19:34:58.748  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundColor:new=0, old=1711276032
+12-17 19:34:58.748  1795  1809 D KeyEvent: obtain, mHwFlags=0
+12-17 19:34:58.749  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{f83e2df V.ED..... ......ID 0,1-66,43 #7f1401be app:id/battery_outside_percent}
+12-17 19:34:58.749  3218  7071 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:34:58.749  3218  7071 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:34:58.749  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{280af00 V.ED..... ......ID 0,0-0,0 #7f1403e3 app:id/speed}
+12-17 19:34:58.749  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{88b1de7 V.ED..... ......I. 0,11-144,60 #7f14004e app:id/msim_status_bar_operators_card_one_id}
+12-17 19:34:58.750  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.time.HwStatusBarClock{dbc7fa6 V.ED..... ........ 294,0-441,72 #7f1401c9 app:id/clock}

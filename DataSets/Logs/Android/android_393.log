@@ -1,0 +1,100 @@
+12-17 19:40:23.904 31949 31967 I ECS     : WatchThread{4786} TcpClient.disconnect_i(TcpClient.java:202) ==================== TCP CLIENT DISCONNECT ====================
+12-17 19:40:23.905   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:23.905   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:23.905   606  2379 E libteec : send data return = 128
+12-17 19:40:23.905   835  2385 E libteec : receive data len = 128
+12-17 19:40:23.905   835  2385 E libteec : begin
+12-17 19:40:23.905   835  2385 E libteec : qsc_decode end
+12-17 19:40:23.905 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.disconnectSocket(TcpClientThread.java:369) disconnecting to uc.huawei.com:7801
+12-17 19:40:23.906 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.connect(TcpCirChannel.java:219) Connect to server  address = [uc.huawei.com,]  port = 7801
+12-17 19:40:23.906  3180  3578 I ash     : cancel unified heartbeat: com.tencent.mm reason:R unlock
+12-17 19:40:23.907 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:40:23.908  3218  3236 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:40:23.908 31949 31967 I ECS     : WatchThread{4786} TcpClient.connect(TcpClient.java:162) ==================== TCP CLIENT CONNECT [2] ====================
+12-17 19:40:23.909  3218  3236 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:40:23.909  1795  1795 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.909  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:23.909 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.connect(TcpClientThread.java:52) will connect to uc.huawei.com:7801
+12-17 19:40:23.910 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:349) connecting max 30000ms to uc.huawei.com:7801
+12-17 19:40:23.911 31949 31967 I PushService: main{1} PushService.onStartCommand(PushService.java:87) Push Service Start by  alarmCheck
+12-17 19:40:23.913  1795  3247 I AlarmManager: remove(PendingIntent{56bc166: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) changed bounds; rebatching
+12-17 19:40:23.913  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:40:23.916  1795  3121 I AlarmManager: set(PendingIntent{eb29ca7: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) : type=0 triggerAtTime=1481975123915 win=0 tElapsed=443660279 maxElapsed=443660279 interval=300000 flags=0x1
+12-17 19:40:23.916 20818 20818 D AndroidCommon: [SdcardManager.isMounted]Path:/storage/emulated/0
+12-17 19:40:23.917 20818 20818 D AndroidCommon: [SdcardManager.isMounted]Mounted:/storage/emulated/0:true
+12-17 19:40:23.919 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.shutdown(TcpCirChannel.java:257) Login_By_Step-> shut down now connect
+12-17 19:40:23.920 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:40:23.921 31949 31967 I ECS     : WatchThread{4786} TcpClient.disconnect_i(TcpClient.java:202) ==================== TCP CLIENT DISCONNECT ====================
+12-17 19:40:23.922 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.disconnectSocket(TcpClientThread.java:369) disconnecting to uc.huawei.com:7801
+12-17 19:40:23.923 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.connect(TcpCirChannel.java:219) Connect to server  address = [uc.huawei.com,]  port = 7801
+12-17 19:40:23.924 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:40:23.925 31949 31967 I ECS     : WatchThread{4786} TcpClient.connect(TcpClient.java:162) ==================== TCP CLIENT CONNECT [2] ====================
+12-17 19:40:23.926 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.connect(TcpClientThread.java:52) will connect to uc.huawei.com:7801
+12-17 19:40:23.927 31949 31967 I PushService: main{1} PushService.onStartCommand(PushService.java:87) Push Service Start by  userEvent
+12-17 19:40:23.927  1795 16499 I AlarmManager: remove(PendingIntent{df1c554: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) changed bounds; rebatching
+12-17 19:40:23.929  1795 11746 I AlarmManager: set(PendingIntent{d08ccfd: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) : type=0 triggerAtTime=1481975123929 win=0 tElapsed=443660293 maxElapsed=443660293 interval=300000 flags=0x1
+12-17 19:40:23.930 20818 20818 D AndroidCommon: [SdcardManager.isMounted]Path:/storage/emulated/0
+12-17 19:40:23.931 20818 20818 D AndroidCommon: [SdcardManager.isMounted]Mounted:/storage/emulated/0:true
+12-17 19:40:23.932  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -2.643924 Y: 1.869589 Z: 9.023906  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:40:23.935 20818 20818 D AndroidCommon: [SdcardManager.isMounted]Path:/storage/emulated/0
+12-17 19:40:23.936 20818 20818 D AndroidCommon: [SdcardManager.isMounted]Mounted:/storage/emulated/0:true
+12-17 19:40:23.939 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_ON
+12-17 19:40:23.953 16354 16354 E HwSystemManager: MemCPUMonitor:startTimerMonitor isCompleted = true
+12-17 19:40:23.960 17238 17238 D Bth     : BtChrStatisticsManager:sendScreenOnEvent enter.
+12-17 19:40:23.960 17238 17252 D Bth     : BtChrStatisticsManager:msg Loop is running.
+12-17 19:40:23.962  1795 15987 V HwBroadcastQueue: trim and enqueue foreground Parallel:(0) Ordered:(2)(BroadcastRecord{3e28df2 u-1 android.intent.action.SCREEN_ON})
+12-17 19:40:23.962  1795 15987 I ActivityManager_broadcast: orderd foreground broadcast:(BroadcastRecord{df83eb6 u-1 android.intent.action.SCREEN_ON}) should be proxyed, target:(BroadcastFilter{d2752d6 u0 ReceiverList{6abc6f1 17357 com.android.browser/10029/u0 remote:55e98}})
+12-17 19:40:23.963  3180  3578 I ash     : android send broadcast:android.intent.action.SCREEN_ON notify package: com.android.browser, pid: 17357
+12-17 19:40:23.963  3180  3578 I ash     : com.android.browser broadcast notify, H to R!
+12-17 19:40:23.963  3180  3578 I ash     : com.android.browser { hibernation duration=695 } transition to: running reason:bc_notify_android.intent.action.SCREEN_ON
+12-17 19:40:23.963  3180  3578 I ash     : clear hibernation actions!
+12-17 19:40:23.963  1795  3884 I PGManagerService: proxyWakeLockByPidUid, pid: 31558, uid: 10029, proxy: false
+12-17 19:40:23.963  1795  3884 D HwPowerManagerService: remove pxy wl, pid: 31558, uid: 10029 from pxy process list.
+12-17 19:40:23.963  3180  3578 I ash     : Unproxy wakelock uid = 10029 pid = 31558
+12-17 19:40:23.964  1795  6985 I PGManagerService: proxyWakeLockByPidUid, pid: 17357, uid: 10029, proxy: false
+12-17 19:40:23.964  1795  6985 D HwPowerManagerService: remove pxy wl, pid: 17357, uid: 10029 from pxy process list.
+12-17 19:40:23.964  3180  3578 I ash     : Unproxy wakelock uid = 10029 pid = 17357
+12-17 19:40:23.964  1795  1805 D PowerManagerService: acquire lock=60141323, flags=0x1, tag="hibernation", name=com.huawei.powergenie, ws=null, uid=1000, pid=3180
+12-17 19:40:23.965  1795  1805 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.965  1795  1805 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:23.965 20818 20818 D BetaClub_LogUpload: [LogUploadService.onCreate]
+12-17 19:40:23.967 20818 20818 D BetaClub_LogUpload: [LogUploadService.onStartCommand]
+12-17 19:40:23.968 20818 20818 D BetaClub_LogUpload: [LogUploadService.resumeUpload]
+12-17 19:40:23.976  1795 11747 I ActivityManager_broadcast: dispatch ordered broadcast [foreground] BroadcastRecord{13f8eeb u-1 android.intent.action.TIME_TICK}, has 1 receivers
+12-17 19:40:23.976  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:40:23.977  1795 17831 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:23.978  3180  3578 D PgedBinderAdapter: unfrz ok, pid: [31558, 17357]
+12-17 19:40:23.978  3180  3578 I PGServer: report state:6 event type:2 pid:0 uid:10029 pkg:com.android.browser to pid: 1795
+12-17 19:40:23.978  3180  3578 I ash     : Unfreeze com.android.browser OK !
+12-17 19:40:23.978  1795 11745 D PowerManagerService: release:lock=60141323, flg=0x0, tag="hibernation", name=com.huawei.powergenie", ws=null, uid=1000, pid=3180
+12-17 19:40:23.979  1795 11745 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.979  1795 11745 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:40:23.979  1795  3249 I PGManagerService: proxyBroadcast:[com.android.browser] proxy:false
+12-17 19:40:23.981 20818 20818 E BetaClub_LogUpload: [Utils.lockCreate] <>
+12-17 19:40:23.982  3879  3879 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:40:23.985  3180  3578 I ash     : unproxy com.android.browser broadcast OK !
+12-17 19:40:23.985  1795  2396 D SmartHeartBeat: setAlarmsPending ...
+12-17 19:40:23.986  3180  3578 I ash     : Unpending com.android.browser alarm OK !
+12-17 19:40:23.986  1795  2396 I ActivityManager_broadcast: dispatch ordered broadcast [foreground] BroadcastRecord{3e28df2 u-1 android.intent.action.SCREEN_ON}, has 1 receivers
+12-17 19:40:23.986  1795  3111 D GpsFreezeProc: removeFreezeProcess pkg:com.android.browser
+12-17 19:40:23.986  1795  3111 I GnssLocationProvider: setRequest ProviderRequest[OFF]
+12-17 19:40:23.986  1795  3111 I GnssLocationProvider: stopNavigating, mStarted=false
+12-17 19:40:23.986  3180  3578 I ash     : unproxy app:com.android.browser,uid:10029,result:true
+12-17 19:40:23.987  1795  6986 D NetdConnector: SND -> {11642 firewall set_uid_rule standby 10029 allow}
+12-17 19:40:23.987  3879  3879 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:40:23.989  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -2.370746 Y: 2.037848 Z: 9.814381  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:40:23.990  3879  3879 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:40:23.997  1795 15988 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:24.005   835  2385 E libteec : begin
+12-17 19:40:24.005   606  2379 E libteec : receive data len = 128
+12-17 19:40:24.014 20818 20837 D BetaClub_LogUpload: [LogUploadService.resumeUpload]Upload list is empty, start to kill process!
+12-17 19:40:24.016   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:24.016   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:24.016   606  2379 E libteec : send data return = 128
+12-17 19:40:24.017   835  2385 E libteec : receive data len = 128
+12-17 19:40:24.017   835  2385 E libteec : begin
+12-17 19:40:24.017   835  2385 E libteec : qsc_decode end
+12-17 19:40:24.018  1795  2665 D NetdConnector: RCV <- {200 11642 Firewall command succeeded}
+12-17 19:40:24.019  1795  2665 D NetdConnector: RCV <- {200 11642 Firewall command succeeded}
+12-17 19:40:24.020  3180  3578 I ash     : removeAppNetworkRestrict >> com.android.browser, uids : [10029]
+12-17 19:40:24.020  3180  3578 I ash     : perform running actions!

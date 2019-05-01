@@ -1,0 +1,100 @@
+12-17 19:33:10.683  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: true
+12-17 19:33:10.683  1795  3975 E LocSvc_libulp: I/int ulp_msg_process_system_update(const UlpSystemEvent): systemEvent:0 
+12-17 19:33:10.689  1795  3253 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:10.691  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:33:10.691  1795 20747 I AlarmManager: remove(PendingIntent{1bdc12b: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) changed bounds; rebatching
+12-17 19:33:10.697  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:33:10.697  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:33:10.697  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen on event
+12-17 19:33:10.697  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: interrupt
+12-17 19:33:10.700  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:33:10.703  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = true, mIsPreScrnOn = false, mScrnSwitchTime = 1481974384469, occurTime = 1481974390701, delta = 6232, mScrnOffAccTime = 1797564, mScrnOnAccTime = 122488
+12-17 19:33:10.703  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1803796, mScrnOffAccTime = 1803796, mScrnOnAccTime = 122488
+12-17 19:33:10.706  1795  3253 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:10.708  5224  5224 I Step_LSC: 20002302|logicalDealBroadcastEvent : Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+12-17 19:33:10.708  3626  3626 I iMonitor: create: 903001010
+12-17 19:33:10.708  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:33:10.709  5224  5283 I Step_LSC: 20002302| ## MSG_DEAL_SYSTEM_EVENT android.intent.action.SCREEN_ON
+12-17 19:33:10.710  5224  5283 I Step_StandStepCounter: 20002302|flush sensor data
+12-17 19:33:10.710  1795  3111 I qti_sensors_hal: flush,395,handle 49
+12-17 19:33:10.710  1795  3111 I qti_sensors_hal: flush:sensor(android.sensor.step_counter) handle:49
+12-17 19:33:10.711  5224  5283 I Step_LSC: 20002302|REPORT : 4195 89805 2995 0
+12-17 19:33:10.711  3626  3626 I iMonitor: send: 903001010
+12-17 19:33:10.711   818  1152 I logserver: handle_exception_events enter
+12-17 19:33:10.712  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:33:10.712  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:33:10.713  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:33:10.718  1795  3249 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{580cfb2 5224:com.huawei.health:DaemonService/u0a99}
+12-17 19:33:10.720  5224  5283 I Step_HSNH: 20002302|upDateHealthNotification()|90|2.99|4195
+12-17 19:33:10.720  5224  5283 I Step_HSNH: 20002302|rebuild notification
+12-17 19:33:10.723  1795  3139 I NotificationManager: enqueueNotificationInternal: pkg=com.huawei.health id=10010 notification=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)
+12-17 19:33:10.725  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.huawei.health|10010|null|10099
+12-17 19:33:10.725  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:33:10.725  2852  2852 I EventCenter: EventCenter Get :android.com.huawei.bone.NOTIFY_SPORT_DATA
+12-17 19:33:10.726  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_ON
+12-17 19:33:10.726  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:33:10.727  7741  7741 D Mms_TX_NOTIFY: ScreenState present
+12-17 19:33:10.728  1795  1821 I ActivityManager_activity: Incall is gone
+12-17 19:33:10.728  1795  1821 I ActivityManager_activity: windowsGone(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}
+12-17 19:33:10.729  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:33:10.731  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)) important=2, post=1481974390723, when=1481531589202, vis=0, userid=0
+12-17 19:33:10.731  2852  2852 D StatusBar: updateNotification(StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)))
+12-17 19:33:10.732  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:10.732  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:33:10.732  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:33:10.732  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:33:10.733  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.huawei.health|10010|null|10099
+12-17 19:33:10.733  2852  2852 D StatusBar: applyInPlace=true shouldPeek=false alertAgain=true
+12-17 19:33:10.733  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.huawei.health|10010|null|10099
+12-17 19:33:10.733  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.huawei.health|10010|null|10099, group=0|com.huawei.health|10010|null|10099
+12-17 19:33:10.733  2852  2852 D StatusBar: reusing notification for key: 0|com.huawei.health|10010|null|10099
+12-17 19:33:10.734  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:10.735  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:10.736  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:33:10.738  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_ON
+12-17 19:33:10.741  3608  3608 D InCall  : InCallActivity - mScreenOnReceiver mCallEndOptionsDialog = null
+12-17 19:33:10.741  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:33:10.741  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:33:10.741  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:33:10.745  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:33:10.745  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:33:10.745  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:33:10.746  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:10.754  1795  1821 I ActivityManager_activity: windowsVisibleLocked(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310} idle: true
+12-17 19:33:10.754  1795  1821 I WindowManager: All windows ready for display!
+12-17 19:33:10.754  1795  1809 I WindowOrientationListener: WindowOrientationListener enabled
+12-17 19:33:10.755  1795  1809 I qti_sensors_hal: batch,376,handle 0, timeout:0 ,period_ns:66667000
+12-17 19:33:10.755  1795  1809 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) handle:0 flags:0x0 period_ns 66667000
+12-17 19:33:10.755  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:10.756  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:10.756  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:10.756 16628 16628 I TotemWeather: RetryTaskController:mTaskList is null
+12-17 19:33:10.758  2852  2852 I StackScrollAlgorithm: overlapAmount:525.3814, previousNotificationEnd:258.0, newYTranslation:-267.3814, location:8, i:1, getTopPadding:499.0, getLocationOnScreen():-745
+12-17 19:33:10.758  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:501, i:1
+12-17 19:33:10.758  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:33:10.758  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:33:10.764  1795  1809 I qti_sensors_hal: read from oem info: data_readback
+12-17 19:33:10.764  1795  1809 I qti_sensors_hal: 0xcd, 0xb0, 0x24, 0x3e
+12-17 19:33:10.764  1795  1809 I qti_sensors_hal: 0x66, 0xca, 0x3c, 0x3e
+12-17 19:33:10.764  1795  1809 I qti_sensors_hal: 0xc0, 0x2a, 0x7c, 0x3f
+12-17 19:33:10.764  1795  1809 I qti_sensors_hal: 0x55, 0x0, 0x0, 0x0
+12-17 19:33:10.764  1795  1809 I qti_sensors_hal: 0x0, 0x0, 0x0, 0x0
+12-17 19:33:10.764  1795  1809 E qti_sensors_hal: read from oem info: data_valid_flag=0x55
+12-17 19:33:10.764  1795  1809 E qti_sensors_hal: read from oem info: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:33:10.764  1795  1809 E qti_sensors_hal: Final value: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:33:10.764  1795  1809 I qti_sensors_hal: batch:load_acc_oeminf_data x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:10.764  1795  1809 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) sample_rate=14.999925Hz report_rate_f=0.000000Hz curr sample rate:5.000000 cur rpt rate:0 max:400.000000 min:1.000000
+12-17 19:33:10.766  1795  3253 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:16
+12-17 19:33:10.766  1795  3253 D StubTelephonyRegistry: LISTEN_CELL_LOCATION uid:10028
+12-17 19:33:10.766  1795  1809 I qti_sensors_hal: flush,395,handle 0
+12-17 19:33:10.766  1795  1809 I qti_sensors_hal: flush,260 handle 0
+12-17 19:33:10.766  1795  1809 I WindowManager: Finished screen turning on...
+12-17 19:33:10.766  1795  1825 I PowerManager_screenOn: DisplayPowerController Unblocked screen on after 525 ms
+12-17 19:33:10.766  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:10.766  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=1.0
+12-17 19:33:10.766 31949 31967 I PushService: main{1} PushService.onStartCommand(PushService.java:87) Push Service Start by  userEvent
+12-17 19:33:10.767  1795  1825 D DisplayPowerController: Animating brightness: target=28, rate=40
+12-17 19:33:10.767  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=1098
+12-17 19:33:10.767  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:10.768  1795  2750 I HwLightsService: back light level before map = 1098
+12-17 19:33:10.768  1795  1825 D DisplayPowerController: Animating brightness: target=28, rate=40

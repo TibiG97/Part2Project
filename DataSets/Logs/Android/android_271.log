@@ -1,0 +1,100 @@
+12-17 19:33:43.536  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:33:43.536  2852  2852 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:33:43.536  3180  3578 I ash     : ash->screen off
+12-17 19:33:43.537  3180  3578 I ash     : Default InputMethod : com.baidu.input_huawei
+12-17 19:33:43.537  3180  3578 I ash     : screen off inputmethod, delay to hibernation
+12-17 19:33:43.538  3180  3578 I ThermalStateManager: handle action thermal policy:301
+12-17 19:33:43.539  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:33:43.539  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: false
+12-17 19:33:43.549  3879  3879 I HwLauncher: Launcher receiver screen off broadcast sendmessage true
+12-17 19:33:43.556  1795  3238 I AlarmManager: set(PendingIntent{35e2769: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) : type=2 triggerAtTime=443559919 win=60000 tElapsed=443559919 maxElapsed=443619919 interval=0 flags=0x8
+12-17 19:33:43.564  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:33:43.564  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen off event
+12-17 19:33:43.569  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = false, mIsPreScrnOn = true, mScrnSwitchTime = 1481974422611, occurTime = 1481974423568, delta = 957, mScrnOffAccTime = 1834314, mScrnOnAccTime = 123880
+12-17 19:33:43.569  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1834314, mScrnOffAccTime = 1834314, mScrnOnAccTime = 124837
+12-17 19:33:43.574  3626  3626 I iMonitor: create: 903001010
+12-17 19:33:43.577  3626  3626 I iMonitor: send: 903001010
+12-17 19:33:43.577   818  1152 I logserver: handle_exception_events enter
+12-17 19:33:43.578  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:33:43.585  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_OFF
+12-17 19:33:43.587  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:43.588  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:33:43.595  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_OFF
+12-17 19:33:43.608  1795  6986 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:0
+12-17 19:33:43.637 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_OFF
+12-17 19:33:43.652  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.813657 Y: 6.311560 Z: 3.825293  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:43.675  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:33:43.680  1795  3253 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:43.796 31949 31967 I TCP     : msg.recv{4791} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 659TCP_OK
+12-17 19:33:43.798 31949 31967 I ECS     : msg.recv{4791} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 663 bytes [12]_00_03_02_05_01_04_81_C0_11_17_29_67 cmdCode(CC_PCheckVersion.0x0501)msgType(MT_ACK.2)msgClass(MC_Push.5)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(true)length(659)version(3)sno(81C0)
+12-17 19:33:43.849  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.535428 Y: 6.821509 Z: 2.264258  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:43.890  1795  1795 I TrafficMonitor: update:rxPkts:7,txPkts:8,rxBytes:1090,txBytes:643
+12-17 19:33:43.890  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:33:43.890  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:33:43.946  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:33:43.951  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:33:44.045  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.029126 Y: 7.001944 Z: 0.734156  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:44.086  3782 20532 V AudioManager: isMusicActive...
+12-17 19:33:44.086  3782 20532 V AudioManager: isWiredHeadsetOn...
+12-17 19:33:44.241  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.872220 Y: 7.370673 Z: 0.757333  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:44.437  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.927136 Y: 7.394217 Z: 0.687788  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:44.634  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.099729 Y: 7.833548 Z: 1.259646  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:44.824  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:44.830  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.115430 Y: 7.464819 Z: 3.369348  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:44.951  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:44.987  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:45.026  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.746701 Y: 6.390021 Z: 4.799002  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:45.222  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.350781 Y: 6.131110 Z: 4.729442  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:45.329  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:33:45.336  1795  2728 D hw_netstat: total/1090/643,com.huawei.espacev2/963/584,unknown:0/127/59
+12-17 19:33:45.339  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSRTT=480  WEBSNDDUPACKS=0  SENDSEGS=7  RESENDSEGS=0  RECVSEGS=6  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=3  RTTSEGS=3  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:33:45.339  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-58  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=65, rtt_tcp_duration=531, rtt_lan_duration=188, rtt_lan_failures=0, rtt_lan_succ=5, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:33:45.339  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:33:45.339  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:33:45.353  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:33:45.354  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=8, mTXbad=0, mRXGood=7] rssi=-58
+12-17 19:33:45.355  1795  2728 E HwCHRWebMonitor: running processName=com.android.incallui
+12-17 19:33:45.357  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.huawei.espacev2 UID=10102  WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:33:45.357  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:33:45.358  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 0, tx = 0
+12-17 19:33:45.358  1795  2728 D HwArpVerifier: getDNSFailedCntDiff  dnsNewFailCnt =  1001, aws.getOldDnsFailedCnt() = 1001, dnsDiff = 0
+12-17 19:33:45.419  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.303708 Y: 6.303717 Z: 4.219418  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:45.455  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:45.542  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:45.567  3180  4307 I AwareLog: MemoryRecoveryDMEPlugin: handle message MSG_MEM_LEAK_CHECK
+12-17 19:33:45.893  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:33:45.893  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:33:45.893  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:33:46.588  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:46.621  1795 16501 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:46.621  1795 16501 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:46.624  1795  3249 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:46.625  1795  3249 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:46.626  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+12-17 19:33:46.626  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:33:46.627  1795  1806 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:33:46.628  3858  4126 I amsnl   : csr
+12-17 19:33:46.628  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:33:46.631  1795  3238 D wifiserviceimpl: netmask =16580607
+12-17 19:33:46.631  3858  4126 I amsnl   : m1: false
+12-17 19:33:46.633  1795 15988 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:46.634  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:33:46.634  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:33:46.643  1795  6988 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:46.644  1795  6988 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:46.647  1795  3237 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:46.647  1795  3237 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:46.647  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+12-17 19:33:46.647  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:33:46.648  3858  4126 I amsnl   : csr
+12-17 19:33:46.648  1795 16498 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:33:46.648  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:33:46.650  1795  1805 D wifiserviceimpl: netmask =16580607
+12-17 19:33:46.650  3858  4126 I amsnl   : m1: false
+12-17 19:33:46.652  1795  3139 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:46.652  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:33:46.653  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:33:46.888  1795  1795 I TrafficMonitor: expired arrive. level:-1
+12-17 19:33:46.889  1795  1795 I TrafficMonitor: during_ms:2003,period_ms:2000
+12-17 19:33:46.889  1795  1795 I TrafficMonitor: count:81,rx_sum:0,tx_sum:0,rxBytes:0,during_ms:2003,rx_speed:0.0,tx_speed:0.0,rto:0.0
+12-17 19:33:46.889  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:0, rxSpd:0B/s, txpkt:0, txSpd:0

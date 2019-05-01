@@ -1,0 +1,100 @@
+12-17 19:33:19.816  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:19.890  3782 20498 V AudioManager: isMusicActive...
+12-17 19:33:19.890  3782 20498 V AudioManager: isWiredHeadsetOn...
+12-17 19:33:20.754  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:33:20.754  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:33:20.754  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:33:20.823  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:20.854  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:20.879   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:33:20.879   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:33:20.884   802   802 E Thermal-daemon: [ap] temp_new :27  temp_old :28
+12-17 19:33:20.884   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:33:20.884   802   802 E Thermal-daemon: Report temperature: [ap] temp :27  report_threshold:1
+12-17 19:33:42.127  1795  3139 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:33:42.127  1795  3139 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:33:42.128  1795  1825 D PowerManagerService: updateIsPoweredLocked: wasPowered=false, mIsPowered=false, oldPlugType=0, mPlugType=0, mBatteryLevel=78
+12-17 19:33:42.128  1795  1825 I HwCustPowerManager_FLOW: handleDreamLocked
+12-17 19:33:42.128  1795  1795 I DeviceIdleController: updateChargingLocked: charging=false
+12-17 19:33:42.128  1795  1795 D WifiService: onReceive, action:android.intent.action.BATTERY_CHANGED
+12-17 19:33:42.128  1795  1795 D WifiService: ACTION_BATTERY_CHANGED pluggedType: 0
+12-17 19:33:42.128  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155652 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:33:42.128  1795  2670 D WifiController: StaEnabledState what=155652
+12-17 19:33:42.128  1795  2670 D WifiController: DefaultState what=155652
+12-17 19:33:42.128  1795  2670 D WifiController: battery changed pluggedType: 0
+12-17 19:33:42.128  1795  2670 D WifiController: wifiSleepPolicy:1
+12-17 19:33:42.129  2852  2852 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-17 19:33:42.129  2852  2852 W KeyguardUpdateMonitor: ACTION_BATTERY_CHANGED AMP: 0; Volt: 0
+12-17 19:33:42.129  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:33:42.129  2852  2852 W KeyguardUpdateMonitor: ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000
+12-17 19:33:42.129  2852  2852 I KgBattery: BatteryInfo updated:  3lpc-1
+12-17 19:33:42.129  2852  2852 W AppHandler: sendMessage with obj100
+12-17 19:33:42.129  2852  2852 D KeyguardUpdateMonitor: handleBatteryUpdate
+12-17 19:33:42.129  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:33:42.129  2852  2852 V KeyguardUpdateMonitor: RefreshBatteryInfo isBatteryLow: 78
+12-17 19:33:42.129  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 9.000000
+12-17 19:33:42.129  2852  2852 W HwLockScreenPanel: Handle message: 100
+12-17 19:33:42.129  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =1335831887 
+12-17 19:33:42.129  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:false
+12-17 19:33:42.129  1795  1825 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.Display".
+12-17 19:33:42.129  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:42.129  1795  1795 I HwScreenOnProximityLock: removeProximityView success vp android.view.ViewRootImpl@731b6f4
+12-17 19:33:42.129  1795  1825 I WindowManger_keyguard: Screen turned off...
+12-17 19:33:42.130  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:33:42.130  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:33:42.130  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:33:42.130  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:33:42.130  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:33:42.130  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:33:42.130  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:33:42.130  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:33:42.130  1795  1795 D Sensors : batch called handle:2 sample_ns:20000000 latency_ns:0
+12-17 19:33:42.130  1795  1795 D Sensors : pa2240-proximity calling driver setDelay 20 ms
+12-17 19:33:42.130  1795  1795 E huawei_ProximitySensor_CPP_Test: write 20 failed
+12-17 19:33:42.130  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:33:42.130  2852  2852 W HwLockScreenPanel: refreshBatteryInfo: null
+12-17 19:33:42.130  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.BATTERY_CHANGED  flag:1610612752 technology=Li-ion icon-small=17303220 max_charging_voltage=0 health=2 max_charging_current=0 status=3 plugged=0 present=true charge_counter=0 level=78 scale=100 temperature=275 voltage=4076 invalid_charger=0 
+12-17 19:33:42.131  2852  2852 I PowerUI : buckets   .....15 .. 10 .. 5level          78 --> 78status         3 --> 3plugType       0 --> 0invalidCharger 0 --> 0bucket         1 --> 1plugged        false --> false
+12-17 19:33:42.131  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:33:42.131  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:33:42.131  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:33:42.131  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:33:42.131  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:33:42.131  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:33:42.131  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:33:42.131  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:33:42.131  3782  3862 W QCNEJ   : |CORE| CNE received unexpected action: android.intent.action.BATTERY_CHANGED
+12-17 19:33:42.131  1795  1795 I WindowManager: Destroying surface Surface(name=) called by com.android.server.wm.WindowStateAnimator.destroySurface:2056 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:907 com.android.server.wm.WindowState.removeLocked:1527 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2723 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2688 com.android.server.wm.WindowManagerService.removeWindowLocked:2677 com.android.server.wm.WindowManagerService.removeWindowLocked:2546 com.android.server.wm.WindowManagerService.removeWindow:2541 
+12-17 19:33:42.132  3218  3218 D VideoCall_LowBattery: BatteryIntent received: android.intent.action.BATTERY_CHANGED
+12-17 19:33:42.133  3218  3218 E QtiImsExtUtils: getImsPhoneId failed. Exception = org.codeaurora.ims.QtiImsException: ImsService is not running
+12-17 19:33:42.133  3218  3218 E QtiImsExtUtils: getConfigForPhoneId phoneId is invalid
+12-17 19:33:42.133  3218  3218 E QtiImsExtUtils: isCarrierConfigEnabled bundle is null
+12-17 19:33:42.133  3218  3218 D VideoCall_LowBattery:  allowVideoCallsInLowBattery: false isCarrierOneSupported: false mIsLowbattery: false
+12-17 19:33:42.134  1795  1825 V KeyguardServiceDelegate: onScreenTurnedOff()
+12-17 19:33:42.134  1795  3253 I NotificationManager: cancelNotificationWithTag pid 2852,uid = 10033,tag = low_battery,pkg =com.android.systemui,id =2132017204
+12-17 19:33:42.134  1795  1825 I WindowManger_keyguard: onScreenTurnedOff()
+12-17 19:33:42.134  1795  1825 W HwScreenOnProximityLock: releaseLock: return because sensor listener is held = false
+12-17 19:33:42.134  1795  1825 D HwNormalizedAutomaticBrightnessController: set power status:mPowerStatus=true,powerStatus=false
+12-17 19:33:42.134  2852  2866 D KeyguardService: Caller checkPermission fail
+12-17 19:33:42.134  2852  2866 D KeyguardService: KGSvcCall onScreenTurnedOff.
+12-17 19:33:42.134  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:33:42.134  2852  2866 D KeyguardViewMediator: notifyScreenTurnedOff
+12-17 19:33:42.135  2852  2852 I HwPowerUI: processLowerBatteryLevel plugged:false batteryLevel:78 intent:act:android.intent.action.BATTERY_CHANGED  flag:1610612752 technology=Li-ion icon-small=17303220 max_charging_voltage=0 health=2 max_charging_current=0 status=3 plugged=0 present=true charge_counter=0 level=78 scale=100 temperature=275 voltage=4076 invalid_charger=0 
+12-17 19:33:42.135  2852  2852 I HwPowerUI: doTemperatueWarning, health:2
+12-17 19:33:42.135  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityNegative -> updatePowerStateLocked
+12-17 19:33:42.135  1795  1825 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123084687, event=0, flags=0x0, uid=1000
+12-17 19:33:42.135  1795  1795 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:42.135  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=0, uid=1000
+12-17 19:33:42.135  2852  2852 I HwBatteryManager: onBatteryLevelChanged: level=78, pluggedIn=false, charging=false, PercentColor=-1275068417
+12-17 19:33:42.135  1795  1825 I PowerManager_screenOn: PowerManagerService wakeUpNoUpdateLocked: eventTime=123084688, uid=1000
+12-17 19:33:42.135  1795  1825 I PowerManager_screenOn: PowerManagerService Waking up from sleep (uid 1000)...
+12-17 19:33:42.135  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=1, reason=0, interactive=true, mInteractive=false, mInteractiveChanging=false
+12-17 19:33:42.135  1795  1825 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:33:42.135  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:33:42.135  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakeUp: event=android.server.power:POWER, reasonUid=1000 opPackageName=android opUid=1000
+12-17 19:33:42.135  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:33:42.135  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:33:42.135  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:33:42.135  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:33:42.136  1795  1825 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123084688, event=0, flags=0x0, uid=1000
+12-17 19:33:42.136  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=0, uid=1000

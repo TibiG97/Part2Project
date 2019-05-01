@@ -1,0 +1,100 @@
+12-17 19:31:45.457  1795  3884 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:31:45.457  1795  3884 D PowerManagerService: release:lock=184063844, flg=0x0, tag="NetworkStats", name=android", ws=null, uid=1000, pid=1795
+12-17 19:31:45.458  1795  3884 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:45.458  1795  3884 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:45.460  1795  3077 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_OFF
+12-17 19:31:45.460  1795  3077 I GnssLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:true
+12-17 19:31:45.460  1795  3077 I GnssLocationProvider: disableGps:false  isEnabled()=true
+12-17 19:31:45.462  2852  3361 I vol.VolumeDialogControl: C onScreenOff 
+12-17 19:31:45.462  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onScreenOff
+12-17 19:31:45.465  3168  3168 I CHR_TelStatusListenr0: [Timer rat:0 level:5] suspend
+12-17 19:31:45.465  3168  3168 I CHR_TelStatusListenr0: [Timer serviceState:0 simReady:true] suspend
+12-17 19:31:45.465  3168  3168 I CHR_TelStatusListenr1: [Timer serviceState:1 simReady:false] suspend
+12-17 19:31:45.465  3168  3168 I CHR_TelphonyStatusService: duration: 504465 STATUS_REPORT_TIMESPAN: 86400000 / (1000 * 60 * 60 * 24) day STATUS_REPORT_TIMESPAN_FOR_BETA: 21600000 / (1000 * 60 * 60 * 24) day
+12-17 19:31:45.465  3168  3168 I CHR_ChrUtil: is Beta User, userType = 3
+12-17 19:31:45.466  2883  3040 I HwSystemManager: TrafficNotifyAfterLocked:mLockStartTraffic = 0;mLockStartTrafficList = {}
+12-17 19:31:45.467  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:31:45.467  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.198560 Y: 8.291418 Z: -0.171316  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:45.467  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:31:45.467  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:31:45.468  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:31:45.468  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:31:45.469  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_OFF  flag:1342177296 
+12-17 19:31:45.473  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:31:45.473  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:31:45.476  3180  3332 I WakelockMonitor: start wakelock monitor.
+12-17 19:31:45.476  3180  3578 I ScreenLockClean: call busy and not start clean apps.
+12-17 19:31:45.477  3180  3578 I ash     : ash->screen off
+12-17 19:31:45.477  3218 13114 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:45.478  3180  3578 I ash     : Default InputMethod : com.baidu.input_huawei
+12-17 19:31:45.478  3180  3578 I ash     : screen off inputmethod, delay to hibernation
+12-17 19:31:45.478  3180  3578 I ThermalStateManager: handle action thermal policy:301
+12-17 19:31:45.480  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:31:45.480  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: false
+12-17 19:31:45.484  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:31:45.488  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:31:45.488  3879  3879 I HwLauncher: Launcher receiver screen off broadcast sendmessage true
+12-17 19:31:45.493  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:31:45.494  1795 17832 I AlarmManager: set(PendingIntent{9106302: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) : type=2 triggerAtTime=443441858 win=60000 tElapsed=443441858 maxElapsed=443501858 interval=0 flags=0x8
+12-17 19:31:45.498  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:31:45.502  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:31:45.502  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen off event
+12-17 19:31:45.507  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = false, mIsPreScrnOn = true, mScrnSwitchTime = 1481974305291, occurTime = 1481974305506, delta = 215, mScrnOffAccTime = 1732082, mScrnOnAccTime = 108792
+12-17 19:31:45.507  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1732082, mScrnOffAccTime = 1732082, mScrnOnAccTime = 109007
+12-17 19:31:45.514  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:31:45.518  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_OFF
+12-17 19:31:45.518  3626  3626 I iMonitor: create: 903001010
+12-17 19:31:45.520  3626  3626 I iMonitor: send: 903001010
+12-17 19:31:45.520   818  1152 I logserver: handle_exception_events enter
+12-17 19:31:45.521  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:31:45.525  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_OFF
+12-17 19:31:45.528  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.125775 Y: 8.177984 Z: -0.119175  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:45.534  1795  3111 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:0
+12-17 19:31:45.552  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:31:45.552  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:31:45.561 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_OFF
+12-17 19:31:45.589  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.573819 Y: 8.755514 Z: 1.039076  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:45.594  1795  1795 I PowerManager_screenOn: PowerManagerNotifier Sending wake up broadcast.
+12-17 19:31:45.594  1795  1795 I SendBroadcastPermission: action:android.intent.action.SCREEN_ON, mPermissionType:0
+12-17 19:31:45.598  1795  6988 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:31:45.600  1795  1795 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:31:45.600  1795  1795 I ActivityManager_broadcast: Enqueueing ordered broadcast[foreground] BroadcastRecord{fb0f413 u-1 android.intent.action.SCREEN_ON}: prev had 0
+12-17 19:31:45.600  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [foreground] BroadcastRecord{fb0f413 u-1 android.intent.action.SCREEN_ON}, has 57 receivers
+12-17 19:31:45.603  1795  2377 I AwareLog: AwareMem_DMEServer: start
+12-17 19:31:45.605  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_ON
+12-17 19:31:45.605  1795  2668 D WifiP2pService: InactiveState143466
+12-17 19:31:45.605  1795  2377 I AwareLog: AwareMem_EventTracker: [SCREEN_ON_1481974305603] is abandoned for memory 830476
+12-17 19:31:45.605  1795  2668 E HwWifiP2pService: Unhandled message when=123018777 what=143466 arg1=0 arg2=0
+12-17 19:31:45.605  1795  2668 D WifiP2pService: P2pEnabledState when=123018777 what=143466 arg1=0 arg2=0
+12-17 19:31:45.605  1795  2668 D WifiP2pService: DefaultState{ when=0 what=143466 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:31:45.605  1795  2668 D HwWifiP2pService: cancel alarm.
+12-17 19:31:45.609  1795  2671 D WifiStateMachine:  ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123018781/442841972 1 0
+12-17 19:31:45.609  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123018781/442841972 1 0
+12-17 19:31:45.609  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SCREEN_STATE_CHANGED  rt=123018781/442841972 1 0
+12-17 19:31:45.609  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SCREEN_STATE_CHANGED  rt=123018781/442841973 1 0
+12-17 19:31:45.609  1795  2671 D WifiStateMachine:  SupplicantStartedState CMD_SCREEN_STATE_CHANGED  rt=123018781/442841973 1 0
+12-17 19:31:45.609  1795  2671 D WifiStateMachine:  DefaultState CMD_SCREEN_STATE_CHANGED  rt=123018781/442841973 1 0
+12-17 19:31:45.610  1795  2671 W AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConnectivityManager$3@bdcaf7b
+12-17 19:31:45.610  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:31:45.610  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 2, mHwSingleScanCounter: 0
+12-17 19:31:45.611  1795  2671 I AlarmManager: set(null) : type=2 triggerAtTime=442842151 win=0 tElapsed=442846974 maxElapsed=442846974 interval=0 flags=0x9
+12-17 19:31:45.611  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:31:45.611  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:31:45.611  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_ON mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:31:45.611  1795  1795 D HwConnectivityService: CtrlSocket receive screen on intent!
+12-17 19:31:45.611  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus
+12-17 19:31:45.611  1795  1795 D HwConnectivityService: pid=1000, cmd=100, param=0
+12-17 19:31:45.611  1795  1795 D HwConnectivityService: mFilterMsgFlag: 0,msg.arg1: 3
+12-17 19:31:45.611  1795  2671 D WifiStateMachine:  ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123018783/442841974 1 0
+12-17 19:31:45.611  1795  2691 D HwConnectivityService: handleFilterMsg action: 3mFilterMsgFlag3
+12-17 19:31:45.611  1795  1795 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 1000 cmd = 100 param = 0 ret = 0
+12-17 19:31:45.611  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123018783/442841975 1 0
+12-17 19:31:45.611  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus reset
+12-17 19:31:45.611  1795  2691 D HwConnectivityService: [tiger]setBastetFilterInfo action 3pid 1000
+12-17 19:31:45.611  1795  2691 D HwConnectivityService: stopFilter m_filterIsStarted:false
+12-17 19:31:45.611  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:31:45.611  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:31:45.613  1795  1795 I NotificationManager: mIntentReceiver-ACTION_SCREEN_ON
+12-17 19:31:45.613  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = true,ledNotification == null?true
+12-17 19:31:45.613  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:31:45.613  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon

@@ -1,0 +1,100 @@
+12-17 19:33:47.018   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:33:47.018   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:33:47.020   802   802 E Thermal-daemon: [pa_0] temp_new :28  temp_old :27
+12-17 19:33:47.022   802   802 E ThermalBinder: mThermalService is NULL!
+12-17 19:33:47.022   802   802 E Thermal-daemon: Report temperature: [pa_0] temp :28  report_threshold:1
+12-17 19:33:47.261  1795  3121 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:47.818  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:47.894  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:33:47.894  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:33:47.894  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:33:47.951  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:47.987  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:48.458  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:48.532  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:33:48.532  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:33:48.535  1795 15982 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:33:48.538  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -64 0 -1 255 -1 255 -1 255 255 99 2147483647 2147483647 2147483647 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:33:48.538  3858  4126 I amsnl   : csr
+12-17 19:33:48.538  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -64 0 -1 255 -1 255 -1 255 255 99 2147483647 2147483647 2147483647 2147483647 2147483647 false gw|lte
+12-17 19:33:48.540  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:33:48.545  1795  2396 D wifiserviceimpl: netmask =16580607
+12-17 19:33:48.545  3858  4126 I amsnl   : m1: false
+12-17 19:33:48.548  1795  3111 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:48.549  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:33:48.549  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:16 targetClass:1 masterLevel:5 slaveLevel:-1
+12-17 19:33:48.549  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:33:49.089  3782 20532 V AudioManager: isMusicActive...
+12-17 19:33:49.090  3782 20532 V AudioManager: isWiredHeadsetOn...
+12-17 19:33:49.585  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:33:49.899  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:33:49.899  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:33:49.899  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:34:47.646  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:34:47.646  1795  2376 I AlarmManager: there are no wakeup alarms and the screen is off, we can delay what we have so far until the future
+12-17 19:34:47.646  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:34:47.648  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:34:47.648  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:34:47.648  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:34:47.648  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:34:47.648  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:34:47.648  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:34:47.648  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:34:47.648  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:34:47.648  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:34:47.650  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:34:47.650  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:34:47.650  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:34:47.650  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:34:47.650  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:34:47.650  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:34:47.650  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:34:47.650  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:34:47.650  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:34:47.651  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:34:47.651  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:34:47.651  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:34:47.651  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:34:47.651  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:34:47.651  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:34:47.651  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:34:47.651  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:34:47.651  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:34:47.653  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:34:47.653  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:34:47.653  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:34:47.653  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:34:47.653  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:34:47.653  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:34:47.653  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:34:47.653  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:34:47.653  1795  2728 D hw_netstat: total/0/0
+12-17 19:34:47.656  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSRTT=480  WEBSNDDUPACKS=0  SENDSEGS=0  RESENDSEGS=0  RECVSEGS=0  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=0  RTTSEGS=0  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:34:47.656  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-58  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=65, rtt_tcp_duration=531, rtt_lan_duration=188, rtt_lan_failures=0, rtt_lan_succ=5, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:34:47.656  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:34:47.657  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:34:47.660   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:34:47.663  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 442974881984478}
+12-17 19:34:47.664  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:34:47.665  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=0, mTXbad=0, mRXGood=0] rssi=-58
+12-17 19:34:47.666  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 442974881984478}
+12-17 19:34:47.667  1795  2728 E HwCHRWebMonitor: running processName=com.android.incallui
+12-17 19:34:47.667  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:34:47.668  1795  2728 D HwArpVerifier: mAccessWebStatus : mRxSleepCnt = 0
+12-17 19:34:47.668  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 0, tx = 0
+12-17 19:34:47.668  1795  2728 D HwArpVerifier: getDNSFailedCntDiff  dnsNewFailCnt =  1001, aws.getOldDnsFailedCnt() = 1001, dnsDiff = 0
+12-17 19:34:47.668  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass idle 1 442974881984478
+12-17 19:34:47.669  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:34:47.670  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:34:47.670  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:34:47.670  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:34:47.671  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:34:47.671  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:34:47.672  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:34:47.672  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:34:47.672  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:34:47.672  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:34:47.673  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:34:47.674   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:94) watch thread onLoop... 
+12-17 19:34:55.834  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:34:55.834  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 9.000000

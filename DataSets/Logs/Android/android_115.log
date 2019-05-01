@@ -1,0 +1,100 @@
+12-17 19:31:58.312  1795  1795 D HwArpVerifier: startWifiRouteCheck
+12-17 19:31:58.312  1795 17832 D PowerManagerService: release:lock=152331024, flg=0x0, tag="RILJ_ACK_WL", name=com.android.phone", ws=null, uid=1001, pid=3218
+12-17 19:31:58.312  1795 17832 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:58.312  1795 17832 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:58.314  1795  1795 D WifiProStatisticsManager: sendScreenOnEvent enter.
+12-17 19:31:58.314  1795  2734 D WifiProStatisticsManager: msg Loop is running.
+12-17 19:31:58.314  1795  2733 D WiFi_PRO_WifiProStateMachine: device screen on,but isScreenOffMonitor is false
+12-17 19:31:58.320  1795  1795 I EyeProtectionControllerImpl: onReceive intent action = android.intent.action.SCREEN_ON
+12-17 19:31:58.322  1795  2736 D HwInnerWifiManagerImpl: SupplicantState = COMPLETED
+12-17 19:31:58.322  1795  2736 D HwInnerWifiManagerImpl: isPhoneAP = false
+12-17 19:31:58.325  2883  2883 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:31:58.326  1795  6988 D PowerManagerService: acquire lock=184063844, flags=0x1, tag="NetworkStats", name=android, ws=null, uid=1000, pid=1795
+12-17 19:31:58.326  1795  6988 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:58.326  1795  6988 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:58.328  3218 13036 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:31:58.328  3218 13036 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:31:58.329  1795  6988 D NetdConnector: SND -> {11610 bandwidth gettetherstats}
+12-17 19:31:58.330  1795  2736 E hwintelligencewifi: getCurrentCellid type type = PHONE_TYPE_GSM
+12-17 19:31:58.330  1795  2736 E hwintelligencewifi: getCurrentCellid type is PHONE_TYPE_GSM
+12-17 19:31:58.331  1795  2665 D NetdConnector: RCV <- {200 11610 Tethering stats list completed}
+12-17 19:31:58.331  2883  2883 I HwSystemManager: AutoCleanReceiveServer:receive action:android.intent.action.SCREEN_ON
+12-17 19:31:58.332  1795  2665 D NetdConnector: RCV <- {200 11610 Tethering stats list completed}
+12-17 19:31:58.333  1795  2736 E hwintelligencewifi: getCurrentCellid PHONE_TYPE_GSM cellidString = 460003645
+12-17 19:31:58.333  1795  2736 E hwintelligencewifi: updataApInfo cellid =460003645
+12-17 19:31:58.333  1795  2736 E hwintelligencewifi: addCurrentApInfo cellid =460003645
+12-17 19:31:58.334  1795  6988 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:31:58.334  1795  6988 D HwNetworkStatsService: mActiveIface: null
+12-17 19:31:58.335  1795  6988 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+12-17 19:31:58.335  1795  6988 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:31:58.335  1795  6988 D PowerManagerService: release:lock=184063844, flg=0x0, tag="NetworkStats", name=android", ws=null, uid=1000, pid=1795
+12-17 19:31:58.336  1795  6988 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:58.336  1795  6988 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:58.336  3168  3168 I CHR_ChrDataServiceTracker: handledataswitchchanged
+12-17 19:31:58.338  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 0 len = 0, 4096
+12-17 19:31:58.338  1795  3077 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_ON
+12-17 19:31:58.338  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:31:58.339  1795  3077 I GnssLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:true
+12-17 19:31:58.339  1795  3077 I GnssLocationProvider: disableGps:false  isEnabled()=true
+12-17 19:31:58.339  2883  3040 E HwSystemManager: TrafficNotifyAfterLocked:screen notification will not notify
+12-17 19:31:58.340  1795  2736 E hwintelligencewifi: addCurrentApInfo info is already there
+12-17 19:31:58.340  1795  2736 W hwintelligencewifi: updateBssidTimer time = 1481974318340
+12-17 19:31:58.345  1795  2736 E hwintelligencewifi: inlineAddCurrentApInfo mInfos.size()=132
+12-17 19:31:58.347  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:31:58.347  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:31:58.348  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:31:58.348  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:31:58.349  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_ON  flag:1342177296 
+12-17 19:31:58.352  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.717496 Y: 7.736578 Z: 2.223391  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:58.354  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:31:58.354  5215  5215 D wpa_supplicant: nl80211: Drv Event 79 (NL80211_CMD_SET_REKEY_OFFLOAD) received for wlan0
+12-17 19:31:58.354  5215  5215 D wpa_supplicant: nl80211: Rekey offload event for BSSID 80:38:bc:08:42:c1
+12-17 19:31:58.354  5215  5215 D wpa_supplicant: nl80211: Rekey offload - Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 02
+12-17 19:31:58.354  5215  5215 D wpa_supplicant: wlan0: Event DRIVER_GTK_REKEY (35) received
+12-17 19:31:58.356  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:31:58.358  3180  3332 I BatteryMonitor: screen off: 0s, awake: 0s wakeups: 0, battery changed: 0
+12-17 19:31:58.363  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:31:58.363  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:31:58.364  3180  3578 D HwMultiWindowEx: isInMultiWindowMode ret: 0
+12-17 19:31:58.364  3180  3578 I BacklightControl: can't adjust backlight when app launch from other scene.
+12-17 19:31:58.364  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:31:58.364  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: true
+12-17 19:31:58.365  1795  3975 E LocSvc_libulp: I/int ulp_msg_process_system_update(const UlpSystemEvent): systemEvent:0 
+12-17 19:31:58.365  3180  3578 I ThermalStateManager: handle action thermal policy:208
+12-17 19:31:58.366  3180  3578 I ash     : ash->screen on
+12-17 19:31:58.369  3218  6115 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:58.371  3180  3578 I ash     : ash->screen unlock
+12-17 19:31:58.372  1795  3110 I AlarmManager: remove(PendingIntent{87d6922: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) changed bounds; rebatching
+12-17 19:31:58.377  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:31:58.377  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen on event
+12-17 19:31:58.377  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: the message is still in the messagequeue, remove it
+12-17 19:31:58.379  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:31:58.383  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = true, mIsPreScrnOn = false, mScrnSwitchTime = 1481974318178, occurTime = 1481974318382, delta = 204, mScrnOffAccTime = 1741657, mScrnOnAccTime = 112104
+12-17 19:31:58.383  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1741861, mScrnOffAccTime = 1741861, mScrnOnAccTime = 112104
+12-17 19:31:58.384  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:31:58.388  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:31:58.388  3626  3626 I iMonitor: create: 903001010
+12-17 19:31:58.390  5224  5224 I Step_LSC: 20002302|logicalDealBroadcastEvent : Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+12-17 19:31:58.391  5224  5283 I Step_LSC: 20002302| ## MSG_DEAL_SYSTEM_EVENT android.intent.action.SCREEN_ON
+12-17 19:31:58.391  5224  5283 I Step_StandStepCounter: 20002302|flush sensor data
+12-17 19:31:58.392  1795 15987 I qti_sensors_hal: flush,395,handle 49
+12-17 19:31:58.392  1795 15987 I qti_sensors_hal: flush:sensor(android.sensor.step_counter) handle:49
+12-17 19:31:58.392   818  1152 I logserver: handle_exception_events enter
+12-17 19:31:58.392  5224  5283 I Step_LSC: 20002302|REPORT : 4181 89378 2980 0
+12-17 19:31:58.393  3626  3626 I iMonitor: send: 903001010
+12-17 19:31:58.393  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:31:58.393  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:31:58.394  3608  3608 I InCall  : ProximitySensor - ProximitySensor{keybrd=0, dpad=0, offhook=1, hor=0, ui=1, aud=EARPIECE}
+12-17 19:31:58.394  3608  3608 D InCall  : ProximitySensor - Turning on proximity sensor
+12-17 19:31:58.394  3608  3608 I InCall  : ProximitySensor - Proximity wake lock already acquired
+12-17 19:31:58.395  1795  2371 E LightSensor: read Events lux: 15.0
+12-17 19:31:58.396  1795  1825 D AutomaticBrightnessController: ambient lux=15.0,timeStamp =442854758916000
+12-17 19:31:58.396  1795  1825 D HwNormalizedAutomaticBrightnessController: mAmbientLuxValid=true,mWakeupFromSleep= false
+12-17 19:31:58.396  1795  1825 D HwAmbientLuxFilterAlgo: updateAmbientLux: Initializing: mAmbientLightRingBuffer=[15.0 / 1ms], mAmbientLux=15.0
+12-17 19:31:58.396  1795  1825 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:31:58.396  1795  1825 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:31:58.396  1795  1825 D HwAmbientLuxFilterAlgo: t=123031567,BT=123032067,DT=123032567,BT1=123035567,DT1=123039567,Bn=false,Dn=false,lx=[15.0/123031567],mLx=15.0,s=5.0,ss=0.0,AuIntervened=false,mProximityState=false,bLux=134.0,dLux=2.5,bLux1=134.0,dLux1=2.5
+12-17 19:31:58.396  1795  1825 D HwNormalizedAutomaticBrightnessController: need to update brightness: mAmbientLux=15.0
+12-17 19:31:58.396  1795  1825 D HwNormalizedSpline: interpolate:mPosBrightness=0.0lux=15.0,mIsReboot=true,mIsUserChange=false,mDelta=0.0
+12-17 19:31:58.396  1795  1825 D HwNormalizedSpline: offsetBrightness=26.8,mOffsetBrightness_last26.8,lux=15.0,mPosBrightness=0.0,mIsUserChange=false,mDelta=0.0,defaultBrightness=26.8,mStartLuxDefaultBrightness=26.8mLastLuxDefaultBrightness=26.8
+12-17 19:31:58.397  1795  1825 D HwNormalizedSpline: write:userId=0,mPosBrightness =0.0,mOffsetBrightness_last=26.8,mIsUserChange=false,mDeltaNew=0.0,mStartLuxDefaultBrightness=26.8mLastLuxDefaultBrightness=26.8,mAmLux=15.0

@@ -1,0 +1,100 @@
+12-17 19:32:30.214  2883  2883 I HwSystemManager: AutoCleanReceiveServer:receive action:android.intent.action.SCREEN_ON
+12-17 19:32:30.215  1795  3111 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:32:30.215  1795  3111 D HwNetworkStatsService: mActiveIface: null
+12-17 19:32:30.216  1795  3111 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+12-17 19:32:30.216  1795  3111 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:32:30.217  1795  3111 D PowerManagerService: release:lock=184063844, flg=0x0, tag="NetworkStats", name=android", ws=null, uid=1000, pid=1795
+12-17 19:32:30.217  1795  3111 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:30.218  1795  2736 E hwintelligencewifi: getCurrentCellid type type = PHONE_TYPE_GSM
+12-17 19:32:30.218  1795  2736 E hwintelligencewifi: getCurrentCellid type is PHONE_TYPE_GSM
+12-17 19:32:30.221  3168  3168 I CHR_ChrDataServiceTracker: handledataswitchchanged
+12-17 19:32:30.222  1795  3077 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_ON
+12-17 19:32:30.222  1795  3077 I GnssLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:true
+12-17 19:32:30.222  1795  3077 I GnssLocationProvider: disableGps:false  isEnabled()=true
+12-17 19:32:30.226  3608  3608 I ActivityManager_activity: Reporting idle of ActivityRecord{fd45985 token=android.os.BinderProxy@af8ea9b {com.android.incallui/com.android.incallui.InCallActivity}} finished=false
+12-17 19:32:30.227  2883  3040 E HwSystemManager: TrafficNotifyAfterLocked:screen notification will not notify
+12-17 19:32:30.228  1795  1821 I ActivityManager_activity: Incall is gone
+12-17 19:32:30.229  1795  1821 I ActivityManager_activity: windowsGone(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}
+12-17 19:32:30.229  1795  2736 E hwintelligencewifi: getCurrentCellid PHONE_TYPE_GSM cellidString = 460003645
+12-17 19:32:30.229  1795  2736 E hwintelligencewifi: updataApInfo cellid =460003645
+12-17 19:32:30.229  1795  2736 E hwintelligencewifi: addCurrentApInfo cellid =460003645
+12-17 19:32:30.230  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:30.231  1795  2736 E hwintelligencewifi: addCurrentApInfo info is already there
+12-17 19:32:30.231  1795  2377 V HwPackageManagerService: Returning system default Launcher 
+12-17 19:32:30.231  1795  2736 W hwintelligencewifi: updateBssidTimer time = 1481974350231
+12-17 19:32:30.231  1795  2377 I AwareLog: AwareMem_EventTracker: [APP_ACTIVITY_FINISH_123055945] is abandoned for memory 839280
+12-17 19:32:30.234  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:32:30.235  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:32:30.236  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:32:30.236  1795  2736 E hwintelligencewifi: inlineAddCurrentApInfo mInfos.size()=132
+12-17 19:32:30.236  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:32:30.236  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_ON  flag:1342177296 
+12-17 19:32:30.239  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:32:30.242  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:30.248  3180  3332 I BatteryMonitor: screen off: 3s, awake: 3s wakeups: 0, battery changed: 0
+12-17 19:32:30.249  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:32:30.249  3180  3578 D HwMultiWindowEx: isInMultiWindowMode ret: 0
+12-17 19:32:30.249  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:32:30.249  3180  3578 I BacklightControl: can't adjust backlight when app launch from other scene.
+12-17 19:32:30.251  3180  3578 I ThermalStateManager: handle action thermal policy:208
+12-17 19:32:30.251  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:32:30.252  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: true
+12-17 19:32:30.252  1795  3975 E LocSvc_libulp: I/int ulp_msg_process_system_update(const UlpSystemEvent): systemEvent:0 
+12-17 19:32:30.252  3180  3578 I ash     : ash->screen on
+12-17 19:32:30.255  3180  3578 I ash     : ash->screen unlock
+12-17 19:32:30.258  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:30.260  1795 16232 I AlarmManager: remove(PendingIntent{b4c3076: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) changed bounds; rebatching
+12-17 19:32:30.262  3218  3422 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:32:30.264  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:32:30.264  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen on event
+12-17 19:32:30.264  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: interrupt
+12-17 19:32:30.269  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:32:30.270  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = true, mIsPreScrnOn = false, mScrnSwitchTime = 1481974346972, occurTime = 1481974350268, delta = 3296, mScrnOffAccTime = 1762124, mScrnOnAccTime = 120431
+12-17 19:32:30.270  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1765420, mScrnOffAccTime = 1765420, mScrnOnAccTime = 120431
+12-17 19:32:30.274  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:32:30.275  5224  5224 I Step_LSC: 20002302|logicalDealBroadcastEvent : Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+12-17 19:32:30.276  5224  5283 I Step_LSC: 20002302| ## MSG_DEAL_SYSTEM_EVENT android.intent.action.SCREEN_ON
+12-17 19:32:30.276  5224  5283 I Step_StandStepCounter: 20002302|flush sensor data
+12-17 19:32:30.277  3626  3626 I iMonitor: create: 903001010
+12-17 19:32:30.277  1795 16501 I qti_sensors_hal: flush,395,handle 49
+12-17 19:32:30.277  1795 16501 I qti_sensors_hal: flush:sensor(android.sensor.step_counter) handle:49
+12-17 19:32:30.278  5224  5283 I Step_LSC: 20002302|REPORT : 4188 89506 2985 0
+12-17 19:32:30.278  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:32:30.278  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:32:30.280  3626  3626 I iMonitor: send: 903001010
+12-17 19:32:30.280   818  1152 I logserver: handle_exception_events enter
+12-17 19:32:30.281  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:32:30.282  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:32:30.285  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:32:30.287  1795  3247 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{580cfb2 5224:com.huawei.health:DaemonService/u0a99}
+12-17 19:32:30.289  5224  5283 I Step_HSNH: 20002302|upDateHealthNotification()|90|2.98|4188
+12-17 19:32:30.289  2852  2852 I EventCenter: EventCenter Get :android.com.huawei.bone.NOTIFY_SPORT_DATA
+12-17 19:32:30.290  5224  5283 I Step_HSNH: 20002302|rebuild notification
+12-17 19:32:30.291  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_ON
+12-17 19:32:30.292  7741  7741 D Mms_TX_NOTIFY: ScreenState present
+12-17 19:32:30.292  1795 11747 I NotificationManager: enqueueNotificationInternal: pkg=com.huawei.health id=10010 notification=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)
+12-17 19:32:30.293  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:32:30.293  1795  1821 I ActivityManager_activity: windowsVisibleLocked(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310} idle: true
+12-17 19:32:30.293  1795  1821 I WindowManager: All windows ready for display!
+12-17 19:32:30.294  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.huawei.health|10010|null|10099
+12-17 19:32:30.294  1795  1809 I WindowOrientationListener: WindowOrientationListener enabled
+12-17 19:32:30.295  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:32:30.295  1795  1809 I qti_sensors_hal: batch,376,handle 0, timeout:0 ,period_ns:66667000
+12-17 19:32:30.295  1795  1809 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) handle:0 flags:0x0 period_ns 66667000
+12-17 19:32:30.296   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:94) watch thread onLoop... 
+12-17 19:32:30.298   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:32:30.301  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_ON
+12-17 19:32:30.302  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:32:30.304  3608  3608 D InCall  : InCallActivity - mScreenOnReceiver mCallEndOptionsDialog = null
+12-17 19:32:30.310  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:32:30.312  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)) important=2, post=1481974350293, when=1481531589202, vis=0, userid=0
+12-17 19:32:30.313  1795  1809 I qti_sensors_hal: read from oem info: data_readback
+12-17 19:32:30.313  1795  1809 I qti_sensors_hal: 0xcd, 0xb0, 0x24, 0x3e
+12-17 19:32:30.313  1795  1809 I qti_sensors_hal: 0x66, 0xca, 0x3c, 0x3e
+12-17 19:32:30.313  1795  1809 I qti_sensors_hal: 0xc0, 0x2a, 0x7c, 0x3f
+12-17 19:32:30.313  1795  1809 I qti_sensors_hal: 0x55, 0x0, 0x0, 0x0
+12-17 19:32:30.313  1795  1809 I qti_sensors_hal: 0x0, 0x0, 0x0, 0x0
+12-17 19:32:30.313  1795  1809 E qti_sensors_hal: read from oem info: data_valid_flag=0x55
+12-17 19:32:30.313  1795  1809 E qti_sensors_hal: read from oem info: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:32:30.313  1795  1809 E qti_sensors_hal: Final value: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:32:30.313  1795  1809 I qti_sensors_hal: batch:load_acc_oeminf_data x_offset:0.160831 y_offset:0.184366 z_offset:0.985027

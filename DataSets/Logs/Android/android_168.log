@@ -1,0 +1,100 @@
+12-17 19:32:30.313  1795  1809 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) sample_rate=14.999925Hz report_rate_f=0.000000Hz curr sample rate:5.000000 cur rpt rate:0 max:400.000000 min:1.000000
+12-17 19:32:30.313  2852  2852 D StatusBar: updateNotification(StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)))
+12-17 19:32:30.314  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:32:30.315  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:32:30.315  1795  1809 I qti_sensors_hal: flush,395,handle 0
+12-17 19:32:30.315  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.huawei.health|10010|null|10099
+12-17 19:32:30.315  1795  1809 I qti_sensors_hal: flush,260 handle 0
+12-17 19:32:30.315  2852  2852 D StatusBar: applyInPlace=true shouldPeek=false alertAgain=true
+12-17 19:32:30.315  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.huawei.health|10010|null|10099
+12-17 19:32:30.315  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.huawei.health|10010|null|10099, group=0|com.huawei.health|10010|null|10099
+12-17 19:32:30.315  2852  2852 D StatusBar: reusing notification for key: 0|com.huawei.health|10010|null|10099
+12-17 19:32:30.316  1795  1809 I WindowManager: Finished screen turning on...
+12-17 19:32:30.316  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:32:30.316  1795  1825 I PowerManager_screenOn: DisplayPowerController Unblocked screen on after 507 ms
+12-17 19:32:30.316  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:32:30.316  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=1.0
+12-17 19:32:30.316  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:32:30.317  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:32:30.317  1795  1825 D DisplayPowerController: Animating brightness: target=18, rate=40
+12-17 19:32:30.317  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=705
+12-17 19:32:30.317  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:32:30.317  1795  2750 I HwLightsService: back light level before map = 705
+12-17 19:32:30.317  1795  1825 D DisplayPowerController: Animating brightness: target=18, rate=40
+12-17 19:32:30.317  1795  1825 V KeyguardServiceDelegate: onScreenTurnedOn()
+12-17 19:32:30.317  1795  1825 I WindowManger_keyguard: onScreenTurnedOn()
+12-17 19:32:30.317  1795  1825 D DisplayPowerController: Display ready!
+12-17 19:32:30.317  1795  1825 D DisplayPowerController: Finished business...
+12-17 19:32:30.317  2852  2822 D KeyguardService: Caller checkPermission fail
+12-17 19:32:30.317  2852  2822 D KeyguardService: KGSvcCall onScreenTurnedOn.
+12-17 19:32:30.317  2852  2822 D KeyguardViewMediator: notifyScreenTurnedOn
+12-17 19:32:30.318  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:32:30.319  1795  1825 D FpDataCollector: case xxx, not a fingerprint unlock 
+12-17 19:32:30.319  1795  1825 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:30.319  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeFinished mInteractiveChanging=true, mInteractive=true
+12-17 19:32:30.319 16628 16628 I TotemWeather: RetryTaskController:mTaskList is null
+12-17 19:32:30.322  1795 15987 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:16
+12-17 19:32:30.322  1795 15987 D StubTelephonyRegistry: LISTEN_CELL_LOCATION uid:10028
+12-17 19:32:30.323  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:32:30.323  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:32:30.323  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:32:30.323  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:32:30.324  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOn
+12-17 19:32:30.324  2852  2852 I PhoneStatusBar: onScreenTurnedOn
+12-17 19:32:30.325  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:32:30.325  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 0.000000
+12-17 19:32:30.325  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =-1748611661 
+12-17 19:32:30.325  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:32:30.326  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:true
+12-17 19:32:30.326  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:32:30.326  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:32:30.326  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:32:30.326  2852  2852 D KGWallpaper_Magazine: getNextIndex: 0; from 5 to 5; size: 44
+12-17 19:32:30.326  2852  2852 I HwLockScreenReporter: report msg is :{picture: Deepwater-05-2.3.001-bigpicture_05_8.jpg}
+12-17 19:32:30.326  2852  2852 W HwLockScreenReporter: report result = falsereport type:162 msg:{picture: Deepwater-05-2.3.001-bigpicture_05_8.jpg, channelId: 05}
+12-17 19:32:30.327  2852  2852 I OucScreenOnCounter: Screen already turned on at: 1481974212
+12-17 19:32:30.327  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:32:30.327  1795  1825 D DisplayPowerController: Animating brightness: target=18, rate=40
+12-17 19:32:30.327  1795  1825 I PowerManager_screenOn: PowerManagerService goToSleepNoUpdateLocked: eventTime=123056043, reason=7, flags=0, uid=1000
+12-17 19:32:30.327  1795  1825 I PowerManagerService: Going to sleep due to proximity...
+12-17 19:32:30.327  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=3, reason=7, interactive=false, mInteractive=true, mInteractiveChanging=false
+12-17 19:32:30.327  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityPositivebyPhone -> updatePowerStateLocked
+12-17 19:32:30.327  1795  1825 D PowerManagerService: ready=true,policy=3,wakefulness=3,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:30.327  1795  1825 E PowerManagerService: startDreaming = true
+12-17 19:32:30.328  2852  2852 I HwBrightnessUtils: APS brightness=17.0,ConvertToPercentage=0.19306579
+12-17 19:32:30.328  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:17 percentage:0.19306579
+12-17 19:32:30.328  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1931
+12-17 19:32:30.328  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1931
+12-17 19:32:30.328  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1931 fromUser:false
+12-17 19:32:30.328  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1931 fromUser:false
+12-17 19:32:30.329  1795  1825 D PowerManagerService: reallyGoToSleepNoUpdateLocked: eventTime=123056045, uid=1000
+12-17 19:32:30.329  1795  1825 I PowerManagerService: Sleeping (uid 1000)...
+12-17 19:32:30.329  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=0, reason=2, interactive=false, mInteractive=false, mInteractiveChanging=true
+12-17 19:32:30.329  1795  1825 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:30.329  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:32:30.331 31949 31967 I PushService: main{1} PushService.onStartCommand(PushService.java:87) Push Service Start by  userEvent
+12-17 19:32:30.332  1795  1795 I HwScreenOnProximityLock: preparePoriximityView addView 
+12-17 19:32:30.333  1795  1795 I HwPointEventFilter: do not support AFT because of no config
+12-17 19:32:30.334 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.shutdown(TcpCirChannel.java:257) Login_By_Step-> shut down now connect
+12-17 19:32:30.334  1795  1795 D WindowManager: ACTIVITY check resid: android, size=8
+12-17 19:32:30.335  1795  1795 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{1eef2e4 u0 android},EmuiStyle=0,StatusBarColor=0x0,NavigationBarColor=0x0, mLastIsEmuiLightStyle=-1
+12-17 19:32:30.335  1795  1809 D HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+12-17 19:32:30.335  2852  3344 I CommandQueue: updateBarBgColor
+12-17 19:32:30.335  1795  1795 I WindowManger_windowChange: oldFocusWindow: Window{e71ca6c u0 com.android.phone}, currentFocusWindow: Window{1eef2e4 u0 android}, currentFocusApp: AppWindowToken{844a0b2 token=Token{2fd6a14 ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}}}
+12-17 19:32:30.335  2852  3344 D CommandQueue: CommandQueue, setBarBackgroundColor
+12-17 19:32:30.335 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:32:30.336  2852  2852 I TintManager: updateBarBgColor:emuiStyle=0,statusBarColor=#00000000,navigationBarColor=#00000000, isEmuiLight=-1
+12-17 19:32:30.336  2852  2852 I HwPhoneStatusBarTransitions: restoreBackgroundColor:new=-16777216, old=0
+12-17 19:32:30.336 31949 31967 I ECS     : WatchThread{4786} TcpClient.disconnect_i(TcpClient.java:202) ==================== TCP CLIENT DISCONNECT ====================
+12-17 19:32:30.336  2852  2852 I HwNavigationBarTransitions: restoreBackgroundColor:new=0, old=0
+12-17 19:32:30.337  2852  2852 D TintManager: statusBarIconTint=#B3FFFFFF,navigationBarIconTint=#00000000
+12-17 19:32:30.337 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.disconnectSocket(TcpClientThread.java:369) disconnecting to uc.huawei.com:7801
+12-17 19:32:30.338 31949 31967 I TCP     : WatchThread{4786} TcpSocket.close(TcpSocket.java:158) shutdown output: java.net.SocketException: Socket is closed
+12-17 19:32:30.338 31949 31967 I TCP     : WatchThread{4786} TcpSocket.close(TcpSocket.java:170) shutdown input: java.net.SocketException: Socket is closed
+12-17 19:32:30.339  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:32:30.339 31949 31967 W TCP     : tcp.recv{4790} TcpSocket.read(TcpSocket.java:242) <<< WARN(5) >>> java.net.SocketException: Socket operation on non-socket
+12-17 19:32:30.340 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.closeSocket(TcpClientThread.java:396) closed socket.
+12-17 19:32:30.340 31949 31967 E TCP     : tcp.recv{4790} TcpClientThread.readSocket(TcpClientThread.java:452) <<< ERROR(6) >>> socket read length failure -104
+12-17 19:32:30.341 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:314) disconnected
+12-17 19:32:30.342  3218  4159 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:32:30.342  3218  4159 I PhoneInterfaceManager: shouldBlockLocation  ret:false

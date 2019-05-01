@@ -1,0 +1,100 @@
+12-17 19:44:56.360  1795  1795 I TrafficMonitor: update:rxPkts:4,txPkts:2,rxBytes:787,txBytes:123
+12-17 19:44:56.360  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:44:56.360  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:44:56.372   633   692 I eSpaceService: Watch Thread{4481} LoginC.doWatch(LoginC.java:1459) Login_By_Step-> watch count =  0
+12-17 19:44:56.444  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:44:56.618  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:44:56.636  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:44:56.749  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:44:57.250  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:44:57.250  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:44:57.251  3858  4126 I amsnl   : csr
+12-17 19:44:57.251  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 22 -90 -8 300 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:44:57.251  1795 15988 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:44:57.251  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 22 -90 -8 300 2147483647 2147483647 false gw|lte
+12-17 19:44:57.252  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:44:57.255  1795  3139 D wifiserviceimpl: netmask =16580607
+12-17 19:44:57.255  3858  4126 I amsnl   : m1: false
+12-17 19:44:57.257  1795  6986 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:44:57.258  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+12-17 19:44:57.258  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:44:57.259  3858  4126 I amsnl   : c: true, w: false, t: false, l: false
+12-17 19:44:57.343  3782 20886 V AudioManager: isMusicActive...
+12-17 19:44:57.344  3782 20886 V AudioManager: isWiredHeadsetOn...
+12-17 19:44:57.373   633   692 I ECS     : Heartbeat timer.timers{6125} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 112 bytes [16]_00_00_00_6C_00_03_01_03_12_05_87_4F_EC_D5_32_80 cmdCode(CC_Heartbeat.0x0312)msgType(MT_ARG.1)msgClass(MC_InstanceMessage.3)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(108)version(3)sno(874F)
+12-17 19:44:57.426  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:44:57.427  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:44:57.491   633   692 I TCP     : tcp.recv{4488} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 28
+12-17 19:44:57.659  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:44:57.839  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:44:57.904   818  1086 E iMonitor: dropped event (cpu0) 
+12-17 19:44:57.904   818  1086 E iMonitor: setTracingEnabled:0
+12-17 19:44:57.904   818  1086 E iMonitor: error writing to /sys/kernel/debug/tracing/trace_marker: Bad file descriptor (9)
+12-17 19:44:57.919  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:44:57.927  1795  2728 D hw_netstat: total/923/339,android.uid.system:1000/683/123,com.huawei.espacev2/240/216
+12-17 19:44:57.931  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=2  WEBRESENDSEGS=0  WEBRECVSEGS=2  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=5  WEBRTTSEGS=1  WEBSRTT=380  WEBSNDDUPACKS=0  SENDSEGS=2  RESENDSEGS=0  RECVSEGS=4  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=2  RTTDURATION=7  RTTSEGS=1  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:44:57.931  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-63  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=2568, rtt_tcp_duration=13020, rtt_lan_duration=230, rtt_lan_failures=0, rtt_lan_succ=8, rtt_lan_max=124, rtt_lan_min=7,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:44:57.931  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:44:57.932  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 529 BSSID 80:38:bc:0b:28:01 SSID 'Huawei-Employee' due to wpa_bss_flush_by_age
+12-17 19:44:57.932  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=44
+12-17 19:44:57.932  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:44:57.932  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 530 BSSID 80:38:bc:0b:2b:e1 SSID 'Huawei-Employee' due to wpa_bss_flush_by_age
+12-17 19:44:57.932  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=768 send_len=44
+12-17 19:44:57.932  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:44:57.933  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 531 BSSID 80:38:bc:0a:f0:61 SSID 'Huawei-Employee' due to wpa_bss_flush_by_age
+12-17 19:44:57.933  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=768 send_len=44
+12-17 19:44:57.933  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:44:57.933  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 532 BSSID 00:26:f2:1b:9d:b2 SSID 'NTPC02' due to wpa_bss_flush_by_age
+12-17 19:44:57.933  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=1536 send_len=44
+12-17 19:44:57.933  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:44:57.933  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:44:57.933  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 533 BSSID 80:38:bc:0b:18:a1 SSID 'Huawei-Employee' due to wpa_bss_flush_by_age
+12-17 19:44:57.933  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=2304 send_len=44
+12-17 19:44:57.933  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:44:57.933  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:44:57.933  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 534 BSSID 80:38:bc:0b:29:e1 SSID 'Huawei-Employee' due to wpa_bss_flush_by_age
+12-17 19:44:57.933  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:44:57.933  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=1536 send_len=44
+12-17 19:44:57.933  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:44:57.933  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:44:57.933  5215  5215 D wpa_supplicant: wlan0: BSS: Remove id 535 BSSID 80:38:bc:0b:25:e1 SSID 'Huawei-Employee' due to wpa_bss_flush_by_age
+12-17 19:44:57.933  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:44:57.933  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=44
+12-17 19:44:57.933  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:44:57.933  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:44:57.934  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:44:57.934  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:44:57.953  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=35
+12-17 19:44:57.955  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=4, mTXbad=0, mRXGood=6] rssi=-63
+12-17 19:44:57.957  1795  2728 E HwCHRWebMonitor: running processName=com.huawei.android.launcher
+12-17 19:44:57.959  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.huawei.espacev2 UID=10102  WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:44:57.959  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:44:57.960  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 2, tx = 2
+12-17 19:44:57.960  1795  2728 D HwArpVerifier: AccessWebStatus : reset all
+12-17 19:44:58.070   818  1086 E iMonitor: setTracingEnabled:1
+12-17 19:44:58.070   818  1086 E iMonitor: Systrace:: buffer is full and will reset.
+12-17 19:44:58.365  1795  1795 I TrafficMonitor: update:rxPkts:2,txPkts:2,rxBytes:136,txBytes:216
+12-17 19:44:58.365  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:44:58.365  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:44:58.392  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:44:58.495   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 28TCP_OK
+12-17 19:44:58.498   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 32 bytes [12]_00_03_02_03_12_05_87_4F_EC_D5_32_80 cmdCode(CC_Heartbeat.0x0312)msgType(MT_ACK.2)msgClass(MC_InstanceMessage.3)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(28)version(3)sno(874F)
+12-17 19:44:58.648  1795 17831 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:44:59.095  1795  1807 D FreezeScreenScene: handleMessage CHECK_FREEZE_SCREEN_MSG
+12-17 19:44:59.359  1795  1795 I TrafficMonitor: expired arrive. level:-1
+12-17 19:44:59.359  1795  1795 I TrafficMonitor: during_ms:2005,period_ms:2000
+12-17 19:44:59.359  1795  1795 I TrafficMonitor: count:130,rx_sum:2,tx_sum:2,rxBytes:136,during_ms:2005,rx_speed:67.83042394014963,tx_speed:107.73067331670823,rto:1.0
+12-17 19:44:59.359  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:2, rxSpd:67B/s, txpkt:2, txSpd:107
+12-17 19:44:59.444  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:44:59.616  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:44:59.635  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:44:59.749  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:45:00.271  1795  3237 I AlarmManager: set(PendingIntent{45609b6: PendingIntentRecord{85bc6b7 com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443656630 win=14997 tElapsed=443656630 maxElapsed=443671627 interval=0 flags=0x8
+12-17 19:45:00.279  1795 15987 D PowerManagerService: acquire lock=237604388, flags=0x1, tag="WakerLock:49171226", name=com.tencent.mm, ws=null, uid=10105, pid=4634
+12-17 19:45:00.279  1795 15987 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:45:00.284  1795 15982 I AlarmManager: set(PendingIntent{4d8ad8d: PendingIntentRecord{d310b42 com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443906639 win=202494 tElapsed=443906639 maxElapsed=444109133 interval=0 flags=0x8
+12-17 19:45:00.298  1795 11745 I AlarmManager: remove(PendingIntent{65c1753: PendingIntentRecord{d310b42 com.tencent.mm broadcastIntent}}) changed bounds; rebatching
+12-17 19:45:00.311  1795  6985 I AlarmManager: set(PendingIntent{1836890: PendingIntentRecord{e2f9589 com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443906670 win=202497 tElapsed=443906670 maxElapsed=444109167 interval=0 flags=0x8
+12-17 19:45:00.316  1795  3111 I AlarmManager: remove(PendingIntent{ac8998e: PendingIntentRecord{85bc6b7 com.tencent.mm broadcastIntent}}) changed bounds; rebatching
+12-17 19:45:00.328  1795  3110 D PowerManagerService: release:lock=237604388, flg=0x0, tag="WakerLock:49171226", name=com.tencent.mm", ws=null, uid=10105, pid=4634
+12-17 19:45:00.328  1795  3110 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0

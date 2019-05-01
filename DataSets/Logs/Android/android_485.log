@@ -1,0 +1,100 @@
+12-17 19:55:48.211  1795 16232 I ActivityManager_service: retrieve service Intent { pkg=com.huawei.betaclub cmp=com.huawei.betaclub/com.huawei.logupload.LogUploadReceive } U=0: ret null
+12-17 19:55:48.212 21081 21081 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.stopService:1533 android.content.ContextWrapper.stopService:618 com.huawei.logupload.util.Utils$MyHandler.handleMessage:589 android.os.Handler.dispatchMessage:102 android.os.Looper.loop:199 
+12-17 19:55:48.213 32607 32607 I BetaClub: [RouteService.onStartCommand]
+12-17 19:55:48.213 32607 21101 I BetaClub: [LogSendProgressReceiver.onReceive]Start!
+12-17 19:55:48.213 32607 21101 I BetaClub: [ReceiverUtils.disposeLogUploadProgress]
+12-17 19:55:48.213 32607 21101 D BetaClub: [DisposeLogUploadProgress.dispose] exception:1
+12-17 19:55:48.213 32607 21101 D BetaClub: [DisposeLogUploadProgress.dispose] exception is not null
+12-17 19:55:48.214  1795  2728 D HwArpVerifier: There are 1 mac address for gateway 
+12-17 19:55:48.214 32607 32607 I BetaClub: [RouteService.onDestroy]
+12-17 19:55:48.214  1795  2728 D HwArpVerifier: from HEART_CHECK transmit to state:HEART_CHECK
+12-17 19:55:48.214  1795  2728 D HwArpVerifier: msg what=124 arg1(token)=1008 arg2(mode)=0 delay=30000
+12-17 19:55:48.214  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:55:48.214 21081 21081 I Process : Sending signal. PID: 21081 SIG: 9
+12-17 19:55:48.217  1795  2728 D hw_netstat: total/6829/6839,com.huawei.espacev2/3780/3402,com.tencent.mm/2603/3255,unknown:0/323/59,android.uid.system:1000/123/123
+12-17 19:55:48.218  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=18  WEBRESENDSEGS=0  WEBRECVSEGS=15  WEBERRSEGS=0  WEBOUTRSTS=1  WEBESTABLISRST=1  WEBRTTDURATION=56  WEBRTTSEGS=9  WEBSRTT=490  WEBSNDDUPACKS=0  SENDSEGS=18  RESENDSEGS=0  RECVSEGS=13  ERRSEGS=0  OUTRSTS=1  ESTABLISRST=1  RTTDURATION=13  RTTSEGS=8  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:55:48.218  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-60  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=2579, rtt_tcp_duration=13080, rtt_lan_duration=638, rtt_lan_failures=0, rtt_lan_succ=9, rtt_lan_max=408, rtt_lan_min=7,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:55:48.218  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:55:48.218  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:55:48.221  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=35
+12-17 19:55:48.221  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=37, mTXbad=0, mRXGood=24] rssi=-60
+12-17 19:55:48.221  1795  2728 E HwCHRWebMonitor: Good NetWork Traffic , so mOnAppSuckTime, mUnModifyCount reset 0
+12-17 19:55:48.222  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:55:48.222  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 15, tx = 18
+12-17 19:55:48.222  1795  2728 D HwArpVerifier: AccessWebStatus : reset all
+12-17 19:55:48.226  1795 16500 I DisplayManagerService: stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=false
+12-17 19:55:48.226  1795 16500 I DisplayManagerService: stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=0
+12-17 19:55:48.226  1795  3139 I ActivityManager: Process com.huawei.betaclub:loguploadservice (pid 21081) has died
+12-17 19:55:48.227  1795  3139 D ActivityManager: cleanUpApplicationRecord -- 21081
+12-17 19:55:48.227  1795  3139 I ActivityManager: cleanUpApplicationRecordLocked, pid: 21081, restart: false
+12-17 19:55:48.227  1795  3139 I ActivityManager: cleanUpApplicationRecordLocked, reset pid: 21081, euid: 0
+12-17 19:55:48.228  1795  1809 I MultiTaskManagerService: onProcessDied pid = 21081, uid = 1000
+12-17 19:55:48.228  1795  3884 E HsmCoreServiceImpl: onTransact in code is: 102
+12-17 19:55:48.228  1795  3884 W MediaProcessHandler: processOp uid 1000 is not concerned!
+12-17 19:55:48.300  1795  2371 E LightSensor: read Events lux: 70.0
+12-17 19:55:48.301  1795  1825 D AutomaticBrightnessController: ambient lux=70.0,timeStamp =444284664116000
+12-17 19:55:48.310   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:310 Level[NOTICE] magic[3365677344 572]:Through getsockopt, the mss value is 1360.
+12-17 19:55:48.310   633 31868 I SDK     : 
+12-17 19:55:48.310   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:310 Level[NOTICE] magic[3365677344 747]:When reconnect, the max packet size for UDPS tunnel is 1340.
+12-17 19:55:48.310   633 31868 I SDK     : 
+12-17 19:55:48.310   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:310 Level[NOTICE] magic[3365677344 757]:Reconnect to SVN was done, tcp sock:150
+12-17 19:55:48.310   633 31868 I SDK     : 
+12-17 19:55:48.311   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:311 Level[NOTICE] magic[3365677344 2992]:Set mode to can partial write! ret:1
+12-17 19:55:48.311   633 31868 I SDK     : 
+12-17 19:55:48.311   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:311 Level[NOTICE] magic[3365677344 3087]:begin display engine list
+12-17 19:55:48.311   633 31868 I SDK     : 
+12-17 19:55:48.312   633 31868 E SDK     : <2016-12-17 19:55:48> [ERR] SDK: UE-SeC 2016-12-17 19:55:48:311 Level[ERR] magic[3365677344 2890]:listing available engine types
+12-17 19:55:48.312   633 31868 E SDK     : 
+12-17 19:55:48.312   633 31868 E SDK     : <2016-12-17 19:55:48> [ERR] SDK: UE-SeC 2016-12-17 19:55:48:312 Level[ERR] magic[3365677344 2893]:engine 0, id = "gmt", name = "GMT engine support"
+12-17 19:55:48.312   633 31868 E SDK     : 
+12-17 19:55:48.312   633 31868 E SDK     : <2016-12-17 19:55:48> [ERR] SDK: UE-SeC 2016-12-17 19:55:48:312 Level[ERR] magic[3365677344 2897]:end of list
+12-17 19:55:48.312   633 31868 E SDK     : 
+12-17 19:55:48.312   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:312 Level[NOTICE] magic[3365677344 2814]:Handshake start,SSL timeout is 20s
+12-17 19:55:48.312   633 31868 I SDK     : 
+12-17 19:55:48.368   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:368 Level[NOTICE] magic[3365677344 2824]:Handshake done!
+12-17 19:55:48.368   633 31868 I SDK     : 
+12-17 19:55:48.368   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:368 Level[NOTICE] magic[3365677344 2734]:ReHandShake to SVN was done.
+12-17 19:55:48.368   633 31868 I SDK     : 
+12-17 19:55:48.368   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:368 Level[NOTICE] magic[3365677344 8910]:Set local private IP is:[10.33.11.129]
+12-17 19:55:48.368   633 31868 I SDK     : 
+12-17 19:55:48.369   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:368 Level[NOTICE] magic[3365677344 2761]:Get host ip [10.33.11.129] ([2164990218]) for third party when ReHandShake!
+12-17 19:55:48.369   633 31868 I SDK     : 
+12-17 19:55:48.369   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:369 Level[NOTICE] magic[3365677344 2801]:Send resume tunnel request msg ok!
+12-17 19:55:48.369   633 31868 I SDK     : 
+12-17 19:55:48.380   633 31868 E SDK     : <2016-12-17 19:55:48> [ERR] SDK: UE-SeC 2016-12-17 19:55:48:379 Level[ERR] magic[3365677344 692]:Decoder message type is invalidation;invalidation MMTP_MSG_ENABLE_EXTEND is [36]
+12-17 19:55:48.380   633 31868 E SDK     : 
+12-17 19:55:48.380   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:380 Level[NOTICE] magic[3365677344 1568]:Process tunnel resume response MSG!
+12-17 19:55:48.380   633 31868 I SDK     : 
+12-17 19:55:48.380   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:380 Level[NOTICE] magic[3365677344 1070]:Tunnel is online!
+12-17 19:55:48.380   633 31868 I SDK     : 
+12-17 19:55:48.380   633 31868 E SDK     : <2016-12-17 19:55:48> [ERR] SDK: UE-SeC 2016-12-17 19:55:48:380 Level[ERR] magic[3365677344 223]:L4VPN notify callback :Status[1], ErrorCode[0]!
+12-17 19:55:48.380   633 31868 E SDK     : 
+12-17 19:55:48.381   633 31875 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:381 Level[NOTICE] magic[3359111456 2326]:FSM_OpenFile => [START],Mode[r]
+12-17 19:55:48.381   633 31875 I SDK     : 
+12-17 19:55:48.381   633 31868 E SDK     : <2016-12-17 19:55:48> [ERR] SDK: UE-SeC 2016-12-17 19:55:48:381 Level[ERR] magic[3365677344 1532]:RefreshLoginTime: u(w00290667) refresh time 1481975748
+12-17 19:55:48.381   633 31868 E SDK     : 
+12-17 19:55:48.381   633 31875 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:381 Level[NOTICE] magic[3359111456 6458]:FSM_Tool_TreatFolderEncEx => [START]: pcFileName [20161217_192748.log] 
+12-17 19:55:48.381   633 31875 I SDK     : 
+12-17 19:55:48.381   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:381 Level[NOTICE] magic[3365677344 2326]:FSM_OpenFile => [START],Mode[r]
+12-17 19:55:48.381   633 31868 I SDK     : 
+12-17 19:55:48.381   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:381 Level[NOTICE] magic[3365677344 6458]:FSM_Tool_TreatFolderEncEx => [START]: pcFileName [anyofficeKeyspaceUserLastLogintime_w00290667] 
+12-17 19:55:48.381   633 31868 I SDK     : 
+12-17 19:55:48.381   633 31875 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:381 Level[NOTICE] magic[3359111456 1541]:FSM_Tool_Tree_Enc_Path =>Access [/data/user/0/com.huawei.espacev2/AnyOfficeSDKWorkPath/Tracker/xIGYSawKrDtSpggfTaPUux5IOi1lBMc-rcQKyfjcLy8=] real path  ok 
+12-17 19:55:48.381   633 31875 I SDK     : 
+12-17 19:55:48.382   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:382 Level[NOTICE] magic[3365677344 1541]:FSM_Tool_Tree_Enc_Path =>Access [/mnt/sdcard/sandbox/AnyOfficeSDK/sdk/y8xtnmSqHoEc0k4xSzUtpE+Z6QVVlLmDB6Fc+F-bGtlxErJQpdPKZBPrBlZATp5B] real path  ok 
+12-17 19:55:48.382   633 31868 I SDK     : 
+12-17 19:55:48.382   633 31875 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:382 Level[NOTICE] magic[3359111456 2421]:FileSec: have right to open file due to cur app sec level = 0 is higher than file app(&5ߢ[@ñ?z]) sec level = 0.
+12-17 19:55:48.382   633 31875 I SDK     : 
+12-17 19:55:48.382   633 31868 E SDK     : <2016-12-17 19:55:48> [ERR] SDK: UE-SeC 2016-12-17 19:55:48:382 Level[ERR] magic[3365677344 436]:libcSeekFile => fseek[22]:[-64][0][EA60400C]
+12-17 19:55:48.382   633 31868 E SDK     : 
+12-17 19:55:48.382   633 31875 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:382 Level[NOTICE] magic[3359111456 2487]:FSM_OpenFile => [END]
+12-17 19:55:48.382   633 31875 I SDK     : 
+12-17 19:55:48.382   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:382 Level[NOTICE] magic[3365677344 2421]:FileSec: have right to open file due to cur app sec level = 0 is higher than file app(&5ߢ[@ñ?z]) sec level = 0.
+12-17 19:55:48.382   633 31868 I SDK     : 
+12-17 19:55:48.383   633 31875 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:382 Level[NOTICE] magic[3359111456 2326]:FSM_OpenFile => [START],Mode[ab]
+12-17 19:55:48.383   633 31875 I SDK     : 
+12-17 19:55:48.383   633 31875 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:383 Level[NOTICE] magic[3359111456 6458]:FSM_Tool_TreatFolderEncEx => [START]: pcFileName [20161217_192748.log] 
+12-17 19:55:48.383   633 31875 I SDK     : 
+12-17 19:55:48.383   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:383 Level[NOTICE] magic[3365677344 2487]:FSM_OpenFile => [END]
+12-17 19:55:48.383   633 31868 I SDK     : 
+12-17 19:55:48.384   633 31875 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:383 Level[NOTICE] magic[3359111456 2421]:FileSec: have right to open file due to cur app sec level = 0 is higher than file app(&5ߢ[@ñ?z]) sec level = 0.

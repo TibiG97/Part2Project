@@ -1,0 +1,100 @@
+12-17 19:33:11.176  1795  2326 W HwFingerprintService: NEED_LIVENESS_AUTHENTICATION = 0
+12-17 19:33:11.176  2852  2852 W CameraLayout: Cameralayout setVisibility. true false  2
+12-17 19:33:11.176  2852  2852 D MagazineDetailView: resetPagerState
+12-17 19:33:11.176  1795  2377 I AwareLog: AwareMem_DMEServer: stop
+12-17 19:33:11.177  2852  2852 I HeadsUpManager: removeHeadsUpEntry: 0|com.tencent.mm|4097|null|10105
+12-17 19:33:11.177  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:11.177  2852  2852 W ScrimController: startScrimAnimation 0.0 @ com.android.systemui.statusbar.AlphaOptimizedView{d0b83cd V.ED..... ........ 0,0-1080,750 #7f1403fe app:id/heads_up_scrim}
+12-17 19:33:11.177   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:1002
+12-17 19:33:11.177   835   835 I fingerprintd: fingerprintd
+12-17 19:33:11.177   835   835 I fingerprintd: FingerprintDaemonProxyEx::setLivenessSwitch
+12-17 19:33:11.177   835   835 I fingerprintd: fingerprintdex--dev->need_liveness_authentication = false;
+12-17 19:33:11.177  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:33:11.178  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:33:11.178  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:33:11.178  1795  2326 W HwFingerprintService: framework setLivenessSwitch is ok ---end
+12-17 19:33:11.178  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:33:11.179  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:11.179  2852  2852 I NotificationGroupManager: onHeadsUpStateChanged:0|com.tencent.mm|4097|null|10105
+12-17 19:33:11.179   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:7
+12-17 19:33:11.179  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:33:11.179   835   835 D fpc_fingerprint_hal: fpc_get_authenticator_id
+12-17 19:33:11.179   835  2385 D fpc_fingerprint_hal: fpc poll irq interupt
+12-17 19:33:11.179   835  2385 D fpc_fingerprint_hal: wait_finger_down, took 598 ms
+12-17 19:33:11.179   835  2385 E libteec : begin
+12-17 19:33:11.179  1795  6986 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:11.179   606  2379 E libteec : receive data len = 128
+12-17 19:33:11.180  2852  2852 I HwBrightnessUtils: APS brightness=0.0,ConvertToPercentage=NaN
+12-17 19:33:11.180  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:0 percentage:NaN
+12-17 19:33:11.180  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:0
+12-17 19:33:11.180  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:0
+12-17 19:33:11.180  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:0 fromUser:false
+12-17 19:33:11.180  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:0 fromUser:false
+12-17 19:33:11.180  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.android.incallui user=UserHandle{0} id=2 tag=null key=0|com.android.incallui|2|null|1001: Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE))) important=2, post=1481974390864, when=1481974245374, vis=0, userid=0
+12-17 19:33:11.181  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_OFF
+12-17 19:33:11.182  1795  2668 D WifiP2pService: InactiveState143467
+12-17 19:33:11.182  1795  2668 E HwWifiP2pService: Unhandled message when=123074868 what=143467 arg1=0 arg2=0
+12-17 19:33:11.182  1795  2668 D WifiP2pService: P2pEnabledState when=123074868 what=143467 arg1=0 arg2=0
+12-17 19:33:11.182  1795  2668 D WifiP2pService: DefaultState{ when=0 what=143467 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:33:11.182  1795  2668 D HwWifiP2pService: SleepPolicy:1
+12-17 19:33:11.185  1795  3238 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:11.187  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SCREEN_STATE_CHANGED  rt=123074873/442927550 0 0
+12-17 19:33:11.187  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SCREEN_STATE_CHANGED  rt=123074873/442927550 0 0
+12-17 19:33:11.187  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SCREEN_STATE_CHANGED  rt=123074873/442927550 0 0
+12-17 19:33:11.187  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SCREEN_STATE_CHANGED  rt=123074873/442927550 0 0
+12-17 19:33:11.187  1795  2671 D WifiStateMachine:  SupplicantStartedState !CMD_SCREEN_STATE_CHANGED  rt=123074873/442927551 0 0
+12-17 19:33:11.187  1795  2671 D WifiStateMachine:  DefaultState !CMD_SCREEN_STATE_CHANGED  rt=123074873/442927551 0 0
+12-17 19:33:11.187  1795  2671 D PowerManagerService: acquire lock=244575063, flags=0x1, tag="WifiSuspend", name=android, ws=null, uid=1000, pid=1795
+12-17 19:33:11.187  1795  2671 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:11.187  1795  2671 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:11.189  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:33:11.189  1795  2671 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:33:11.189  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:33:11.189  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_OFF mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:33:11.189  1795  1795 D HwConnectivityService: receive screen off intent!
+12-17 19:33:11.189  1795  1795 D HwConnectivityService: wifi tethering: false
+12-17 19:33:11.189  1795  1795 D HwConnectivityService: Usb tethering: false
+12-17 19:33:11.189  1795  1795 D HwConnectivityService: bt tethering: false
+12-17 19:33:11.189  1795  1795 D HwConnectivityService: pluggedStatus: 0
+12-17 19:33:11.189  1795  1795 D HwConnectivityService: is charging: false
+12-17 19:33:11.191  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:33:11.191  1795  2671 D WifiStateMachine:  ConnectedState CMD_ENABLE_RSSI_POLL  rt=123074877/442927554 0 0
+12-17 19:33:11.191  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_ENABLE_RSSI_POLL  rt=123074877/442927555 0 0
+12-17 19:33:11.191  1795  2671 D WifiStateMachine:  ConnectedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123074877/442927555 1 0
+12-17 19:33:11.191  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123074877/442927555 1 0
+12-17 19:33:11.191  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SET_SUSPEND_OPT_ENABLED  rt=123074877/442927555 1 0
+12-17 19:33:11.191  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123074877/442927555 1 0
+12-17 19:33:11.191  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 1'
+12-17 19:33:11.192   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:11.192   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:11.192   606  2379 E libteec : send data return = 128
+12-17 19:33:11.192   835  2385 E libteec : receive data len = 128
+12-17 19:33:11.192   835  2385 E libteec : begin
+12-17 19:33:11.192   835  2385 E libteec : qsc_decode end
+12-17 19:33:11.193   835  2385 D fpc_fingerprint_hal: worker idle
+12-17 19:33:11.193   835   835 E libteec : begin
+12-17 19:33:11.193   606  2379 E libteec : receive data len = 128
+12-17 19:33:11.194  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 1'
+12-17 19:33:11.194  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 1 len = 0, 4096
+12-17 19:33:11.195  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:33:11.195  1795  2671 D PowerManagerService: release:lock=244575063, flg=0x0, tag="WifiSuspend", name=android", ws=null, uid=1000, pid=1795
+12-17 19:33:11.196  1795  2671 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:11.196   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:33:11.196   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:33:11.196   606  2379 E libteec : send data return = 128
+12-17 19:33:11.196  1795  2671 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:11.197   835   835 E libteec : receive data len = 128
+12-17 19:33:11.197   835   835 E libteec : begin
+12-17 19:33:11.197   835   835 E libteec : qsc_decode end
+12-17 19:33:11.197   835   835 D fpc_fingerprint_hal: fpc_get_authenticator_id id 14657234628792947271
+12-17 19:33:11.197   835  2385 E libteec : begin
+12-17 19:33:11.197   606  2379 E libteec : receive data len = 128
+12-17 19:33:11.197  1795  2326 V FingerprintService: startAuthentication(com.android.systemui)
+12-17 19:33:11.197  1795  2326 V FingerprintService: starting client AuthenticationClient(com.android.systemui), initiatedByClient = true)
+12-17 19:33:11.197   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:1
+12-17 19:33:11.197   835   835 V fingerprintd: authenticate(sid=0, gid=0)
+12-17 19:33:11.199  3218  3236 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 phoneId=0
+12-17 19:33:11.199  3218  3236 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 retVal=false
+12-17 19:33:11.199  1795  1795 D HwConnectivityService: CtrlSocket getMobileDataEnabled = false
+12-17 19:33:11.200  3180  3180 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:33:11.200  3180  3180 E libc    : Access denied finding property "persist.sys.smart_power"

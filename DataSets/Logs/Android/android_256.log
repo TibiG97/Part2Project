@@ -1,0 +1,100 @@
+12-17 19:33:42.268  3608  3608 I InCall  : InCallActivity - bgCallTwinkingSwitch is truemIsForegroundActivity is true
+12-17 19:33:42.268  3608  3608 D InCall  : InCallPresenter - notifyInCallScreenIsForeground: true
+12-17 19:33:42.268  3608  3608 I SendBroadcastPermission: action:InCallScreenIsForegroundActivity, mPermissionType:0
+12-17 19:33:42.268  1795  1821 I ActivityManager_activity: windowsVisibleLocked(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310} idle: false
+12-17 19:33:42.269  1795 16500 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{ec55919 3608:com.android.incallui/1001}
+12-17 19:33:42.269  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=false
+12-17 19:33:42.269  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:33:42.269  1795  2377 I AwareLog: AwareMem_DMEServer: start
+12-17 19:33:42.269  3608  3608 D InCall  : StatusBarNotifier - cancelInCall()...
+12-17 19:33:42.270  1795  2377 I AwareLog: AwareMem_EventTracker: [SCREEN_ON_1481974422269] is abandoned for memory 834720
+12-17 19:33:42.271  1795 11746 I NotificationManager: cancelNotificationWithTag pid 3608,uid = 1001,tag = null,pkg =com.android.incallui,id =2
+12-17 19:33:42.271  3608  3608 D InCall  : StatusBarNotifier - updateInCallNotification: timer cleared
+12-17 19:33:42.272  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_ON
+12-17 19:33:42.272  3608  3608 I InCall  : ProximitySensor - ProximitySensor{keybrd=0, dpad=0, offhook=1, hor=0, ui=1, aud=EARPIECE}
+12-17 19:33:42.272  3608  3608 D InCall  : ProximitySensor - Turning on proximity sensor
+12-17 19:33:42.272  3608  3608 I InCall  : ProximitySensor - Proximity wake lock already acquired
+12-17 19:33:42.272  3608  3608 D InCall  : AnswerPresenter - onUiShowingtrue
+12-17 19:33:42.272  3608  3608 D InCall  : AnswerPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:33:42.272  1795  2668 D WifiP2pService: InactiveState143466
+12-17 19:33:42.272  3608  3608 D HwCust  : Create obj success use class com.android.incallui.HwCustAnswerPresenterImpl
+12-17 19:33:42.272  1795  2668 E HwWifiP2pService: Unhandled message when=123084824 what=143466 arg1=0 arg2=0
+12-17 19:33:42.272  1795  2668 D WifiP2pService: P2pEnabledState when=123084824 what=143466 arg1=0 arg2=0
+12-17 19:33:42.272  1795  2668 D WifiP2pService: DefaultState{ when=-1ms what=143466 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:33:42.272  1795  2668 D HwWifiP2pService: cancel alarm.
+12-17 19:33:42.273  3608  3608 D InCall  : AnswerPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:33:42.274  1795  1795 I NotificationManager: cancelNotification,index:1
+12-17 19:33:42.274  1795  1795 I NotificationManager: cancelNotification,cancelNotificationLocked,callingUid = 1001,callingPid = 3608
+12-17 19:33:42.274  1795  1795 I NotificationManager: cancelNotificationLocked called,tell the app,reason = 8
+12-17 19:33:42.274  1795  1795 I NotificationManager: cancelNotificationLocked:0|com.android.incallui|2|null|1001
+12-17 19:33:42.275  1795  1795 I NotificationManager: cancelNotificationLocked,remove =com.android.incallui
+12-17 19:33:42.275  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = false,ledNotification == null?false
+12-17 19:33:42.275  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:33:42.275  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:33:42.275  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:33:42.275  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:33:42.275  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:33:42.278  1795  2671 D WifiStateMachine:  ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123084830/442958641 1 0
+12-17 19:33:42.278  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123084831/442958641 1 0
+12-17 19:33:42.278  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SCREEN_STATE_CHANGED  rt=123084831/442958641 1 0
+12-17 19:33:42.278  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SCREEN_STATE_CHANGED  rt=123084831/442958641 1 0
+12-17 19:33:42.278  1795  2671 D WifiStateMachine:  SupplicantStartedState CMD_SCREEN_STATE_CHANGED  rt=123084831/442958642 1 0
+12-17 19:33:42.278  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:42.278  1795  2671 D WifiStateMachine:  DefaultState CMD_SCREEN_STATE_CHANGED  rt=123084831/442958642 1 0
+12-17 19:33:42.278  2852  2852 I StackScrollAlgorithm: overlapAmount:607.0, previousNotificationEnd:463.0, newYTranslation:-144.0, location:2, i:2, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:42.278  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:33:42.278  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:33:42.279  1795  2671 D WifiStateMachine: handleScreenStateChanged: allow send scan results broadcast.
+12-17 19:33:42.279  1795  2671 W AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConnectivityManager$3@bdcaf7b
+12-17 19:33:42.280  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:33:42.280  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 2, mHwSingleScanCounter: 0
+12-17 19:33:42.280  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 0, mHwSingleScanCounter: 1
+12-17 19:33:42.280  1795  2671 E WifiConnectivityManager: isWifiScanSpecialChannels is false,mWifiState : 1
+12-17 19:33:42.281  1795  2671 I AlarmManager: set(null) : type=2 triggerAtTime=442978644 win=0 tElapsed=442978644 maxElapsed=442978644 interval=0 flags=0x9
+12-17 19:33:42.281  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:33:42.281  2852  2852 I BackgrounCallingLayout: mCallingStatusReceiver:onReceive::action=InCallScreenIsForegroundActivity, isForegroundActivity=true, mPhoneState=2
+12-17 19:33:42.282  2852  2852 I BackgrounCallingLayout: updateCallLayout:isBackground=false, isInteractive=true
+12-17 19:33:42.282  2852  2852 I HwPhoneStatusBar: mNotifyStateChangedReceiver::onReceive:action=InCallScreenIsForegroundActivity, mBackgroundState=false
+12-17 19:33:42.282  3180  3332 I ScenarioAction: new ScenarioAction sPoolSize: 0
+12-17 19:33:42.282  1795  2680 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SCAN TYPE=ONLY'
+12-17 19:33:42.282  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY'
+12-17 19:33:42.282  5215  5215 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-17 19:33:42.282  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:33:42.282  2852  2852 I StatusBar: onNotificationRemoved: StatusBarNotification(pkg=com.android.incallui user=UserHandle{0} id=2 tag=null key=0|com.android.incallui|2|null|1001: Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE)))
+12-17 19:33:42.282  5215  5215 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-17 19:33:42.282  2852  2852 I PhoneStatusBar: removeNotification:0|com.android.incallui|2|null|1001
+12-17 19:33:42.283  5215  5215 D wpa_supplicant: OKC-Native: Append OKC IE!
+12-17 19:33:42.283  5215  5215 D wpa_supplicant: OKC-Native: Append done!
+12-17 19:33:42.283  2852  2852 I StatusBar: removeNotificationViews:0|com.android.incallui|2|null|1001
+12-17 19:33:42.283  5215  5215 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7fb502f3c0
+12-17 19:33:42.283  2852  2852 I NotificationGroupManager: onEntryRemoved:0|com.android.incallui|2|null|1001
+12-17 19:33:42.283  5215  5215 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-17 19:33:42.283  2852  2852 I NotificationGroupManager: onEntryRemovedInternal:0|com.android.incallui|2|null|1001, group=0|com.android.incallui|2|null|1001
+12-17 19:33:42.283  2852  2852 I NotificationGroupManager: summary = null
+12-17 19:33:42.283  5215  5215 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7fb502f3c0 after 0.000036 second wait
+12-17 19:33:42.283  5215  5215 D wpa_supplicant: wlan0: nl80211: scan request
+12-17 19:33:42.283  5215  5215 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-17 19:33:42.283  5215  5215 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=67): 7f 05 00 00 0a 02 01 dd 0f 00 e0 fc 80 00 00 00 01 00 00 00 00 00 00 00 dd 29 00 e0 fc 80 00 00 ...
+12-17 19:33:42.283  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:33:42.283  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:33:42.283  5215  5215 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-17 19:33:42.283  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:33:42.283  5215  5215 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+12-17 19:33:42.283  5215  5215 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-17 19:33:42.283  5215  5215 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-17 19:33:42.283  5215  5215 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000124 seconds
+12-17 19:33:42.283  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=768 send_len=24
+12-17 19:33:42.283  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:33:42.284  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:33:42.284  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:42.284  1795  1805 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:42.285  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:33:42.285  1795  5219 E WifiMonitor: WifiMonitor:wlan0 cnt=31049 dispatchEvent: CTRL-EVENT-SCAN-STARTED 
+12-17 19:33:42.302  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:42.302  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:33:42.302  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:33:42.333  5224  5224 I Step_LSC: 20002302|onStandStepChanged 65585
+12-17 19:33:42.334  5224  5224 I Step_LSC: 20002302|compensate received
+12-17 19:33:42.337  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4198
+12-17 19:33:42.337  5224  5283 I Step_ExtendStepDataManager: 20002302|before compensate: cache step_4198
+12-17 19:33:42.340  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4198

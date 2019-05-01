@@ -1,0 +1,100 @@
+12-17 19:35:28.704  3180  3578 I ash     : doze package: com.huawei.espacev2, visible: false
+12-17 19:35:28.879  1795  1795 I TrafficMonitor: update:rxPkts:2,txPkts:2,rxBytes:136,txBytes:216
+12-17 19:35:28.879  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:35:28.879  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:35:28.888   633 31859 I ANYOFFICE: <2016-12-17 19:35:28> [WARN] ANYOFFICE: jni/..//jni/..//software/log/anyoffice_log.c-->2426 AnyOffice_SDK_Service_ReadLogLevel fopen is err! 
+12-17 19:35:28.911   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:35:28.989  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:35:27,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:28.989  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:35:27,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:28.989  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:28.990  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:28.991  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:28.991  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:28.991  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:28.992  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:28.995  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:35:29.348  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:35:29.349  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:35:29.367  5215  5215 E wpa_supplicant: RSSI=-43;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:35:29.367  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:35:29.368  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:29.369  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-42 "Huawei-Employee"WPA_EAP
+12-17 19:35:29.372  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:29.607   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 28TCP_OK
+12-17 19:35:29.610   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 32 bytes [12]_00_03_02_03_12_05_87_42_A1_2F_2B_84 cmdCode(CC_Heartbeat.0x0312)msgType(MT_ACK.2)msgClass(MC_InstanceMessage.3)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(28)version(3)sno(8742)
+12-17 19:35:29.797  1795  2748 D HwAmbientLuxFilterAlgo: t=123127414,BT=123128414,DT=123131580,BT1=123131414,DT1=123135414,Bn=false,Dn=false,lx=[117.0/123125909, 127.0/123126210, 127.0/123126511, 129.0/123126812, 121.0/123127113, 121.0/123127414],mLx=17.0,s=9.1675625,ss=16.347633,AuIntervened=false,mProximityState=false,bLux=176.0,dLux=2.9373798,bLux1=176.0,dLux1=3.5
+12-17 19:35:29.995  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:35:28,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:29.995  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:35:28,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:29.995  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:29.998  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:30.000  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:30.000  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:30.001  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:30.002  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:30.012  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:35:30.073  4634  4634 I SendBroadcastPermission: action:null, mPermissionType:0
+12-17 19:35:30.074  1795 16501 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{6be12e7 4634:com.tencent.mm:push/u0a105}, intent:null, receiver size:1, flags: 10000400
+12-17 19:35:30.075  1795 16501 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { flg=0x10 cmp=com.tencent.mm/.booter.NotifyReceiver (has extras) } on bgkeyapp queue
+12-17 19:35:30.075  1795 16501 I ActivityManager_broadcast: Enqueueing ordered broadcast[bgkeyapp] BroadcastRecord{465398f u0 null}: prev had 0
+12-17 19:35:30.075  1795  1812 I ActivityManager_broadcast: dispatch ordered broadcast [bgkeyapp] BroadcastRecord{465398f u0 null}, has 1 receivers
+12-17 19:35:30.260  4492  4512 W System.err: text not in xml format
+12-17 19:35:30.359  1795  6986 I AlarmManager: remove(PendingIntent{a3d441c: PendingIntentRecord{21fa789 com.tencent.mm broadcastIntent}}) changed bounds; rebatching
+12-17 19:35:30.363  1795  3110 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:30.364  1795 11747 I AlarmManager: set(PendingIntent{7eb825: PendingIntentRecord{3adddfa com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443336725 win=202498 tElapsed=443336725 maxElapsed=443539223 interval=0 flags=0x8
+12-17 19:35:30.447  4492  4492 V AudioManager: getRingerMode...
+12-17 19:35:30.467  4492  4492 V AudioManager: isWiredHeadsetOn...
+12-17 19:35:30.470  1795  6988 I AppOpsResource: CallBack is Overload  id=10105 OverloadNumber=38 threshold=200
+12-17 19:35:30.476  4492  4492 I MediaPlayer: setDataSource(153, 0, 576460752303423487)
+12-17 19:35:30.477   814  3357 I MediaPlayerService: MediaPlayerService::Client::setDataSource local file://?FileDescriptor=13&Offset=0&Length=20362&Path=/data/system_de/0/ringtones
+12-17 19:35:30.478   814  3357 D NuPlayer: codec of amr-wb is disabled!
+12-17 19:35:30.478   814  3357 D NuPlayer: hw fadein is disabled!
+12-17 19:35:30.479   814 20702 V NuPlayer: kWhatSetAudioSink
+12-17 19:35:30.479   814 20702 V NuPlayer: kWhatSetDataSource
+12-17 19:35:30.479  4492  4492 V AudioManager: getStreamVolume  treamType: 5
+12-17 19:35:30.492  4492  4492 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:35:30.494  4492  4492 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:30.504  1795  3253 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:30.527  4492  4492 V AudioManager: getRingerMode...
+12-17 19:35:30.550  1795  2778 I NotificationManager: enqueueNotificationInternal: pkg=com.tencent.mm id=4097 notification=Notification(pri=1 contentView=null vibrate=[] sound=null tick defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=PRIVATE)
+12-17 19:35:30.553  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.tencent.mm|4097|null|10105
+12-17 19:35:30.554  1795  1795 V HwNotificationManagerService: isHwSoundAllow pkg=com.tencent.mm, userId=0, cfg=3
+12-17 19:35:30.554  1795  1795 V HwNotificationManagerService: isHwVibrateAllow pkg=com.tencent.mm, userId=0, cfg=3
+12-17 19:35:30.554  1795  1795 I NotificationManager: updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?false
+12-17 19:35:30.554  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:35:30.554  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:35:30.554  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:35:30.554  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:35:30.555  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:35:30.558  3180  3578 D PacketsControl: wifi connected. do nothing.
+12-17 19:35:30.559  3180  3578 I ash     : 1795 binder call 2852
+12-17 19:35:30.560  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.tencent.mm user=UserHandle{0} id=4097 tag=null key=0|com.tencent.mm|4097|null|10105: Notification(pri=1 contentView=null vibrate=[] sound=null tick defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=PRIVATE)) important=4, post=1481974530552, when=1481974530490, vis=0, userid=0
+12-17 19:35:30.560  2852  2852 I PhoneStatusBar: addNotification key=0|com.tencent.mm|4097|null|10105
+12-17 19:35:30.561  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:35:30.561  2852  2852 I StatusBarIconView: updateTint: tint=1
+12-17 19:35:30.562  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:35:30.562  2852  2852 I StatusBarIconView: updateTint: tint=1
+12-17 19:35:30.562  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:35:30.563  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:35:30.565  2852  2852 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:30.566  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:35:30.568  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:35:30.569  2852  2852 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:30.571  2852  2852 I StatusBarIconView: updateTint: tint=1
+12-17 19:35:30.572  2852  2852 D HwCust  : Create obj success use class com.android.systemui.statusbar.HwCustExpandableNotificationRowImpl
+12-17 19:35:30.580  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:35:30.581  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:35:30.589  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:35:30.590  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:35:30.601  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:35:30.602  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:35:30.608  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:35:30.609  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:35:30.619  2852  2852 I HeadsUpManager: addHeadsUpEntry: 0|com.tencent.mm|4097|null|10105
+12-17 19:35:30.619  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:30.620  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:35:30.620  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: -1; Flag: 81840068
+12-17 19:35:30.621  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:35:30.621  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: -1; Flag: 81840068
+12-17 19:35:30.621  2852  2852 W StatusBarWindowManager: Apply window Height 72
+12-17 19:35:30.621  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: 72; Flag: 81840068
+12-17 19:35:30.622  2852  2852 I PanelBar: panelExpansionChanged 0.0, true

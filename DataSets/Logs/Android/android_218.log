@@ -1,0 +1,100 @@
+12-17 19:33:05.297  4492  4492 V AudioManager: getStreamVolume  treamType: 5
+12-17 19:33:05.321  4492  4492 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:05.324  4492  4492 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:33:05.329  1795 16500 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:05.347  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 8.100293 Y: 5.793768 Z: 2.805215  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:05.361  4492  4492 V AudioManager: getRingerMode...
+12-17 19:33:05.364  1795  2778 D PowerManagerService: release:lock=171238858, flg=0x0, tag="WakerLock:192052083", name=com.tencent.mm", ws=null, uid=10105, pid=4634
+12-17 19:33:05.365  1795  2778 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:05.369  1795  3237 I NotificationManager: enqueueNotificationInternal: pkg=com.tencent.mm id=4097 notification=Notification(pri=1 contentView=null vibrate=[] sound=null tick defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=PRIVATE)
+12-17 19:33:05.371  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.tencent.mm|4097|null|10105
+12-17 19:33:05.372  1795  1795 V HwNotificationManagerService: isHwSoundAllow pkg=com.tencent.mm, userId=0, cfg=3
+12-17 19:33:05.372  1795  1795 V HwNotificationManagerService: isHwVibrateAllow pkg=com.tencent.mm, userId=0, cfg=3
+12-17 19:33:05.372  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = false,ledNotification == null?false
+12-17 19:33:05.372  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:33:05.372  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:33:05.372  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:33:05.372  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:33:05.372  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:33:05.373  3180  3332 I ScenarioAction: new ScenarioAction sPoolSize: 0
+12-17 19:33:05.374  3180  3578 D PacketsControl: wifi connected. do nothing.
+12-17 19:33:05.377  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.tencent.mm user=UserHandle{0} id=4097 tag=null key=0|com.tencent.mm|4097|null|10105: Notification(pri=1 contentView=null vibrate=[] sound=null tick defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=PRIVATE)) important=4, post=1481974385370, when=1481974385318, vis=0, userid=0
+12-17 19:33:05.377  2852  2852 I PhoneStatusBar: addNotification key=0|com.tencent.mm|4097|null|10105
+12-17 19:33:05.378  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:05.379  2852  2852 I StatusBarIconView: updateTint: tint=1
+12-17 19:33:05.379  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:05.379  2852  2852 I StatusBarIconView: updateTint: tint=1
+12-17 19:33:05.379  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:05.380  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:05.382  2852  2852 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:33:05.383  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:05.384  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:05.385  2852  2852 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:33:05.387  2852  2852 I StatusBarIconView: updateTint: tint=1
+12-17 19:33:05.388  2852  2852 D HwCust  : Create obj success use class com.android.systemui.statusbar.HwCustExpandableNotificationRowImpl
+12-17 19:33:05.396  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:05.396  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:05.403  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:05.404  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:05.416  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:05.417  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:05.424  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:05.425  2852  2852 W HwPhoneLayoutInflater: onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+12-17 19:33:05.437  2852  2852 I HeadsUpManager: addHeadsUpEntry: 0|com.tencent.mm|4097|null|10105
+12-17 19:33:05.437  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:05.438  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:33:05.438  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: -1; Flag: 81840068
+12-17 19:33:05.439  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:33:05.439  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: -1; Flag: 81840068
+12-17 19:33:05.439  2852  2852 W StatusBarWindowManager: Apply window Height 72
+12-17 19:33:05.439  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: 72; Flag: 81840068
+12-17 19:33:05.440  2852  2852 I PanelBar: panelExpansionChanged 0.0, true
+12-17 19:33:05.441  2852  2852 W StatusBarWindowManager: Apply window Height 72
+12-17 19:33:05.441  2852  2852 I StatusBarWindowManager: apply skiped :0
+12-17 19:33:05.441  2852  2852 D PhoneStatusBar: disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >
+12-17 19:33:05.442  2852  2852 I PhoneStatusBar: suspendAutohide
+12-17 19:33:05.442  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_OPAQUE, animate=false
+12-17 19:33:05.442  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:33:05.442  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:33:05.442  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:05.442  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundAlpha:alpha=0.0
+12-17 19:33:05.442  2852  2852 W ScrimController: startScrimAnimation 1.0 @ com.android.systemui.statusbar.AlphaOptimizedView{d0b83cd V.ED..... ........ 0,0-1080,750 #7f1403fe app:id/heads_up_scrim}
+12-17 19:33:05.443  2852  2852 I vol.VolumeDialogControl: C onDismissRequested reason = 2
+12-17 19:33:05.443  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:33:05.443  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:33:05.443  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:33:05.443  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:05.443  2852  2852 I NotificationGroupManager: onHeadsUpStateChanged:0|com.tencent.mm|4097|null|10105
+12-17 19:33:05.444  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.tencent.mm|4097|null|10105, group=0|com.tencent.mm|4097|null|10105
+12-17 19:33:05.444  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:33:05.444  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:33:05.444  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:33:05.444  1795  3110 I NotificationManager: Marking notification as seen 0|com.tencent.mm|4097|null|10105
+12-17 19:33:05.445  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:33:05.446  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:33:05.447  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:05.447  1795  6985 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:05.447  1795  3247 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:05.448  2852  2852 D ReporterUtil:  e id:344 type:{pkg:com.tencent.mm}
+12-17 19:33:05.455  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:05.456  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:33:05.476  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:05.476  1795  2396 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:05.477  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:33:05.480  1795  2778 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:05.482  1795  3238 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:33:05.482  3858  4126 I amsnl   : csr
+12-17 19:33:05.483  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+12-17 19:33:05.483  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:33:05.483  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:33:05.486  1795 11745 D wifiserviceimpl: netmask =16580607
+12-17 19:33:05.487  3858  4126 I amsnl   : m1: false
+12-17 19:33:05.489  1795 15987 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:05.489  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:33:05.490  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:33:05.491  2852  2852 I StackScrollAlgorithm: overlapAmount:919.6, previousNotificationEnd:156.0, newYTranslation:-763.6, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-643
+12-17 19:33:05.491  2852  2852 I StackScrollAlgorithm: overlapAmount:607.0, previousNotificationEnd:-144.0, newYTranslation:-751.0, location:2, i:2, getTopPadding:499.0, getLocationOnScreen():-643
+12-17 19:33:05.491  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:33:05.491  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:33:05.492  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:33:05.502  1795  3111 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0

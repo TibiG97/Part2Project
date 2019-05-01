@@ -1,0 +1,100 @@
+12-17 19:33:03.588  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 0'
+12-17 19:33:03.588  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:33:03.588  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:33:03.588  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:false, mDimmed:false
+12-17 19:33:03.589  1795  1795 D HwPFWLogger: PFW.HwPFWService:mBroadcastReceiver action = android.intent.action.SCREEN_ON
+12-17 19:33:03.589  1795  2708 D HwPFWLogger: PFW.HwPFWService:handle PFW_MSG_SYSTEM
+12-17 19:33:03.589  1795  2708 D HwPFWLogger: PFW.HwPFWAppRestartPolicy:receive action = android.intent.action.SCREEN_ON
+12-17 19:33:03.590  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:33:03.590  3608  3608 D InCall  : CallCardFragment - onGlobalLayout
+12-17 19:33:03.591  2852  2852 D KGWallpaper_Magazine: getNextIndex: 0; from 5 to 5; size: 44
+12-17 19:33:03.591  2852  2852 I HwLockScreenReporter: report msg is :{picture: Deepwater-05-2.3.001-bigpicture_05_8.jpg}
+12-17 19:33:03.591  2852  2852 W HwLockScreenReporter: report result = falsereport type:162 msg:{picture: Deepwater-05-2.3.001-bigpicture_05_8.jpg, channelId: 05}
+12-17 19:33:03.591  2852  2852 I OucScreenOnCounter: Screen already turned on at: 1481974212
+12-17 19:33:03.591  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:33:03.592  1795  1795 D WifiService: onReceive, action:android.intent.action.SCREEN_ON
+12-17 19:33:03.592  2852  2852 I HwBrightnessUtils: APS brightness=20.0,ConvertToPercentage=0.21667233
+12-17 19:33:03.592  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:20 percentage:0.21667233
+12-17 19:33:03.592  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:2167
+12-17 19:33:03.592  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:2167
+12-17 19:33:03.592  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155650 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:33:03.592  1795  2670 D WifiController: StaEnabledState what=155650
+12-17 19:33:03.592  1795  2670 D WifiController: DefaultState what=155650
+12-17 19:33:03.592  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2167 fromUser:false
+12-17 19:33:03.592  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:2167 fromUser:false
+12-17 19:33:03.593  1795  2670 I AlarmManager: remove(PendingIntent{50e3a01: PendingIntentRecord{a8130a6 android broadcastIntent}}) changed bounds; rebatching
+12-17 19:33:03.594  3608  3608 I InCall  : CallList - hasAnyLiveCall call = [Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)]
+12-17 19:33:03.594  3608  3608 I InCall  : ProximitySensor - isDisplayOn: true
+12-17 19:33:03.595  1795  1795 D HwArpVerifier: startWifiRouteCheck
+12-17 19:33:03.596  1795 15987 I qti_sensors_hal: flush,395,handle 0
+12-17 19:33:03.596  1795 15987 I qti_sensors_hal: flush,260 handle 0
+12-17 19:33:03.597  1795  1795 D WifiProStatisticsManager: sendScreenOnEvent enter.
+12-17 19:33:03.597  1795  2733 D WiFi_PRO_WifiProStateMachine: device screen on,but isScreenOffMonitor is false
+12-17 19:33:03.598  1795  2734 D WifiProStatisticsManager: msg Loop is running.
+12-17 19:33:03.603  3608  3608 I ActivityManager_activity: Reporting idle of ActivityRecord{fd45985 token=android.os.BinderProxy@af8ea9b {com.android.incallui/com.android.incallui.InCallActivity}} finished=false
+12-17 19:33:03.603  1795  1795 I EyeProtectionControllerImpl: onReceive intent action = android.intent.action.SCREEN_ON
+12-17 19:33:03.605  1795  2736 D HwInnerWifiManagerImpl: SupplicantState = COMPLETED
+12-17 19:33:03.605  1795  2736 D HwInnerWifiManagerImpl: isPhoneAP = false
+12-17 19:33:03.608  2883  2883 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:33:03.609  1795 11746 D PowerManagerService: acquire lock=184063844, flags=0x1, tag="NetworkStats", name=android, ws=null, uid=1000, pid=1795
+12-17 19:33:03.609  1795 11746 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:03.610  1795  2377 V HwPackageManagerService: Returning system default Launcher 
+12-17 19:33:03.611  1795  2377 I AwareLog: AwareMem_EventTracker: [APP_ACTIVITY_FINISH_123067295] is abandoned for memory 832444
+12-17 19:33:03.611  3218  3234 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:33:03.611  3218  3234 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:33:03.612  1795 11746 D NetdConnector: SND -> {11624 bandwidth gettetherstats}
+12-17 19:33:03.613  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.142880 Y: 5.562567 Z: -0.703885  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:03.614  1795  2665 D NetdConnector: RCV <- {200 11624 Tethering stats list completed}
+12-17 19:33:03.614  1795  2736 E hwintelligencewifi: getCurrentCellid type type = PHONE_TYPE_GSM
+12-17 19:33:03.614  1795  2736 E hwintelligencewifi: getCurrentCellid type is PHONE_TYPE_GSM
+12-17 19:33:03.615  1795  2665 D NetdConnector: RCV <- {200 11624 Tethering stats list completed}
+12-17 19:33:03.615  2883  2883 I HwSystemManager: AutoCleanReceiveServer:receive action:android.intent.action.SCREEN_ON
+12-17 19:33:03.616  1795  2736 E hwintelligencewifi: getCurrentCellid PHONE_TYPE_GSM cellidString = 460003645
+12-17 19:33:03.616  1795  2736 E hwintelligencewifi: updataApInfo cellid =460003645
+12-17 19:33:03.616  1795  2736 E hwintelligencewifi: addCurrentApInfo cellid =460003645
+12-17 19:33:03.617  1795 11746 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:33:03.617  1795 11746 D HwNetworkStatsService: mActiveIface: null
+12-17 19:33:03.618  1795 11746 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+12-17 19:33:03.619  1795 11746 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:33:03.619  1795 11746 D PowerManagerService: release:lock=184063844, flg=0x0, tag="NetworkStats", name=android", ws=null, uid=1000, pid=1795
+12-17 19:33:03.620  1795 11746 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:03.620  3168  3168 I CHR_ChrDataServiceTracker: handledataswitchchanged
+12-17 19:33:03.621  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 0 len = 0, 4096
+12-17 19:33:03.621  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:33:03.622  1795  2736 E hwintelligencewifi: addCurrentApInfo info is already there
+12-17 19:33:03.622  1795  2736 W hwintelligencewifi: updateBssidTimer time = 1481974383622
+12-17 19:33:03.623  1795  3077 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_ON
+12-17 19:33:03.623  1795  3077 I GnssLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:true
+12-17 19:33:03.623  1795  3077 I GnssLocationProvider: disableGps:false  isEnabled()=true
+12-17 19:33:03.625  2883  3040 E HwSystemManager: TrafficNotifyAfterLocked:screen notification will not notify
+12-17 19:33:03.629  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:33:03.629  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:33:03.631  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:33:03.631  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:33:03.631  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_ON  flag:1342177296 
+12-17 19:33:03.635  1795  2736 E hwintelligencewifi: inlineAddCurrentApInfo mInfos.size()=132
+12-17 19:33:03.636  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:33:03.636  5215  5215 D wpa_supplicant: nl80211: Drv Event 79 (NL80211_CMD_SET_REKEY_OFFLOAD) received for wlan0
+12-17 19:33:03.636  5215  5215 D wpa_supplicant: nl80211: Rekey offload event for BSSID 80:38:bc:08:42:c1
+12-17 19:33:03.636  5215  5215 D wpa_supplicant: nl80211: Rekey offload - Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 02
+12-17 19:33:03.636  5215  5215 D wpa_supplicant: wlan0: Event DRIVER_GTK_REKEY (35) received
+12-17 19:33:03.638  2883  2996 E HwSystemManager: SimCardMethod:/getSimCardInfo: imsi is null
+12-17 19:33:03.641  3180  3332 I BatteryMonitor: screen off: 0s, awake: 0s wakeups: 0, battery changed: 0
+12-17 19:33:03.641  3180  3578 D HwMultiWindowEx: isInMultiWindowMode ret: 0
+12-17 19:33:03.641  3180  3578 I BacklightControl: can't adjust backlight when app launch from other scene.
+12-17 19:33:03.642  3180  3578 I ThermalStateManager: handle action thermal policy:208
+12-17 19:33:03.643  3180  3578 I ash     : ash->screen on
+12-17 19:33:03.645  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:33:03.646  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: true
+12-17 19:33:03.646  1795  3975 E LocSvc_libulp: I/int ulp_msg_process_system_update(const UlpSystemEvent): systemEvent:0 
+12-17 19:33:03.648  3180  3578 I ash     : ash->screen unlock
+12-17 19:33:03.651  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:33:03.651  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:33:03.654  1795  1806 I AlarmManager: remove(PendingIntent{8349b7d: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) changed bounds; rebatching
+12-17 19:33:03.657  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:33:03.657  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen on event
+12-17 19:33:03.657  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: the message is still in the messagequeue, remove it
+12-17 19:33:03.658  3218 13125 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:33:03.663  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = true, mIsPreScrnOn = false, mScrnSwitchTime = 1481974382690, occurTime = 1481974383662, delta = 972, mScrnOffAccTime = 1796592, mScrnOnAccTime = 121681
+12-17 19:33:03.663  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1797564, mScrnOffAccTime = 1797564, mScrnOnAccTime = 121681
+12-17 19:33:03.666  3626  3626 I iMonitor: create: 903001010

@@ -1,0 +1,100 @@
+12-17 19:55:54.671   633 31875 I SDK     : 
+12-17 19:55:54.671   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:671 Level[NOTICE] magic[3359111456 1236]:GetCurrentHostAndPort: Connect to acInternetAddress the domain is byod-web.huawei.com
+12-17 19:55:54.671   633 31875 I SDK     : 
+12-17 19:55:54.671   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:671 Level[NOTICE] magic[3359111456 1246]:GetCurrentHostAndPort: end detect host[byod-web.huawei.com] ip[45.249.212.36] port[443]
+12-17 19:55:54.671   633 31875 I SDK     : 
+12-17 19:55:54.671   633 31875 E SDK     : <2016-12-17 19:55:54> [ERR] SDK: UE-SeC 2016-12-17 19:55:54:671 Level[ERR] magic[3359111456 2434]:GetCurrentGatewayAddress byod-web.huawei.com:443 
+12-17 19:55:54.671   633 31875 E SDK     : 
+12-17 19:55:54.672   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:672 Level[NOTICE] magic[3359111456 181]:Curl_do_perform: [0xcc483b80]
+12-17 19:55:54.672   633 31875 I SDK     : 
+12-17 19:55:54.672   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:672 Level[NOTICE] magic[3359111456 181]:Curl_do_perform: Curl_pretransfer res[0]
+12-17 19:55:54.672   633 31875 I SDK     : 
+12-17 19:55:54.672   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:672 Level[NOTICE] magic[3359111456 181]:Curl_do_perform: connect_host[0xcc483b80]
+12-17 19:55:54.672   633 31875 I SDK     : 
+12-17 19:55:54.672   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:672 Level[NOTICE] magic[3359111456 181]:timeout on name lookup is not supported
+12-17 19:55:54.672   633 31875 I SDK     : 
+12-17 19:55:54.672   633 31875 I SDK     : 
+12-17 19:55:54.676   633 21125 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:676 Level[NOTICE] magic[2516474144 412]:svn_curl_GethostByNameThread: ip1 <617937197>45.249.212.36
+12-17 19:55:54.676   633 21125 I SDK     : 
+12-17 19:55:54.676   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:676 Level[NOTICE] magic[3359111456 181]:resolve dns finished! cost time<3>ms, url<byod-web.huawei.com>, ip<617937197>
+12-17 19:55:54.676   633 31875 I SDK     : 
+12-17 19:55:54.676   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:676 Level[NOTICE] magic[3359111456 181]:Curl_connect create_conn code[0]
+12-17 19:55:54.676   633 31875 I SDK     : 
+12-17 19:55:54.677   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:676 Level[NOTICE] magic[3359111456 181]:Curl_setup_conn (CURL_SOCKET_BAD == conn->sock[FIRSTSOCKET]) [1]
+12-17 19:55:54.677   633 31875 I SDK     : 
+12-17 19:55:54.677   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:677 Level[NOTICE] magic[3359111456 181]:About to connect() to byod-web.huawei.com port 443 (#0)
+12-17 19:55:54.677   633 31875 I SDK     : 
+12-17 19:55:54.677   633 31875 I SDK     : 
+12-17 19:55:54.677   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:677 Level[NOTICE] magic[3359111456 181]:  Trying 45.249.212.36...
+12-17 19:55:54.677   633 31875 I SDK     : 
+12-17 19:55:54.677   633 31875 I SDK     : 
+12-17 19:55:54.687   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:687 Level[NOTICE] magic[3359111456 181]:connected
+12-17 19:55:54.687   633 31875 I SDK     : 
+12-17 19:55:54.687   633 31875 I SDK     : 
+12-17 19:55:54.687   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:687 Level[NOTICE] magic[3359111456 181]:Connected to byod-web.huawei.com (45.249.212.36) port 443 (#0)
+12-17 19:55:54.687   633 31875 I SDK     : 
+12-17 19:55:54.687   633 31875 I SDK     : 
+12-17 19:55:54.688   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:688 Level[NOTICE] magic[3359111456 181]:error setting certificate verify locations, continuing anyway:
+12-17 19:55:54.688   633 31875 I SDK     : 
+12-17 19:55:54.688   633 31875 I SDK     : 
+12-17 19:55:54.688   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:688 Level[NOTICE] magic[3359111456 181]:  CAfile: /etc/ssl/certs/ca-certificates.crt
+12-17 19:55:54.688   633 31875 I SDK     :   CApath: none
+12-17 19:55:54.688   633 31875 I SDK     : 
+12-17 19:55:54.688   633 31875 I SDK     : 
+12-17 19:55:54.724   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:724 Level[NOTICE] magic[3359111456 181]:SSL connection using AES256-SHA
+12-17 19:55:54.724   633 31875 I SDK     : 
+12-17 19:55:54.724   633 31875 I SDK     : 
+12-17 19:55:54.724   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:724 Level[NOTICE] magic[3359111456 181]:Server certificate:
+12-17 19:55:54.724   633 31875 I SDK     : 
+12-17 19:55:54.724   633 31875 I SDK     : 
+12-17 19:55:54.725   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:725 Level[NOTICE] magic[3359111456 181]:	 subject: C=CN; ST=Guangdong; L=Shenzhen; O=Huawei Technologies Co.,Ltd.; CN=uni-byod.huawei.com
+12-17 19:55:54.725   633 31875 I SDK     : 
+12-17 19:55:54.725   633 31875 I SDK     : 
+12-17 19:55:54.725   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:725 Level[NOTICE] magic[3359111456 181]:	 start date: 2016-01-15 13:23:45 GMT
+12-17 19:55:54.725   633 31875 I SDK     : 
+12-17 19:55:54.725   633 31875 I SDK     : 
+12-17 19:55:54.725   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:725 Level[NOTICE] magic[3359111456 181]:	 expire date: 2017-01-15 13:53:44 GMT
+12-17 19:55:54.725   633 31875 I SDK     : 
+12-17 19:55:54.725   633 31875 I SDK     : 
+12-17 19:55:54.726   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:726 Level[NOTICE] magic[3359111456 181]:	 issuer: C=US; O=Entrust, Inc.; OU=See www.entrust.net/legal-terms; OU=(c) 2012 Entrust, Inc. - for authorized use only; CN=Entrust Certification Authority - L1K
+12-17 19:55:54.726   633 31875 I SDK     : 
+12-17 19:55:54.726   633 31875 I SDK     : 
+12-17 19:55:54.726   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:726 Level[NOTICE] magic[3359111456 181]:	 SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+12-17 19:55:54.726   633 31875 I SDK     : 
+12-17 19:55:54.726   633 31875 I SDK     : 
+12-17 19:55:54.726   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:726 Level[NOTICE] magic[3359111456 181]:Curl_setup_conn break for
+12-17 19:55:54.726   633 31875 I SDK     : 
+12-17 19:55:54.726   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:726 Level[NOTICE] magic[3359111456 181]:Curl_setup_conn Curl_tvnow
+12-17 19:55:54.726   633 31875 I SDK     : 
+12-17 19:55:54.727   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:726 Level[NOTICE] magic[3359111456 181]:Curl_connect Curl_setup_conn[-1086966016], code[0]
+12-17 19:55:54.727   633 31875 I SDK     : 
+12-17 19:55:54.727   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:727 Level[NOTICE] magic[3359111456 181]:Curl_connect return code[0]
+12-17 19:55:54.727   633 31875 I SDK     : 
+12-17 19:55:54.727   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:727 Level[NOTICE] magic[3359111456 181]:connect_host: Curl_connect res[0],async[0]
+12-17 19:55:54.727   633 31875 I SDK     : 
+12-17 19:55:54.727   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:727 Level[NOTICE] magic[3359111456 181]:connect_host: connect_host  res[0]
+12-17 19:55:54.727   633 31875 I SDK     : 
+12-17 19:55:54.728   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:727 Level[NOTICE] magic[3359111456 181]:Curl_do_perform: connect_host res[0]
+12-17 19:55:54.728   633 31875 I SDK     : 
+12-17 19:55:54.729   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:729 Level[NOTICE] magic[3359111456 181]:Curl_do_perform: Curl_do or Curl_done res[0]
+12-17 19:55:54.729   633 31875 I SDK     : 
+12-17 19:55:54.729   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:729 Level[NOTICE] magic[3359111456 181]:Transfer:Curl_socket_ready timeout_ms[0],res[0],Cnt[0], Cnt[0]
+12-17 19:55:54.729   633 31875 I SDK     : 
+12-17 19:55:54.729   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:729 Level[NOTICE] magic[3359111456 181]:Transfer:Curl_readwrite,result[0], Cnt[1], Cnt[0]
+12-17 19:55:54.729   633 31875 I SDK     : 
+12-17 19:55:54.806  1795  2381 D libfingersense_wrapper: Calling fingersense_classify_touch()
+12-17 19:55:54.813  1795  2381 D libfingersense_wrapper: fingersense_classify_touch() finished
+12-17 19:55:54.816  1795  2380 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123209252, event=2, flags=0x0, uid=1000
+12-17 19:55:54.816  1795  2380 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=2, uid=1000
+12-17 19:55:54.816  1795  2380 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:54.825  1795  3247 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:54.825  1795  3247 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:55:54.827  1795  3884 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:54.831  1795  3111 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:54.831  1795  3111 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:55:54.832  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+12-17 19:55:54.832  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:55:54.833  1795 17831 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:55:54.834  3858  4126 I amsnl   : csr
+12-17 19:55:54.835  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:55:54.837  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0

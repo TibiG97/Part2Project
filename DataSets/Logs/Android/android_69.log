@@ -1,0 +1,100 @@
+12-17 19:31:50.901  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityPositivebyPhone -> updatePowerStateLocked
+12-17 19:31:50.902  1795  1825 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:50.902  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = true, mIsPreScrnOn = false, mScrnSwitchTime = 1481974306220, occurTime = 1481974310900, delta = 4680, mScrnOffAccTime = 1732261, mScrnOnAccTime = 109542
+12-17 19:31:50.902  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1736941, mScrnOffAccTime = 1736941, mScrnOnAccTime = 109542
+12-17 19:31:50.905  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:31:50.906  3626  3626 I iMonitor: create: 903001010
+12-17 19:31:50.906  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:50.907  1795  1795 I HwScreenOnProximityLock: preparePoriximityView addView 
+12-17 19:31:50.907  5224  5224 I Step_LSC: 20002302|logicalDealBroadcastEvent : Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+12-17 19:31:50.908  1795  1795 I HwPointEventFilter: do not support AFT because of no config
+12-17 19:31:50.909  5224  5283 I Step_LSC: 20002302| ## MSG_DEAL_SYSTEM_EVENT android.intent.action.SCREEN_ON
+12-17 19:31:50.909  5224  5283 I Step_StandStepCounter: 20002302|flush sensor data
+12-17 19:31:50.909  3626  3626 I iMonitor: send: 903001010
+12-17 19:31:50.910   818  1152 I logserver: handle_exception_events enter
+12-17 19:31:50.910  1795  6986 I qti_sensors_hal: flush,395,handle 49
+12-17 19:31:50.910  1795  6986 I qti_sensors_hal: flush:sensor(android.sensor.step_counter) handle:49
+12-17 19:31:50.910  5224  5283 I Step_LSC: 20002302|REPORT : 4181 89378 2980 0
+12-17 19:31:50.911  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:31:50.911  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:31:50.912  5224  5283 I SendBroadcastPermission: action:android.com.huawei.bone.NOTIFY_SPORT_DATA, mPermissionType:0
+12-17 19:31:50.914  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:31:50.916  1795  3110 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{580cfb2 5224:com.huawei.health:DaemonService/u0a99}
+12-17 19:31:50.917  2852  2852 I EventCenter: EventCenter Get :android.com.huawei.bone.NOTIFY_SPORT_DATA
+12-17 19:31:50.918  5224  5283 I Step_HSNH: 20002302|upDateHealthNotification()|89|2.98|4181
+12-17 19:31:50.919  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:31:50.920  5224  5283 I Step_HSNH: 20002302|rebuild notification
+12-17 19:31:50.922  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_ON
+12-17 19:31:50.922  7741  7741 D Mms_TX_NOTIFY: ScreenState present
+12-17 19:31:50.923  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:50.924  1795 17831 I NotificationManager: enqueueNotificationInternal: pkg=com.huawei.health id=10010 notification=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)
+12-17 19:31:50.926  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:31:50.931  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_ON
+12-17 19:31:50.934  3608  3608 D InCall  : InCallActivity - mScreenOnReceiver mCallEndOptionsDialog = null
+12-17 19:31:50.936  1795  1795 D WindowManager: ACTIVITY check resid: android, size=8
+12-17 19:31:50.937  1795  1795 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{c5d22bd u0 android},EmuiStyle=0,StatusBarColor=0x0,NavigationBarColor=0x0, mLastIsEmuiLightStyle=-1
+12-17 19:31:50.937  1795  1795 I WindowManger_windowChange: oldFocusWindow: Window{e71ca6c u0 com.android.phone}, currentFocusWindow: Window{c5d22bd u0 android}, currentFocusApp: AppWindowToken{844a0b2 token=Token{2fd6a14 ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}}}
+12-17 19:31:50.938  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:31:50.941  1795  1809 D HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+12-17 19:31:50.941  2852  3328 I CommandQueue: updateBarBgColor
+12-17 19:31:50.941  2852  3328 D CommandQueue: CommandQueue, setBarBackgroundColor
+12-17 19:31:50.942  2852  2852 I TintManager: updateBarBgColor:emuiStyle=0,statusBarColor=#00000000,navigationBarColor=#00000000, isEmuiLight=-1
+12-17 19:31:50.942  2852  2852 I HwPhoneStatusBarTransitions: restoreBackgroundColor:new=1711276032, old=0
+12-17 19:31:50.942  2852  2852 I HwNavigationBarTransitions: restoreBackgroundColor:new=0, old=0
+12-17 19:31:50.943  2852  2852 D TintManager: statusBarIconTint=#B3FFFFFF,navigationBarIconTint=#00000000
+12-17 19:31:50.943  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:31:50.950 16628 16628 I TotemWeather: RetryTaskController:Screen is off or Network is unable
+12-17 19:31:50.951  1795  1821 I ActivityManager_activity: windowsVisibleLocked(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310} idle: true
+12-17 19:31:50.952  1795  3238 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:16
+12-17 19:31:50.952  1795  3238 D StubTelephonyRegistry: LISTEN_CELL_LOCATION uid:10028
+12-17 19:31:50.960 31949 31967 I PushService: main{1} PushService.onStartCommand(PushService.java:87) Push Service Start by  userEvent
+12-17 19:31:50.962 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.shutdown(TcpCirChannel.java:257) Login_By_Step-> shut down now connect
+12-17 19:31:50.963 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:31:50.964 31949 31967 I ECS     : WatchThread{4786} TcpClient.disconnect_i(TcpClient.java:202) ==================== TCP CLIENT DISCONNECT ====================
+12-17 19:31:50.965 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.disconnectSocket(TcpClientThread.java:369) disconnecting to uc.huawei.com:7801
+12-17 19:31:50.970  3218  6115 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:31:50.971  3218  6115 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:31:50.974  1795 11745 I AlarmManager: remove(PendingIntent{f6b90b2: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) changed bounds; rebatching
+12-17 19:31:50.977  1795 16232 I AlarmManager: set(PendingIntent{28f0803: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) : type=0 triggerAtTime=1481974610976 win=0 tElapsed=443147339 maxElapsed=443147339 interval=300000 flags=0x1
+12-17 19:31:50.980   816 20235 D DnsProxyListener: GetAddrInfoHandler addr: uc.huawei.com {304, 917808, 10102} 172.30.70.63
+12-17 19:31:50.980 31949 31967 I TCP     : WatchThread{4786} TcpSocket.close(TcpSocket.java:158) shutdown output: java.net.SocketException: Socket is closed
+12-17 19:31:50.981 31949 31967 I TCP     : WatchThread{4786} TcpSocket.close(TcpSocket.java:170) shutdown input: java.net.SocketException: Socket is closed
+12-17 19:31:50.982 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.closeSocket(TcpClientThread.java:396) closed socket.
+12-17 19:31:50.983 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.connect(TcpCirChannel.java:219) Connect to server  address = [uc.huawei.com,]  port = 7801
+12-17 19:31:50.984 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_ON
+12-17 19:31:50.985 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:31:50.986 31949 31967 I ECS     : WatchThread{4786} TcpClient.connect(TcpClient.java:162) ==================== TCP CLIENT CONNECT [2] ====================
+12-17 19:31:50.987 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.connect(TcpClientThread.java:52) will connect to uc.huawei.com:7801
+12-17 19:31:50.988 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:349) connecting max 30000ms to uc.huawei.com:7801
+12-17 19:31:50.989 31949 31967 W TCP     : tcp.recv{4790} TcpSocket.read(TcpSocket.java:242) <<< WARN(5) >>> java.net.SocketException: Socket closed
+12-17 19:31:50.990 31949 31985 I PushService: connect :true
+12-17 19:31:50.990 31949 31967 E TCP     : tcp.recv{4790} TcpClientThread.readSocket(TcpClientThread.java:452) <<< ERROR(6) >>> socket read length failure -104
+12-17 19:31:50.991 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:314) disconnected
+12-17 19:31:50.992 31949 31967 I TCP     : tcp.conn{4787} TcpSocket.connect_i(TcpSocket.java:84) connecting to ip address uc.huawei.com/172.30.70.63
+12-17 19:31:50.994  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.huawei.health|10010|null|10099
+12-17 19:31:50.999 16354 16354 E HwSystemManager: MemCPUMonitor:startTimerMonitor isCompleted = true
+12-17 19:31:50.999  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 9.000000
+12-17 19:31:50.999  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =1875177616 
+12-17 19:31:50.999  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:false
+12-17 19:31:51.000  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:51.000  1795  1825 D DisplayPowerController: Animating brightness: target=15, rate=40
+12-17 19:31:51.000  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityNegative -> updatePowerStateLocked
+12-17 19:31:51.000  1795  1825 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123024172, event=0, flags=0x0, uid=1000
+12-17 19:31:51.000  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=0, uid=1000
+12-17 19:31:51.000  1795  1825 I PowerManager_screenOn: PowerManagerService wakeUpNoUpdateLocked: eventTime=123024172, uid=1000
+12-17 19:31:51.000  1795  1825 I PowerManager_screenOn: PowerManagerService Waking up from dozing (uid 1000)...
+12-17 19:31:51.000  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=1, reason=0, interactive=true, mInteractive=false, mInteractiveChanging=true
+12-17 19:31:51.000  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakeUp: event=android.server.power:POWER, reasonUid=1000 opPackageName=android opUid=1000
+12-17 19:31:51.000  1795  1825 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123024172, event=0, flags=0x0, uid=1000
+12-17 19:31:51.000  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=0, uid=1000
+12-17 19:31:51.000  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityNegative by Phone
+12-17 19:31:51.000  1795  1825 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:51.001  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:31:51.001  1795  1795 I HwScreenOnProximityLock: removeProximityView success vp android.view.ViewRootImpl@a98380
+12-17 19:31:51.001  1795  1795 D Sensors : batch called handle:2 sample_ns:20000000 latency_ns:0
+12-17 19:31:51.001  1795  1795 D Sensors : pa2240-proximity calling driver setDelay 20 ms
+12-17 19:31:51.001  1795  1795 E huawei_ProximitySensor_CPP_Test: write 20 failed
+12-17 19:31:51.003  1795  1821 I WindowManager: All windows ready for display!
+12-17 19:31:51.006  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=c0000000 mask=ffffffff oldVal=c0000600 newVal=c0000000 diff=600
+12-17 19:31:51.006  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000000, SystemUiVisibility=0xc0000000
+12-17 19:31:51.006 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:292) connected

@@ -1,0 +1,100 @@
+12-17 19:55:48.384   633 31875 I SDK     : 
+12-17 19:55:48.384   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:383 Level[NOTICE] magic[3365677344 2756]:WriteSdkGroupItem: hash has same item[w00290667]
+12-17 19:55:48.384   633 31868 I SDK     : 
+12-17 19:55:48.384   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:384 Level[NOTICE] magic[3365677344 2326]:FSM_OpenFile => [START],Mode[w]
+12-17 19:55:48.384   633 31868 I SDK     : 
+12-17 19:55:48.384   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:384 Level[NOTICE] magic[3365677344 6458]:FSM_Tool_TreatFolderEncEx => [START]: pcFileName [anyofficeKeyspaceUserLastLogintime_w00290667] 
+12-17 19:55:48.384   633 31868 I SDK     : 
+12-17 19:55:48.384   633 31875 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:384 Level[NOTICE] magic[3359111456 2487]:FSM_OpenFile => [END]
+12-17 19:55:48.384   633 31875 I SDK     : 
+12-17 19:55:48.385   633 31875 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:385 Level[NOTICE] magic[3359111456 2623]:FileSec: write app bundle id  = &5ߢ[@ñ?z]I= to file tail.
+12-17 19:55:48.385   633 31875 I SDK     : 
+12-17 19:55:48.385   633 31868 E SDK     : <2016-12-17 19:55:48> [ERR] SDK: UE-SeC 2016-12-17 19:55:48:385 Level[ERR] magic[3365677344 436]:libcSeekFile => fseek[22]:[-64][0][EA6046B0]
+12-17 19:55:48.385   633 31868 E SDK     : 
+12-17 19:55:48.385   633 31875 E SDK     : <2016-12-17 19:55:48> [ERR] SDK: UE-SeC 2016-12-17 19:55:48:385 Level[ERR] magic[3359111456 820]:Tracker: save log,/data/user/0/com.huawei.espacev2/AnyOfficeSDKWorkPath/Tracker/20161217_192748.log
+12-17 19:55:48.385   633 31875 E SDK     : 
+12-17 19:55:48.385   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:385 Level[NOTICE] magic[3365677344 2421]:FileSec: have right to open file due to cur app sec level = 0 is higher than file app(&5ߢ[@ñ?z]) sec level = 0.
+12-17 19:55:48.385   633 31868 I SDK     : 
+12-17 19:55:48.386   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:386 Level[NOTICE] magic[3365677344 5452]:FSM_Tool_ParseFile => [END] apply cycle<-1>
+12-17 19:55:48.386   633 31868 I SDK     : 
+12-17 19:55:48.386   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:386 Level[NOTICE] magic[3365677344 2487]:FSM_OpenFile => [END]
+12-17 19:55:48.386   633 31868 I SDK     : 
+12-17 19:55:48.386   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:386 Level[NOTICE] magic[3365677344 2623]:FileSec: write app bundle id  = &5ߢ[@ñ?z]I= to file tail.
+12-17 19:55:48.386   633 31868 I SDK     : 
+12-17 19:55:48.387   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:386 Level[NOTICE] magic[3365677344 725]:Begin to proc tunnel status change: oldStatus=2, newStatus=1, errCode=0
+12-17 19:55:48.387   633 31868 I SDK     : 
+12-17 19:55:48.387   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:387 Level[NOTICE] magic[3365677344 394]:L4VPN notify callback sdkey status 0
+12-17 19:55:48.387   633 31868 I SDK     : 
+12-17 19:55:48.387   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:387 Level[NOTICE] magic[3365677344 1096]:Udp resume need detect when created new tls connect!
+12-17 19:55:48.387   633 31868 I SDK     : 
+12-17 19:55:48.388   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:387 Level[NOTICE] magic[3365677344 1126]:Resume tunnel response OK: vip is 0x[b0b0c6d];mask is 0x[ffff0000]!
+12-17 19:55:48.388   633 31868 I SDK     : 
+12-17 19:55:48.388   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:388 Level[NOTICE] magic[3365677344 400]:Udp resume detect packet add to conn ok,detect id is [7]!
+12-17 19:55:48.388   633 31868 I SDK     : 
+12-17 19:55:48.388   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:388 Level[NOTICE] magic[3365677344 8933]:Set local private port is:[41534]
+12-17 19:55:48.388   633 31868 I SDK     : 
+12-17 19:55:48.390   633 21103 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:390 Level[NOTICE] magic[2531146016 1019]:SDK:net change notify: old=2, new=1, errCode=0
+12-17 19:55:48.390   633 21103 I SDK     : 
+12-17 19:55:48.391  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:55:48.391  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:55:48.392   633   692 I eSpaceService: Thread-1502{6133} VPNWork.onNetChanged(VPNWork.java:324) SVN login success notify 
+12-17 19:55:48.392   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:392 Level[NOTICE] magic[2517518624 854]:begin get userinfo jni invoke!
+12-17 19:55:48.392   633 21104 I SDK     : 
+12-17 19:55:48.392   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:392 Level[NOTICE] magic[2517518624 3485]:Begin to get user info
+12-17 19:55:48.392   633 21104 I SDK     : 
+12-17 19:55:48.392   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:392 Level[NOTICE] magic[2517518624 3352]:getUserinfo:Begin to get user info in AnyOffice_API_GetUserInfo_WithoutAppAuthCheck
+12-17 19:55:48.392   633 21104 I SDK     : 
+12-17 19:55:48.393   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:393 Level[NOTICE] magic[2517518624 1146]:KeySpace : Begin to get user info
+12-17 19:55:48.393   633 21104 I SDK     : 
+12-17 19:55:48.394   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:393 Level[NOTICE] magic[2517518624 2326]:FSM_OpenFile => [START],Mode[r]
+12-17 19:55:48.394   633 21104 I SDK     : 
+12-17 19:55:48.394   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:394 Level[NOTICE] magic[2517518624 6458]:FSM_Tool_TreatFolderEncEx => [START]: pcFileName [cffb628ad277b3e98d6e9ae9dceca2a7_gatewayUserInfo] 
+12-17 19:55:48.394   633 21104 I SDK     : 
+12-17 19:55:48.395   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:395 Level[NOTICE] magic[2517518624 1541]:FSM_Tool_Tree_Enc_Path =>Access [/mnt/sdcard/sandbox/AnyOfficeSDK/sdk/UppmQLksydF4jiPx7vvVu9V8mxcQz4u8FMyhVWeaf4oM50MdHg8kF1D-XwuKV2zV] real path  ok 
+12-17 19:55:48.395   633 21104 I SDK     : 
+12-17 19:55:48.396   633 21104 E SDK     : <2016-12-17 19:55:48> [ERR] SDK: UE-SeC 2016-12-17 19:55:48:396 Level[ERR] magic[2517518624 436]:libcSeekFile => fseek[22]:[-32][0][EA60400C]
+12-17 19:55:48.396   633 21104 E SDK     : 
+12-17 19:55:48.396   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:396 Level[NOTICE] magic[2517518624 2421]:FileSec: have right to open file due to cur app sec level = 0 is higher than file app(&5ߢ[@ñ?z]) sec level = 0.
+12-17 19:55:48.396   633 21104 I SDK     : 
+12-17 19:55:48.397   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:397 Level[NOTICE] magic[2517518624 2487]:FSM_OpenFile => [END]
+12-17 19:55:48.397   633 21104 I SDK     : 
+12-17 19:55:48.398   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:397 Level[NOTICE] magic[3365677344 7509]:Currently udp detect response ok,detect id is [2],ack id is [2]!
+12-17 19:55:48.398   633 31868 I SDK     : 
+12-17 19:55:48.398   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:397 Level[NOTICE] magic[2517518624 1189]:KeySpace : Succeed in fetching group data
+12-17 19:55:48.398   633 21104 I SDK     : 
+12-17 19:55:48.398   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:398 Level[NOTICE] magic[3365677344 5250]:Switch tunnel mode to [3]!
+12-17 19:55:48.398   633 31868 I SDK     : 
+12-17 19:55:48.398   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:398 Level[NOTICE] magic[3365677344 2549]:Send switch tunnel msg ok,mode is [3],now mode is[1]!
+12-17 19:55:48.398   633 31868 I SDK     : 
+12-17 19:55:48.398   633 31868 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:398 Level[NOTICE] magic[3365677344 635]:idle state change to IDLE
+12-17 19:55:48.398   633 31868 I SDK     : 
+12-17 19:55:48.399   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:399 Level[NOTICE] magic[2517518624 1181]:KeySpace : Succeed in fetching group data
+12-17 19:55:48.399   633 21104 I SDK     : 
+12-17 19:55:48.399   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:399 Level[NOTICE] magic[2517518624 2326]:FSM_OpenFile => [START],Mode[r]
+12-17 19:55:48.399   633 21104 I SDK     : 
+12-17 19:55:48.400   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:399 Level[NOTICE] magic[2517518624 6458]:FSM_Tool_TreatFolderEncEx => [START]: pcFileName [anyofficeuserorgcode] 
+12-17 19:55:48.400   633 21104 I SDK     : 
+12-17 19:55:48.400   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:400 Level[NOTICE] magic[2517518624 1541]:FSM_Tool_Tree_Enc_Path =>Access [/mnt/sdcard/sandbox/AnyOfficeSDK/sdk/QDJ7lEGuRlJb2r2mqrSExBTDjN4QhUgEPVptBL0HnX4=] real path  ok 
+12-17 19:55:48.400   633 21104 I SDK     : 
+12-17 19:55:48.401   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:400 Level[NOTICE] magic[2517518624 2421]:FileSec: have right to open file due to cur app sec level = 0 is higher than file app(&5ߢ[@ñ?z]) sec level = 0.
+12-17 19:55:48.401   633 21104 I SDK     : 
+12-17 19:55:48.401   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:401 Level[NOTICE] magic[2517518624 2487]:FSM_OpenFile => [END]
+12-17 19:55:48.401   633 21104 I SDK     : 
+12-17 19:55:48.401   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:401 Level[NOTICE] magic[2517518624 2579]:ReadSdkGroupItem: Succeed in fetching group item[w00290667_account] share[0]
+12-17 19:55:48.401   633 21104 I SDK     : 
+12-17 19:55:48.402   633 21104 E SDK     : <2016-12-17 19:55:48> [ERR] SDK: UE-SeC 2016-12-17 19:55:48:402 Level[ERR] magic[2517518624 3436]:KeySpace : getkey w00290667_account not null
+12-17 19:55:48.402   633 21104 E SDK     : 
+12-17 19:55:48.402   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:402 Level[NOTICE] magic[2517518624 2326]:FSM_OpenFile => [START],Mode[r]
+12-17 19:55:48.402   633 21104 I SDK     : 
+12-17 19:55:48.402   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:402 Level[NOTICE] magic[2517518624 6458]:FSM_Tool_TreatFolderEncEx => [START]: pcFileName [anyofficeuserorgcode] 
+12-17 19:55:48.402   633 21104 I SDK     : 
+12-17 19:55:48.403   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:402 Level[NOTICE] magic[2517518624 1541]:FSM_Tool_Tree_Enc_Path =>Access [/mnt/sdcard/sandbox/AnyOfficeSDK/sdk/QDJ7lEGuRlJb2r2mqrSExBTDjN4QhUgEPVptBL0HnX4=] real path  ok 
+12-17 19:55:48.403   633 21104 I SDK     : 
+12-17 19:55:48.403   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:403 Level[NOTICE] magic[2517518624 2421]:FileSec: have right to open file due to cur app sec level = 0 is higher than file app(&5ߢ[@ñ?z]) sec level = 0.
+12-17 19:55:48.403   633 21104 I SDK     : 
+12-17 19:55:48.404   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:404 Level[NOTICE] magic[2517518624 2487]:FSM_OpenFile => [END]
+12-17 19:55:48.404   633 21104 I SDK     : 
+12-17 19:55:48.405   633 21104 I SDK     : <2016-12-17 19:55:48> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:48:405 Level[NOTICE] magic[2517518624 2589]:ReadSdkGroupItem: no Item[w00290667_orgcode] in group uShare=0
+12-17 19:55:48.405   633 21104 I SDK     : 
+12-17 19:55:48.405   633 21104 E SDK     : <2016-12-17 19:55:48> [ERR] SDK: UE-SeC 2016-12-17 19:55:48:405 Level[ERR] magic[2517518624 3436]:KeySpace : getkey w00290667_orgcode null
+12-17 19:55:48.405   633 21104 E SDK     : 

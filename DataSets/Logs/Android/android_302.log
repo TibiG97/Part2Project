@@ -1,0 +1,100 @@
+12-17 19:34:57.776  3218  3218 V AudioManager: querySoundEffectsEnabled...
+12-17 19:34:57.778  3218  3439 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:34:57.778  3218  3439 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:34:57.780  1795  6988 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.781  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 1.208798 Y: 5.942542 Z: 8.983865  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:57.786  1795  3139 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.7, mControlPoint1y = 0.0, mControlPoint2x = 0.19, mControlPoint2y = 1.0
+12-17 19:34:57.789  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=40000500 mask=ffffffff oldVal=40000600 newVal=40000500 diff=300
+12-17 19:34:57.789  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0x40000500, SystemUiVisibility=0x40000500
+12-17 19:34:57.796  1795  3249 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.803  1795  3237 V SecInputMethodManagerService: Client requesting input be hidden, pid=633
+12-17 19:34:57.803  1795  3237 V InputMethodManagerService: Window asks to hide input
+12-17 19:34:57.807  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:34:57.816  3218  3218 W CfgFilePolicy: No config file found for:xml/VirtualNet_cust.xml
+12-17 19:34:57.816  3218  3218 W CfgFilePolicy: CFG_DIRS length : 9
+12-17 19:34:57.821  1795  1795 D LocationManagerServiceUtil: ServiceStateChanged numeric = 46000
+12-17 19:34:57.822  1795  1795 D LocationManagerServiceUtil: ServiceStateChanged use pkgName = com.amap.android.ams
+12-17 19:34:57.822  1795  3077 D NtpPhoneStateListener: onServiceStateChanged subId:0 isCdma=false
+12-17 19:34:57.822  3168  3168 I CHR_ChrCommonInfo: 0 0 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE LTE CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.823  1795  1795 D HwCHRWifiCellID: 0 0 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE LTE CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.823  2852  3556 I NetworkController.MobileSignalController(0): onServiceStateChanged voiceState=0 dataState=0 isSuspend=false voiceStateOld=0 dataStateOld=1
+12-17 19:34:57.823  1795  1795 D HwCHRWifiCellID: onServiceStateChanged, state is 0 0 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE LTE CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.823  1795  1795 D HwCHRWifiCellID: 0 0 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE LTE CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.823  1795  1795 D HwCHRWifiCellID: onServiceStateChanged, state is 0 0 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE LTE CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.823  1795  1795 D HwCHRWifiCellID: 0 0 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE LTE CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.823  1795  1795 D HwCHRWifiCellID: onServiceStateChanged, state is 0 0 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE LTE CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.823  1795  1795 D HwMultiNlpPolicy: PhoneStateListener 0, mDataSub 0
+12-17 19:34:57.823  1795  1795 D HwMultiNlpPolicy: setSimCardReady 0
+12-17 19:34:57.823  1795  1795 D HwMultiNlpPolicy: setRegistedNetwork 46000
+12-17 19:34:57.823 17709 17709 D HwIntelligent3_OverseasStateManagerImp: onServiceStateChanged 
+12-17 19:34:57.823  1795  1795 I MQoS    : mSubId=0,voiceState:0,dataState:0
+12-17 19:34:57.823  2852  2914 I HwMobileSignalController: onServiceStateChanged: state=0 0 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE LTE CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.824  3168  3168 I CHR_ChrNetworkTracker: onServiceStateChanged: start: radiotechnew = 14, isNewssCdma = false, radiotechold = 14, isOldssCdma = false
+12-17 19:34:57.824  3168  3168 I CHR_ChrNetworkTracker: onServiceStateChanged ! hasRegistered= false hasGprsAttached= true hasDeregistered=false hasGprsDetached=false, mSub = 0
+12-17 19:34:57.824  1795  1795 I WifiProJNI: ######### NOTIFY_MCC:460 ########
+12-17 19:34:57.824  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=5
+12-17 19:34:57.826  1795  6985 I SendBroadcastPermission: action:android.intent.action.SERVICE_STATE, mPermissionType:0
+12-17 19:34:57.826  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+12-17 19:34:57.826  1795  6985 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{34bf34f 0:system/1000}, intent:android.intent.action.SERVICE_STATE, receiver size:3, flags: 10000400
+12-17 19:34:57.826  1795  6985 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:57.826  1795  6985 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:57.826  1795  6985 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{4f0034e u-1 android.intent.action.SERVICE_STATE}: prev had 0
+12-17 19:34:57.827  1795  1807 D CountryDetector: isValidCountryIso: CN
+12-17 19:34:57.827  2852  2852 D KeyguardUpdateMonitor: received broadcast android.intent.action.SERVICE_STATE
+12-17 19:34:57.827  3218  3422 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 phoneId=0
+12-17 19:34:57.827  3218  3422 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 retVal=false
+12-17 19:34:57.827  2852  2852 V KeyguardUpdateMonitor: action android.intent.action.SERVICE_STATE serviceState=0 0 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE LTE CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false subId=0
+12-17 19:34:57.827  2852  2852 D KeyguardUpdateMonitor: handleServiceStateChange(subId=0, serviceState=0 0 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  LTE LTE CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:57.828  2852  2852 W AppHandler: sendMessage 117
+12-17 19:34:57.828  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{4f0034e u-1 android.intent.action.SERVICE_STATE}, has 3 receivers
+12-17 19:34:57.828  2852  2852 W HwLockScreenPanel: Handle message: 117
+12-17 19:34:57.828  7741  7741 V DownloadManager: Service state changed: Bundle[mParcelledData.dataSize=1116]
+12-17 19:34:57.828  7741  7741 V DownloadManager: roaming ------> false
+12-17 19:34:57.828  7741  7741 V DownloadManager: auto download without roaming -> true
+12-17 19:34:57.828  7741  7741 V DownloadManager: auto download during roaming -> false
+12-17 19:34:57.828  7741  7741 V DownloadManager: mAutoDownload ------> true
+12-17 19:34:57.828  2852  3556 I HwNetworkControllerImpl: onReceive: action = android.intent.action.SERVICE_STATE
+12-17 19:34:57.829  1795 16232 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.830  1795  1795 I TrafficMonitor: expired arrive. level:-1
+12-17 19:34:57.830  1795  1795 I TrafficMonitor: during_ms:2003,period_ms:2000
+12-17 19:34:57.830  1795  1795 I TrafficMonitor: count:84,rx_sum:5,tx_sum:6,rxBytes:954,during_ms:2003,rx_speed:476.2855716425362,tx_speed:213.1802296555167,rto:0.8333333333333334
+12-17 19:34:57.830  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:5, rxSpd:476B/s, txpkt:6, txSpd:213
+12-17 19:34:57.831  1795  3111 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:34:57.831 17709 17709 D HwIntelligent3_OverseasStateManagerImp: onServiceStateChanged curCountry : CNsimCountry : CN
+12-17 19:34:57.831 17709 17709 I HwIntelligent3_OverseasStateManager: checkRoamingStateChanged : cur country is CN home country is CN
+12-17 19:34:57.831 17709 17709 I HwIntelligent3_OverseasStateManager: checkRoamingStateChanged : last coutry is CN
+12-17 19:34:57.831  3218  7071 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:34:57.831 17709 17709 I HwIntelligent3_OverseasStateManager: notifyRamotingStateChanged check roaming state is not true
+12-17 19:34:57.831  7741  7741 D Mms_TX_ServiceStateChangeReceiver: action: ACTION_SERVICE_STATE_CHANGED
+12-17 19:34:57.832  7741  7741 D Mms_TX_ServiceStateChangeReceiver: serviceState 0
+12-17 19:34:57.832  7741  7741 D Mms_TX_ServiceStateChangeReceiver: in service, start TransactionService
+12-17 19:34:57.832  7741  7741 E Mms_TXM_SVC: isSecondaryUser() start 
+12-17 19:34:57.832  7741  7741 E Mms_TXM_SVC: isSecondaryUser() end 
+12-17 19:34:57.832  7741  7741 E Mms_TXM_SVC: removeCallbacksAndMessages start 
+12-17 19:34:57.832  7741  7741 E Mms_TXM_SVC: removeCallbacksAndMessages end 
+12-17 19:34:57.832  7741  7741 E Mms_TXM_SVC: startService end 
+12-17 19:34:57.832  1795 11746 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.833  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 31 -67 -9 212 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:34:57.833  3218  3218 D Telephony: TelecomAccountRegistry: onServiceStateChanged0 newState : 0, mServiceState : 0
+12-17 19:34:57.833  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 31 -67 -9 212 2147483647 2147483647 false gw|lte
+12-17 19:34:57.835  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:34:57.835  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:34:57.835  1795 15982 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.837  1795 16501 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:57.837  3218 13114 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:34:57.838  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+12-17 19:34:57.841  3218  3218 D HuaweiTelephonyConfigs: fddn EVENT_GET_AD_DONE FDN_PS_CHECK:false ,FDN_PRELOAD_CACHE:true
+12-17 19:34:57.842  3168  3168 I CHR_ChrNetworkTracker: Enter shouldIgnoreCSLost ! radioOn= true simCardState=5 isSubActived=true, mSub = 0, mAirplaneMode = false, isDual4GSlotSwitch = false
+12-17 19:34:57.842  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 0.039563 Y: 6.689276 Z: 7.721333  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:57.843  1795  1795 I MQoS    : onDataConn: mSubId=0,state=0,networkType=13
+12-17 19:34:57.844  1795 15987 I SendBroadcastPermission: action:android.intent.action.ANY_DATA_STATE, mPermissionType:0
+12-17 19:34:57.844  1795  1795 D Telecom : NumberMarkController: onDataConnectionStateChanged() network = 3
+12-17 19:34:57.844  2852  3556 I NetworkController.MobileSignalController(0): onDataConnectionStateChanged: state=0 type=13
+12-17 19:34:57.844  2852  2914 I HwMobileSignalController: updateDataConnectionState: state=0,networkType=13
+12-17 19:34:57.844  1795 15987 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:57.844  2852  2914 I HwMobileSignalController: mExtDataOld:ExtData [mMasterNetWorkType=3, mSlaveNetWorkType=0, mMasterNetWorkLevel=5, mSlaveNetWorkLevel=-1, mDataState=0, mDataActivity=0, mDataNetType=0] mExtData:ExtData [mMasterNetWorkType=3, mSlaveNetWorkType=0, mMasterNetWorkLevel=5, mSlaveNetWorkLevel=-1, mDataState=0, mDataActivity=0, mDataNetType=13]
+12-17 19:34:57.844  2852  2852 I NetworkController.MobileSignalController(0): need to force refresh view
+12-17 19:34:57.844  1795 15987 I SendBroadcastPermission: action:android.intent.action.PRECISE_DATA_CONNECTION_STATE_CHANGED, mPermissionType:0
+12-17 19:34:57.845  3782  3782 W DPMJ    : |SERVICE| DPM received ACTION_ANY_DATA_CONNECTION_STATE_CHANGEDdefault
+12-17 19:34:57.845  3782  3782 W DPMJ    : |SERVICE| If apn type is default ->default
+12-17 19:34:57.847  2883  3256 I HwSystemManager: ServiceStateMonitor:service state changed, isRoaming = false

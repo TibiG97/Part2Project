@@ -1,0 +1,100 @@
+12-17 19:35:31.423  1795  2728 D hw_netstat: total/777/714,com.tencent.mm/641/498,com.huawei.espacev2/136/216
+12-17 19:35:31.424  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=4  WEBRESENDSEGS=0  WEBRECVSEGS=3  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=7  WEBRTTSEGS=2  WEBSRTT=280  WEBSNDDUPACKS=0  SENDSEGS=2  RESENDSEGS=0  RECVSEGS=2  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=2  RTTSEGS=1  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:35:31.424  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-43  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=96, rtt_tcp_duration=841, rtt_lan_duration=205, rtt_lan_failures=0, rtt_lan_succ=6, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:35:31.424  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:35:31.424  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:35:31.439  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:35:31.440  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=6, mTXbad=0, mRXGood=5] rssi=-43
+12-17 19:35:31.441  1795  2728 E HwCHRWebMonitor: running processName=com.huawei.android.launcher
+12-17 19:35:31.441  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.tencent.mm UID=10105  WEBSENDSEGS=4  WEBRESENDSEGS=0  WEBRECVSEGS=3  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=7  WEBRTTSEGS=2  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:35:31.442  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.huawei.espacev2 UID=10102  WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:35:31.442  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:35:31.442  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 3, tx = 4
+12-17 19:35:31.442  1795  2728 D HwArpVerifier: AccessWebStatus : reset all
+12-17 19:35:31.582  1795  1806 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:31.582  1795  1806 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:31.590  1795  2396 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:31.590  1795  2396 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:31.592  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+12-17 19:35:31.592  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:35:31.593  1795 16501 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:35:31.593  3858  4126 I amsnl   : csr
+12-17 19:35:31.593  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:35:31.595  1795 11746 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:31.595  1795 11746 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:31.599  1795  6985 D wifiserviceimpl: netmask =16580607
+12-17 19:35:31.599  3858  4126 I amsnl   : m1: false
+12-17 19:35:31.600  1795  3139 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:31.601  1795  3139 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:31.601  1795  3111 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:31.602  1795  1795 I MQoS    : onSignal: mSubId=1,currDataSubID=0
+12-17 19:35:31.602  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:35:31.603  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:35:31.603  1795  3139 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:35:31.603  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:35:31.604  3858  4126 I amsnl   : csr
+12-17 19:35:31.604  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:35:31.607  1795  3110 D wifiserviceimpl: netmask =16580607
+12-17 19:35:31.607  3858  4126 I amsnl   : m1: false
+12-17 19:35:31.609  1795 16232 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:31.609  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:35:31.610  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:35:31.903  1795  2748 D HwAmbientLuxFilterAlgo: t=123129519,BT=123130519,DT=123133696,BT1=123133519,DT1=123137519,Bn=false,Dn=false,lx=[111.0/123128016, 110.0/123128317, 106.0/123128617, 112.0/123128918, 112.0/123129218, 107.0/123129519],mLx=17.0,s=9.43918,ss=10.728675,AuIntervened=false,mProximityState=false,bLux=176.0,dLux=2.900711,bLux1=176.0,dLux1=3.5
+12-17 19:35:31.915   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:35:31.996  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:35:31,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:31.996  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:35:31,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:31.997  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:31.997  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:31.998  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:31.998  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:31.998  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:31.999  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:31.999   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:35:31.999   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:35:32.011  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:35:32.165  3180  3578 I AppManager: check dependency pid: 4690 is depended by pid: 1795
+12-17 19:35:32.166  3180  3578 I ash     : Application com.baidu.input_huawei is depended by other app, delay to H!
+12-17 19:35:32.220  1795  1805 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:32.375  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:35:32.376  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:35:32.394  5215  5215 E wpa_supplicant: RSSI=-44;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:35:32.394  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:35:32.395  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:32.395  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-43 "Huawei-Employee"WPA_EAP
+12-17 19:35:32.398  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:32.806  1795  2748 D lux trace:: [129.0/123126718, 121.0/123127093, 123.0/123127469, 111.0/123127822, 110.0/123128175, 106.0/123128529, 112.0/123128880, 107.0/123129249, 110.0/123130368]
+12-17 19:35:32.884  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:35:32.884  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:35:32.884  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:35:33.014   818  1086 E iMonitor: dropped event (cpu0) 
+12-17 19:35:33.015   818  1086 E iMonitor: setTracingEnabled:0
+12-17 19:35:33.015   818  1086 E iMonitor: error writing to /sys/kernel/debug/tracing/trace_marker: Bad file descriptor (9)
+12-17 19:35:33.173   818  1086 E iMonitor: setTracingEnabled:1
+12-17 19:35:33.174   818  1086 E iMonitor: Systrace:: buffer is full and will reset.
+12-17 19:35:33.880  1795  1795 I TrafficMonitor: expired arrive. level:-1
+12-17 19:35:33.881  1795  1795 I TrafficMonitor: during_ms:2004,period_ms:2000
+12-17 19:35:33.881  1795  1795 I TrafficMonitor: count:102,rx_sum:0,tx_sum:0,rxBytes:0,during_ms:2004,rx_speed:0.0,tx_speed:0.0,rto:0.0
+12-17 19:35:33.881  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:0, rxSpd:0B/s, txpkt:0, txSpd:0
+12-17 19:35:34.011  1795  2748 D HwAmbientLuxFilterAlgo: t=123131628,BT=123132628,DT=123135628,BT1=123135628,DT1=123139628,Bn=false,Dn=false,lx=[107.0/123130122, 110.0/123130424, 110.0/123130725, 111.0/123131026, 106.0/123131327, 110.0/123131628],mLx=17.0,s=5.0,ss=5.070359,AuIntervened=false,mProximityState=false,bLux=176.0,dLux=3.5,bLux1=176.0,dLux1=3.5
+12-17 19:35:34.342  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:35:34.342  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:35:34.343  3858  4126 I amsnl   : csr
+12-17 19:35:34.343  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 30 -80 -7 300 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:35:34.343  1795 15987 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:35:34.343  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 30 -80 -7 300 2147483647 2147483647 false gw|lte
+12-17 19:35:34.344  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:35:34.347  1795  2778 D wifiserviceimpl: netmask =16580607
+12-17 19:35:34.348  3858  4126 I amsnl   : m1: false
+12-17 19:35:34.350  1795 15988 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:34.351  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:35:34.352  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+12-17 19:35:34.352  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:35:34.887  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:35:34.887  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:35:34.887  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:35:34.922   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:35:35.402  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:35:35.403  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:35:35.421  5215  5215 E wpa_supplicant: RSSI=-44;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:35:35.421  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:35:35.422  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618

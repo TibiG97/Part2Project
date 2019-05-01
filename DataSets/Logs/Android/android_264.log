@@ -1,0 +1,100 @@
+12-17 19:33:42.774  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3673
+12-17 19:33:42.774 31949 31967 I PushService: tcp.conn{4787} ServiceC.connectedNotify(ServiceC.java:289) 172.30.70.63
+12-17 19:33:42.775  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=492- MASK=0x3029d87'
+12-17 19:33:42.775  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:14:80;freq=2452;level=-91;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:42.775  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:fe:e0;freq=2412;level=-94;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:42.776  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f0:c1;freq=2452;level=-95;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.776  5215  5215 E wpa_supplicant: bssid=80:38:bc:08:42:e1;freq=2472;level=-48;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.776  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:21;freq=2472;level=-82;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.776  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:22:a0;freq=2452;level=-85;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:42.776  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:36:a1;freq=2472;level=-89;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.776 31949 31967 I ECS     : tcp.conn{4787} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 100 bytes [16]_00_00_00_60_00_03_01_05_01_04_81_C0_00_00_00_00 cmdCode(CC_PCheckVersion.0x0501)msgType(MT_ARG.1)msgClass(MC_Push.5)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(true)length(96)version(3)sno(81C0)
+12-17 19:33:42.776  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3673
+12-17 19:33:42.777  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=499- MASK=0x3029d87'
+12-17 19:33:42.777  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f1:e0;freq=2472;level=-92;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:42.777  5215  5215 E wpa_supplicant: bssid=80:38:bc:08:42:c0;freq=2452;level=-59;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:42.777  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:ef:41;freq=2452;level=-69;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.777  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:ef:c1;freq=2412;level=-78;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.777  5215  5215 E wpa_supplicant: bssid=80:38:bc:08:43:00;freq=2472;level=-80;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:42.778  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:34:a1;freq=2472;level=-86;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.778  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:22:a1;freq=2452;level=-86;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.778  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3673
+12-17 19:33:42.779  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=499- MASK=0x3029d87'
+12-17 19:33:42.779  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f1:e0;freq=2472;level=-92;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:42.780  5215  5215 E wpa_supplicant: bssid=80:38:bc:08:42:c0;freq=2452;level=-59;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:42.780  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:ef:41;freq=2452;level=-69;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.780  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:ef:c1;freq=2412;level=-78;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.780  5215  5215 E wpa_supplicant: bssid=80:38:bc:08:43:00;freq=2472;level=-80;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:42.780  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:34:a1;freq=2472;level=-86;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.780  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:22:a1;freq=2452;level=-86;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.780  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3673
+12-17 19:33:42.782  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=506- MASK=0x3029d87'
+12-17 19:33:42.783  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:60;freq=2472;level=-86;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:42.783  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:41;freq=2452;level=-87;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.783  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:ef:21;freq=2412;level=-92;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.783  5215  5215 E wpa_supplicant: bssid=80:38:bc:08:42:e0;freq=2472;level=-52;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:42.783  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:2b:e1;freq=2432;level=-55;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.783  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:29:e1;freq=2452;level=-61;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.784  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:14:41;freq=2472;level=-77;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.784  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3676
+12-17 19:33:42.785  1795  2371 E LightSensor: read Events lux: 60.0
+12-17 19:33:42.786  1795  1825 D AutomaticBrightnessController: ambient lux=60.0,timeStamp =442959148928000
+12-17 19:33:42.786  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=513- MASK=0x3029d87'
+12-17 19:33:42.786  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:29:61;freq=2412;level=-77;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.787  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:19:61;freq=2432;level=-77;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.787  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f1:41;freq=2412;level=-80;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.787  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f2:01;freq=2452;level=-81;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.787  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:04:41;freq=2472;level=-92;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.787  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:25:e1;freq=2412;level=-94;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.787  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3156
+12-17 19:33:42.789  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=519- MASK=0x3029d87'
+12-17 19:33:42.789  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=0
+12-17 19:33:42.789  1795  2680 D WifiNative-HAL: Can't find ssid:  - IOT-HUAWEI - 
+12-17 19:33:42.791  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=506- MASK=0x3029d87'
+12-17 19:33:42.791  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:60;freq=2472;level=-86;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:42.791  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:41;freq=2452;level=-87;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.792  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:ef:21;freq=2412;level=-92;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.792  5215  5215 E wpa_supplicant: bssid=80:38:bc:08:42:e0;freq=2472;level=-52;flags=11;ssid=wlanaccessv2.0;
+12-17 19:33:42.792  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:2b:e1;freq=2432;level=-55;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.792  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:29:e1;freq=2452;level=-61;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.793  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:14:41;freq=2472;level=-77;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.793  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3676
+12-17 19:33:42.795 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 659
+12-17 19:33:42.795  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=513- MASK=0x3029d87'
+12-17 19:33:42.795  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:29:61;freq=2412;level=-77;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.796  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:19:61;freq=2432;level=-77;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.796  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f1:41;freq=2412;level=-80;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.796  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f2:01;freq=2452;level=-81;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.796  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:04:41;freq=2472;level=-92;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.796  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:25:e1;freq=2412;level=-94;flags=11;ssid=Huawei-Employee;
+12-17 19:33:42.796  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3156
+12-17 19:33:42.798  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=519- MASK=0x3029d87'
+12-17 19:33:42.799  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=0
+12-17 19:33:42.800  1795  2671 I SendBroadcastPermission: action:android.net.wifi.SCAN_RESULTS, mPermissionType:0
+12-17 19:33:42.801  1795  2671 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{34bf34f 0:system/1000}, intent:android.net.wifi.SCAN_RESULTS, receiver size:1, flags: 10000400
+12-17 19:33:42.801  1795  2671 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:33:42.801  1795  2671 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:33:42.801  1795  2671 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{588f08c u-1 android.net.wifi.SCAN_RESULTS}: prev had 0
+12-17 19:33:42.802  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{588f08c u-1 android.net.wifi.SCAN_RESULTS}, has 1 receivers
+12-17 19:33:42.805  1795  2671 W WifiStateMachine: attemptAutoConnect: false
+12-17 19:33:42.807  1795  2736 E hwintelligencewifi:  DefaultState message.what = 7
+12-17 19:33:42.810  3858  4126 I amsnl   : wsr
+12-17 19:33:42.813  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:33:42.816  1795  3253 D wifiserviceimpl: netmask =16580607
+12-17 19:33:42.816  3858  4126 I amsnl   : m1: false
+12-17 19:33:42.817  1795  3121 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:42.818  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:33:42.818  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:33:42.820  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.638089 Y: 6.387747 Z: 3.570634  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:42.881  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.647626 Y: 5.831946 Z: 4.925347  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:42.942  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 7.139096 Y: 6.706290 Z: 3.506394  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:42.983  1795  2371 E huawei_ProximitySensor_CPP_Test: ProximitySensor: 9 is far event,0 is close event,value = 0.000000
+12-17 19:33:42.983  1795  2371 I huawei_ProximitySensor_CPP_Test: readEvents:345: ProximitySensor: getTimestamp,mPendingEvent.timestamp =-2104958951 
+12-17 19:33:42.984  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:true
+12-17 19:33:42.984  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:33:42.984  1795  1825 D DisplayPowerController: Animating brightness: target=43, rate=40
+12-17 19:33:42.984  1795  1825 I PowerManager_screenOn: PowerManagerService goToSleepNoUpdateLocked: eventTime=123085537, reason=7, flags=0, uid=1000
+12-17 19:33:42.984  1795  1825 I PowerManagerService: Going to sleep due to proximity...
+12-17 19:33:42.984  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=3, reason=7, interactive=false, mInteractive=true, mInteractiveChanging=false
+12-17 19:33:42.984  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityPositivebyPhone -> updatePowerStateLocked
+12-17 19:33:42.985  1795  1825 D PowerManagerService: ready=true,policy=3,wakefulness=3,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0

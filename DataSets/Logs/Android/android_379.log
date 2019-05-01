@@ -1,0 +1,100 @@
+12-17 19:40:23.245  1795 11746 D HW_DISPLAY_EFFECT: hw_set_colortemperature: end--
+12-17 19:40:23.246  1795 11746 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.246  1795 11746 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.Display".
+12-17 19:40:23.246  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=true, brightnessWaitRet=false, screenAutoBrightness=-1, userId=0
+12-17 19:40:23.246  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetScreenState: state=2
+12-17 19:40:23.246  1795  1825 D FpDataCollector: DisplayPowerState :ON
+12-17 19:40:23.247  2852  2852 W HwBackDropView: setDrawBehindAsSrc skipped. null
+12-17 19:40:23.248   835  2385 E libteec : begin
+12-17 19:40:23.248   606  2379 E libteec : receive data len = 128
+12-17 19:40:23.251  3180  3578 D ApplicationPackageManager: queryIntentActivitiesAsUser size results:1, for package:com.tencent.mm
+12-17 19:40:23.251  3180  3578 I ash     : com.tencent.mm { doze duration=267423 } transition to: hibernation reason:
+12-17 19:40:23.251  3180  3578 I ash     : perform hibernation actions!
+12-17 19:40:23.251  1795  1805 D PowerManagerService: acquire lock=140805477, flags=0x1, tag="wake-and-unlock wakelock", name=com.android.systemui, ws=null, uid=10033, pid=2852
+12-17 19:40:23.252  1795  1805 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.252  1795 16232 D SmartHeartBeat: setAlarmsAdjust ...
+12-17 19:40:23.253  3180  3578 I ash     : com.tencent.mm is unified heartbeat(ms): 300000 reason: hibernation
+12-17 19:40:23.254  1795  3247 I PGManagerService: proxyBroadcast:[com.tencent.mm] proxy:true
+12-17 19:40:23.255  3180  3578 I ash     : proxy com.tencent.mm broadcast OK !
+12-17 19:40:23.256   803   803 I Pged-PgedBinderService: Proc: 4634 utime:1120
+12-17 19:40:23.256  3180  3578 I ash     : perform hibernation actions delay: 1000
+12-17 19:40:23.257  3180  3578 I ash     : com.baidu.input_huawei goes to hibernation overtime: 177223
+12-17 19:40:23.258  3180  3578 I ash     : com.android.browser goes to hibernation overtime: 177224
+12-17 19:40:23.263  3180  3578 I AppManager: check dependency pid: 4690 is depended by pid: 1795
+12-17 19:40:23.263  3180  3578 I ash     : Application com.baidu.input_huawei is depended by other app, delay to H!
+12-17 19:40:23.263  3180  3578 I ash     :  ignore audio app: com.android.browser stop delta time:37566996
+12-17 19:40:23.267  1795  1825 I PowerManager_screenOn: DisplayPowerController Blocking screen on until initial contents have been drawn.
+12-17 19:40:23.267  1795  1825 I WindowManger_keyguard: Screen turned on for keyguard
+12-17 19:40:23.267  1795  1825 I PowerManager_screenOn: KeyguardServiceDelegate  onScreenTurnedOn(showListener = com.android.server.policy.PhoneWindowManager$3@bf53b21)
+12-17 19:40:23.267  2852  2852 I FingerprintController: fingerprint acquired, grabbing fp wakelock
+12-17 19:40:23.267  2852  2852 D KG_Policy: getRemainingChance 5
+12-17 19:40:23.267  2852  2867 D KeyguardService: Caller checkPermission fail
+12-17 19:40:23.267  2852  2867 D KeyguardService: KGSvcCall onScreenTurningOn.
+12-17 19:40:23.267  2852  2867 D KeyguardViewMediator: notifyScreenOn
+12-17 19:40:23.267  3180  3578 D ApplicationPackageManager: queryIntentActivitiesAsUser size results:1, for package:com.android.browser
+12-17 19:40:23.267  3180  3578 I ash     : com.android.browser { doze duration=207233 } transition to: hibernation reason:
+12-17 19:40:23.267  3180  3578 I ash     : perform hibernation actions!
+12-17 19:40:23.267  1795  3121 D FingerprintService:  Remaining Num Attempts = 5
+12-17 19:40:23.268  1795  1825 D Sensors : batch called handle:2 sample_ns:200000000 latency_ns:0
+12-17 19:40:23.268  1795  1825 D Sensors : activate called handle:2 enable:1
+12-17 19:40:23.268  1795  1825 D Sensors : pa2240-proximity calling driver setDelay 200 ms
+12-17 19:40:23.268  1795  3110 D SmartHeartBeat: setAlarmsPending ...
+12-17 19:40:23.268  1795  1825 E huawei_ProximitySensor_CPP_Test: write 200 failed
+12-17 19:40:23.268  1795  1825 D Sensors : pa2240-proximity calling driver enable
+12-17 19:40:23.268  1795  1825 W huawei_ProximitySensor_CPP_Test: ProximitySensor, enable, 247: en=1
+12-17 19:40:23.268  1795  1825 W huawei_ProximitySensor_CPP_Test: ProximitySensor, enable, 248: flags=1
+12-17 19:40:23.268  1795  1825 W huawei_ProximitySensor_CPP_Test: ProximitySensor, enable, 249: mEnabled=0
+12-17 19:40:23.268  3180  3578 I ash     : Pending com.android.browser alarm OK !
+12-17 19:40:23.268  2852  2852 I TimeManager: act:android.intent.action.TIME_TICK  flag:1342177300 FLAG_IS_FIRST_POWER_OFF_ALARM=false android.intent.extra.ALARM_COUNT=1 
+12-17 19:40:23.269  1795  2396 I PGManagerService: proxyBroadcast:[com.android.browser] proxy:true
+12-17 19:40:23.269  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:40:23.269  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:40
+12-17 19:40:23.269  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:40
+12-17 19:40:23.269  2852  2852 I TimeManager: chinaDateTime:晚上7:40
+12-17 19:40:23.269  3180  3578 I ash     : proxy com.android.browser broadcast OK !
+12-17 19:40:23.269  1795 20747 D PowerManagerService: acquire lock=60141323, flags=0x1, tag="hibernation", name=com.huawei.powergenie, ws=null, uid=1000, pid=3180
+12-17 19:40:23.270  1795 20747 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.270  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:40:23.270  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:40
+12-17 19:40:23.270  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:40
+12-17 19:40:23.270  2852  2852 I TimeManager: chinaDateTime:晚上7:40
+12-17 19:40:23.271  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:40:23.271  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:40
+12-17 19:40:23.271  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:40
+12-17 19:40:23.271  2852  2852 I TimeManager: chinaDateTime:晚上7:40
+12-17 19:40:23.271  1795 16500 D GpsFreezeProc: addFreezeProcess pkg:com.android.browser
+12-17 19:40:23.271  1795 16500 I GnssLocationProvider: setRequest ProviderRequest[OFF]
+12-17 19:40:23.271  1795 16500 I GnssLocationProvider: stopNavigating, mStarted=false
+12-17 19:40:23.271  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:40:23.271  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:40
+12-17 19:40:23.271  3180  3578 I ash     : proxy app:com.android.browser,uid:10029,result:true
+12-17 19:40:23.271  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:40
+12-17 19:40:23.272  2852  2852 I TimeManager: chinaDateTime:晚上7:40
+12-17 19:40:23.273  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurningOn
+12-17 19:40:23.273  2852  2852 I PhoneStatusBar: onScreenTurningOn
+12-17 19:40:23.278  3180  3578 D PgedBinderAdapter: frz ok, pid: [31558, 17357]
+12-17 19:40:23.278  3180  3578 I PGServer: report state:6 event type:1 pid:0 uid:10029 pkg:com.android.browser to pid: 1795
+12-17 19:40:23.278  3180  3578 I ash     : Freeze com.android.browser OK !
+12-17 19:40:23.278  1795  1807 I AwareLog: AppHiber_Task:  Screen   Off  State, frozenInhandleMsg Return
+12-17 19:40:23.278  1795 15987 I PGManagerService: proxyWakeLockByPidUid, pid: 31558, uid: 10029, proxy: true
+12-17 19:40:23.278  3180  3578 I ash     : Proxy wakelock uid = 10029 pid = 31558
+12-17 19:40:23.279  1795  3111 I PGManagerService: proxyWakeLockByPidUid, pid: 17357, uid: 10029, proxy: true
+12-17 19:40:23.279  3180  3578 I ash     : Proxy wakelock uid = 10029 pid = 17357
+12-17 19:40:23.279  3180  3578 I ash     : permit restrict net app: com.android.browser
+12-17 19:40:23.280  1795  3238 D NetdConnector: SND -> {11639 firewall set_uid_rule standby 10029 deny}
+12-17 19:40:23.297  1795  2371 I huawei_ProximitySensor_CPP_Test: ProximitySensorr readEvents mHasPendingEvent is 1
+12-17 19:40:23.297  1795  1825 D HwNormalizedAutomaticBrightnessController: set power status:mPowerStatus=false,powerStatus=true
+12-17 19:40:23.298  1795  1825 D Sensors : batch called handle:3 sample_ns:300000000 latency_ns:0
+12-17 19:40:23.298  1795  1825 D Sensors : activate called handle:3 enable:1
+12-17 19:40:23.298  1795  1825 D Sensors : bh1745-light calling driver setDelay 300 ms
+12-17 19:40:23.298  1795  1825 D Sensors : bh1745-light calling driver enable
+12-17 19:40:23.298  1795  1825 W LightSensor: LightSensor, enable, 283: en=1
+12-17 19:40:23.298  1795  1825 W LightSensor: LightSensor, enable, 284: flags=1
+12-17 19:40:23.298  1795  1825 W LightSensor: LightSensor, enable, 285: mEnabled=0
+12-17 19:40:23.302  1795  1825 D AutomaticBrightnessController: Enable LightSensor at time:mLightSensorEnableTime=123161851,mLightSensorEnableElapsedTimeNanos=443359661167030
+12-17 19:40:23.302  1795  1825 D AutomaticBrightnessController: mAmbientLuxValid= false,sensor is not ready
+12-17 19:40:23.302  1795  1825 D DisplayPowerController: mode change : autoBrightnessEnabled=true,adjustment=0.0,state=2
+12-17 19:40:23.302  1795  1825 D DisplayPowerController: Animating brightness: target=0, rate=0
+12-17 19:40:23.302  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:40:23.302  1795 17832 D Sensors : batch called handle:2 sample_ns:20000000 latency_ns:0
+12-17 19:40:23.302  1795 17832 D Sensors : pa2240-proximity calling driver setDelay 20 ms

@@ -1,0 +1,100 @@
+12-17 19:55:47.097  1795  1795 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 1000 cmd = 100 param = 0 ret = 0
+12-17 19:55:47.097  1795  2691 D HwConnectivityService: stopFilter m_filterIsStarted:false
+12-17 19:55:47.097  1795  1795 D WifiService: onReceive, action:android.intent.action.USER_PRESENT
+12-17 19:55:47.097  1795  1795 D HwAutoConnectManager: ACTION_USER_PRESENT received, has PortalNotifyDelayed = false
+12-17 19:55:47.097  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155660 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:55:47.097  1795  1795 I AlarmManager: sending alarm Alarm{9c646ac type 3 when 444236364 android},repeatInterval = 0,listenerTag =time_tick
+12-17 19:55:47.098  1795  1795 I ActivityManager_broadcast: Enqueueing ordered broadcast[foreground] BroadcastRecord{1f87b46 u-1 android.intent.action.TIME_TICK}: prev had 1
+12-17 19:55:47.098  2883  3125 I HwSystemManager: StartupResidentService:InnerHandler Message:7
+12-17 19:55:47.098  1795  1795 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:47.101  1795  1795 I TrafficMonitor: update:rxPkts:2,txPkts:0,rxBytes:104,txBytes:0
+12-17 19:55:47.101  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:55:47.101  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:55:47.102  1795  2377 I AwareLog: AwareMem_DMEServer: start
+12-17 19:55:47.102  1795  2377 I AwareLog: AwareMem_EventTracker: [SCREEN_ON_1481975747101] is abandoned for memory 842400
+12-17 19:55:47.103   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:55:47.103   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:55:47.103   606  2379 E libteec : send data return = 128
+12-17 19:55:47.104  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_ON
+12-17 19:55:47.104   835  2385 E libteec : receive data len = 128
+12-17 19:55:47.104   835  2385 E libteec : begin
+12-17 19:55:47.104   835  2385 E libteec : qsc_decode end
+12-17 19:55:47.106  2883  3125 I HwSystemManager: StartupResidentService:InnerHandler Message:7
+12-17 19:55:47.107  1795  2668 D WifiP2pService: InactiveState143466
+12-17 19:55:47.107  1795  2668 E HwWifiP2pService: Unhandled message when=123201551 what=143466 arg1=0 arg2=0
+12-17 19:55:47.107  1795  2668 D WifiP2pService: P2pEnabledState when=123201551 what=143466 arg1=0 arg2=0
+12-17 19:55:47.107  1795  2668 D WifiP2pService: DefaultState{ when=-3ms what=143466 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:55:47.107  1795  2668 D HwWifiP2pService: cancel alarm.
+12-17 19:55:47.109  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:55:47.110  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:55:47.110  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:55:47.110  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: false action: android.intent.action.SCREEN_ON mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:55:47.110  1795  1795 D HwConnectivityService: CtrlSocket receive screen on intent!
+12-17 19:55:47.110  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus
+12-17 19:55:47.110  1795  1795 D HwConnectivityService: pid=1000, cmd=100, param=0
+12-17 19:55:47.110  1795  1795 D HwConnectivityService: mFilterMsgFlag: 0,msg.arg1: 3
+12-17 19:55:47.110  1795  1795 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 1000 cmd = 100 param = 0 ret = 0
+12-17 19:55:47.110  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus reset
+12-17 19:55:47.110  1795  2691 D HwConnectivityService: handleFilterMsg action: 3mFilterMsgFlag3
+12-17 19:55:47.110  1795  2691 D HwConnectivityService: [tiger]setBastetFilterInfo action 3pid 1000
+12-17 19:55:47.110  1795  2691 D HwConnectivityService: stopFilter m_filterIsStarted:false
+12-17 19:55:47.112  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:55:47.112  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:55:47.112  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:false, mDimmed:false
+12-17 19:55:47.112  1795  1795 I NotificationManager: mIntentReceiver-ACTION_SCREEN_ON
+12-17 19:55:47.112  1795  1795 I NotificationManager: updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?true
+12-17 19:55:47.112  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:55:47.112  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:55:47.112  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:55:47.112  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:55:47.112  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:55:47.113  1795  2671 D WifiStateMachine:  ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123201560/444283476 1 0
+12-17 19:55:47.113  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123201560/444283477 1 0
+12-17 19:55:47.113  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SCREEN_STATE_CHANGED  rt=123201560/444283477 1 0
+12-17 19:55:47.113  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SCREEN_STATE_CHANGED  rt=123201560/444283477 1 0
+12-17 19:55:47.113  1795  2671 D WifiStateMachine:  SupplicantStartedState CMD_SCREEN_STATE_CHANGED  rt=123201560/444283477 1 0
+12-17 19:55:47.113  1795  2671 D WifiStateMachine:  DefaultState CMD_SCREEN_STATE_CHANGED  rt=123201560/444283477 1 0
+12-17 19:55:47.114  1795  2671 D WifiStateMachine: handleScreenStateChanged: allow send scan results broadcast.
+12-17 19:55:47.114  2852  2852 D UnderLayer: ondraw 0, Rect(0, 0 - 1080, 72)
+12-17 19:55:47.114  1795  2671 W AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConnectivityManager$3@bdcaf7b
+12-17 19:55:47.114  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:55:47.114  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 2, mHwSingleScanCounter: 0
+12-17 19:55:47.115  1046  9752 V ThreadsEx: HDebug print the key screen_state
+12-17 19:55:47.115  1046  9752 D audio_hw_primary: adev_set_parameters: enter: screen_state=on
+12-17 19:55:47.115  1046  9752 I Huawei_audio_cust: huawei_audio huawei_choose_HandsFree_device_incall_forHWtest: test Type =4
+12-17 19:55:47.115  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 0, mHwSingleScanCounter: 1
+12-17 19:55:47.115  1046  9752 I Huawei_audio_cust: huawei_audio huawei_choose_Handset_device_incall_forHWtest: test Type =4
+12-17 19:55:47.115  1795  2671 E WifiConnectivityManager: isWifiScanSpecialChannels is false,mWifiState : 1
+12-17 19:55:47.115  1046  9752 I Huawei_audio_cust: get_spk_pa_type: pa is max98925
+12-17 19:55:47.115  1046  9752 I Huawei_audio_cust: huawei_common_set_parameters: exit with code(0)
+12-17 19:55:47.115  1046  9752 V Huawei_audio_cust: huawei_cust_set_parameters: exit with code(0)
+12-17 19:55:47.115  1046  9752 V msm8916_platform: platform_set_parameters: enter: - screen_state=on
+12-17 19:55:47.115  1046  9752 V msm8916_platform: platform_set_parameters: exit with code(0)
+12-17 19:55:47.115  1046  9752 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:55:47.115  1046  9752 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:55:47.115  1046  9752 V audio_hw_primary: adev_set_parameters: exit with code(0)
+12-17 19:55:47.115  3879  3879 I HwLauncher: WeatherDynamicUpdater receive action = com.huawei.android.action.launcher_weather_icon_change
+12-17 19:55:47.116  3879  4071 I HwLauncher: WeatherDynamicUpdater receiver data is int[] = [0, 0, 96, 192, 96, 192, 96, 192] ; stringArray[] = [sunny, num1, num7, tempc] ; dynamic_gravity = center
+12-17 19:55:47.116  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[0] = sunny:0, 0, 0
+12-17 19:55:47.116  1795  2671 I AlarmManager: set(null) : type=2 triggerAtTime=444303479 win=0 tElapsed=444303479 maxElapsed=444303479 interval=0 flags=0x9
+12-17 19:55:47.116  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[1] = num1:96, 192, 0
+12-17 19:55:47.117  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[2] = num7:96, 192, 0
+12-17 19:55:47.117  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[3] = tempc:96, 192, 0
+12-17 19:55:47.118  3879  4071 I HwLauncher: WeatherDynamicUpdater  picNames.length not equal tmpMapList.size(), so no need to updatePreData... ; picNames.length = 4 , tmpMapList.size() = 1
+12-17 19:55:47.119  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -2.751682 Y: 3.105002 Z: 7.885209  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:55:47.120  1795  2680 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SCAN TYPE=ONLY'
+12-17 19:55:47.120  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY'
+12-17 19:55:47.120  5215  5215 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-17 19:55:47.120  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:55:47.120  5215  5215 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-17 19:55:47.120  5215  5215 D wpa_supplicant: OKC-Native: Append OKC IE!
+12-17 19:55:47.120  5215  5215 D wpa_supplicant: OKC-Native: Append done!
+12-17 19:55:47.120  5215  5215 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7fb502f3c0
+12-17 19:55:47.120  5215  5215 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-17 19:55:47.120  5215  5215 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7fb502f3c0 after 0.000038 second wait
+12-17 19:55:47.120  5215  5215 D wpa_supplicant: wlan0: nl80211: scan request
+12-17 19:55:47.120  5215  5215 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-17 19:55:47.121  5215  5215 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=67): 7f 05 00 00 0a 02 01 dd 0f 00 e0 fc 80 00 00 00 01 00 00 00 00 00 00 00 dd 29 00 e0 fc 80 00 00 ...
+12-17 19:55:47.121  5215  5215 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-17 19:55:47.121  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:55:47.121  5215  5215 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0

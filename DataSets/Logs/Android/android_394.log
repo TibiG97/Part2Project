@@ -1,0 +1,100 @@
+12-17 19:40:24.020  3180  3578 I ash     : running package: com.android.browser, visible: false
+12-17 19:40:24.033 20818 20818 D BetaClub_LogUpload: [UploadRequest.isTaskProcessing] lstUploadInfo.size()=0
+12-17 19:40:24.033 20818 20818 E BetaClub_LogUpload: [Utils.release] release wake and wifi lock!
+12-17 19:40:24.033 20818 20818 D BetaClub_LogUpload: 收到子线程消息
+12-17 19:40:24.033 20818 20818 D BetaClub_LogUpload: 自杀进程 :myPid: 20818
+12-17 19:40:24.033 20818 20818 V exception: 1
+12-17 19:40:24.033 20818 20818 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:996 android.content.ContextWrapper.sendBroadcast:426 com.huawei.logupload.util.Utils$MyHandler.handleMessage:577 android.os.Handler.dispatchMessage:102 android.os.Looper.loop:199 
+12-17 19:40:24.034 20818 20818 I SendBroadcastPermission: action:com.huawei.betaclub.UPLOAD_PROGRESS, mPermissionType:0
+12-17 19:40:24.035  1795  6985 W ActivityManager: Sending non-protected broadcast com.huawei.betaclub.UPLOAD_PROGRESS from system 20818:com.huawei.betaclub:loguploadservice/1000 pkg com.huawei.betaclub
+12-17 19:40:24.035  1795  6985 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{7a2dabc 20818:com.huawei.betaclub:loguploadservice/1000}, intent:com.huawei.betaclub.UPLOAD_PROGRESS, receiver size:1, flags: 10000400
+12-17 19:40:24.035  1795  6985 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{7a2dabc 20818:com.huawei.betaclub:loguploadservice/1000}
+12-17 19:40:24.035  1795  6985 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{9e25c43 u0 com.huawei.betaclub.UPLOAD_PROGRESS}: prev had 0
+12-17 19:40:24.035  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{9e25c43 u0 com.huawei.betaclub.UPLOAD_PROGRESS}, has 1 receivers
+12-17 19:40:24.037 20818 20818 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.stopService:1533 android.content.ContextWrapper.stopService:618 com.huawei.logupload.util.Utils$MyHandler.handleMessage:588 android.os.Handler.dispatchMessage:102 android.os.Looper.loop:199 
+12-17 19:40:24.038  1795  1805 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{7a2dabc 20818:com.huawei.betaclub:loguploadservice/1000}, flags: 10000400
+12-17 19:40:24.038  1795  1805 I ActivityManager_service: retrieve service Intent { pkg=com.huawei.betaclub cmp=com.huawei.betaclub/com.huawei.logupload.LogUploadReceive } U=0: ret null
+12-17 19:40:24.038 32607 32607 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1527 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.huawei.betaclub.receiver.RouteReceiver.onReceive:17 android.app.ActivityThread.handleReceiver:3177 
+12-17 19:40:24.038 20818 20818 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.stopService:1533 android.content.ContextWrapper.stopService:618 com.huawei.logupload.util.Utils$MyHandler.handleMessage:589 android.os.Handler.dispatchMessage:102 android.os.Looper.loop:199 
+12-17 19:40:24.039  1795 16500 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{e68e93f 32607:com.huawei.betaclub/1000}, flags: 10000400
+12-17 19:40:24.039 20818 20818 I Process : Sending signal. PID: 20818 SIG: 9
+12-17 19:40:24.040  1795 16500 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{c4fe2c0 u0 euid: 0 com.huawei.betaclub/.receiver.RouteService}, euid: 0
+12-17 19:40:24.043 32607 32607 I BetaClub: [RouteService.onStartCommand]
+12-17 19:40:24.043 32607 20840 I BetaClub: [LogSendProgressReceiver.onReceive]Start!
+12-17 19:40:24.043 32607 20840 I BetaClub: [ReceiverUtils.disposeLogUploadProgress]
+12-17 19:40:24.044 32607 20840 D BetaClub: [DisposeLogUploadProgress.dispose] exception:1
+12-17 19:40:24.044 32607 20840 D BetaClub: [DisposeLogUploadProgress.dispose] exception is not null
+12-17 19:40:24.046 32607 32607 I BetaClub: [RouteService.onDestroy]
+12-17 19:40:24.050  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -1.344241 Y: 2.097388 Z: 8.849794  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:40:24.051  1795 15982 I ActivityManager: Process com.huawei.betaclub:loguploadservice (pid 20818) has died
+12-17 19:40:24.051  1795  3247 I DisplayManagerService: stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=false
+12-17 19:40:24.051  1795  3247 I DisplayManagerService: stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=0
+12-17 19:40:24.051  1795 15982 D ActivityManager: cleanUpApplicationRecord -- 20818
+12-17 19:40:24.051  1795 15982 I ActivityManager: cleanUpApplicationRecordLocked, pid: 20818, restart: false
+12-17 19:40:24.052  1795 15982 I ActivityManager: cleanUpApplicationRecordLocked, reset pid: 20818, euid: 0
+12-17 19:40:24.052  1795  1809 I MultiTaskManagerService: onProcessDied pid = 20818, uid = 1000
+12-17 19:40:24.052  1795  3249 E HsmCoreServiceImpl: onTransact in code is: 102
+12-17 19:40:24.052  1795  3249 W MediaProcessHandler: processOp uid 1000 is not concerned!
+12-17 19:40:24.074  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:40:24.074  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:40:24.094  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 0 len = 0, 4096
+12-17 19:40:24.094  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:40:24.094  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:40:24.094  5215  5215 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+12-17 19:40:24.094  5215  5215 D wpa_supplicant: wlan0: nl80211: New scan results available
+12-17 19:40:24.094  5215  5215 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472
+12-17 19:40:24.094  5215  5215 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+12-17 19:40:24.094  5215  5215 D wpa_supplicant: wlan0: Scan completed in 0.374715 seconds
+12-17 19:40:24.094  5215  5215 D wpa_supplicant: nl80211: Associated on 2452 MHz
+12-17 19:40:24.094  5215  5215 D wpa_supplicant: nl80211: Associated with 80:38:bc:08:42:c1
+12-17 19:40:24.094  5215  5215 D wpa_supplicant: nl80211: Received scan results (8 BSSes)
+12-17 19:40:24.094  5215  5215 D wpa_supplicant: nl80211: Scan results indicate BSS status with 80:38:bc:08:42:c1 as associated
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: Sorted scan results
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: 80:38:bc:08:42:c1 freq=2452 qual=0 noise=-89~ level=-48 snr=41* flags=0x2b age=10 est=65000
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: 80:38:bc:0b:28:01 freq=2432 qual=0 noise=-89~ level=-63 snr=26 flags=0xb age=10 est=65000
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 ...
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 ...
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: 80:38:bc:0b:2b:e1 freq=2432 qual=0 noise=-89~ level=-64 snr=25 flags=0xb age=10 est=65000
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 ...
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 ...
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: 80:38:bc:0a:f0:61 freq=2432 qual=0 noise=-89~ level=-79 snr=10 flags=0xb age=10 est=24000
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 ...
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 ...
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: 00:26:f2:1b:9d:b2 freq=2437 qual=0 noise=-89~ level=-79 snr=10 flags=0xb age=10 est=24000
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: IEs - hexdump(len=109): 00 06 4e 54 50 43 30 32 01 08 82 84 8b 96 24 30 48 6c 03 01 06 2a 01 04 2f 01 04 32 04 0c 12 18 ...
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=115): 00 06 4e 54 50 43 30 32 01 08 82 84 8b 96 24 30 48 6c 03 01 06 05 04 00 03 00 00 2a 01 04 2f 01 ...
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: 80:38:bc:0b:18:a1 freq=2432 qual=0 noise=-89~ level=-81 snr=8 flags=0xb age=10 est=19500
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 ...
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 05 05 04 ...
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: 80:38:bc:0b:29:e1 freq=2452 qual=0 noise=-89~ level=-85 snr=4 flags=0xb age=10 est=6500
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 09 05 04 ...
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: 80:38:bc:0b:25:e1 freq=2412 qual=0 noise=-89~ level=-87 snr=2 flags=0xb age=10 est=6500
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: Beacon IEs - hexdump(len=194): 00 0f 48 75 61 77 65 69 2d 45 6d 70 6c 6f 79 65 65 01 08 82 84 0b 16 0c 12 18 24 03 01 01 05 04 ...
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: wlan0: BSS: Start scan result update 115
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 529 BSSID 80:38:bc:0b:28:01 SSID 'Huawei-Employee' freq 2432
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=42
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 530 BSSID 80:38:bc:0b:2b:e1 SSID 'Huawei-Employee' freq 2432
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=768 send_len=42
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 531 BSSID 80:38:bc:0a:f0:61 SSID 'Huawei-Employee' freq 2432
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=768 send_len=42
+12-17 19:40:24.095  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:24.096  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:24.096  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 532 BSSID 00:26:f2:1b:9d:b2 SSID 'NTPC02' freq 2437
+12-17 19:40:24.096  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=1536 send_len=42
+12-17 19:40:24.096  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:24.096  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:24.096  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 533 BSSID 80:38:bc:0b:18:a1 SSID 'Huawei-Employee' freq 2432
+12-17 19:40:24.096  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:24.096  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=768 send_len=42
+12-17 19:40:24.096  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:40:24.096  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:24.096  5215  5215 D wpa_supplicant: wlan0: BSS: Add new id 534 BSSID 80:38:bc:0b:29:e1 SSID 'Huawei-Employee' freq 2452
+12-17 19:40:24.096  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:40:24.096  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=42
+12-17 19:40:24.096  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00

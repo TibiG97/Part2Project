@@ -1,0 +1,100 @@
+12-17 19:35:35.423  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-43 "Huawei-Employee"WPA_EAP
+12-17 19:35:35.426  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:36.119  1795  2748 D HwAmbientLuxFilterAlgo: t=123133736,BT=123134736,DT=123137736,BT1=123137736,DT1=123141736,Bn=false,Dn=false,lx=[109.0/123132231, 110.0/123132532, 106.0/123132833, 111.0/123133134, 108.0/123133435, 108.0/123133736],mLx=17.0,s=5.0,ss=4.417744,AuIntervened=false,mProximityState=false,bLux=176.0,dLux=3.5,bLux1=176.0,dLux1=3.5
+12-17 19:35:36.321  2852  2852 I HeadsUpManager: removeHeadsUpEntry: 0|com.tencent.mm|4097|null|10105
+12-17 19:35:36.322  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:36.324  2852  2852 W ScrimController: startScrimAnimation 0.0 @ com.android.systemui.statusbar.AlphaOptimizedView{d0b83cd V.ED..... ........ 0,0-1080,750 #7f1403fe app:id/heads_up_scrim}
+12-17 19:35:36.325  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:35:36.325  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:35:36.325  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:35:36.328  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:35:36.330  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:35:36.330  1795  2396 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:35:36.330  2852  2852 I NotificationGroupManager: onHeadsUpStateChanged:0|com.tencent.mm|4097|null|10105
+12-17 19:35:36.331  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:36.331  1795 16501 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:35:36.342  2852  2852 I StackScrollAlgorithm: overlapAmount:323.0, previousNotificationEnd:0.0, newYTranslation:-323.0, location:4, i:0, getTopPadding:499.0, getLocationOnScreen():-822
+12-17 19:35:36.342  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:299, i:0
+12-17 19:35:36.342  2852  2852 I StackScrollAlgorithm: overlapAmount:198.0, previousNotificationEnd:-84.0, newYTranslation:-282.0, location:8, i:1, getTopPadding:499.0, getLocationOnScreen():-822
+12-17 19:35:36.342  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:174, i:1
+12-17 19:35:36.342  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:35:36.342  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:35:36.428  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:35:36.435  1795  2728 D hw_netstat: total/0/0
+12-17 19:35:36.439  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSRTT=280  WEBSNDDUPACKS=0  SENDSEGS=0  RESENDSEGS=0  RECVSEGS=0  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=0  RTTSEGS=0  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:35:36.439  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-44  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=96, rtt_tcp_duration=841, rtt_lan_duration=205, rtt_lan_failures=0, rtt_lan_succ=6, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:35:36.440  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:35:36.440  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:35:36.455  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:35:36.457  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=0, mTXbad=0, mRXGood=0] rssi=-44
+12-17 19:35:36.458  1795  2728 E HwCHRWebMonitor: running processName=com.huawei.android.launcher
+12-17 19:35:36.459  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:35:36.459  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 0, tx = 0
+12-17 19:35:36.459  1795  2728 D HwArpVerifier: getDNSFailedCntDiff  dnsNewFailCnt =  1001, aws.getOldDnsFailedCnt() = 0, dnsDiff = 1001
+12-17 19:35:36.459  1795  2728 D HwArpVerifier: mAccessWebStatus : getNetDisableCnt = 1, rx = 0, tx = 0
+12-17 19:35:36.459  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:35:36.460  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:35:36.472  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:35:36.473  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:35:36.473  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:35:36.474  1795  2728 E HwCHRWifiFile: getFileResult throw exceptionjava.io.FileNotFoundException: /sys/kernel/debug/bcmdhd/debug_wl_counters (No such file or directory)
+12-17 19:35:36.475  1795  2728 E HwCHRWifiLinkMonitor: HwCHRWifiBcmIncrCounterLst [txbyte=0  txframe=0  txnoassoc=0  txphyerror=0  txctl=0  txfail=0  txphyerr=0  txfrmsnt=0  txnoack=0  txfrag=0  txnocts=0  txrts=0  txnobuf=0  txallfrm=0  txerror=0  txretrans=0  rxbyte=0  rxframe=0  rxbadfcs=0  rxbadplcp=0  rxmulti=0  rxfrag=0  rxctl=0  rxbadcm=0  rxnobuf=0  rxcrsglitch=0  rxbadds=0  rxnondata=0  rxmulti=0  reset=0  rxdfrmocast=0  rxmfrmocast=0  rxdfrmucastmbss=0  rxmfrmucastmbss=0  rxbeaconmbss=0  rxdfmucastobss=0  rxbeaconobss=0  rxstrt=0  rxcfrmocast=0  rxcfrmucast=0  rxdfrmmcast=0  rxmfrmmcast=0  rxcfrmmcast=0  ]
+12-17 19:35:36.489  5215  5215 E wpa_supplicant: RSSI=-44;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:35:36.489  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:35:36.489  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:36.490  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-43 "Huawei-Employee"WPA_EAP
+12-17 19:35:36.490  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:35:36.490  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:35:36.506  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:35:36.508  1795  2739 D HuaweiWifiWatchdogStateMachine: LM mrssi=-44
+12-17 19:35:36.508  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current loss[-45]=0%, volume=3
+12-17 19:35:36.509  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history loss[-45]=0.02%, volume=189530
+12-17 19:35:36.509  1795  2739 I HuaweiWifiWatchdogStateMachine: spd good count:0, add sc:0.0, rate:1.0
+12-17 19:35:36.509  1795  2739 I HuaweiWifiWatchdogStateMachine: current mHighDataFlowRate = 1.0
+12-17 19:35:36.509  1795  2739 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 3, 0. Lr =0% Totpkt=3
+12-17 19:35:36.510  1795  1795 D WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -44
+12-17 19:35:36.510  1795  1795 I QosMonitor: queryRtt: rtt_type = 3
+12-17 19:35:36.510  1795  1795 I WifiProJNI: ######### GET RTT:3 ########
+12-17 19:35:36.510  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=7
+12-17 19:35:36.510  1795  1795 I WifiProJNI: ######### CMD_QUERY_PKTS ########
+12-17 19:35:36.510  1795  2737 D WifiProJNI: Received kernel message payload: event 4
+12-17 19:35:36.510  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=1
+12-17 19:35:36.510  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=9
+12-17 19:35:36.510  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:35:36.510  1795  2737 D WifiProJNI: Received kernel message payload: event 0
+12-17 19:35:36.511  1795  1795 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current RTT[-45]=400, volume=1
+12-17 19:35:36.511  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=9
+12-17 19:35:36.511  1795  1795 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history RTT[-45]=392, volume=44042
+12-17 19:35:36.511  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:35:36.511  1795  1795 D HuaweiWifiWatchdogStateMachine: setSampleRtt: rtt=400,rtt_pkts =1,rtt_when=6
+12-17 19:35:36.511  1795  1795 I MQoS    : rtt=280,tcp_tx_pkts=1480355,tcp_rx_pkts=1768559
+12-17 19:35:36.511  1795  1795 I QosMonitor: resetRtt: rtt_type = 3
+12-17 19:35:36.511  1795  1795 I WifiProJNI: ######### RESET RTT:3 ########
+12-17 19:35:36.511  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=6
+12-17 19:35:36.512  1795  2739 D HuaweiWifiWatchdogStateMachine: dumpTcpResult: len=9,rtt=280,rttPkt=2,rttWn=6,cgt=0,cgtWn=0
+12-17 19:35:36.512  1795  5350 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+12-17 19:35:36.512  1795  2739 I HuaweiWifiWatchdogStateMachine: PTcp RTT:0, rtt pkt=0, tcp_rx=2, tcp_tx=2, tcp_reTran=0, rtRate=0
+12-17 19:35:36.512  1795  2739 D HuaweiWifiWatchdogStateMachine: mRssiBadCount =0, RSSI not bad.
+12-17 19:35:36.512  1795  2739 D HuaweiWifiWatchdogStateMachine: detectNetworkAvailable:hw.wifipro.dns_fail_count = 1001
+12-17 19:35:36.512  1795  2739 D HuaweiWifiWatchdogStateMachine: detectNetworkAvailable: tcpRxPkts != 0, reset
+12-17 19:35:36.512  1795  2739 I HuaweiWifiWatchdogStateMachine: rs ota tcp lr rttvb bad: false, false, false, false, false; rsth:-75
+12-17 19:35:36.512  1795  2739 D HuaweiWifiWatchdogStateMachine: GSC:0, GSR:1.0, RSR:1.0, RTH:-75
+12-17 19:35:36.512  1795  2739 D HuaweiWifiWatchdogStateMachine: bqeLevel = 0 rtt=0,rtt_pkts=0 speed=0 rssi=-44
+12-17 19:35:36.512  1795  2739 I HuaweiWifiWatchdogStateMachine:  pkt chk not bad, reset sc to 0.
+12-17 19:35:36.512  1795  2739 D HuaweiWifiWatchdogStateMachine: ### mPktChkBadCnt=0
+12-17 19:35:36.587  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:36.589  2852  2852 I PanelBar: panelExpansionChanged 0.0, false
+12-17 19:35:36.592  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundAlpha:alpha=1.0
+12-17 19:35:36.593  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:35:36.593  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:35:36.593  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:35:36.594  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:35:36.594  2852  2852 I TrafficPanelManager: showTraffic
+12-17 19:35:36.594  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:35:36.594  2852  2852 I QSCustomizer: hide:x=0, y=0, isShown=false
+12-17 19:35:36.594  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:35:36.594  2852  2914 I SendBroadcastPermission: action:com.android.systemui.statusbar.visible.change, mPermissionType:0
+12-17 19:35:36.594  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: -1; Flag: 81840048
+12-17 19:35:36.596  1795 15982 W ActivityManager: Sending non-protected broadcast com.android.systemui.statusbar.visible.change from system 2852:com.android.systemui/u0a33 pkg com.android.systemui
+12-17 19:35:36.596  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:36.596  1795 15982 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{506ad58 2852:com.android.systemui/u0a33}, intent:com.android.systemui.statusbar.visible.change, receiver size:1, flags: 10000400

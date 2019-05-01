@@ -1,0 +1,100 @@
+12-17 19:31:42.295  2852  2852 I HwLockScreenPanel: loadMagazine
+12-17 19:31:42.295  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:31:42.295  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:31:42.295  3608  3608 I InCall  : CallList - hasAnyLiveCall call = [Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)]
+12-17 19:31:42.295  3608  3608 I InCall  : ProximitySensor - isDisplayOn: true
+12-17 19:31:42.295  2852  2852 V KeyguardStatusView: Enable transport text marquee
+12-17 19:31:42.296  1795  1821 I ActivityManager_activity: Incall is gone
+12-17 19:31:42.296  1795  1821 I ActivityManager_activity: windowsGone(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}
+12-17 19:31:42.297  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:42.297  1795 17831 I qti_sensors_hal: flush,395,handle 0
+12-17 19:31:42.297  1795 17831 I qti_sensors_hal: flush,260 handle 0
+12-17 19:31:42.301  2852  2852 W HwLockScreenPanel: Handle message: 14
+12-17 19:31:42.302  3218  4070 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:31:42.306  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=c0000300 mask=ffffffff oldVal=80000300 newVal=c0000300 diff=40000000
+12-17 19:31:42.306  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:31:42.307  2852  2852 D BarTransitions.HwPhoneStatusBarView: MODE_OPAQUE -> MODE_TRANSLUCENT animate=false
+12-17 19:31:42.307  2852  2852 D BarTransitions.HwPhoneStatusBarView: applyModeBackground oldMode=MODE_OPAQUE newMode=MODE_TRANSLUCENT animate=false
+12-17 19:31:42.307  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:31:42.307  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:31:42.307  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:31:42.307  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000300, SystemUiVisibility=0xc0000300
+12-17 19:31:42.307  1795  1821 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity},EmuiStyle=1,StatusBarColor=0x0,NavigationBarColor=0x0, mLastIsEmuiLightStyle=1
+12-17 19:31:42.308  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=c0000600 mask=ffffffff oldVal=c0000300 newVal=c0000600 diff=500
+12-17 19:31:42.308  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000600, SystemUiVisibility=0xc0000600
+12-17 19:31:42.308  1795  1809 D HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+12-17 19:31:42.308  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:31:42.308  2852  3344 I CommandQueue: updateBarBgColor
+12-17 19:31:42.309  2852  3344 D CommandQueue: CommandQueue, setBarBackgroundColor
+12-17 19:31:42.309  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:42.314  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:31:42.318  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:31:42.319  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:31:42.319  2852  2852 I BackgrounCallingLayout: mCallingStatusReceiver:onReceive::action=InCallScreenIsForegroundActivity, isForegroundActivity=false, mPhoneState=2
+12-17 19:31:42.323  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:31:42.324  2852  2852 I BackgrounCallingLayout: updateCallLayout:isBackground=true, isInteractive=true
+12-17 19:31:42.325  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:31:42.328  3608  3608 I ActivityManager_activity: Reporting idle of ActivityRecord{fd45985 token=android.os.BinderProxy@af8ea9b {com.android.incallui/com.android.incallui.InCallActivity}} finished=false
+12-17 19:31:42.330  1795  2377 V HwPackageManagerService: Returning system default Launcher 
+12-17 19:31:42.330  1795  2377 I AwareLog: AwareMem_DMEServer: executeMemoryRecover iaware not running
+12-17 19:31:42.331  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:31:42.332  2852  2852 D BackgrounCallingLayout: in updateCallTime, mCallConnectedTimeMills=442781737
+12-17 19:31:42.332  2852  2852 D BackgrounCallingLayout: in updateCallTime, mCallConnectedTimeMills=442781737
+12-17 19:31:42.333  2852  2852 I HwPhoneStatusBar: mNotifyStateChangedReceiver::onReceive:action=InCallScreenIsForegroundActivity, mBackgroundState=true
+12-17 19:31:42.334  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:42.335  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:31:42.335  2852  2852 I BackgrounCallingLayout: mCallingStatusReceiver:onReceive::action=InCallScreenIsForegroundActivity, isForegroundActivity=true, mPhoneState=2
+12-17 19:31:42.336  2852  2852 I BackgrounCallingLayout: updateCallLayout:isBackground=false, isInteractive=true
+12-17 19:31:42.337  2852  2852 I HwPhoneStatusBar: mNotifyStateChangedReceiver::onReceive:action=InCallScreenIsForegroundActivity, mBackgroundState=false
+12-17 19:31:42.337  2852  2852 I StatusBar: onNotificationRemoved: StatusBarNotification(pkg=com.android.incallui user=UserHandle{0} id=2 tag=null key=0|com.android.incallui|2|null|1001: Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE)))
+12-17 19:31:42.342  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:42.342  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:31:42.342  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:31:42.343  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:31:42.351  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:31:42.353  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:31:42.354  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:31:42.354  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:31:42.354  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:31:42.355  2852  2852 I NotificationContentView: transferRemoteInputFocus: 1
+12-17 19:31:42.356  2852  2852 I HwExpandableNotificationRowHelper: unclear notification ,notificationPkgName:com.android.incallui key:0|com.android.incallui|2|null|1001
+12-17 19:31:42.356  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:31:42.356  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:31:42.358  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:42.361  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:31:42.362  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:31:42.362  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onScreenOff
+12-17 19:31:42.362  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_OFF  flag:1342177296 
+12-17 19:31:42.363  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:31:42.364  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:31:42.364  2852  2852 I TintManager: updateBarBgColor:emuiStyle=1,statusBarColor=#00000000,navigationBarColor=#00000000, isEmuiLight=1
+12-17 19:31:42.364  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundColor:new=0, old=1711276032
+12-17 19:31:42.364  2852  2852 I HwNavigationBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:31:42.365  2852  2852 D TintManager: statusBarIconTint=#B3FFFFFF,navigationBarIconTint=#00000000
+12-17 19:31:42.365  2852  2852 I PhoneStatusBar: removeNotification:0|com.android.incallui|2|null|1001
+12-17 19:31:42.365  2852  2852 I StatusBar: removeNotificationViews:0|com.android.incallui|2|null|1001
+12-17 19:31:42.365  2852  2852 I NotificationGroupManager: onEntryRemoved:0|com.android.incallui|2|null|1001
+12-17 19:31:42.365  2852  2852 I NotificationGroupManager: onEntryRemovedInternal:0|com.android.incallui|2|null|1001, group=0|com.android.incallui|2|null|1001
+12-17 19:31:42.365  2852  2852 I NotificationGroupManager: summary = null
+12-17 19:31:42.365  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:31:42.365  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:31:42.366  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:31:42.367  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:31:42.367  1795  3139 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:31:42.369  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:31:42.369  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:31:42.369  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:false, mDimmed:false
+12-17 19:31:42.377  3180  3332 I WakelockMonitor: start wakelock monitor.
+12-17 19:31:42.377  3180  3578 I ScreenLockClean: call busy and not start clean apps.
+12-17 19:31:42.377  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:31:41,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:31:42.377  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:31:41,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:31:42.378  2852  2852 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:31:42.378  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:31:42.378  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:31:42.378  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: false
+12-17 19:31:42.378  3180  3578 I ash     : ash->screen off
+12-17 19:31:42.379  3180  3578 I ash     : Default InputMethod : com.baidu.input_huawei
+12-17 19:31:42.379  3180  3578 I ash     : screen off inputmethod, delay to hibernation
+12-17 19:31:42.379  3180  3578 I ThermalStateManager: handle action thermal policy:301
+12-17 19:31:42.380  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:31:42.380  1795  1821 I ActivityManager_activity: windowsVisibleLocked(): ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310} idle: true

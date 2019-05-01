@@ -1,0 +1,100 @@
+12-17 19:35:25.863  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundColor:new=0, old=0
+12-17 19:35:25.863  3879  4071 I HwLauncher: WeatherDynamicUpdater  picNames.length not equal tmpMapList.size(), so no need to updatePreData... ; picNames.length = 4 , tmpMapList.size() = 1
+12-17 19:35:25.864  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{f83e2df V.ED..... ......ID 0,1-66,43 #7f1401be app:id/battery_outside_percent}
+12-17 19:35:25.865  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{280af00 V.ED..... ......ID 0,0-0,0 #7f1403e3 app:id/speed}
+12-17 19:35:25.865  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{88b1de7 V.ED..... ......I. 0,11-144,60 #7f14004e app:id/msim_status_bar_operators_card_one_id}
+12-17 19:35:25.865  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.time.HwStatusBarClock{dbc7fa6 V.ED..... ........ 294,0-441,72 #7f1401c9 app:id/clock}
+12-17 19:35:25.866  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{3f96501 V.ED..... ........ 0,1-66,43 #7f1401be app:id/battery_outside_percent}
+12-17 19:35:25.866  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{7ea3fda V.ED..... ......ID 0,0-0,0 #7f1403e3 app:id/speed}
+12-17 19:35:25.866  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{8a4a4ce V.ED..... ......ID 0,0-0,0 #7f14032f app:id/hw_notification_number}
+12-17 19:35:25.867  2852  2852 D TintTextView: #B3FFFFFF com.android.systemui.tint.TintTextView{29531d0 V.ED..... ........ 0,0-144,49 #7f14004e app:id/msim_status_bar_operators_card_one_id}
+12-17 19:35:25.867  2852  2852 I PhoneStatusBarPolicy: updateBluetooth:::setBluetoothBatteryEnable false.
+12-17 19:35:25.867  2852  2852 I PhoneStatusBarPolicy: updateBluetooth::bluetoothEnabled:false, bluetoothConnected=false, bluetoothTransfering=false
+12-17 19:35:25.867  2852  2852 I HwStatusBarIconController: applyIconTint
+12-17 19:35:25.867  2852  2852 I HwStatusBarIconController: applyIconTint ignore
+12-17 19:35:25.867  3879  4160 I OpenGLRenderer: Initialized EGL, version 1.4
+12-17 19:35:25.867  3879  4160 D OpenGLRenderer: Swap behavior 1
+12-17 19:35:25.869  3879  3879 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:25.874  3879  3879 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:25.876  3879  3879 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:25.911  2852  2852 D HwRecentsLockUtils: search
+12-17 19:35:25.913  1795 15988 E HsmCoreServiceImpl: onTransact in code is: 103
+12-17 19:35:25.913  1795 15988 I MediaProcessHandler: playingUids: 
+12-17 19:35:25.913  2852  2852 D HwRecentsLockUtils: search
+12-17 19:35:25.915  1795 16501 D ActivityManager: Skipping, home stack task: TaskRecord{37babfb #297 A=com.huawei.android.launcher U=0 StackId=0 sz=1}
+12-17 19:35:25.915  1795 16501 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }
+12-17 19:35:25.916  1795 16501 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[48,1199][1032,2447] }
+12-17 19:35:25.916  1795 16501 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.VIEW dat=file:///storage/emulated/0/Downloads/云播影视326.apk typ=application/vnd.android.package-archive flg=0x10800000 cmp=com.android.packageinstaller/.PackageInstallerActivity (has extras) }
+12-17 19:35:25.916  1795 16501 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=com.android.deskclock.ALARM_ALERT flg=0x10800004 cmp=com.android.deskclock/.alarmclock.LockAlarmFullActivity (has extras) }
+12-17 19:35:25.916  1795 16501 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.VIEW dat=file:///storage/emulated/0/Downloads/106_4389c1ec4cb78314a457ce5927578bb4.apk typ=application/vnd.android.package-archive flg=0x10800000 cmp=com.android.packageinstaller/.PackageInstallerActivity (has extras) }
+12-17 19:35:25.916  1795 16501 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.VIEW dat=file:///storage/emulated/0/tencent/TMAssistantSDK/Download/com.tencent.mm/1a41cb224d6d4b020176381a7c790891 typ=application/vnd.android.package-archive flg=0x10800000 cmp=com.android.packageinstaller/.PackageInstallerActivity (has extras) }
+12-17 19:35:25.916  1795 16501 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.VIEW dat=https://service.10046.mi.com/... flg=0x10800000 cmp=com.android.browser/.BrowserActivity (has extras) }
+12-17 19:35:25.916  1795 16501 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.media.action.STILL_IMAGE_CAMERA_SECURE flg=0x34800000 pkg=com.huawei.camera cmp=com.huawei.camera/.controller.SecureCameraActivity (has extras) }
+12-17 19:35:25.916  1795 16501 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { flg=0x10800000 cmp=com.huawei.camera/com.huawei.rapidcapture.RapidPlaceHolderActivity }
+12-17 19:35:25.916  1795 16501 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.VIEW dat=file:///storage/emulated/0/Downloads/12306zhixinghuochepiao_314.apk typ=application/vnd.android.package-archive flg=0x10800000 cmp=com.android.packageinstaller/.PackageInstallerActivity (has extras) }
+12-17 19:35:25.916  1795 16501 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { flg=0x34800000 cmp=com.huawei.systemmanager/com.huawei.harassmentinterception.ui.InterceptionActivity (has extras) }
+12-17 19:35:25.916  1795 16501 D ActivityManager: getRecentTasks: num=20,flags=62,totalTasks=47
+12-17 19:35:25.916  1795 16501 D ActivityManager: getRecentTasks: topActivity=ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:35:25.917  2852  2852 I SystemServicesProxy: get the task from ActivityManager size is 20 AMS:getRecentTasksForUser,args:numTasksToQuery=20,flags=62,userId=-2
+12-17 19:35:25.923  2852  2852 I RecentsTaskLoadPlan: to show tasks size is 20
+12-17 19:35:25.924  1795 15982 D ActivityManager: Skipping, home stack task: TaskRecord{37babfb #297 A=com.huawei.android.launcher U=0 StackId=0 sz=1}
+12-17 19:35:25.924  1795 15982 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }
+12-17 19:35:25.924  1795 15982 D ActivityManager: getRecentTasks: num=10,flags=62,totalTasks=47
+12-17 19:35:25.924  1795 15982 D ActivityManager: getRecentTasks: topActivity=ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:35:25.925  2852  2852 I SystemServicesProxy: get the task from ActivityManager size is 10 AMS:getRecentTasksForUser,args:numTasksToQuery=10,flags=62,userId=0
+12-17 19:35:25.954  1795  1821 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.5, mControlPoint1y = 0.2, mControlPoint2x = 0.6, mControlPoint2y = 1.0
+12-17 19:35:25.955  1795  1821 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.5, mControlPoint1y = 0.2, mControlPoint2x = 0.6, mControlPoint2y = 1.0
+12-17 19:35:25.959  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=c0000700 mask=ffffffff oldVal=8708 newVal=c0000700 diff=c0008008
+12-17 19:35:25.959  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:35:25.959  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:35:25.959  2852  2852 D BarTransitions.HwNavigationBarView: MODE_TRANSPARENT -> MODE_TRANSLUCENT animate=false
+12-17 19:35:25.960  2852  2852 D BarTransitions.HwNavigationBarView: applyModeBackground oldMode=MODE_TRANSPARENT newMode=MODE_TRANSLUCENT animate=false
+12-17 19:35:25.960  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:35:25.960  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:35:25.960  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000700, SystemUiVisibility=0xc0000700
+12-17 19:35:25.961  1795  3249 V SecInputMethodManagerService: Client requesting input be hidden, pid=3879
+12-17 19:35:25.962  1795  3249 V InputMethodManagerService: Unspecified window will hide input
+12-17 19:35:25.966  4690  4690 I SendBroadcastPermission: action:com.baidu.input.entry.launcer, mPermissionType:0
+12-17 19:35:25.969  3879  3879 I TotemWeather: WidgetDataManager:colorType : 3
+12-17 19:35:25.969  1795  3884 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{5299443 4690:com.baidu.input_huawei/u0a74}
+12-17 19:35:25.983  1795  1821 I ActivityManager_activity: windowsGone(): ActivityRecord{5f12a6a u0 com.tencent.mm/.ui.LauncherUI t383}
+12-17 19:35:26.003  3879  3879 I ActivityManager_activity: Reporting idle of ActivityRecord{4679a0a token=android.os.BinderProxy@5462fa {com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}} finished=false
+12-17 19:35:26.003  1795  3139 D PowerManagerService: release:lock=230301592, flg=0x0, tag="*launch*", name=android", ws=WorkSource{10061}, uid=1000, pid=1795
+12-17 19:35:26.004  1795  3139 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:26.004  1795  3139 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:26.196  1795  1821 I ActivityManager_activity: windowsVisibleLocked(): ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297} idle: true
+12-17 19:35:26.213  1795  1809 I MultiTaskManagerService: onForegroundActivitiesChanged pid = 4492, uid = 10105
+12-17 19:35:26.239  1795  1821 I WindowManager: Destroying surface Surface(name=com.tencent.mm/com.tencent.mm.ui.LauncherUI) called by com.android.server.wm.WindowStateAnimator.destroySurface:2056 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:907 com.android.server.wm.WindowState.destroyOrSaveSurface:2174 com.android.server.wm.AppWindowToken.destroySurfaces:366 com.android.server.wm.WindowStateAnimator.finishExit:587 com.android.server.wm.AppWindowAnimator.stepAnimationLocked:434 com.android.server.wm.WindowAnimator.updateAppWindowsLocked:182 com.android.server.wm.WindowAnimator.animateLocked:712 
+12-17 19:35:26.329  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:35:26.329  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:35:26.337  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:35:26.341  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:35:26.342  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 0 mComponentName :ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:35:26.342  3879  4071 I HwLauncher: BadgeContentObserver newBadgeNumber:0,oldBadgeNumber:0 mComponentName : ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:35:26.344  5215  5215 E wpa_supplicant: RSSI=-40;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:35:26.344  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:35:26.345  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:26.345  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-40 "Huawei-Employee"WPA_EAP
+12-17 19:35:26.346  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:26.412  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:35:26.419  1795  2728 D hw_netstat: total/0/0
+12-17 19:35:26.421  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSRTT=830  WEBSNDDUPACKS=0  SENDSEGS=0  RESENDSEGS=0  RECVSEGS=0  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=0  RTTSEGS=0  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:35:26.421  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-40  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=94, rtt_tcp_duration=834, rtt_lan_duration=205, rtt_lan_failures=0, rtt_lan_succ=6, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:35:26.421  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:35:26.422  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:35:26.433  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:35:26.434  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=0, mTXbad=0, mRXGood=0] rssi=-40
+12-17 19:35:26.435  1795  2728 E HwCHRWebMonitor: running processName=com.huawei.android.launcher
+12-17 19:35:26.435  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:35:26.435  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 0, tx = 0
+12-17 19:35:26.435  1795  2728 D HwArpVerifier: getDNSFailedCntDiff  dnsNewFailCnt =  1001, aws.getOldDnsFailedCnt() = 1001, dnsDiff = 0
+12-17 19:35:26.471   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:35:26.472   633   692 I eSpaceService: Watch Thread{4481} LoginC.doWatch(LoginC.java:1459) Login_By_Step-> watch count =  0
+12-17 19:35:26.488  3879  4160 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+12-17 19:35:26.488  3879  4160 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+12-17 19:35:26.657  1795 15982 I AlarmManager: set(PendingIntent{4e4e8b7: PendingIntentRecord{8e90824 com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443663015 win=449996 tElapsed=443663015 maxElapsed=444113011 interval=0 flags=0x8
+12-17 19:35:26.662  1795 17832 I AlarmManager: set(PendingIntent{b8b9f8d: PendingIntentRecord{91e1542 com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443663020 win=449996 tElapsed=443663020 maxElapsed=444113016 interval=0 flags=0x8
+12-17 19:35:26.683  1795  3238 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:26.705  1795  6988 I AlarmManager: remove(PendingIntent{f555953: PendingIntentRecord{9bb1640 com.tencent.mm broadcastIntent}}) changed bounds; rebatching
+12-17 19:35:26.710  1795  3249 I AlarmManager: set(PendingIntent{1c08290: PendingIntentRecord{21fa789 com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443333072 win=202499 tElapsed=443333072 maxElapsed=443535571 interval=0 flags=0x8
+12-17 19:35:26.734  1795  3884 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output

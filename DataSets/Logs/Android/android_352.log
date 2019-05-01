@@ -1,0 +1,100 @@
+12-17 19:35:47.033  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:35:47.230  1795 15987 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:47.282  4634  4634 I SendBroadcastPermission: action:null, mPermissionType:0
+12-17 19:35:47.286  1795  6988 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{6be12e7 4634:com.tencent.mm:push/u0a105}, intent:null, receiver size:1, flags: 10000400
+12-17 19:35:47.286  1795  6988 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { flg=0x10 cmp=com.tencent.mm/.booter.NotifyReceiver (has extras) } on bgkeyapp queue
+12-17 19:35:47.286  1795  6988 I ActivityManager_broadcast: Enqueueing ordered broadcast[bgkeyapp] BroadcastRecord{d0452b9 u0 null}: prev had 0
+12-17 19:35:47.287  1795  1812 I ActivityManager_broadcast: dispatch ordered broadcast [bgkeyapp] BroadcastRecord{d0452b9 u0 null}, has 1 receivers
+12-17 19:35:47.432  4492  4512 W System.err: text not in xml format
+12-17 19:35:47.454  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:35:47.457  1795  2728 D hw_netstat: total/618/40,com.tencent.mm/618/40
+12-17 19:35:47.458  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=1  WEBRESENDSEGS=0  WEBRECVSEGS=1  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSRTT=80  WEBSNDDUPACKS=0  SENDSEGS=0  RESENDSEGS=0  RECVSEGS=0  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=0  RTTSEGS=0  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:35:47.458  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-45  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=97, rtt_tcp_duration=842, rtt_lan_duration=223, rtt_lan_failures=0, rtt_lan_succ=7, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:35:47.458  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:35:47.459  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:35:47.461  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:35:47.462  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=1, mTXbad=0, mRXGood=0] rssi=-45
+12-17 19:35:47.463  1795  2728 E HwCHRWebMonitor: running processName=com.huawei.android.launcher
+12-17 19:35:47.463  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.tencent.mm UID=10105  WEBSENDSEGS=1  WEBRESENDSEGS=0  WEBRECVSEGS=1  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:35:47.464  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:35:47.464  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 1, tx = 1
+12-17 19:35:47.464  1795  2728 D HwArpVerifier: AccessWebStatus : reset all
+12-17 19:35:47.471  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:35:47.471  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:35:47.473  5215  5215 E wpa_supplicant: RSSI=-44;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:35:47.473  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:35:47.474  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:47.474  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-44 "Huawei-Employee"WPA_EAP
+12-17 19:35:47.475  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:47.576  1795 17831 I AlarmManager: remove(PendingIntent{21c6fe: PendingIntentRecord{1b63252 com.tencent.mm broadcastIntent}}) changed bounds; rebatching
+12-17 19:35:47.579  1795  3253 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:47.583  1795 20747 I AlarmManager: set(PendingIntent{f774e5f: PendingIntentRecord{c2780ac com.tencent.mm broadcastIntent}}) : type=2 triggerAtTime=443353944 win=202498 tElapsed=443353944 maxElapsed=443556442 interval=0 flags=0x8
+12-17 19:35:47.630  4492  4492 V AudioManager: getRingerMode...
+12-17 19:35:47.639  4492  4492 V AudioManager: isWiredHeadsetOn...
+12-17 19:35:47.643  1795 11745 I AppOpsResource: CallBack is Overload  id=10105 OverloadNumber=40 threshold=200
+12-17 19:35:47.647  4492  4492 I MediaPlayer: setDataSource(157, 0, 576460752303423487)
+12-17 19:35:47.648   814 23383 I MediaPlayerService: MediaPlayerService::Client::setDataSource local file://?FileDescriptor=13&Offset=0&Length=20362&Path=/data/system_de/0/ringtones
+12-17 19:35:47.649   814 23383 D NuPlayer: codec of amr-wb is disabled!
+12-17 19:35:47.649   814 23383 D NuPlayer: hw fadein is disabled!
+12-17 19:35:47.650   814 20729 V NuPlayer: kWhatSetAudioSink
+12-17 19:35:47.650   814 20729 V NuPlayer: kWhatSetDataSource
+12-17 19:35:47.651  4492  4492 V AudioManager: getStreamVolume  treamType: 5
+12-17 19:35:47.665  4492  4492 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:35:47.667  4492  4492 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:47.669  1795 17832 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:47.683  4492  4492 V AudioManager: getRingerMode...
+12-17 19:35:47.691  1795 15982 I NotificationManager: enqueueNotificationInternal: pkg=com.tencent.mm id=4097 notification=Notification(pri=1 contentView=null vibrate=[] sound=null tick defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=PRIVATE)
+12-17 19:35:47.693  1795  1795 I NotificationManager: enqueueNotificationInternal: n.getKey = 0|com.tencent.mm|4097|null|10105
+12-17 19:35:47.695  1795  1795 V HwNotificationManagerService: isHwSoundAllow pkg=com.tencent.mm, userId=0, cfg=3
+12-17 19:35:47.695  1795  1795 V HwNotificationManagerService: isHwVibrateAllow pkg=com.tencent.mm, userId=0, cfg=3
+12-17 19:35:47.695  1795  1795 I NotificationManager: updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?false
+12-17 19:35:47.695  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:35:47.695  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:35:47.695  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:35:47.695  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:35:47.695  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:35:47.698  3180  3578 I ash     : 1795 binder call 2852
+12-17 19:35:47.701  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.tencent.mm user=UserHandle{0} id=4097 tag=null key=0|com.tencent.mm|4097|null|10105: Notification(pri=1 contentView=null vibrate=[] sound=null tick defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=PRIVATE)) important=4, post=1481974547692, when=1481974547663, vis=0, userid=0
+12-17 19:35:47.702  2852  2852 D StatusBar: updateNotification(StatusBarNotification(pkg=com.tencent.mm user=UserHandle{0} id=4097 tag=null key=0|com.tencent.mm|4097|null|10105: Notification(pri=1 contentView=null vibrate=[] sound=null tick defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=PRIVATE)))
+12-17 19:35:47.703  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:35:47.704  2852  2852 I StatusBarIconView: updateTint: tint=1
+12-17 19:35:47.705  2852  2852 D StatusBar: applyInPlace=true shouldPeek=true alertAgain=true
+12-17 19:35:47.705  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.tencent.mm|4097|null|10105
+12-17 19:35:47.705  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.tencent.mm|4097|null|10105, group=0|com.tencent.mm|4097|null|10105
+12-17 19:35:47.705  2852  2852 D StatusBar: reusing notification for key: 0|com.tencent.mm|4097|null|10105
+12-17 19:35:47.706  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:35:47.706  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:35:47.707  2852  2852 I StatusBarIconView: updateTint: tint=1
+12-17 19:35:47.717  2852  2852 I HeadsUpManager: addHeadsUpEntry: 0|com.tencent.mm|4097|null|10105
+12-17 19:35:47.717  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:47.717  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:35:47.717  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: -1; Flag: 81840068
+12-17 19:35:47.718  2852  2852 W StatusBarWindowManager: Apply window Height MATCH_PARENT
+12-17 19:35:47.718  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: -1; Flag: 81840068
+12-17 19:35:47.719  2852  2852 W StatusBarWindowManager: Apply window Height 72
+12-17 19:35:47.719  2852  2852 I StatusBarWindowManager: apply mLp:0 -> 0; Height: 72; Flag: 81840068
+12-17 19:35:47.720  2852  2852 I PanelBar: panelExpansionChanged 0.0, true
+12-17 19:35:47.722  2852  2852 W StatusBarWindowManager: Apply window Height 72
+12-17 19:35:47.722  2852  2852 I StatusBarWindowManager: apply skiped :0
+12-17 19:35:47.722  2852  2852 D PhoneStatusBar: disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >
+12-17 19:35:47.722  2852  2852 I PhoneStatusBar: suspendAutohide
+12-17 19:35:47.722  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:35:47.722  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:35:47.722  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:35:47.722  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:35:47.723  2852  2852 I HwPhoneStatusBarTransitions: setBackgroundAlpha:alpha=0.0
+12-17 19:35:47.723  2852  2852 W ScrimController: startScrimAnimation 1.0 @ com.android.systemui.statusbar.AlphaOptimizedView{d0b83cd V.ED..... ........ 0,0-1080,750 #7f1403fe app:id/heads_up_scrim}
+12-17 19:35:47.723  2852  2852 I vol.VolumeDialogControl: C onDismissRequested reason = 2
+12-17 19:35:47.723  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:35:47.723  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:35:47.723  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:35:47.725  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:35:47.725  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:35:47.725  2852  2852 I NotificationGroupManager: onHeadsUpStateChanged:0|com.tencent.mm|4097|null|10105
+12-17 19:35:47.726  1795  1805 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:35:47.726  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:35:47.726  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:35:47.726  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:35:47.726  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:35:47.726  1795  3884 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:35:47.734  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0

@@ -1,0 +1,100 @@
+12-17 19:55:54.837  1795  1795 I MQoS    : received cell-signal:1
+12-17 19:55:54.838  1795 15982 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:55:54.839  1795 15982 D wifiserviceimpl: netmask =16580607
+12-17 19:55:54.840  3858  4126 I amsnl   : m1: false
+12-17 19:55:54.841  1795 17832 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:54.842  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:55:54.843  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:55:54.843  3858  4126 I amsnl   : csr
+12-17 19:55:54.843  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:55:54.846  1795 16501 D wifiserviceimpl: netmask =16580607
+12-17 19:55:54.846  3858  4126 I amsnl   : m1: false
+12-17 19:55:54.848  1795  1805 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:54.849  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:55:54.850  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:55:54.861  1795  2381 D libfingersense_wrapper: Calling fingersense_touch_up()
+12-17 19:55:54.861  1795  2381 D libfingersense_wrapper: fingersense_touch_up() finished
+12-17 19:55:54.867   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:867 Level[NOTICE] magic[3359111456 181]:Transfer:CURLE_OK Cnt[16], Cnt[16]
+12-17 19:55:54.867   633 31875 I SDK     : 
+12-17 19:55:54.867   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:867 Level[NOTICE] magic[3359111456 181]:Curl_do_perform: Transfer res[0]
+12-17 19:55:54.867   633 31875 I SDK     : 
+12-17 19:55:54.867   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:867 Level[NOTICE] magic[3359111456 181]:Connection #0 to host byod-web.huawei.com left intact
+12-17 19:55:54.867   633 31875 I SDK     : 
+12-17 19:55:54.867   633 31875 I SDK     : 
+12-17 19:55:54.869   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:869 Level[NOTICE] magic[3359111456 323]:Tracker: post ret = 0
+12-17 19:55:54.869   633 31875 I SDK     : 
+12-17 19:55:54.869   633 31875 I SDK     : <2016-12-17 19:55:54> [NOTICE] SDK: UE-SeC 2016-12-17 19:55:54:869 Level[NOTICE] magic[3359111456 6458]:FSM_Tool_TreatFolderEncEx => [START]: pcFileName [20161217_192748.log] 
+12-17 19:55:54.869   633 31875 I SDK     : 
+12-17 19:55:54.870   633 31875 E SDK     : <2016-12-17 19:55:54> [ERR] SDK: UE-SeC 2016-12-17 19:55:54:870 Level[ERR] magic[3359111456 3473]:FSM_Remove => TreatFolderEncEx[OK]:  path</data/user/0/com.huawei.espacev2/AnyOfficeSDKWorkPath/Tracker/xIGYSawKrDtSpggfTaPUux5IOi1lBMc-rcQKyfjcLy8=>
+12-17 19:55:54.870   633 31875 E SDK     : 
+12-17 19:55:54.871   633 31875 E SDK     : <2016-12-17 19:55:54> [ERR] SDK: UE-SeC 2016-12-17 19:55:54:871 Level[ERR] magic[3359111456 3748]:readdir 
+12-17 19:55:54.871   633 31875 E SDK     : 
+12-17 19:55:54.872   633 31875 E SDK     : <2016-12-17 19:55:54> [ERR] SDK: UE-SeC 2016-12-17 19:55:54:871 Level[ERR] magic[3359111456 3752]:readdir 2
+12-17 19:55:54.872   633 31875 E SDK     : 
+12-17 19:55:54.883  4492  4492 V AudioManager: playSoundEffect   effectType: 0
+12-17 19:55:54.883  4492  4492 V AudioManager: querySoundEffectsEnabled...
+12-17 19:55:55.053  1795  1806 I ActivityManager_activity: startActivityMayWait, callerApp: ProcessRecord{9ef8336 4492:com.tencent.mm/u0a105}, intent: Intent { flg=0x20000000 cmp=com.tencent.mm/.plugin.mall.ui.MallIndexUI }
+12-17 19:55:55.056  1795  1806 I TransactionSponsor: Transact:getHwAdminCachedListto device policy manager service.
+12-17 19:55:55.056  1795  1806 I TransactionProcessor: HwDPMS received transaction_getHwFrameworkAdminList user: 0:4006
+12-17 19:55:55.057  1795  1806 I ActivityManager: START u0 {flg=0x20000000 cmp=com.tencent.mm/.plugin.mall.ui.MallIndexUI} from uid 10105 on display 0
+12-17 19:55:55.057  1795  1806 E PF_API_NATIVE: check perfhub service fail! 
+12-17 19:55:55.058  1795  2377 V HwPackageManagerService: Returning system default Launcher 
+12-17 19:55:55.059  1795  1806 I ActivityManager: ActivityRecord info: ActivityInfo{ff5c2f5 com.tencent.mm.plugin.mall.ui.MallIndexUI}, euid: 0
+12-17 19:55:55.063  1795  1806 V HwWindowManagerService: moveTaskToTop mTaskChanged:true
+12-17 19:55:55.066   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:55:55.067  1795  1806 I WindowManger_startWindow: startActivityLocked doShow= true mLaunchTaskBehind= false
+12-17 19:55:55.068  1795  1806 I WindowManger_startWindow: setAppStartingWindow: token=Token{ffa6efb ActivityRecord{b88d88a u0 com.tencent.mm/.plugin.mall.ui.MallIndexUI t383}} pkg=com.tencent.mm transferFrom=null windowFlags=16777216 createIfNeeded=false okToDisplay=true
+12-17 19:55:55.068  1795  1806 I ActivityManager_activity: insertTaskAtTop, setTaskToReturnTo: fromHome=false,lastStackTop=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=2}, isHomeStack=false, topTask=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=2}, task=TaskRecord{926b055 #383 A=com.tencent.mm U=0 StackId=1 sz=2}
+12-17 19:55:55.069  1795  1806 V HwWindowManagerService: moveTaskToTop mTaskChanged:true
+12-17 19:55:55.070  1795  1806 I WindowManger_windowChange: oldFocusWindow: Window{4e22340 u0 com.tencent.mm/com.tencent.mm.ui.LauncherUI}, currentFocusWindow: null, currentFocusApp: AppWindowToken{c93eb18 token=Token{ffa6efb ActivityRecord{b88d88a u0 com.tencent.mm/.plugin.mall.ui.MallIndexUI t383}}}
+12-17 19:55:55.071  1795  1806 V HwWindowManagerService: setFocusedApp update app ops, mTaskChanged set to:false
+12-17 19:55:55.071  1795  1806 I FreezeScreenScene: scheduleCheckFreezeScreen sendMessageDelayed
+12-17 19:55:55.071  1795  1806 I ActivityManager_activity: resumeTopActivityLocked: Pausing ActivityRecord{5f12a6a u0 com.tencent.mm/.ui.LauncherUI t383}
+12-17 19:55:55.071  1795  1806 I ActivityManager_activity: Start pausing: ActivityRecord{5f12a6a u0 com.tencent.mm/.ui.LauncherUI t383}
+12-17 19:55:55.072  1795  1806 D PowerManagerService: acquire lock=230301592, flags=0x1, tag="*launch*", name=android, ws=WorkSource{10105}, uid=1000, pid=1795
+12-17 19:55:55.072  1795  1806 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:55:55.072  1795  1806 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:55:55.072  1795  1806 I ActivityManager_activity: resumeTopActivityLocked: Skip resume: need to start pausing
+12-17 19:55:55.091  4492  4492 I 2DSDR   : APS: 2DSDR: AbsListView.FlingRunnable.endFling, we will clear SDR ratio
+12-17 19:55:55.093  4492  4492 I 2DSDR   : APS: 2DSDR: AbsListView.FlingRunnable.endFling, we will clear SDR ratio
+12-17 19:55:55.094  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ui.ACTION_DEACTIVE, mPermissionType:0
+12-17 19:55:55.095  1795  3110 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ui.ACTION_DEACTIVE flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:55:55.096  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ui.ACTION_DEACTIVE, mPermissionType:0
+12-17 19:55:55.096  1795  3139 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ui.ACTION_DEACTIVE flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:55:55.099  1795  3884 V SecInputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:55:55.100  1795  3111 V InputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:55:55.101  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ui.ACTION_DEACTIVE, mPermissionType:0
+12-17 19:55:55.101  1795 17831 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ui.ACTION_DEACTIVE flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:55:55.102  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ui.ACTION_DEACTIVE, mPermissionType:0
+12-17 19:55:55.103  1795 11746 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ui.ACTION_DEACTIVE flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:55:55.104  1795  2377 I AwareLog: AwareMem_PollingTimer: time event abandond because of activity starting
+12-17 19:55:55.107  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ui.ACTION_DEACTIVE, mPermissionType:0
+12-17 19:55:55.108  1795  2778 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ui.ACTION_DEACTIVE flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:55:55.110  1795  1795 I TrafficMonitor: update:rxPkts:15,txPkts:16,rxBytes:2881,txBytes:2286
+12-17 19:55:55.110  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:55:55.110  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:55:55.111  1795  3121 I ActivityManager_activity: Moving to PAUSED: ActivityRecord{5f12a6a u0 com.tencent.mm/.ui.LauncherUI t383} (pause complete)
+12-17 19:55:55.115  1795  3121 I ActivityManager_activity: launch r: ActivityRecord{b88d88a u0 com.tencent.mm/.plugin.mall.ui.MallIndexUI t383}, uid = 10105, r.info.applicationInfo.euid  = 0
+12-17 19:55:55.117  1795  3121 I ActivityManager_activity: completedResumed: ActivityRecord{b88d88a u0 com.tencent.mm/.plugin.mall.ui.MallIndexUI t383}, launchTrack: launchActivity minmalResume
+12-17 19:55:55.134  4492  4492 D HwCust  : Create obj success use class android.app.HwCustActivityImpl
+12-17 19:55:55.136  4492  4492 V ActivityThread: ActivityThread,callActivityOnCreate
+12-17 19:55:55.151  1795  6988 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:55.159  1795 20747 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:55.162  1795  3238 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:55.170  1795  3225 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:55:55.189  4492  4492 V NFC     : this device does not have NFC support
+12-17 19:55:55.201  4492  4492 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+12-17 19:55:55.201  4492  4492 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+12-17 19:55:55.201  4492  4492 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@bfd5151
+12-17 19:55:55.201  4492  4492 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+12-17 19:55:55.201  4492  4492 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+12-17 19:55:55.201  4492  4492 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@f487db6
+12-17 19:55:55.217  4492  4492 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:55:55.219  4492  4492 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:55:55.219  2852  2852 D HwRecentsLockUtils: search
+12-17 19:55:55.221  1795 15987 E HsmCoreServiceImpl: onTransact in code is: 103
+12-17 19:55:55.221  1795 15987 I MediaProcessHandler: playingUids: 
+12-17 19:55:55.221  2852  2852 D HwRecentsLockUtils: search
+12-17 19:55:55.222  1795  6985 D ActivityManager: Skipping, home stack task: TaskRecord{37babfb #297 A=com.huawei.android.launcher U=0 StackId=0 sz=1}
+12-17 19:55:55.222  1795  6985 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }
+12-17 19:55:55.223  1795  6985 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[48,1199][1032,2447] }

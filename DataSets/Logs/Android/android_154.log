@@ -1,0 +1,100 @@
+12-17 19:32:23.897  1795 15987 D wifiserviceimpl: netmask =16580607
+12-17 19:32:23.898  3858  4126 I amsnl   : m1: false
+12-17 19:32:23.898 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.connect(TcpCirChannel.java:219) Connect to server  address = [uc.huawei.com,]  port = 7801
+12-17 19:32:23.899  1795  1805 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:32:23.899  1795  3249 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:32:23.899 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:32:23.900 31949 31967 I ECS     : WatchThread{4786} TcpClient.connect(TcpClient.java:162) ==================== TCP CLIENT CONNECT [2] ====================
+12-17 19:32:23.901  1795  3249 I AlarmManager: remove(PendingIntent{2f1549a: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) changed bounds; rebatching
+12-17 19:32:23.901  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:32:23.901  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:32:23.902 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.connect(TcpClientThread.java:52) will connect to uc.huawei.com:7801
+12-17 19:32:23.903 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:349) connecting max 30000ms to uc.huawei.com:7801
+12-17 19:32:23.903  1795  2396 I AlarmManager: set(PendingIntent{1a421cb: PendingIntentRecord{7f86237 com.huawei.espacev2 broadcastIntent}}) : type=0 triggerAtTime=1481974643903 win=0 tElapsed=443180267 maxElapsed=443180267 interval=300000 flags=0x1
+12-17 19:32:23.910   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:32:23.911  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 442880273425134 0}
+12-17 19:32:23.911  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 442880273425134 0}
+12-17 19:32:23.912 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_ON
+12-17 19:32:23.912  1795  6985 D PowerManagerService: release:lock=5152000, flg=0x0, tag="RILJ_ACK_WL", name=com.android.phone", ws=null, uid=1001, pid=3218
+12-17 19:32:23.912  1795  6985 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:23.912  1795  6985 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:32:23.913  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass active 1 442880273425134 0
+12-17 19:32:23.913   816 20354 D DnsProxyListener: GetAddrInfoHandler addr: uc.huawei.com {304, 917808, 10102} 172.30.70.63
+12-17 19:32:23.913  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:32:23.913  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:32:23.913  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:32:23.913  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:32:23.914 31949 31967 I TCP     : tcp.conn{4787} TcpSocket.connect_i(TcpSocket.java:84) connecting to ip address uc.huawei.com/172.30.70.63
+12-17 19:32:23.914  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:32:23.915  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:32:23.915  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:32:23.915  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:32:23.916  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:32:23.916  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:32:23.916  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:32:23.920  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:32:23.920  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:32:23.920 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:292) connected
+12-17 19:32:23.921 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:360) notify user tcp connected successully at 36833 to uc.huawei.com:7801
+12-17 19:32:23.921 31949 31985 I PushService: connect :true
+12-17 19:32:23.924 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.onRecv(TcpClientThread.java:522) tcp connection event TCP_CONNECTED
+12-17 19:32:23.927 16354 16354 E HwSystemManager: MemCPUMonitor:startTimerMonitor isCompleted = true
+12-17 19:32:23.930  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 8.428372 Y: 4.837592 Z: 2.523185  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:23.932 31949 31967 I PushService: tcp.conn{4787} ServiceC.connectedNotify(ServiceC.java:289) 172.30.70.63
+12-17 19:32:23.933 31949 31967 I ECS     : tcp.conn{4787} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 100 bytes [16]_00_00_00_60_00_03_01_05_01_04_81_B9_00_00_00_00 cmdCode(CC_PCheckVersion.0x0501)msgType(MT_ARG.1)msgClass(MC_Push.5)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(true)length(96)version(3)sno(81B9)
+12-17 19:32:23.934 17238 17238 D Bth     : BtChrStatisticsManager:sendScreenOnEvent enter.
+12-17 19:32:23.934 17238 17252 D Bth     : BtChrStatisticsManager:msg Loop is running.
+12-17 19:32:23.957  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:32:23.959  3180  3578 I ash     :  ignore audio app: com.android.browser stop delta time:37087691
+12-17 19:32:23.962  1795  3247 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:32:23.964  3180  3578 D ApplicationPackageManager: queryIntentActivitiesAsUser size results:1, for package:com.android.browser
+12-17 19:32:23.965  3180  3578 I ash     : com.android.browser { doze duration=37463 } transition to: hibernation reason:
+12-17 19:32:23.965  3180  3578 I ash     : perform hibernation actions!
+12-17 19:32:23.965  1795 11746 D SmartHeartBeat: setAlarmsPending ...
+12-17 19:32:23.965  3180  3578 I ash     : Pending com.android.browser alarm OK !
+12-17 19:32:23.966  1795  1805 I PGManagerService: proxyBroadcast:[com.android.browser] proxy:true
+12-17 19:32:23.966  3180  3578 I ash     : proxy com.android.browser broadcast OK !
+12-17 19:32:23.966  1795  3237 D PowerManagerService: acquire lock=53505448, flags=0x1, tag="hibernation", name=com.huawei.powergenie, ws=null, uid=1000, pid=3180
+12-17 19:32:23.967  1795  3237 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:23.967  1795  3237 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:32:23.968  1795  3249 D GpsFreezeProc: addFreezeProcess pkg:com.android.browser
+12-17 19:32:23.968  1795  3249 I GnssLocationProvider: setRequest ProviderRequest[OFF]
+12-17 19:32:23.968  1795  3249 I GnssLocationProvider: stopNavigating, mStarted=false
+12-17 19:32:23.968  3180  3578 I ash     : proxy app:com.android.browser,uid:10029,result:true
+12-17 19:32:23.969  1795  2371 E LightSensor: read Events lux: 11.0
+12-17 19:32:23.970  1795  1825 D AutomaticBrightnessController: ambient lux=11.0,timeStamp =442880333061000
+12-17 19:32:23.970  3608  3608 I InCall  : ProximitySensor - ProximitySensor{keybrd=0, dpad=0, offhook=1, hor=0, ui=1, aud=EARPIECE}
+12-17 19:32:23.970  3608  3608 D InCall  : ProximitySensor - Turning on proximity sensor
+12-17 19:32:23.970  3608  3608 I InCall  : ProximitySensor - Proximity wake lock already acquired
+12-17 19:32:23.973  3180  3578 D PgedBinderAdapter: frz ok, pid: [31558, 17357]
+12-17 19:32:23.973  3180  3578 I PGServer: report state:6 event type:1 pid:0 uid:10029 pkg:com.android.browser to pid: 1795
+12-17 19:32:23.973  3180  3578 I ash     : Freeze com.android.browser OK !
+12-17 19:32:23.974  1795  1807 I AwareLog: AppHiber_Task:  Zram Space may be full, frozenInhandleMsg Return
+12-17 19:32:23.974  1795  3238 I PGManagerService: proxyWakeLockByPidUid, pid: 31558, uid: 10029, proxy: true
+12-17 19:32:23.974  3180  3578 I ash     : Proxy wakelock uid = 10029 pid = 31558
+12-17 19:32:23.975  1795 15982 I PGManagerService: proxyWakeLockByPidUid, pid: 17357, uid: 10029, proxy: true
+12-17 19:32:23.975  3180  3578 I ash     : Proxy wakelock uid = 10029 pid = 17357
+12-17 19:32:23.976  3180  3578 I ash     : permit restrict net app: com.android.browser
+12-17 19:32:23.976  1795 16499 D NetdConnector: SND -> {11615 firewall set_uid_rule standby 10029 deny}
+12-17 19:32:23.989  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 8.840497 Y: 4.734564 Z: 2.302525  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:24.002  1795  2665 D NetdConnector: RCV <- {200 11615 Firewall command succeeded}
+12-17 19:32:24.003  1795  2665 D NetdConnector: RCV <- {200 11615 Firewall command succeeded}
+12-17 19:32:24.004  3180  3578 I ash     : setAppNetworkRestrict >> com.android.browser, uids : [10029]
+12-17 19:32:24.004  1795  6985 D PowerManagerService: release:lock=53505448, flg=0x0, tag="hibernation", name=com.huawei.powergenie", ws=null, uid=1000, pid=3180
+12-17 19:32:24.004  1795  6985 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:24.005  1795  6985 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:32:24.051  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 8.376386 Y: 4.797888 Z: 2.209428  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:24.111  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 9.672284 Y: 4.881064 Z: 1.383571  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:24.168  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 8.848050 Y: 5.520041 Z: 0.103349  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:24.220  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:32:24.220  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:32:24.229  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 8.553144 Y: 5.546500 Z: -0.511166  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:24.289  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.041699 Y: 5.745001 Z: -0.283051  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:32:24.299  3180  3180 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:32:24.299  3180  3180 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:32:24.321  1795  2371 E LightSensor: read Events lux: 13.0
+12-17 19:32:24.322  1795  1825 D AutomaticBrightnessController: ambient lux=13.0,timeStamp =442880685164000
+12-17 19:32:24.325  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:32:08,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:32:24.325  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:32:08,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:32:24.325  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:32:24.326  2852  2852 D NetWorkUtils: mVSimCurCardType is -1

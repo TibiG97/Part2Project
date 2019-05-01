@@ -1,0 +1,100 @@
+12-17 19:34:56.419  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:41;freq=2452;level=-87;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.419  3218  6115 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:34:56.419  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:ef:21;freq=2412;level=-92;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.419  5215  5215 E wpa_supplicant: bssid=80:38:bc:08:42:e0;freq=2472;level=-52;flags=11;ssid=wlanaccessv2.0;
+12-17 19:34:56.419  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:34:56.419  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:2b:e1;freq=2432;level=-55;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.419  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen on event
+12-17 19:34:56.419  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: interrupt
+12-17 19:34:56.419  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:29:e1;freq=2452;level=-61;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.419  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:14:41;freq=2472;level=-77;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.420  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3676
+12-17 19:34:56.422  3466  3466 I Contacts: DialpadFragment SIM 1 enable:true, SIM 2 enable:false
+12-17 19:34:56.422  3466  3466 I Contacts: DialpadFragment Sim presence : 1
+12-17 19:34:56.424  3466  3466 I Contacts: DialpadFragment sim_one is presence -> updateSingleCardButton
+12-17 19:34:56.426  3466  3466 I Contacts: PLog CallLogFragment onQueryComplete, requestId : -1
+12-17 19:34:56.426  3466  3466 I Contacts: CallLogQueryHandler onQueryComplete token:58 listener:CallLogFragment{d65bfc6 #0 id=0x7f1000d2} cursor ==null:false
+12-17 19:34:56.426  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=506- MASK=0x3029d87'
+12-17 19:34:56.427  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:60;freq=2472;level=-86;flags=11;ssid=wlanaccessv2.0;
+12-17 19:34:56.427  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:41;freq=2452;level=-87;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.427  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:ef:21;freq=2412;level=-92;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.427  5215  5215 E wpa_supplicant: bssid=80:38:bc:08:42:e0;freq=2472;level=-52;flags=11;ssid=wlanaccessv2.0;
+12-17 19:34:56.427  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:2b:e1;freq=2432;level=-55;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.427  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:29:e1;freq=2452;level=-61;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.427  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:14:41;freq=2472;level=-77;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.428  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3676
+12-17 19:34:56.429  1795  3110 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:56.429  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=513- MASK=0x3029d87'
+12-17 19:34:56.430  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:29:61;freq=2412;level=-77;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.430  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:19:61;freq=2432;level=-77;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.430  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f1:41;freq=2412;level=-80;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.430  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f2:01;freq=2452;level=-81;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.430  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:04:41;freq=2472;level=-92;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.430  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:25:e1;freq=2412;level=-94;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.430  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:fa:e1;freq=2412;level=-82;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.431  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3682
+12-17 19:34:56.431  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=513- MASK=0x3029d87'
+12-17 19:34:56.431  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:29:61;freq=2412;level=-77;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.431  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:19:61;freq=2432;level=-77;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.431  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f1:41;freq=2412;level=-80;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.431  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f2:01;freq=2452;level=-81;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.432  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:04:41;freq=2472;level=-92;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.432  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:25:e1;freq=2412;level=-94;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.432  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:fa:e1;freq=2412;level=-82;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.432  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3682
+12-17 19:34:56.433  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=520- MASK=0x3029d87'
+12-17 19:34:56.433  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:37:21;freq=2412;level=-92;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.433  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:81;freq=2412;level=-93;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.433  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=1052
+12-17 19:34:56.434  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=522- MASK=0x3029d87'
+12-17 19:34:56.434  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=0
+12-17 19:34:56.434  3118  3135 I ctaifs<联系人>[联系人][com.android.contacts]: [query] Query CallLog
+12-17 19:34:56.434  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:34:56.435  1046  1125 D audio_hw_primary: start_output_stream: exit
+12-17 19:34:56.435  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=520- MASK=0x3029d87'
+12-17 19:34:56.435  5215  5215 E wpa_supplicant: bssid=80:38:bc:0b:37:21;freq=2412;level=-92;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.435  5215  5215 E wpa_supplicant: bssid=80:38:bc:0a:f9:81;freq=2412;level=-93;flags=11;ssid=Huawei-Employee;
+12-17 19:34:56.435  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=1052
+12-17 19:34:56.436  5215  5215 D wpa_supplicant: wlan0: Control interface command 'BSS RANGE=522- MASK=0x3029d87'
+12-17 19:34:56.436  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=0
+12-17 19:34:56.436  1795  2671 I SendBroadcastPermission: action:android.net.wifi.SCAN_RESULTS, mPermissionType:0
+12-17 19:34:56.437  1795  2671 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{34bf34f 0:system/1000}, intent:android.net.wifi.SCAN_RESULTS, receiver size:1, flags: 10000400
+12-17 19:34:56.437  1795  2671 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.437  1795  2671 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.437  1795 15988 I Telecom : CallsManager:  entered manageMSimInCallTones : CSW.sD@EsU
+12-17 19:34:56.437  1795  2671 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{8e94d95 u-1 android.net.wifi.SCAN_RESULTS}: prev had 2
+12-17 19:34:56.437  1795  3364 D Telecom : TelecomServiceImpl: isInCall callState is 0: CSW.sD->CAMSM.pM_1001@EsU_3
+12-17 19:34:56.438  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:34:56.438  1046  1124 I AudioMixer: NumTracks(1)
+12-17 19:34:56.438  1046  1124 I AudioMixer: Pid:1046 add track (1)
+12-17 19:34:56.438  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:34:56.439  1795 15988 D Telecom : ConnectionServiceWrapper: ConnectionService -> Telecom: setConferenceableConnections TC@11 []: CSW.sCC@EtM
+12-17 19:34:56.439  1795 15988 D Telecom : ConnectionServiceWrapper: ConnectionService -> Telecom: removeCall TC@11: CSW.rC@EtQ
+12-17 19:34:56.440  5215  5215 E wpa_supplicant: RSSI=-62;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:34:56.441  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:34:56.441  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:34:56.441  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-62 "Huawei-Employee"WPA_EAP
+12-17 19:34:56.441  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:34:56.442  1046  2704 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 0, device 0x0001, index 5
+12-17 19:34:56.442  1046  2704 I APM_AudioPolicyManager: checkAndSetVolume:setVoiceVolume volume 1.000000, delay 0
+12-17 19:34:56.442  1046  1052 V msm8916_platform: Setting voice volume index: 0
+12-17 19:34:56.443  1046  9752 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 8, device 0x0001, index 15
+12-17 19:34:56.444  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:34:56.446  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:34:56.446  1795  3364 D Telecom : TelecomServiceImpl: isInCall callState is 0: CSW.sD->CAMSM.pM_1001@EsU_3
+12-17 19:34:56.446  1795  2371 E LightSensor: read Events lux: 44.0
+12-17 19:34:56.446  1795  3364 I SendBroadcastPermission: action:android.media.VOLUME_CHANGED_ACTION, mPermissionType:0
+12-17 19:34:56.446  1795  1825 D AutomaticBrightnessController: ambient lux=44.0,timeStamp =443032809729000
+12-17 19:34:56.447   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:34:56.447  1795  2739 D HuaweiWifiWatchdogStateMachine: LM mrssi=-62
+12-17 19:34:56.447  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current loss[-62]=0%, volume=1
+12-17 19:34:56.447  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history loss[-62]=0.01%, volume=14517
+12-17 19:34:56.447  1795  2739 I HuaweiWifiWatchdogStateMachine: spd good count:0, add sc:0.0, rate:1.0
+12-17 19:34:56.448   633   692 I eSpaceService: Watch Thread{4481} LoginC.doWatch(LoginC.java:1459) Login_By_Step-> watch count =  0
+12-17 19:34:56.448  1795  2739 D HuaweiWifiWatchdogStateMachine: high data flow: protection_counter = 0,  not_detect_counter = 7
+12-17 19:34:56.448  1795  2739 D HuaweiWifiWatchdogStateMachine: high data flow scenario: 0 --> 0 rx bytes =6KB
+12-17 19:34:56.448  1795  2739 I HuaweiWifiWatchdogStateMachine: current mHighDataFlowRate = 1.0
+12-17 19:34:56.448  1795  2739 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 1, 0. Lr =0% Totpkt=1
+12-17 19:34:56.449  1795  2671 W WifiStateMachine: attemptAutoConnect: false
+12-17 19:34:56.450  1795  3364 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}
+12-17 19:34:56.450  1795  3364 I SendBroadcastPermission: action:android.media.VOLUME_CHANGED_ACTION, mPermissionType:0

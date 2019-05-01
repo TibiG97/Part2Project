@@ -1,0 +1,100 @@
+12-17 19:33:00.332   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:94) watch thread onLoop... 
+12-17 19:33:00.333   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:33:00.335   633   692 I eSpaceService: Watch Thread{4481} LoginC.doWatch(LoginC.java:1459) Login_By_Step-> watch count =  0
+12-17 19:33:00.342  1795  1795 V SecInputMethodManagerService: Client requesting input be hidden, pid=1795
+12-17 19:33:00.342  1795  1795 V InputMethodManagerService: Unspecified window will hide input
+12-17 19:33:00.345  1795  2377 I AwareLog: AwareMem_DMEServer: start
+12-17 19:33:00.346  1795  2377 I AwareLog: AwareMem_EventTracker: [SCREEN_ON_1481974380344] is abandoned for memory 840620
+12-17 19:33:00.350  3180  3332 I ScenarioAction: new ScenarioAction sPoolSize: 0
+12-17 19:33:00.379  1795  1795 D HwWifiP2pService: onReceive, action:android.intent.action.SCREEN_ON
+12-17 19:33:00.380  2852  2852 I PanelBar: collapsePanel:false
+12-17 19:33:00.380  2852  2852 I PanelView: closeQs
+12-17 19:33:00.380  2852  2852 I QSContainer: updateQsState:false
+12-17 19:33:00.380  2852  2852 I QSContainer: updateQsState:false
+12-17 19:33:00.380  2852  2852 I StackScroller: setScrollingEnabled: true
+12-17 19:33:00.381  2852  2852 I PanelView: instantCollapse
+12-17 19:33:00.381  2852  2852 I PanelBar: collapsePanel2
+12-17 19:33:00.381  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=c0000000 mask=ffffffff oldVal=c0000600 newVal=c0000000 diff=600
+12-17 19:33:00.381  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:33:00.382  2852  2852 D BarTransitions.HwPhoneStatusBarView: MODE_TRANSPARENT -> MODE_TRANSLUCENT animate=false
+12-17 19:33:00.382  2852  2852 D BarTransitions.HwPhoneStatusBarView: applyModeBackground oldMode=MODE_TRANSPARENT newMode=MODE_TRANSLUCENT animate=false
+12-17 19:33:00.382  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:33:00.382  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:33:00.382  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0xc0000000, SystemUiVisibility=0xc0000000
+12-17 19:33:00.383  1795  2668 D WifiP2pService: InactiveState143466
+12-17 19:33:00.383  1795  2668 E HwWifiP2pService: Unhandled message when=123064066 what=143466 arg1=0 arg2=0
+12-17 19:33:00.383  1795  2668 D WifiP2pService: P2pEnabledState when=123064066 what=143466 arg1=0 arg2=0
+12-17 19:33:00.383  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=80000300 mask=ffffffff oldVal=c0000000 newVal=80000300 diff=40000300
+12-17 19:33:00.383  1795  2668 D WifiP2pService: DefaultState{ when=-3ms what=143466 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:33:00.383  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_OPAQUE, animate=false
+12-17 19:33:00.383  1795  2668 D HwWifiP2pService: cancel alarm.
+12-17 19:33:00.383  2852  2852 D BarTransitions.HwPhoneStatusBarView: MODE_TRANSLUCENT -> MODE_OPAQUE animate=false
+12-17 19:33:00.384  2852  2852 D BarTransitions.HwPhoneStatusBarView: applyModeBackground oldMode=MODE_TRANSLUCENT newMode=MODE_OPAQUE animate=false
+12-17 19:33:00.384  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:33:00.384  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:33:00.384  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:33:00.384  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0x80000300, SystemUiVisibility=0x80000300
+12-17 19:33:00.385  2852  2852 I StatusBar: onNotificationRemoved: StatusBarNotification(pkg=com.android.incallui user=UserHandle{0} id=2 tag=null key=0|com.android.incallui|2|null|1001: Notification(pri=2 contentView=null vibrate=null sound=null defaults=0x0 flags=0x2 color=0x00000000 actions=3 vis=PRIVATE publicVersion=Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff33b5e5 vis=PRIVATE)))
+12-17 19:33:00.385  1795  1795 D HwInputMethodManagerService: ------------startInput--------------
+12-17 19:33:00.386  2852  2852 I StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)) important=2, post=1481974380270, when=1481531589202, vis=0, userid=0
+12-17 19:33:00.391  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:33:00.391  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:33:00.391  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:33:00.393  2852  2852 I PhoneStatusBar: removeNotification:0|com.android.incallui|2|null|1001
+12-17 19:33:00.393  2852  2852 I StatusBar: removeNotificationViews:0|com.android.incallui|2|null|1001
+12-17 19:33:00.393  2852  2852 I NotificationGroupManager: onEntryRemoved:0|com.android.incallui|2|null|1001
+12-17 19:33:00.393  2852  2852 I NotificationGroupManager: onEntryRemovedInternal:0|com.android.incallui|2|null|1001, group=0|com.android.incallui|2|null|1001
+12-17 19:33:00.393  2852  2852 I NotificationGroupManager: summary = null
+12-17 19:33:00.395  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:33:00.395  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:33:00.395  1795  1795 V SecInputMethodManagerService: Client requesting input be hidden, pid=1795
+12-17 19:33:00.395  1795  1795 D HwInputMethodManagerService: hideSecSoftInput = false
+12-17 19:33:00.397  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:33:00.398  1795 16498 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:33:00.398  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:33:00.400  2852  2852 D StatusBar: updateNotification(StatusBarNotification(pkg=com.huawei.health user=UserHandle{0} id=10010 tag=null key=0|com.huawei.health|10010|null|10099: Notification(pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)))
+12-17 19:33:00.400  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:00.401  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:33:00.401  1795  2671 D WifiStateMachine:  ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123064087/442916765 1 0
+12-17 19:33:00.401  1795  2671 D WifiStateMachine:  L2ConnectedState CMD_SCREEN_STATE_CHANGED  rt=123064087/442916765 1 0
+12-17 19:33:00.401  1795  2671 D WifiStateMachine:  ConnectModeState CMD_SCREEN_STATE_CHANGED  rt=123064087/442916765 1 0
+12-17 19:33:00.401  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SCREEN_STATE_CHANGED  rt=123064087/442916765 1 0
+12-17 19:33:00.401  1795  2671 D WifiStateMachine:  SupplicantStartedState CMD_SCREEN_STATE_CHANGED  rt=123064088/442916765 1 0
+12-17 19:33:00.402  1795  2671 D WifiStateMachine:  DefaultState CMD_SCREEN_STATE_CHANGED  rt=123064088/442916765 1 0
+12-17 19:33:00.402  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.huawei.health|10010|null|10099
+12-17 19:33:00.402  2852  2852 D StatusBar: applyInPlace=true shouldPeek=false alertAgain=true
+12-17 19:33:00.402  2852  2852 I NotificationGroupManager: onEntryUpdated:0|com.huawei.health|10010|null|10099
+12-17 19:33:00.402  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.huawei.health|10010|null|10099, group=0|com.huawei.health|10010|null|10099
+12-17 19:33:00.402  2852  2852 D StatusBar: reusing notification for key: 0|com.huawei.health|10010|null|10099
+12-17 19:33:00.402  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:00.402  1795  2671 D WifiStateMachine: handleScreenStateChanged: allow send scan results broadcast.
+12-17 19:33:00.402  2852  2852 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:33:00.403  2852  2852 I StatusBarIconView: updateTint: tint=0
+12-17 19:33:00.403  1795  2671 W AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConnectivityManager$3@bdcaf7b
+12-17 19:33:00.403  1795  2671 E WifiScanner: listener cannot be found
+12-17 19:33:00.403  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 2, mHwSingleScanCounter: 0
+12-17 19:33:00.403  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 0, mHwSingleScanCounter: 1
+12-17 19:33:00.403  1795  2671 E WifiConnectivityManager: isWifiScanSpecialChannels is false,mWifiState : 1
+12-17 19:33:00.404  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:33:00.405  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:33:00.405  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_ON mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:33:00.405  1795  1795 D HwConnectivityService: CtrlSocket receive screen on intent!
+12-17 19:33:00.405  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus
+12-17 19:33:00.405  1795  1795 D HwConnectivityService: pid=1000, cmd=100, param=0
+12-17 19:33:00.405  1795  1795 D HwConnectivityService: mFilterMsgFlag: 0,msg.arg1: 3
+12-17 19:33:00.405  1795  2691 D HwConnectivityService: handleFilterMsg action: 3mFilterMsgFlag3
+12-17 19:33:00.405  1795  1795 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 1000 cmd = 100 param = 0 ret = 0
+12-17 19:33:00.405  1795  2691 D HwConnectivityService: [tiger]setBastetFilterInfo action 3pid 1000
+12-17 19:33:00.405  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus reset
+12-17 19:33:00.405  1795  2691 D HwConnectivityService: stopFilter m_filterIsStarted:false
+12-17 19:33:00.406  1795  2680 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SCAN TYPE=ONLY'
+12-17 19:33:00.406  1795  2671 I AlarmManager: set(null) : type=2 triggerAtTime=442936767 win=0 tElapsed=442936767 maxElapsed=442936767 interval=0 flags=0x9
+12-17 19:33:00.407  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY'
+12-17 19:33:00.407  5215  5215 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-17 19:33:00.407  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:33:00.407  5215  5215 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-17 19:33:00.407  5215  5215 D wpa_supplicant: OKC-Native: Append OKC IE!
+12-17 19:33:00.407  5215  5215 D wpa_supplicant: OKC-Native: Append done!
+12-17 19:33:00.407  5215  5215 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7fb502f3c0
+12-17 19:33:00.407  5215  5215 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-17 19:33:00.407  5215  5215 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7fb502f3c0 after 0.000063 second wait

@@ -1,0 +1,100 @@
+12-17 19:35:15.154  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1135 fromUser:false
+12-17 19:35:15.155  1795 15987 V SecInputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:35:15.156  1795 15987 V InputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:35:15.164  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.181  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.182  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.183  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:15.185  2852  2852 I HwBrightnessUtils: APS brightness=10.0,ConvertToPercentage=0.12564759
+12-17 19:35:15.185  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:10 percentage:0.12564759
+12-17 19:35:15.185  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1256
+12-17 19:35:15.185  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1256
+12-17 19:35:15.185  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1256 fromUser:false
+12-17 19:35:15.186  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1256 fromUser:false
+12-17 19:35:15.197  1795  2750 I HwLightsService: back light level before map = 408
+12-17 19:35:15.197  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.204  1795  2381 D libfingersense_wrapper: Calling fingersense_touch_up()
+12-17 19:35:15.204  1795  2381 D libfingersense_wrapper: fingersense_touch_up() finished
+12-17 19:35:15.204  3180  3578 I ash     :  ignore audio app: com.android.browser stop delta time:37258937
+12-17 19:35:15.214  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.216  3180  3578 D ApplicationPackageManager: queryIntentActivitiesAsUser size results:1, for package:com.android.browser
+12-17 19:35:15.217  3180  3578 I ash     : com.android.browser { doze duration=116084 } transition to: hibernation reason:
+12-17 19:35:15.222  3180  3578 I ash     : perform hibernation actions!
+12-17 19:35:15.222  1795 16499 D SmartHeartBeat: setAlarmsPending ...
+12-17 19:35:15.223  3180  3578 I ash     : Pending com.android.browser alarm OK !
+12-17 19:35:15.224  1795 11747 I PGManagerService: proxyBroadcast:[com.android.browser] proxy:true
+12-17 19:35:15.225  3180  3578 I ash     : proxy com.android.browser broadcast OK !
+12-17 19:35:15.226  1795  3884 D PowerManagerService: acquire lock=267154342, flags=0x1, tag="hibernation", name=com.huawei.powergenie, ws=null, uid=1000, pid=3180
+12-17 19:35:15.226  1795  3884 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:15.226  1795  3884 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:15.228  1795  3237 D GpsFreezeProc: addFreezeProcess pkg:com.android.browser
+12-17 19:35:15.229  4492  4492 V AudioManager: playSoundEffect   effectType: 0
+12-17 19:35:15.229  1795  3237 I GnssLocationProvider: setRequest ProviderRequest[OFF]
+12-17 19:35:15.229  4492  4492 V AudioManager: querySoundEffectsEnabled...
+12-17 19:35:15.229  1795  3237 I GnssLocationProvider: stopNavigating, mStarted=false
+12-17 19:35:15.229  3180  3578 I ash     : proxy app:com.android.browser,uid:10029,result:true
+12-17 19:35:15.231  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.233  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.234  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:15.236  2852  2852 I HwBrightnessUtils: APS brightness=11.0,ConvertToPercentage=0.13688216
+12-17 19:35:15.236  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:11 percentage:0.13688216
+12-17 19:35:15.236  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1369
+12-17 19:35:15.236  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1369
+12-17 19:35:15.237  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1369 fromUser:false
+12-17 19:35:15.237  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1369 fromUser:false
+12-17 19:35:15.245  3180  3578 D PgedBinderAdapter: frz ok, pid: [31558, 17357]
+12-17 19:35:15.246  3180  3578 I PGServer: report state:6 event type:1 pid:0 uid:10029 pkg:com.android.browser to pid: 1795
+12-17 19:35:15.246  3180  3578 I ash     : Freeze com.android.browser OK !
+12-17 19:35:15.247  1795  3111 I PGManagerService: proxyWakeLockByPidUid, pid: 31558, uid: 10029, proxy: true
+12-17 19:35:15.247  1795  1807 I AwareLog: AppHiber_Task:  Zram Space may be full, frozenInhandleMsg Return
+12-17 19:35:15.247  3180  3578 I ash     : Proxy wakelock uid = 10029 pid = 31558
+12-17 19:35:15.248  1795 17832 I PGManagerService: proxyWakeLockByPidUid, pid: 17357, uid: 10029, proxy: true
+12-17 19:35:15.248  1795  2750 I HwLightsService: back light level before map = 453
+12-17 19:35:15.249  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.252  3180  3578 I ash     : Proxy wakelock uid = 10029 pid = 17357
+12-17 19:35:15.253  3180  3578 I ash     : permit restrict net app: com.android.browser
+12-17 19:35:15.254  1795 16499 D NetdConnector: SND -> {11633 firewall set_uid_rule standby 10029 deny}
+12-17 19:35:15.265  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.265  4492  4492 I SendBroadcastPermission: action:com.tencent.mm.ui.ACTION_ACTIVE, mPermissionType:0
+12-17 19:35:15.266  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:35:15.266  1795 11747 I HwActivityManagerService: keyAppBroadcastQueueForIntent intent Intent { act=com.tencent.mm.ui.ACTION_ACTIVE flg=0x10 (has extras) } on bgkeyapp queue
+12-17 19:35:15.276  4492  4492 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+12-17 19:35:15.277  4492  4492 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+12-17 19:35:15.277  4492  4492 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@6af9cfb
+12-17 19:35:15.277  4492  4492 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+12-17 19:35:15.277  4492  4492 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+12-17 19:35:15.277  4492  4492 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@fbc8118
+12-17 19:35:15.278  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:35:15.280  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.281  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 0 mComponentName :ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:35:15.281  3879  4071 I HwLauncher: BadgeContentObserver newBadgeNumber:0,oldBadgeNumber:0 mComponentName : ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:35:15.281  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.282  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:15.283  2852  2852 I HwBrightnessUtils: APS brightness=12.0,ConvertToPercentage=0.14742278
+12-17 19:35:15.283  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:12 percentage:0.14742278
+12-17 19:35:15.283  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1474
+12-17 19:35:15.283  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1474
+12-17 19:35:15.283  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1474 fromUser:false
+12-17 19:35:15.283  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1474 fromUser:false
+12-17 19:35:15.296  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.299  1795  2665 D NetdConnector: RCV <- {200 11633 Firewall command succeeded}
+12-17 19:35:15.300  1795  2665 D NetdConnector: RCV <- {200 11633 Firewall command succeeded}
+12-17 19:35:15.301  3180  3578 I ash     : setAppNetworkRestrict >> com.android.browser, uids : [10029]
+12-17 19:35:15.301  1795 15988 D PowerManagerService: release:lock=267154342, flg=0x0, tag="hibernation", name=com.huawei.powergenie", ws=null, uid=1000, pid=3180
+12-17 19:35:15.301  1795 15988 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:35:15.301  1795 15988 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:35:15.312  1795  2750 I HwLightsService: back light level before map = 513
+12-17 19:35:15.312  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.313  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:35:15.313  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:35:15.315  2852  2852 I HwBrightnessUtils: APS brightness=13.0,ConvertToPercentage=0.157392
+12-17 19:35:15.315  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:13 percentage:0.157392
+12-17 19:35:15.315  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:1574
+12-17 19:35:15.315  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:1574
+12-17 19:35:15.315  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1574 fromUser:false
+12-17 19:35:15.315  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:1574 fromUser:false
+12-17 19:35:15.329  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:35:15.334  1795 11745 D HwInputMethodManagerService: ------------startInput--------------
+12-17 19:35:15.334  1795 11745 D HwSecImmHelper: isPasswordInputType = false, inputType = 147457
+12-17 19:35:15.334  1795 11745 V SecInputMethodManagerService: Client requesting input be hidden, pid=4492
+12-17 19:35:15.334  1795 11745 D HwInputMethodManagerService: hideSecSoftInput = false

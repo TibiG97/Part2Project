@@ -1,0 +1,100 @@
+12-17 19:32:08.179   606  2379 E libteec : send data return = 128
+12-17 19:32:08.179   835  2385 D fpc_fingerprint_hal: workerFunction STATE_AUTHENTICATE
+12-17 19:32:08.179   835  2385 E libteec : begin
+12-17 19:32:08.179   606  2379 E libteec : receive data len = 128
+12-17 19:32:08.180  1795  2326 W FingerprintService: client com.android.systemui is authenticating...
+12-17 19:32:08.183   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:32:08.183   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:32:08.183   835  2385 E libteec : receive data len = 128
+12-17 19:32:08.183   835  2385 E libteec : begin
+12-17 19:32:08.183   835  2385 E libteec : qsc_decode end
+12-17 19:32:08.183   835  2385 I fpc_tac : fpc_tac_send_get_indices_cmd indices:0x7f9860c000, index_count:1
+12-17 19:32:08.183   835  2385 E libteec : begin
+12-17 19:32:08.183   606  2379 E libteec : send data return = 128
+12-17 19:32:08.183   606  2379 E libteec : receive data len = 1152
+12-17 19:32:08.184  2852  2852 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:32:08.185  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:32:06,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:32:08.185  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:32:06,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:32:08.186  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:32:08.186  3180  3332 I WakelockMonitor: start wakelock monitor.
+12-17 19:32:08.186  3180  3578 I ScreenLockClean: call busy and not start clean apps.
+12-17 19:32:08.186  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:32:08.186  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:32:08.187   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:32:08.187   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:32:08.187   835  2385 E libteec : receive data len = 1152
+12-17 19:32:08.187   835  2385 E libteec : begin
+12-17 19:32:08.187   835  2385 E libteec : qsc_decode end
+12-17 19:32:08.187   835  2385 E libteec : begin
+12-17 19:32:08.187   606  2379 E libteec : send data return = 1152
+12-17 19:32:08.187   606  2379 E libteec : receive data len = 128
+12-17 19:32:08.187  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:32:08.188  3180  3578 I ash     : ash->screen off
+12-17 19:32:08.189  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:32:08.189  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:32:08.189  3180  3578 I ash     : Default InputMethod : com.baidu.input_huawei
+12-17 19:32:08.189  3180  3578 I ash     : screen off inputmethod, delay to hibernation
+12-17 19:32:08.189  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:32:08.190  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:32:08.190  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:32:08.190  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: false
+12-17 19:32:08.191  3180  3578 I ThermalStateManager: handle action thermal policy:301
+12-17 19:32:08.192  1795  1795 I TrafficMonitor: expired arrive. level:-1
+12-17 19:32:08.192  1795  1795 I TrafficMonitor: during_ms:2002,period_ms:2000
+12-17 19:32:08.192  1795  1795 I TrafficMonitor: count:57,rx_sum:2,tx_sum:2,rxBytes:127,during_ms:2002,rx_speed:63.436563436563446,tx_speed:55.44455544455545,rto:1.0
+12-17 19:32:08.192  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:2, rxSpd:63B/s, txpkt:2, txSpd:55
+12-17 19:32:08.192   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:32:08.192   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:32:08.192   606  2379 E libteec : send data return = 128
+12-17 19:32:08.192   835  2385 E libteec : receive data len = 128
+12-17 19:32:08.192   835  2385 E libteec : begin
+12-17 19:32:08.192   835  2385 E libteec : qsc_decode end
+12-17 19:32:08.192   835  2385 I fpc_tac : fpc_tac_begin_identify---need_liveness_authentication: 0
+12-17 19:32:08.192   835  2385 E libteec : begin
+12-17 19:32:08.192   606  2379 E libteec : receive data len = 192
+12-17 19:32:08.193  3218  4070 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:32:08.196   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:32:08.196   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:32:08.196   606  2379 E libteec : send data return = 192
+12-17 19:32:08.196   835  2385 E libteec : receive data len = 192
+12-17 19:32:08.196   835  2385 E libteec : begin
+12-17 19:32:08.196   835  2385 E libteec : qsc_decode end
+12-17 19:32:08.196   835  2385 I fpc_tac : fpc_tac_send_set_arbitrary_data_cmd:ok, response:0
+12-17 19:32:08.196   835  2385 D fingerprintd: onAcquired(2001)
+12-17 19:32:08.196   835  2385 E libteec : begin
+12-17 19:32:08.196   606  2379 E libteec : receive data len = 128
+12-17 19:32:08.197  1795 16498 W FingerprintService: onAcquired 1
+12-17 19:32:08.197  1795  2326 W FingerprintService: onAcquired 2
+12-17 19:32:08.200  3879  3879 I HwLauncher: Launcher receiver screen off broadcast sendmessage true
+12-17 19:32:08.204  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:32:08.204  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:32:08.205  2852  2852 V KeyguardUpdateMonitor: KGSvcFp onAuthenticationAcquired.2001
+12-17 19:32:08.208  1795  6986 I AlarmManager: set(PendingIntent{8ba671: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) : type=2 triggerAtTime=443464571 win=60000 tElapsed=443464571 maxElapsed=443524571 interval=0 flags=0x8
+12-17 19:32:08.210  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:32:08.215  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:32:08.216   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:32:08.216   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:32:08.216  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:32:08.216  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen off event
+12-17 19:32:08.216   835  2385 E libteec : receive data len = 128
+12-17 19:32:08.216   835  2385 E libteec : begin
+12-17 19:32:08.216   835  2385 E libteec : qsc_decode end
+12-17 19:32:08.217   606  2379 E libteec : send data return = 128
+12-17 19:32:08.222  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:32:08.225  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = false, mIsPreScrnOn = true, mScrnSwitchTime = 1481974326303, occurTime = 1481974328222, delta = 1919, mScrnOffAccTime = 1746545, mScrnOnAccTime = 115341
+12-17 19:32:08.225  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1746545, mScrnOffAccTime = 1746545, mScrnOnAccTime = 117260
+12-17 19:32:08.229  3626  3626 I iMonitor: create: 903001010
+12-17 19:32:08.232  3626  3626 I iMonitor: send: 903001010
+12-17 19:32:08.233   818  1152 I logserver: handle_exception_events enter
+12-17 19:32:08.233  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:32:08.234  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_OFF
+12-17 19:32:08.238  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:32:08.242  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_OFF
+12-17 19:32:08.252  1795 15982 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:0
+12-17 19:32:08.265  1795  1809 I HwPhoneWindowManager: OverscanTimeout run
+12-17 19:32:08.271  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:32:08.274  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:08.283 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_OFF
+12-17 19:32:08.309  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:08.322  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:32:08.327  1795 11746 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output

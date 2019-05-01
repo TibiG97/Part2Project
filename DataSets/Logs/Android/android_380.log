@@ -1,0 +1,100 @@
+12-17 19:40:23.302  1795 17832 E huawei_ProximitySensor_CPP_Test: write 20 failed
+12-17 19:40:23.302  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=0
+12-17 19:40:23.302  1795  2750 D PowerManagerService: Setting HAL auto-suspend mode to false
+12-17 19:40:23.302  1795  2750 D PowerManagerService: Setting HAL interactive mode to true
+12-17 19:40:23.302  1795  2750 I QTI PowerHAL: Got set_interactive hint
+12-17 19:40:23.302  2852  2852 D KeyguardViewMediator: handleNotifyScreenTurnedOn End with : 327419
+12-17 19:40:23.303  1795  6985 I WindowManger_keyguard: **** SHOWN CALLED ****
+12-17 19:40:23.303  1795  6985 D WindowManager: mKeyguardDelegate.ShowListener.onDrawn.
+12-17 19:40:23.303  1795  6985 I WindowManger_keyguard: hideScrim()
+12-17 19:40:23.303  2852  2852 I EventCenter: EventCenter Get :android.intent.action.TIME_TICK
+12-17 19:40:23.303  1795  2750 D libfingersense_wrapper: Calling fingersense_on_resume()
+12-17 19:40:23.303  1795  2750 D libfingersense_wrapper: fingersense_on_resume() finished
+12-17 19:40:23.303   836  2387 I knuckle_sensor: Sending SAM_ENABLE to fs_data
+12-17 19:40:23.304  1795  1821 I DisplayManagerService: Display device changed state: "内置屏幕", ON
+12-17 19:40:23.304   612   612 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f9a25b400
+12-17 19:40:23.304   612   612 I SDM     : HWCDisplay::SetPowerMode: display = 0, mode = 2
+12-17 19:40:23.304   612   612 I SDM     : DisplayBase::SetDisplayState: Set state = 1, display 0
+12-17 19:40:23.304  2852  2852 W ResourceType: Failure getting entry for 0xffffffff (t=254 e=65535) (error -2147483647)
+12-17 19:40:23.304  2852  2852 E DateLunarView: mDateString is: 12月17日星期六
+12-17 19:40:23.304   832  1840 E Parcel  : Reading a NULL string not supported here.
+12-17 19:40:23.305   832  1840 E Parcel  : Reading a NULL string not supported here.
+12-17 19:40:23.308  1795  3225 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.309  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=true
+12-17 19:40:23.309  1795  1795 I DeviceIdleController: becomeActiveLocked, reason = screen
+12-17 19:40:23.309   836   928 I knuckle_sensor: Got ENABLE response, status = 0, id = 76
+12-17 19:40:23.309  1795  1795 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:40:23.309  2852  2852 W ResourceType: Failure getting entry for 0xffffffff (t=254 e=65535) (error -2147483647)
+12-17 19:40:23.310  2852  2852 E DateLunarView: mDateString is: 12月17日星期六
+12-17 19:40:23.310  1795  1809 I PowerManager_screenOn: finishKeyguardDrawn -> waitForAllWindowsDrawn
+12-17 19:40:23.311  1795  1807 D DeviceIdleController: handleMessage(5)
+12-17 19:40:23.311  1795  1795 D DeviceIdleController: stopMonitoringMotionLocked()
+12-17 19:40:23.311  1795  1806 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.311  1795  1795 I AlarmManager: remove(null) changed bounds; rebatching
+12-17 19:40:23.311  3180  3332 I SensorState: sensor:20 enable:true uid:10033
+12-17 19:40:23.312  3180  3332 I PGServer: report state:4 event type:1 pid:20 uid:10033 pkg:null to pid: 1795
+12-17 19:40:23.312  3180  3332 I SensorState: addSensor,mHandles:{20=1}
+12-17 19:40:23.312  1795  3884 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.312  1795  1809 I PowerManager_screenOn: waitForAllWindowsDrawn  cover is open or null
+12-17 19:40:23.314  1795 17831 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.325  2852  2852 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+12-17 19:40:23.325  1795  2665 D NetdConnector: RCV <- {200 11639 Firewall command succeeded}
+12-17 19:40:23.325  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000012000000514f454d484f4f4b1d04080002000000ffff]
+12-17 19:40:23.325  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 28 bytes data for SUB0
+12-17 19:40:23.325  3382  3399 D QcrilMsgTunnelSocket: Rac Change (PDC) data: [-1, -1]
+12-17 19:40:23.325  3382  3399 D QcrilMsgTunnelSocket: Broadcasting intent ACTION_RAC_CHANGED
+12-17 19:40:23.325  1795  2665 D NetdConnector: RCV <- {200 11639 Firewall command succeeded}
+12-17 19:40:23.325  3382  3399 I SendBroadcastPermission: action:qualcomm.intent.action.ACTION_RAC_CHANGED, mPermissionType:0
+12-17 19:40:23.326  3180  3578 I ash     : setAppNetworkRestrict >> com.android.browser, uids : [10029]
+12-17 19:40:23.327  1795  3238 D PowerManagerService: acquire lock=76530234, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:40:23.327  1795  3238 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.327  1795  3225 D PowerManagerService: release:lock=60141323, flg=0x0, tag="hibernation", name=com.huawei.powergenie", ws=null, uid=1000, pid=3180
+12-17 19:40:23.327  1795  3225 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.327  3218  3375 I SendBroadcastPermission: action:com.huawei.android.intent.action.RAC_CHANGED, mPermissionType:0
+12-17 19:40:23.328  3180  3578 I ash     : 1795 binder call 2852
+12-17 19:40:23.331  1795  2778 D PowerManagerService: acquire lock=76530234, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:40:23.331  1795  2778 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.332  2852  2852 D KeyguardUpdateMonitor: handleTimeUpdate
+12-17 19:40:23.332  1795 11746 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.333  1795  3249 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.334  1795  6985 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.336  1795 16232 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.341  1795 15982 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:40:23.341  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 27 -84 -7 296 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:40:23.341  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:40:23.341  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:40:23.341  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 27 -84 -7 296 2147483647 2147483647 false gw|lte
+12-17 19:40:23.342  3858  4126 I amsnl   : csr
+12-17 19:40:23.342  3879  3879 I HwLauncher: Model  onReceive intent=Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+12-17 19:40:23.342  3879  3879 I HwLauncher: Model  onReceive user=UserHandle{0}
+12-17 19:40:23.342  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:40:23.346  1795 20747 D wifiserviceimpl: netmask =16580607
+12-17 19:40:23.346  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+12-17 19:40:23.349  5224  5224 I Step_LSC: 20002302|logicalDealBroadcastEvent : Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+12-17 19:40:23.350  5224  5283 I Step_LSC: 20002302| ## MSG_DEAL_SYSTEM_EVENT android.intent.action.TIME_TICK
+12-17 19:40:23.352  1795  6986 V HwBroadcastQueue: trim and enqueue foreground Parallel:(0) Ordered:(2)(BroadcastRecord{13f8eeb u-1 android.intent.action.TIME_TICK})
+12-17 19:40:23.352  1795  6986 I ActivityManager_broadcast: orderd foreground broadcast:(BroadcastRecord{da674cf u-1 android.intent.action.TIME_TICK}) should be proxyed, target:(BroadcastFilter{bf87ed6 u0 ReceiverList{e9622f1 18589 com.tencent.mm:tools/10105/u0 remote:defaa98}})
+12-17 19:40:23.352  3858  4126 I amsnl   : m1: false
+12-17 19:40:23.354  1795  1805 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:40:23.356  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:40:23.356  3858  4126 I amsnl   : c: true, w: false, t: false, l: false
+12-17 19:40:23.360  1795  3121 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.360  1795  3139 D PowerManagerService: acquire lock=76530234, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:40:23.361  1795  3139 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.366  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:40:23.374  1795 16232 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.376  1795  6988 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.377  1795 15982 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.378  1795 15988 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.395  1795  1806 D PowerManagerService: ready=false,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=true,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:40:23.401  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:40:23.415   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:40:23.415   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:40:23.415   606  2379 E libteec : send data return = 128
+12-17 19:40:23.415   835  2385 E libteec : receive data len = 128
+12-17 19:40:23.415   835  2385 E libteec : begin
+12-17 19:40:23.415   835  2385 E libteec : qsc_decode end
+12-17 19:40:23.415   835  2385 I fpc_fingerprint_hal: timeForContinueCapture id:267595
+12-17 19:40:23.415   835  2385 D fingerprintd: onAcquired(0)
+12-17 19:40:23.415   835  2385 E libteec : begin
+12-17 19:40:23.415   606  2379 E libteec : receive data len = 1216

@@ -1,0 +1,100 @@
+12-17 19:31:44.781  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:31:44.782  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-55 "Huawei-Employee"WPA_EAP
+12-17 19:31:44.782  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123017954/442841145 0 0
+12-17 19:31:44.782  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123017954/442841146 0 0
+12-17 19:31:44.782  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123017954/442841146 0 0
+12-17 19:31:44.782  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123017954/442841146 0 0
+12-17 19:31:44.782  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 0'
+12-17 19:31:44.783  1795  1825 D AutomaticBrightnessController: Enable LightSensor at time:mLightSensorEnableTime=123017954,mLightSensorEnableElapsedTimeNanos=442841138276347
+12-17 19:31:44.783  1795  1825 D AutomaticBrightnessController: mAmbientLuxValid= false,sensor is not ready
+12-17 19:31:44.783  1795  1825 D DisplayPowerController: mode change : autoBrightnessEnabled=true,adjustment=0.0,state=2
+12-17 19:31:44.783  1795  1825 D HwNormalizedAutomaticBrightnessController: mWakeupFromSleep= true,currentTime=123017955,mLightSensorEnableTime=123017946
+12-17 19:31:44.783  1795  1825 D DisplayPowerController: Animating brightness: target=-1, rate=0
+12-17 19:31:44.783  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:31:44.783  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 0'
+12-17 19:31:44.783  1795  1825 D DisplayPowerController: handleProximitySensorEvent positive:true
+12-17 19:31:44.783  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:44.783  1795  1825 D HwNormalizedAutomaticBrightnessController: mWakeupFromSleep= true,currentTime=123017955,mLightSensorEnableTime=123017946
+12-17 19:31:44.784  1795  1825 D DisplayPowerController: Animating brightness: target=-1, rate=0
+12-17 19:31:44.784  1795  1825 I PowerManager_screenOn: PowerManagerService goToSleepNoUpdateLocked: eventTime=123017956, reason=7, flags=0, uid=1000
+12-17 19:31:44.784  1795  1825 I PowerManagerService: Going to sleep due to proximity...
+12-17 19:31:44.784  1795  3253 D ActivityManager: setExcludeFromRecents:pkgName=null
+12-17 19:31:44.784  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=3, reason=7, interactive=false, mInteractive=true, mInteractiveChanging=true
+12-17 19:31:44.784  1795  1825 I PowerManager_screenOn: PowerManagerServiceonProximityPositivebyPhone -> updatePowerStateLocked
+12-17 19:31:44.784  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=0
+12-17 19:31:44.784  1795  1825 D PowerManagerService: ready=false,policy=3,wakefulness=3,wksummary=0x10,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:44.785  1795  2750 D PowerManagerService: Setting HAL auto-suspend mode to false
+12-17 19:31:44.785  1795  2750 D PowerManagerService: Setting HAL interactive mode to true
+12-17 19:31:44.785  1795  2750 I QTI PowerHAL: Got set_interactive hint
+12-17 19:31:44.785  1795  1809 I PowerManager_screenOn: finishKeyguardDrawn -> waitForAllWindowsDrawn
+12-17 19:31:44.785  1795  1809 I PowerManager_screenOn: waitForAllWindowsDrawn  cover is open or null
+12-17 19:31:44.786   832   832 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:44.786   832   832 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:44.786  1795  2750 D libfingersense_wrapper: Calling fingersense_on_resume()
+12-17 19:31:44.786  1795  2750 D libfingersense_wrapper: fingersense_on_resume() finished
+12-17 19:31:44.787   612   612 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f9a25b400
+12-17 19:31:44.787   612   612 I SDM     : HWCDisplay::SetPowerMode: display = 0, mode = 2
+12-17 19:31:44.787   612   612 I SDM     : DisplayBase::SetDisplayState: Set state = 1, display 0
+12-17 19:31:44.788  1795  1821 I WindowManger_keyguard: Setting mDismissKeyguard true by win Window{e6a6b5e u0 com.android.incallui/com.android.incallui.InCallActivity}
+12-17 19:31:44.788   836  2387 I knuckle_sensor: Sending SAM_ENABLE to fs_data
+12-17 19:31:44.789  3608  3608 D InCall  : InCallPresenter - onActivityStarted
+12-17 19:31:44.789  3608  3608 D InCall  : InCallPresenter - notifyVideoPauseController
+12-17 19:31:44.789  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onResume
+12-17 19:31:44.789  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onResume. Ignoring...
+12-17 19:31:44.789  3608  3608 D InCall  : InCallActivity - doOrientationChanged prevOrientation=1 newOrientation=1
+12-17 19:31:44.789  3608  3608 D InCall  : InCallActivity - onStart()... end
+12-17 19:31:44.791   836   928 I knuckle_sensor: Got ENABLE response, status = 0, id = 61
+12-17 19:31:44.792  3608  3608 I InCall  : InCallActivity - onResume()...
+12-17 19:31:44.793  1795  1795 I HwScreenOnProximityLock: preparePoriximityView addView 
+12-17 19:31:44.794  3608  3608 I InCall  : InCallActivity - bgCallTwinkingSwitch is truemIsForegroundActivity is true
+12-17 19:31:44.794  3608  3608 D InCall  : InCallPresenter - notifyInCallScreenIsForeground: true
+12-17 19:31:44.794  3608  3608 I SendBroadcastPermission: action:InCallScreenIsForegroundActivity, mPermissionType:0
+12-17 19:31:44.795  1795 17832 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{ec55919 3608:com.android.incallui/1001}
+12-17 19:31:44.796  1795  1795 I HwPointEventFilter: do not support AFT because of no config
+12-17 19:31:44.796  3608  3608 D InCall  : StatusBarNotifier - cancelInCall()...
+12-17 19:31:44.797  1795 11746 I NotificationManager: cancelNotificationWithTag pid 3608,uid = 1001,tag = null,pkg =com.android.incallui,id =2
+12-17 19:31:44.797  3608  3608 D InCall  : StatusBarNotifier - updateInCallNotification: timer cleared
+12-17 19:31:44.798  2852  2852 I BackgrounCallingLayout: simCount:2 phoneState:2
+12-17 19:31:44.798  3608  3608 I InCall  : ProximitySensor - ProximitySensor{keybrd=0, dpad=0, offhook=1, hor=0, ui=1, aud=EARPIECE}
+12-17 19:31:44.798  3608  3608 D InCall  : ProximitySensor - Turning on proximity sensor
+12-17 19:31:44.798  2852  2852 I BackgrounCallingLayout: mCallingStatusReceiver:onReceive::action=InCallScreenIsForegroundActivity, isForegroundActivity=true, mPhoneState=2
+12-17 19:31:44.798  3608  3608 I InCall  : ProximitySensor - Proximity wake lock already acquired
+12-17 19:31:44.798  3608  3608 D InCall  : AnswerPresenter - onUiShowingtrue
+12-17 19:31:44.798  3608  3608 D InCall  : AnswerPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:31:44.799  3608  3608 D HwCust  : Create obj success use class com.android.incallui.HwCustAnswerPresenterImpl
+12-17 19:31:44.799  2852  2852 I BackgrounCallingLayout: updateCallLayout:isBackground=false, isInteractive=false
+12-17 19:31:44.800  2852  2852 I HwPhoneStatusBar: mNotifyStateChangedReceiver::onReceive:action=InCallScreenIsForegroundActivity, mBackgroundState=false
+12-17 19:31:44.801  3608  3608 D InCall  : AnswerPresenter - onCallListChange callList=com.android.incallui.CallList@86c7f97
+12-17 19:31:44.812  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 0 len = 0, 4096
+12-17 19:31:44.812  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:31:44.828  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:31:44.828  5215  5215 D wpa_supplicant: nl80211: Drv Event 79 (NL80211_CMD_SET_REKEY_OFFLOAD) received for wlan0
+12-17 19:31:44.828  5215  5215 D wpa_supplicant: nl80211: Rekey offload event for BSSID 80:38:bc:08:42:c1
+12-17 19:31:44.828  5215  5215 D wpa_supplicant: nl80211: Rekey offload - Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 02
+12-17 19:31:44.828  5215  5215 D wpa_supplicant: wlan0: Event DRIVER_GTK_REKEY (35) received
+12-17 19:31:44.948  1795  2371 E LightSensor: read Events lux: 14.0
+12-17 19:31:44.949  1795  1825 D AutomaticBrightnessController: ambient lux=14.0,timeStamp =442841312127000
+12-17 19:31:44.949  1795  1825 D HwNormalizedAutomaticBrightnessController: mAmbientLuxValid=true,mWakeupFromSleep= false
+12-17 19:31:44.950  1795  1825 D HwAmbientLuxFilterAlgo: updateAmbientLux: Initializing: mAmbientLightRingBuffer=[14.0 / 0ms], mAmbientLux=14.0
+12-17 19:31:44.950  1795  1825 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:31:44.950  1795  1825 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:31:44.950  1795  1825 D HwAmbientLuxFilterAlgo: t=123018121,BT=123018621,DT=123019121,BT1=123022121,DT1=123026121,Bn=false,Dn=false,lx=[14.0/123018121],mLx=14.0,s=5.0,ss=0.0,AuIntervened=false,mProximityState=false,bLux=113.0,dLux=2.0,bLux1=113.0,dLux1=2.0
+12-17 19:31:44.950  1795  1825 D HwNormalizedAutomaticBrightnessController: need to update brightness: mAmbientLux=14.0
+12-17 19:31:44.950  1795  1825 D HwNormalizedSpline: interpolate:mPosBrightness=0.0lux=14.0,mIsReboot=true,mIsUserChange=false,mDelta=0.0
+12-17 19:31:44.950  1795  1825 D HwNormalizedSpline: offsetBrightness=25.279999,mOffsetBrightness_last25.279999,lux=14.0,mPosBrightness=0.0,mIsUserChange=false,mDelta=0.0,defaultBrightness=25.279999,mStartLuxDefaultBrightness=25.279999mLastLuxDefaultBrightness=25.279999
+12-17 19:31:44.951  1795  1825 D HwNormalizedSpline: write:userId=0,mPosBrightness =0.0,mOffsetBrightness_last=25.279999,mIsUserChange=false,mDeltaNew=0.0,mStartLuxDefaultBrightness=25.279999mLastLuxDefaultBrightness=25.279999,mAmLux=14.0
+12-17 19:31:44.951  1795  1825 D AutomaticBrightnessController: updateAutoBrightness: mScreenAutoBrightness=27, newScreenAutoBrightness=25
+12-17 19:31:44.952  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:44.952  1795  1825 D DisplayPowerController: Animating brightness: target=25, rate=0
+12-17 19:31:44.952  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=BRIGHT, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:44.953  1795  1825 D DisplayPowerController: Animating brightness: target=25, rate=40
+12-17 19:31:45.002  1795  2750 D SurfaceControl: Excessive delay in setPowerMode(): 216ms
+12-17 19:31:45.006  1795  1821 I DisplayManagerService: Display device changed state: "内置屏幕", ON
+12-17 19:31:45.008  1795  1795 D WindowManager: ACTIVITY check resid: android, size=8
+12-17 19:31:45.009  1795  1795 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{41768aa u0 android},EmuiStyle=0,StatusBarColor=0x0,NavigationBarColor=0x0, mLastIsEmuiLightStyle=-1
+12-17 19:31:45.010  1795  1795 I WindowManger_windowChange: oldFocusWindow: Window{e71ca6c u0 com.android.phone}, currentFocusWindow: Window{41768aa u0 android}, currentFocusApp: AppWindowToken{844a0b2 token=Token{2fd6a14 ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}}}
+12-17 19:31:45.011   832  1840 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:45.011   832  1840 E Parcel  : Reading a NULL string not supported here.
+12-17 19:31:45.011  1795  1809 D HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+12-17 19:31:45.012  2852  2822 I CommandQueue: updateBarBgColor
+12-17 19:31:45.012  2852  2822 D CommandQueue: CommandQueue, setBarBackgroundColor

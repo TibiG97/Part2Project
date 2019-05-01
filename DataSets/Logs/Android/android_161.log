@@ -1,0 +1,100 @@
+12-17 19:32:26.927   606  2379 E libteec : send data return = 128
+12-17 19:32:26.927   835  2385 E libteec : receive data len = 128
+12-17 19:32:26.927   835  2385 E libteec : begin
+12-17 19:32:26.927   835  2385 E libteec : qsc_decode end
+12-17 19:32:26.927   835  2385 I fpc_tac : fpc_tac_begin_identify---need_liveness_authentication: 0
+12-17 19:32:26.927   835  2385 E libteec : begin
+12-17 19:32:26.927   606  2379 E libteec : receive data len = 192
+12-17 19:32:26.931  2883  2996 I HwSystemManager: NormalTrafficAnalysis:alert byte = 0 last alert byte = 0
+12-17 19:32:26.931  2883  2996 E HwSystemManager: NormalTrafficAnalysis:alert byte = 0, so return
+12-17 19:32:26.931   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:32:26.931   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:32:26.931   606  2379 E libteec : send data return = 192
+12-17 19:32:26.931   835  2385 E libteec : receive data len = 192
+12-17 19:32:26.931   835  2385 E libteec : begin
+12-17 19:32:26.931   835  2385 E libteec : qsc_decode end
+12-17 19:32:26.931   835  2385 I fpc_tac : fpc_tac_send_set_arbitrary_data_cmd:ok, response:0
+12-17 19:32:26.932   835  2385 D fingerprintd: onAcquired(2001)
+12-17 19:32:26.932   835  2385 E libteec : begin
+12-17 19:32:26.932  1795  3111 W FingerprintService: onAcquired 1
+12-17 19:32:26.932   606  2379 E libteec : receive data len = 128
+12-17 19:32:26.932  1795  2326 W FingerprintService: onAcquired 2
+12-17 19:32:26.933  2852  2852 V KeyguardUpdateMonitor: KGSvcFp onAuthenticationAcquired.2001
+12-17 19:32:26.933  3180  3332 I WakelockMonitor: start wakelock monitor.
+12-17 19:32:26.933  3180  3578 I ScreenLockClean: call busy and not start clean apps.
+12-17 19:32:26.934  3180  3578 I ash     : ash->screen off
+12-17 19:32:26.935  3180  3578 I ash     : Default InputMethod : com.baidu.input_huawei
+12-17 19:32:26.935  3180  3578 I ash     : screen off inputmethod, delay to hibernation
+12-17 19:32:26.936  3180  3578 I ThermalStateManager: handle action thermal policy:301
+12-17 19:32:26.938  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:32:26.938  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: false
+12-17 19:32:26.939  3218  3236 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:32:26.949  3879  3879 I HwLauncher: Launcher receiver screen off broadcast sendmessage true
+12-17 19:32:26.951   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:32:26.951   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:32:26.951   606  2379 E libteec : send data return = 128
+12-17 19:32:26.951  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:32:26.951   835  2385 E libteec : receive data len = 128
+12-17 19:32:26.951   835  2385 E libteec : begin
+12-17 19:32:26.952   835  2385 E libteec : qsc_decode end
+12-17 19:32:26.955  1795  6988 I AlarmManager: set(PendingIntent{db3f7fd: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) : type=2 triggerAtTime=443483318 win=60000 tElapsed=443483318 maxElapsed=443543318 interval=0 flags=0x8
+12-17 19:32:26.956  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:32:26.960  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:32:26.967  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:32:26.967  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:32:26.967  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen off event
+12-17 19:32:26.973  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = false, mIsPreScrnOn = true, mScrnSwitchTime = 1481974343801, occurTime = 1481974346972, delta = 3171, mScrnOffAccTime = 1762124, mScrnOnAccTime = 117260
+12-17 19:32:26.973  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1762124, mScrnOffAccTime = 1762124, mScrnOnAccTime = 120431
+12-17 19:32:26.977  3626  3626 I iMonitor: create: 903001010
+12-17 19:32:26.979  3626  3626 I iMonitor: send: 903001010
+12-17 19:32:26.979   818  1152 I logserver: handle_exception_events enter
+12-17 19:32:26.980  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:32:26.982  1795  1809 I HwPhoneWindowManager: OverscanTimeout run
+12-17 19:32:26.985  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:32:26.986  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_OFF
+12-17 19:32:26.989  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:32:26.994  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_OFF
+12-17 19:32:27.004  1795  3237 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:0
+12-17 19:32:27.034 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_OFF
+12-17 19:32:27.047  1795 16232 V HwBroadcastQueue: trim and enqueue foreground Parallel:(0) Ordered:(2)(BroadcastRecord{5dddcf2 u-1 android.intent.action.SCREEN_OFF})
+12-17 19:32:27.048  1795 16232 I ActivityManager_broadcast: orderd foreground broadcast:(BroadcastRecord{4f2bc54 u-1 android.intent.action.SCREEN_OFF}) should be proxyed, target:(BroadcastFilter{d2752d6 u0 ReceiverList{6abc6f1 17357 com.android.browser/10029/u0 remote:55e98}})
+12-17 19:32:27.049  3180  3578 I ash     : android send broadcast:android.intent.action.SCREEN_OFF notify package: com.android.browser, pid: 17357
+12-17 19:32:27.049  3180  3578 I ash     : com.android.browser broadcast notify, H to R!
+12-17 19:32:27.049  3180  3578 I ash     : com.android.browser { hibernation duration=3085 } transition to: running reason:bc_notify_android.intent.action.SCREEN_OFF
+12-17 19:32:27.049  3180  3578 I ash     : clear hibernation actions!
+12-17 19:32:27.049  1795  1806 I PGManagerService: proxyWakeLockByPidUid, pid: 31558, uid: 10029, proxy: false
+12-17 19:32:27.050  1795  1806 D HwPowerManagerService: remove pxy wl, pid: 31558, uid: 10029 from pxy process list.
+12-17 19:32:27.050  3180  3578 I ash     : Unproxy wakelock uid = 10029 pid = 31558
+12-17 19:32:27.050  1795  6985 I PGManagerService: proxyWakeLockByPidUid, pid: 17357, uid: 10029, proxy: false
+12-17 19:32:27.050  1795  6985 D HwPowerManagerService: remove pxy wl, pid: 17357, uid: 10029 from pxy process list.
+12-17 19:32:27.051  3180  3578 I ash     : Unproxy wakelock uid = 10029 pid = 17357
+12-17 19:32:27.051  1795  3238 D PowerManagerService: acquire lock=53505448, flags=0x1, tag="hibernation", name=com.huawei.powergenie, ws=null, uid=1000, pid=3180
+12-17 19:32:27.051  1795  3238 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:27.052  1795  3238 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:32:27.057  3180  3578 D PgedBinderAdapter: unfrz ok, pid: [31558, 17357]
+12-17 19:32:27.057  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:32:27.058  3180  3578 I PGServer: report state:6 event type:2 pid:0 uid:10029 pkg:com.android.browser to pid: 1795
+12-17 19:32:27.058  3180  3578 I ash     : Unfreeze com.android.browser OK !
+12-17 19:32:27.061  1795  3249 D PowerManagerService: release:lock=53505448, flg=0x0, tag="hibernation", name=com.huawei.powergenie", ws=null, uid=1000, pid=3180
+12-17 19:32:27.062  1795  3249 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:32:27.062  1795  3249 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:32:27.062  1795 20747 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:32:27.062  1795  2396 I PGManagerService: proxyBroadcast:[com.android.browser] proxy:false
+12-17 19:32:27.065  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [foreground] BroadcastRecord{5dddcf2 u-1 android.intent.action.SCREEN_OFF}, has 1 receivers
+12-17 19:32:27.066  3180  3578 I ash     : unproxy com.android.browser broadcast OK !
+12-17 19:32:27.066  1795 17832 D SmartHeartBeat: setAlarmsPending ...
+12-17 19:32:27.066  3180  3578 I ash     : Unpending com.android.browser alarm OK !
+12-17 19:32:27.067  1795 15987 D GpsFreezeProc: removeFreezeProcess pkg:com.android.browser
+12-17 19:32:27.067  1795 15987 I GnssLocationProvider: setRequest ProviderRequest[OFF]
+12-17 19:32:27.067  1795 15987 I GnssLocationProvider: stopNavigating, mStarted=false
+12-17 19:32:27.067  3180  3578 I ash     : unproxy app:com.android.browser,uid:10029,result:true
+12-17 19:32:27.068  1795 15988 D NetdConnector: SND -> {11617 firewall set_uid_rule standby 10029 allow}
+12-17 19:32:27.097  1795  2665 D NetdConnector: RCV <- {200 11617 Firewall command succeeded}
+12-17 19:32:27.098  1795  2665 D NetdConnector: RCV <- {200 11617 Firewall command succeeded}
+12-17 19:32:27.099  3180  3578 I ash     : removeAppNetworkRestrict >> com.android.browser, uids : [10029]
+12-17 19:32:27.100  3180  3578 I ash     : perform running actions!
+12-17 19:32:27.100  3180  3578 I ash     : running package: com.android.browser, visible: false
+12-17 19:32:27.123  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:32:27.127  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:32:27.131  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:32:27.163  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.570462 Y: 6.327246 Z: 3.292062  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027

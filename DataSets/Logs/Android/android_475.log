@@ -1,0 +1,100 @@
+12-17 19:55:47.121  5215  5215 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-17 19:55:47.121  5215  5215 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-17 19:55:47.121  5215  5215 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000122 seconds
+12-17 19:55:47.121  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=24
+12-17 19:55:47.121  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:55:47.122  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:55:47.122  1795  5219 E WifiMonitor: WifiMonitor:wlan0 cnt=31153 dispatchEvent: CTRL-EVENT-SCAN-STARTED 
+12-17 19:55:47.124  3879  3879 I ActivityManager_activity: Reporting idle of ActivityRecord{4679a0a token=android.os.BinderProxy@5462fa {com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}} finished=false
+12-17 19:55:47.124  1795  2671 D WifiStateMachine:  ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123201571/444283487 1 0
+12-17 19:55:47.124  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123201571/444283488 1 0
+12-17 19:55:47.124  1795  1795 I AlarmManager: remove(PendingIntent{2f9e644: PendingIntentRecord{527f32d android broadcastIntent}}) changed bounds; rebatching
+12-17 19:55:47.124  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:55:47.124  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:55:47.127  1795  2680 I AlarmManager: set(null) : type=2 triggerAtTime=444298484 win=11249 tElapsed=444298484 maxElapsed=444309733 interval=0 flags=0x8
+12-17 19:55:47.130  2852  2852 W HwLockScreenPanel: Handle message: 10
+12-17 19:55:47.130  1795  1795 D HwPFWLogger: PFW.HwPFWService:mBroadcastReceiver action = android.intent.action.SCREEN_ON
+12-17 19:55:47.130  1795  2708 D HwPFWLogger: PFW.HwPFWService:handle PFW_MSG_SYSTEM
+12-17 19:55:47.130  1795  2708 D HwPFWLogger: PFW.HwPFWAppRestartPolicy:receive action = android.intent.action.SCREEN_ON
+12-17 19:55:47.132  1795  1795 D WifiService: onReceive, action:android.intent.action.SCREEN_ON
+12-17 19:55:47.132  2852  2852 W CameraLayout: Cameralayout setVisibility. true false  2
+12-17 19:55:47.132  2852  2852 D MagazineDetailView: resetPagerState
+12-17 19:55:47.132  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155650 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:55:47.132  1795  2670 D WifiController: StaEnabledState what=155650
+12-17 19:55:47.132  1795  2670 D WifiController: DefaultState what=155650
+12-17 19:55:47.133  2852  2852 I HwBackDropView: checkVisibility : false; false
+12-17 19:55:47.133  1795  2670 I AlarmManager: remove(PendingIntent{50e3a01: PendingIntentRecord{a8130a6 android broadcastIntent}}) changed bounds; rebatching
+12-17 19:55:47.133  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:55:47.134  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:55:47.134  1795  1795 D HwArpVerifier: startWifiRouteCheck
+12-17 19:55:47.135  2852  2852 I TrafficPanelManager: showTraffic
+12-17 19:55:47.135  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:55:47.135  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:55:47.135  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:55:47.135  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:55:47.136  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:55:47.136  2852  2852 W PanelView: HwPanelView restoreDrawState
+12-17 19:55:47.136  2852  2852 W PanelView: setAnimationParam 0.0 4  1.0
+12-17 19:55:47.136  2852  2852 W PanelView: updateAlaphaAndScaleForChild 0  com.android.systemui.statusbar.phone.NotificationsQuickSettingsContainer{4bf91f3 V.E...... ......ID 0,0-1080,72 #7f1403cf app:id/notification_container_parent}
+12-17 19:55:47.136  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:55:47.136  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:55:47.136  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:55:47.136  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:55:47.136  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:55:47.136  1795  1795 D WifiProStatisticsManager: sendScreenOnEvent enter.
+12-17 19:55:47.136  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSPARENT, animate=false
+12-17 19:55:47.136  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=4, isEmuiStyle=false
+12-17 19:55:47.136  1795  2733 D WiFi_PRO_WifiProStateMachine: device screen on,but isScreenOffMonitor is false
+12-17 19:55:47.136  1795  2734 D WifiProStatisticsManager: msg Loop is running.
+12-17 19:55:47.139  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:55:47.139  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:55:47.142  1795  1795 I EyeProtectionControllerImpl: onReceive intent action = android.intent.action.SCREEN_ON
+12-17 19:55:47.143  5215  5215 E wpa_supplicant: RSSI=-60;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:55:47.143  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:55:47.143  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:55:47.143  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-60 "Huawei-Employee"WPA_EAP
+12-17 19:55:47.143  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123201590/444283507 0 0
+12-17 19:55:47.143  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123201590/444283507 0 0
+12-17 19:55:47.143  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123201590/444283507 0 0
+12-17 19:55:47.143  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123201590/444283507 0 0
+12-17 19:55:47.143  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 0'
+12-17 19:55:47.144  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 0'
+12-17 19:55:47.145  1795  2736 D HwInnerWifiManagerImpl: SupplicantState = COMPLETED
+12-17 19:55:47.145  1795  2736 D HwInnerWifiManagerImpl: isPhoneAP = false
+12-17 19:55:47.147  2883  2883 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:55:47.148  3218  7071 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:55:47.149  3218  7071 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:55:47.151  1795  2736 E hwintelligencewifi: getCurrentCellid type type = PHONE_TYPE_GSM
+12-17 19:55:47.151  1795  2736 E hwintelligencewifi: getCurrentCellid type is PHONE_TYPE_GSM
+12-17 19:55:47.151  2883  2883 I HwSystemManager: AutoCleanReceiveServer:receive action:android.intent.action.SCREEN_ON
+12-17 19:55:47.153  1795  2736 E hwintelligencewifi: getCurrentCellid PHONE_TYPE_GSM cellidString = 4600046525442
+12-17 19:55:47.153  1795  2736 E hwintelligencewifi: updataApInfo cellid =4600046525442
+12-17 19:55:47.153  1795  2736 E hwintelligencewifi: addCurrentApInfo cellid =4600046525442
+12-17 19:55:47.154  1795  2728 D HwArpVerifier: check_wifi_state_mode = 0 mCheckStateToken=1008 token1008
+12-17 19:55:47.154  1795  2728 D HwArpVerifier: reportArpDetail: 10.33.8.1  00:00:5e:00:01:09   2   wlan0
+12-17 19:55:47.154  1795  2728 D wifiserviceimpl: netmask =16580607
+12-17 19:55:47.156  1795  2728 D HWMultiGW: setGateWay 10.33.8.1
+12-17 19:55:47.157  3168  3168 I CHR_ChrDataServiceTracker: handledataswitchchanged
+12-17 19:55:47.157  1795  3077 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_ON
+12-17 19:55:47.158  1795  3077 I GnssLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:true
+12-17 19:55:47.158  1795  3077 I GnssLocationProvider: disableGps:false  isEnabled()=true
+12-17 19:55:47.165  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:55:47.165  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:55:47.166  2852  3556 I NetworkController.MobileSignalController(0): onDataActivity: direction=0
+12-17 19:55:47.166  2852  3556 D NetworkController.MobileSignalController(0): mSimSubId:0 onDataActivity: direction=0
+12-17 19:55:47.167  2852  2852 I PowerUI : onReceive intent:act:android.intent.action.SCREEN_ON  flag:1342177296 
+12-17 19:55:47.179  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -3.170413 Y: 3.799735 Z: 8.074215  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:55:47.182  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:55:47.182  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: true
+12-17 19:55:47.182  1795  3975 E LocSvc_libulp: I/int ulp_msg_process_system_update(const UlpSystemEvent): systemEvent:0 
+12-17 19:55:47.184  3180  3578 D HwMultiWindowEx: isInMultiWindowMode ret: 0
+12-17 19:55:47.187  3180  3578 I ThermalStateManager: handle action thermal policy:208
+12-17 19:55:47.187  3180  3578 I ash     : ash->screen on
+12-17 19:55:47.188  3180  3578 I ash     : com.huawei.espacev2 { hibernation duration=181090 } transition to: running reason:scron_im
+12-17 19:55:47.188  3180  3578 I ash     : clear hibernation actions!
+12-17 19:55:47.188  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:55:47.188  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:55:47.188  1795 16499 I PGManagerService: proxyWakeLockByPidUid, pid: 31949, uid: 10102, proxy: false
+12-17 19:55:47.188  1795 16499 D HwPowerManagerService: remove pxy wl, pid: 31949, uid: 10102 from pxy process list.
+12-17 19:55:47.188  3180  3578 I ash     : Unproxy wakelock uid = 10102 pid = 31949
+12-17 19:55:47.189  1795 16501 I PGManagerService: proxyWakeLockByPidUid, pid: 633, uid: 10102, proxy: false

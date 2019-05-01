@@ -1,0 +1,100 @@
+[Mon Nov 21 12:41:29 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 12:41:29 2005] [error] mod_jk child init 1 0
+[Mon Nov 21 12:41:29 2005] [error] mod_jk child workerEnv in error state 7
+[Mon Nov 21 12:41:30 2005] [error] jk2_init() Can't find child 28889 in scoreboard
+[Mon Nov 21 12:41:30 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 12:41:30 2005] [error] mod_jk child init 1 -2
+[Mon Nov 21 12:41:30 2005] [error] jk2_init() Can't find child 28890 in scoreboard
+[Mon Nov 21 12:41:30 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 12:41:30 2005] [error] mod_jk child init 1 -2
+[Mon Nov 21 12:46:39 2005] [notice] jk2_init() Found child 28897 in scoreboard slot 5
+[Mon Nov 21 12:46:44 2005] [error] [client 210.250.99.226] Directory index forbidden by rule: /var/www/html/
+[Mon Nov 21 12:46:46 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 12:46:46 2005] [error] mod_jk child workerEnv in error state 5
+[Mon Nov 21 13:46:54 2005] [error] [client 141.150.101.231] Directory index forbidden by rule: /var/www/html/
+[Mon Nov 21 14:20:34 2005] [notice] jk2_init() Found child 29072 in scoreboard slot 0
+[Mon Nov 21 14:20:35 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:20:35 2005] [error] mod_jk child init 1 0
+[Mon Nov 21 14:20:35 2005] [error] mod_jk child workerEnv in error state 4
+[Mon Nov 21 14:25:42 2005] [notice] jk2_init() Found child 29085 in scoreboard slot 2
+[Mon Nov 21 14:25:47 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:25:47 2005] [error] mod_jk child workerEnv in error state 4
+[Mon Nov 21 14:30:58 2005] [notice] jk2_init() Found child 29098 in scoreboard slot 3
+[Mon Nov 21 14:30:58 2005] [notice] jk2_init() Found child 29099 in scoreboard slot 4
+[Mon Nov 21 14:31:05 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:31:05 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:31:05 2005] [error] mod_jk child workerEnv in error state 4
+[Mon Nov 21 14:31:05 2005] [error] mod_jk child workerEnv in error state 4
+[Mon Nov 21 14:36:24 2005] [notice] jk2_init() Found child 29115 in scoreboard slot 0
+[Mon Nov 21 14:36:46 2005] [notice] jk2_init() Found child 29117 in scoreboard slot 3
+[Mon Nov 21 14:37:05 2005] [notice] jk2_init() Found child 29120 in scoreboard slot 2
+[Mon Nov 21 14:37:05 2005] [notice] jk2_init() Found child 29119 in scoreboard slot 0
+[Mon Nov 21 14:37:05 2005] [notice] jk2_init() Found child 29121 in scoreboard slot 3
+[Mon Nov 21 14:37:05 2005] [notice] jk2_init() Found child 29118 in scoreboard slot 4
+[Mon Nov 21 14:37:09 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:37:09 2005] [error] mod_jk child workerEnv in error state 4
+[Mon Nov 21 14:37:09 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:37:09 2005] [error] mod_jk child init 1 0
+[Mon Nov 21 14:37:09 2005] [error] mod_jk child workerEnv in error state 5
+[Mon Nov 21 14:37:09 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:37:09 2005] [error] mod_jk child workerEnv in error state 5
+[Mon Nov 21 14:37:09 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:37:09 2005] [error] mod_jk child workerEnv in error state 4
+[Mon Nov 21 14:42:06 2005] [notice] jk2_init() Found child 29137 in scoreboard slot 4
+[Mon Nov 21 14:43:03 2005] [notice] jk2_init() Found child 29143 in scoreboard slot 2
+[Mon Nov 21 14:43:03 2005] [notice] jk2_init() Found child 29142 in scoreboard slot 0
+[Mon Nov 21 14:43:03 2005] [notice] jk2_init() Found child 29141 in scoreboard slot 4
+[Mon Nov 21 14:43:03 2005] [notice] jk2_init() Found child 29144 in scoreboard slot 3
+[Mon Nov 21 14:43:05 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:43:05 2005] [error] mod_jk child init 1 0
+[Mon Nov 21 14:43:05 2005] [error] mod_jk child workerEnv in error state 4
+[Mon Nov 21 14:43:05 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:43:05 2005] [error] mod_jk child workerEnv in error state 4
+[Mon Nov 21 14:43:05 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:43:05 2005] [error] mod_jk child workerEnv in error state 4
+[Mon Nov 21 14:43:05 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:43:05 2005] [error] mod_jk child workerEnv in error state 5
+[Mon Nov 21 14:46:33 2005] [notice] jk2_init() Found child 29156 in scoreboard slot 3
+[Mon Nov 21 14:46:33 2005] [notice] jk2_init() Found child 29154 in scoreboard slot 0
+[Mon Nov 21 14:46:33 2005] [notice] jk2_init() Found child 29155 in scoreboard slot 2
+[Mon Nov 21 14:49:12 2005] [notice] jk2_init() Found child 29173 in scoreboard slot 4
+[Mon Nov 21 14:49:35 2005] [notice] jk2_init() Found child 29176 in scoreboard slot 3
+[Mon Nov 21 14:49:35 2005] [notice] jk2_init() Found child 29175 in scoreboard slot 2
+[Mon Nov 21 14:49:35 2005] [notice] jk2_init() Found child 29177 in scoreboard slot 4
+[Mon Nov 21 14:49:35 2005] [notice] jk2_init() Found child 29174 in scoreboard slot 0
+[Mon Nov 21 14:49:37 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:49:37 2005] [error] mod_jk child workerEnv in error state 5
+[Mon Nov 21 14:49:37 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:49:37 2005] [error] mod_jk child workerEnv in error state 5
+[Mon Nov 21 14:49:37 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:49:37 2005] [error] mod_jk child workerEnv in error state 5
+[Mon Nov 21 14:49:37 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:49:37 2005] [error] mod_jk child init 1 0
+[Mon Nov 21 14:49:37 2005] [error] mod_jk child workerEnv in error state 5
+[Mon Nov 21 14:51:11 2005] [notice] jk2_init() Found child 29189 in scoreboard slot 0
+[Mon Nov 21 14:51:11 2005] [notice] jk2_init() Found child 29188 in scoreboard slot 4
+[Mon Nov 21 14:51:59 2005] [notice] jk2_init() Found child 29196 in scoreboard slot 4
+[Mon Nov 21 14:51:59 2005] [notice] jk2_init() Found child 29193 in scoreboard slot 0
+[Mon Nov 21 14:51:59 2005] [notice] jk2_init() Found child 29195 in scoreboard slot 3
+[Mon Nov 21 14:51:59 2005] [notice] jk2_init() Found child 29194 in scoreboard slot 2
+[Mon Nov 21 14:52:02 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:52:02 2005] [error] mod_jk child workerEnv in error state 5
+[Mon Nov 21 14:52:02 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:52:02 2005] [error] mod_jk child init 1 0
+[Mon Nov 21 14:52:02 2005] [error] mod_jk child workerEnv in error state 5
+[Mon Nov 21 14:52:02 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:52:02 2005] [error] mod_jk child workerEnv in error state 4
+[Mon Nov 21 14:52:02 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:52:02 2005] [error] mod_jk child workerEnv in error state 4
+[Mon Nov 21 14:56:01 2005] [notice] jk2_init() Found child 29202 in scoreboard slot 2
+[Mon Nov 21 14:56:01 2005] [notice] jk2_init() Found child 29201 in scoreboard slot 0
+[Mon Nov 21 14:56:29 2005] [notice] jk2_init() Found child 29207 in scoreboard slot 3
+[Mon Nov 21 14:56:29 2005] [notice] jk2_init() Found child 29205 in scoreboard slot 0
+[Mon Nov 21 14:56:29 2005] [notice] jk2_init() Found child 29206 in scoreboard slot 2
+[Mon Nov 21 14:56:29 2005] [notice] jk2_init() Found child 29204 in scoreboard slot 4
+[Mon Nov 21 14:56:32 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:56:32 2005] [error] mod_jk child workerEnv in error state 4
+[Mon Nov 21 14:56:32 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Nov 21 14:56:32 2005] [error] mod_jk child init 1 0
+[Mon Nov 21 14:56:32 2005] [error] mod_jk child workerEnv in error state 4
+[Mon Nov 21 14:56:32 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties

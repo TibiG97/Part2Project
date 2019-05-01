@@ -1,0 +1,100 @@
+12-17 19:33:11.100  1795 11747 I qti_sensors_hal: 0xcd, 0xb0, 0x24, 0x3e
+12-17 19:33:11.100  1795 11747 I qti_sensors_hal: 0x66, 0xca, 0x3c, 0x3e
+12-17 19:33:11.100  1795 11747 I qti_sensors_hal: 0xc0, 0x2a, 0x7c, 0x3f
+12-17 19:33:11.100  1795 11747 I qti_sensors_hal: 0x55, 0x0, 0x0, 0x0
+12-17 19:33:11.100  1795 11747 I qti_sensors_hal: 0x0, 0x0, 0x0, 0x0
+12-17 19:33:11.100  1795 11747 E qti_sensors_hal: read from oem info: data_valid_flag=0x55
+12-17 19:33:11.100  1795 11747 E qti_sensors_hal: read from oem info: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:33:11.100  1795 11747 E qti_sensors_hal: Final value: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:33:11.100  1795 11747 I qti_sensors_hal: batch:load_acc_oeminf_data x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:11.100  1795 11747 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) sample_rate=14.999925Hz report_rate_f=0.000000Hz curr sample rate:14.999925 cur rpt rate:0 max:400.000000 min:1.000000
+12-17 19:33:11.100  1795 11747 I qti_sensors_hal: batch: current sample rate, report rate & buffering are equal to requested (14.999925,0.000000,0)
+12-17 19:33:11.100  5224  5224 I Step_LSC: 20002302|onStandStepChanged 65571
+12-17 19:33:11.101  5224  5224 I Step_LSC: 20002302|compensate received
+12-17 19:33:11.103  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4195
+12-17 19:33:11.103  1795  1795 V NotificationService: disableEffects=null canInterrupt=false once update: false
+12-17 19:33:11.103  1795  1795 I WindowManger_keyguard: Finished going to sleep... (why=6)
+12-17 19:33:11.103  1795  1795 I WindowOrientationListener: WindowOrientationListener disabled
+12-17 19:33:11.103  1795  1795 I qti_sensors_hal: batch,376,handle 0, timeout:0 ,period_ns:200000000
+12-17 19:33:11.103  1795  1795 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) handle:0 flags:0x0 period_ns 200000000
+12-17 19:33:11.104  5224  5283 I Step_ExtendStepDataManager: 20002302|before compensate: cache step_4195
+12-17 19:33:11.105  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4195
+12-17 19:33:11.106  5224  5283 I Step_ExtendStepDataManager: 20002302|compensate 24699573 7
+12-17 19:33:11.107  5224  5283 I Step_DataCache: 20002302|getTodayTotalSteps 4196
+12-17 19:33:11.108  5224  5283 I Step_ExtendStepDataManager: 20002302|after compensate: cache step_4196
+12-17 19:33:11.109  2852  2852 I PhoneStatusBar: setSystemUiVisibility vis=80000300 mask=ffffffff oldVal=c0000000 newVal=80000300 diff=40000300
+12-17 19:33:11.109  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_OPAQUE, animate=false
+12-17 19:33:11.109  2852  2852 D BarTransitions.HwPhoneStatusBarView: MODE_TRANSLUCENT -> MODE_OPAQUE animate=false
+12-17 19:33:11.109  2852  2852 D BarTransitions.HwPhoneStatusBarView: applyModeBackground oldMode=MODE_TRANSLUCENT newMode=MODE_OPAQUE animate=false
+12-17 19:33:11.109  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:33:11.109  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:33:11.109  2852  2852 I PhoneStatusBar: cancelAutohide
+12-17 19:33:11.109  2852  2852 I PhoneStatusBar: notifyUiVisibilityChanged:vis=0x80000300, SystemUiVisibility=0x80000300
+12-17 19:33:11.111  3858  4126 I amsnl   : wsr
+12-17 19:33:11.114  1795  1795 I qti_sensors_hal: read from oem info: data_readback
+12-17 19:33:11.114  1795  1795 I qti_sensors_hal: 0xcd, 0xb0, 0x24, 0x3e
+12-17 19:33:11.114  1795  1795 I qti_sensors_hal: 0x66, 0xca, 0x3c, 0x3e
+12-17 19:33:11.114  1795  1795 I qti_sensors_hal: 0xc0, 0x2a, 0x7c, 0x3f
+12-17 19:33:11.114  1795  1795 I qti_sensors_hal: 0x55, 0x0, 0x0, 0x0
+12-17 19:33:11.114  1795  1795 I qti_sensors_hal: 0x0, 0x0, 0x0, 0x0
+12-17 19:33:11.114  1795  1795 E qti_sensors_hal: read from oem info: data_valid_flag=0x55
+12-17 19:33:11.114  1795  1795 E qti_sensors_hal: read from oem info: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:33:11.114  1795  1795 E qti_sensors_hal: Final value: x_offset=0.160831, y_offset=0.184366, z_offset=0.985027
+12-17 19:33:11.114  1795  1795 I qti_sensors_hal: batch:load_acc_oeminf_data x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:33:11.115  1795  1795 I qti_sensors_hal: batch:sensor(android.sensor.accelerometer) sample_rate=5.000000Hz report_rate_f=0.000000Hz curr sample rate:14.999925 cur rpt rate:0 max:400.000000 min:1.000000
+12-17 19:33:11.115  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:33:11.116  1795  1795 I WindowManger_keyguard: onFinishedGoingToSleep(6)
+12-17 19:33:11.116  2852  2867 D KeyguardService: Caller checkPermission fail
+12-17 19:33:11.116  2852  2867 D KeyguardService: KGSvcCall onFinishedGoingToSleep.
+12-17 19:33:11.116  1795  1795 D DeviceIdleController: updateDisplayLocked: screenOn=false
+12-17 19:33:11.116  2852  2867 D KeyguardViewMediator: onFinishedGoingToSleep(6)
+12-17 19:33:11.116  1795  1795 D DeviceIdleController: becomeInactiveIfAppropriateLocked()
+12-17 19:33:11.116  1795  1795 D DeviceIdleController: Moved from STATE_ACTIVE to STATE_INACTIVE
+12-17 19:33:11.116  2852  2867 D KeyguardViewMediator: notifyFinishedGoingToSleep
+12-17 19:33:11.116  1795  1795 D DeviceIdleController: stopMonitoringMotionLocked()
+12-17 19:33:11.116  1795  1795 D DeviceIdleController: scheduleAlarmLocked(1800000, false)
+12-17 19:33:11.116  2852  2867 W AppHandler: sendMessage 15
+12-17 19:33:11.116  1795  1795 I AlarmManager: set(null) : type=2 triggerAtTime=444727480 win=1350000 tElapsed=444727480 maxElapsed=446077480 interval=0 flags=0x8
+12-17 19:33:11.116  1795 11746 D wifiserviceimpl: netmask =16580607
+12-17 19:33:11.117  1795  1795 D DeviceIdleController: Moved from LIGHT_STATE_ACTIVE to LIGHT_STATE_INACTIVE
+12-17 19:33:11.117  1795  1795 D DeviceIdleController: scheduleLightAlarmLocked(300000)
+12-17 19:33:11.117  1795  1795 I AlarmManager: set(null) : type=2 triggerAtTime=443227480 win=225000 tElapsed=443227480 maxElapsed=443452480 interval=0 flags=0x8
+12-17 19:33:11.117  3858  4126 I amsnl   : m1: false
+12-17 19:33:11.117  1795  1795 D HwInputMethodManagerService: ------------startInput--------------
+12-17 19:33:11.118  1795 16498 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:33:11.119  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:33:11.119  2852  2852 D KeyguardViewMediator: handleNotifyFinishedGoingToSleep
+12-17 19:33:11.119  2852  2852 I PhoneStatusBar: onFinishedGoingToSleep
+12-17 19:33:11.119  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:33:11.119  1795  6988 I NotificationManager: onNotificationVisibilityChanged called
+12-17 19:33:11.119  3608  3608 I InCall  : VideoCallFragment - onStop:
+12-17 19:33:11.119  3608  3608 D InCall  : InCallActivity - onStop()...
+12-17 19:33:11.119  3608  3608 D InCall  : InCallPresenter - onActivityStopped
+12-17 19:33:11.119  3608  3608 D InCall  : InCallPresenter - notifyVideoPauseController
+12-17 19:33:11.119  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onPause
+12-17 19:33:11.119  3608  3608 D InCall  : VideoPauseController: - VideoPauseController:onPause, Ignoring...
+12-17 19:33:11.119  3608  3608 I InCall  : InCallPresenter - updateStatusBar: state = 0x0
+12-17 19:33:11.120  1795  2778 D StatusBarManagerService: manageDisableList userId=0 what=0x0 pkg=com.android.incallui
+12-17 19:33:11.120  3608  3608 D InCall  : InCallActivity -  bgCallTwinkingSwitch is true inQuickExiting is false mIsForegroundActivity is false
+12-17 19:33:11.122  3608  3608 I CallUtils: show_incallscreen  0
+12-17 19:33:11.124  1795 16501 D PowerManagerService: release:lock=228612087, flg=0x0, tag="ActivityManager-Sleep", name=android", ws=null, uid=1000, pid=1795
+12-17 19:33:11.124  1795 16501 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:33:11.124  1795 16501 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:33:11.135  1795  1795 V SecInputMethodManagerService: Client requesting input be hidden, pid=1795
+12-17 19:33:11.136  1795  1795 D HwInputMethodManagerService: hideSecSoftInput = false
+12-17 19:33:11.145  1795  2736 E hwintelligencewifi:  DefaultState message.what = 7
+12-17 19:33:11.146  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:33:11.172  2852  2852 V KeyguardStatusView: Disable transport text marquee
+12-17 19:33:11.172  2852  2852 V KeyguardUpdateMonitor: FingerStat Visible: false; Interactive: false; Switching: false; Bouncer:false; GoingToSleep: false Occluded: false; dreaming: false; Authenticated: false
+12-17 19:33:11.173  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:33:11.173  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:33:11.174  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:33:11.174  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:33:11.175  1795 20747 I Security_fingerprint: FingerprintService getEnrolledFingerprints
+12-17 19:33:11.175  2852  2852 V KeyguardUpdateMonitor: KGSvcFp startListeningForFingerprint()
+12-17 19:33:11.175  2852  2852 I KeyguardUpdateMonitor: authenticate by 0 mode!
+12-17 19:33:11.175  1795  1806 I Security_fingerprint: FingerprintService authenticate
+12-17 19:33:11.175  2852  2852 W KeyguardUpdateMonitor: Fingerprint RunningStateChanged. 1
+12-17 19:33:11.176  1795  2326 W HwFingerprintService: setLivenessSwitch:start
+12-17 19:33:11.176  1795  2326 W HwFingerprintService: checkNeedLivenessList:start
+12-17 19:33:11.176  2852  2852 W HwLockScreenPanel: Handle message: 15

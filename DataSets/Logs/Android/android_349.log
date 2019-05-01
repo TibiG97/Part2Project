@@ -1,0 +1,100 @@
+12-17 19:35:38.685  1795 11746 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:38.688  3879  5007 I HwLauncher: Launcher.LauncherProvider  launcher call - method:setAppBadgeCount arg:null extras:[app_shortcut_custom_id=[shortcut_c2a51ac39f4ec2a0c386c385c2b37ac2a040c3a7c289c3bec28b547dc2b0c2a6]][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=2] uid =10105 pid =4492
+12-17 19:35:38.892  1795  1795 I TrafficMonitor: update:rxPkts:3,txPkts:3,rxBytes:742,txBytes:421
+12-17 19:35:38.893  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:35:38.893  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:35:39.120  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:39.121  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:35:39.122  2852  2852 I StackScrollAlgorithm: overlapAmount:525.3814, previousNotificationEnd:258.0, newYTranslation:-267.3814, location:8, i:1, getTopPadding:499.0, getLocationOnScreen():-745
+12-17 19:35:39.122  2852  2852 I StackScrollAlgorithm: state.clipTopAmount:501, i:1
+12-17 19:35:39.122  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:35:39.122  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:35:39.124  1795  3139 I NotificationManager: onNotificationVisibilityChanged called
+12-17 19:35:39.125  1795 16232 I NotificationManager: Marking notification as seen 0|com.tencent.mm|4097|null|10105
+12-17 19:35:39.182  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:35:39.193  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:35:39.196  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 2 mComponentName :ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:35:39.196  3879  4071 I HwLauncher: BadgeContentObserver newBadgeNumber:2,oldBadgeNumber:1 mComponentName : ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:35:39.198  3879  4071 D ApplicationPackageManager: queryIntentActivitiesAsUser size results:1, for package:com.tencent.mm
+12-17 19:35:39.198  3879  4071 I HwLauncher: AllIdleAppsList  updatePackage  isCloneApp =  false
+12-17 19:35:39.199  1795  3225 D ApplicationPackageManager: queryIntentActivitiesAsUser size results:1, for package:com.tencent.mm
+12-17 19:35:39.199  3879  4071 I HwLauncher: AllIdleAppsList  updatePackage : package[com.tencent.mm] matched activity's size is 1 and data List size is 69
+12-17 19:35:39.213  3879  4071 I HwResourcesImpl: load icon id : 7f020360, pkgName : com.tencent.mm
+12-17 19:35:39.213  3879  4071 W CfgFilePolicy: No config file found for:/themes/diff/icons
+12-17 19:35:39.213  3879  4071 W CfgFilePolicy: CFG_DIRS length : 9
+12-17 19:35:39.214  3879  4071 I HwResourcesImpl: icon : com.tencent.mm found in app
+12-17 19:35:39.217  3879  4071 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:35:39.231  3879  4071 I HwLauncher: Launcher.IconCache, cacheLocked  Utilities.createIconBitmap entry.title = 微信 ComponentName:ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI} user:UserHandle{0}
+12-17 19:35:39.231  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:35:39.234  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:35:39.236  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 2 mComponentName :ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:35:39.238  3879  4071 I HwLauncher: Launcher.Utilities  unread scaledHeight = 55;sBigIconSize = 175
+12-17 19:35:39.238  3879  4071 I HwLauncher: Workspace  The same unread count.
+12-17 19:35:39.238  3879  4071 I HwLauncher: Workspace updateCustomizeShortcuts view invalidate ShortcutInfo(title=微信)
+12-17 19:35:39.238  3879  3879 I HwLauncher: Launcher.Folder childCount: 7
+12-17 19:35:39.238  3879  4071 D HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/badge
+12-17 19:35:39.239  3879  3879 I HwLauncher: Launcher.Folder childCount: 2
+12-17 19:35:39.239  3879  3879 I HwLauncher: Launcher.Folder childCount: 6
+12-17 19:35:39.239  3879  3879 I HwLauncher: Launcher.Folder childCount: 3
+12-17 19:35:39.241  3879  4071 I HwLauncher: Launcher.LauncherProvider  queried count: 1
+12-17 19:35:39.242  3879  4071 I HwLauncher: BadgeContentObserver  getBadgeNumber: 2 mComponentName :ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+12-17 19:35:39.244  3879  4071 I HwLauncher: Launcher.Utilities  unread scaledHeight = 55;sBigIconSize = 175
+12-17 19:35:39.888  1795  1795 I TrafficMonitor: expired arrive. level:-1
+12-17 19:35:39.889  1795  1795 I TrafficMonitor: during_ms:2003,period_ms:2000
+12-17 19:35:39.889  1795  1795 I TrafficMonitor: count:105,rx_sum:3,tx_sum:3,rxBytes:742,during_ms:2003,rx_speed:370.44433349975037,tx_speed:210.18472291562654,rto:1.0
+12-17 19:35:39.889  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:3, rxSpd:370B/s, txpkt:3, txSpd:210
+12-17 19:35:39.934  1795  2377 I AwareLog: AwareMem_EventTracker: [POLLING_TIMEOUT_123137550] is abandoned for memory 860704
+12-17 19:35:40.017  2852  2852 I NetworkController.WifiSignalController: Change in state from: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=true,activityOut=true,rssi=-48,lastModified=12-17 07:35:38,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:40.017  2852  2852 I NetworkController.WifiSignalController: 	to: connected=true,enabled=true,level=4,inetCondition=1,iconGroup=IconGroup(Wi-Fi Icons),activityIn=false,activityOut=false,rssi=-48,lastModified=12-17 07:35:38,isChaged:false,wifiNoInternet=false,ssid="Huawei-Employee"
+12-17 19:35:40.017  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:40.019  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:40.020  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:40.020  2852  2852 I SignalClusterView: mWifiVisible is:truemWifiStrengthId is:2130839427mWifiDescription is:WLAN 信号强度满格。
+12-17 19:35:40.022  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:35:40.024  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:35:40.029  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:35:40.332  1795  2748 D HwAmbientLuxFilterAlgo: t=123137948,BT=123138948,DT=123141948,BT1=123141948,DT1=123145948,Bn=false,Dn=false,lx=[129.0/123136444, 130.0/123136744, 118.0/123137045, 118.0/123137346, 113.0/123137647, 114.0/123137948],mLx=17.0,s=5.0,ss=0.1550575,AuIntervened=false,mProximityState=false,bLux=176.0,dLux=3.5,bLux1=176.0,dLux1=3.5
+12-17 19:35:40.344  1795  1795 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+12-17 19:35:40.344  1795  1795 I MQoS    : received cell-signal:5
+12-17 19:35:40.345  2852  3556 I NetworkController.MobileSignalController(0): onSignalStrengthsChanged signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 30 -82 -7 300 2147483647 2147483647 false gw|lte level=5 isSuspend=false levelOld=5,mSignalStrength level=5
+12-17 19:35:40.345  3858  4126 I amsnl   : csr
+12-17 19:35:40.345  1795 16232 I SendBroadcastPermission: action:android.intent.action.SIG_STR, mPermissionType:0
+12-17 19:35:40.346  2852  2914 I HwMobileSignalController: updateSignalStrength: signalStrength=SignalStrength: -1 0 -1 255 -1 255 -1 255 255 30 -82 -7 300 2147483647 2147483647 false gw|lte
+12-17 19:35:40.346  3858  4126 I amsnl   : t:false, fl: false, p: 2147483647000, ce: true, we: true
+12-17 19:35:40.350  1795  1805 D wifiserviceimpl: netmask =16580607
+12-17 19:35:40.351  3858  4126 I amsnl   : m1: false
+12-17 19:35:40.354  2852  2914 I HwMobileSignalController: subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+12-17 19:35:40.354  1795 17831 W ActivityManager: getRunningAppProcesses: caller 10009 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:40.356  3858  4126 I amsnl   : m2: false, m3: false
+12-17 19:35:40.356  3858  4126 I amsnl   : c: true, w: true, t: false, l: false
+12-17 19:35:40.479   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:94) watch thread onLoop... 
+12-17 19:35:40.482   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:35:40.896  1795  1795 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+12-17 19:35:40.896  1795  1795 I TrafficMonitor: start expired. level:-1
+12-17 19:35:40.896  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:35:40.934   533  3739 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-17 19:35:41.235  1795  2748 D lux trace:: [106.0/123134806, 109.0/123135181, 124.0/123135554, 129.0/123135907, 130.0/123136616, 118.0/123136972, 113.0/123137347, 114.0/123137703, 116.0/123138076, 122.0/123138433, 120.0/123138808]
+12-17 19:35:41.369  1795  2728 D HwArpVerifier: check_wifi_state_mode = 0 mCheckStateToken=1008 token1008
+12-17 19:35:41.370  1795  2728 D HwArpVerifier: reportArpDetail: 10.33.8.1  00:00:5e:00:01:09   2   wlan0
+12-17 19:35:41.371  1795  2728 D wifiserviceimpl: netmask =16580607
+12-17 19:35:41.403  1795  2728 D HWMultiGW: setGateWay 10.33.8.1
+12-17 19:35:41.439  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:35:41.440  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:35:41.444  5215  5215 E wpa_supplicant: RSSI=-44;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:35:41.444  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:35:41.445  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:41.446  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-43 "Huawei-Employee"WPA_EAP
+12-17 19:35:41.448  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:35:41.486   633   692 I eSpaceService: Watch Thread{4481} LoginC.doWatch(LoginC.java:1459) Login_By_Step-> watch count =  0
+12-17 19:35:42.009   802   802 E Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 27
+12-17 19:35:42.009   802   802 E Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+12-17 19:35:42.226  1795 15988 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:35:42.405  1795  2728 D HwArpVerifier: getGateWayARPResponses: arp rtt = 18
+12-17 19:35:42.406  1795  2728 E HwCHRWifiRSSIGroupSummery: updatArpSummery mRSSI:-44  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=96, rtt_tcp_duration=841, rtt_lan_duration=223, rtt_lan_failures=0, rtt_lan_succ=7, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:35:42.440  1795  2748 D HwAmbientLuxFilterAlgo: t=123140057,BT=123141057,DT=123144057,BT1=123144057,DT1=123148057,Bn=false,Dn=false,lx=[122.0/123138551, 120.0/123138853, 120.0/123139154, 125.0/123139455, 121.0/123139756, 122.0/123140057],mLx=17.0,s=5.0,ss=0.025854517,AuIntervened=false,mProximityState=false,bLux=176.0,dLux=3.5,bLux1=176.0,dLux1=3.5
+12-17 19:35:42.444  1795  2728 D HwArpVerifier: There are 1 mac address for gateway 
+12-17 19:35:42.444  1795  2728 D HwArpVerifier: from HEART_CHECK transmit to state:HEART_CHECK
+12-17 19:35:42.444  1795  2728 D HwArpVerifier: msg what=124 arg1(token)=1008 arg2(mode)=0 delay=30000
+12-17 19:35:42.444  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:35:42.452  1795  2728 D hw_netstat: total/742/421,com.tencent.mm/562/369,com.huawei.espacev2/180/52
+12-17 19:35:42.457  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=2  WEBRESENDSEGS=0  WEBRECVSEGS=2  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=1  WEBRTTSEGS=1  WEBSRTT=80  WEBSNDDUPACKS=0  SENDSEGS=1  RESENDSEGS=0  RECVSEGS=1  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=0  RTTSEGS=0  SNDDUPACKS=0  suckTimes=0 recovage_times=0]

@@ -1,0 +1,100 @@
+12-17 19:31:40.252  1795  2671 D WifiStateMachine:  DriverStartedState CMD_SET_SUSPEND_OPT_ENABLED  rt=123013424/442836616 1 0
+12-17 19:31:40.252  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 1'
+12-17 19:31:40.253  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 1'
+12-17 19:31:40.255  2852  2852 I HwExpandableNotificationRowHelper: unclear notification ,notificationPkgName:com.android.incallui key:0|com.android.incallui|2|null|1001
+12-17 19:31:40.257  2852  2852 D StatusBar: No peeking: unimportant notification: 0|com.android.incallui|2|null|1001
+12-17 19:31:40.257  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.android.incallui|2|null|1001, group=0|com.android.incallui|2|null|1001
+12-17 19:31:40.257  2852  2852 I HwPhoneStatusBar: updateNotificationShade
+12-17 19:31:40.257  2852  2852 I PhoneStatusBar: updateNotificationShade
+12-17 19:31:40.257  2852  2852 I PhoneStatusBar: removeNotificationChildren
+12-17 19:31:40.261  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:31:40.262  3218  4159 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 phoneId=0
+12-17 19:31:40.262  3218  4159 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=0 retVal=false
+12-17 19:31:40.262  1795  1795 D HwConnectivityService: CtrlSocket getMobileDataEnabled = false
+12-17 19:31:40.264  2852  2852 I StackScroller: generateAddAnimation:null, false
+12-17 19:31:40.264  1795  2396 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:31:40.265  2852  2852 I HwNotificationIconAreaController: showNotificationAll
+12-17 19:31:40.265  1795  6988 I NotificationManager: onNotificationExpansionChanged called
+12-17 19:31:40.267  2852  2852 D ReporterUtil:  e id:344 type:{pkg:com.android.incallui}
+12-17 19:31:40.267  2852  2852 D KeyguardViewMediator: handleNotifyFinishedGoingToSleep
+12-17 19:31:40.267  2852  2852 I PhoneStatusBar: onFinishedGoingToSleep
+12-17 19:31:40.267  2852  2852 V KeyguardStatusView: Disable transport text marquee
+12-17 19:31:40.267  2852  2852 V KeyguardUpdateMonitor: FingerStat Visible: false; Interactive: false; Switching: false; Bouncer:false; GoingToSleep: false Occluded: false; dreaming: false; Authenticated: false
+12-17 19:31:40.268  1795  1795 I NotificationManager: mIntentReceiver-ACTION_SCREEN_OFF
+12-17 19:31:40.269  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = false,ledNotification == null?true
+12-17 19:31:40.269  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:31:40.269  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:31:40.269  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:31:40.269  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:31:40.269  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:31:40.269  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:31:40.269  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:31:40.270  2852  2852 W DisabledFeatureUtils: Dis-Feature : 0
+12-17 19:31:40.270  2852  2852 E KeyguardUpdateMonitor: isSimPinSecure mSimDatas is null or empty 
+12-17 19:31:40.270  1795  1806 I Security_fingerprint: FingerprintService getEnrolledFingerprints
+12-17 19:31:40.271  2852  2852 V KeyguardUpdateMonitor: KGSvcFp startListeningForFingerprint()
+12-17 19:31:40.271  2852  2852 I KeyguardUpdateMonitor: authenticate by 0 mode!
+12-17 19:31:40.272  1795 11747 I Security_fingerprint: FingerprintService authenticate
+12-17 19:31:40.272  1795  2326 W HwFingerprintService: setLivenessSwitch:start
+12-17 19:31:40.272  1795  2326 W HwFingerprintService: checkNeedLivenessList:start
+12-17 19:31:40.272  1795  2326 W HwFingerprintService: NEED_LIVENESS_AUTHENTICATION = 0
+12-17 19:31:40.272  2852  2852 W KeyguardUpdateMonitor: Fingerprint RunningStateChanged. 1
+12-17 19:31:40.272  2852  2852 W HwLockScreenPanel: Handle message: 15
+12-17 19:31:40.272  1046  9752 V ThreadsEx: HDebug print the key screen_state
+12-17 19:31:40.273   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:1002
+12-17 19:31:40.273   835   835 I fingerprintd: fingerprintd
+12-17 19:31:40.273   835   835 I fingerprintd: FingerprintDaemonProxyEx::setLivenessSwitch
+12-17 19:31:40.273   835   835 I fingerprintd: fingerprintdex--dev->need_liveness_authentication = false;
+12-17 19:31:40.273  1046  9752 D audio_hw_primary: adev_set_parameters: enter: screen_state=off
+12-17 19:31:40.273  1046  9752 I Huawei_audio_cust: huawei_audio huawei_choose_HandsFree_device_incall_forHWtest: test Type =4
+12-17 19:31:40.273  1046  9752 I Huawei_audio_cust: huawei_audio huawei_choose_Handset_device_incall_forHWtest: test Type =4
+12-17 19:31:40.273  1795  2326 W HwFingerprintService: framework setLivenessSwitch is ok ---end
+12-17 19:31:40.273  1046  9752 I Huawei_audio_cust: get_spk_pa_type: pa is max98925
+12-17 19:31:40.273  1046  9752 I Huawei_audio_cust: huawei_common_set_parameters: exit with code(0)
+12-17 19:31:40.273  1046  9752 V Huawei_audio_cust: huawei_cust_set_parameters: exit with code(0)
+12-17 19:31:40.273  1046  9752 V msm8916_platform: platform_set_parameters: enter: - screen_state=off
+12-17 19:31:40.273  1046  9752 V msm8916_platform: platform_set_parameters: exit with code(0)
+12-17 19:31:40.273  1046  9752 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:31:40.273  1046  9752 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:31:40.273  2852  2852 W CameraLayout: Cameralayout setVisibility. true false  2
+12-17 19:31:40.273  2852  2852 D MagazineDetailView: resetPagerState
+12-17 19:31:40.273  1046  9752 V audio_hw_primary: adev_set_parameters: exit with code(0)
+12-17 19:31:40.273   835   835 I fingerprintd: FingerprintDaemonProxyEx::onTransact, code:7
+12-17 19:31:40.273   835   835 D fpc_fingerprint_hal: fpc_get_authenticator_id
+12-17 19:31:40.273   835  2385 D fpc_fingerprint_hal: fpc poll irq interupt
+12-17 19:31:40.273   835  2385 D fpc_fingerprint_hal: wait_finger_down, took 2017 ms
+12-17 19:31:40.274   835  2385 E libteec : begin
+12-17 19:31:40.274   606  2379 E libteec : receive data len = 128
+12-17 19:31:40.276  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:31:40.276  2852  2852 I BadgedIconHelper: isCloneProcess = false
+12-17 19:31:40.277  1795  1795 I AlarmManager: set(PendingIntent{2f9e644: PendingIntentRecord{527f32d android broadcastIntent}}) : type=2 triggerAtTime=447096640 win=300000 tElapsed=447096640 maxElapsed=447396640 interval=0 flags=0x8
+12-17 19:31:40.280  1795  1795 D HwPFWLogger: PFW.HwPFWService:mBroadcastReceiver action = android.intent.action.SCREEN_OFF
+12-17 19:31:40.280  1795  2708 D HwPFWLogger: PFW.HwPFWService:handle PFW_MSG_SYSTEM
+12-17 19:31:40.280  1795  2708 D HwPFWLogger: PFW.HwPFWAppRestartPolicy:receive action = android.intent.action.SCREEN_OFF
+12-17 19:31:40.282  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:31:40.282  1795  1795 D WifiService: onReceive, action:android.intent.action.SCREEN_OFF
+12-17 19:31:40.282  5215  5215 D wpa_supplicant: wpa_driver_nl80211_driver_cmd SETSUSPENDMODE 1 len = 0, 4096
+12-17 19:31:40.282  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:31:40.282  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155651 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:31:40.282  1795  2670 D WifiController: StaEnabledState what=155651
+12-17 19:31:40.282  1795  2670 D WifiController: DefaultState what=155651
+12-17 19:31:40.282  1795  2670 D WifiController: wifiSleepPolicy:1
+12-17 19:31:40.282  1795  2670 D WifiController: set idle timer: 1800000 ms
+12-17 19:31:40.283  1795  2670 I AlarmManager: set(PendingIntent{50e3a01: PendingIntentRecord{a8130a6 android broadcastIntent}}) : type=0 triggerAtTime=1481976100282 win=0 tElapsed=444636646 maxElapsed=444636646 interval=0 flags=0x9
+12-17 19:31:40.283  2852  2852 I NotificationContentView: transferRemoteInputFocus: 0
+12-17 19:31:40.283  1795  2671 D PowerManagerService: release:lock=244575063, flg=0x0, tag="WifiSuspend", name=android", ws=null, uid=1000, pid=1795
+12-17 19:31:40.284  1795  2671 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:40.284  1795  2671 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:40.284  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:31:40.284  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:31:40.284  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:31:40.284  2852  2852 I NotificationContentView: transferRemoteInputFocus: 1
+12-17 19:31:40.285  2852  2852 I HwExpandableNotificationRowHelper: unclear notification ,notificationPkgName:com.android.incallui key:0|com.android.incallui|2|null|1001
+12-17 19:31:40.285  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:31:40.285  2852  2852 I ActivatableNotificationView: setOverlap mOverlap:true, mDimmed:false
+12-17 19:31:40.288   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:40.288   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:40.288   835  2385 E libteec : receive data len = 128
+12-17 19:31:40.288   835  2385 E libteec : begin
+12-17 19:31:40.288   835  2385 E libteec : qsc_decode end
+12-17 19:31:40.288   835  2385 D fpc_fingerprint_hal: worker idle

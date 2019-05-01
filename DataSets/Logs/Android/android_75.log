@@ -1,0 +1,100 @@
+12-17 19:31:51.396  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 2, mHwSingleScanCounter: 0
+12-17 19:31:51.397  1795  1795 D HwConnectivityService: mIntentReceiver begin
+12-17 19:31:51.397  1795  1795 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:31:51.397  1795  2671 I AlarmManager: set(null) : type=2 triggerAtTime=442852152 win=0 tElapsed=442852761 maxElapsed=442852761 interval=0 flags=0x9
+12-17 19:31:51.397  1795  1795 D HwConnectivityService: CtrlSocket Receiver,disable: false locked: true action: android.intent.action.SCREEN_ON mSmartKeyguardLevel: normal_level mStartPowerSaving: false
+12-17 19:31:51.397  1795  1795 D HwConnectivityService: CtrlSocket receive screen on intent!
+12-17 19:31:51.397  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus
+12-17 19:31:51.397  1795  1795 D HwConnectivityService: pid=1000, cmd=100, param=0
+12-17 19:31:51.397  1795  1795 D HwConnectivityService: mFilterMsgFlag: 0,msg.arg1: 3
+12-17 19:31:51.397  1795  2691 D HwConnectivityService: handleFilterMsg action: 3mFilterMsgFlag3
+12-17 19:31:51.397  1795  2691 D HwConnectivityService: [tiger]setBastetFilterInfo action 3pid 1000
+12-17 19:31:51.397  1795  2691 D HwConnectivityService: stopFilter m_filterIsStarted:false
+12-17 19:31:51.398  1795  2671 D WifiStateMachine:  ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123024569/442847761 1 0
+12-17 19:31:51.398  1795  1795 D HwConnectivityService: CtrlSocket processCtrlSocket pid = 1000 cmd = 100 param = 0 ret = 0
+12-17 19:31:51.398  1795  1795 D HwConnectivityService: CtrlSocket restoreScrOnStatus reset
+12-17 19:31:51.398  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_ENABLE_RSSI_POLL  rt=123024570/442847761 1 0
+12-17 19:31:51.398  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:31:51.398  3180  3180 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:31:51.398  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:31:51.398  3180  3180 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:31:51.400  1795  1795 I NotificationManager: mIntentReceiver-ACTION_SCREEN_ON
+12-17 19:31:51.400  1795  1795 I NotificationManager: updateLightsLocked,mInCall =true,mScreenOn = true,ledNotification == null?true
+12-17 19:31:51.400  1795  1795 I NotificationManager: updateLightsLocked,turn off notificationLight
+12-17 19:31:51.400  1795  1795 I Sensor  : turn off notificationLight due to incall or screenon
+12-17 19:31:51.401  1795  1795 I Sensor  : updateLight --> mIsNotificationExisting: false ledOnMS: 0 ledOffMS :0
+12-17 19:31:51.401  1795  1795 I Sensor  : updateLightsLocked --> level:78, status:3
+12-17 19:31:51.401  1795  1795 I Sensor  : updateLightsLocked --> mBatteryLight.turnOff
+12-17 19:31:51.403  1046  1046 V ThreadsEx: HDebug print the key screen_state
+12-17 19:31:51.403  1046  1046 D audio_hw_primary: adev_set_parameters: enter: screen_state=on
+12-17 19:31:51.403  1046  1046 I Huawei_audio_cust: huawei_audio huawei_choose_HandsFree_device_incall_forHWtest: test Type =4
+12-17 19:31:51.403  1046  1046 I Huawei_audio_cust: huawei_audio huawei_choose_Handset_device_incall_forHWtest: test Type =4
+12-17 19:31:51.403  1046  1046 I Huawei_audio_cust: get_spk_pa_type: pa is max98925
+12-17 19:31:51.403  1046  1046 I Huawei_audio_cust: huawei_common_set_parameters: exit with code(0)
+12-17 19:31:51.403  1046  1046 V Huawei_audio_cust: huawei_cust_set_parameters: exit with code(0)
+12-17 19:31:51.403  1046  1046 V msm8916_platform: platform_set_parameters: enter: - screen_state=on
+12-17 19:31:51.403  1046  1046 V msm8916_platform: platform_set_parameters: exit with code(0)
+12-17 19:31:51.403  1046  1046 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:31:51.403  1046  1046 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:31:51.403  1046  1046 V audio_hw_primary: adev_set_parameters: exit with code(0)
+12-17 19:31:51.406  1795  1795 I AlarmManager: remove(PendingIntent{2f9e644: PendingIntentRecord{527f32d android broadcastIntent}}) changed bounds; rebatching
+12-17 19:31:51.409  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.026532 Y: 7.549414 Z: 5.238188  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:51.411  1795  1795 D HwPFWLogger: PFW.HwPFWService:mBroadcastReceiver action = android.intent.action.SCREEN_ON
+12-17 19:31:51.411  1795  2708 D HwPFWLogger: PFW.HwPFWService:handle PFW_MSG_SYSTEM
+12-17 19:31:51.411  1795  2708 D HwPFWLogger: PFW.HwPFWAppRestartPolicy:receive action = android.intent.action.SCREEN_ON
+12-17 19:31:51.411  5215  5215 E wpa_supplicant: RSSI=-56;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:31:51.411  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:31:51.411  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:31:51.411  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-56 "Huawei-Employee"WPA_EAP
+12-17 19:31:51.412  1795  2671 D WifiStateMachine:  ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123024583/442847775 0 0
+12-17 19:31:51.412  1795  2671 D WifiStateMachine:  L2ConnectedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123024584/442847775 0 0
+12-17 19:31:51.412  1795  2671 D WifiStateMachine:  ConnectModeState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123024584/442847775 0 0
+12-17 19:31:51.412  1795  2671 D WifiStateMachine:  DriverStartedState !CMD_SET_SUSPEND_OPT_ENABLED  rt=123024584/442847775 0 0
+12-17 19:31:51.412  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 DRIVER SETSUSPENDMODE 0'
+12-17 19:31:51.412  5215  5215 D wpa_supplicant: wlan0: Control interface command 'DRIVER SETSUSPENDMODE 0'
+12-17 19:31:51.413  1795  1795 D WifiService: onReceive, action:android.intent.action.SCREEN_ON
+12-17 19:31:51.413  1795  2670 D WifiController: DeviceActiveState{ when=0 what=155650 target=com.android.internal.util.StateMachine$SmHandler }
+12-17 19:31:51.413  1795  2670 D WifiController: StaEnabledState what=155650
+12-17 19:31:51.413  1795  2670 D WifiController: DefaultState what=155650
+12-17 19:31:51.414  1795  2670 I AlarmManager: remove(PendingIntent{50e3a01: PendingIntentRecord{a8130a6 android broadcastIntent}}) changed bounds; rebatching
+12-17 19:31:51.416  1795  1795 D HwArpVerifier: startWifiRouteCheck
+12-17 19:31:51.418  1795  2733 D WiFi_PRO_WifiProStateMachine: device screen on,but isScreenOffMonitor is false
+12-17 19:31:51.418  1795  1795 D WifiProStatisticsManager: sendScreenOnEvent enter.
+12-17 19:31:51.418  1795  2734 D WifiProStatisticsManager: msg Loop is running.
+12-17 19:31:51.424  1795  1795 I EyeProtectionControllerImpl: onReceive intent action = android.intent.action.SCREEN_ON
+12-17 19:31:51.427  1795  2736 D HwInnerWifiManagerImpl: SupplicantState = COMPLETED
+12-17 19:31:51.427  1795  2736 D HwInnerWifiManagerImpl: isPhoneAP = false
+12-17 19:31:51.431  2883  2883 D HwKeyguardManagerImpl: isLockScreenDisabled HwKeyguardManagerImpl result = false
+12-17 19:31:51.431  1795  3139 D PowerManagerService: acquire lock=184063844, flags=0x1, tag="NetworkStats", name=android, ws=null, uid=1000, pid=1795
+12-17 19:31:51.432  1795  3139 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x11,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:51.432  1795  3139 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:51.432  3218  3236 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:31:51.432  3218  3236 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:31:51.434  1795  3139 D NetdConnector: SND -> {11604 bandwidth gettetherstats}
+12-17 19:31:51.436  1795  2665 D NetdConnector: RCV <- {200 11604 Tethering stats list completed}
+12-17 19:31:51.436  2883  2883 I HwSystemManager: AutoCleanReceiveServer:receive action:android.intent.action.SCREEN_ON
+12-17 19:31:51.436  1795  2665 D NetdConnector: RCV <- {200 11604 Tethering stats list completed}
+12-17 19:31:51.437  3626  3626 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:31:51.438  1795  2736 E hwintelligencewifi: getCurrentCellid type type = PHONE_TYPE_GSM
+12-17 19:31:51.438  1795  2736 E hwintelligencewifi: getCurrentCellid type is PHONE_TYPE_GSM
+12-17 19:31:51.439  1795  3139 W NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+12-17 19:31:51.439  1795  3139 D HwNetworkStatsService: mActiveIface: null
+12-17 19:31:51.440  1795  2736 E hwintelligencewifi: getCurrentCellid PHONE_TYPE_GSM cellidString = 460003645
+12-17 19:31:51.440  1795  2736 E hwintelligencewifi: updataApInfo cellid =460003645
+12-17 19:31:51.440  1795  2736 E hwintelligencewifi: addCurrentApInfo cellid =460003645
+12-17 19:31:51.440  1795  3139 I SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+12-17 19:31:51.441  3168  3168 I CHR_ChrDataServiceTracker: handledataswitchchanged
+12-17 19:31:51.442  1795  3077 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_ON
+12-17 19:31:51.442  1795  3077 I GnssLocationProvider: updateLowPowerMode,isPowerSaveMode:falseisInteractive:true
+12-17 19:31:51.442  1795  3077 I GnssLocationProvider: disableGps:false  isEnabled()=true
+12-17 19:31:51.443  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:31:51.443  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:31:51.443  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:31:51.443  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:31:51.443  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:31:51.443  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:31:51.443  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:31:51.443  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:31:51.443  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:31:51.443  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:31:51.444  1795  3139 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{34bf34f 0:system/1000}

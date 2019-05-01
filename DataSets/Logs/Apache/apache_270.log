@@ -1,0 +1,100 @@
+[Wed Nov 30 13:47:51 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Wed Nov 30 13:47:51 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Wed Nov 30 13:47:51 2005] [error] mod_jk child workerEnv in error state 6
+[Wed Nov 30 13:47:51 2005] [error] mod_jk child workerEnv in error state 7
+[Wed Nov 30 13:47:51 2005] [error] mod_jk child workerEnv in error state 7
+[Wed Nov 30 13:47:51 2005] [error] mod_jk child workerEnv in error state 7
+[Wed Nov 30 13:50:46 2005] [notice] jk2_init() Found child 8834 in scoreboard slot 8
+[Wed Nov 30 13:50:46 2005] [notice] jk2_init() Found child 8833 in scoreboard slot 7
+[Wed Nov 30 13:50:46 2005] [notice] jk2_init() Found child 8835 in scoreboard slot 9
+[Wed Nov 30 13:50:51 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Wed Nov 30 13:50:51 2005] [error] mod_jk child workerEnv in error state 5
+[Wed Nov 30 13:50:51 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Wed Nov 30 13:50:51 2005] [error] mod_jk child workerEnv in error state 5
+[Wed Nov 30 13:50:51 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Wed Nov 30 13:50:51 2005] [error] mod_jk child workerEnv in error state 5
+[Wed Nov 30 13:56:58 2005] [notice] jk2_init() Found child 8849 in scoreboard slot 7
+[Wed Nov 30 13:56:58 2005] [notice] jk2_init() Found child 8848 in scoreboard slot 6
+[Wed Nov 30 13:56:58 2005] [notice] jk2_init() Found child 8850 in scoreboard slot 8
+[Wed Nov 30 13:56:58 2005] [notice] jk2_init() Found child 8847 in scoreboard slot 9
+[Wed Nov 30 13:57:02 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Wed Nov 30 13:57:02 2005] [error] mod_jk child workerEnv in error state 5
+[Wed Nov 30 13:57:02 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Wed Nov 30 13:57:02 2005] [error] mod_jk child workerEnv in error state 5
+[Wed Nov 30 13:57:02 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Wed Nov 30 13:57:02 2005] [error] mod_jk child workerEnv in error state 5
+[Wed Nov 30 13:57:02 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Wed Nov 30 13:57:02 2005] [error] mod_jk child workerEnv in error state 5
+[Thu Dec 01 11:45:15 2005] [notice] jk2_init() Found child 16713 in scoreboard slot 10
+[Thu Dec 01 11:45:16 2005] [error] [client 192.195.225.6] Directory index forbidden by rule: /var/www/html/
+[Thu Dec 01 11:45:17 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Thu Dec 01 11:45:17 2005] [error] mod_jk child workerEnv in error state 5
+[Thu Dec 01 12:05:00 2005] [error] [client 70.88.105.89] Directory index forbidden by rule: /var/www/html/
+[Thu Dec 01 12:40:00 2005] [error] [client 69.234.162.251] Directory index forbidden by rule: /var/www/html/
+[Thu Dec 01 13:31:05 2005] [error] [client 220.237.79.60] Directory index forbidden by rule: /var/www/html/
+[Thu Dec 01 16:35:15 2005] [error] [client 220.166.20.131] Directory index forbidden by rule: /var/www/html/
+[Thu Dec 01 18:24:25 2005] [notice] jk2_init() Found child 17401 in scoreboard slot 11
+[Thu Dec 01 18:24:30 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Thu Dec 01 18:24:30 2005] [error] mod_jk child workerEnv in error state 5
+[Thu Dec 01 18:27:57 2005] [notice] jk2_init() Found child 17412 in scoreboard slot 13
+[Thu Dec 01 18:27:57 2005] [notice] jk2_init() Found child 17411 in scoreboard slot 12
+[Thu Dec 01 18:27:57 2005] [notice] jk2_init() Found child 17415 in scoreboard slot 16
+[Thu Dec 01 18:27:57 2005] [notice] jk2_init() Found child 17416 in scoreboard slot 17
+[Thu Dec 01 18:27:57 2005] [notice] jk2_init() Found child 17417 in scoreboard slot 18
+[Thu Dec 01 18:27:57 2005] [notice] jk2_init() Found child 17414 in scoreboard slot 15
+[Thu Dec 01 18:27:57 2005] [notice] jk2_init() Found child 17413 in scoreboard slot 14
+[Thu Dec 01 18:27:58 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:27:59 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:27:59 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:27:59 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:27:59 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:28:00 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/awstats/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] File does not exist: /var/www/html/blog
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats
+[Thu Dec 01 18:28:01 2005] [error] [client 61.19.31.42] script not found or unable to stat: /var/www/cgi-bin/awstats
+script not found or unable to stat
+script not found or unable to stat

@@ -1,0 +1,100 @@
+12-17 19:42:27.365   633 20915 E SDK     : 
+12-17 19:42:27.365   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:365 Level[NOTICE] magic[2522765600 2326]:FSM_OpenFile => [START],Mode[r]
+12-17 19:42:27.365   633 20915 I SDK     : 
+12-17 19:42:27.365   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:365 Level[NOTICE] magic[2522765600 6458]:FSM_Tool_TreatFolderEncEx => [START]: pcFileName [cffb628ad277b3e98d6e9ae9dceca2a7_ticketInfo] 
+12-17 19:42:27.365   633 20915 I SDK     : 
+12-17 19:42:27.366   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:366 Level[ERR] magic[2522765600 10969]:FSM_Tool_LibcAccess ==> call access err path:</mnt/sdcard/sandbox/AnyOfficeSDK/sdk/UppmQLksydF4jiPx7vvVu9V8mxcQz4u8FMyhVWeaf4r8PYFKsAcTCTM-8ql+qSoV>, errno:<2>
+12-17 19:42:27.366   633 20915 E SDK     : 
+12-17 19:42:27.366   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:366 Level[ERR] magic[2522765600 781]:AnyOffice_API_JudgePathCallBack111 /mnt/sdcard/sandbox/AnyOfficeSDK/sdk/cffb628ad277b3e98d6e9ae9dceca2a7_ticketInfo /data/data/com.huawei.svn.hiwork/config/smime /mnt/sdcard/AnyOffice/MailContent/flags
+12-17 19:42:27.366   633 20915 E SDK     : 
+12-17 19:42:27.367   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:366 Level[ERR] magic[2522765600 10969]:FSM_Tool_LibcAccess ==> call access err path:</mnt/sdcard/sandbox/AnyOfficeSDK/sdk/cffb628ad277b3e98d6e9ae9dceca2a7_ticketInfo>, errno:<2>
+12-17 19:42:27.367   633 20915 E SDK     : 
+12-17 19:42:27.367   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:367 Level[ERR] magic[2522765600 200]:libcOpenFile => fopen[2]: path</mnt/sdcard/sandbox/AnyOfficeSDK/sdk/cffb628ad277b3e98d6e9ae9dceca2a7_ticketInfo>, mode<r>
+12-17 19:42:27.367   633 20915 E SDK     : 
+12-17 19:42:27.368   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:367 Level[ERR] magic[2522765600 1818]:get =>FSM_Tool_CreateFileHandle error [-1000]
+12-17 19:42:27.368   633 20915 E SDK     : 
+12-17 19:42:27.368   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:368 Level[ERR] magic[2522765600 1189]:FSM_Tool_TreatFolderKeyInfoNew =>GetKeyInfo  error[-1000]
+12-17 19:42:27.368   633 20915 E SDK     : 
+12-17 19:42:27.368   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:368 Level[ERR] magic[2522765600 1552]:FSM_Tool_Tree_Enc_Path 1 fail(-1000) continue
+12-17 19:42:27.368   633 20915 E SDK     : 
+12-17 19:42:27.369   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:368 Level[ERR] magic[2522765600 10969]:FSM_Tool_LibcAccess ==> call access err path:</mnt/sdcard/sandbox/AnyOfficeSDK/sdk/cffb628ad277b3e98d6e9ae9dceca2a7_ticketInfo>, errno:<2>
+12-17 19:42:27.369   633 20915 E SDK     : 
+12-17 19:42:27.369   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:369 Level[ERR] magic[2522765600 10969]:FSM_Tool_LibcAccess ==> call access err path:</mnt/sdcard/sandbox/AnyOfficeSDK/sdk/cffb628ad277b3e98d6e9ae9dceca2a7_ticketInfo>, errno:<2>
+12-17 19:42:27.369   633 20915 E SDK     : 
+12-17 19:42:27.369   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:369 Level[NOTICE] magic[2522765600 1564]:FSM_Tool_Tree_Enc_Path end [/mnt/sdcard/sandbox/AnyOfficeSDK/sdk/UppmQLksydF4jiPx7vvVu9V8mxcQz4u8FMyhVWeaf4r8PYFKsAcTCTM-8ql+qSoV]
+12-17 19:42:27.369   633 20915 I SDK     : 
+12-17 19:42:27.370   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:370 Level[ERR] magic[2522765600 200]:libcOpenFile => fopen[2]: path</mnt/sdcard/sandbox/AnyOfficeSDK/sdk/UppmQLksydF4jiPx7vvVu9V8mxcQz4u8FMyhVWeaf4r8PYFKsAcTCTM-8ql+qSoV>, mode<r>
+12-17 19:42:27.370   633 20915 E SDK     : 
+12-17 19:42:27.370   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:370 Level[ERR] magic[2522765600 1992]:get =>FSM_Tool_CreateFileHandle error [-1000]
+12-17 19:42:27.370   633 20915 E SDK     : 
+12-17 19:42:27.371   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:370 Level[NOTICE] magic[2522765600 2361]:FileSec: no bundle id in file tail.
+12-17 19:42:27.371   633 20915 I SDK     : 
+12-17 19:42:27.371   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:371 Level[NOTICE] magic[2522765600 2421]:FileSec: have right to open file due to cur app sec level = 0 is higher than file app() sec level = 0.
+12-17 19:42:27.371   633 20915 I SDK     : 
+12-17 19:42:27.372   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:372 Level[ERR] magic[2522765600 200]:libcOpenFile => fopen[2]: path</mnt/sdcard/sandbox/AnyOfficeSDK/sdk/UppmQLksydF4jiPx7vvVu9V8mxcQz4u8FMyhVWeaf4r8PYFKsAcTCTM-8ql+qSoV>, mode<rb>
+12-17 19:42:27.372   633 20915 E SDK     : 
+12-17 19:42:27.372   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:372 Level[ERR] magic[2522765600 2503]:FSM_OpenFile => [ERROR] fname</mnt/sdcard/sandbox/AnyOfficeSDK/sdk/cffb628ad277b3e98d6e9ae9dceca2a7_ticketInfo> handle<00000000> err<-1000>
+12-17 19:42:27.372   633 20915 E SDK     : 
+12-17 19:42:27.372   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:372 Level[ERR] magic[2522765600 116]:FSM_LibcOpenFile:FSM_OpenFile failed[/mnt/sdcard/sandbox/AnyOfficeSDK/sdk/cffb628ad277b3e98d6e9ae9dceca2a7_ticketInfo]
+12-17 19:42:27.372   633 20915 E SDK     : 
+12-17 19:42:27.372   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:372 Level[ERR] magic[2522765600 1764]:failed to read group with error code 1
+12-17 19:42:27.372   633 20915 E SDK     : 
+12-17 19:42:27.373   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:373 Level[NOTICE] magic[2522765600 218]:Already set not to check CA!
+12-17 19:42:27.373   633 20915 I SDK     : 
+12-17 19:42:27.373   633 20915 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:373 Level[ERR] magic[2522765600 2612]:API_CreateTunnel : register info connection type 0
+12-17 19:42:27.373   633 20915 E SDK     : 
+12-17 19:42:27.373   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:373 Level[NOTICE] magic[2522765600 2470]:create tunnel with app id
+12-17 19:42:27.373   633 20915 I SDK     : 
+12-17 19:42:27.374   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:373 Level[NOTICE] magic[2522765600 3026]:end to convert binary to hexstream
+12-17 19:42:27.374   633 20915 I SDK     : 
+12-17 19:42:27.374   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:374 Level[NOTICE] magic[2522765600 2483]:create tunnel with sig 32
+12-17 19:42:27.374   633 20915 I SDK     : 
+12-17 19:42:27.374   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:374 Level[NOTICE] magic[2522765600 542]:L4VPN Create Tunnel!
+12-17 19:42:27.374   633 20915 I SDK     : 
+12-17 19:42:27.374   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:374 Level[NOTICE] magic[2522765600 1934]:API create tunnel Ex!
+12-17 19:42:27.374   633 20915 I SDK     : 
+12-17 19:42:27.375   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:374 Level[NOTICE] magic[2522765600 756]:SVN version:2.6.0301.0030, Compile at:Jul  4 2016 07:49:49, SSL version:OpenSSL 1.0.2h  3 May 2016, platform:[Android], LoginSeq:[35] 
+12-17 19:42:27.375   633 20915 I SDK     : 
+12-17 19:42:27.375   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:375 Level[NOTICE] magic[2522765600 7159]:Register info: server [45.249.212.36];port[443];mode[3];APN id[0],name[];!
+12-17 19:42:27.375   633 20915 I SDK     : 
+12-17 19:42:27.375   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:375 Level[NOTICE] magic[2522765600 7167]:proxy info: [];port[0];type[0];name[];domain[]!
+12-17 19:42:27.375   633 20915 I SDK     : 
+12-17 19:42:27.376   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:376 Level[NOTICE] magic[2522765600 4512]:Set the register info ok!
+12-17 19:42:27.376   633 20915 I SDK     : 
+12-17 19:42:27.376   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:376 Level[NOTICE] magic[2522765600 4274]:Send ipc msg ok: src task is [78], dst task is [78], msg type is [1]!
+12-17 19:42:27.376   633 20915 I SDK     : 
+12-17 19:42:27.376   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:376 Level[NOTICE] magic[3367250208 5647]:Process self login msg!
+12-17 19:42:27.376   633 31869 I SDK     : 
+12-17 19:42:27.377   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:376 Level[NOTICE] magic[3367250208 2295]:SSL connect using method [2]! Proxy type=0
+12-17 19:42:27.377   633 31869 I SDK     : 
+12-17 19:42:27.378   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:376 Level[NOTICE] magic[2522765600 2648]:API_CreateTunnel : Succeed in creating tunnel, set socket use L4VPN
+12-17 19:42:27.378   633 20915 I SDK     : 
+12-17 19:42:27.378   633 20915 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:378 Level[NOTICE] magic[2522765600 2654]:API_CreateTunnel : create tunnel successfully!
+12-17 19:42:27.378   633 20915 I SDK     : 
+12-17 19:42:27.392   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:392 Level[NOTICE] magic[3367250208 572]:Through getsockopt, the mss value is 1360.
+12-17 19:42:27.392   633 31869 I SDK     : 
+12-17 19:42:27.392   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:392 Level[NOTICE] magic[3367250208 356]:When login, the max packet size for UDPS tunnel is 1340.
+12-17 19:42:27.392   633 31869 I SDK     : 
+12-17 19:42:27.392   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:392 Level[NOTICE] magic[3367250208 390]:Connect to SVN was done! tcp sock:148
+12-17 19:42:27.392   633 31869 I SDK     : 
+12-17 19:42:27.394   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:393 Level[NOTICE] magic[3367250208 2992]:Set mode to can partial write! ret:1
+12-17 19:42:27.394   633 31869 I SDK     : 
+12-17 19:42:27.394   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:394 Level[NOTICE] magic[3367250208 3087]:begin display engine list
+12-17 19:42:27.394   633 31869 I SDK     : 
+12-17 19:42:27.394   633 31869 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:394 Level[ERR] magic[3367250208 2890]:listing available engine types
+12-17 19:42:27.394   633 31869 E SDK     : 
+12-17 19:42:27.394   633 31869 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:394 Level[ERR] magic[3367250208 2893]:engine 0, id = "gmt", name = "GMT engine support"
+12-17 19:42:27.394   633 31869 E SDK     : 
+12-17 19:42:27.394   633 31869 E SDK     : <2016-12-17 19:42:27> [ERR] SDK: UE-SeC 2016-12-17 19:42:27:394 Level[ERR] magic[3367250208 2897]:end of list
+12-17 19:42:27.394   633 31869 E SDK     : 
+12-17 19:42:27.395   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:395 Level[NOTICE] magic[3367250208 2814]:Handshake start,SSL timeout is 20s
+12-17 19:42:27.395   633 31869 I SDK     : 
+12-17 19:42:27.443   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:443 Level[NOTICE] magic[3367250208 2824]:Handshake done!
+12-17 19:42:27.443   633 31869 I SDK     : 
+12-17 19:42:27.444   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:443 Level[NOTICE] magic[3367250208 2593]:HandShake to SVN was done
+12-17 19:42:27.444   633 31869 I SDK     : 
+12-17 19:42:27.444   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:444 Level[NOTICE] magic[3367250208 8910]:Set local private IP is:[10.33.11.129]
+12-17 19:42:27.444   633 31869 I SDK     : 
+12-17 19:42:27.444   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:444 Level[NOTICE] magic[3367250208 238]:Get host ip [10.33.11.129] ([2164990218]) for third party when login!
+12-17 19:42:27.444   633 31869 I SDK     : 
+12-17 19:42:27.444   633 31869 I SDK     : <2016-12-17 19:42:27> [NOTICE] SDK: UE-SeC 2016-12-17 19:42:27:444 Level[NOTICE] magic[3367250208 635]:idle state change to BUSY

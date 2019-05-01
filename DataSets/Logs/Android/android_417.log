@@ -1,0 +1,100 @@
+12-17 19:42:05.468  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:42:05.468  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:42:05.468  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:42:05.468 32607 32607 I BetaClub_Open: [IssueCreationService.startSocketServerThread]
+12-17 19:42:05.468  3180  3332 I ScenarioAction: new ScenarioAction sPoolSize: 0
+12-17 19:42:05.469 32607  1552 I BetaClub: [UploadProgressUtils.queryProcessUploadItems]start
+12-17 19:42:05.470  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:42:05.470 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Path:/storage/emulated/0
+12-17 19:42:05.470 32607  1552 I BetaClub: [InstructionDbManager.queryAll]query start table name:betaclub_logprogress_table
+12-17 19:42:05.472  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:42:05.472  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:42:05.472  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:42:05.473  3626  3626 I LogCollectService: onStartCommand 
+12-17 19:42:05.473  3626  3626 I LogCollectService: onStartCommand com.huawei.lcagent.timer.WIFI_PERIOD_REPORT
+12-17 19:42:05.474 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Mounted:/storage/emulated/0:true
+12-17 19:42:05.474  3626  3753 I LogCollectService: msg = 49 received
+12-17 19:42:05.474  3626  3753 I WiFiReportTimer: handleTimeOut
+12-17 19:42:05.476  3626  3753 I LogCollectService: msg = 13 received
+12-17 19:42:05.476  3626  3753 I LogCollectService: handleActiveUploadEvent
+12-17 19:42:05.476 32607  1552 I BetaClub: [UploadProgressUtils.queryProgressUploadItems] isEmpty: true uploadFailedCount: 0 cursor.getCount: 0
+12-17 19:42:05.477 32607 32607 I BetaClub: [StoreProgressUtils.stop()] stop upload task success
+12-17 19:42:05.477 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Path:/storage/emulated/0
+12-17 19:42:05.479 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Mounted:/storage/emulated/0:true
+12-17 19:42:05.481  3180  3578 I ash     : com.huawei.espacev2 goes to D overtime: 71589
+12-17 19:42:05.482 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Path:/storage/emulated/0
+12-17 19:42:05.482  3180  3578 I ash     : com.android.browser goes to D overtime: 71462
+12-17 19:42:05.482  3180  3578 I ash     : com.tencent.mm goes to D overtime: 66127
+12-17 19:42:05.483 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Mounted:/storage/emulated/0:true
+12-17 19:42:05.484  1795 16498 I ActivityManager_service: retrieveServiceLocked, callerApp: ProcessRecord{2b38b6e 2883:com.huawei.systemmanager:service/1000}, flags: 10000400
+12-17 19:42:05.484  1795 16498 I ActivityManager_service: bindServiceLocked, r: ServiceRecord{2e0eca4 u0 euid: 0 com.huawei.systemmanager/.util.content.HsmIntentService_bg}, euid: 0
+12-17 19:42:05.484 17709 17709 I PlaceRecognitionService: onCreate
+12-17 19:42:05.485 17709 20888 I CalendarSync: init mIsReceiverRegistered : false
+12-17 19:42:05.485  3180  3332 I ScenarioAction: new ScenarioAction sPoolSize: 0
+12-17 19:42:05.486 17709 20888 D CalendarSync: syncCalendar begin!
+12-17 19:42:05.486  3180  3578 I AppManager: check dependency pid: 4690 is depended by pid: 1795
+12-17 19:42:05.486  3180  3578 I ash     : Application com.baidu.input_huawei is depended by other app, delay to H!
+12-17 19:42:05.486  3180  3578 I ash     :  ignore audio app: com.huawei.espacev2 stop delta time:686692
+12-17 19:42:05.487  3180  3578 I ash     : com.huawei.espacev2 { running duration=101594 } transition to: doze reason:
+12-17 19:42:05.487  3180  3578 I ash     : doze package: com.huawei.espacev2, visible: false
+12-17 19:42:05.487  3180  3578 I ash     :  ignore audio app: com.android.browser stop delta time:37669219
+12-17 19:42:05.487  3180  3578 I ash     : com.android.browser { running duration=101467 } transition to: doze reason:
+12-17 19:42:05.487  3180  3578 I ash     : doze package: com.android.browser, visible: false
+12-17 19:42:05.487  3180  3578 I ash     :  ignore audio app: com.tencent.mm stop delta time:30234200
+12-17 19:42:05.487  3180  3578 I ash     : com.tencent.mm { running duration=101825 } transition to: doze reason:
+12-17 19:42:05.487  3180  3578 I ash     : doze package: com.tencent.mm, visible: false
+12-17 19:42:05.487 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Path:/storage/emulated/0
+12-17 19:42:05.489  2883  3269 I HwSystemManager: ScheduleRecordPowerConsumeReceiver:onReceive: Action = com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE
+12-17 19:42:05.489  2883  3269 I HwSystemManager: ChangeMode:readSaveMode, old function, it does not work from 5.0
+12-17 19:42:05.489  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:42:05.489  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:42:05.489  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:42:05.490  2883  3269 I HwSystemManager: RemainingTimeSceneHelper:updateTimeSceneData ,deltaRmCapacity= 0.0 deltaTimeStamp=361815 timestamp_temp= 1481974563675
+12-17 19:42:05.490  2883  3269 I HwSystemManager: RemainingTimeSceneHelper:invalid condition, do not update time scene.
+12-17 19:42:05.490 32607 32622 D AndroidCommon: [SdcardManager.isMounted]Mounted:/storage/emulated/0:true
+12-17 19:42:05.490  2883  3269 I HwSystemManager: RemainingTimeSceneHelper:updateTimeSceneData during time(ms)= 1
+12-17 19:42:05.498   816 20889 D DnsProxyListener: GetAddrInfoHandler addr: betaclub.huawei.com {304, 917808, 1000} 45.249.212.144
+12-17 19:42:05.502  2852  2852 I TimeManager: act:android.intent.action.TIME_TICK  flag:1342177300 FLAG_IS_FIRST_POWER_OFF_ALARM=false android.intent.extra.ALARM_COUNT=1 
+12-17 19:42:05.503  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:42:05.503  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:42
+12-17 19:42:05.503  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:42
+12-17 19:42:05.503  2852  2852 I TimeManager: chinaDateTime:晚上7:42
+12-17 19:42:05.504  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:42:05.504  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:42
+12-17 19:42:05.504  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:42
+12-17 19:42:05.504  2852  2852 I TimeManager: chinaDateTime:晚上7:42
+12-17 19:42:05.505  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:42:05.505  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:42
+12-17 19:42:05.505  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:42
+12-17 19:42:05.505  2852  2852 I TimeManager: chinaDateTime:晚上7:42
+12-17 19:42:05.505  2852  2852 I HwDateUtils:  formatChinaDateTime equals.
+12-17 19:42:05.505  2852  2852 I HwDateUtils: formatChinaDateTime, change to China normalTime:晚上7:42
+12-17 19:42:05.505  2852  2852 I HwDateUtils: begin of formatChinaDateRange chinaDate:晚上7:42
+12-17 19:42:05.505  2852  2852 I TimeManager: chinaDateTime:晚上7:42
+12-17 19:42:05.510 17709 20888 I CalendarSync: recessInfoKey : [{"year":2016, 
+12-17 19:42:05.510 17709 20888 I CalendarSync: "workday":[36,44,163,261,281,282], 
+12-17 19:42:05.510 17709 20888 I CalendarSync: "freeday":[0,1,2,37,38,39,40,41,42,43,92,93,94,120,121,122,160,161,162,258,259,260,274,275,276,277,278,279,280]} ]
+12-17 19:42:05.510 17709 20888 I CalendarSync: configList size : 1
+12-17 19:42:05.510 17709 20888 D CalendarSync: syncCalendar end!
+12-17 19:42:05.514 17709 20888 I PlaceRecognitionService: work start startId : 1
+12-17 19:42:05.514 17709 20888 I PRController: POSITION_COLLECTOR doWork
+12-17 19:42:05.514 17709 20888 I HwIntelligent3_BaseAlarmModule: POSITION_COLLECTOR schedule
+12-17 19:42:05.519 17709 20888 I HwIntelligent3_BaseAlarmModule: module POSITION_COLLECTOR alarm type : 1 repeating : false interval : -1 trigger : 2016-12-17 20:02:01 isMissed : false
+12-17 19:42:05.522  2852  2852 W PanelView: set notification panel padding = 1914
+12-17 19:42:05.522  2852  2852 I TrafficPanelManager: hideTraffic
+12-17 19:42:05.522  2852  2852 I TrafficPanelViewContent: onShowStatusChange show:false
+12-17 19:42:05.523  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:false
+12-17 19:42:05.523  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:false
+12-17 19:42:05.523  2852  2852 I EventCenter: EventCenter Get :android.intent.action.TIME_TICK
+12-17 19:42:05.524  2852  2852 W ResourceType: Failure getting entry for 0xffffffff (t=254 e=65535) (error -2147483647)
+12-17 19:42:05.524  2852  2852 E DateLunarView: mDateString is: 12月17日星期六
+12-17 19:42:05.529  2852  2852 W ResourceType: Failure getting entry for 0xffffffff (t=254 e=65535) (error -2147483647)
+12-17 19:42:05.529  2852  2852 E DateLunarView: mDateString is: 12月17日星期六
+12-17 19:42:05.529  2852  2852 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+12-17 19:42:05.535  3626  3753 I LogCollectService: msg = 21 received
+12-17 19:42:05.535  3626  3753 I LogCollectService: msg = 15 received
+12-17 19:42:05.536  3626  3754 I LogDatabase: msg = 14 received
+12-17 19:42:05.540 17709 20888 I PositionCollector: wifi id not changed ,use the same position as before!
+12-17 19:42:05.543  3626  3753 I LogCollectService: msg = 41 received
+12-17 19:42:05.543  3626  3753 I PackageLogInfoManager: checkPackageLogState
+12-17 19:42:05.543  2852  2852 W PanelView: set notification panel padding = 1914

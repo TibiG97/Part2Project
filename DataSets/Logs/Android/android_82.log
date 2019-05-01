@@ -1,0 +1,100 @@
+12-17 19:31:52.210   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:52.210   606  2379 E libteec : send data return = 128
+12-17 19:31:52.211   835  2385 E libteec : receive data len = 128
+12-17 19:31:52.211   835  2385 E libteec : begin
+12-17 19:31:52.211  3180  3332 I WakelockMonitor: start wakelock monitor.
+12-17 19:31:52.211   835  2385 E libteec : qsc_decode end
+12-17 19:31:52.211   835  2385 I fpc_tac : fpc_tac_begin_identify---need_liveness_authentication: 0
+12-17 19:31:52.211   835  2385 E libteec : begin
+12-17 19:31:52.211   606  2379 E libteec : receive data len = 192
+12-17 19:31:52.211  3180  3578 I ScreenLockClean: call busy and not start clean apps.
+12-17 19:31:52.211  3180  3578 I ash     : ash->screen off
+12-17 19:31:52.212  3180  3578 I ash     : Default InputMethod : com.baidu.input_huawei
+12-17 19:31:52.212  3180  3578 I ash     : screen off inputmethod, delay to hibernation
+12-17 19:31:52.212  2883  2996 I HwSystemManager: TafficState:default sub id = 0slotIndex = 0 subscriptionId = 0
+12-17 19:31:52.213  3180  3578 I ThermalStateManager: handle action thermal policy:301
+12-17 19:31:52.215  1795  3957 E IzatSvc_OSObserver: I/LocTech-Label :: OSOBSERVER :: Data Items In
+12-17 19:31:52.215  1795  3957 E IzatSvc_OSObserver: I/LocTech-Value :: Data Item Value: IS_SCREEN_ON: false
+12-17 19:31:52.215   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:52.215   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:52.215   835  2385 E libteec : receive data len = 192
+12-17 19:31:52.215   835  2385 E libteec : begin
+12-17 19:31:52.215   835  2385 E libteec : qsc_decode end
+12-17 19:31:52.215   835  2385 I fpc_tac : fpc_tac_send_set_arbitrary_data_cmd:ok, response:0
+12-17 19:31:52.215   835  2385 D fingerprintd: onAcquired(2001)
+12-17 19:31:52.215   835  2385 E libteec : begin
+12-17 19:31:52.216   606  2379 E libteec : send data return = 192
+12-17 19:31:52.216   606  2379 E libteec : receive data len = 128
+12-17 19:31:52.216  1795  3253 W FingerprintService: onAcquired 1
+12-17 19:31:52.216  1795  2326 W FingerprintService: onAcquired 2
+12-17 19:31:52.217  2852  2852 V KeyguardUpdateMonitor: KGSvcFp onAuthenticationAcquired.2001
+12-17 19:31:52.218  2883  2996 E HwSystemManager: LeisureTrafficSetting:result is empty
+12-17 19:31:52.223  2883  2996 I HwSystemManager: NatTrafficNotifyService:delta byte = 0 no traffic delta = 0Traffic state is 301
+12-17 19:31:52.226  3879  3879 I HwLauncher: Launcher receiver screen off broadcast sendmessage true
+12-17 19:31:52.230  2883  2996 I HwSystemManager: ExtraTrafficSetting:result is empty
+12-17 19:31:52.234  1795  6985 I AlarmManager: set(PendingIntent{f026bd3: PendingIntentRecord{601e5f3 com.huawei.indexsearch.observer broadcastIntent}}) : type=2 triggerAtTime=443448597 win=60000 tElapsed=443448597 maxElapsed=443508597 interval=0 flags=0x8
+12-17 19:31:52.234   606  2379 E libteec : QSEECom_send_cmd return!
+12-17 19:31:52.234   606  2379 E libteec : qsc_send_cmd finish
+12-17 19:31:52.234   606  2379 E libteec : send data return = 128
+12-17 19:31:52.235   835  2385 E libteec : receive data len = 128
+12-17 19:31:52.235   835  2385 E libteec : begin
+12-17 19:31:52.235   835  2385 E libteec : qsc_decode end
+12-17 19:31:52.241  1795 16501 D PowerManagerService: acquire lock=152331024, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:31:52.241  1795 16501 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:52.241  1795 16501 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:52.243  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: reportScene typeId = 2002
+12-17 19:31:52.243  3180  4303 I AwareLog: MemoryRecoveryDMEPlugin: receive sceen off event
+12-17 19:31:52.243  3218  3218 I QImsService:  : onOemHookRawEvent begin.
+12-17 19:31:52.243  3218  3218 I QImsService:  : isIMSUnsolOemHookEvent is true
+12-17 19:31:52.243  3218  3218 I QImsService:  : onOemHookRawEvent event = 598027
+12-17 19:31:52.247  2883  2996 I HwSystemManager: ITrafficInfo:ITrafficInfo create 301updateBytes = 1769320345
+12-17 19:31:52.249  3626  3626 I HourObserver: enter into handleScrnOnOffTimeStats, scrnOn = false, mIsPreScrnOn = true, mScrnSwitchTime = 1481974311488, occurTime = 1481974312248, delta = 760, mScrnOffAccTime = 1737147, mScrnOnAccTime = 109924
+12-17 19:31:52.249  3626  3626 I HourObserver: left handleScrnOnOffTimeStats, mScrnOffAccTime = 1737147, mScrnOffAccTime = 1737147, mScrnOnAccTime = 110684
+12-17 19:31:52.254  3626  3626 I iMonitor: create: 903001010
+12-17 19:31:52.256  3626  3626 I iMonitor: send: 903001010
+12-17 19:31:52.257   818  1152 I logserver: handle_exception_events enter
+12-17 19:31:52.258  3626  3770 I LSC_903001010: process buffer and get message
+12-17 19:31:52.261  7741  7741 D Mms_TX_NOTIFY: Get no-perm notification callback android.intent.action.SCREEN_OFF
+12-17 19:31:52.269  3466  3466 I Contacts: DialpadFragment mBroadcastReceiver action:android.intent.action.SCREEN_OFF
+12-17 19:31:52.278  1795  3225 D StubTelephonyRegistry: uid:10028 pid:16628 PhoneStateListener.LISTEN_CELL_LOCATION:16 events:0
+12-17 19:31:52.282  3626  3753 I LogCollectService: msg = 103 received
+12-17 19:31:52.292  1795  1809 I HwPhoneWindowManager: OverscanTimeout run
+12-17 19:31:52.305 10324 10324 D MagicLink: MagicLink2-BroadcastReceiver:====>ACTION_SCREEN_OFF
+12-17 19:31:52.340  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:31:52.346  1795 15987 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:31:52.444  1795 16498 D PowerManagerService: release:lock=152331024, flg=0x0, tag="RILJ_ACK_WL", name=com.android.phone", ws=null, uid=1001, pid=3218
+12-17 19:31:52.444  1795 16498 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:52.445  1795 16498 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:52.446  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:31:52.451  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:31:52.472  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 5.934979 Y: 8.045370 Z: 0.540956  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:52.548  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:31:52.555  1795  2728 D hw_netstat: total/1833/795,com.huawei.espacev2/1654/736,unknown:0/179/59
+12-17 19:31:52.558  1795  2728 E HwCHRWebMonitor: WebMonitor [mNetWorkIsSuck=0 mUIDIsSuck=]  WebSpeed [WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSRTT=250  WEBSNDDUPACKS=0  SENDSEGS=10  RESENDSEGS=0  RECVSEGS=8  ERRSEGS=0  OUTRSTS=0  ESTABLISRST=0  RTTDURATION=4  RTTSEGS=4  SNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:31:52.558  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-56  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=64, rtt_tcp_duration=525, rtt_lan_duration=154, rtt_lan_failures=0, rtt_lan_succ=3, rtt_lan_max=124, rtt_lan_min=14,same_area_frequency=0,adjacent_area_frequency=0]
+12-17 19:31:52.558  1795  2728 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:31:52.558  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:31:52.572  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=34
+12-17 19:31:52.574  1795  2728 E HwCHRWebMonitor: HwCHRWifiPacketCnt [mTXGood=11, mTXbad=0, mRXGood=9] rssi=-56
+12-17 19:31:52.575  1795  2728 E HwCHRWebMonitor: running processName=com.android.incallui
+12-17 19:31:52.576  1795  2728 E HwCHRWebMonitor: HwCHRWifiUIDWebSpeed [appName=com.huawei.espacev2 UID=10102  WEBSENDSEGS=0  WEBRESENDSEGS=0  WEBRECVSEGS=0  WEBERRSEGS=0  WEBOUTRSTS=0  WEBESTABLISRST=0  WEBRTTDURATION=0  WEBRTTSEGS=0  WEBSNDDUPACKS=0  suckTimes=0 recovage_times=0]
+12-17 19:31:52.576  1795  2728 D HwArpVerifier: doCheckAccessInternet
+12-17 19:31:52.577  1795  2728 D HwArpVerifier: mAccessWebStatus : rx = 0, tx = 0
+12-17 19:31:52.577  1795  2728 D HwArpVerifier: getDNSFailedCntDiff  dnsNewFailCnt =  1001, aws.getOldDnsFailedCnt() = 1001, dnsDiff = 0
+12-17 19:31:52.578 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.onRecv(TcpClientThread.java:522) tcp connection event TCP_CONNECTED
+12-17 19:31:52.586 31949 31967 I PushService: tcp.conn{4787} ServiceC.connectedNotify(ServiceC.java:289) 172.30.70.63
+12-17 19:31:52.589 31949 31967 I ECS     : tcp.conn{4787} XmlMsg.encodeBuf(XmlMsg.java:215) SEND 100 bytes [16]_00_00_00_60_00_03_01_05_01_04_81_B5_00_00_00_00 cmdCode(CC_PCheckVersion.0x0501)msgType(MT_ARG.1)msgClass(MC_Push.5)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(true)length(96)version(3)sno(81B5)
+12-17 19:31:52.597 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:307) get tcp message 659
+12-17 19:31:52.599 31949 31967 I TCP     : msg.recv{4791} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 659TCP_OK
+12-17 19:31:52.601 31949 31967 I ECS     : msg.recv{4791} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 663 bytes [12]_00_03_02_05_01_04_81_B5_53_85_6F_6A cmdCode(CC_PCheckVersion.0x0501)msgType(MT_ACK.2)msgClass(MC_Push.5)sender(ST_Mobile.0)crypted(false)zipped(false)nobase64(true)length(659)version(3)sno(81B5)
+12-17 19:31:52.662   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:94) watch thread onLoop... 
+12-17 19:31:52.664   633   692 I eSpaceService: Watch Thread{4481} WatchThread.onLoop(WatchThread.java:98) watch thread onLoop...--》 iWatched.doWatch() 
+12-17 19:31:52.666   633   692 I eSpaceService: Watch Thread{4481} LoginC.doWatch(LoginC.java:1459) Login_By_Step-> watch count =  0
+12-17 19:31:52.668  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.986264 Y: 7.096091 Z: 2.302901  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:52.763  3782 20250 V AudioManager: isMusicActive...
+12-17 19:31:52.763  3782 20250 V AudioManager: isWiredHeadsetOn...
+12-17 19:31:52.764  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:31:52.864  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.405698 Y: 6.405707 Z: 2.843858  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:53.060  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 6.609677 Y: 6.688132 Z: 3.369348  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:53.132  1795  1795 I TrafficMonitor: update:rxPkts:4,txPkts:5,rxBytes:879,txBytes:368
+12-17 19:31:53.132  1795  1795 I TrafficMonitor: start expired. level:-1

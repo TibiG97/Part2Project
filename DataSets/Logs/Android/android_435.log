@@ -1,0 +1,100 @@
+12-17 19:42:46.188  1795 17832 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:46.194  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000012000000514f454d484f4f4b1d04080002000000ffff]
+12-17 19:42:46.194  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 28 bytes data for SUB0
+12-17 19:42:46.194  3382  3399 D QcrilMsgTunnelSocket: Rac Change (PDC) data: [-1, -1]
+12-17 19:42:46.194  3382  3399 D QcrilMsgTunnelSocket: Broadcasting intent ACTION_RAC_CHANGED
+12-17 19:42:46.194  3382  3399 I SendBroadcastPermission: action:qualcomm.intent.action.ACTION_RAC_CHANGED, mPermissionType:0
+12-17 19:42:46.194  1795  3110 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:46.194  1795  3110 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:46.195  3218  3375 I SendBroadcastPermission: action:com.huawei.android.intent.action.RAC_CHANGED, mPermissionType:0
+12-17 19:42:46.218  3218  3218 I SendBroadcastPermission: action:android.intent.action.LTE_CA_STATE, mPermissionType:0
+12-17 19:42:46.219  1795  1806 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:46.219  1795  3139 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{24cdca7 3218:com.android.phone/1001}, intent:android.intent.action.LTE_CA_STATE, receiver size:1, flags: 10000400
+12-17 19:42:46.219  1795  3139 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{24cdca7 3218:com.android.phone/1001}
+12-17 19:42:46.219  1795  3139 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{24cdca7 3218:com.android.phone/1001}
+12-17 19:42:46.220  1795  3139 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{ba789a6 u0 android.intent.action.LTE_CA_STATE}: prev had 0
+12-17 19:42:46.220  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{ba789a6 u0 android.intent.action.LTE_CA_STATE}, has 1 receivers
+12-17 19:42:46.221  3168  3168 I CHR_ChrDataServiceTracker: handleLteCaStatusChange
+12-17 19:42:46.221  2852  3556 I HwNetworkControllerImpl: onReceive: action = android.intent.action.LTE_CA_STATE
+12-17 19:42:46.221  2852  3556 I NetworkController.MobileSignalController(0): need to force refresh view
+12-17 19:42:46.224  2852  2914 I SimCardMethod: isCardAbsent slot:0 slotState:5
+12-17 19:42:46.224  2852  2852 D HwMobileSignalController: getTypeIcon type:3
+12-17 19:42:46.224  2852  2852 D HwMobileSignalController:  4G, isCAState=true
+12-17 19:42:46.224  2852  2852 I HwMobileSignalController: notifyListenerHuawei::origin typeIcon:2130839197 icons.mName:4GPLUS isSuspend:false, showDataIcon=false, dataConnected=false, isRoaming=false
+12-17 19:42:46.225  2852  2852 I HwSignalClusterView: getOrInflateState subId:0
+12-17 19:42:46.225  2852  2852 I HwSignalClusterView: getOrInflateState subId:0
+12-17 19:42:46.225  2852  2852 I HwSignalClusterView: setMobileDataIndicatorsHuawei subId:0 visible:true strengthIcon:2130839311 typeIcon:2130839197 contentDescription:手机信号满格。 typeContentDescription:LTE isTypeIconWide:true showActivity:false activityIn:false activityOut:false isRoaming:false
+12-17 19:42:46.225  2852  2852 I HwSignalClusterView: getOrInflateState subId:0
+12-17 19:42:46.225  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000012000000514f454d484f4f4b1d04080002000000ffff]
+12-17 19:42:46.225  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 28 bytes data for SUB0
+12-17 19:42:46.225  3382  3399 D QcrilMsgTunnelSocket: Rac Change (PDC) data: [-1, -1]
+12-17 19:42:46.225  3382  3399 D QcrilMsgTunnelSocket: Broadcasting intent ACTION_RAC_CHANGED
+12-17 19:42:46.226  3382  3399 I SendBroadcastPermission: action:qualcomm.intent.action.ACTION_RAC_CHANGED, mPermissionType:0
+12-17 19:42:46.226  1795 11747 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:46.226  1795 11747 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:46.227  3218  3375 I SendBroadcastPermission: action:com.huawei.android.intent.action.RAC_CHANGED, mPermissionType:0
+12-17 19:42:46.227  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:42:46.229  1795  3249 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:46.229  1795  3249 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:46.229  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:42:46.231  2852  2852 I HwSignalClusterView: setMobileDataIndicatorsHuawei subId:0 visible:true strengthIcon:2130839311 typeIcon:2130839197 contentDescription:手机信号满格。 typeContentDescription:LTE isTypeIconWide:true showActivity:false activityIn:false activityOut:false isRoaming:false
+12-17 19:42:46.231  2852  2852 I HwSignalClusterView: getOrInflateState subId:0
+12-17 19:42:46.232  2852  2852 D NetWorkUtils: mVSimCurCardType is -1
+12-17 19:42:46.232  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 19:42:46.234  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:42:46.237  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000012000000514f454d484f4f4b1d04080002000000ffff]
+12-17 19:42:46.237  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 28 bytes data for SUB0
+12-17 19:42:46.237  3382  3399 D QcrilMsgTunnelSocket: Rac Change (PDC) data: [-1, -1]
+12-17 19:42:46.238  3382  3399 D QcrilMsgTunnelSocket: Broadcasting intent ACTION_RAC_CHANGED
+12-17 19:42:46.238  3382  3399 I SendBroadcastPermission: action:qualcomm.intent.action.ACTION_RAC_CHANGED, mPermissionType:0
+12-17 19:42:46.238  1795 15982 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:46.238  1795 15982 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:46.241  3218  3375 I SendBroadcastPermission: action:com.huawei.android.intent.action.RAC_CHANGED, mPermissionType:0
+12-17 19:42:46.247  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:42:46.247  2852  2852 I HwSystemIcons: onLayout:left=610, top=0, right=1056, bottom=72, offset=0
+12-17 19:42:46.248  2852  2852 I SignalClusterView: applyIconTint ignore
+12-17 19:42:46.252  3218  3218 D HwCust  : Create obj success use class com.android.settings.deviceinfo.HwCustStatusImpl
+12-17 19:42:46.253  3218  3536 E SharedPreferencesImpl: Couldn't create directory for SharedPreferences file /data/user_de/0/com.android.settings/shared_prefs/caStatePreferences.xml
+12-17 19:42:46.253  1795  1805 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:46.255  1795  3110 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:46.259  1795  3225 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:46.262  1795  6986 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:46.275  1795  3247 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:46.283  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:42:46.291  3782 20886 V AudioManager: isMusicActive...
+12-17 19:42:46.291  3782 20886 V AudioManager: isWiredHeadsetOn...
+12-17 19:42:46.303  1795  1795 I TrafficMonitor: update:rxPkts:649,txPkts:1232,rxBytes:34167,txBytes:1719095
+12-17 19:42:46.303  1795  1795 I TrafficMonitor: start expired. level:3
+12-17 19:42:46.303  1795  1795 I TrafficMonitor: gettimer:interval=2000
+12-17 19:42:46.439  1795 15987 D PowerManagerService: release:lock=15081967, flg=0x0, tag="RILJ_ACK_WL", name=com.android.phone", ws=null, uid=1001, pid=3218
+12-17 19:42:46.440  1795 15987 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x0,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:46.440  1795 15987 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:42:51.825  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000011000000514f454d484f4f4bfa0308000100000000]
+12-17 19:42:51.825  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 28 bytes data for SUB0
+12-17 19:42:51.825  3382  3399 D QcrilMsgTunnelSocket: Response ID 525306 is not served in this process.
+12-17 19:42:51.825  3382  3399 D QcrilMsgTunnelSocket: To broadcast an Intent via the notifier to external apps
+12-17 19:42:51.826  3382  3382 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+12-17 19:42:51.826  3382  3382 I SendBroadcastPermission: action:com.qualcomm.intent.action.ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW, mPermissionType:0
+12-17 19:42:51.826  1795 11746 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:51.826  1795 11746 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:51.826  1795 11746 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:42:51.827  1795  2728 D HwArpVerifier: performPollAndLog:
+12-17 19:42:51.827  1795 11745 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{4ff57fc 3382:com.qualcomm.qcrilmsgtunnel/1001}
+12-17 19:42:51.829   633   692 I TCP     : msg.recv{4490} TcpClientThread.onRecv(TcpClientThread.java:515) TCP Msg 28TCP_OK
+12-17 19:42:51.830  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:42:51.831  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:42:51.831  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:42:51.831  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:42:51.831  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:42:51.831  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:42:51.831  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:42:51.831  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:42:51.831  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:42:51.831   633   692 I ECS     : msg.recv{4490} XmlMsg.decodeBuf(XmlMsg.java:237) RECV 32 bytes [12]_00_03_02_03_12_05_87_4E_EC_D5_32_80 cmdCode(CC_Heartbeat.0x0312)msgType(MT_ACK.2)msgClass(MC_InstanceMessage.3)sender(ST_Mobile.0)crypted(true)zipped(false)nobase64(true)length(28)version(3)sno(874E)
+12-17 19:42:51.832  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:42:51.833  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:42:51.833  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:42:51.833  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:42:51.833  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:42:51.833  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:42:51.833  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)

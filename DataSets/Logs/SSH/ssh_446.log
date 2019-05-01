@@ -1,0 +1,100 @@
+Dec 11 17:27:49 LabSZ sshd[23813]: Connection closed by 183.192.189.131 [preauth]
+Dec 11 17:27:49 LabSZ sshd[23824]: reverse mapping checking getaddrinfo for . [183.192.189.131] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:27:50 LabSZ sshd[23824]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.192.189.131  user=root
+Dec 11 17:27:50 LabSZ sshd[23822]: Failed password for invalid user hadoop from 118.97.104.142 port 52817 ssh2
+Dec 11 17:27:50 LabSZ sshd[23822]: Received disconnect from 118.97.104.142: 11: Bye Bye [preauth]
+Dec 11 17:27:51 LabSZ sshd[23824]: Failed password for root from 183.192.189.131 port 54870 ssh2
+Dec 11 17:27:51 LabSZ sshd[23824]: Connection closed by 183.192.189.131 [preauth]
+Dec 11 17:27:51 LabSZ sshd[23828]: reverse mapping checking getaddrinfo for . [183.192.189.131] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:27:51 LabSZ sshd[23828]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.192.189.131  user=root
+Dec 11 17:27:53 LabSZ sshd[23826]: reverse mapping checking getaddrinfo for 142.subnet118-97-104.static.astinet.telkom.net.id [118.97.104.142] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:27:53 LabSZ sshd[23826]: Invalid user hadoop from 118.97.104.142
+Dec 11 17:27:53 LabSZ sshd[23826]: input_userauth_request: invalid user hadoop [preauth]
+Dec 11 17:27:53 LabSZ sshd[23826]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:27:53 LabSZ sshd[23826]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.97.104.142 
+Dec 11 17:27:54 LabSZ sshd[23828]: Failed password for root from 183.192.189.131 port 54871 ssh2
+Dec 11 17:27:54 LabSZ sshd[23828]: Connection closed by 183.192.189.131 [preauth]
+Dec 11 17:27:54 LabSZ sshd[23830]: reverse mapping checking getaddrinfo for . [183.192.189.131] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:27:54 LabSZ sshd[23830]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.192.189.131  user=root
+Dec 11 17:27:54 LabSZ sshd[23826]: Failed password for invalid user hadoop from 118.97.104.142 port 52941 ssh2
+Dec 11 17:27:55 LabSZ sshd[23819]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.172.229.172  user=root
+Dec 11 17:27:55 LabSZ sshd[23826]: Received disconnect from 118.97.104.142: 11: Bye Bye [preauth]
+Dec 11 17:27:56 LabSZ sshd[23830]: Failed password for root from 183.192.189.131 port 54934 ssh2
+Dec 11 17:27:56 LabSZ sshd[23830]: Connection closed by 183.192.189.131 [preauth]
+Dec 11 17:27:56 LabSZ sshd[23834]: reverse mapping checking getaddrinfo for . [183.192.189.131] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:27:56 LabSZ sshd[23834]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.192.189.131  user=root
+Dec 11 17:27:57 LabSZ sshd[23819]: Failed password for root from 60.172.229.172 port 52398 ssh2
+Dec 11 17:27:57 LabSZ sshd[23832]: reverse mapping checking getaddrinfo for 142.subnet118-97-104.static.astinet.telkom.net.id [118.97.104.142] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:27:57 LabSZ sshd[23832]: Invalid user hadoop from 118.97.104.142
+Dec 11 17:27:57 LabSZ sshd[23832]: input_userauth_request: invalid user hadoop [preauth]
+Dec 11 17:27:57 LabSZ sshd[23832]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:27:57 LabSZ sshd[23832]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.97.104.142 
+Dec 11 17:27:58 LabSZ sshd[23834]: Failed password for root from 183.192.189.131 port 54935 ssh2
+Dec 11 17:27:58 LabSZ sshd[23834]: Connection closed by 183.192.189.131 [preauth]
+Dec 11 17:27:58 LabSZ sshd[23832]: Failed password for invalid user hadoop from 118.97.104.142 port 53079 ssh2
+Dec 11 17:27:58 LabSZ sshd[23832]: Received disconnect from 118.97.104.142: 11: Bye Bye [preauth]
+Dec 11 17:28:01 LabSZ sshd[23838]: reverse mapping checking getaddrinfo for 142.subnet118-97-104.static.astinet.telkom.net.id [118.97.104.142] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:28:01 LabSZ sshd[23838]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.97.104.142  user=root
+Dec 11 17:28:03 LabSZ sshd[23838]: Failed password for root from 118.97.104.142 port 53189 ssh2
+Dec 11 17:28:04 LabSZ sshd[23838]: Received disconnect from 118.97.104.142: 11: Bye Bye [preauth]
+Dec 11 17:28:06 LabSZ sshd[23840]: reverse mapping checking getaddrinfo for 142.subnet118-97-104.static.astinet.telkom.net.id [118.97.104.142] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:28:06 LabSZ sshd[23840]: Invalid user test from 118.97.104.142
+Dec 11 17:28:06 LabSZ sshd[23840]: input_userauth_request: invalid user test [preauth]
+Dec 11 17:28:06 LabSZ sshd[23840]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:28:06 LabSZ sshd[23840]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.97.104.142 
+Dec 11 17:28:07 LabSZ sshd[23819]: message repeated 5 times: [ Failed password for root from 60.172.229.172 port 52398 ssh2]
+Dec 11 17:28:07 LabSZ sshd[23819]: Disconnecting: Too many authentication failures for root [preauth]
+Dec 11 17:28:07 LabSZ sshd[23819]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.172.229.172  user=root
+Dec 11 17:28:07 LabSZ sshd[23819]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 11 17:28:08 LabSZ sshd[23836]: reverse mapping checking getaddrinfo for . [183.192.189.131] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:28:08 LabSZ sshd[23840]: Failed password for invalid user test from 118.97.104.142 port 53336 ssh2
+Dec 11 17:28:08 LabSZ sshd[23836]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.192.189.131  user=root
+Dec 11 17:28:09 LabSZ sshd[23840]: Received disconnect from 118.97.104.142: 11: Bye Bye [preauth]
+Dec 11 17:28:10 LabSZ sshd[23836]: Failed password for root from 183.192.189.131 port 54936 ssh2
+Dec 11 17:28:10 LabSZ sshd[23836]: Connection closed by 183.192.189.131 [preauth]
+Dec 11 17:28:10 LabSZ sshd[23844]: reverse mapping checking getaddrinfo for . [183.192.189.131] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:28:10 LabSZ sshd[23844]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.192.189.131  user=root
+Dec 11 17:28:11 LabSZ sshd[23842]: reverse mapping checking getaddrinfo for 142.subnet118-97-104.static.astinet.telkom.net.id [118.97.104.142] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:28:11 LabSZ sshd[23842]: Invalid user test from 118.97.104.142
+Dec 11 17:28:11 LabSZ sshd[23842]: input_userauth_request: invalid user test [preauth]
+Dec 11 17:28:11 LabSZ sshd[23842]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:28:11 LabSZ sshd[23842]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.97.104.142 
+Dec 11 17:28:12 LabSZ sshd[23844]: Failed password for root from 183.192.189.131 port 54937 ssh2
+Dec 11 17:28:12 LabSZ sshd[23844]: Connection closed by 183.192.189.131 [preauth]
+Dec 11 17:28:12 LabSZ sshd[23846]: reverse mapping checking getaddrinfo for . [183.192.189.131] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:28:12 LabSZ sshd[23846]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.192.189.131  user=root
+Dec 11 17:28:13 LabSZ sshd[23842]: Failed password for invalid user test from 118.97.104.142 port 53464 ssh2
+Dec 11 17:28:13 LabSZ sshd[23842]: Received disconnect from 118.97.104.142: 11: Bye Bye [preauth]
+Dec 11 17:28:14 LabSZ sshd[23846]: Failed password for root from 183.192.189.131 port 54938 ssh2
+Dec 11 17:28:14 LabSZ sshd[23846]: Connection closed by 183.192.189.131 [preauth]
+Dec 11 17:28:14 LabSZ sshd[23848]: reverse mapping checking getaddrinfo for 142.subnet118-97-104.static.astinet.telkom.net.id [118.97.104.142] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:28:14 LabSZ sshd[23848]: Invalid user cashier from 118.97.104.142
+Dec 11 17:28:14 LabSZ sshd[23848]: input_userauth_request: invalid user cashier [preauth]
+Dec 11 17:28:15 LabSZ sshd[23848]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:28:15 LabSZ sshd[23848]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.97.104.142 
+Dec 11 17:28:15 LabSZ sshd[23850]: reverse mapping checking getaddrinfo for . [183.192.189.131] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:28:15 LabSZ sshd[23850]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.192.189.131  user=root
+Dec 11 17:28:17 LabSZ sshd[23848]: Failed password for invalid user cashier from 118.97.104.142 port 53586 ssh2
+Dec 11 17:28:17 LabSZ sshd[23850]: Failed password for root from 183.192.189.131 port 54939 ssh2
+Dec 11 17:28:17 LabSZ sshd[23850]: Connection closed by 183.192.189.131 [preauth]
+Dec 11 17:28:17 LabSZ sshd[23848]: Received disconnect from 118.97.104.142: 11: Bye Bye [preauth]
+Dec 11 17:28:18 LabSZ sshd[23854]: reverse mapping checking getaddrinfo for . [183.192.189.131] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:28:18 LabSZ sshd[23854]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.192.189.131  user=root
+Dec 11 17:28:19 LabSZ sshd[23852]: reverse mapping checking getaddrinfo for 142.subnet118-97-104.static.astinet.telkom.net.id [118.97.104.142] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:28:19 LabSZ sshd[23852]: Invalid user nagios from 118.97.104.142
+Dec 11 17:28:19 LabSZ sshd[23852]: input_userauth_request: invalid user nagios [preauth]
+Dec 11 17:28:19 LabSZ sshd[23852]: pam_unix(sshd:auth): check pass; user unknown
+Dec 11 17:28:19 LabSZ sshd[23852]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.97.104.142 
+Dec 11 17:28:20 LabSZ sshd[23854]: Failed password for root from 183.192.189.131 port 54940 ssh2
+Dec 11 17:28:20 LabSZ sshd[23854]: Connection closed by 183.192.189.131 [preauth]
+Dec 11 17:28:20 LabSZ sshd[23856]: reverse mapping checking getaddrinfo for . [183.192.189.131] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:28:20 LabSZ sshd[23856]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.192.189.131  user=root
+Dec 11 17:28:21 LabSZ sshd[23852]: Failed password for invalid user nagios from 118.97.104.142 port 53695 ssh2
+Dec 11 17:28:21 LabSZ sshd[23852]: Received disconnect from 118.97.104.142: 11: Bye Bye [preauth]
+Dec 11 17:28:22 LabSZ sshd[23856]: Failed password for root from 183.192.189.131 port 54941 ssh2
+Dec 11 17:28:22 LabSZ sshd[23856]: Connection closed by 183.192.189.131 [preauth]
+Dec 11 17:28:22 LabSZ sshd[23860]: reverse mapping checking getaddrinfo for . [183.192.189.131] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:28:23 LabSZ sshd[23860]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.192.189.131  user=root
+Dec 11 17:28:23 LabSZ sshd[23858]: reverse mapping checking getaddrinfo for 142.subnet118-97-104.static.astinet.telkom.net.id [118.97.104.142] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 11 17:28:23 LabSZ sshd[23858]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.97.104.142  user=git
+Dec 11 17:28:25 LabSZ sshd[23860]: Failed password for root from 183.192.189.131 port 54942 ssh2

@@ -1,0 +1,100 @@
+12-17 19:55:15.927  2852  2852 I HwPowerUI: processLowerBatteryLevel plugged:false batteryLevel:78 intent:act:android.intent.action.BATTERY_CHANGED  flag:1610612752 technology=Li-ion icon-small=17303220 max_charging_voltage=0 health=2 max_charging_current=0 status=3 plugged=0 present=true charge_counter=0 level=78 scale=100 temperature=292 voltage=4093 invalid_charger=0 
+12-17 19:55:15.927  2852  2852 I HwPowerUI: doTemperatueWarning, health:2
+12-17 19:55:15.927  2852  2852 I HwBatteryManager: onBatteryLevelChanged: level=78, pluggedIn=false, charging=false, PercentColor=-1275068417
+12-17 19:55:15.928  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:55:15.928  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:55:15.928  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:55:15.928  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:55:15.928  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 19:55:15.937   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:55:15.938  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 444252300393032}
+12-17 19:55:15.939  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 444252300393032}
+12-17 19:55:15.941  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass idle 1 444252300393032
+12-17 19:55:15.942  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:55:15.942  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:55:15.942  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:55:15.942  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:55:15.943  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:55:15.943  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:55:15.944  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:55:15.944  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:55:15.945  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:55:15.945  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:55:15.945  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:55:15.963  1795  1795 I TrafficMonitor: expired arrive. level:-1
+12-17 19:55:15.963  1795  1795 I TrafficMonitor: during_ms:2124,period_ms:2000
+12-17 19:55:15.963  1795  1795 I TrafficMonitor: count:136,rx_sum:2,tx_sum:2,rxBytes:123,during_ms:2124,rx_speed:57.90960451977401,tx_speed:57.90960451977401,rto:1.0
+12-17 19:55:15.963  1795  1795 D HuaweiWifiWatchdogStateMachine: speed: rxpkt:2, rxSpd:57B/s, txpkt:2, txSpd:57
+12-17 19:55:15.981  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:55:46.058   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:55:46.060  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 444282363803280 1000}
+12-17 19:55:46.061  1795  2665 D NetdConnector: RCV <- {613 IfaceClass active 1 444282363803280 1000}
+12-17 19:55:46.062  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:55:46.063  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass active 1 444282363803280 1000
+12-17 19:55:46.063  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:55:46.063  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:55:46.063  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:55:46.063  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:55:46.063  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:55:46.063  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:55:46.063  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:55:46.063  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:55:46.064  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:55:46.064  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:55:46.064  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:55:46.064  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:55:46.065  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:55:46.065  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:55:46.065  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:55:46.065  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:55:46.065  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:55:46.065  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:55:46.065  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:55:46.065  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:55:46.065  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:55:46.065  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:55:46.067  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:55:46.068  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:55:46.069  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:55:46.069  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:55:46.069  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:55:46.078   816  1562 W SocketListener: sending broadcast to Pid = 1795, Uid = 1000 
+12-17 19:55:46.080  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 444282441081353}
+12-17 19:55:46.082  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:55:46.083  1795  2665 D NetdConnector: RCV <- {613 IfaceClass idle 1 444282441081353}
+12-17 19:55:46.085  1795  1819 D NetdConnector: RCV unsolicited event from native daemon, event = 613 IfaceClass idle 1 444282441081353
+12-17 19:55:46.104  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkStatsService$6@5d6efc
+12-17 19:55:46.104  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.ip.IpManager$2@4c99c84
+12-17 19:55:46.104  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.net.NetworkPolicyManagerService$13@4df0feb
+12-17 19:55:46.104  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@af226
+12-17 19:55:46.105  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is android.net.INetworkManagementEventObserver$Stub$Proxy@c0acf8b
+12-17 19:55:46.105  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ConnectivityService$1@e0f099c
+12-17 19:55:46.105  1795  1819 I SendBroadcastPermission: action:android.net.conn.DATA_ACTIVITY_CHANGE, mPermissionType:0
+12-17 19:55:46.106  1795  1813 E BatteryStatsService: no controller energy info supplied
+12-17 19:55:46.106  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Vpn$2@e40aefb
+12-17 19:55:46.106  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.ethernet.EthernetNetworkFactory$InterfaceObserver@fccfd35
+12-17 19:55:46.106  1795  1819 D NetworkManagement: notifyInterfaceClassActivity: client is com.android.server.connectivity.Tethering@ff4a50f
+12-17 19:55:46.276  1795  1804 I art     : Background partial concurrent mark sweep GC freed 44350(2MB) AllocSpace objects, 27(2MB) LOS objects, 13% free, 51MB/59MB, paused 2.856ms total 210.762ms
+12-17 19:55:46.661   835  2385 D fpc_fingerprint_hal: wait_finger_down, took 915560 ms
+12-17 19:55:46.662   835  2385 D fpc_fingerprint_hal: capture_image POWERPUSH speed up
+12-17 19:55:46.662   835  2385 D fingerprintd: onAcquired(2002)
+12-17 19:55:46.662  1795 16499 W FingerprintService: onAcquired 1
+12-17 19:55:46.662  1795 16499 D FpDataCollector: receive finger press down
+12-17 19:55:46.663  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:55:46.664  1795  2326 W FingerprintService: onAcquired 2
+12-17 19:55:46.664  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:55:46.664  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:55:46.664  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:55:46.664  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:55:46.664  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:55:46.664  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:55:46.664  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:55:46.664  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:55:46.664  3626  3729 I NCCHR_LogDatabaseNc: msg = 11 received
+12-17 19:55:46.664  3626  3729 D NCCHR_LogDatabaseNc: handleGenMetricStatisticsReport enter for all matric.
+12-17 19:55:46.664  3626  3729 D NCCHR_LogDatabaseNc: flushQueueInfo enter.
+12-17 19:55:46.664  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:55:46.665  3626  3729 D NCCHR_LogDatabaseNc: metricFileReportProcess enter for metricId = 15
+12-17 19:55:46.665  3626  3729 I NCCHR_LogServiceSetting: is Beta User, userType = 3
+12-17 19:55:46.665  2852  2852 V KeyguardUpdateMonitor: KGSvcFp onAuthenticationAcquired.2002
+12-17 19:55:46.665  3626  3729 D NCCHR_LogDatabaseNc: getMccFromFile return null, not exist.

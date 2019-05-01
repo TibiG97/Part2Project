@@ -1,0 +1,100 @@
+12-17 19:34:56.644  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -1.841434 Y: 4.117331 Z: 7.441078  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:56.645  5224  5224 I Step_LSC: 20002302|logicalDealBroadcastEvent : Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+12-17 19:34:56.646  5224  5283 I Step_LSC: 20002302| ## MSG_DEAL_SYSTEM_EVENT android.intent.action.TIME_TICK
+12-17 19:34:56.664  1795  1795 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:56.664  1795  6985 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:34:56.673  2852  2852 I StackScrollAlgorithm: overlapAmount:763.6, previousNotificationEnd:607.0, newYTranslation:-156.59998, location:2, i:1, getTopPadding:499.0, getLocationOnScreen():-36
+12-17 19:34:56.673  2852  2852 I StackScrollAlgorithm: updateClipping isOverlap:true
+12-17 19:34:56.673  2852  2852 I StackScrollAlgorithm: updateDimmedActivatedHideSensitive overlap:true
+12-17 19:34:56.679  1046  1125 V audio_hw_primary: out_get_latency: Latency 8
+12-17 19:34:56.695  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:34:56.695  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:34:56.699  1046  1125 V audio_hw_primary: out_get_latency: Latency 8
+12-17 19:34:56.700  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: -2.430301 Y: 4.624915 Z: 6.913167  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:34:56.702  1046  1124 I AudioMixer: Pid:1046 deleteTrackName(1)
+12-17 19:34:56.710  1795 20551 I ToneGenerator: Pid:1795 ToneGenerator destructor
+12-17 19:34:56.710  1046  2703 I AudioMixer: Pid:1046 deleteTrackName(2)
+12-17 19:34:56.710  1046  1053 V APM_AudioPolicyManager: releaseOutput() 13
+12-17 19:34:56.711  1795  3364 I Telecom : CallAudioModeStateMachine: Message received: TONE_STOPPED_PLAYING.: CSW.sD->ICTP.r->ICTP.cUTP->CAMSM.pM_3002@EsU_2_0_0
+12-17 19:34:56.712  1795  3364 I Telecom : CallAudioModeStateMachine: Abandoning audio focus: now UNFOCUSED: CSW.sD->ICTP.r->ICTP.cUTP->CAMSM.pM_3002@EsU_2_0_0
+12-17 19:34:56.712  1795  3364 V AudioManager: abandonAudioFocusForCall...
+12-17 19:34:56.712  1795  3364 I MediaFocusControl:  AudioFocus  abandonAudioFocus() from uid/pid 1000/1795 clientId=AudioFocus_For_Phone_Ring_And_Calls
+12-17 19:34:56.712  1795  3364 V AudioManager: setMode  mode: 0
+12-17 19:34:56.712  3180  3332 D AudioState: auido type:out state:stop pid:1795 uid:1000
+12-17 19:34:56.712  3180  3332 I PGServer: report state:2 event type:2 pid:1795 uid:1000 pkg:null to pid: 1795
+12-17 19:34:56.712  1046  9753 D audio_hw_primary: adev_set_mode: mode 0
+12-17 19:34:56.712  1046  9753 D voice_extn: voice_extn_stop_call: end all calls
+12-17 19:34:56.712  1046  9753 D voice_extn: update_calls: enter:
+12-17 19:34:56.712  1046  9753 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10c01000
+12-17 19:34:56.712  1046  9753 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10dc1000
+12-17 19:34:56.712  1046  9753 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10c02000
+12-17 19:34:56.712  1046  9753 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10803000
+12-17 19:34:56.712  1046  9753 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=10002000
+12-17 19:34:56.712  1046  9753 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=11c05000
+12-17 19:34:56.712  1046  9753 D voice_extn: update_calls: cur_state=1 new_state=1 vsid=11dc5000
+12-17 19:34:56.712  1046  9753 V msm8916_platform: platform_set_gsm_mode: disabling gsm mode
+12-17 19:34:56.712  1046  9753 E audio_route: unable to find path 'gsm-mode'
+12-17 19:34:56.712  1046  9753 W HuaweiAudioFlinger: soundtrigger is now disable or not support, pls enable it first from setting
+12-17 19:34:56.712  1046  9753 I APM_AudioPolicyManager: setPhoneState() state 2->0
+12-17 19:34:56.712  1046  9753 V APM_AudioPolicyManager: setPhoneState() in call state management: new state is 0
+12-17 19:34:56.712  1046  9753 I APM_AudioPolicyManager: handleIncallSonification() stream 2 starting 0 device 0x1 stateChange 1
+12-17 19:34:56.712  1046  9753 I APM_AudioPolicyManager: handleIncallSonification() stream 4 starting 0 device 0x1 stateChange 1
+12-17 19:34:56.712  1046  9753 I APM_AudioPolicyManager: handleIncallSonification() stream 5 starting 0 device 0x1 stateChange 1
+12-17 19:34:56.712  1046  9753 I APM_AudioPolicyManager: checkOutputForStrategy() getDeviceForStrategy strategy=5 newDevice=2 oldDevice=3
+12-17 19:34:56.712  1046  9753 I APM_AudioPolicyManager: checkOutputForStrategy() getDeviceForStrategy strategy=1 newDevice=1 oldDevice=1
+12-17 19:34:56.712  1046  9753 I APM_AudioPolicyManager: checkOutputForStrategy() getDeviceForStrategy strategy=2 newDevice=2 oldDevice=1
+12-17 19:34:56.713  1046  9753 I APM_AudioPolicyManager: checkOutputForStrategy() getDeviceForStrategy strategy=3 newDevice=2 oldDevice=1
+12-17 19:34:56.713  1046  9753 I APM_AudioPolicyManager: checkOutputForStrategy() getDeviceForStrategy strategy=7 newDevice=2 oldDevice=1
+12-17 19:34:56.713  1046  9753 I APM_AudioPolicyManager: checkOutputForStrategy() getDeviceForStrategy strategy=0 newDevice=2 oldDevice=1
+12-17 19:34:56.713  1046  9753 I APM_AudioPolicyManager: checkOutputForStrategy() getDeviceForStrategy strategy=4 newDevice=2 oldDevice=1
+12-17 19:34:56.713  1046  9753 I APM_AudioPolicyManager: checkOutputForStrategy() getDeviceForStrategy strategy=8 newDevice=2 oldDevice=1
+12-17 19:34:56.713  1046  9753 I APM_AudioPolicyManager: getNewOutputDevice() selected device 1
+12-17 19:34:56.713  1046  9753 V APM_AudioPolicyManager: setMuteMusicBySetPhoneState state:2 on:0 mMutedByUsbVoice:0
+12-17 19:34:56.713  1046  9753 I APM_AudioPolicyManager: setOutputDevice() device 0x0001 delayMs 0 force 1
+12-17 19:34:56.713  1046  9753 V APM_AudioPolicyManager: setOutputDevice() prevDevice 0x0001
+12-17 19:34:56.713  1046  9753 I APM_AudioPolicyManager: setOutputDevice() changing to device 0x0001 , muteWaitMs 0
+12-17 19:34:56.722  1046  1125 D audio_hw_primary: adev_set_parameters: enter: srs_cfg:trumedia_enable=1
+12-17 19:34:56.722  1046  1125 I Huawei_audio_cust: huawei_audio huawei_choose_HandsFree_device_incall_forHWtest: test Type =4
+12-17 19:34:56.722  1046  1125 I Huawei_audio_cust: huawei_audio huawei_choose_Handset_device_incall_forHWtest: test Type =4
+12-17 19:34:56.722  1046  1125 I Huawei_audio_cust: get_spk_pa_type: pa is max98925
+12-17 19:34:56.722  1046  1125 I Huawei_audio_cust: huawei_common_set_parameters: exit with code(0)
+12-17 19:34:56.722  1046  1125 V Huawei_audio_cust: huawei_cust_set_parameters: exit with code(0)
+12-17 19:34:56.722  1046  1125 V msm8916_platform: platform_set_parameters: enter: - srs_cfg:trumedia_enable=1
+12-17 19:34:56.722  1046  1125 V msm8916_platform: platform_set_parameters: exit with code(0)
+12-17 19:34:56.722  1046  1125 D audio_hw_extn: audio_extn_set_anc_parameters: anc_enabled:0
+12-17 19:34:56.723  1046  1125 D audio_hw_spkr_prot: audio_extn_fbsp_set_parameters: Speaker protection disabled
+12-17 19:34:56.723  1046  1125 V audio_hw_primary: adev_set_parameters: exit with code(0)
+12-17 19:34:56.723  1046  1125 D audio_hw_primary: out_set_parameters: enter: usecase(1: low-latency-playback) kvpairs: routing=1
+12-17 19:34:56.723  1046  1125 D audio_hw_primary: select_devices for use case (low-latency-playback)
+12-17 19:34:56.723  1046  1125 V msm8916_platform: platform_get_native_support:napb: ui Prop enabled(0) version(0)
+12-17 19:34:56.723  1046  1125 V msm8916_platform: platform_get_output_snd_device: enter: output devices(0x1)
+12-17 19:34:56.723  1046  1125 D msm8916_platform: platform_get_output_snd_device: enter: output devices(0x1) mode 0, bt_wb_speech_enabled 0
+12-17 19:34:56.723  1046  1125 I Huawei_audio_cust: huawei_common_get_output_device_FM: huawei_audio select fm(0) device(0x1)exit
+12-17 19:34:56.723  1046  1125 V msm8916_platform: platform_get_output_snd_device: exit: snd_device(handset)
+12-17 19:34:56.723  1046  1125 D audio_hw_primary: select_devices: out_snd_device(1: handset) in_snd_device(0: )
+12-17 19:34:56.723  1046  1125 V audio_hw_primary: disable_audio_route: enter: usecase(1)
+12-17 19:34:56.723  1046  1125 D audio_hw_primary: disable_audio_route: reset and update mixer path: low-latency-playback
+12-17 19:34:56.726  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:34:56.727  3218  3218 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:34:56.728  2852  2852 D DateTimeView: Change to single clock mode!
+12-17 19:34:56.735  1046  1125 D soundtrigger: audio_extn_sound_trigger_update_stream_status: uc_id 1 of type 0 for Event 2, with Raise=0
+12-17 19:34:56.735  1046  1125 V audio_hw_primary: disable_audio_route: exit
+12-17 19:34:56.735  1046  1125 D hardware_info: hw_info_append_hw_type : device_name = voice-handset
+12-17 19:34:56.735  1046  1125 D audio_hw_primary: disable_snd_device: snd_device(15: voice-handset)
+12-17 19:34:56.735  1046  1125 D msm8916_platform: platform_can_split_snd_device: snd_device(15) num devices(0) new_snd_devices(0)
+12-17 19:34:56.735  1795  3077 D NtpPhoneStateListener: onServiceStateChanged subId:0 isCdma=false
+12-17 19:34:56.736  3168  3168 I CHR_ChrCommonInfo: 0 1 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:56.736  1795  1795 D LocationManagerServiceUtil: ServiceStateChanged numeric = 46000
+12-17 19:34:56.736  1795  1795 D LocationManagerServiceUtil: ServiceStateChanged use pkgName = com.amap.android.ams
+12-17 19:34:56.736  2852  3556 I NetworkController.MobileSignalController(0): onServiceStateChanged voiceState=0 dataState=1 isSuspend=false voiceStateOld=0 dataStateOld=1
+12-17 19:34:56.736 17709 17709 D HwIntelligent3_OverseasStateManagerImp: onServiceStateChanged 
+12-17 19:34:56.736  2852  2914 I HwMobileSignalController: onServiceStateChanged: state=0 1 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:56.737  1795  1795 D HwCHRWifiCellID: 0 1 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:56.737  1795  1795 D HwCHRWifiCellID: onServiceStateChanged, state is 0 1 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:56.737  1795  1795 D HwCHRWifiCellID: 0 1 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:56.737  1795  1795 D HwCHRWifiCellID: onServiceStateChanged, state is 0 1 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:56.737  1795  1795 D HwCHRWifiCellID: 0 1 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:56.737  1795  1795 D HwCHRWifiCellID: onServiceStateChanged, state is 0 1 voice home data home 中国移动 中国移动 46000 中国移动 中国移动 46000  GSM Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-17 19:34:56.737  1795  1795 D HwMultiNlpPolicy: PhoneStateListener 0, mDataSub 0
+12-17 19:34:56.737  1795  1795 D HwMultiNlpPolicy: setSimCardReady 1
+12-17 19:34:56.737  1795  1795 D HwMultiNlpPolicy: setRegistedNetwork 46000

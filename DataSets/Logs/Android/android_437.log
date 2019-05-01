@@ -1,0 +1,100 @@
+12-17 19:42:54.719  1795 15987 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:42:54.720  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:42:54.720  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:42:54.720  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:42:54.720  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:42:54.720  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:42:54.720  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:42:54.720  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:42:54.720  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:42:54.720  1795 16499 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{4ff57fc 3382:com.qualcomm.qcrilmsgtunnel/1001}
+12-17 19:42:54.720  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:42:54.720  1795  2323 D HwBatteryService: onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+12-17 19:42:54.721  1795  2323 E UsbDeviceManager: Error reading charge file
+12-17 19:42:54.721  1795  2323 E UsbDeviceManager: java.io.FileNotFoundException: sys/class/hw_power/charger/charge_data/water_intrused (No such file or directory)
+12-17 19:42:54.721  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.open(Native Method)
+12-17 19:42:54.721  1795  2323 E UsbDeviceManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-17 19:42:54.721  1795  2323 E UsbDeviceManager: 	at android.os.FileUtils.readTextFile(FileUtils.java:267)
+12-17 19:42:54.721  1795  2323 E UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager$2.onUEvent(UsbDeviceManager.java:328)
+12-17 19:42:54.721  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.sendEvent(UEventObserver.java:210)
+12-17 19:42:54.721  1795  2323 E UsbDeviceManager: 	at android.os.UEventObserver$UEventThread.run(UEventObserver.java:187)
+12-17 19:42:54.722  3218  3218 D QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+12-17 19:42:54.722  3218  3218 D QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+12-17 19:42:54.728  1795 15982 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:54.729  1795 15982 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:54.732  1795 11745 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:54.734  5215  5215 E wpa_supplicant: RSSI=-63;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:42:54.734  1795 11746 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:54.734  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:42:54.735  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:42:54.735  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-63 "Huawei-Employee"WPA_EAP
+12-17 19:42:54.735  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 PKTCNT_POLL'
+12-17 19:42:54.735  5215  5215 D wpa_supplicant: wlan0: Control interface command 'PKTCNT_POLL'
+12-17 19:42:54.736  1795 15988 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:54.737  1795  6988 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:54.738  7741  7758 D TmoMonitor: Cache monitor msg as screen_off
+12-17 19:42:54.739  1795  6985 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:42:54.739  3382  3399 D QcrilMsgTunnelSocket: readRilMessage: Buffer = [B@204bb9f HexData = [010000000404000012000000514f454d484f4f4b1d04080002000000ffff]
+12-17 19:42:54.739  3382  3399 D QcrilMsgTunnelSocket: Rcvd UNSOL response with 28 bytes data for SUB0
+12-17 19:42:54.739  3382  3399 D QcrilMsgTunnelSocket: Rac Change (PDC) data: [-1, -1]
+12-17 19:42:54.739  3382  3399 D QcrilMsgTunnelSocket: Broadcasting intent ACTION_RAC_CHANGED
+12-17 19:42:54.740  3382  3399 I SendBroadcastPermission: action:qualcomm.intent.action.ACTION_RAC_CHANGED, mPermissionType:0
+12-17 19:42:54.740  1795  3884 D PowerManagerService: acquire lock=15081967, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=3218
+12-17 19:42:54.740  1795  3884 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:54.741  3218  3375 I SendBroadcastPermission: action:com.huawei.android.intent.action.RAC_CHANGED, mPermissionType:0
+12-17 19:42:54.749  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=35
+12-17 19:42:54.751  1795  2739 D HuaweiWifiWatchdogStateMachine: LM mrssi=-63
+12-17 19:42:54.751  1795  1795 D WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -63
+12-17 19:42:54.751  1795  1795 I QosMonitor: queryRtt: rtt_type = 3
+12-17 19:42:54.751  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current loss[-63]=0%, volume=4851
+12-17 19:42:54.751  1795  1795 I WifiProJNI: ######### GET RTT:3 ########
+12-17 19:42:54.751  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=7
+12-17 19:42:54.751  1795  2739 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history loss[-63]=0%, volume=5100
+12-17 19:42:54.751  1795  2737 D WifiProJNI: Received kernel message payload: event 4
+12-17 19:42:54.752  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=9
+12-17 19:42:54.752  1795  2739 I HuaweiWifiWatchdogStateMachine: spd good count:0, add sc:0.0, rate:1.0
+12-17 19:42:54.752  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:42:54.752  1795  2739 I HuaweiWifiWatchdogStateMachine: current mHighDataFlowRate = 1.0
+12-17 19:42:54.752  1795  1795 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 current RTT[-63]=390, volume=2446
+12-17 19:42:54.752  1795  2739 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 4851, 0. Lr =0% Totpkt=4851
+12-17 19:42:54.752  1795  1795 D HuaweiWifiWatchdogStateMachine: 80:38:bc:08:42:c1 history RTT[-63]=385, volume=2564
+12-17 19:42:54.752  1795  1795 D HuaweiWifiWatchdogStateMachine: setSampleRtt: rtt=390,rtt_pkts =2446,rtt_when=1
+12-17 19:42:54.752  1795  1795 I QosMonitor: resetRtt: rtt_type = 3
+12-17 19:42:54.752  1795  1795 I WifiProJNI: ######### RESET RTT:3 ########
+12-17 19:42:54.752  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=6
+12-17 19:42:54.752  1795  1795 I WifiProJNI: ######### CMD_QUERY_PKTS ########
+12-17 19:42:54.752  1795  1795 D WifiProJNI: send_cmd_kernel: cmd=1
+12-17 19:42:54.752  1795  2737 D WifiProJNI: Received kernel message payload: event 0
+12-17 19:42:54.752  1795  2737 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=9
+12-17 19:42:54.752  1795  2737 W WifiProJNI: poll before: g_monitor_fd =310
+12-17 19:42:54.752  1795  1795 I MQoS    : rtt=390,tcp_tx_pkts=1485253,tcp_rx_pkts=1771067
+12-17 19:42:54.753  1795  5350 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+12-17 19:42:54.754  1795  2739 D HuaweiWifiWatchdogStateMachine: dumpTcpResult: len=9,rtt=390,rttPkt=2414,rttWn=1,cgt=2,cgtWn=12287886
+12-17 19:42:54.754  1795  2739 I HuaweiWifiWatchdogStateMachine: PTcp RTT:390, rtt pkt=2414, tcp_rx=2464, tcp_tx=4841, tcp_reTran=0, rtRate=0
+12-17 19:42:54.754  1795  2739 D HuaweiWifiWatchdogStateMachine: isRttGood is good, AvgRtt = 390, TotPkt = 2414
+12-17 19:42:54.754  1795  2739 D HuaweiWifiWatchdogStateMachine: mRssiBadCount =0, RSSI not bad.
+12-17 19:42:54.754  1795  2739 I HuaweiWifiWatchdogStateMachine:  pkt chk not bad, reset sc to 0.
+12-17 19:42:54.754  1795  2739 I HuaweiWifiWatchdogStateMachine: net speed good
+12-17 19:42:54.754  1795  2739 D HuaweiWifiWatchdogStateMachine: bqeLevel = 3 rtt=390,rtt_pkts=2414 speed=28066 rssi=-63
+12-17 19:42:54.754  1795  2739 D HuaweiWifiWatchdogStateMachine: Enter updateQoeLevel level = 3
+12-17 19:42:54.754  1795  2739 D HuaweiWifiWatchdogStateMachine: updateQoeLevel current level equal to mLastDetectLevel, return
+12-17 19:42:54.754  1795  2739 D HuaweiWifiWatchdogStateMachine: ### mPktChkBadCnt=0
+12-17 19:42:54.769  3218  3218 I SendBroadcastPermission: action:android.intent.action.LTE_CA_STATE, mPermissionType:0
+12-17 19:42:54.769  1795  3225 D PowerManagerService: ready=true,policy=0,wakefulness=0,wksummary=0x1,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:42:54.770  1795  3225 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{24cdca7 3218:com.android.phone/1001}, intent:android.intent.action.LTE_CA_STATE, receiver size:1, flags: 10000400
+12-17 19:42:54.770  1795  3225 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{24cdca7 3218:com.android.phone/1001}
+12-17 19:42:54.771  1795  3225 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{24cdca7 3218:com.android.phone/1001}
+12-17 19:42:54.771  1795  3225 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{4836900 u0 android.intent.action.LTE_CA_STATE}: prev had 0
+12-17 19:42:54.772  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{4836900 u0 android.intent.action.LTE_CA_STATE}, has 1 receivers
+12-17 19:42:54.772  3168  3168 I CHR_ChrDataServiceTracker: handleLteCaStatusChange
+12-17 19:42:54.773  2852  3556 I HwNetworkControllerImpl: onReceive: action = android.intent.action.LTE_CA_STATE
+12-17 19:42:54.773  2852  3556 I NetworkController.MobileSignalController(0): need to force refresh view
+12-17 19:42:54.777  2852  2914 I SimCardMethod: isCardAbsent slot:0 slotState:5
+12-17 19:42:54.777  2852  2852 D HwMobileSignalController: getTypeIcon type:3
+12-17 19:42:54.777  2852  2852 D HwMobileSignalController:  4G, isCAState=true
+12-17 19:42:54.777  2852  2852 I HwMobileSignalController: notifyListenerHuawei::origin typeIcon:2130839197 icons.mName:4GPLUS isSuspend:false, showDataIcon=false, dataConnected=false, isRoaming=false
+12-17 19:42:54.777  2852  2852 I HwSignalClusterView: getOrInflateState subId:0
+12-17 19:42:54.777  2852  2852 I HwSignalClusterView: getOrInflateState subId:0
+12-17 19:42:54.777  2852  2852 I HwSignalClusterView: setMobileDataIndicatorsHuawei subId:0 visible:true strengthIcon:2130839311 typeIcon:2130839197 contentDescription:手机信号满格。 typeContentDescription:LTE isTypeIconWide:true showActivity:false activityIn:false activityOut:false isRoaming:false
+12-17 19:42:54.777  2852  2852 I HwSignalClusterView: getOrInflateState subId:0
+12-17 19:42:54.778  2852  2852 D NetWorkUtils: mVSimCurCardType is -1

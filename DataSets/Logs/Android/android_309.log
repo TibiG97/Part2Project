@@ -1,0 +1,100 @@
+12-17 19:34:59.052  2852  2852 I PhoneStatusBar: suspendAutohide
+12-17 19:34:59.052  2852  2852 I vol.VolumeDialogControl: C onDismissRequested reason = 2
+12-17 19:34:59.052  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:34:59.052  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:34:59.052  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:34:59.053  2852  2852 I TintImageView: onTouchEvent: code=4, action=0, event=MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=61.0, y[0]=119.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=123096663, downTime=123096663, deviceId=10, source=0x1002 }
+12-17 19:34:59.054  2852  2852 I TintImageView: sendEvent:action=0, flag=0
+12-17 19:34:59.054  2852  2852 I vol.VolumeDialog: VolumeDialogController.Callbacks onDismissRequested reason = 2
+12-17 19:34:59.054  1795  3238 D KeyEvent: obtain, mHwFlags=0
+12-17 19:34:59.054  1795  3238 D HwCustPhoneWindowManager: answer call by keyCode = 4, down = true, isSupVolumnkeyAnswerCall = false
+12-17 19:34:59.054  1795  3238 I PowerManager_screenOn: HwPhoneWindowManager has intercept Key : 4, isdown : true, flags : 72
+12-17 19:34:59.054  1795  3238 D WindowManager: interceptKeyTq keycode=4 interactive=true keyguardActive=false policyFlags=2b000002 down true canceled false
+12-17 19:34:59.054  1795  3238 D WindowManager: interceptKeyBeforeQueueing: key 4 , result : 1
+12-17 19:34:59.054  1795  2380 D KeyEvent: obtain, mHwFlags=1874117200
+12-17 19:34:59.055  1795  2380 I TransactionSponsor: Transact:getHwAdminCachedValue to device policy manager service.
+12-17 19:34:59.055  1795  2380 I TransactionProcessor: HwDPMS received transaction_isHwFrameworkAdminAllowed, the ret: false
+12-17 19:34:59.055  1795  1809 D KeyEvent: obtain, mHwFlags=0
+12-17 19:34:59.059  3879  3879 D KeyEvent: obtain, mHwFlags=0
+12-17 19:34:59.061  4690  4690 D KeyEvent: obtain, mHwFlags=0
+12-17 19:34:59.095  1795  1821 I ActivityManager_activity: windowsVisibleLocked(): ActivityRecord{930e418 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t297} idle: true
+12-17 19:34:59.102  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_BRIGHTENING_LIGHT_DEBOUNCE
+12-17 19:34:59.102  1795  2748 D HwAmbientLuxFilterAlgo: earliestValidTime + POWER_ON_DARKENING_LIGHT_DEBOUNCE
+12-17 19:34:59.106  1795  2396 W ActivityManager: getRunningAppProcesses: caller 10102 does not hold REAL_GET_TASKS; limiting output
+12-17 19:34:59.112  1795  1809 I MultiTaskManagerService: onForegroundActivitiesChanged pid = 633, uid = 10102
+12-17 19:34:59.138  1795  1821 I WindowManager: Destroying surface Surface(name=com.huawei.espacev2/com.huawei.espace.module.main.ui.MainActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2056 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:907 com.android.server.wm.WindowState.destroyOrSaveSurface:2174 com.android.server.wm.AppWindowToken.destroySurfaces:366 com.android.server.wm.WindowStateAnimator.finishExit:587 com.android.server.wm.AppWindowAnimator.stepAnimationLocked:434 com.android.server.wm.WindowAnimator.updateAppWindowsLocked:182 com.android.server.wm.WindowAnimator.animateLocked:712 
+12-17 19:34:59.145  1795  2671 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SIGNAL_POLL'
+12-17 19:34:59.145  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-17 19:34:59.148  5215  5215 E wpa_supplicant: RSSI=-59;LINKSPEED=72;NOISE=9999;FREQUENCY=2452;
+12-17 19:34:59.148  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=48
+12-17 19:34:59.149  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:34:59.149  1795  2671 E WifiConfigManager: updateConfiguration freq=2452 BSSID=80:38:bc:08:42:c1 RSSI=-60 "Huawei-Employee"WPA_EAP
+12-17 19:34:59.149  1795  2671 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c332618
+12-17 19:34:59.152   625   718 E libnav  : CablComputeBacklightLevel(): UpdateType = DifferentSceneUpdate
+12-17 19:34:59.161  1795  2381 D libfingersense_wrapper: Calling fingersense_touch_up()
+12-17 19:34:59.161  1795  2381 D libfingersense_wrapper: fingersense_touch_up() finished
+12-17 19:34:59.162  1795  2380 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123096778, event=2, flags=0x0, uid=1000
+12-17 19:34:59.162  1795  2380 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=2, uid=1000
+12-17 19:34:59.162  1795  2380 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:59.162  2852  2852 I SlideTouchEvent: handleTouchEvent:MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=271.0, y[0]=119.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=123096778, downTime=123096663, deviceId=10, source=0x1002 }
+12-17 19:34:59.162  2852  2852 I SlideTouchEvent: vel=0.0, MinimumFlingVelocity=150
+12-17 19:34:59.163  2852  2852 I PhoneStatusBar: resumeSuspendedAutohide
+12-17 19:34:59.163  2852  2852 I BarTransitions.HwPhoneStatusBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:34:59.163  2852  2852 I BarTransitions.HwNavigationBarView: transitionTo: mode=MODE_TRANSLUCENT, animate=false
+12-17 19:34:59.163  2852  2852 I HwNavigationBarTransitions: transitionTo:mode=2, isEmuiStyle=false
+12-17 19:34:59.163  2852  2852 I TintImageView: onTouchEvent: code=4, action=1, event=MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=61.0, y[0]=119.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=123096778, downTime=123096663, deviceId=10, source=0x1002 }
+12-17 19:34:59.163  2852  2852 I TintImageView: sendEvent:action=1, flag=0
+12-17 19:34:59.164  1795  3237 D KeyEvent: obtain, mHwFlags=0
+12-17 19:34:59.164  1795  3237 D HwCustPhoneWindowManager: answer call by keyCode = 4, down = false, isSupVolumnkeyAnswerCall = false
+12-17 19:34:59.164  1795  3237 I PowerManager_screenOn: HwPhoneWindowManager has intercept Key : 4, isdown : false, flags : 72
+12-17 19:34:59.164  1795  3237 D WindowManager: interceptKeyTq keycode=4 interactive=true keyguardActive=false policyFlags=2b000002 down false canceled false
+12-17 19:34:59.164  1795  3237 D WindowManager: interceptKeyBeforeQueueing: key 4 , result : 1
+12-17 19:34:59.164  1795  2380 D PowerManagerService: userActivityNoUpdateLocked: eventTime=123096781, event=1, flags=0x0, uid=1000
+12-17 19:34:59.165  1795  2380 I PowerManager_screenOn: PowerManagerNotifier onUserActivity: event=1, uid=1000
+12-17 19:34:59.165  2852  2914 V AudioManager: querySoundEffectsEnabled...
+12-17 19:34:59.165  1795  2380 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:34:59.165  1795  2380 D KeyEvent: obtain, mHwFlags=1874117200
+12-17 19:34:59.165  1795  2380 I TransactionSponsor: Transact:getHwAdminCachedValue to device policy manager service.
+12-17 19:34:59.165  1795  2380 I TransactionProcessor: HwDPMS received transaction_isHwFrameworkAdminAllowed, the ret: false
+12-17 19:34:59.165  3879  3879 D KeyEvent: obtain, mHwFlags=0
+12-17 19:34:59.166  1795  1809 D KeyEvent: obtain, mHwFlags=0
+12-17 19:34:59.166  4690  4690 D KeyEvent: obtain, mHwFlags=0
+12-17 19:34:59.166  3879  3879 I HwLauncher: Launcher onBackPressed zoomEnable=false
+12-17 19:34:59.166  3879  3879 I HwLauncher:  FPSMonitor snapToPage whichPage = 1 delta = 0 duration = 300
+12-17 19:34:59.167  3879  3879 I HwLauncher: DropSearchView  hide() Already hidden.
+12-17 19:34:59.167  3879  3879 I HwLauncher: Launcher onBackPressed end
+12-17 19:34:59.231 16628 27121 I TotemWeather: JAccuWeatherParser:initCityCodeByGeoPos
+12-17 19:34:59.246 16628 27121 D HwCust  : Create obj success use class com.huawei.android.totemweather.parser.accu.HwCustJAccuCityParserImpl
+12-17 19:34:59.246  3608 31101 D ExceptionRadar: TopActivity: com.huawei.android.launcher.unihome.UniHomeLauncher
+12-17 19:34:59.295  1795  1825 D AutomaticBrightnessController: ambient lux=90.0,timeStamp =443035658210000
+12-17 19:34:59.339  3879  4160 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+12-17 19:34:59.339  3879  4160 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+12-17 19:34:59.536  3879  3879 I HwLauncher:  FPSMonitor endScroll
+12-17 19:34:59.604 16628 27121 I TotemWeather: JsonWeatherParser:has no alarm
+12-17 19:34:59.605 16628 16649 I TotemWeather: TaskController:notifyTaskSuccess cityCode= null
+12-17 19:34:59.609  3218  3234 W PhoneInterfaceManager: shouldBlockLocation running ...
+12-17 19:34:59.609  3218  3234 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-17 19:34:59.613  3180 19270 I DownloadState: @@@@@@@@@@@@ uid :10028 download :true
+12-17 19:34:59.614  3180 19270 I PGServer: report state:5 event type:1 pid:0 uid:10028 pkg:null to pid: 1795
+12-17 19:34:59.649  1795  1825 D AutomaticBrightnessController: ambient lux=75.0,timeStamp =443036011674000
+12-17 19:34:59.668 16628 16649 I SendBroadcastPermission: action:com.huawei.android.action.WEATHER_CHANGE, mPermissionType:0
+12-17 19:34:59.669  1795  3247 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{fddc75d 16628:com.huawei.android.totemweather/u0a28}, intent:com.huawei.android.action.WEATHER_CHANGE, receiver size:1, flags: 10000400
+12-17 19:34:59.669  1795  3247 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{fddc75d 16628:com.huawei.android.totemweather/u0a28}
+12-17 19:34:59.669  1795  3247 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{fddc75d 16628:com.huawei.android.totemweather/u0a28}
+12-17 19:34:59.669  1795  3247 I ActivityManager_broadcast: Enqueueing ordered broadcast[background] BroadcastRecord{a212c09 u0 com.huawei.android.action.WEATHER_CHANGE}: prev had 0
+12-17 19:34:59.670  1795  1808 I ActivityManager_broadcast: dispatch ordered broadcast [background] BroadcastRecord{a212c09 u0 com.huawei.android.action.WEATHER_CHANGE}, has 1 receivers
+12-17 19:34:59.671 16628 16649 I SendBroadcastPermission: action:com.huawei.android.action.launcher_weather_icon_change, mPermissionType:0
+12-17 19:34:59.673  2852  2852 I EventCenter: EventCenter Get :com.huawei.android.action.WEATHER_CHANGE
+12-17 19:34:59.674  1795  2396 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{fddc75d 16628:com.huawei.android.totemweather/u0a28}
+12-17 19:34:59.675  3879  3879 I HwLauncher: WeatherDynamicUpdater receive action = com.huawei.android.action.launcher_weather_icon_change
+12-17 19:34:59.675  3879  4071 I HwLauncher: WeatherDynamicUpdater receiver data is int[] = [0, 0, 96, 192, 96, 192, 96, 192] ; stringArray[] = [sunny, num1, num7, tempc] ; dynamic_gravity = center
+12-17 19:34:59.675  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[0] = sunny:0, 0, 0
+12-17 19:34:59.678 16628 16649 I SendBroadcastPermission: action:com.huawei.android.action.action_home_city_weather, mPermissionType:0
+12-17 19:34:59.680  3879  4071 E HW-JPEG-DEC: [HME_JPEG_DEC_Delete](3298): HME_JPEG_DEC_Delete: decoder_ctx=null
+12-17 19:34:59.680  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[1] = num1:96, 192, 0
+12-17 19:34:59.681  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[2] = num7:96, 192, 0
+12-17 19:34:59.681  3879  4071 I HwLauncher: WeatherDynamicUpdater update before : mDrawingData[3] = tempc:96, 192, 0
+12-17 19:34:59.681  3879  4071 I HwLauncher: WeatherDynamicUpdater  picNames.length not equal tmpMapList.size(), so no need to updatePreData... ; picNames.length = 4 , tmpMapList.size() = 1
+12-17 19:34:59.684 16628 16649 I SendBroadcastPermission: action:com.huawei.android.action.alarm_weather, mPermissionType:0
+12-17 19:34:59.684  1795  3225 I ActivityManager_broadcast: collectReceiverComponents, callerApp: ProcessRecord{fddc75d 16628:com.huawei.android.totemweather/u0a28}, intent:com.huawei.android.action.alarm_weather, receiver size:1, flags: 10000400
+12-17 19:34:59.684  1795  3225 I HwActivityManagerService: Split enqueueing broadcast [callerApp]:ProcessRecord{fddc75d 16628:com.huawei.android.totemweather/u0a28}

@@ -1,0 +1,100 @@
+12-17 19:31:45.766 31949 31967 E TCP     : tcp.recv{4790} TcpClientThread.readSocket(TcpClientThread.java:452) <<< ERROR(6) >>> socket read length failure -104
+12-17 19:31:45.767  1795  2332 I qti_sensors_hal: [ACC]processReportInd: X: 4.545423 Y: 7.397238 Z: 3.486840  x_offset:0.160831 y_offset:0.184366 z_offset:0.985027
+12-17 19:31:45.769 31949 31967 I TCP     : WatchThread{4786} TcpSocket.close(TcpSocket.java:170) shutdown input: java.net.SocketException: Socket is closed
+12-17 19:31:45.772 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:314) disconnected
+12-17 19:31:45.774 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.closeSocket(TcpClientThread.java:396) closed socket.
+12-17 19:31:45.774  1795  1825 D PowerManagerService: reallyGoToSleepNoUpdateLocked: eventTime=123018946, uid=1000
+12-17 19:31:45.775  1795  1825 I PowerManagerService: Sleeping (uid 1000)...
+12-17 19:31:45.775  1795  1825 I PowerManager_screenOn: PowerManagerNotifier onWakefulnessChangeStarted: wakefulness=0, reason=2, interactive=false, mInteractive=false, mInteractiveChanging=true
+12-17 19:31:45.775 16354 16354 E HwSystemManager: MemCPUMonitor:startTimerMonitor isCompleted = true
+12-17 19:31:45.775  1795  1825 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x10,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:45.775  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:45.775  1795  1795 D PowerManagerService: acquire lock=228612087, flags=0x1, tag="ActivityManager-Sleep", name=android, ws=null, uid=1000, pid=1795
+12-17 19:31:45.775  1795  1795 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:45.775  1795  1795 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+12-17 19:31:45.775  1795  1795 I ActivityManager_activity: Start pausing: ActivityRecord{b46dc67 u0 com.android.incallui/.InCallActivity t310}
+12-17 19:31:45.775 31949 31967 I eSpaceService: WatchThread{4786} TcpCirChannel.connect(TcpCirChannel.java:219) Connect to server  address = [uc.huawei.com,]  port = 7801
+12-17 19:31:45.777 31949 31967 I ECS     : WatchThread{4786} TcpClient.clearAll(TcpClient.java:240) ==================== TCP CLIENT CLEAR ALL ====================
+12-17 19:31:45.777  3608  3608 I InCall  : VideoCallFragment - onPause:
+12-17 19:31:45.777  3608  3608 I InCall  : VideoCallPresenter - isVideoCallWorking, state is: 3
+12-17 19:31:45.777  3608  3608 D InCall  : VideoCallPresenter - pauseVideo: Error bad state mPrimaryCall=[Call_10, ACTIVE, [Capabilities: CAPABILITY_HOLD CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, VideoSettings:(CameraDir:-1)] mVideoCall=null
+12-17 19:31:45.777  3608  3608 D InCall  : InCallActivity - onPause()...
+12-17 19:31:45.777  3608  3608 D InCall  : DialpadFragment - Notifying dtmf key up.
+12-17 19:31:45.778  3608  3608 D InCall  : ContactInfoCache - Contact lookup. In memory cache hit; lookup complete
+12-17 19:31:45.782 31949 31967 I ECS     : WatchThread{4786} TcpClient.connect(TcpClient.java:162) ==================== TCP CLIENT CONNECT [2] ====================
+12-17 19:31:45.783  3608  3608 D InCall  : StatusBarNotifier - Showing notification for first time.
+12-17 19:31:45.783  3608  3608 D InCall  : StatusBarNotifier - Data changed.  Showing notification
+12-17 19:31:45.783  3608  3608 D InCall  : StatusBarNotifier - contactsentry_photo is null
+12-17 19:31:45.786 17238 17238 D Bth     : BtChrStatisticsManager:sendScreenOnEvent enter.
+12-17 19:31:45.787 17238 17252 D Bth     : BtChrStatisticsManager:msg Loop is running.
+12-17 19:31:45.787  1795  2376 W AlarmManager: mIsScreenOn is: true, WAKEUP alarm talarm.operation == null,package name is: android listenerTag is: WifiConnectivityManager Schedule Periodic Scan Timer creator uid is: 1000
+12-17 19:31:45.787  1795  2376 I AlarmManager: Alarm triggering (type 0 or 2): [Alarm{cacbe6f type 2 when 442842151 android}]
+12-17 19:31:45.787  1795  2376 I AlarmManager: sending alarm Alarm{cacbe6f type 2 when 442842151 android},repeatInterval = 0,listenerTag =WifiConnectivityManager Schedule Periodic Scan Timer
+12-17 19:31:45.788  1795  2376 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:45.788  3608  3608 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:45.788  3608  3608 D HwCust  : Create obj success use class android.app.HwCustNotificationImpl
+12-17 19:31:45.788  3608  3608 E InCall  : StatusBarNotifier - getNotificationBuilder
+12-17 19:31:45.788  1795  2671 I WifiConnectivityManager: periodicScanTimerHandler mScreenOn true
+12-17 19:31:45.789 31949 31967 I TCP     : WatchThread{4786} TcpClientThread.connect(TcpClientThread.java:52) will connect to uc.huawei.com:7801
+12-17 19:31:45.789  1795  2671 D HwWifiConnectivityManager: handleScanCounterChanged,reason: 0, mHwSingleScanCounter: 1
+12-17 19:31:45.789  1795  2671 E WifiConnectivityManager: isWifiScanSpecialChannels is false,mWifiState : 1
+12-17 19:31:45.790  1795  2671 I AlarmManager: set(null) : type=2 triggerAtTime=442862153 win=0 tElapsed=442862153 maxElapsed=442862153 interval=0 flags=0x9
+12-17 19:31:45.790 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:349) connecting max 30000ms to uc.huawei.com:7801
+12-17 19:31:45.791  1795  2680 D WifiHW  : wifi_send_command: cmd:'IFNAME=wlan0 SCAN TYPE=ONLY'
+12-17 19:31:45.792 31949 31967 I TCP     : tcp.conn{4787} TcpSocket.connect_i(TcpSocket.java:84) connecting to ip address uc.huawei.com/172.30.70.63
+12-17 19:31:45.793  3180  3180 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:31:45.793 31949 31967 I TCP     : tcp.recv{4790} TcpClientThread.onReceiverWork(TcpClientThread.java:292) connected
+12-17 19:31:45.793  5215  5215 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY'
+12-17 19:31:45.793  5215  5215 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-17 19:31:45.793  5215  5215 D wpa_supplicant: CTRL-DEBUG: global_ctrl_sock-sendto: sock=16 sndbuf=229376 outq=0 send_len=3
+12-17 19:31:45.793  5215  5215 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-17 19:31:45.793  5215  5215 D wpa_supplicant: OKC-Native: Append OKC IE!
+12-17 19:31:45.793  5215  5215 D wpa_supplicant: OKC-Native: Append done!
+12-17 19:31:45.794  5215  5215 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7fb502f3c0
+12-17 19:31:45.794  5215  5215 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-17 19:31:45.794  5215  5215 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7fb502f3c0 after 0.000040 second wait
+12-17 19:31:45.794  5215  5215 D wpa_supplicant: wlan0: nl80211: scan request
+12-17 19:31:45.794  5215  5215 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-17 19:31:45.794  5215  5215 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=67): 7f 05 00 00 0a 02 01 dd 0f 00 e0 fc 80 00 00 00 01 00 00 00 00 00 00 00 dd 29 00 e0 fc 80 00 00 ...
+12-17 19:31:45.794 31949 31967 I TCP     : tcp.conn{4787} TcpClientThread.connectSocket(TcpClientThread.java:360) notify user tcp connected successully at 36827 to uc.huawei.com:7801
+12-17 19:31:45.794  3180  3180 E libc    : Access denied finding property "persist.sys.smart_power"
+12-17 19:31:45.795  5215  5215 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-17 19:31:45.795  5215  5215 D wpa_supplicant: nl80211: Event message available
+12-17 19:31:45.795  5215  5215 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+12-17 19:31:45.795  5215  5215 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-17 19:31:45.795  5215  5215 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-17 19:31:45.795  5215  5215 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000252 seconds
+12-17 19:31:45.795  5215  5215 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=16 sndbuf=229376 outq=0 send_len=24
+12-17 19:31:45.795  5215  5215 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1795-194\x00
+12-17 19:31:45.796  1795  5219 D WifiMonitor: Dispatching event to interface: wlan0
+12-17 19:31:45.796  1795  5219 E WifiMonitor: WifiMonitor:wlan0 cnt=30959 dispatchEvent: CTRL-EVENT-SCAN-STARTED 
+12-17 19:31:45.811  1795  2671 D PowerManagerService: ready=false,policy=0,wakefulness=0,wksummary=0x11,uasummary=0x0,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 19:31:45.812  1795  1795 D PowerManagerService: Releasing suspend blocker "PowerManagerService.Broadcasts".
+12-17 19:31:45.812  1795  2680 I AlarmManager: set(null) : type=2 triggerAtTime=442857157 win=11250 tElapsed=442857157 maxElapsed=442868407 interval=0 flags=0x8
+12-17 19:31:45.816  1795  3110 W ActivityManager: getRunningAppProcesses: caller 10105 does not hold REAL_GET_TASKS; limiting output
+12-17 19:31:45.818  1795  1825 I DisplayPowerController: checkPhoneWindowIsTop:pakcage name:com.android.incallui,ClassName name:com.android.incallui.InCallActivity
+12-17 19:31:45.818  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetColorFadeLevel: level=0.0
+12-17 19:31:45.818  1795  1825 I DisplayPowerController: set brightness to DIM brightness:6
+12-17 19:31:45.818  1795  1825 D DisplayPowerController: Unfinished business...
+12-17 19:31:45.818  1795  1825 I PowerManager_screenOn: DisplayPowerController updatePowerState mPendingRequestLocked=policy=OFF, useProximitySensor=true, useProximitySensorbyPhone=true, screenBrightness=33, screenAutoBrightnessAdjustment=0.0, brightnessSetByUser=true, useAutoBrightness=true, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=-1, dozeScreenState=UNKNOWN, useTwilight=false, useSmartBacklight=true, brightnessWaitMode=false, brightnessWaitRet=true, screenAutoBrightness=-1, userId=0
+12-17 19:31:45.819  1795  1825 I PowerManager_screenOn: DisplayPowerStatesetScreenState: state=1
+12-17 19:31:45.819  1795  1825 D FpDataCollector: DisplayPowerState :OFF
+12-17 19:31:45.819  3608  3608 D InCall  : StatusBarNotifier - Will show "hang-up" action in the ongoing active call Notification
+12-17 19:31:45.819  1795  2750 I PowerManager_screenOn: DisplayPowerState Updating screen state: state=ON, backlight=0
+12-17 19:31:45.819  1795  2750 I HwLightsService: back light level before map = 0
+12-17 19:31:45.820  1795  2750 D HW_DISPLAY_EFFECT: presently, hw_update_color_temp_for_rg_led interface not achieved.
+12-17 19:31:45.821  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 19:31:45.821  2852  2852 I HwBrightnessController: onChange selfChange:false uri.toString():content://settings/system/screen_auto_brightness mIsObserveAutoBrightnessChange:true
+12-17 19:31:45.822  2852  2852 I HwBrightnessUtils: APS brightness=0.0,ConvertToPercentage=NaN
+12-17 19:31:45.822  2852  2852 I HwBrightnessUtils:  getSeekBarProgress isAutoMode:true current brightness:0 percentage:NaN
+12-17 19:31:45.822  2852  2852 I HwBrightnessController: updateSlider1 seekBarProgress:0
+12-17 19:31:45.822  2852  2852 I HwBrightnessController: updateSlider2 seekBarProgress:0
+12-17 19:31:45.822  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:0 fromUser:false
+12-17 19:31:45.822  2852  2852 I ToggleSlider:  mSeekListener onProgressChanged progress:0 fromUser:false
+12-17 19:31:45.823  3608  3608 E WindowManagerEx: ret: 0
+12-17 19:31:45.823  1795  1805 D HwWindowManagerService: imeVis=false
+12-17 19:31:45.823  3608  3608 E WindowManagerEx: ret: 0
+12-17 19:31:45.823  1795  6985 D HwWindowManagerService: imeVis=false
+12-17 19:31:45.824  3608  3608 E WindowManagerEx: ret: 0
+12-17 19:31:45.824  3608  3608 I InCall  : StatusBarNotifier - isTopIsFullscreen = false--isTopIsFullscreenInput()--false
+12-17 19:31:45.824  3608  3608 E InCall  : StatusBarNotifier - buildAndSendNotification state=3 showHeadUpNotification=false mHeadupViewShow=false
