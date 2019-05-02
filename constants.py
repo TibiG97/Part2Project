@@ -1,4 +1,5 @@
 import numpy as np
+from utils import get_directory
 
 FILE_ENCODING = [1, 0, 0]
 PROCESS_ENCODING = [0, 1, 0]
@@ -86,3 +87,12 @@ CNN_GRID = {
     "dropout_rate": [0.1, 0.3, 0.5, 0.7, 0.9],
     "init_mode": ['uniform', 'normal', 'zero', 'he_normal', 'he_uniform']
 }
+
+LOG_DIRS = [
+    get_directory() + '/Data_Sets/Logs/Android',
+    get_directory() + '/Data_Sets/Logs/Apache',
+    get_directory() + '/Data_Sets/Logs/Hadoop',
+    get_directory() + '/Data_Sets/Logs/OpenStack',
+    get_directory() + '/Data_Sets/Logs/Spark',
+    get_directory() + '/Data_Sets/Logs/SSH'
+]

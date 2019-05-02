@@ -33,10 +33,10 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
                  learning_rate=0.005,
                  dropout_rate=0.5,
                  init_mode='normal',
-                 verbose=0,
+                 verbose=2,
                  no_of_classes=None,
                  one_hot=0,
-                 attr_dim=1,
+                 attr_dim=30,
                  dummy_value=-1):
         """
         :param width: width parameter
@@ -154,6 +154,7 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
 
         cnn_train_set = np.array(train)
 
+        print(cnn_train_set.shape)
         return cnn_train_set
 
     def get_rf_times(self,

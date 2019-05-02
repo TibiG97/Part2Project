@@ -35,7 +35,7 @@ class DataLoader:
                 lines = log_file.readlines()
                 for line in lines:
                     line_vector = hashing_trick(text=line,
-                                                n=100,
+                                                n=1000,
                                                 hash_function=None,
                                                 filters='!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\n',
                                                 lower=True,
@@ -73,7 +73,7 @@ class DataLoader:
         all_graphs = list()
         all_labels = list()
 
-        dataset_directory = get_directory() + '/DataSets/Provenance_Graphs/' + name
+        dataset_directory = get_directory() + '/Data_Sets/Provenance_Graphs/' + name
         number_of_classes, graphs_per_class = DataLoader.__load_data_property_file(dataset_directory + '/property_file')
 
         for index in range(1, number_of_classes + 1):

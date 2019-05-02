@@ -74,7 +74,7 @@ class LogRegression(SKLearnModel):
     """
 
     def __init__(self,
-                 c: int,
+                 c: float,
                  penalty: str):
         """
         Object Constructor

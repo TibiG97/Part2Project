@@ -130,9 +130,10 @@ def compute_binary_metrics(predictions: list,
     metrics['accuracy'] = accuracy(tp, tn, fp, fn)
     metrics['precision'] = precision(tp, tn, fp, fn)
     metrics['recall'] = recall(tp, tn, fp, fn)
-    metrics['f1_score'] = f1_score(tp, tn, fp, fn)
+    metrics['f1_score'] = f1_score(labels, predictions)
     metrics['mcc'] = mcc(tp, tn, fp, fn)
 
+    print(metrics)
     return metrics
 
 
@@ -183,7 +184,7 @@ def compute_metrics(predictions: list,
     micro_precision = precision_score(labels, predictions, average='micro')
     micro_recall = recall_score(labels, predictions, average='micro')
     micro_f1_score = f1_score(labels, predictions, average='micro')
-    micro_mcc = matthews_corrcoef(labels, predictions)
+    micro_mcc = mcc(sum(tp_list), sum(tn_list), sum(fp_list), sum(fn_list))
     '''
     micro_precision = precision(sum(tp_list), sum(tn_list), sum(fp_list), sum(fn_list))
     micro_recall = recall(sum(tp_list), sum(tn_list), sum(fp_list), sum(fn_list))
@@ -205,7 +206,8 @@ def compute_metrics(predictions: list,
     macro_precision = precision_score(labels, predictions, average='macro')
     macro_recall = recall_score(labels, predictions, average='macro')
     macro_f1_score = f1_score(labels, predictions, average='macro')
-    macro_mcc = matthews_corrcoef(labels, predictions)
+    macro_mcc = (1 / no_of_classes) * sum(
+        mcc(tp, tn, fp, fn) for (tp, tn, fp, fn) in zip(tp_list, tn_list, fp_list, fn_list))
     '''
     macro_accuracy = accuracy_score(labels, predictions)
     macro_precision = (1 / no_of_classes) * sum(

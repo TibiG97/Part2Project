@@ -272,7 +272,7 @@ def nested_cross_validation(data_set: np.array,
     """
 
     results_file = open(get_directory() + '/Results/' + model_name, 'a')
-    # results_file.truncate(0)
+    results_file.truncate(0)
 
     data_set, labels = randomise_order(data_set, labels)
 
@@ -280,7 +280,7 @@ def nested_cross_validation(data_set: np.array,
     splitted_labels = split_in_folds(labels, no_of_outer_folds)
     all_predictions = list()
 
-    for outer_iterator in range(0, no_of_outer_folds):
+    for outer_iterator in range(0, 1):
         print(outer_iterator)
         print('ITERATION' + ' ' + str(outer_iterator), file=results_file)
         results_file.flush()
@@ -329,7 +329,11 @@ def nested_cross_validation(data_set: np.array,
                                                                   no_of_samples=no_of_samples)
 
         else:
-            best_model = MultilayerPerceptron(epochs=30,
+            best_model = ConvolutionalNeuralNetwork(width=10, stride=1, rf_size=2, epochs=10, batch_size=32,
+                                                    learning_rate=0.001, dropout_rate=0.5, no_of_classes=no_of_classes,
+                                                    dummy_value=DUMMY)
+            '''
+            best_model = MultilayerPerceptron(epochs=50,
                                               batch_size=32,
                                               verbose=2,
                                               dropout_rate=0.5,
@@ -337,14 +341,19 @@ def nested_cross_validation(data_set: np.array,
                                               init_mode='he',
                                               learning_rate=0.001,
                                               no_of_classes=no_of_classes)
+            '''
 
         print(best_parameters, file=results_file)
         best_model.train(training_set, training_labels)
         predictions = best_model.predict_class(test_set)
         all_predictions.append(predictions)
         metrics = compute_metrics(predictions, test_labels, no_of_classes)
-        for element in metrics:
-            print(element, file=results_file)
+
+        if no_of_classes == 2:
+            print(metrics, file=results_file)
+        else:
+            for element in metrics:
+                print(element, file=results_file)
 
         print(file=results_file)
         print(file=results_file)
