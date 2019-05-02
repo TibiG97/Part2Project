@@ -1,5 +1,6 @@
 from utils import get_directory
 from utils import merge_splits
+from utils import add_padding
 from constants import BIG_NUMBER
 
 from Data_Processing.graph_structure import Graph
@@ -94,6 +95,8 @@ class DataLoader:
             all_values = list()
             for graph in all_graphs:
                 all_values.append(merge_splits(graph.values()))
+
+            all_values = add_padding(all_values, 0)
             all_values = np.array(all_values)
 
             return all_values, all_labels, number_of_classes

@@ -144,3 +144,23 @@ def convert_to_one_hot_encoding(position,
         return np.zeros(no_of_classes)
     else:
         return np.eye(no_of_classes)[position]
+
+
+def add_padding(matrix: list,
+                value: int):
+    """
+    :param matrix: matrix to be padded
+    :param value: value to pad with
+    :return: padded matrix
+    """
+
+    len_max = 0
+    for line in matrix:
+        len_max = max(len_max, len(line))
+
+    for iterator in range(0, len(matrix)):
+        if len(matrix[iterator]) < len_max:
+            matrix[iterator] = np.concatenate((matrix[iterator],
+                                               [value] * (len_max - len(matrix[iterator]))), axis=None)
+
+    return matrix

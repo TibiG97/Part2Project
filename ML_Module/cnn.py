@@ -6,12 +6,15 @@ from keras.layers import Dense
 from keras.layers import Flatten
 from keras.layers import Dropout
 from keras.layers import BatchNormalization
+from keras.layers import Activation
+from keras.layers import MaxPool1D
 from keras.optimizers import Adam
 
 from ML_Module.neural_net import NeuralNetwork
 from ML_Module.patchy_san import ReceptiveFieldMaker
 
 from constants import EMPTY_TIMES_DICT
+from constants import DUMMY
 
 from copy import copy
 import numpy as np
@@ -24,20 +27,20 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
     """
 
     def __init__(self,
-                 width,
-                 stride=1,
-                 rf_size=10,
+                 width: int,
+                 stride: int,
+                 rf_size: int,
+                 epochs: int,
+                 batch_size: int,
+                 learning_rate: float,
+                 dropout_rate: float,
+                 no_of_classes: int,
                  labeling_procedure_name='betweeness',
-                 epochs=150,
-                 batch_size=25,
-                 learning_rate=0.005,
-                 dropout_rate=0.5,
                  init_mode='normal',
                  verbose=2,
-                 no_of_classes=None,
                  one_hot=0,
                  attr_dim=30,
-                 dummy_value=-1):
+                 dummy_value=DUMMY):
         """
         :param width: width parameter
         :param stride: length of the stride
@@ -93,36 +96,34 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
 
         model = Sequential()
 
-        model.add(Conv1D(filters=16,
+        model.add(Conv1D(filters=32,
                          kernel_size=self.rf_size,
                          strides=self.rf_size,
                          input_shape=(self.width * self.rf_size, self.attr_dim)))
-
-        model.add(Conv1D(filters=8,
-                         kernel_size=10,
+        model.add(Conv1D(filters=64,
+                         kernel_size=self.rf_size,
                          strides=1))
 
         model.add(Flatten())
 
+        model.add(Dense(128))
         model.add(BatchNormalization())
-
-        model.add(Dense(128,
-                        activation="relu",
-                        name='embedding_layer'))
-
+        model.add(Activation('relu'))
         model.add(Dropout(self.dropout_rate))
 
         if self.no_of_classes > 2:
-            model.add(Dense(self.no_of_classes,
-                            activation='softmax'))
+            model.add(Dense(self.no_of_classes))
+            # model.add(BatchNormalization())
+            model.add(Activation('softmax'))
 
             model.compile(loss="categorical_crossentropy",
                           optimizer=Adam(self.learning_rate),
                           metrics=["accuracy"])
 
         else:
-            model.add(Dense(1,
-                            activation="sigmoid"))
+            model.add(Dense(1))
+            # model.add(BatchNormalization())
+            model.add(Activation('sigmoid'))
 
             model.compile(loss="binary_crossentropy",
                           optimizer=Adam(self.learning_rate),
@@ -159,6 +160,5 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
 
     def get_rf_times(self,
                      receptive_field: ReceptiveFieldMaker):
-
         for entry in self.times.keys():
             self.times[entry].append(np.sum(receptive_field.all_times[entry]))

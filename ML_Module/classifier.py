@@ -28,7 +28,7 @@ class Classifier(object):
         :param labels: graphs' labels
         """
 
-        if self.name == 'MLP' or self.name == 'CNN':
+        if self.name == 'CNN':
             training_set = self.process_data(training_set)
 
         self.classifier.fit(training_set, labels)
@@ -40,7 +40,7 @@ class Classifier(object):
         :return: predicted labels
         """
 
-        if self.name == 'MLP' or self.name == 'CNN':
+        if self.name == 'CNN':
             test_set = self.process_data(test_set)
 
         return self.classifier.predict(test_set)
@@ -52,7 +52,7 @@ class Classifier(object):
         :return: predicted probabilities
         """
 
-        if self.name == 'MLP' or self.name == 'CNN':
+        if self.name == 'CNN':
             test_set = self.process_data(test_set)
 
         return self.classifier.predict_proba(test_set)

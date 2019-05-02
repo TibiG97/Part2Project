@@ -1,14 +1,5 @@
 from ML_Module.neural_net import NeuralNetwork
 
-import os
-import glob
-import shutil
-import numpy as np
-import pandas as pd
-
-from sklearn.preprocessing import LabelBinarizer, LabelEncoder
-
-from keras.preprocessing.text import Tokenizer
 from keras.wrappers.scikit_learn import KerasClassifier
 from keras.models import Sequential
 from keras.layers import Activation
@@ -50,7 +41,7 @@ class MultilayerPerceptron(NeuralNetwork):
             init_mode=init_mode,
             no_of_classes=no_of_classes,
             verbose=verbose,
-            name='MLPP'
+            name='MLP'
         )
 
     def __create_model(self):

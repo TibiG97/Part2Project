@@ -329,9 +329,14 @@ def nested_cross_validation(data_set: np.array,
                                                                   no_of_samples=no_of_samples)
 
         else:
-            best_model = ConvolutionalNeuralNetwork(width=10, stride=1, rf_size=2, epochs=10, batch_size=32,
-                                                    learning_rate=0.001, dropout_rate=0.5, no_of_classes=no_of_classes,
-                                                    dummy_value=DUMMY)
+            best_model = ConvolutionalNeuralNetwork(width=20,
+                                                    stride=1,
+                                                    rf_size=20,
+                                                    epochs=100,
+                                                    batch_size=32,
+                                                    learning_rate=0.001,
+                                                    dropout_rate=0.5,
+                                                    no_of_classes=no_of_classes)
             '''
             best_model = MultilayerPerceptron(epochs=50,
                                               batch_size=32,
@@ -343,17 +348,16 @@ def nested_cross_validation(data_set: np.array,
                                               no_of_classes=no_of_classes)
             '''
 
-        print(best_parameters, file=results_file)
+        if best_parameters is not None:
+            print(best_parameters, file=results_file)
+
         best_model.train(training_set, training_labels)
         predictions = best_model.predict_class(test_set)
         all_predictions.append(predictions)
         metrics = compute_metrics(predictions, test_labels, no_of_classes)
 
-        if no_of_classes == 2:
-            print(metrics, file=results_file)
-        else:
-            for element in metrics:
-                print(element, file=results_file)
+        for element in metrics:
+            print(element, file=results_file)
 
         print(file=results_file)
         print(file=results_file)

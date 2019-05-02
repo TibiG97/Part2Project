@@ -1,84 +1,10 @@
 from math import sqrt
-from sklearn.metrics import confusion_matrix, accuracy_score
-from sklearn.metrics import precision_score, recall_score, f1_score, matthews_corrcoef
 
-
-def accuracy(tp: int,
-             tn: int,
-             fp: int,
-             fn: int):
-    """
-    Method that computed the accuracy of a ML model
-
-    :param tp: true positives
-    :param tn: true negatives
-    :param fp: false positives
-    :param fn: false negatives
-    :return: accuracy score
-    """
-
-    if tp + tn == 0:
-        return 0
-    return (tp + tn) / (tp + tn + fp + fn)
-
-
-def precision(tp: int,
-              tn: int,
-              fp: int,
-              fn: int):
-    """
-    Method that computed the precision of a ML model
-
-    :param tp: true positives
-    :param tn: true negatives
-    :param fp: false positives
-    :param fn: false negatives
-    :return: precision score
-    """
-
-    if tp == 0:
-        return 0
-    return tp / (tp + fp)
-
-
-def recall(tp: int,
-           tn: int,
-           fp: int,
-           fn: int):
-    """
-    Method that computed the recall of a ML model
-
-    :param tp: true positives
-    :param tn: true negatives
-    :param fp: false positives
-    :param fn: false negatives
-    :return: recall score
-    """
-
-    if tp == 0:
-        return 0
-    return tp / (tp + fn)
-
-
-'''
-def f1_score(tp: int,
-             tn: int,
-             fp: int,
-             fn: int):
-    """
-    Method that computed the f1_score of a ML model
-
-    :param tp: true positives
-    :param tn: true negatives
-    :param fp: false positives
-    :param fn: false negatives
-    :return: f1_score score
-    """
-
-    if tp == 0:
-        return 0
-    return 2 * tp / (2 * tp + fp + fn)
-'''
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import precision_score
+from sklearn.metrics import recall_score
+from sklearn.metrics import f1_score
 
 
 def mcc(tp: int,
@@ -127,14 +53,13 @@ def compute_binary_metrics(predictions: list,
             tn += 1
 
     metrics = dict()
-    metrics['accuracy'] = accuracy(tp, tn, fp, fn)
-    metrics['precision'] = precision(tp, tn, fp, fn)
-    metrics['recall'] = recall(tp, tn, fp, fn)
+    metrics['accuracy'] = accuracy_score(labels, predictions)
+    metrics['precision'] = precision_score(labels, predictions)
+    metrics['recall'] = recall_score(labels, predictions)
     metrics['f1_score'] = f1_score(labels, predictions)
     metrics['mcc'] = mcc(tp, tn, fp, fn)
 
-    print(metrics)
-    return metrics
+    return metrics, confusion_matrix(labels, predictions)
 
 
 def compute_metrics(predictions: list,
@@ -185,12 +110,6 @@ def compute_metrics(predictions: list,
     micro_recall = recall_score(labels, predictions, average='micro')
     micro_f1_score = f1_score(labels, predictions, average='micro')
     micro_mcc = mcc(sum(tp_list), sum(tn_list), sum(fp_list), sum(fn_list))
-    '''
-    micro_precision = precision(sum(tp_list), sum(tn_list), sum(fp_list), sum(fn_list))
-    micro_recall = recall(sum(tp_list), sum(tn_list), sum(fp_list), sum(fn_list))
-    micro_f1_score = f1_score(sum(tp_list), sum(tn_list), sum(fp_list), sum(fn_list))
-    micro_mcc = mcc(sum(tp_list), sum(tn_list), sum(fp_list), sum(fn_list))
-    '''
 
     micros = dict()
     micros['micro_accuracy'] = round(micro_accuracy, 3)
@@ -208,17 +127,7 @@ def compute_metrics(predictions: list,
     macro_f1_score = f1_score(labels, predictions, average='macro')
     macro_mcc = (1 / no_of_classes) * sum(
         mcc(tp, tn, fp, fn) for (tp, tn, fp, fn) in zip(tp_list, tn_list, fp_list, fn_list))
-    '''
-    macro_accuracy = accuracy_score(labels, predictions)
-    macro_precision = (1 / no_of_classes) * sum(
-        precision(tp, tn, fp, fn) for (tp, tn, fp, fn) in zip(tp_list, tn_list, fp_list, fn_list))
-    macro_recall = (1 / no_of_classes) * sum(
-        recall(tp, tn, fp, fn) for (tp, tn, fp, fn) in zip(tp_list, tn_list, fp_list, fn_list))
-    macro_f1_score = (1 / no_of_classes) * sum(
-        f1_score(tp, tn, fp, fn) for (tp, tn, fp, fn) in zip(tp_list, tn_list, fp_list, fn_list))
-    macro_mcc = (1 / no_of_classes) * sum(
-        mcc(tp, tn, fp, fn) for (tp, tn, fp, fn) in zip(tp_list, tn_list, fp_list, fn_list))
-    '''
+
     macros = dict()
     macros['macro_accuracy'] = round(macro_accuracy, 3)
     macros['macro_precision'] = round(macro_precision, 3)
