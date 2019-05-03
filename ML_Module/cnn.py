@@ -39,7 +39,6 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
                  labeling_procedure_name='betweeness',
                  init_mode='normal',
                  verbose=2,
-                 one_hot=0,
                  attr_dim=ATTR_DIM,
                  dummy_value=DUMMY):
         """
@@ -51,7 +50,6 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
         :param batch_size: batch size for training the CNN
         :param verbose: choose how to see training progress
         :param no_of_classes: number of classes
-        :param one_hot: if nodes attributes are discrete it is the number of unique attributes
         :param attr_dim: if nodes attributes are multidimensionnal it is the dimension of the attributes
         :param dummy_value:  which value should be used for dummy nodes
         """
@@ -62,13 +60,9 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
         self.labeling_procedure_name = labeling_procedure_name
 
         self.attr_dim = attr_dim
-        self.one_hot = one_hot
         self.dummy_value = dummy_value
 
         self.times = copy(EMPTY_TIMES_DICT)
-
-        if self.one_hot > 0:
-            self.attr_dim = self.one_hot
 
         self.model = KerasClassifier(build_fn=self.__create_model,
                                      epochs=epochs,
@@ -149,7 +143,6 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
                                                   k=self.rf_size,
                                                   s=self.stride,
                                                   labeling_procedure_name=self.labeling_procedure_name,
-                                                  one_hot=self.one_hot,
                                                   dummy_value=self.dummy_value)
             for_cnn = receptive_field.make_()
             train.append(np.array(for_cnn).flatten().reshape(self.rf_size * self.width, self.attr_dim))

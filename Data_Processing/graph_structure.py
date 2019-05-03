@@ -1,15 +1,5 @@
 import networkx as nx
 
-import time
-
-
-class NoAttrMatrix(Exception):
-    pass
-
-
-class NoPathException(Exception):
-    pass
-
 
 class Graph(object):
 
@@ -19,13 +9,6 @@ class Graph(object):
         else:
             self.nx_graph = nx.Graph()
         self.label = label
-
-    def __eq__(self, other):
-        # print('yo method')
-        return self.nx_graph == other.nx_graph
-
-    def __hash__(self):
-        return hash(str(self))
 
     def nodes(self):
         return dict(self.nx_graph.nodes())
@@ -57,21 +40,3 @@ class Graph(object):
 
     def get_attr(self, vertex):
         return self.nx_graph.node[vertex]
-
-    def find_leaf(self, beginwith):  # assez nulle comme recherche
-        nodes = self.nodes()
-        returnlist = list()
-        for nodename in nodes:
-            if str(nodename).startswith(beginwith):
-                returnlist.append(nodename)
-        return returnlist
-
-    def smallest_path(self, start_vertex, end_vertex):
-        try:
-            pathtime = time.time()
-            shtpath = nx.shortest_path(self.nx_graph, start_vertex, end_vertex)
-            endpathtime = time.time()
-            self.log['pathtime'].append(endpathtime - pathtime)
-            return shtpath
-        except nx.exception.NetworkXNoPath:
-            raise NoPathException('No path between two nodes, graph name : ', self.name)

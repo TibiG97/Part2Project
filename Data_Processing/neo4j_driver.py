@@ -72,7 +72,7 @@ class Neo4JConnection(object):
         if node_type is None:
             q = "match (n) return n.db_id as db_id"
         else:
-            q = "match (n) where n.ty = '%s' return n.db_id as db_id, n.cmdline as cmd_line" % node_type
+            q = "match (n) where n.ty = '%s' return n.db_id as db_id" % node_type
         answer = self._driver.execute_query(q)
 
         return answer
@@ -122,6 +122,24 @@ class Neo4JConnection(object):
 
         return answer
 
+    def get_names(self):
+        q = 'match (n: Path) return n.db_id as dbid, n.path as path'
+        answer = self._driver.execute_query(q)
+
+        return answer
+
+    def get_file_named(self,
+                       dbid: int):
+        q = "match p = (parent)-[r: NAMED]->(children {db_id: %d}) " \
+            "where parent.ty = 'file' " \
+            "return parent.uuid as uuid limit 1" % dbid
+        answer = self._driver.execute_query(q)
+
+        q = "match (n: Store) where n.uuid = '%s' return n.db_id as dbid" % answer[0]['uuid']
+        answer = self._driver.execute_query(q)
+
+        return answer
+
     def get_edges(self,
                   rel_type: str,
                   node_type1: str,
@@ -135,10 +153,16 @@ class Neo4JConnection(object):
 
         q = "match p = (parent)-[r: %s]->(children) " \
             "where parent.ty = '%s' and children.ty = '%s' " \
-            "return parent.db_id, children.db_id" % (
+            "return parent.db_id as parent, children.db_id as children" % (
                 rel_type, node_type1, node_type2)
 
         answer = self._driver.execute_query(q)
+        return answer
+
+    def get_all_edges(self):
+        q = "match p = (n)-[r: INF]->(m) return n.db_id as nid, m.db_id as mid"
+        answer = self._driver.execute_query(q)
+
         return answer
 
     def get_number_of_edges(self,

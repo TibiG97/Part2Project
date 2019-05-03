@@ -5,18 +5,13 @@ import copy
 from copy import copy
 import numpy as np
 import time
-from utils import convert_to_one_hot_encoding
 
 
 class ReceptiveFieldMaker(object):
-    def __init__(self, nx_graph, w, s=1, k=10, labeling_procedure_name='betweeness', use_node_deg=False, one_hot=False,
+    def __init__(self, nx_graph, w, s=1, k=10, labeling_procedure_name='betweeness',
                  dummy_value=-1):
         self.nx_graph = nx_graph
-        self.use_node_deg = use_node_deg
-        if self.use_node_deg:
-            node_degree_dict = dict(self.nx_graph.degree())
-            normalized_node_degree_dict = {k: v / len(self.nx_graph.nodes()) for k, v in node_degree_dict.items()}
-            nx.set_node_attributes(self.nx_graph, normalized_node_degree_dict, 'attr_name')
+
         self.all_times = {}
         self.all_times['neigh_assembly'] = []
         self.all_times['normalized_subgraph'] = []
@@ -28,18 +23,9 @@ class ReceptiveFieldMaker(object):
         self.s = s
         self.k = k
         self.dummy_value = dummy_value
-        self.exists_dummies = False
-        self.one_hot = one_hot
         self.labeling_procedure_name = labeling_procedure_name
 
-        if self.labeling_procedure_name == 'approx_betweeness':
-            st = time.time()
-            self.dict_first_labeling = self.betweenness_centrality_labeling(self.nx_graph, approx=int(
-                len(self.nx_graph.nodes()) / 5) + 1)
-            self.labeling_procedure_name = 'betweeness'
-            end = time.time()
-            self.all_times['first_labeling_procedure'].append(end - st)
-        elif self.labeling_procedure_name == 'betweeness':
+        if self.labeling_procedure_name == 'betweeness':
             st = time.time()
             self.dict_first_labeling = self.betweenness_centrality_labeling(self.nx_graph)
             end = time.time()
@@ -61,12 +47,9 @@ class ReceptiveFieldMaker(object):
             frelabel = nx.relabel_nodes(graph,
                                         nx.get_node_attributes(graph, 'labeling'))  # rename the nodes wrt the labeling
             self.all_subgraph.append(frelabel)
-            if self.one_hot > 0:
-                forcnn.append([convert_to_one_hot_encoding(x[1], self.one_hot) for x in
-                               sorted(nx.get_node_attributes(frelabel, 'attr_name').items(), key=lambda x: x[0])])
-            else:
-                forcnn.append(
-                    [x[1] for x in sorted(nx.get_node_attributes(frelabel, 'attr_name').items(), key=lambda x: x[0])])
+
+            forcnn.append(
+                [x[1] for x in sorted(nx.get_node_attributes(frelabel, 'attr_name').items(), key=lambda x: x[0])])
         return forcnn
 
     def labeling_procedure(self, graph):
@@ -82,38 +65,59 @@ class ReceptiveFieldMaker(object):
         labeled_graph = nx.Graph(graph)
         if approx is None:
             centrality = list(nx.betweenness_centrality(graph).items())
+            # counter = 0
+            # for iterator in range(0, len(centrality)):
+            #    centrality[iterator] = (centrality[iterator][0], counter)
+            #    counter += 1
         else:
             centrality = list(nx.betweenness_centrality(graph, k=approx).items())
+
         sorted_centrality = sorted(centrality, key=lambda n: n[1], reverse=True)
         dict_ = {}
         label = 0
+
         for t in sorted_centrality:
             dict_[t[0]] = label
             label += 1
+
         nx.set_node_attributes(labeled_graph, dict_, 'labeling')
+
         ordered_nodes = list(zip(*sorted_centrality))[0]
 
         result['labeled_graph'] = labeled_graph
         result['sorted_centrality'] = sorted_centrality
         result['ordered_nodes'] = ordered_nodes
+
         return result
 
-    def node_timestamps_labeling(self, graph, timestamps):
+    def node_timestapm_labeling(self,
+                                graph):
         result = {}
         labeled_graph = nx.Graph(graph)
 
-        sorted_timestamps = sorted(timestamps, key=lambda n: n[1], reverse=True)
-        dict = {}
+        centrality = list(nx.betweenness_centrality(graph).items())
+
+        counter = 0
+        for iterator in range(0, len(centrality)):
+            centrality[iterator] = (centrality[iterator][0], counter)
+            counter += 1
+
+        sorted_centrality = sorted(centrality, key=lambda n: n[1], reverse=False)
+        dict_ = {}
         label = 0
-        for t in sorted_timestamps:
-            dict[t[0]] = label
+
+        for t in sorted_centrality:
+            dict_[t[0]] = label
             label += 1
-        nx.set_node_attributes(labeled_graph, dict, 'labeling')
-        ordered_nodes = list(zip(*sorted_timestamps))[0]
+
+        nx.set_node_attributes(labeled_graph, dict_, 'labeling')
+
+        ordered_nodes = list(zip(*sorted_centrality))[0]
 
         result['labeled_graph'] = labeled_graph
-        result['sorted_centrality'] = sorted_timestamps
+        result['sorted_centrality'] = sorted_centrality
         result['ordered_nodes'] = ordered_nodes
+
         return result
 
     def wl_normalization(self, graph):
@@ -239,7 +243,6 @@ class ReceptiveFieldMaker(object):
             nodes_with_this_label = [x for x, y in subgraph.nodes(data=True) if y['labeling'] == label]
 
             if len(nodes_with_this_label) >= 2:
-
                 inside_ordering = sorted(nodes_with_this_label, key=dict_to_respect.get)
                 inside_order_dict = dict(zip(inside_ordering, range(len(inside_ordering))))
 
@@ -300,7 +303,9 @@ class ReceptiveFieldMaker(object):
 
         "U set of vertices. Return le receptive field du vertex (un graph normalisé)"
         ranked_subgraph_by_labeling_procedure = self.labeling_procedure(subgraph)['labeled_graph']
+
         original_order_to_respect = nx.get_node_attributes(ranked_subgraph_by_labeling_procedure, 'labeling')
+
         subgraph_U = self.compute_subgraph_ranking(subgraph, vertex,
                                                    original_order_to_respect)  # ordonne les noeuds w.r.t labeling procedure
 
@@ -321,8 +326,8 @@ class ReceptiveFieldMaker(object):
 
         return self.canonicalizes(subgraph_ranked_N)
 
-    def add_dummy_nodes_at_the_end(self, nx_graph):  # why 0 ??
-        self.exists_dummies = True
+    def add_dummy_nodes_at_the_end(self, nx_graph):
+
         g = nx.Graph(nx_graph)
         keys = [k for k, v in dict(nx_graph.nodes()).items()]
         labels = [v for k, v in dict(nx.get_node_attributes(nx_graph, 'labeling')).items()]
