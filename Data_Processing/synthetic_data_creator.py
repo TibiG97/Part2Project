@@ -89,6 +89,7 @@ class SyntheticDataGenerator(object):
         :param login_name_dist: prob dist of login names (for processes)
         :param euid_dist: probability distribution of euids (for processes)
         :param binary_file_dist: probability distribution of provenance binary file (for files)
+        :param node_type_dist: [0] - prob of creating a process, [1] - prob of creating a process
         :return: a synthetic dataset that respects the given metrics
         """
 
@@ -150,9 +151,15 @@ class SyntheticDataGenerator(object):
                             print(value, file=graph_file, end=' ')
                         print(file=graph_file)
                     else:
-                        attribute = SyntheticDataGenerator.__create_process_vector(cmd_line_dist[class_number - 1],
-                                                                                   login_name_dist[class_number - 1],
-                                                                                   euid_dist[class_number - 1])
+                        # choose to create either socket or file with given probabilities
+                        choice = np.random.choice([0, 1], p=node_type_dist)
+                        if choice:
+                            attribute = SyntheticDataGenerator.__create_socket_vector()
+                        else:
+                            attribute = SyntheticDataGenerator.__create_process_vector(cmd_line_dist[class_number - 1],
+                                                                                       login_name_dist[
+                                                                                           class_number - 1],
+                                                                                       euid_dist[class_number - 1])
                         for value in attribute:
                             print(value, file=graph_file, end=' ')
                         print(file=graph_file)

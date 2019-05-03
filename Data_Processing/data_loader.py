@@ -36,7 +36,7 @@ class DataLoader:
                 lines = log_file.readlines()
                 for line in lines:
                     line_vector = hashing_trick(text=line,
-                                                n=1000,
+                                                n=200,
                                                 hash_function=None,
                                                 filters='!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\n',
                                                 lower=True,

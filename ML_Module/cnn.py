@@ -15,6 +15,7 @@ from ML_Module.patchy_san import ReceptiveFieldMaker
 
 from constants import EMPTY_TIMES_DICT
 from constants import DUMMY
+from constants import ATTR_DIM
 
 from copy import copy
 import numpy as np
@@ -39,7 +40,7 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
                  init_mode='normal',
                  verbose=2,
                  one_hot=0,
-                 attr_dim=30,
+                 attr_dim=ATTR_DIM,
                  dummy_value=DUMMY):
         """
         :param width: width parameter
@@ -131,7 +132,7 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
 
         return model
 
-    def __process_data(self, data_set):  # X is a list of Graph objects
+    def __process_data(self, data_set):
         """
         Private method that builds the receptive fields from raw data
 
@@ -150,12 +151,11 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
                                                   labeling_procedure_name=self.labeling_procedure_name,
                                                   one_hot=self.one_hot,
                                                   dummy_value=self.dummy_value)
-            forcnn = receptive_field.make_()
-            train.append(np.array(forcnn).flatten().reshape(self.rf_size * self.width, self.attr_dim))
+            for_cnn = receptive_field.make_()
+            train.append(np.array(for_cnn).flatten().reshape(self.rf_size * self.width, self.attr_dim))
 
         cnn_train_set = np.array(train)
 
-        print(cnn_train_set.shape)
         return cnn_train_set
 
     def get_rf_times(self,

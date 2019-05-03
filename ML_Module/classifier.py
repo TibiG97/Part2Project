@@ -28,7 +28,7 @@ class Classifier(object):
         :param labels: graphs' labels
         """
 
-        if self.name == 'CNN':
+        if self.name == 'CNN' or self.name == 'LRG':
             training_set = self.process_data(training_set)
 
         self.classifier.fit(training_set, labels)
@@ -40,7 +40,7 @@ class Classifier(object):
         :return: predicted labels
         """
 
-        if self.name == 'CNN':
+        if self.name == 'CNN' or self.name == 'LRG':
             test_set = self.process_data(test_set)
 
         return self.classifier.predict(test_set)
@@ -52,7 +52,7 @@ class Classifier(object):
         :return: predicted probabilities
         """
 
-        if self.name == 'CNN':
+        if self.name == 'CNN' or self.name == 'LRG':
             test_set = self.process_data(test_set)
 
         return self.classifier.predict_proba(test_set)
@@ -77,7 +77,7 @@ class Classifier(object):
         average_acc = 0
 
         for index1 in range(0, no_of_folds):
-            print(index1)
+            print("Inner Fold #" + str(index1 + 1))
 
             test_set = splitted_data_set[index1]
             test_labels = splitted_labels[index1]

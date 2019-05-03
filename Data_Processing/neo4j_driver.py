@@ -1,4 +1,5 @@
 from neo4j.v1 import GraphDatabase
+from queue import LifoQueue
 
 
 class Neo4JDriver(object):
@@ -71,7 +72,7 @@ class Neo4JConnection(object):
         if node_type is None:
             q = "match (n) return n.db_id as db_id"
         else:
-            q = "match (n: %s) return n.db_id as db_id, n.cmdline as cmd_line" % node_type
+            q = "match (n) where n.ty = '%s' return n.db_id as db_id, n.cmdline as cmd_line" % node_type
         answer = self._driver.execute_query(q)
 
         return answer
@@ -87,31 +88,38 @@ class Neo4JConnection(object):
         if node_type is None:
             q = "match (n) return count(*)"
         else:
-            q = "match (n: %s) return count(*)" % node_type
+            q = "match (n) where n.ty = '%s' return count(*) as count" % node_type
         answer = self._driver.execute_query(q)
 
         return answer
 
     def get_node_indegree(self,
-                          uuid: str):
+                          dbid: int):
         """
-        :param uuid: unique identifier of the node
+        :param dbid: unique identifier of the node
         :return: in_degree of the node
         """
 
-        q = "match p = ()-[r:INF]->(n {uuid: '%s'}) return count(*) as files_in_touch" % uuid
+        q = "match p = ()-[r:INF]->(n {dbid: %d}) return count(*) as files_in_touch" % dbid
         answer = self._driver.execute_query(q)
         return answer
 
     def get_node_outdegree(self,
-                           uuid: str):
+                           dbid: int):
         """
-        :param uuid: unique identifier of the node
+        :param dbid: unique identifier of the node
         :return: out_degree of the node
         """
 
-        q = "match p = (n {uuid: '%s'})-[r:INF]->() return count(*) as files_in_touch" % uuid
+        q = "match p = (n {dbid: %d})-[r:INF]->() return count(*) as files_in_touch" % dbid
         answer = self._driver.execute_query(q)
+        return answer
+
+    def get_node_type(self,
+                      dbid: int):
+        q = "match (n {db_id: %d}) return n.ty as type" % dbid
+        answer = self._driver.execute_query(q)
+
         return answer
 
     def get_edges(self,
@@ -125,9 +133,10 @@ class Neo4JConnection(object):
         :return: all specified relation edges between of any two nodes of given types
         """
 
-        q = "match p = (parent: %s)-[r: %s]->(children: %s) " \
+        q = "match p = (parent)-[r: %s]->(children) " \
+            "where parent.ty = '%s' and children.ty = '%s' " \
             "return parent.db_id, children.db_id" % (
-                node_type1, rel_type, node_type2)
+                rel_type, node_type1, node_type2)
 
         answer = self._driver.execute_query(q)
         return answer
@@ -143,21 +152,22 @@ class Neo4JConnection(object):
         :return: number of specified relation edges between of any two nodes of given types
         """
 
-        q = "match p = (parent: %s)-[r: %s]->(children: %s) " \
-            "return count(*)" % (
-                node_type1, rel_type, node_type2)
+        q = "match p = (parent)-[r: %s]->(children) " \
+            "where parent.ty = '%s' and children.ty = '%s' " \
+            "return count(*) as count" % (
+                rel_type, node_type1, node_type2)
 
         answer = self._driver.execute_query(q)
         return answer
 
     def get_process_attributes(self,
-                               uuid: str):
+                               dbid: int):
         """
-        :param uuid: unique identifier of the process node
+        :param dbid: unique identifier of the process node
         :return: all atributes of the process
         """
 
-        q = "match (n: Actor) where n.db_id = %s return " \
+        q = "match (n: Actor) where n.db_id = %d return " \
             "n.euid as euid, " \
             "n.rgid as rgid, " \
             "n.pid as pid, " \
@@ -166,21 +176,66 @@ class Neo4JConnection(object):
             "n.sgid as sgid, " \
             "n.db_id as db_id, " \
             "n.cmdline as cmd_line, " \
-            "n.login_name as login_name" % uuid
-
-        answer = self._driver.execute_query(q)
-        return answer
-
-    def get_influenced_file(self,
-                            uuid: str):
-        q = "match (n:Store)-[r:INF]->(p:Actor {db_id: %d}) return n limit 1" % uuid
+            "n.login_name as login_name" % dbid
 
         answer = self._driver.execute_query(q)
         return answer
 
     def get_context_file(self,
-                         uuid: str):
+                         dbid: int):
+        """
+        :param dbid: unique identifier of the node of interest
+        :return: file where timestamp is stored
+        """
 
-        q = "match (n:StoreCont {uuid: %s}) return n" % uuid
+        q = "match (n:StoreCont {dbid: %d}) return n" % dbid
         answer = self._driver.execute_query(q)
         return answer
+
+    def get_neighbours(self,
+                       dbid: int,
+                       limit: int):
+        """
+        :param dbid: unique identifier of the node of interest
+        :param limit: maximum number of neighbours to return
+        :return: db_id's of neighbours
+        """
+
+        q = "match (n {db_id: %d})-[r:INF]->(p) return p.db_id as db_id limit %d" % (dbid, limit)
+        answer = self._driver.execute_query(q)
+        return answer
+
+    def breadth_first_search(self,
+                             dbid: int,
+                             limit: int,
+                             max_depth: int):
+
+        """
+        Function that computes a breath first search in the neo4j graph
+
+        :param dbid: db_id of the start node in the BFS
+        :param limit: maximum no of neighbours to get for a node
+        :param max_depth: maximum depth of the BFS
+
+        :return: list of nodes found by BFS alongside their depth
+        """
+
+        depth = 0
+        q = LifoQueue()
+        result = list()
+
+        q.put({'db_id': dbid, 'depth': depth})
+        result.append({'db_id': dbid, 'depth': depth})
+
+        while not q.empty() and depth < max_depth:
+            depth += 1
+
+            node = q.get()
+            neighbours = self.get_neighbours(dbid=node['db_id'], limit=limit)
+
+            for neighbour in neighbours:
+                neighbour['depth'] = depth
+                q.put(neighbour)
+                result.append(neighbour)
+
+        return result

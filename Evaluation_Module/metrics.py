@@ -1,4 +1,5 @@
 from math import sqrt
+import warnings
 
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
@@ -73,6 +74,8 @@ def compute_metrics(predictions: list,
     :param no_of_classes: number of classes
     :return: micro and macro evaluation metrics for (multiclass) classification
     """
+
+    warnings.filterwarnings('ignore')  # ignore sklearn warning when there are 0 predictions for a class label
 
     if no_of_classes == 2:
         return compute_binary_metrics(predictions, labels)

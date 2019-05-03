@@ -7,7 +7,7 @@ def permutation_test(model1_sample: list,
                      r_limit: int,
                      p_value_limit: int):
     """
-    Method that performs the Monte Carlo Permutation Test between samples of two different models
+    Function that performs the Monte Carlo Permutation Test between samples of two different models
 
     :param model1_sample: class predictions of the first model
     :param model2_sample: class predictions of the second model

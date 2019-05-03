@@ -10,12 +10,16 @@ class SKLearnModel(Classifier):
 
     """
 
-    def __init__(self, classifier, name):
+    def __init__(self,
+                 classifier,
+                 process_data,
+                 name: str):
         self.classifier = classifier
         self.name = name
+
         super(SKLearnModel, self).__init__(
             classifier=classifier,
-            process_data=None,
+            process_data=process_data,
             name=name
         )
 
