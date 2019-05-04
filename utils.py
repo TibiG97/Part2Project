@@ -15,6 +15,10 @@ from shutil import rmtree
 
 import numpy as np
 
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import cross_val_score
+from sklearn.metrics import accuracy_score
+
 
 def get_directory():
     """
@@ -68,12 +72,32 @@ def randomise_order(list_x: np.array,
 
     :param list_x: first list
     :param list_y: second list
-    :return: simmetrically randomised X,Y lists
+    :return: simmetrically randomised X,Y lists and the permutation of the randomisation
     """
-    merged_data_set = list(zip(list_x, list_y))
+
+    permutation = range(0, len(list_x))
+    merged_data_set = list(zip(list_x, list_y, permutation))
     shuffle(merged_data_set)
-    list_x, list_y = zip(*merged_data_set)
-    return np.array(list_x), np.array(list_y)
+    list_x, list_y, permutation = zip(*merged_data_set)
+
+    return np.array(list_x), np.array(list_y), list(permutation)
+
+
+def randomise_order4(list1: np.array,
+                     list2: np.array,
+                     list3: np.array,
+                     list4: np.array):
+    """
+    Function that randomises order of 4 lists in sync
+
+    :return: the 4 shuffled lists
+    """
+
+    merged_data_set = list(zip(list1, list2, list3, list4))
+    shuffle(merged_data_set)
+    list1, list2, list3, list4 = zip(*merged_data_set)
+
+    return np.array(list1), np.array(list2), np.array(list3), np.array(list4)
 
 
 def split_in_folds(data: np.array,
@@ -85,6 +109,7 @@ def split_in_folds(data: np.array,
     :param no_of_splits: specified number of splits
     :return: A list of required number of sublists representing the mentioned splits
     """
+
     splits = list()
     size = len(data)
     for iterator in range(0, no_of_splits):
@@ -104,6 +129,7 @@ def merge_splits(data: np.array):
     :param data: list of lists to be merged
     :return: a single list containing all elements in all folds
     """
+
     merged_list = list()
     for split in data:
         for element in split:
@@ -118,6 +144,7 @@ def convert_labels_to_pos_neg(labels: np.array):
     :param labels: A list of labels for 2 classes (1s and 2s)
     :return: A where 2s are replaced by 0s
     """
+
     new_labels = list()
     for element in labels:
         if element == 1:
@@ -146,3 +173,26 @@ def add_padding(matrix: list,
                                                [value] * (len_max - len(matrix[iterator]))), axis=None)
 
     return matrix
+
+
+def create_ensamble(predictions1: np.array,
+                    predictions2: np.array,
+                    labels: np.array,
+                    meta_classifier):
+    """
+    Function that cross validates an ensamble of two classifiers using stacking method
+
+    :param predictions1: classifier #1 predictions
+    :param predictions2: classifier #2 predictions
+    :param labels: true labels corresponding to predictions
+    :param meta_classifier: metaclassifier of stacking method
+    :return: average accuracy of stacked classifier
+    """
+
+    print(len(predictions1))
+    print(len(predictions2))
+    dataset = np.array([np.array([pred1, pred2]) for pred1, pred2 in zip(predictions1, predictions2)])
+
+    scores = cross_val_score(meta_classifier, dataset, labels, cv=10)
+
+    return scores

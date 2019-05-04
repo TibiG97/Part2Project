@@ -92,12 +92,14 @@ def nested_cross_validation(data_set: np.array,
     :param no_of_outer_folds: number of outer folds in the NCV
     :param no_of_inner_folds: number of inner folds in the NCV
     :param no_of_samples: number of samples to be generated in the RandomSearchCV
+
+    :return: a list of predictions on the entire dataset of the NCV
     """
 
     results_file = open(get_directory() + '/Results/' + model_name, 'a')
     results_file.truncate(0)
 
-    data_set, labels = randomise_order(data_set, labels)
+    data_set, labels, permutation = randomise_order(data_set, labels)
 
     splitted_data_set = split_in_folds(data_set, no_of_outer_folds)
     splitted_labels = split_in_folds(labels, no_of_outer_folds)
@@ -131,7 +133,8 @@ def nested_cross_validation(data_set: np.array,
 
         best_model.train(training_set, training_labels)
         predictions = best_model.predict_class(test_set)
-        all_predictions.append(predictions)
+        for prediction in predictions:
+            all_predictions.append(prediction)
         metrics = compute_metrics(predictions, test_labels, no_of_classes)
 
         for element in metrics:
@@ -139,3 +142,6 @@ def nested_cross_validation(data_set: np.array,
 
         print(file=results_file)
         print(file=results_file)
+
+    permutation, all_predictions = (list(t) for t in zip(*sorted(zip(permutation, all_predictions))))
+    return all_predictions

@@ -117,25 +117,12 @@ class Neo4JConnection(object):
 
     def get_node_type(self,
                       dbid: int):
+        """
+        :param dbid: unique identifier of the node
+        :return: type of the node with uuid
+        """
+
         q = "match (n {db_id: %d}) return n.ty as type" % dbid
-        answer = self._driver.execute_query(q)
-
-        return answer
-
-    def get_names(self):
-        q = 'match (n: Path) return n.db_id as dbid, n.path as path'
-        answer = self._driver.execute_query(q)
-
-        return answer
-
-    def get_file_named(self,
-                       dbid: int):
-        q = "match p = (parent)-[r: NAMED]->(children {db_id: %d}) " \
-            "where parent.ty = 'file' " \
-            "return parent.uuid as uuid limit 1" % dbid
-        answer = self._driver.execute_query(q)
-
-        q = "match (n: Store) where n.uuid = '%s' return n.db_id as dbid" % answer[0]['uuid']
         answer = self._driver.execute_query(q)
 
         return answer
@@ -159,12 +146,6 @@ class Neo4JConnection(object):
         answer = self._driver.execute_query(q)
         return answer
 
-    def get_all_edges(self):
-        q = "match p = (n)-[r: INF]->(m) return n.db_id as nid, m.db_id as mid"
-        answer = self._driver.execute_query(q)
-
-        return answer
-
     def get_number_of_edges(self,
                             rel_type: str,
                             node_type1: str,
@@ -182,6 +163,30 @@ class Neo4JConnection(object):
                 rel_type, node_type1, node_type2)
 
         answer = self._driver.execute_query(q)
+        return answer
+
+    def find_name(self,
+                  dbid: int):
+        """
+        :param dbid: unique identifier of the node
+        :return: db_id of a node containing the path and name of the file
+        """
+        q = "match (n) where n.db_id = %d return n.uuid as uuid" % dbid
+        answer = self._driver.execute_query(q)
+
+        if len(answer) == 0:
+            return None
+
+        q = "match (n:StoreCont) where n.uuid = '%s' return n.db_id as dbid" % answer[0]['uuid']
+        answer = self._driver.execute_query(q)
+
+        if len(answer) == 0:
+            return None
+
+        q = "match p = (n:StoreCont)-[r:NAMED]->(m:Path) where n.db_id = %d return m.path as path limit 1" % answer[0][
+            'dbid']
+        answer = self._driver.execute_query(q)
+
         return answer
 
     def get_process_attributes(self,

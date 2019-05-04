@@ -5,6 +5,10 @@ from utils import randomise_order
 from utils import split_in_folds
 from utils import merge_splits
 
+from keras.callbacks import EarlyStopping
+
+from sklearn.metrics import accuracy_score
+
 
 class Classifier(object):
     """
@@ -31,7 +35,11 @@ class Classifier(object):
         if self.name == 'CNN' or self.name == 'LRG':
             training_set = self.process_data(training_set)
 
-        self.classifier.fit(training_set, labels)
+        if self.name == 'CNN' or self.name == 'MLP':
+            es = EarlyStopping(monitor='loss', mode='min', patience=10)
+            self.classifier.fit(training_set, labels, callbacks=[es])
+        else:
+            self.classifier.fit(training_set, labels)
 
     def predict_class(self,
                       test_set: np.array):
@@ -70,11 +78,13 @@ class Classifier(object):
         :return: average accuracy of the model on all splits
         """
 
-        data_set, labels = randomise_order(data_set, labels)
+        data_set, labels, permutation = randomise_order(data_set, labels)
 
         splitted_data_set = split_in_folds(data_set, no_of_folds)
         splitted_labels = split_in_folds(labels, no_of_folds)
+        all_accuracies = list()
         average_acc = 0
+        all_predictions = list()
 
         for index1 in range(0, no_of_folds):
             print("Inner Fold #" + str(index1 + 1))
@@ -93,12 +103,17 @@ class Classifier(object):
 
             self.train(training_set, training_labels)
             predictions = self.predict_class(test_set)
-            from sklearn.metrics import accuracy_score
-            average_acc += accuracy_score(test_labels, predictions)
+            for prediction in predictions:
+                all_predictions.append(prediction)
+
+            acc = accuracy_score(test_labels, predictions)
+            all_accuracies.append(acc)
+            average_acc += acc
 
         average_acc = average_acc / no_of_folds
+        permutation, all_predictions = (list(t) for t in zip(*sorted(zip(permutation, all_predictions))))
 
-        return average_acc
+        return average_acc, all_accuracies, all_predictions
 
     @abstractmethod
     def save_model(self,

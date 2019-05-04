@@ -9,6 +9,7 @@ from keras.layers import BatchNormalization
 from keras.layers import Activation
 from keras.layers import MaxPool1D
 from keras.optimizers import Adam
+from keras.regularizers import L1L2
 
 from ML_Module.neural_net import NeuralNetwork
 from ML_Module.patchy_san import ReceptiveFieldMaker
@@ -37,7 +38,7 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
                  dropout_rate: float,
                  no_of_classes: int,
                  labeling_procedure_name='betweeness',
-                 init_mode='normal',
+                 init_mode='he_normal',
                  verbose=2,
                  attr_dim=ATTR_DIM,
                  dummy_value=DUMMY):
@@ -86,7 +87,7 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
         """
         Private method that builds the NN architecture of the model
 
-        :return: the built NN model
+        :return: the compiled NN model
         """
 
         model = Sequential()
@@ -94,7 +95,10 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
         model.add(Conv1D(filters=32,
                          kernel_size=self.rf_size,
                          strides=self.rf_size,
-                         input_shape=(self.width * self.rf_size, self.attr_dim)))
+                         input_shape=(self.width * self.rf_size, self.attr_dim),
+                         kernel_initializer=self.init_mode,
+                         kernel_regularizer=L1L2(l1=0.0, l2=0.1)))
+
         model.add(Conv1D(filters=64,
                          kernel_size=self.rf_size,
                          strides=1))
