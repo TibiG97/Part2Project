@@ -9,7 +9,7 @@ from keras.layers import BatchNormalization
 from keras.layers import Activation
 from keras.layers import MaxPool1D
 from keras.optimizers import Adam
-from keras.regularizers import L1L2
+from keras.regularizers import l2
 
 from ML_Module.neural_net import NeuralNetwork
 from ML_Module.patchy_san import ReceptiveFieldMaker
@@ -97,7 +97,8 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
                          strides=self.rf_size,
                          input_shape=(self.width * self.rf_size, self.attr_dim),
                          kernel_initializer=self.init_mode,
-                         kernel_regularizer=L1L2(l1=0.0, l2=0.1)))
+                         kernel_regularizer=l2(0.005)))
+
         model.add(MaxPool1D(pool_size=2))
         model.add(BatchNormalization())
         model.add(Activation('relu'))
@@ -105,7 +106,9 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
 
         model.add(Conv1D(filters=64,
                          kernel_size=self.rf_size,
-                         strides=1))
+                         strides=1,
+                         kernel_regularizer=l2(0.005)))
+
         model.add(MaxPool1D(pool_size=2))
         model.add(BatchNormalization())
         model.add(Activation('relu'))

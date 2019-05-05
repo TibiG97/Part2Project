@@ -6,6 +6,8 @@ from constants import BIG_NUMBER
 from Data_Processing.graph_structure import Graph
 from keras_preprocessing.text import hashing_trick
 
+from sklearn.preprocessing import MinMaxScaler
+
 from copy import copy
 import numpy as np
 import os
@@ -36,14 +38,14 @@ class DataLoader:
                 lines = log_file.readlines()
                 for line in lines:
                     line_vector = hashing_trick(text=line,
-                                                n=200,
+                                                n=1000,
                                                 hash_function=None,
                                                 filters='!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\n',
                                                 lower=True,
                                                 split=' ')
 
                     for element in line_vector:
-                        feature_vector.append(element)
+                        feature_vector.append(float(element))
 
                 data_set.append(feature_vector)
                 labels.append(iterator)
@@ -58,7 +60,11 @@ class DataLoader:
             data_set[iterator] = data_set[iterator][:min_len]
         ######################################
 
-        return np.array(data_set), np.array(labels)
+        # use min_max scaling
+        scaler = MinMaxScaler()
+        data_set = scaler.fit_transform(np.array(data_set))
+
+        return data_set, np.array(labels)
 
     @staticmethod
     def load_synthetic_data_set(name, target_model):

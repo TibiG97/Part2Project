@@ -6,7 +6,7 @@ from keras.layers import Activation
 from keras.layers import Dense
 from keras.layers import Dropout
 from keras.layers import BatchNormalization
-from keras.regularizers import L1L2
+from keras.regularizers import l2
 from keras.optimizers import Adam
 
 

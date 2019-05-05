@@ -188,4 +188,4 @@ def create_ensamble(predictions1: np.array,
     """
 
     dataset = np.array([np.array([pred1, pred2]) for pred1, pred2 in zip(predictions1, predictions2)])
-    meta_classifier.cross_validate(dataset, labels, no_of_folds=no_of_folds)
+    meta_classifier.cross_validate(dataset, labels, no_of_folds=no_of_folds, clear_file=True)
