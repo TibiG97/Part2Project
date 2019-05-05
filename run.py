@@ -53,9 +53,9 @@ def demo():
                                           node_type_dist=[0.9, 0.1])
     """
 
-    graph_dataset, graph_labels, no_of_classes = DataLoader.load_synthetic_data_set(name='TEST',
+    graph_dataset, graph_labels, no_of_classes = DataLoader.load_synthetic_data_set(name='D3_H4_L02',
                                                                                     target_model='patchy_san')
-    attr_dataset, attr_labels, no_of_classes = DataLoader.load_synthetic_data_set(name='TEST',
+    attr_dataset, attr_labels, no_of_classes = DataLoader.load_synthetic_data_set(name='D3_H4_L02',
                                                                                   target_model='baselines')
 
     X, y = DataLoader.load_log_files(LOG_DIRS)
@@ -94,7 +94,6 @@ def demo():
                                no_of_classes=no_of_classes,
                                verbose=2)
 
-    """
     X_train, X_test, y_train, y_test = train_test_split(graph_dataset,
                                                         graph_labels,
                                                         test_size=0.1,
@@ -103,73 +102,16 @@ def demo():
     cnn.train(X_train, y_train)
 
     predictions_cnn = cnn.predict_class(X_test)
-    with open('Results/CNN', 'a') as results:
+    with open('Results/temp', 'a') as results:
         results.truncate(0)
         print(accuracy_score(y_test, predictions_cnn), file=results)
         print(confusion_matrix(y_test, predictions_cnn), file=results)
-    """
 
     # rf_acc, rf_all_acc, rf_pred = rf.cross_validate(attr_dataset, attr_labels, 10, clear_file=True)
     # knn_acc, knn_all_acc, knn_pred = knn.cross_validate(attr_dataset, attr_labels, 10, clear_file=True)
-
-    mlp_acc, mlp_all_acc, mlp_pred = mlp.cross_validate(X, y, 10, clear_file=True)
+    # mlp_acc, mlp_all_acc, mlp_pred = mlp.cross_validate(X, y, 10, clear_file=True)
     # cnn_acc, cnn_all_acc, cnn_pred = cnn.cross_validate(graph_dataset, graph_labels, 10, clear_file=True)
-
     # create_ensamble(cnn_pred, mlp_pred, graph_labels, lrg, no_of_folds=10)
-
-    """
-    graph_dataset, graph_labels, X, y = randomise_order4(graph_dataset, graph_labels, X, y)
-    
-    
-
-    X_train, X_test, y_train, y_test = train_test_split(X, y,
-                                                        test_size=0.1,
-                                                        random_state=42,
-                                                        shuffle=True)
-
-    mlp.train(X_train, y_train)
-    predictions_mlp = mlp.predict_class(X_test)
-    with open('Results/MLP', 'a') as results:
-        results.truncate(0)
-        print(accuracy_score(y_test, predictions_mlp), file=results)
-        print(confusion_matrix(y_test, predictions_mlp), file=results)
-    
-    X_train, X_test, y_train, y_test = train_test_split(graph_dataset,
-                                                        graph_labels,
-                                                        test_size=0.1,
-                                                        random_state=42,
-                                                        shuffle=False)
-    cnn.train(X_train, y_train)
-    lrg.train(X_train, y_train)
-
-    predictions_cnn = cnn.predict_class(X_test)
-    with open('Results/CNN', 'a') as results:
-        results.truncate(0)
-        print(accuracy_score(y_test, predictions_cnn), file=results)
-        print(confusion_matrix(y_test, predictions_cnn), file=results)
-
-    predictions = lrg.predict_class(X_test)
-    with open('Results/LRG', 'a') as results:
-        results.truncate(0)
-        print(accuracy_score(y_test, predictions), file=results)
-        print(confusion_matrix(y_test, predictions), file=results)
-
-    X_train, X_test, y_train, y_test = train_test_split(attr_dataset, attr_labels, test_size=0.1, random_state=42)
-    knn.train(X_train, y_train)
-    rf.train(X_train, y_train)
-
-    predictions = knn.predict_class(X_test)
-    with open('Results/KNN', 'a') as results:
-        results.truncate(0)
-        print(accuracy_score(y_test, predictions), file=results)
-        print(confusion_matrix(y_test, predictions), file=results)
-
-    predictions = rf.predict_class(X_test)
-    with open('Results/RF', 'a') as results:
-        results.truncate(0)
-        print(accuracy_score(y_test, predictions), file=results)
-        print(confusion_matrix(y_test, predictions), file=results)
-    """
 
 
 def main():
