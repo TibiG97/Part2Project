@@ -98,10 +98,18 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
                          input_shape=(self.width * self.rf_size, self.attr_dim),
                          kernel_initializer=self.init_mode,
                          kernel_regularizer=L1L2(l1=0.0, l2=0.1)))
+        model.add(MaxPool1D(pool_size=2))
+        model.add(BatchNormalization())
+        model.add(Activation('relu'))
+        model.add(Dropout(self.dropout_rate))
 
         model.add(Conv1D(filters=64,
                          kernel_size=self.rf_size,
                          strides=1))
+        model.add(MaxPool1D(pool_size=2))
+        model.add(BatchNormalization())
+        model.add(Activation('relu'))
+        model.add(Dropout(self.dropout_rate))
 
         model.add(Flatten())
 

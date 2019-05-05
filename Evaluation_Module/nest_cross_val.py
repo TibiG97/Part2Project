@@ -19,6 +19,8 @@ import numpy as np
 
 from random import randint
 
+from sklearn.metrics import confusion_matrix
+
 MODELS = {
     "CNN": ConvolutionalNeuralNetwork,
     "MLP": MultilayerPerceptron,
@@ -59,7 +61,7 @@ def hyperparameter_tuning(data_set: np.array,
                                    no_of_classes=no_of_classes,
                                    verbose=0)
 
-        average_acc = model.cross_validate(data_set, labels, no_of_folds)
+        average_acc = model.cross_validate(data_set, labels, no_of_folds)[0]  # don't return all_acc, all_pred
         if average_acc / no_of_folds > best_accuracy:
             best_accuracy = average_acc / no_of_folds
             best_choices = choices
@@ -68,9 +70,6 @@ def hyperparameter_tuning(data_set: np.array,
     best_model = MODELS[model_name](**best_choices,
                                     no_of_classes=no_of_classes,
                                     verbose=0)
-
-    print()
-    print()
 
     return best_model, best_choices
 
@@ -107,7 +106,8 @@ def nested_cross_validation(data_set: np.array,
 
     for outer_iterator in range(0, no_of_outer_folds):
         print('Outer Fold #' + str(outer_iterator + 1))
-        print('ITERATION' + ' ' + str(outer_iterator + 1), file=results_file)
+        print('Outer Fold #' + str(outer_iterator + 1), file=results_file)
+        print(file=results_file)
         results_file.flush()
 
         test_set = splitted_data_set[outer_iterator]
@@ -128,7 +128,10 @@ def nested_cross_validation(data_set: np.array,
                                                             no_of_folds=no_of_inner_folds,
                                                             no_of_samples=no_of_samples,
                                                             model_name=model_name)
+        results_file.flush()
 
+        print('Best model on Outer Fold #' + str(outer_iterator + 1))
+        print('Best model on Outer Fold #' + str(outer_iterator + 1), file=results_file)
         print(best_parameters, file=results_file)
 
         best_model.train(training_set, training_labels)
@@ -142,6 +145,11 @@ def nested_cross_validation(data_set: np.array,
 
         print(file=results_file)
         print(file=results_file)
+        results_file.flush()
+        print()
+        print()
+
+    print(confusion_matrix(labels, all_predictions), file=results_file)
 
     permutation, all_predictions = (list(t) for t in zip(*sorted(zip(permutation, all_predictions))))
     return all_predictions

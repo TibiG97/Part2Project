@@ -1,7 +1,6 @@
 from math import sqrt
 import warnings
 
-from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_score
 from sklearn.metrics import recall_score
@@ -60,7 +59,7 @@ def compute_binary_metrics(predictions: list,
     metrics['f1_score'] = f1_score(labels, predictions)
     metrics['mcc'] = mcc(tp, tn, fp, fn)
 
-    return metrics, confusion_matrix(labels, predictions)
+    return metrics
 
 
 def compute_metrics(predictions: list,
@@ -139,4 +138,4 @@ def compute_metrics(predictions: list,
     macros['macro_mcc'] = round(macro_mcc, 3)
     #######################
 
-    return micros, macros, confusion_matrix(predictions, labels)
+    return micros, macros

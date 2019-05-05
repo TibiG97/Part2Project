@@ -1,0 +1,137 @@
+Inner Fold #1
+
+{'micro_accuracy': 0.883, 'micro_precision': 0.883, 'micro_recall': 0.883, 'micro_f1_score': 0.883, 'micro_mcc': 0.892}
+{'macro_accuracy': 0.883, 'macro_precision': 0.894, 'macro_recall': 0.899, 'macro_f1_score': 0.889, 'macro_mcc': 0.747}
+
+
+Inner Fold #2
+
+{'micro_accuracy': 0.923, 'micro_precision': 0.923, 'micro_recall': 0.923, 'micro_f1_score': 0.923, 'micro_mcc': 0.932}
+{'macro_accuracy': 0.923, 'macro_precision': 0.921, 'macro_recall': 0.922, 'macro_f1_score': 0.918, 'macro_mcc': 0.774}
+
+
+Inner Fold #3
+
+{'micro_accuracy': 0.897, 'micro_precision': 0.897, 'micro_recall': 0.897, 'micro_f1_score': 0.897, 'micro_mcc': 0.904}
+{'macro_accuracy': 0.897, 'macro_precision': 0.901, 'macro_recall': 0.896, 'macro_f1_score': 0.896, 'macro_mcc': 0.754}
+
+
+Inner Fold #4
+
+{'micro_accuracy': 0.897, 'micro_precision': 0.897, 'micro_recall': 0.897, 'micro_f1_score': 0.897, 'micro_mcc': 0.902}
+{'macro_accuracy': 0.897, 'macro_precision': 0.887, 'macro_recall': 0.897, 'macro_f1_score': 0.888, 'macro_mcc': 0.75}
+
+
+Inner Fold #5
+
+{'micro_accuracy': 0.927, 'micro_precision': 0.927, 'micro_recall': 0.927, 'micro_f1_score': 0.927, 'micro_mcc': 0.938}
+{'macro_accuracy': 0.927, 'macro_precision': 0.935, 'macro_recall': 0.935, 'macro_f1_score': 0.932, 'macro_mcc': 0.783}
+
+
+Inner Fold #6
+
+{'micro_accuracy': 0.91, 'micro_precision': 0.91, 'micro_recall': 0.91, 'micro_f1_score': 0.91, 'micro_mcc': 0.926}
+{'macro_accuracy': 0.91, 'macro_precision': 0.916, 'macro_recall': 0.911, 'macro_f1_score': 0.912, 'macro_mcc': 0.775}
+
+
+Inner Fold #7
+
+{'micro_accuracy': 0.903, 'micro_precision': 0.903, 'micro_recall': 0.903, 'micro_f1_score': 0.903, 'micro_mcc': 0.905}
+{'macro_accuracy': 0.903, 'macro_precision': 0.899, 'macro_recall': 0.906, 'macro_f1_score': 0.9, 'macro_mcc': 0.752}
+
+
+Inner Fold #8
+
+{'micro_accuracy': 0.927, 'micro_precision': 0.927, 'micro_recall': 0.927, 'micro_f1_score': 0.927, 'micro_mcc': 0.936}
+{'macro_accuracy': 0.927, 'macro_precision': 0.925, 'macro_recall': 0.928, 'macro_f1_score': 0.924, 'macro_mcc': 0.779}
+
+
+Inner Fold #9
+
+{'micro_accuracy': 0.887, 'micro_precision': 0.887, 'micro_recall': 0.887, 'micro_f1_score': 0.887, 'micro_mcc': 0.902}
+{'macro_accuracy': 0.887, 'macro_precision': 0.881, 'macro_recall': 0.882, 'macro_f1_score': 0.875, 'macro_mcc': 0.745}
+
+
+Inner Fold #10
+
+{'micro_accuracy': 0.89, 'micro_precision': 0.89, 'micro_recall': 0.89, 'micro_f1_score': 0.89, 'micro_mcc': 0.886}
+{'macro_accuracy': 0.89, 'macro_precision': 0.892, 'macro_recall': 0.89, 'macro_f1_score': 0.888, 'macro_mcc': 0.733}
+
+
+[[382  63   0  13  27  15]
+ [ 49 412   0   9  26   4]
+ [  1   1 497   0   1   0]
+ [  2   7   0 491   0   0]
+ [  2   6   0   0 491   1]
+ [ 21  22   1   5  11 440]]
+
+Average accuracy across all 10 splits: 0.9043333333333333
+Inner Fold #1
+
+{'micro_accuracy': 0.91, 'micro_precision': 0.91, 'micro_recall': 0.91, 'micro_f1_score': 0.91, 'micro_mcc': 0.906}
+{'macro_accuracy': 0.91, 'macro_precision': 0.916, 'macro_recall': 0.912, 'macro_f1_score': 0.912, 'macro_mcc': 0.753}
+
+
+Inner Fold #2
+
+{'micro_accuracy': 0.923, 'micro_precision': 0.923, 'micro_recall': 0.923, 'micro_f1_score': 0.923, 'micro_mcc': 0.923}
+{'macro_accuracy': 0.923, 'macro_precision': 0.922, 'macro_recall': 0.93, 'macro_f1_score': 0.92, 'macro_mcc': 0.768}
+
+
+Inner Fold #3
+
+{'micro_accuracy': 0.89, 'micro_precision': 0.89, 'micro_recall': 0.89, 'micro_f1_score': 0.89, 'micro_mcc': 0.912}
+{'macro_accuracy': 0.89, 'macro_precision': 0.883, 'macro_recall': 0.916, 'macro_f1_score': 0.889, 'macro_mcc': 0.753}
+
+
+Inner Fold #4
+
+{'micro_accuracy': 0.923, 'micro_precision': 0.923, 'micro_recall': 0.923, 'micro_f1_score': 0.923, 'micro_mcc': 0.926}
+{'macro_accuracy': 0.923, 'macro_precision': 0.923, 'macro_recall': 0.921, 'macro_f1_score': 0.921, 'macro_mcc': 0.768}
+
+
+Inner Fold #5
+
+{'micro_accuracy': 0.927, 'micro_precision': 0.927, 'micro_recall': 0.927, 'micro_f1_score': 0.927, 'micro_mcc': 0.923}
+{'macro_accuracy': 0.927, 'macro_precision': 0.931, 'macro_recall': 0.937, 'macro_f1_score': 0.93, 'macro_mcc': 0.773}
+
+
+Inner Fold #6
+
+{'micro_accuracy': 0.923, 'micro_precision': 0.923, 'micro_recall': 0.923, 'micro_f1_score': 0.923, 'micro_mcc': 0.933}
+{'macro_accuracy': 0.923, 'macro_precision': 0.918, 'macro_recall': 0.928, 'macro_f1_score': 0.918, 'macro_mcc': 0.776}
+
+
+Inner Fold #7
+
+{'micro_accuracy': 0.873, 'micro_precision': 0.873, 'micro_recall': 0.873, 'micro_f1_score': 0.873, 'micro_mcc': 0.889}
+{'macro_accuracy': 0.873, 'macro_precision': 0.884, 'macro_recall': 0.907, 'macro_f1_score': 0.88, 'macro_mcc': 0.744}
+
+
+Inner Fold #8
+
+{'micro_accuracy': 0.92, 'micro_precision': 0.92, 'micro_recall': 0.92, 'micro_f1_score': 0.92, 'micro_mcc': 0.92}
+{'macro_accuracy': 0.92, 'macro_precision': 0.92, 'macro_recall': 0.925, 'macro_f1_score': 0.92, 'macro_mcc': 0.766}
+
+
+Inner Fold #9
+
+{'micro_accuracy': 0.883, 'micro_precision': 0.883, 'micro_recall': 0.883, 'micro_f1_score': 0.883, 'micro_mcc': 0.893}
+{'macro_accuracy': 0.883, 'macro_precision': 0.878, 'macro_recall': 0.91, 'macro_f1_score': 0.881, 'macro_mcc': 0.742}
+
+
+Inner Fold #10
+
+{'micro_accuracy': 0.873, 'micro_precision': 0.873, 'micro_recall': 0.873, 'micro_f1_score': 0.873, 'micro_mcc': 0.89}
+{'macro_accuracy': 0.873, 'macro_precision': 0.873, 'macro_recall': 0.896, 'macro_f1_score': 0.871, 'macro_mcc': 0.737}
+
+
+[[431  24   0  13  27   5]
+ [ 35 434   0  11   8  12]
+ [  3   1 496   0   0   0]
+ [  2   3   0 495   0   0]
+ [ 73   7   0   0 418   2]
+ [ 11  48   0   0   1 440]]
+
+Average accuracy across 10 inner splits: 0.9046666666666665
+

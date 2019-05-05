@@ -8,6 +8,9 @@ from utils import merge_splits
 from keras.callbacks import EarlyStopping
 
 from sklearn.metrics import accuracy_score
+from sklearn.metrics import confusion_matrix
+
+from Evaluation_Module.metrics import compute_metrics
 
 
 class Classifier(object):
@@ -19,10 +22,12 @@ class Classifier(object):
     def __init__(self,
                  classifier,
                  process_data,
+                 no_of_classes: int,
                  name: str):
         self.classifier = classifier
         self.name = name
         self.process_data = process_data
+        self.no_of_classes = no_of_classes
 
     def train(self,
               training_set: np.array,
@@ -32,7 +37,9 @@ class Classifier(object):
         :param labels: graphs' labels
         """
 
-        if self.name == 'CNN' or self.name == 'LRG':
+        print(self.name + ' is now training')
+
+        if self.name == 'CNN':
             training_set = self.process_data(training_set)
 
         if self.name == 'CNN' or self.name == 'MLP':
@@ -47,8 +54,9 @@ class Classifier(object):
         :param test_set: feature vectors for which to predict the labels
         :return: predicted labels
         """
+        print(self.name + ' is now predicting classes')
 
-        if self.name == 'CNN' or self.name == 'LRG':
+        if self.name == 'CNN':
             test_set = self.process_data(test_set)
 
         return self.classifier.predict(test_set)
@@ -59,8 +67,9 @@ class Classifier(object):
         :param test_set: feature vectors for which to predict the labels
         :return: predicted probabilities
         """
+        print(self.name + ' is now predincting probabilities')
 
-        if self.name == 'CNN' or self.name == 'LRG':
+        if self.name == 'CNN':
             test_set = self.process_data(test_set)
 
         return self.classifier.predict_proba(test_set)
@@ -68,15 +77,21 @@ class Classifier(object):
     def cross_validate(self,
                        data_set: np.array,
                        labels: np.array,
-                       no_of_folds: int):
+                       no_of_folds: int,
+                       clear_file=False):
         """
         Method that performs a CV on the object modelon a given dataset
 
         :param data_set: graph or attributes list, depending on the model
         :param labels: true class labels
         :param no_of_folds: number of folds for the CV
+        :param clear_file: used to clear file when running just a outer CV
         :return: average accuracy of the model on all splits
         """
+
+        results_file = open('Results/' + self.name, 'a')
+        if clear_file:
+            results_file.truncate(0)
 
         data_set, labels, permutation = randomise_order(data_set, labels)
 
@@ -88,6 +103,8 @@ class Classifier(object):
 
         for index1 in range(0, no_of_folds):
             print("Inner Fold #" + str(index1 + 1))
+            print("Inner Fold #" + str(index1 + 1), file=results_file)
+            print(file=results_file)
 
             test_set = splitted_data_set[index1]
             test_labels = splitted_labels[index1]
@@ -106,12 +123,25 @@ class Classifier(object):
             for prediction in predictions:
                 all_predictions.append(prediction)
 
+            metrics = compute_metrics(test_labels, predictions, self.no_of_classes)
+            for element in metrics:
+                print(element, file=results_file)
+            print(file=results_file)
+            print(file=results_file)
+            print()
+
             acc = accuracy_score(test_labels, predictions)
             all_accuracies.append(acc)
             average_acc += acc
 
+        print(confusion_matrix(labels, all_predictions), file=results_file)
+        print(file=results_file)
+
         average_acc = average_acc / no_of_folds
         permutation, all_predictions = (list(t) for t in zip(*sorted(zip(permutation, all_predictions))))
+
+        print('Average accuracy across ' + str(no_of_folds) + ' inner splits: ' + str(average_acc), file=results_file)
+        print(file=results_file)
 
         return average_acc, all_accuracies, all_predictions
 

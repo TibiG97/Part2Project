@@ -21,6 +21,7 @@ class RandomForest(SKLearnModel):
                  estimators: int,
                  samples_split: int,
                  samples_leaf: int,
+                 no_of_classes: int,
                  **kwargs):
         """
         Object Constructor
@@ -44,6 +45,7 @@ class RandomForest(SKLearnModel):
                 min_samples_leaf=samples_leaf
             ),
             process_data=None,
+            no_of_classes=no_of_classes,
             name='RF'
         )
 
@@ -57,6 +59,7 @@ class KNeighbours(SKLearnModel):
     def __init__(self,
                  neighbours: int,
                  p_dist: int,
+                 no_of_classes: int,
                  **kwargs):
         """
         Object Constructor
@@ -74,6 +77,7 @@ class KNeighbours(SKLearnModel):
                 p=p_dist
             ),
             process_data=None,
+            no_of_classes=no_of_classes,
             name='KNN'
         )
 
@@ -87,10 +91,7 @@ class LogRegression(SKLearnModel):
     def __init__(self,
                  c: float,
                  penalty: str,
-                 width: int,
-                 stride: int,
-                 rf_size: int,
-                 dummy_value=DUMMY,
+                 no_of_classes: int,
                  **kwargs):
         """
         Object Constructor
@@ -101,44 +102,16 @@ class LogRegression(SKLearnModel):
 
         self.C = c
         self.penalty = penalty
-        self.width = width
-        self.stride = stride
-        self.rf_size = rf_size
-        self.dummy_value = dummy_value
 
         super(LogRegression, self).__init__(
             LogisticRegression(
                 C=c,
                 penalty=penalty,
-                solver='liblinear',
-                multi_class='auto',
-                max_iter=250
+                solver='lbfgs',
+                multi_class='multinomial',
+                max_iter=1000
             ),
-            process_data=self.__process_data,
+            process_data=None,
+            no_of_classes=no_of_classes,
             name='LRG'
         )
-
-    def __process_data(self,
-                       data_set: np.array):
-        """
-        Private method that builds the receptive fields from raw data
-
-        :param data_set: list of graph objects
-        :return: input data for the CNN
-        """
-
-        n = len(data_set)
-        train_logistic = list()
-
-        for i in range(n):
-            receptive_field = ReceptiveFieldMaker(data_set[i].nx_graph,
-                                                  w=self.width,
-                                                  k=self.rf_size,
-                                                  s=self.stride,
-                                                  dummy_value=self.dummy_value)
-            for_log = receptive_field.make_()
-            train_logistic.append(np.array(for_log).flatten())
-
-        logistig_train_set = np.array(train_logistic)
-
-        return logistig_train_set

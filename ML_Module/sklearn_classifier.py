@@ -13,6 +13,7 @@ class SKLearnModel(Classifier):
     def __init__(self,
                  classifier,
                  process_data,
+                 no_of_classes: int,
                  name: str):
         self.classifier = classifier
         self.name = name
@@ -20,6 +21,7 @@ class SKLearnModel(Classifier):
         super(SKLearnModel, self).__init__(
             classifier=classifier,
             process_data=process_data,
+            no_of_classes=no_of_classes,
             name=name
         )
 

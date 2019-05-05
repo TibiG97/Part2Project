@@ -23,8 +23,8 @@ class MultilayerPerceptron(NeuralNetwork):
                  dropout_rate: float,
                  init_mode: str,
                  no_of_classes: int,
-                 verbose: int,
-                 hidden_size: int):
+                 hidden_size: int,
+                 verbose=2):
 
         self.hidden_size = hidden_size
         self.classifier = KerasClassifier(build_fn=self.__create_model,

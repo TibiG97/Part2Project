@@ -5,10 +5,63 @@ from utils import get_directory
 from utils import create_directory
 from utils import clear_directory
 
+from math import sqrt
+
 from constants import *
 
 
 class SyntheticDataGenerator(object):
+
+    @staticmethod
+    def __l2_distance(prob_dist: list):
+        """
+        Private function that computed the l2 distance between discrete input dist and uniform dist
+
+        :param prob_dist: input dist
+        :return: l2 distance
+        """
+
+        dist = 0
+        size = len(prob_dist)
+        uniform = [1 / size] * size
+
+        for iterator in range(0, size):
+            dist += pow(prob_dist[iterator] - uniform[iterator], 2)
+        dist = sqrt(dist)
+
+        return dist
+
+    @staticmethod
+    def generate_dist_within_l2_dist(no_of_dist_required: int,
+                                     size: int,
+                                     interval: tuple):
+        """
+        Function that generates probability distributions which have l2 distance in given range
+
+        :param no_of_dist_required: number of distributions to be generated
+        :param size: size of the discrete dist
+        :param interval: l2 distance intervals of the returned dist
+        :return: distribution which respects the input parameters
+        """
+        all_dist = list()
+
+        while True:
+            dist = list()
+            for it in range(0, size):
+                dist.append(randint(0, 100))
+
+            # normalise in (0,1)
+            sum_dist = sum(dist)
+            for it in range(0, size):
+                dist[it] = dist[it] / sum_dist
+
+            # check interval
+            if interval[0] <= SyntheticDataGenerator.__l2_distance(dist) <= interval[1]:
+                all_dist.append(dist)
+
+            # check if we generated enough distributions
+            if len(all_dist) == no_of_dist_required:
+                return all_dist
 
     @staticmethod
     def __create_file_vector(binary_file_dist: np.array):

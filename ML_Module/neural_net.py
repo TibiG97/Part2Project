@@ -36,6 +36,7 @@ class NeuralNetwork(Classifier):
         super(NeuralNetwork, self).__init__(
             classifier=classifier,
             process_data=process_data,
+            no_of_classes=no_of_classes,
             name=name
         )
 

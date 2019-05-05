@@ -15,10 +15,6 @@ from shutil import rmtree
 
 import numpy as np
 
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import cross_val_score
-from sklearn.metrics import accuracy_score
-
 
 def get_directory():
     """
@@ -178,7 +174,8 @@ def add_padding(matrix: list,
 def create_ensamble(predictions1: np.array,
                     predictions2: np.array,
                     labels: np.array,
-                    meta_classifier):
+                    meta_classifier,
+                    no_of_folds: int):
     """
     Function that cross validates an ensamble of two classifiers using stacking method
 
@@ -186,13 +183,9 @@ def create_ensamble(predictions1: np.array,
     :param predictions2: classifier #2 predictions
     :param labels: true labels corresponding to predictions
     :param meta_classifier: metaclassifier of stacking method
+    :param no_of_folds: folds for outer CV of stacker
     :return: average accuracy of stacked classifier
     """
 
-    print(len(predictions1))
-    print(len(predictions2))
     dataset = np.array([np.array([pred1, pred2]) for pred1, pred2 in zip(predictions1, predictions2)])
-
-    scores = cross_val_score(meta_classifier, dataset, labels, cv=10)
-
-    return scores
+    meta_classifier.cross_validate(dataset, labels, no_of_folds=no_of_folds)
