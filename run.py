@@ -49,12 +49,13 @@ def demo():
 
                                           history_len=4,
                                           degree_dist={'values': [1, 2, 3, 4],
-                                                       'probs': [0.7, 0.2, 0.05, 0.05]},
-                                          node_type_dist=[0.9, 0.1])
+                                                       'probs': [0.5, 0.3, 0.1, 0.1]},
+                                          node_type_dist=[0.8, 0.2])
     """
 
     graph_dataset, graph_labels, no_of_classes = DataLoader.load_synthetic_data_set(name='D3_H4_L02',
                                                                                     target_model='patchy_san')
+
     attr_dataset, attr_labels, no_of_classes = DataLoader.load_synthetic_data_set(name='D3_H4_L02',
                                                                                   target_model='baselines')
 
@@ -88,30 +89,27 @@ def demo():
     mlp = MultilayerPerceptron(batch_size=32,
                                epochs=100,
                                learning_rate=0.0005,
-                               dropout_rate=0.5,
+                               dropout_rate=0.4,
                                init_mode='glorot_uniform',
                                hidden_size=128,
-                               no_of_classes=no_of_classes,
+                               no_of_classes=6,
                                verbose=2)
 
-    X_train, X_test, y_train, y_test = train_test_split(graph_dataset,
-                                                        graph_labels,
+    """
+    X_train, X_test, y_train, y_test = train_test_split(X,
+                                                        y,
                                                         test_size=0.1,
                                                         random_state=42,
                                                         shuffle=True)
-    cnn.train(X_train, y_train)
+    mlp.train(X_train, y_train)
 
-    predictions_cnn = cnn.predict_class(X_test)
+    predictions_cnn = mlp.predict_class(X_test)
+
     with open('Results/temp', 'a') as results:
         results.truncate(0)
         print(accuracy_score(y_test, predictions_cnn), file=results)
         print(confusion_matrix(y_test, predictions_cnn), file=results)
-
-    # rf_acc, rf_all_acc, rf_pred = rf.cross_validate(attr_dataset, attr_labels, 10, clear_file=True)
-    # knn_acc, knn_all_acc, knn_pred = knn.cross_validate(attr_dataset, attr_labels, 10, clear_file=True)
-    # mlp_acc, mlp_all_acc, mlp_pred = mlp.cross_validate(X, y, 10, clear_file=True)
-    # cnn_acc, cnn_all_acc, cnn_pred = cnn.cross_validate(graph_dataset, graph_labels, 10, clear_file=True)
-    # create_ensamble(cnn_pred, mlp_pred, graph_labels, lrg, no_of_folds=10)
+    """
 
 
 def main():

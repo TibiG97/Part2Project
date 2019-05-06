@@ -1,206 +1,69 @@
 Inner Fold #1
 
-{'micro_accuracy': 0.987, 'micro_precision': 0.987, 'micro_recall': 0.987, 'micro_f1_score': 0.987, 'micro_mcc': 0.984}
-{'macro_accuracy': 0.987, 'macro_precision': 0.988, 'macro_recall': 0.988, 'macro_f1_score': 0.988, 'macro_mcc': 0.985}
+{'micro_accuracy': 0.917, 'micro_precision': 0.917, 'micro_recall': 0.917, 'micro_f1_score': 0.917, 'micro_mcc': 0.9}
+{'macro_accuracy': 0.917, 'macro_precision': 0.917, 'macro_recall': 0.922, 'macro_f1_score': 0.918, 'macro_mcc': 0.902}
 
 
 Inner Fold #2
 
-{'micro_accuracy': 0.997, 'micro_precision': 0.997, 'micro_recall': 0.997, 'micro_f1_score': 0.997, 'micro_mcc': 0.996}
-{'macro_accuracy': 0.997, 'macro_precision': 0.997, 'macro_recall': 0.997, 'macro_f1_score': 0.997, 'macro_mcc': 0.996}
+{'micro_accuracy': 0.903, 'micro_precision': 0.903, 'micro_recall': 0.903, 'micro_f1_score': 0.903, 'micro_mcc': 0.884}
+{'macro_accuracy': 0.903, 'macro_precision': 0.903, 'macro_recall': 0.909, 'macro_f1_score': 0.905, 'macro_mcc': 0.886}
 
 
 Inner Fold #3
-
-{'micro_accuracy': 0.97, 'micro_precision': 0.97, 'micro_recall': 0.97, 'micro_f1_score': 0.97, 'micro_mcc': 0.964}
-{'macro_accuracy': 0.97, 'macro_precision': 0.972, 'macro_recall': 0.968, 'macro_f1_score': 0.969, 'macro_mcc': 0.964}
-
-
-Inner Fold #4
-
-{'micro_accuracy': 0.993, 'micro_precision': 0.993, 'micro_recall': 0.993, 'micro_f1_score': 0.993, 'micro_mcc': 0.992}
-{'macro_accuracy': 0.993, 'macro_precision': 0.992, 'macro_recall': 0.994, 'macro_f1_score': 0.993, 'macro_mcc': 0.992}
-
-
-Inner Fold #5
-
-{'micro_accuracy': 0.983, 'micro_precision': 0.983, 'micro_recall': 0.983, 'micro_f1_score': 0.983, 'micro_mcc': 0.98}
-{'macro_accuracy': 0.983, 'macro_precision': 0.985, 'macro_recall': 0.984, 'macro_f1_score': 0.984, 'macro_mcc': 0.981}
-
-
-Inner Fold #6
-
-{'micro_accuracy': 0.983, 'micro_precision': 0.983, 'micro_recall': 0.983, 'micro_f1_score': 0.983, 'micro_mcc': 0.98}
-{'macro_accuracy': 0.983, 'macro_precision': 0.983, 'macro_recall': 0.984, 'macro_f1_score': 0.983, 'macro_mcc': 0.98}
-
-
-Inner Fold #7
-
-{'micro_accuracy': 0.99, 'micro_precision': 0.99, 'micro_recall': 0.99, 'micro_f1_score': 0.99, 'micro_mcc': 0.988}
-{'macro_accuracy': 0.99, 'macro_precision': 0.99, 'macro_recall': 0.99, 'macro_f1_score': 0.99, 'macro_mcc': 0.988}
-
-
-Inner Fold #8
-
-{'micro_accuracy': 0.997, 'micro_precision': 0.997, 'micro_recall': 0.997, 'micro_f1_score': 0.997, 'micro_mcc': 0.996}
-{'macro_accuracy': 0.997, 'macro_precision': 0.996, 'macro_recall': 0.997, 'macro_f1_score': 0.997, 'macro_mcc': 0.996}
-
-
-Inner Fold #9
-
-{'micro_accuracy': 0.987, 'micro_precision': 0.987, 'micro_recall': 0.987, 'micro_f1_score': 0.987, 'micro_mcc': 0.984}
-{'macro_accuracy': 0.987, 'macro_precision': 0.987, 'macro_recall': 0.987, 'macro_f1_score': 0.987, 'macro_mcc': 0.985}
-
-
-Inner Fold #10
-
-{'micro_accuracy': 0.98, 'micro_precision': 0.98, 'micro_recall': 0.98, 'micro_f1_score': 0.98, 'micro_mcc': 0.976}
-{'macro_accuracy': 0.98, 'macro_precision': 0.981, 'macro_recall': 0.981, 'macro_f1_score': 0.981, 'macro_mcc': 0.977}
-
-
-[[500   0   0   0   0   0]
- [  0 500   0   0   0   0]
- [  1   0 479   7  11   2]
- [  0   0   9 491   0   0]
- [  0   0   5   5 490   0]
- [  0   0   0   0   0 500]]
-
-Average accuracy across all 10 splits: 0.9866666666666667
-Inner Fold #1
-
-{'micro_accuracy': 0.97, 'micro_precision': 0.97, 'micro_recall': 0.97, 'micro_f1_score': 0.97, 'micro_mcc': 0.964}
-{'macro_accuracy': 0.97, 'macro_precision': 0.969, 'macro_recall': 0.97, 'macro_f1_score': 0.969, 'macro_mcc': 0.963}
-
-
-Inner Fold #2
-
-{'micro_accuracy': 0.96, 'micro_precision': 0.96, 'micro_recall': 0.96, 'micro_f1_score': 0.96, 'micro_mcc': 0.952}
-{'macro_accuracy': 0.96, 'macro_precision': 0.959, 'macro_recall': 0.96, 'macro_f1_score': 0.959, 'macro_mcc': 0.952}
-
-
-Inner Fold #3
-
-{'micro_accuracy': 0.97, 'micro_precision': 0.97, 'micro_recall': 0.97, 'micro_f1_score': 0.97, 'micro_mcc': 0.964}
-{'macro_accuracy': 0.97, 'macro_precision': 0.97, 'macro_recall': 0.968, 'macro_f1_score': 0.968, 'macro_mcc': 0.963}
-
-
-Inner Fold #4
-
-{'micro_accuracy': 0.963, 'micro_precision': 0.963, 'micro_recall': 0.963, 'micro_f1_score': 0.963, 'micro_mcc': 0.956}
-{'macro_accuracy': 0.963, 'macro_precision': 0.963, 'macro_recall': 0.965, 'macro_f1_score': 0.964, 'macro_mcc': 0.957}
-
-
-Inner Fold #5
-
-{'micro_accuracy': 0.957, 'micro_precision': 0.957, 'micro_recall': 0.957, 'micro_f1_score': 0.957, 'micro_mcc': 0.948}
-{'macro_accuracy': 0.957, 'macro_precision': 0.955, 'macro_recall': 0.955, 'macro_f1_score': 0.955, 'macro_mcc': 0.946}
-
-
-Inner Fold #6
-
-{'micro_accuracy': 0.977, 'micro_precision': 0.977, 'micro_recall': 0.977, 'micro_f1_score': 0.977, 'micro_mcc': 0.972}
-{'macro_accuracy': 0.977, 'macro_precision': 0.979, 'macro_recall': 0.979, 'macro_f1_score': 0.979, 'macro_mcc': 0.974}
-
-
-Inner Fold #7
-
-{'micro_accuracy': 0.967, 'micro_precision': 0.967, 'micro_recall': 0.967, 'micro_f1_score': 0.967, 'micro_mcc': 0.96}
-{'macro_accuracy': 0.967, 'macro_precision': 0.966, 'macro_recall': 0.969, 'macro_f1_score': 0.967, 'macro_mcc': 0.961}
-
-
-Inner Fold #8
-
-{'micro_accuracy': 0.967, 'micro_precision': 0.967, 'micro_recall': 0.967, 'micro_f1_score': 0.967, 'micro_mcc': 0.96}
-{'macro_accuracy': 0.967, 'macro_precision': 0.966, 'macro_recall': 0.968, 'macro_f1_score': 0.967, 'macro_mcc': 0.96}
-
-
-Inner Fold #9
-
-{'micro_accuracy': 0.953, 'micro_precision': 0.953, 'micro_recall': 0.953, 'micro_f1_score': 0.953, 'micro_mcc': 0.944}
-{'macro_accuracy': 0.953, 'macro_precision': 0.953, 'macro_recall': 0.954, 'macro_f1_score': 0.953, 'macro_mcc': 0.944}
-
-
-Inner Fold #10
-
-{'micro_accuracy': 0.97, 'micro_precision': 0.97, 'micro_recall': 0.97, 'micro_f1_score': 0.97, 'micro_mcc': 0.964}
-{'macro_accuracy': 0.97, 'macro_precision': 0.967, 'macro_recall': 0.972, 'macro_f1_score': 0.969, 'macro_mcc': 0.963}
-
-
-[[495   0   1   1   3   0]
- [  2 475   9  12   1   1]
- [  4   2 476   5   4   9]
- [  1   7  12 474   1   5]
- [  0   1   1   8 487   3]
- [  1   1   0   7   2 489]]
-
-Average accuracy across 10 inner splits: 0.9653333333333334
-
-Inner Fold #1
 
 {'micro_accuracy': 0.893, 'micro_precision': 0.893, 'micro_recall': 0.893, 'micro_f1_score': 0.893, 'micro_mcc': 0.872}
-{'macro_accuracy': 0.893, 'macro_precision': 0.895, 'macro_recall': 0.893, 'macro_f1_score': 0.892, 'macro_mcc': 0.872}
-
-
-Inner Fold #2
-
-{'micro_accuracy': 0.883, 'micro_precision': 0.883, 'micro_recall': 0.883, 'micro_f1_score': 0.883, 'micro_mcc': 0.86}
-{'macro_accuracy': 0.883, 'macro_precision': 0.885, 'macro_recall': 0.887, 'macro_f1_score': 0.884, 'macro_mcc': 0.862}
-
-
-Inner Fold #3
-
-{'micro_accuracy': 0.86, 'micro_precision': 0.86, 'micro_recall': 0.86, 'micro_f1_score': 0.86, 'micro_mcc': 0.832}
-{'macro_accuracy': 0.86, 'macro_precision': 0.859, 'macro_recall': 0.864, 'macro_f1_score': 0.859, 'macro_mcc': 0.833}
+{'macro_accuracy': 0.893, 'macro_precision': 0.896, 'macro_recall': 0.898, 'macro_f1_score': 0.895, 'macro_mcc': 0.875}
 
 
 Inner Fold #4
 
-{'micro_accuracy': 0.853, 'micro_precision': 0.853, 'micro_recall': 0.853, 'micro_f1_score': 0.853, 'micro_mcc': 0.824}
-{'macro_accuracy': 0.853, 'macro_precision': 0.853, 'macro_recall': 0.859, 'macro_f1_score': 0.851, 'macro_mcc': 0.825}
+{'micro_accuracy': 0.92, 'micro_precision': 0.92, 'micro_recall': 0.92, 'micro_f1_score': 0.92, 'micro_mcc': 0.904}
+{'macro_accuracy': 0.92, 'macro_precision': 0.922, 'macro_recall': 0.924, 'macro_f1_score': 0.922, 'macro_mcc': 0.907}
 
 
 Inner Fold #5
 
-{'micro_accuracy': 0.867, 'micro_precision': 0.867, 'micro_recall': 0.867, 'micro_f1_score': 0.867, 'micro_mcc': 0.84}
-{'macro_accuracy': 0.867, 'macro_precision': 0.871, 'macro_recall': 0.876, 'macro_f1_score': 0.869, 'macro_mcc': 0.846}
+{'micro_accuracy': 0.883, 'micro_precision': 0.883, 'micro_recall': 0.883, 'micro_f1_score': 0.883, 'micro_mcc': 0.86}
+{'macro_accuracy': 0.883, 'macro_precision': 0.882, 'macro_recall': 0.889, 'macro_f1_score': 0.881, 'macro_mcc': 0.861}
 
 
 Inner Fold #6
 
-{'micro_accuracy': 0.887, 'micro_precision': 0.887, 'micro_recall': 0.887, 'micro_f1_score': 0.887, 'micro_mcc': 0.864}
-{'macro_accuracy': 0.887, 'macro_precision': 0.885, 'macro_recall': 0.896, 'macro_f1_score': 0.889, 'macro_mcc': 0.867}
+{'micro_accuracy': 0.907, 'micro_precision': 0.907, 'micro_recall': 0.907, 'micro_f1_score': 0.907, 'micro_mcc': 0.888}
+{'macro_accuracy': 0.907, 'macro_precision': 0.907, 'macro_recall': 0.908, 'macro_f1_score': 0.907, 'macro_mcc': 0.889}
 
 
 Inner Fold #7
 
-{'micro_accuracy': 0.857, 'micro_precision': 0.857, 'micro_recall': 0.857, 'micro_f1_score': 0.857, 'micro_mcc': 0.828}
-{'macro_accuracy': 0.857, 'macro_precision': 0.861, 'macro_recall': 0.867, 'macro_f1_score': 0.863, 'macro_mcc': 0.835}
+{'micro_accuracy': 0.92, 'micro_precision': 0.92, 'micro_recall': 0.92, 'micro_f1_score': 0.92, 'micro_mcc': 0.904}
+{'macro_accuracy': 0.92, 'macro_precision': 0.92, 'macro_recall': 0.921, 'macro_f1_score': 0.92, 'macro_mcc': 0.905}
 
 
 Inner Fold #8
 
-{'micro_accuracy': 0.883, 'micro_precision': 0.883, 'micro_recall': 0.883, 'micro_f1_score': 0.883, 'micro_mcc': 0.86}
-{'macro_accuracy': 0.883, 'macro_precision': 0.879, 'macro_recall': 0.876, 'macro_f1_score': 0.876, 'macro_mcc': 0.854}
+{'micro_accuracy': 0.903, 'micro_precision': 0.903, 'micro_recall': 0.903, 'micro_f1_score': 0.903, 'micro_mcc': 0.884}
+{'macro_accuracy': 0.903, 'macro_precision': 0.904, 'macro_recall': 0.909, 'macro_f1_score': 0.904, 'macro_mcc': 0.887}
 
 
 Inner Fold #9
 
-{'micro_accuracy': 0.9, 'micro_precision': 0.9, 'micro_recall': 0.9, 'micro_f1_score': 0.9, 'micro_mcc': 0.88}
-{'macro_accuracy': 0.9, 'macro_precision': 0.892, 'macro_recall': 0.907, 'macro_f1_score': 0.896, 'macro_mcc': 0.878}
+{'micro_accuracy': 0.88, 'micro_precision': 0.88, 'micro_recall': 0.88, 'micro_f1_score': 0.88, 'micro_mcc': 0.856}
+{'macro_accuracy': 0.88, 'macro_precision': 0.88, 'macro_recall': 0.885, 'macro_f1_score': 0.881, 'macro_mcc': 0.858}
 
 
 Inner Fold #10
 
-{'micro_accuracy': 0.897, 'micro_precision': 0.897, 'micro_recall': 0.897, 'micro_f1_score': 0.897, 'micro_mcc': 0.876}
-{'macro_accuracy': 0.897, 'macro_precision': 0.898, 'macro_recall': 0.899, 'macro_f1_score': 0.896, 'macro_mcc': 0.877}
+{'micro_accuracy': 0.883, 'micro_precision': 0.883, 'micro_recall': 0.883, 'micro_f1_score': 0.883, 'micro_mcc': 0.86}
+{'macro_accuracy': 0.883, 'macro_precision': 0.883, 'macro_recall': 0.89, 'macro_f1_score': 0.881, 'macro_mcc': 0.862}
 
 
-[[472  13   8   4   3   0]
- [  6 388  26  65  12   3]
- [ 12  11 463   6   6   2]
- [  5  16  33 429  15   2]
- [  4   5  10  42 433   6]
- [  0   0   1  19  31 449]]
+[[462  17  12   6   2   1]
+ [  6 426  29  30   9   0]
+ [ 10   9 462  12   7   0]
+ [  6   3  36 448   6   1]
+ [  6   0  20  16 453   5]
+ [  2   0   2  30  14 452]]
 
-Average accuracy across 10 inner splits: 0.8780000000000001
+Average accuracy across 10 inner splits: 0.9009999999999998
 

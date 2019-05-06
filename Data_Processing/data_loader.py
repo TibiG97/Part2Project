@@ -38,7 +38,7 @@ class DataLoader:
                 lines = log_file.readlines()
                 for line in lines:
                     line_vector = hashing_trick(text=line,
-                                                n=1000,
+                                                n=100,
                                                 hash_function=None,
                                                 filters='!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\n',
                                                 lower=True,
@@ -48,7 +48,7 @@ class DataLoader:
                         feature_vector.append(float(element))
 
                 data_set.append(feature_vector)
-                labels.append(iterator)
+                labels.append(iterator + 1)
 
         # Make shape of dataset uniform for NN
         ######################################

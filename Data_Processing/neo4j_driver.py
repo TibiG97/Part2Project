@@ -268,3 +268,10 @@ class Neo4JConnection(object):
                 result.append(neighbour)
 
         return result
+
+
+neo4j_driver = Neo4JDriver(
+    url='bolt://localhost:7687',
+    user='neo4j',
+    pswd='opus'
+)

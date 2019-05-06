@@ -3,11 +3,6 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import LogisticRegression
 
 from ML_Module.sklearn_classifier import SKLearnModel
-from ML_Module.patchy_san import ReceptiveFieldMaker
-
-from constants import DUMMY
-
-import numpy as np
 
 
 class RandomForest(SKLearnModel):

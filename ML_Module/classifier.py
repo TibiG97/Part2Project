@@ -44,7 +44,7 @@ class Classifier(object):
 
         if self.name == 'CNN' or self.name == 'MLP':
             es = EarlyStopping(monitor='loss', mode='min', patience=10)
-            self.classifier.fit(training_set, labels, callbacks=[es])
+            return self.classifier.fit(training_set, labels, callbacks=[es])
         else:
             self.classifier.fit(training_set, labels)
 
@@ -88,7 +88,7 @@ class Classifier(object):
         :param clear_file: used to clear file when running just a outer CV
         :return: average accuracy of the model on all splits
         """
-
+        model_history = list()
         results_file = open('Results/' + self.name, 'a')
         if clear_file:
             results_file.truncate(0)
@@ -118,7 +118,9 @@ class Classifier(object):
             training_set = merge_splits(training_set)
             training_labels = merge_splits(training_labels)
 
-            self.train(training_set, training_labels)
+            history = self.train(training_set, training_labels)
+            model_history.append(history)
+
             predictions = self.predict_class(test_set)
             for prediction in predictions:
                 all_predictions.append(prediction)
@@ -143,7 +145,7 @@ class Classifier(object):
         print('Average accuracy across ' + str(no_of_folds) + ' inner splits: ' + str(average_acc), file=results_file)
         print(file=results_file)
 
-        return average_acc, all_accuracies, all_predictions
+        return average_acc, all_accuracies, all_predictions, model_history
 
     @abstractmethod
     def save_model(self,

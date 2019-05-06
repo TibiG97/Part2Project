@@ -58,4 +58,4 @@ class SKLearnModel(Classifier):
         :param model_type: not used here
         """
 
-        self.classifier = load(model_path, 'rb')
+        self.classifier = load(open(model_path, 'rb'))

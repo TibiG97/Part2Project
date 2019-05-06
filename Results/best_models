@@ -1,0 +1,33 @@
+    cnn = ConvolutionalNeuralNetwork(width=15,
+                                     stride=1,
+                                     rf_size=5,
+                                     epochs=1000,
+                                     batch_size=32,
+                                     learning_rate=0.001,
+                                     dropout_rate=0.3,
+                                     verbose=2,
+                                     init_mode='he_normal',
+                                     no_of_classes=no_of_classes)
+
+    lrg = LogRegression(c=1e5,
+                        penalty='l2',
+                        no_of_classes=no_of_classes)
+
+    knn = KNeighbours(neighbours=500,
+                      p_dist=2,
+                      no_of_classes=no_of_classes)
+
+    rf = RandomForest(depth=70,
+                      estimators=400,
+                      samples_leaf=4,
+                      samples_split=10,
+                      no_of_classes=no_of_classes)
+
+    mlp = MultilayerPerceptron(batch_size=32,
+                               epochs=100,
+                               learning_rate=0.0005,
+                               dropout_rate=0.4,
+                               init_mode='glorot_uniform',
+                               hidden_size=128,
+                               no_of_classes=6,
+                               verbose=2)
