@@ -21,16 +21,18 @@ class MultilayerPerceptron(NeuralNetwork):
                  epochs: int,
                  learning_rate: float,
                  dropout_rate: float,
-                 init_mode: str,
                  no_of_classes: int,
                  hidden_size: int,
+                 init_mode='he_normal',
                  verbose=2):
 
         self.hidden_size = hidden_size
         self.classifier = KerasClassifier(build_fn=self.__create_model,
                                           epochs=epochs,
                                           batch_size=batch_size,
-                                          verbose=verbose)
+                                          verbose=verbose,
+                                          validation_split=0.1,
+                                          shuffle=False)
 
         super(MultilayerPerceptron, self).__init__(
             classifier=self.classifier,

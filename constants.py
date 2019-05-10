@@ -35,39 +35,55 @@ CMD_LINE = [
     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
 ]
 
+CMD_LINE_DICT = {
+    0: 'gunzip',
+    1: 'ssh',
+    2: 'rm',
+    3: 'dd',
+    4: 'sleep',
+    5: 'postgres',
+    6: 'cat',
+    7: 'bounce',
+    8: 'uname',
+    9: 'gzip',
+    10: 'mv',
+    11: 'unlink'
+}
+
+LOGIN_NAME_DICT = {
+    0: 'steve',
+    1: 'operator',
+    2: 'lariat',
+    3: 'darpa',
+    4: 'root',
+    5: 'none'
+}
+
+CLASS_DICT = {
+    1: 'android',
+    2: 'apache',
+    3: 'hadoop',
+    4: 'openstack',
+    5: 'spark',
+    6: 'ssh'
+}
+
 ATTR_DIM = 30
 
 DUMMY = [-1] * 30
 
 BIG_NUMBER = 1000000000
 
-EMPTY_TIMES_DICT = {
-    "neigh_assembly": list(),
-    "normalized_subgraph": list(),
-    "canonicalizes": list(),
-    "compute_subgraph_ranking": list(),
-    "labeling_procedure": list(),
-    "first_labeling_procedure": list()
-}
-
 KNN_GRID = {
-    "neighbours": range(1, 30),
-    "p_dist": range(1, 5)
+    "neighbours": range(400, 501),
+    "p_dist": range(2, 3)
 }
 
 RF_GRID = {
-    "depth": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
-    "estimators": [10, 20, 40, 80, 160],
+    "depth": [50, 60, 70, 80, 90, 100],
+    "estimators": [200, 250, 300, 350],
     "samples_split": [2, 5, 10],
     "samples_leaf": [1, 2, 4]
-}
-
-LOG_REG_GRID = {
-    "c": np.logspace(-4, 4, 20),
-    "penalty": ['l1', 'l2'],
-    "width": [11, 13, 15, 17, 19],
-    "stride": [1, 3, 5, 7, 9, 11],
-    "rf_size": [2]
 }
 
 MLP_GRID = {
@@ -75,26 +91,23 @@ MLP_GRID = {
     "batch_size": [16, 32, 64, 128, 256],
     "epochs": [10, 30, 50, 70, 100],
     "learning_rate": [0.001, 0.005, 0.01, 0.05, 0.1, 0.5],
-    "dropout_rate": [0.1, 0.3, 0.5, 0.7, 0.9],
-    "init_mode": ['uniform', 'normal', 'zero', 'he_normal', 'he_uniform']
+    "dropout_rate": [0.1, 0.3, 0.5, 0.7, 0.9]
 }
 
 CNN_GRID = {
-    "width": [11, 13, 15, 17, 19],
-    "stride": [1, 3, 5, 7, 9, 11],
-    "rf_size": [2],
+    "width": [13, 14, 15, 16, 17],
+    "stride": [1],
+    "rf_size": [4, 5, 6],
     # "hidden_size": [32, 64, 128, 256, 512],
-    "batch_size": [16, 32, 64, 128, 256],
-    "epochs": [10],
-    "learning_rate": [0.001, 0.005, 0.01, 0.05, 0.1, 0.5],
-    "dropout_rate": [0.1, 0.3, 0.5, 0.7, 0.9],
-    "init_mode": ['uniform', 'normal', 'zero', 'he_normal', 'he_uniform']
+    "batch_size": [32, 64, 128],
+    "epochs": [50, 100, 200],
+    "learning_rate": [0.001, 0.005],
+    "dropout_rate": [0.1, 0.3, 0.5]
 }
 
 GRIDS = {
     "CNN": CNN_GRID,
     "MLP": MLP_GRID,
-    "LRG": LOG_REG_GRID,
     "KNN": KNN_GRID,
     "RF": RF_GRID
 }

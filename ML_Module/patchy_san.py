@@ -1,345 +1,263 @@
 from networkx import nx
 from networkx import convert_node_labels_to_integers
 from pynauty.graph import canonical_labeling, Graph
-import copy
-from copy import copy
+
+from utils import compute_ranking_distance
+from utils import betweenness_centrality
+from utils import node_timestamp
+from utils import relabel_graph
+
 import numpy as np
-import time
 
 
-class ReceptiveFieldMaker(object):
-    def __init__(self, nx_graph, w, s=1, k=10, labeling_procedure_name='betweeness',
-                 dummy_value=-1):
-        self.nx_graph = nx_graph
+class PatchySAN(object):
+    def __init__(self,
+                 graph: nx.Graph,
+                 width: int,
+                 stride: int,
+                 rf_size: int,
+                 dummy_value: np.array,
+                 labeling_procedure_name='betweenness'):
+        """
+        Constructor of PatchySAN class
 
-        self.all_times = {}
-        self.all_times['neigh_assembly'] = []
-        self.all_times['normalized_subgraph'] = []
-        self.all_times['canonicalizes'] = []
-        self.all_times['compute_subgraph_ranking'] = []
-        self.all_times['labeling_procedure'] = []
-        self.all_times['first_labeling_procedure'] = []
-        self.w = w
-        self.s = s
-        self.k = k
+        :param graph: input graph
+        :param width: number of receptive fields to create
+        :param stride: distance between BFS starting nodes w.r.t labeling
+        :param rf_size: receptive field size
+        :param dummy_value: value to add as dummy node
+        :param labeling_procedure_name: betweenness centrality or node timestamps
+        """
+
+        self.graph = graph
+        self.width = width
+        self.stride = stride
+        self.rf_size = rf_size
         self.dummy_value = dummy_value
         self.labeling_procedure_name = labeling_procedure_name
+        self.initial_labeling = self.labeling_function(self.graph)
 
-        if self.labeling_procedure_name == 'betweeness':
-            st = time.time()
-            self.dict_first_labeling = self.betweenness_centrality_labeling(self.nx_graph)
-            end = time.time()
-            self.all_times['first_labeling_procedure'].append(end - st)
+    def create_all_rfs(self):
+        """
+        Method that transforms the graph attribute of the PCSN object into suitable input for CNN
+
+        :return: (width, rf_size, attr_dim) input for CNN
+        """
+
+        input_to_cnn = list()
+
+        # select node sequence returns full list of receptive fields created
+        receptive_fields = self.node_sequence_selection()
+
+        for field in receptive_fields:
+            relabeled_nodes = nx.relabel_nodes(field, nx.get_node_attributes(field, 'labeling'))
+
+            input_to_cnn.append(
+                [x[1] for x in sorted(nx.get_node_attributes(relabeled_nodes, 'attr_name').items(),
+                                      key=lambda x: x[0])])
+
+        return input_to_cnn
+
+    def node_sequence_selection(self):
+        """
+        Method that uses the initial ordering of nodes and calles receptive_field_maker within given strides
+        
+        :return: a 'width' number of receptive fields, some of them perhaps with dummy values 
+        """
+
+        sorted_vertices = self.initial_labeling['ordered_nodes']
+        receptive_fields = []
+        iterator_1 = 0
+        iterator_2 = 1
+
+        while iterator_2 <= self.width:
+
+            if iterator_1 < len(sorted_vertices):
+                receptive_fields.append(
+                    self.create_receptive_field(sorted_vertices[iterator_1])
+                )
+
+            else:
+                receptive_fields.append(
+                    self.create_empty_receptive_field()
+                )
+
+            iterator_1 += self.stride
+            iterator_2 += 1
+
+        return receptive_fields
+
+    def neighborhood_assembly(self, vertex):
+        """
+        Method that conducts a BFS, establishing a neighbourhood of nodes of given size
+
+        :param vertex: starting node in the BFS
+        :return: subgraph obtained by the BFS
+        """
+
+        all_nodes_in_bfs = {vertex}
+        direct_neighbours = {vertex}
+        while len(all_nodes_in_bfs) < self.rf_size \
+                and len(direct_neighbours) > 0:
+
+            neighbours = set()
+            for neighbour in direct_neighbours:
+                neighbours = neighbours.union(set(self.graph.neighbors(neighbour)))
+
+            direct_neighbours = neighbours - all_nodes_in_bfs
+
+            all_nodes_in_bfs = all_nodes_in_bfs.union(direct_neighbours)
+
+        return self.graph.subgraph(list(all_nodes_in_bfs))
+
+    def receptive_field_normalization(self,
+                                      graph: nx.graph,
+                                      vertex: int):
+        """
+        Method that normalizes a provenance graph
+
+        :param graph: provenance graph to be normalized
+        :param vertex: starting vertex in the neighbourhood assembly, from which to compute the ranking function
+        :return: normalized (and canonicalized) provenance graph
+        """
+
+        ranked_graph = self.labeling_function(graph)['labeled_graph']
+        original_order = nx.get_node_attributes(ranked_graph, 'labeling')
+
+        graph_subset = self.compute_graph_ranking(graph,
+                                                  vertex,
+                                                  original_order)
+
+        if len(graph_subset.nodes()) > self.rf_size:
+
+            d = dict(nx.get_node_attributes(graph_subset, 'labeling'))
+            k_first_nodes = sorted(d, key=d.get)[0:self.rf_size]
+            full_graph = graph_subset.subgraph(k_first_nodes)
+
+            ranked_graph_by_labeling_procedure = self.labeling_function(graph)['labeled_graph']
+            original_order = nx.get_node_attributes(ranked_graph_by_labeling_procedure, 'labeling')
+            full_ranked_graph = self.compute_graph_ranking(full_graph, vertex, original_order)
+
+        elif len(graph_subset.nodes()) < self.rf_size:
+
+            full_ranked_graph = self.receptive_field_padding(graph_subset)
         else:
-            st = time.time()
-            self.dict_first_labeling = self.labeling_procedure(self.nx_graph)
-            end = time.time()
-            self.all_times['first_labeling_procedure'].append(end - st)
 
-        self.original_labeled_graph = self.dict_first_labeling['labeled_graph']
+            full_ranked_graph = graph_subset
 
-    def make_(self):
-        "Result on one (w,k,length_attri) list (usually (w,k,1)) for 1D CNN "
-        forcnn = []
-        self.all_subgraph = []
-        f = self.select_node_sequence()
-        for graph in f:
-            frelabel = nx.relabel_nodes(graph,
-                                        nx.get_node_attributes(graph, 'labeling'))  # rename the nodes wrt the labeling
-            self.all_subgraph.append(frelabel)
+        return self.nauty_graph_automorphism(full_ranked_graph)
 
-            forcnn.append(
-                [x[1] for x in sorted(nx.get_node_attributes(frelabel, 'attr_name').items(), key=lambda x: x[0])])
-        return forcnn
+    def labeling_function(self, graph):
+        """
+        Function that labels a graph w.r.t. labeling procedure input
 
-    def labeling_procedure(self, graph):
-        st = time.time()
-        if self.labeling_procedure_name == 'betweeness':
-            a = self.betweenness_centrality_labeling(graph)
-        end = time.time()
-        self.all_times['labeling_procedure'].append(end - st)
-        return a
+        :param graph: graph to be labeled
+        :return: labeled graph
+        """
 
-    def betweenness_centrality_labeling(self, graph, approx=None):
-        result = {}
-        labeled_graph = nx.Graph(graph)
-        if approx is None:
-            centrality = list(nx.betweenness_centrality(graph).items())
-            # counter = 0
-            # for iterator in range(0, len(centrality)):
-            #    centrality[iterator] = (centrality[iterator][0], counter)
-            #    counter += 1
-        else:
-            centrality = list(nx.betweenness_centrality(graph, k=approx).items())
+        if self.labeling_procedure_name == 'betweenness':
+            return betweenness_centrality(graph)
+        elif self.labeling_procedure_name == 'timestamps':
+            return node_timestamp(graph)
 
-        sorted_centrality = sorted(centrality, key=lambda n: n[1], reverse=True)
-        dict_ = {}
-        label = 0
+    def create_receptive_field(self, vertex):
+        """
+        Method that creates a receptive field from a given vertex
 
-        for t in sorted_centrality:
-            dict_[t[0]] = label
-            label += 1
+        :param vertex: start vertex
+        :return: receptive field of vertex
+        """
 
-        nx.set_node_attributes(labeled_graph, dict_, 'labeling')
+        graph = self.neighborhood_assembly(vertex)
 
-        ordered_nodes = list(zip(*sorted_centrality))[0]
+        normalized_graph = self.receptive_field_normalization(graph, vertex)
 
-        result['labeled_graph'] = labeled_graph
-        result['sorted_centrality'] = sorted_centrality
-        result['ordered_nodes'] = ordered_nodes
+        return normalized_graph
 
-        return result
+    def create_empty_receptive_field(self):
+        """
+        Method that creates a dummy receptive field for padding purposes
 
-    def node_timestapm_labeling(self,
-                                graph):
-        result = {}
-        labeled_graph = nx.Graph(graph)
+        :return: a receptive field of dummy nodes
+        """
 
-        centrality = list(nx.betweenness_centrality(graph).items())
-
-        counter = 0
-        for iterator in range(0, len(centrality)):
-            centrality[iterator] = (centrality[iterator][0], counter)
-            counter += 1
-
-        sorted_centrality = sorted(centrality, key=lambda n: n[1], reverse=False)
-        dict_ = {}
-        label = 0
-
-        for t in sorted_centrality:
-            dict_[t[0]] = label
-            label += 1
-
-        nx.set_node_attributes(labeled_graph, dict_, 'labeling')
-
-        ordered_nodes = list(zip(*sorted_centrality))[0]
-
-        result['labeled_graph'] = labeled_graph
-        result['sorted_centrality'] = sorted_centrality
-        result['ordered_nodes'] = ordered_nodes
-
-        return result
-
-    def wl_normalization(self, graph):
-
-        result = {}
-
-        labeled_graph = nx.Graph(graph)
-
-        relabel_dict_ = {}
-        graph_node_list = list(graph.nodes())
-        for i in range(len(graph_node_list)):
-            relabel_dict_[graph_node_list[i]] = i
-            i += 1
-
-        inv_relabel_dict_ = {v: k for k, v in relabel_dict_.items()}
-
-        graph_relabel = nx.relabel_nodes(graph, relabel_dict_)
-
-        label_lookup = {}
-        label_counter = 0
-
-        l_aux = list(nx.get_node_attributes(graph_relabel, 'attr_name').values())
-        labels = np.zeros(len(l_aux), dtype=np.int32)
-        adjency_list = list([list(x[1].keys()) for x in
-                             graph_relabel.adjacency()])  # adjency list à l'ancienne comme version 1.0 de networkx
-
-        for j in range(len(l_aux)):
-            if not (l_aux[j] in label_lookup):
-                label_lookup[l_aux[j]] = label_counter
-                labels[j] = label_counter
-                label_counter += 1
-            else:
-                labels[j] = label_lookup[l_aux[j]]
-            # labels are associated to a natural number
-            # starting with 0.
-
-        new_labels = copy.deepcopy(labels)
-
-        # create an empty lookup table
-        label_lookup = {}
-        label_counter = 0
-
-        for v in range(len(adjency_list)):
-            # form a multiset label of the node v of the i'th graph
-            # and convert it to a string
-
-            long_label = np.concatenate((np.array([labels[v]]), np.sort(labels[adjency_list[v]])))
-            long_label_string = str(long_label)
-            # if the multiset label has not yet occurred, add it to the
-            # lookup table and assign a number to it
-            if not (long_label_string in label_lookup):
-                label_lookup[long_label_string] = label_counter
-                new_labels[v] = label_counter
-                label_counter += 1
-            else:
-                new_labels[v] = label_lookup[long_label_string]
-        # fill the column for i'th graph in phi
-        labels = copy.deepcopy(new_labels)
-
-        dict_ = {inv_relabel_dict_[i]: labels[i] for i in range(len(labels))}
-
-        nx.set_node_attributes(labeled_graph, dict_, 'labeling')
-
-        result['labeled_graph'] = labeled_graph
-        result['ordered_nodes'] = [x[0] for x in sorted(dict_.items(), key=lambda x: x[1])]
-
-        return result
-
-    def select_node_sequence(self):
-        Vsort = self.dict_first_labeling['ordered_nodes']
-        f = []
-        i = 0
-        j = 1
-        while j <= self.w:
-            if i < len(Vsort):
-                f.append(self.receptiveField(Vsort[i]))
-            else:
-                f.append(self.zeroReceptiveField())
-            i += self.s
-            j += 1
-
-        return f
-
-    def zeroReceptiveField(self):
-        graph = nx.star_graph(self.k - 1)  # random graph peu importe sa tete
+        graph = nx.star_graph(self.rf_size - 1)
         nx.set_node_attributes(graph, self.dummy_value, 'attr_name')
-        nx.set_node_attributes(graph, {k: k for k, v in dict(graph.nodes()).items()}, 'labeling')
+        nx.set_node_attributes(graph, {element: element for element, v in dict(graph.nodes()).items()}, 'labeling')
 
         return graph
 
-    def receptiveField(self, vertex):
-        st = time.time()
-        subgraph = self.neighborhood_assembly(vertex)
-        ed = time.time()
-        self.all_times['neigh_assembly'].append(ed - st)
-        normalized_subgraph = self.normalize_graph(subgraph, vertex)
-        ed2 = time.time()
-        self.all_times['normalized_subgraph'].append(ed2 - ed)
+    def receptive_field_padding(self, normalized_graph):
+        """
+        Method that ensures uniformity across receptive fields when width or rf_size are too big
 
-        return normalized_subgraph
+        :param normalized_graph: rf_transformed graph to which we add dummy nodes
+        :return: uniformized graph
+        """
 
-    def neighborhood_assembly(self, vertex):
-        "Output a set of neighbours of the vertex"
-        N = {vertex}
-        L = {vertex}
-        while len(N) < self.k and len(L) > 0:
-            tmp = set()
-            for v in L:
-                tmp = tmp.union(set(self.nx_graph.neighbors(v)))
-            L = tmp - N
-            N = N.union(L)
-        return self.nx_graph.subgraph(list(N))
+        graph = nx.Graph(normalized_graph)
+        keys = [key for key, v in dict(normalized_graph.nodes()).items()]
+        labels = [value for key, value in dict(nx.get_node_attributes(normalized_graph, 'labeling')).items()]
 
-    def rank_label_wrt_dict(self, subgraph, label_dict, dict_to_respect):
+        # add extra dummy nodes as long as rf_size is not reached
+        #########################################################
+        counter = 1
+        while len(graph.nodes()) < self.rf_size:
+            graph.add_node(max(keys) + counter,
+                           attr_name=self.dummy_value,
+                           labeling=max(labels) + counter)
+            counter += 1
+        #########################################################
 
-        all_distinc_labels = list(set(label_dict.values()))
-        new_ordered_dict = label_dict
+        return graph
 
-        latest_biggest_label = 0
+    @staticmethod
+    def compute_graph_ranking(graph: nx.Graph,
+                              vertex: int,
+                              original_node_order: dict):
+        """
+        Method that relabels a graph w.r.t. nodes distances to given root
 
-        for label in all_distinc_labels:
+        :param graph: subgraph to rank
+        :param vertex: landmark vertex for the ranking
+        :param original_node_order: original ranking
+        :return: graph labeled by the new ranking
+        """
 
-            nodes_with_this_label = [x for x, y in subgraph.nodes(data=True) if y['labeling'] == label]
-
-            if len(nodes_with_this_label) >= 2:
-                inside_ordering = sorted(nodes_with_this_label, key=dict_to_respect.get)
-                inside_order_dict = dict(zip(inside_ordering, range(len(inside_ordering))))
-
-                for k, v in inside_order_dict.items():
-                    new_ordered_dict[k] = latest_biggest_label + 1 + inside_order_dict[k]
-
-                latest_biggest_label = latest_biggest_label + len(nodes_with_this_label)
-
-            else:
-                new_ordered_dict[nodes_with_this_label[0]] = latest_biggest_label + 1
-                latest_biggest_label = latest_biggest_label + 1
-
-        return new_ordered_dict
-
-    def compute_subgraph_ranking(self, subgraph, vertex, original_order_to_respect):
-
-        st = time.time()
-
-        labeled_graph = nx.Graph(subgraph)
-        ordered_subgraph_from_centrality = self.labeling_to_root(subgraph, vertex)
-
-        all_labels_in_subgraph_dict = nx.get_node_attributes(ordered_subgraph_from_centrality, 'labeling')
-
-        new_ordered_dict = self.rank_label_wrt_dict(ordered_subgraph_from_centrality, all_labels_in_subgraph_dict,
-                                                    original_order_to_respect)
-
-        nx.set_node_attributes(labeled_graph, new_ordered_dict, 'labeling')
-        ed = time.time()
-        self.all_times['compute_subgraph_ranking'].append(ed - st)
-        return labeled_graph
-
-    def canonicalizes(self, subgraph):
-
-        st = time.time()
-
-        # wl_subgraph_normalized=self.wl_normalization(subgraph)['labeled_graph']
-        # g_relabel=convert_node_labels_to_integers(wl_subgraph_normalized)
-
-        g_relabel = convert_node_labels_to_integers(subgraph)
-        labeled_graph = nx.Graph(g_relabel)
-
-        nauty_graph = Graph(len(g_relabel.nodes()), directed=False)
-        nauty_graph.set_adjacency_dict({n: list(nbrdict) for n, nbrdict in g_relabel.adjacency()})
-
-        labels_dict = nx.get_node_attributes(g_relabel, 'labeling')
-        canonical_labeling_dict = {k: canonical_labeling(nauty_graph)[k] for k in range(len(g_relabel.nodes()))}
-
-        new_ordered_dict = self.rank_label_wrt_dict(g_relabel, labels_dict, canonical_labeling_dict)
-
-        nx.set_node_attributes(labeled_graph, new_ordered_dict, 'labeling')
-
-        ed = time.time()
-        self.all_times['canonicalizes'].append(ed - st)
-
-        return labeled_graph
-
-    def normalize_graph(self, subgraph, vertex):
-
-        "U set of vertices. Return le receptive field du vertex (un graph normalisé)"
-        ranked_subgraph_by_labeling_procedure = self.labeling_procedure(subgraph)['labeled_graph']
-
-        original_order_to_respect = nx.get_node_attributes(ranked_subgraph_by_labeling_procedure, 'labeling')
-
-        subgraph_U = self.compute_subgraph_ranking(subgraph, vertex,
-                                                   original_order_to_respect)  # ordonne les noeuds w.r.t labeling procedure
-
-        if len(subgraph_U.nodes()) > self.k:
-
-            d = dict(nx.get_node_attributes(subgraph_U, 'labeling'))
-            k_first_nodes = sorted(d, key=d.get)[0:self.k]
-            subgraph_N = subgraph_U.subgraph(k_first_nodes)
-
-            ranked_subgraph_by_labeling_procedure = self.labeling_procedure(subgraph)['labeled_graph']
-            original_order_to_respect = nx.get_node_attributes(ranked_subgraph_by_labeling_procedure, 'labeling')
-            subgraph_ranked_N = self.compute_subgraph_ranking(subgraph_N, vertex, original_order_to_respect)
-
-        elif len(subgraph_U.nodes()) < self.k:
-            subgraph_ranked_N = self.add_dummy_nodes_at_the_end(subgraph_U)
-        else:
-            subgraph_ranked_N = subgraph_U
-
-        return self.canonicalizes(subgraph_ranked_N)
-
-    def add_dummy_nodes_at_the_end(self, nx_graph):
-
-        g = nx.Graph(nx_graph)
-        keys = [k for k, v in dict(nx_graph.nodes()).items()]
-        labels = [v for k, v in dict(nx.get_node_attributes(nx_graph, 'labeling')).items()]
-        j = 1
-        while len(g.nodes()) < self.k:
-            g.add_node(max(keys) + j, attr_name=self.dummy_value, labeling=max(labels) + j)
-            j += 1
-        return g
-
-    def labeling_to_root(self, graph, vertex):
         labeled_graph = nx.Graph(graph)
-        source_path_lengths = nx.single_source_dijkstra_path_length(graph, vertex)
-        nx.set_node_attributes(labeled_graph, source_path_lengths, 'labeling')
+        ordered_graph = compute_ranking_distance(graph, vertex)
+        labels = nx.get_node_attributes(ordered_graph, 'labeling')
+
+        new_order = relabel_graph(graph=ordered_graph,
+                                  original_labeling=labels,
+                                  new_labeling=original_node_order)
+
+        nx.set_node_attributes(labeled_graph, new_order, 'labeling')
 
         return labeled_graph
+
+    @staticmethod
+    def nauty_graph_automorphism(graph: nx.Graph):
+        """
+        Graph canonicalization funtion, meant to break timebreakers of the non-injective ranking function
+
+        :param graph: subgraph to be canonicalized
+        :return: canonicalized subgraph
+        """
+
+        # convert labels to integers to give nauty the node partitions required
+        graph_int_labeled = convert_node_labels_to_integers(graph)
+        canonicalized_graph = nx.Graph(graph_int_labeled)
+
+        # get canonicalized graph using nauty
+        nauty = Graph(len(graph_int_labeled.nodes()), directed=False)
+        nauty.set_adjacency_dict({node: list(nbr) for node, nbr in graph_int_labeled.adjacency()})
+
+        labels_dict = nx.get_node_attributes(graph_int_labeled, 'labeling')
+        canonical_labeling_order = {k: canonical_labeling(nauty)[k] for k in
+                                    range(len(graph_int_labeled.nodes()))}
+
+        canonical_order = relabel_graph(graph_int_labeled, labels_dict, canonical_labeling_order)
+        nx.set_node_attributes(canonicalized_graph, canonical_order, 'labeling')
+
+        return canonicalized_graph

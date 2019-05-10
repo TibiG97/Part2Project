@@ -3,12 +3,11 @@ import networkx as nx
 
 class Graph(object):
 
-    def __init__(self, oriented=False, label=None):
+    def __init__(self, oriented=False):
         if oriented:
             self.nx_graph = nx.DiGraph()
         else:
             self.nx_graph = nx.Graph()
-        self.label = label
 
     def nodes(self):
         """

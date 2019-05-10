@@ -12,13 +12,11 @@ from keras.optimizers import Adam
 from keras.regularizers import l2
 
 from ML_Module.neural_net import NeuralNetwork
-from ML_Module.patchy_san import ReceptiveFieldMaker
+from ML_Module.patchy_san import PatchySAN
 
-from constants import EMPTY_TIMES_DICT
 from constants import DUMMY
 from constants import ATTR_DIM
 
-from copy import copy
 import numpy as np
 
 
@@ -37,7 +35,7 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
                  learning_rate: float,
                  dropout_rate: float,
                  no_of_classes: int,
-                 labeling_procedure_name='betweeness',
+                 labeling_procedure_name='betweenness',
                  init_mode='he_normal',
                  verbose=2,
                  attr_dim=ATTR_DIM,
@@ -59,16 +57,15 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
         self.stride = stride
         self.rf_size = rf_size
         self.labeling_procedure_name = labeling_procedure_name
-
         self.attr_dim = attr_dim
         self.dummy_value = dummy_value
-
-        self.times = copy(EMPTY_TIMES_DICT)
 
         self.model = KerasClassifier(build_fn=self.__create_model,
                                      epochs=epochs,
                                      batch_size=batch_size,
-                                     verbose=verbose)
+                                     verbose=verbose,
+                                     validation_split=0.1,
+                                     shuffle=False)
 
         super(ConvolutionalNeuralNetwork, self).__init__(
             classifier=self.model,
@@ -153,20 +150,15 @@ class ConvolutionalNeuralNetwork(NeuralNetwork):
         train = list()
 
         for i in range(n):
-            receptive_field = ReceptiveFieldMaker(data_set[i].nx_graph,
-                                                  w=self.width,
-                                                  k=self.rf_size,
-                                                  s=self.stride,
-                                                  labeling_procedure_name=self.labeling_procedure_name,
-                                                  dummy_value=self.dummy_value)
-            for_cnn = receptive_field.make_()
-            train.append(np.array(for_cnn).flatten().reshape(self.rf_size * self.width, self.attr_dim))
+            receptive_field = PatchySAN(data_set[i].nx_graph,
+                                        width=self.width,
+                                        rf_size=self.rf_size,
+                                        stride=self.stride,
+                                        labeling_procedure_name=self.labeling_procedure_name,
+                                        dummy_value=self.dummy_value)
+            cnn_input = receptive_field.create_all_rfs()
+            train.append(np.array(cnn_input).flatten().reshape(self.rf_size * self.width, self.attr_dim))
 
         cnn_train_set = np.array(train)
 
         return cnn_train_set
-
-    def get_rf_times(self,
-                     receptive_field: ReceptiveFieldMaker):
-        for entry in self.times.keys():
-            self.times[entry].append(np.sum(receptive_field.all_times[entry]))

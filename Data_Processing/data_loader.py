@@ -23,14 +23,21 @@ class DataLoader:
     def load_log_files(dirs):
         """
         :param dirs: list of directories from where to load log files
-        :return: log_files dataset and labels for MLP
+        :return: log_files dataset and labels for MLP, also the list of all logs' names and paths
         """
 
         data_set = list()
         labels = list()
+        names = list()
+        paths = list()
 
         for iterator in range(0, len(dirs)):
-            for file in os.listdir(dirs[iterator]):
+            files = os.listdir(dirs[iterator])
+            names.append(files)
+            for index in range(len(files)):
+                paths.append(dirs[iterator])
+
+            for file in files:
                 log_file = open(dirs[iterator] + '/' + file, 'r')
 
                 feature_vector = list()  # feature vector for an entire log file
@@ -38,7 +45,7 @@ class DataLoader:
                 lines = log_file.readlines()
                 for line in lines:
                     line_vector = hashing_trick(text=line,
-                                                n=100,
+                                                n=100000,
                                                 hash_function=None,
                                                 filters='!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\n',
                                                 lower=True,
@@ -64,7 +71,9 @@ class DataLoader:
         scaler = MinMaxScaler()
         data_set = scaler.fit_transform(np.array(data_set))
 
-        return data_set, np.array(labels)
+        names = merge_splits(names)
+
+        return data_set, np.array(labels), names, paths
 
     @staticmethod
     def load_synthetic_data_set(name, target_model):

@@ -15,6 +15,8 @@ from shutil import rmtree
 
 import numpy as np
 
+import networkx as nx
+
 
 def get_directory():
     """
@@ -184,7 +186,7 @@ def create_ensamble(predictions1: np.array,
     :param labels: true labels corresponding to predictions
     :param meta_classifier: metaclassifier of stacking method
     :param no_of_folds: folds for outer CV of stacker
-    :return: average accuracy of stacked classifier
+    :return: resulyts of the stacked classifier
     """
 
     dataset = np.array([np.array([pred1, pred2]) for pred1, pred2 in zip(predictions1, predictions2)])
@@ -192,3 +194,123 @@ def create_ensamble(predictions1: np.array,
                                                                        clear_file=True)
 
     return lrg_acc, lrg_all_acc, lrg_pred, h
+
+
+def compute_ranking_distance(graph, vertex):
+    """
+    Function that computes all distances of nodes in a graph
+    from a given node using dijkstra's algorithm
+
+    :param graph: graph in which to compute distances
+    :param vertex: landmark node to which we compute distances
+    :return: graph labeled w.r.t. the computed distances
+    """
+
+    labeled_graph = nx.Graph(graph)
+    source_path_lengths = nx.single_source_dijkstra_path_length(graph, vertex)
+    nx.set_node_attributes(labeled_graph, source_path_lengths, 'labeling')
+
+    return labeled_graph
+
+
+def betweenness_centrality(graph: nx.Graph):
+    """
+    Function that labels a graph w.r.t. the values of betweenness centrality on each node
+
+    :param graph: graph to be labeled
+    :return: ordering dictionaries
+    """
+
+    labeling_procedure = {}
+    labeled_graph = nx.Graph(graph)
+
+    centrality = list(nx.betweenness_centrality(graph).items())
+    centrality = sorted(centrality, key=lambda n: n[1], reverse=True)
+
+    dictionary = {}
+    label = 0
+
+    for t in centrality:
+        dictionary[t[0]] = label
+        label += 1
+
+    nx.set_node_attributes(labeled_graph, dictionary, 'labeling')
+    ordered_nodes = list(zip(*centrality))[0]
+
+    labeling_procedure['labeled_graph'] = labeled_graph
+    labeling_procedure['sorted_centrality'] = centrality
+    labeling_procedure['ordered_nodes'] = ordered_nodes
+
+    return labeling_procedure
+
+
+def node_timestamp(graph: nx.Graph):
+    """
+    Function that labels a graph w.r.t. the values of nodes' timestamps
+    
+    :param graph: graph to be ordered 
+    :return: ordering dictionaries
+    """
+
+    labeling_procedure = {}
+    labeled_graph = nx.Graph(graph)
+    timestamps = list(nx.betweenness_centrality(graph).items())
+
+    counter = 0
+    for iterator in range(len(labeled_graph.nodes)):
+        timestamps[iterator] = (timestamps[iterator][0], counter)
+        counter += 1
+
+    timestamps = sorted(timestamps, key=lambda n: n[1], reverse=False)
+
+    dictionary = {}
+    label = 0
+
+    for t in timestamps:
+        dictionary[t[0]] = label
+        label += 1
+
+    nx.set_node_attributes(labeled_graph, dictionary, 'labeling')
+    ordered_nodes = list(zip(*timestamps))[0]
+
+    labeling_procedure['labeled_graph'] = labeled_graph
+    labeling_procedure['sorted_centrality'] = timestamps
+    labeling_procedure['ordered_nodes'] = ordered_nodes
+
+    return labeling_procedure
+
+
+def relabel_graph(graph: nx.Graph,
+                  original_labeling: dict,
+                  new_labeling: dict):
+    """
+    Method that relabels a graph given a new dictionary of labels
+
+    :param graph: graph to be relabeled
+    :param original_labeling: initial label dictionary
+    :param new_labeling: new label dictionary
+    :return: new order of the nodes in the relabeled graph
+    """
+
+    labels = list(set(original_labeling.values()))
+    new_order = original_labeling
+    max_label = 0
+
+    for label in labels:
+
+        nodes_of_label_label = [x for x, y in graph.nodes(data=True) if y['labeling'] == label]
+
+        if len(nodes_of_label_label) >= 2:
+            inside_ordering = sorted(nodes_of_label_label, key=new_labeling.get)
+            inside_order = dict(zip(inside_ordering, range(len(inside_ordering))))
+
+            for k, v in inside_order.items():
+                new_order[k] = max_label + 1 + inside_order[k]
+
+            max_label = max_label + len(nodes_of_label_label)
+
+        else:
+            new_order[nodes_of_label_label[0]] = max_label + 1
+            max_label = max_label + 1
+
+    return new_order

@@ -1,69 +1,64 @@
+Outer Fold #1
+
 Inner Fold #1
 
-{'micro_accuracy': 0.937, 'micro_precision': 0.937, 'micro_recall': 0.937, 'micro_f1_score': 0.937, 'micro_mcc': 0.924}
-{'macro_accuracy': 0.937, 'macro_precision': 0.935, 'macro_recall': 0.936, 'macro_f1_score': 0.936, 'macro_mcc': 0.923}
+{'micro_accuracy': 0.853, 'micro_precision': 0.853, 'micro_recall': 0.853, 'micro_f1_score': 0.853, 'micro_mcc': 0.824}
+{'macro_accuracy': 0.853, 'macro_precision': 0.849, 'macro_recall': 0.869, 'macro_f1_score': 0.853, 'macro_mcc': 0.828}
 
 
 Inner Fold #2
 
-{'micro_accuracy': 0.923, 'micro_precision': 0.923, 'micro_recall': 0.923, 'micro_f1_score': 0.923, 'micro_mcc': 0.908}
-{'macro_accuracy': 0.923, 'macro_precision': 0.921, 'macro_recall': 0.922, 'macro_f1_score': 0.92, 'macro_mcc': 0.906}
+{'micro_accuracy': 0.829, 'micro_precision': 0.829, 'micro_recall': 0.829, 'micro_f1_score': 0.829, 'micro_mcc': 0.795}
+{'macro_accuracy': 0.829, 'macro_precision': 0.83, 'macro_recall': 0.842, 'macro_f1_score': 0.831, 'macro_mcc': 0.801}
 
 
-Inner Fold #3
+[[209  11   3   6  11   5]
+ [  4 207   2  10   6  12]
+ [ 14   9 201   9  12  12]
+ [  5  21   4 196   7  15]
+ [  6  13   2   3 213  13]
+ [  5   9   2   4   3 236]]
 
-{'micro_accuracy': 0.93, 'micro_precision': 0.93, 'micro_recall': 0.93, 'micro_f1_score': 0.93, 'micro_mcc': 0.916}
-{'macro_accuracy': 0.93, 'macro_precision': 0.933, 'macro_recall': 0.928, 'macro_f1_score': 0.93, 'macro_mcc': 0.916}
+Average accuracy across 2 inner splits: 0.8413333333333334
 
-
-Inner Fold #4
-
-{'micro_accuracy': 0.923, 'micro_precision': 0.923, 'micro_recall': 0.923, 'micro_f1_score': 0.923, 'micro_mcc': 0.908}
-{'macro_accuracy': 0.923, 'macro_precision': 0.922, 'macro_recall': 0.921, 'macro_f1_score': 0.92, 'macro_mcc': 0.906}
-
-
-Inner Fold #5
-
-{'micro_accuracy': 0.933, 'micro_precision': 0.933, 'micro_recall': 0.933, 'micro_f1_score': 0.933, 'micro_mcc': 0.92}
-{'macro_accuracy': 0.933, 'macro_precision': 0.936, 'macro_recall': 0.936, 'macro_f1_score': 0.935, 'macro_mcc': 0.922}
+Best model on Outer Fold #1
+{'width': 15, 'stride': 1, 'rf_size': 6, 'batch_size': 64, 'epochs': 50, 'learning_rate': 0.001, 'dropout_rate': 0.3}
+{'micro_accuracy': 0.925, 'micro_precision': 0.925, 'micro_recall': 0.925, 'micro_f1_score': 0.925, 'micro_mcc': 0.91}
+{'macro_accuracy': 0.925, 'macro_precision': 0.927, 'macro_recall': 0.926, 'macro_f1_score': 0.925, 'macro_mcc': 0.911}
 
 
-Inner Fold #6
+Outer Fold #2
 
-{'micro_accuracy': 0.937, 'micro_precision': 0.937, 'micro_recall': 0.937, 'micro_f1_score': 0.937, 'micro_mcc': 0.924}
-{'macro_accuracy': 0.937, 'macro_precision': 0.936, 'macro_recall': 0.935, 'macro_f1_score': 0.935, 'macro_mcc': 0.923}
+Inner Fold #1
 
-
-Inner Fold #7
-
-{'micro_accuracy': 0.95, 'micro_precision': 0.95, 'micro_recall': 0.95, 'micro_f1_score': 0.95, 'micro_mcc': 0.94}
-{'macro_accuracy': 0.95, 'macro_precision': 0.95, 'macro_recall': 0.948, 'macro_f1_score': 0.949, 'macro_mcc': 0.939}
+{'micro_accuracy': 0.828, 'micro_precision': 0.828, 'micro_recall': 0.828, 'micro_f1_score': 0.828, 'micro_mcc': 0.794}
+{'macro_accuracy': 0.828, 'macro_precision': 0.829, 'macro_recall': 0.833, 'macro_f1_score': 0.827, 'macro_mcc': 0.796}
 
 
-Inner Fold #8
+Inner Fold #2
 
-{'micro_accuracy': 0.9, 'micro_precision': 0.9, 'micro_recall': 0.9, 'micro_f1_score': 0.9, 'micro_mcc': 0.88}
-{'macro_accuracy': 0.9, 'macro_precision': 0.893, 'macro_recall': 0.904, 'macro_f1_score': 0.895, 'macro_mcc': 0.878}
-
-
-Inner Fold #9
-
-{'micro_accuracy': 0.917, 'micro_precision': 0.917, 'micro_recall': 0.917, 'micro_f1_score': 0.917, 'micro_mcc': 0.9}
-{'macro_accuracy': 0.917, 'macro_precision': 0.917, 'macro_recall': 0.919, 'macro_f1_score': 0.917, 'macro_mcc': 0.901}
+{'micro_accuracy': 0.813, 'micro_precision': 0.813, 'micro_recall': 0.813, 'micro_f1_score': 0.813, 'micro_mcc': 0.776}
+{'macro_accuracy': 0.813, 'macro_precision': 0.811, 'macro_recall': 0.844, 'macro_f1_score': 0.818, 'macro_mcc': 0.788}
 
 
-Inner Fold #10
+[[202  25  11   6   7   4]
+ [  8 224   4  20   2   1]
+ [  7  15 187  14   9  11]
+ [  2  23   4 218   2   3]
+ [  7  21   7   9 199   7]
+ [  0  18   6   9   7 201]]
 
-{'micro_accuracy': 0.93, 'micro_precision': 0.93, 'micro_recall': 0.93, 'micro_f1_score': 0.93, 'micro_mcc': 0.916}
-{'macro_accuracy': 0.93, 'macro_precision': 0.931, 'macro_recall': 0.931, 'macro_f1_score': 0.93, 'macro_mcc': 0.917}
+Average accuracy across 2 inner splits: 0.8206666666666667
+
+Best model on Outer Fold #2
+{'width': 13, 'stride': 1, 'rf_size': 4, 'batch_size': 64, 'epochs': 100, 'learning_rate': 0.005, 'dropout_rate': 0.3}
+{'micro_accuracy': 0.873, 'micro_precision': 0.873, 'micro_recall': 0.873, 'micro_f1_score': 0.873, 'micro_mcc': 0.847}
+{'macro_accuracy': 0.873, 'macro_precision': 0.874, 'macro_recall': 0.872, 'macro_f1_score': 0.872, 'macro_mcc': 0.847}
 
 
-[[462   9  10   9   7   3]
- [  6 457   4  17   8   8]
- [ 10   8 464   7   4   7]
- [  6  18  12 457   3   4]
- [  6   5   5   6 473   5]
- [  2   7  11   4   5 471]]
-
-Average accuracy across 10 inner splits: 0.9279999999999999
-
+[[456   8  10  17   5   4]
+ [ 10 429   6  22  10  23]
+ [ 10   4 442  17  15  12]
+ [  3  15   8 462   6   6]
+ [ 17   7   8  16 438  14]
+ [  5   6   8   5   6 470]]

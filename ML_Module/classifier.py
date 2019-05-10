@@ -43,7 +43,7 @@ class Classifier(object):
             training_set = self.process_data(training_set)
 
         if self.name == 'CNN' or self.name == 'MLP':
-            es = EarlyStopping(monitor='loss', mode='min', patience=10)
+            es = EarlyStopping(monitor='val_loss', mode='min', patience=10)
             return self.classifier.fit(training_set, labels, callbacks=[es])
         else:
             self.classifier.fit(training_set, labels)
